@@ -1,0 +1,626 @@
+vbalink-173-4-mb/
+├── .git/
+├── ABOUT-NLS
+├── acinclude.m4
+├── aclocal.m4
+├── AUTHORS
+├── ChangeLog
+├── compile
+├── config.guess
+├── config.log
+├── config.rpath
+├── config.status
+├── config.sub
+├── configure
+├── configure.in
+├── COPYING
+├── depcomp
+├── INSTALL
+├── install-sh
+├── m4/
+│   ├── ChangeLog
+│   ├── codeset.m4
+│   ├── gettext.m4
+│   ├── glibc21.m4
+│   ├── iconv.m4
+│   ├── intdiv0.m4
+│   ├── intmax.m4
+│   ├── inttypes-pri.m4
+│   ├── inttypes.m4
+│   ├── inttypes_h.m4
+│   ├── isc-posix.m4
+│   ├── lcmessage.m4
+│   ├── lib-ld.m4
+│   ├── lib-link.m4
+│   ├── lib-prefix.m4
+│   ├── longdouble.m4
+│   ├── longlong.m4
+│   ├── Makefile
+│   ├── Makefile.am
+│   ├── Makefile.in
+│   ├── nls.m4
+│   ├── po.m4
+│   ├── printf-posix.m4
+│   ├── progtest.m4
+│   ├── signed.m4
+│   ├── size_max.m4
+│   ├── stdint_h.m4
+│   ├── uintmax_t.m4
+│   ├── ulonglong.m4
+│   ├── wchar_t.m4
+│   ├── wint_t.m4
+│   └── xsize.m4
+├── Makefile
+├── Makefile.am
+├── Makefile.in
+├── Makefile.unix
+├── missing
+├── mkinstalldirs
+├── NEWS
+├── po/
+│   ├── boldquot.sed
+│   ├── ChangeLog
+│   ├── en@boldquot.header
+│   ├── en@quot.header
+│   ├── fr.gmo
+│   ├── fr.po
+│   ├── insert-header.sin
+│   ├── Makefile.in
+│   ├── Makefile.in.in
+│   ├── Makevars
+│   ├── POTFILES.in
+│   ├── quot.sed
+│   ├── remove-potcdate.sin
+│   ├── Rules-quot
+│   ├── stamp-po
+│   └── vba-1.7.2.pot
+├── README
+├── README-win.txt
+├── rom.gba
+├── server/
+│   ├── main.cpp
+│   ├── vbalink.sln
+│   └── vbalink.vcproj
+├── src/
+│   ├── 2xSaI.cpp
+│   ├── admame.cpp
+│   ├── agbprint.cpp
+│   ├── agbprint.h
+│   ├── arm-new.h
+│   ├── armdis.cpp
+│   ├── armdis.h
+│   ├── AutoBuild.h
+│   ├── bilinear.cpp
+│   ├── bios.cpp
+│   ├── bios.h
+│   ├── Cheats.cpp
+│   ├── Cheats.h
+│   ├── CheatSearch.cpp
+│   ├── CheatSearch.h
+│   ├── EEprom.cpp
+│   ├── EEprom.h
+│   ├── elf.cpp
+│   ├── elf.h
+│   ├── expr-lex.cpp
+│   ├── expr.cpp
+│   ├── expr.cpp.h
+│   ├── expr.l
+│   ├── expr.y
+│   ├── exprNode.cpp
+│   ├── exprNode.h
+│   ├── Flash.cpp
+│   ├── Flash.h
+│   ├── gb/
+│   │   ├── .deps/
+│   │   │   ├── GB.Po
+│   │   │   ├── gbCheats.Po
+│   │   │   ├── gbDis.Po
+│   │   │   ├── gbGfx.Po
+│   │   │   ├── gbGlobals.Po
+│   │   │   ├── gbMemory.Po
+│   │   │   ├── gbPrinter.Po
+│   │   │   ├── gbSGB.Po
+│   │   │   └── gbSound.Po
+│   │   ├── GB.cpp
+│   │   ├── GB.h
+│   │   ├── gbCheats.cpp
+│   │   ├── gbCheats.h
+│   │   ├── gbCodes.h
+│   │   ├── gbCodesCB.h
+│   │   ├── gbDis.cpp
+│   │   ├── gbGfx.cpp
+│   │   ├── gbGlobals.cpp
+│   │   ├── gbGlobals.h
+│   │   ├── gbMemory.cpp
+│   │   ├── gbMemory.h
+│   │   ├── gbPrinter.cpp
+│   │   ├── gbPrinter.h
+│   │   ├── gbSGB.cpp
+│   │   ├── gbSGB.h
+│   │   ├── gbSound.cpp
+│   │   ├── gbSound.h
+│   │   ├── Makefile
+│   │   ├── Makefile.am
+│   │   └── Makefile.in
+│   ├── GBA.cpp
+│   ├── GBA.h
+│   ├── GBAinline.h
+│   ├── getopt.c
+│   ├── getopt.h
+│   ├── getopt1.c
+│   ├── Gfx.cpp
+│   ├── Gfx.h
+│   ├── Globals.cpp
+│   ├── Globals.h
+│   ├── gtk/
+│   │   ├── .deps/
+│   │   │   ├── gvba-configfile.Po
+│   │   │   ├── gvba-filters.Po
+│   │   │   ├── gvba-input.Po
+│   │   │   ├── gvba-joypadconfig.Po
+│   │   │   ├── gvba-main.Po
+│   │   │   ├── gvba-screenarea.Po
+│   │   │   ├── gvba-system.Po
+│   │   │   ├── gvba-tools.Po
+│   │   │   ├── gvba-window.Po
+│   │   │   ├── gvba-windowcallbacks.Po
+│   │   │   ├── libgba_a-2xSaI.Po
+│   │   │   ├── libgba_a-admame.Po
+│   │   │   ├── libgba_a-agbprint.Po
+│   │   │   ├── libgba_a-armdis.Po
+│   │   │   ├── libgba_a-bilinear.Po
+│   │   │   ├── libgba_a-bios.Po
+│   │   │   ├── libgba_a-Cheats.Po
+│   │   │   ├── libgba_a-EEprom.Po
+│   │   │   ├── libgba_a-elf.Po
+│   │   │   ├── libgba_a-Flash.Po
+│   │   │   ├── libgba_a-GBA.Po
+│   │   │   ├── libgba_a-getopt.Po
+│   │   │   ├── libgba_a-getopt1.Po
+│   │   │   ├── libgba_a-Gfx.Po
+│   │   │   ├── libgba_a-Globals.Po
+│   │   │   ├── libgba_a-hq2x.Po
+│   │   │   ├── libgba_a-interframe.Po
+│   │   │   ├── libgba_a-memgzio.Po
+│   │   │   ├── libgba_a-Mode0.Po
+│   │   │   ├── libgba_a-Mode1.Po
+│   │   │   ├── libgba_a-Mode2.Po
+│   │   │   ├── libgba_a-Mode3.Po
+│   │   │   ├── libgba_a-Mode4.Po
+│   │   │   ├── libgba_a-Mode5.Po
+│   │   │   ├── libgba_a-motionblur.Po
+│   │   │   ├── libgba_a-pixel.Po
+│   │   │   ├── libgba_a-remote.Po
+│   │   │   ├── libgba_a-RTC.Po
+│   │   │   ├── libgba_a-scanline.Po
+│   │   │   ├── libgba_a-simple2x.Po
+│   │   │   ├── libgba_a-Sound.Po
+│   │   │   ├── libgba_a-Sram.Po
+│   │   │   ├── libgba_a-Text.Po
+│   │   │   ├── libgba_a-unzip.Po
+│   │   │   └── libgba_a-Util.Po
+│   │   ├── configfile.cpp
+│   │   ├── configfile.h
+│   │   ├── filters.cpp
+│   │   ├── filters.h
+│   │   ├── images/
+│   │   │   ├── Makefile
+│   │   │   ├── Makefile.am
+│   │   │   ├── Makefile.in
+│   │   │   ├── stock-vba-wm-16.png
+│   │   │   ├── stock-vba-wm-32.png
+│   │   │   ├── stock-vba-wm-48.png
+│   │   │   ├── stock-vba-wm-64.png
+│   │   │   └── vba-64.png
+│   │   ├── input.cpp
+│   │   ├── input.h
+│   │   ├── intl.h
+│   │   ├── joypadconfig.cpp
+│   │   ├── joypadconfig.h
+│   │   ├── main.cpp
+│   │   ├── Makefile
+│   │   ├── Makefile.am
+│   │   ├── Makefile.in
+│   │   ├── menuitem.h
+│   │   ├── screenarea.cpp
+│   │   ├── screenarea.h
+│   │   ├── sigccompat.h
+│   │   ├── system.cpp
+│   │   ├── tools.cpp
+│   │   ├── tools.h
+│   │   ├── vba.glade
+│   │   ├── window.cpp
+│   │   ├── window.h
+│   │   └── windowcallbacks.cpp
+│   ├── hq2x.cpp
+│   ├── hq2x.h
+│   ├── i386/
+│   │   ├── 2xSaImmx.asm
+│   │   ├── Makefile
+│   │   ├── Makefile.am
+│   │   └── Makefile.in
+│   ├── interframe.cpp
+│   ├── interp.h
+│   ├── Link.cpp
+│   ├── Link.h
+│   ├── linkCQueue.cpp
+│   ├── LinkQueue.cpp
+│   ├── lq2x.h
+│   ├── Makefile
+│   ├── Makefile.am
+│   ├── Makefile.in
+│   ├── memgzio.c
+│   ├── memgzio.h
+│   ├── Mode0.cpp
+│   ├── Mode1.cpp
+│   ├── Mode2.cpp
+│   ├── Mode3.cpp
+│   ├── Mode4.cpp
+│   ├── Mode5.cpp
+│   ├── motionblur.cpp
+│   ├── NLS.h
+│   ├── pixel.cpp
+│   ├── Port.h
+│   ├── prof/
+│   │   ├── .deps/
+│   │   │   └── prof.Po
+│   │   ├── gmon.h
+│   │   ├── gmon_out.h
+│   │   ├── Makefile
+│   │   ├── Makefile.am
+│   │   ├── Makefile.in
+│   │   ├── prof.cpp
+│   │   └── prof.h
+│   ├── RegTrace.cpp
+│   ├── RegTrace.h
+│   ├── remote.cpp
+│   ├── RTC.cpp
+│   ├── RTC.h
+│   ├── scanline.cpp
+│   ├── sdl/
+│   │   ├── .deps/
+│   │   │   ├── 2xSaI.Po
+│   │   │   ├── admame.Po
+│   │   │   ├── agbprint.Po
+│   │   │   ├── armdis.Po
+│   │   │   ├── bilinear.Po
+│   │   │   ├── bios.Po
+│   │   │   ├── Cheats.Po
+│   │   │   ├── debugger.Po
+│   │   │   ├── EEprom.Po
+│   │   │   ├── elf.Po
+│   │   │   ├── expr-lex.Po
+│   │   │   ├── expr.Po
+│   │   │   ├── exprNode.Po
+│   │   │   ├── Flash.Po
+│   │   │   ├── GBA.Po
+│   │   │   ├── getopt.Po
+│   │   │   ├── getopt1.Po
+│   │   │   ├── Gfx.Po
+│   │   │   ├── Globals.Po
+│   │   │   ├── hq2x.Po
+│   │   │   ├── interframe.Po
+│   │   │   ├── memgzio.Po
+│   │   │   ├── Mode0.Po
+│   │   │   ├── Mode1.Po
+│   │   │   ├── Mode2.Po
+│   │   │   ├── Mode3.Po
+│   │   │   ├── Mode4.Po
+│   │   │   ├── Mode5.Po
+│   │   │   ├── motionblur.Po
+│   │   │   ├── pixel.Po
+│   │   │   ├── remote.Po
+│   │   │   ├── RTC.Po
+│   │   │   ├── scanline.Po
+│   │   │   ├── SDL.Po
+│   │   │   ├── simple2x.Po
+│   │   │   ├── Sound.Po
+│   │   │   ├── Sram.Po
+│   │   │   ├── TestEmu.Po
+│   │   │   ├── Text.Po
+│   │   │   ├── unzip.Po
+│   │   │   └── Util.Po
+│   │   ├── debugger.cpp
+│   │   ├── debugger.h
+│   │   ├── Makefile
+│   │   ├── Makefile.am
+│   │   ├── Makefile.in
+│   │   ├── SDL.cpp
+│   │   ├── TestEmu
+│   │   ├── TestEmu.cpp
+│   │   └── VisualBoyAdvance
+│   ├── simple2x.cpp
+│   ├── Sound.cpp
+│   ├── Sound.h
+│   ├── Sram.cpp
+│   ├── Sram.h
+│   ├── System.h
+│   ├── Text.cpp
+│   ├── Text.h
+│   ├── thumb.h
+│   ├── unzip.cpp
+│   ├── unzip.h
+│   ├── Util.cpp
+│   ├── Util.h
+│   ├── VisualBoyAdvance.cfg
+│   └── win32/
+│       ├── AboutDialog.cpp
+│       ├── AboutDialog.h
+│       ├── AccelEditor.cpp
+│       ├── AccelEditor.h
+│       ├── AcceleratorManager.cpp
+│       ├── AcceleratorManager.h
+│       ├── Associate.cpp
+│       ├── Associate.h
+│       ├── AVIWrite.cpp
+│       ├── AVIWrite.h
+│       ├── BitmapControl.cpp
+│       ├── BitmapControl.h
+│       ├── BugReport.cpp
+│       ├── BugReport.h
+│       ├── CmdAccelOb.cpp
+│       ├── CmdAccelOb.h
+│       ├── ColorButton.cpp
+│       ├── ColorButton.h
+│       ├── ColorControl.cpp
+│       ├── ColorControl.h
+│       ├── Commands.cpp
+│       ├── Direct3D.cpp
+│       ├── DirectDraw.cpp
+│       ├── DirectInput.cpp
+│       ├── Directories.cpp
+│       ├── Directories.h
+│       ├── DirectSound.cpp
+│       ├── Disassemble.cpp
+│       ├── Disassemble.h
+│       ├── Display.h
+│       ├── ExportGSASnapshot.cpp
+│       ├── ExportGSASnapshot.h
+│       ├── FileDlg.cpp
+│       ├── FileDlg.h
+│       ├── GBACheats.cpp
+│       ├── GBACheats.h
+│       ├── gbadvance.ico
+│       ├── GBCheatsDlg.cpp
+│       ├── GBCheatsDlg.h
+│       ├── GBColorDlg.cpp
+│       ├── GBColorDlg.h
+│       ├── GBDisassemble.cpp
+│       ├── GBDisassemble.h
+│       ├── GBMapView.cpp
+│       ├── GBMapView.h
+│       ├── GBMemoryViewerDlg.cpp
+│       ├── GBMemoryViewerDlg.h
+│       ├── GBOamView.cpp
+│       ├── GBOamView.h
+│       ├── GBPaletteView.cpp
+│       ├── GBPaletteView.h
+│       ├── GBPrinterDlg.cpp
+│       ├── GBPrinterDlg.h
+│       ├── GBTileView.cpp
+│       ├── GBTileView.h
+│       ├── GDBConnection.cpp
+│       ├── GDBConnection.h
+│       ├── GDIDisplay.cpp
+│       ├── GSACodeSelect.cpp
+│       ├── GSACodeSelect.h
+│       ├── Hyperlink.cpp
+│       ├── Hyperlink.h
+│       ├── Input.h
+│       ├── IOViewer.cpp
+│       ├── IOViewer.h
+│       ├── IOViewerRegs.h
+│       ├── IUpdate.h
+│       ├── Joypad.cpp
+│       ├── Joypad.h
+│       ├── KeyboardEdit.cpp
+│       ├── KeyboardEdit.h
+│       ├── LangSelect.cpp
+│       ├── LangSelect.h
+│       ├── LinkMenu.cpp
+│       ├── LinkMenu.h
+│       ├── LinkOptions.cpp
+│       ├── LinkOptions.h
+│       ├── Logging.cpp
+│       ├── Logging.h
+│       ├── MainWnd.cpp
+│       ├── MainWnd.h
+│       ├── MainWndCheats.cpp
+│       ├── MainWndFile.cpp
+│       ├── MainWndHelp.cpp
+│       ├── MainWndOptions.cpp
+│       ├── MainWndTools.cpp
+│       ├── MapView.cpp
+│       ├── MapView.h
+│       ├── MaxScale.cpp
+│       ├── MaxScale.h
+│       ├── MemoryViewer.cpp
+│       ├── MemoryViewer.h
+│       ├── MemoryViewerAddressSize.cpp
+│       ├── MemoryViewerAddressSize.h
+│       ├── MemoryViewerDlg.cpp
+│       ├── MemoryViewerDlg.h
+│       ├── ModeConfirm.cpp
+│       ├── ModeConfirm.h
+│       ├── OamView.cpp
+│       ├── OamView.h
+│       ├── OpenGL.cpp
+│       ├── PaletteView.cpp
+│       ├── PaletteView.h
+│       ├── PaletteViewControl.cpp
+│       ├── PaletteViewControl.h
+│       ├── Reg.cpp
+│       ├── Reg.h
+│       ├── ResizeDlg.cpp
+│       ├── ResizeDlg.h
+│       ├── resource.h
+│       ├── RewindInterval.cpp
+│       ├── RewindInterval.h
+│       ├── RomInfo.cpp
+│       ├── RomInfo.h
+│       ├── rpc.cpp
+│       ├── skin.cpp
+│       ├── skin.h
+│       ├── skinButton.cpp
+│       ├── skinButton.h
+│       ├── Sound.h
+│       ├── stdafx.cpp
+│       ├── stdafx.h
+│       ├── StringTokenizer.cpp
+│       ├── StringTokenizer.h
+│       ├── Throttle.cpp
+│       ├── Throttle.h
+│       ├── TileView.cpp
+│       ├── TileView.h
+│       ├── VBA.clw
+│       ├── VBA.cpp
+│       ├── VBA.h
+│       ├── VBA.rc
+│       ├── vba.rc2
+│       ├── VideoMode.cpp
+│       ├── VideoMode.h
+│       ├── VisualBoyAdvance.exe.manifest
+│       ├── WavWriter.cpp
+│       ├── WavWriter.h
+│       ├── WinHelper.h
+│       ├── WinResUtil.cpp
+│       ├── WinResUtil.h
+│       ├── ZoomControl.cpp
+│       └── ZoomControl.h
+├── VERSION
+└── win32/
+    ├── Debug/
+    │   ├── BuildLog.htm
+    │   ├── reg-trace-summary.log
+    │   ├── reg-trace.log
+    │   ├── VBA.res
+    │   ├── vba1.ini
+    │   ├── vba2.ini
+    │   ├── vba3.ini
+    │   ├── vba4.ini
+    │   ├── vbalog1.txt
+    │   ├── vbalog2.txt
+    │   ├── vbalog3.txt
+    │   ├── vbalog4.txt
+    │   ├── vc70.idb
+    │   ├── vc70.pdb
+    │   ├── VisualBoyAdvance.exe
+    │   ├── VisualBoyAdvance.exp
+    │   ├── VisualBoyAdvance.lib
+    │   ├── VisualBoyAdvance.map
+    │   └── VisualBoyAdvance.pdb
+    ├── GBA.dsp
+    ├── GBA.dsw
+    ├── gba.ncb
+    ├── gba.sln
+    ├── gba.suo
+    ├── GBA.vcproj
+    ├── gba_sdl.dsp
+    ├── gba_sdl.dsw
+    ├── gba_sdl.ncb
+    ├── gba_sdl.sln
+    ├── gba_sdl.suo
+    ├── gba_sdl.vcproj
+    ├── include/
+    │   ├── cximage/
+    │   │   ├── xfile.h
+    │   │   ├── ximabmp.h
+    │   │   ├── ximadefs.h
+    │   │   ├── ximage.h
+    │   │   ├── ximagif.h
+    │   │   ├── ximaico.h
+    │   │   ├── ximaiter.h
+    │   │   ├── ximaj2k.h
+    │   │   ├── ximajas.h
+    │   │   ├── ximajbg.h
+    │   │   ├── ximajpg.h
+    │   │   ├── ximamng.h
+    │   │   ├── ximapcx.h
+    │   │   ├── ximapng.h
+    │   │   ├── ximatga.h
+    │   │   ├── ximatif.h
+    │   │   ├── ximawbmp.h
+    │   │   ├── ximawmf.h
+    │   │   ├── xiofile.h
+    │   │   └── xmemfile.h
+    │   ├── png/
+    │   │   ├── png.h
+    │   │   ├── pngasmrd.h
+    │   │   └── pngconf.h
+    │   └── zlib/
+    │       ├── zconf.h
+    │       ├── zlib.h
+    │       └── zutil.h
+    ├── lib/
+    │   └── win32/
+    │       ├── CxImage.lib
+    │       ├── jpeg.lib
+    │       ├── libpng.lib
+    │       ├── libpngMD.lib
+    │       ├── zlib.lib
+    │       └── zlibMD.lib
+    ├── Makefile
+    ├── Makefile.am
+    ├── Makefile.in
+    ├── reg-trace-summary.log
+    ├── reg-trace.log
+    ├── Release/
+    │   ├── 0071 - Mario Kart Advance.gba
+    │   ├── 1060 - Advance Wars 2 - Black Hole Rising.gba
+    │   ├── BuildLog.htm
+    │   ├── reg-trace-summary.log
+    │   ├── reg-trace.log
+    │   ├── rom.gba
+    │   ├── VBA.res
+    │   ├── vba1.ini
+    │   ├── vba2.ini
+    │   ├── vba3.ini
+    │   ├── vba4.ini
+    │   ├── vbalog1.txt
+    │   ├── vbalog2.txt
+    │   ├── vbalog3.txt
+    │   ├── vbalog4.txt
+    │   ├── vc70.idb
+    │   ├── vc70.pdb
+    │   ├── VisualBoyAdvance.exe
+    │   ├── VisualBoyAdvance.exp
+    │   ├── VisualBoyAdvance.lib
+    │   ├── VisualBoyAdvance.map
+    │   └── VisualBoyAdvance.pdb
+    ├── SDL-1.2.2/
+    │   ├── include/
+    │   │   ├── begin_code.h
+    │   │   ├── close_code.h
+    │   │   ├── SDL.h
+    │   │   ├── SDL_active.h
+    │   │   ├── SDL_audio.h
+    │   │   ├── SDL_byteorder.h
+    │   │   ├── SDL_cdrom.h
+    │   │   ├── SDL_copying.h
+    │   │   ├── SDL_endian.h
+    │   │   ├── SDL_error.h
+    │   │   ├── SDL_events.h
+    │   │   ├── SDL_getenv.h
+    │   │   ├── SDL_joystick.h
+    │   │   ├── SDL_keyboard.h
+    │   │   ├── SDL_keysym.h
+    │   │   ├── SDL_main.h
+    │   │   ├── SDL_mouse.h
+    │   │   ├── SDL_mutex.h
+    │   │   ├── SDL_quit.h
+    │   │   ├── SDL_rwops.h
+    │   │   ├── SDL_syswm.h
+    │   │   ├── SDL_thread.h
+    │   │   ├── SDL_timer.h
+    │   │   ├── SDL_types.h
+    │   │   ├── SDL_version.h
+    │   │   └── SDL_video.h
+    │   └── lib/
+    │       ├── SDL.dll
+    │       ├── SDL.lib
+    │       └── SDLmain.lib
+    ├── SDLDebug/
+    │   └── BuildLog.htm
+    ├── vbalog1.txt
+    ├── vbalog2.txt
+    └── vbalog4.txt

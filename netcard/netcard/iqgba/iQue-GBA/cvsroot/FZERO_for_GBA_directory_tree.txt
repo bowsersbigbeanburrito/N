@@ -1,0 +1,3392 @@
+FZERO_for_GBA/
+├── .git/
+├── agblib/
+│   ├── doc/
+│   │   ├── animfunc.txt
+│   │   ├── file_role.txt
+│   │   ├── flow.txt
+│   │   ├── mathfunc.txt
+│   │   ├── oamfunc.txt
+│   │   ├── sysfunc.txt
+│   │   └── utlfunc.txt
+│   ├── minc/
+│   │   ├── anch.h
+│   │   ├── cimage.h
+│   │   ├── controller.h
+│   │   ├── controller.h!
+│   │   ├── controller.h!.bak
+│   │   ├── datatrans.h
+│   │   ├── heap_alloc.h
+│   │   ├── image.h
+│   │   ├── intr.h
+│   │   ├── intr.h!
+│   │   ├── mbg.h
+│   │   ├── mmath.h
+│   │   ├── mmathex.h
+│   │   ├── moam.h
+│   │   ├── mobj.h
+│   │   ├── msys.h
+│   │   ├── numlist.h
+│   │   ├── oamaff.h
+│   │   ├── oamattr.h
+│   │   ├── oamlist.h
+│   │   ├── oamlistnode.h
+│   │   ├── ramclear.h
+│   │   ├── ring_alloc.h
+│   │   ├── simage.h
+│   │   └── util.h
+│   ├── mlib/
+│   │   ├── libmimg.a
+│   │   ├── libmmath.a
+│   │   ├── libmmbg.a
+│   │   ├── libmoam.a
+│   │   ├── libmsys.a
+│   │   ├── libqmpr.a
+│   │   ├── librmath.a
+│   │   └── libutl.a
+│   ├── mlibsrc/
+│   │   ├── img/
+│   │   │   ├── anch.c
+│   │   │   ├── cimage.h
+│   │   │   ├── image.c
+│   │   │   ├── image.h
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── sanchdma.o
+│   │   │   ├── sanchdma.s
+│   │   │   └── simage.h
+│   │   ├── math/
+│   │   │   ├── a.out
+│   │   │   ├── c_version/
+│   │   │   │   ├── acmath.h
+│   │   │   │   ├── atan.cpp
+│   │   │   │   ├── c_version.dsp
+│   │   │   │   ├── c_version.dsw
+│   │   │   │   ├── c_version.ncb
+│   │   │   │   ├── c_version.opt
+│   │   │   │   ├── c_version.plg
+│   │   │   │   ├── Debug/
+│   │   │   │   │   ├── atan.obj
+│   │   │   │   │   ├── c_version.exe
+│   │   │   │   │   ├── c_version.ilk
+│   │   │   │   │   ├── c_version.pch
+│   │   │   │   │   ├── c_version.pdb
+│   │   │   │   │   ├── div.obj
+│   │   │   │   │   ├── main.obj
+│   │   │   │   │   ├── rsqrt.obj
+│   │   │   │   │   ├── sqrt.obj
+│   │   │   │   │   ├── vc60.idb
+│   │   │   │   │   └── vc60.pdb
+│   │   │   │   ├── div.cpp
+│   │   │   │   ├── main.cpp
+│   │   │   │   ├── rsqrt.cpp
+│   │   │   │   ├── sqrt.cpp
+│   │   │   │   └── srmath.s
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── mmath.h
+│   │   │   ├── mmathex.h
+│   │   │   ├── mmathMacro.s
+│   │   │   ├── saffmtx.o
+│   │   │   ├── saffmtx.s
+│   │   │   ├── saffmtxex.o
+│   │   │   ├── saffmtxex.s
+│   │   │   ├── satan.o
+│   │   │   ├── satan.s
+│   │   │   ├── sdiv.o
+│   │   │   ├── sdiv.s
+│   │   │   ├── sinverse.o
+│   │   │   ├── sinverse.s
+│   │   │   ├── ssqrt.o
+│   │   │   ├── ssqrt.s
+│   │   │   ├── strif.o
+│   │   │   ├── strif.s
+│   │   │   ├── svector.o
+│   │   │   ├── svector.s
+│   │   │   └── vector.o
+│   │   ├── oam/
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── Makefile.bak
+│   │   │   ├── moam.c
+│   │   │   ├── moam.c.bak
+│   │   │   ├── moam.h
+│   │   │   ├── moam.o
+│   │   │   ├── mobj.c
+│   │   │   ├── mobj.h
+│   │   │   ├── oamaff.h
+│   │   │   ├── oamaff.o
+│   │   │   ├── oamattr.h
+│   │   │   ├── oamlist.h
+│   │   │   ├── oamlistnode.h
+│   │   │   ├── oamlistnode.h.bak
+│   │   │   ├── oamlistnode.o
+│   │   │   ├── soamaff.o
+│   │   │   ├── soamaff.s
+│   │   │   ├── soamlist.o
+│   │   │   ├── soamlist.s
+│   │   │   ├── soamlistnode.o
+│   │   │   └── soamlistnode.s
+│   │   ├── scprn/
+│   │   │   ├── scprn_data.c
+│   │   │   └── scprn_data.h
+│   │   ├── sys/
+│   │   │   ├── backup/
+│   │   │   │   ├── intr.c
+│   │   │   │   └── intr.h
+│   │   │   ├── controller.c
+│   │   │   ├── controller.h
+│   │   │   ├── controller.o
+│   │   │   ├── crt0.s
+│   │   │   ├── crt0_old.s
+│   │   │   ├── crt0_reintr.s
+│   │   │   ├── crt0_reintr_old.s
+│   │   │   ├── intr.c
+│   │   │   ├── intr.h
+│   │   │   ├── intr.o
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── msys.h
+│   │   │   ├── ramclear.h
+│   │   │   ├── sramclear.o
+│   │   │   ├── sramclear.s
+│   │   │   ├── sysinit.c
+│   │   │   └── sysinit.o
+│   │   └── utl/
+│   │       ├── datatrans.c
+│   │       ├── datatrans.h
+│   │       ├── datatrans.o
+│   │       ├── heap_alloc.c
+│   │       ├── heap_alloc.h
+│   │       ├── heap_alloc.o
+│   │       ├── Makedepend
+│   │       ├── Makefile
+│   │       ├── ring_alloc.c
+│   │       ├── ring_alloc.h
+│   │       ├── ring_alloc.o
+│   │       ├── sdatatrans.o
+│   │       ├── sdatatrans.s
+│   │       ├── sring_alloc.o
+│   │       ├── sring_alloc.s
+│   │       ├── util.c
+│   │       ├── util.h
+│   │       └── util.o
+│   └── trash/
+│       ├── command/
+│       │   ├── bmp2cimg.exe
+│       │   ├── bmp2cimg.sh
+│       │   ├── pal2cimg.exe
+│       │   └── pal2cimg.sh
+│       ├── crt0.s
+│       ├── file_role.txt
+│       └── imgtest/
+│           ├── aaa.c
+│           ├── aaa.h
+│           ├── aaa.o
+│           ├── crt0.o
+│           ├── crt0.s
+│           ├── imgtest.bin
+│           ├── imgtest.elf
+│           ├── imgtest.map
+│           ├── main.c
+│           ├── main.o
+│           ├── Makedepend
+│           ├── Makefile
+│           ├── pal.c
+│           ├── pal.h
+│           ├── pal.o
+│           ├── sdt.c
+│           ├── sdt.h
+│           └── sdt.o
+├── bin/
+│   ├── act2agb.exe
+│   ├── agbcomp.exe
+│   ├── AGBLOAD.exe
+│   ├── agbparts.exe
+│   ├── bin2h.exe
+│   ├── BitmapConnect.exe
+│   ├── BitmapGrid.exe
+│   ├── bmp2agb.exe
+│   ├── bmp2bin.exe
+│   ├── bmp2cimg.exe
+│   ├── bmp2cimg.sh
+│   ├── bmp2isc.exe
+│   ├── bmp2map.exe
+│   ├── bmpconnect.exe
+│   ├── bmpgrid.exe
+│   ├── bmppofs.exe
+│   ├── bmpred.exe
+│   ├── bmpred.sh
+│   ├── champion_0002.bmp
+│   ├── f0decode.exe
+│   ├── F0Enkei2b.exe
+│   ├── fat2c.exe
+│   ├── IS_BMP変換ツール.txt
+│   ├── Isc2Bitmap.exe
+│   ├── isc2bmp.exe
+│   ├── macbg2c.exe
+│   ├── macbg2rmp.exe
+│   ├── mrgb.exe
+│   ├── mycar2c.exe
+│   ├── pal2cimg.exe
+│   ├── pal2cimg.sh
+│   ├── rle64ch.exe
+│   ├── rpt2c.exe
+│   ├── sgi2bmp.exe
+│   └── Thumbs.db
+├── fzero.doc
+├── include/
+│   ├── Agb.h
+│   ├── AgbDefine.h
+│   ├── AgbDefine.s
+│   ├── AgbDefineArm.s
+│   ├── AgbIr.h
+│   ├── AgbMacro.h
+│   ├── AgbMacro.s
+│   ├── AgbMacroArm.s
+│   ├── AgbMemoryMap.h
+│   ├── AgbMemoryMap.s
+│   ├── AgbMemoryMapArm.s
+│   ├── AgbMultiBoot.h
+│   ├── AgbSound.h
+│   ├── AgbSram.h
+│   ├── AgbSyscallDefine.s
+│   ├── AgbSyscallDefineArm.s
+│   ├── AgbSystemCall.h
+│   ├── AgbTypes.h
+│   ├── backup/
+│   │   ├── AgbDacs.h
+│   │   ├── AgbEeprom.h
+│   │   ├── AgbFlash.h
+│   │   ├── AgbSram.h
+│   │   └── AgbSramFast.h
+│   ├── dacs.h
+│   ├── eeprom.h
+│   ├── flash.h
+│   ├── IsAgbPrint.h
+│   ├── Isagbprn.h
+│   └── sram.h
+├── include.doc
+├── lcelib/
+│   ├── linux_sdk/
+│   │   ├── COPYING
+│   │   ├── include/
+│   │   │   ├── vng.h
+│   │   │   ├── vng_priv.h
+│   │   │   └── vng_types.h
+│   │   ├── lib/
+│   │   │   ├── libbsl.a
+│   │   │   ├── libvng.a
+│   │   │   └── libvnp.a
+│   │   └── README
+│   └── sc_sdk/
+│       ├── bin/
+│       │   ├── libvng.dll
+│       │   ├── mfc71d.dll
+│       │   ├── msvcp71d.dll
+│       │   ├── msvcr71d.dll
+│       │   ├── pthreadVC2.dll
+│       │   ├── reg-trace-summary.log
+│       │   ├── reg-trace.log
+│       │   ├── rom.gba
+│       │   ├── upnpLib.dll
+│       │   ├── vba-trace.log
+│       │   ├── vba.ini
+│       │   ├── vba1.ini
+│       │   ├── vba173.exe
+│       │   ├── vba2.ini
+│       │   ├── vba3.ini
+│       │   ├── vba4.ini
+│       │   ├── vbalink.exe
+│       │   ├── vbalink.ini
+│       │   ├── VisualBoyAdvance.exe
+│       │   ├── vnproxy.exe
+│       │   └── winsce.exe
+│       ├── COPYING
+│       ├── demos/
+│       │   └── pong/
+│       │       ├── pong.bin
+│       │       └── pong.elf
+│       ├── include/
+│       │   ├── gba/
+│       │   │   └── scrpc.h
+│       │   ├── lce.h
+│       │   ├── sc/
+│       │   │   └── rpc.h
+│       │   ├── types.h
+│       │   ├── vng.h
+│       │   ├── vng_priv.h
+│       │   └── vng_types.h
+│       ├── lib/
+│       │   ├── gba/
+│       │   │   ├── libios.a
+│       │   │   ├── liblce.a
+│       │   │   └── libvng.a
+│       │   ├── libbsl.lib
+│       │   ├── liblce.lib
+│       │   ├── libvna.lib
+│       │   ├── libvng.lib
+│       │   └── libvnp.lib
+│       └── README
+├── lib/
+│   ├── libagbbackup.a
+│   ├── libagbbackup_arm.alf
+│   ├── libagbir.a
+│   ├── libagbir_arm.alf
+│   ├── libagbsyscall.a
+│   ├── libagbsyscall_arm.alf
+│   ├── libisagbprn.a
+│   └── libisagbprn_arm.alf
+├── rasheen/
+│   ├── _7dot.txt
+│   ├── AgbGNUProDos.bat
+│   ├── error
+│   ├── f0_make.bat
+│   ├── ld.exe.core
+│   ├── ld.exe.stackdump
+│   ├── lib/
+│   │   ├── log/
+│   │   │   └── log.o
+│   │   ├── main/
+│   │   │   ├── commonbmp/
+│   │   │   │   ├── AgbGNUProDos.bat.lnk
+│   │   │   │   ├── alphabet.o
+│   │   │   │   ├── course_name.o
+│   │   │   │   ├── f10.o
+│   │   │   │   ├── f20.o
+│   │   │   │   ├── f30.o
+│   │   │   │   ├── fo_m.o
+│   │   │   │   ├── libcommonobjbmp.a
+│   │   │   │   ├── make.bat
+│   │   │   │   ├── suji16_16.o
+│   │   │   │   ├── suji8_16.o
+│   │   │   │   └── suji8_8.o
+│   │   │   ├── libcarbmp.a
+│   │   │   ├── libcommonobjbmp.a
+│   │   │   ├── librmath.a
+│   │   │   ├── mboot_car.o
+│   │   │   ├── p_main.o
+│   │   │   ├── p_main_ex.o
+│   │   │   ├── rmath.h
+│   │   │   └── string.txt
+│   │   ├── mboot/
+│   │   │   ├── client.o
+│   │   │   ├── libhaikeibmp_mbc/
+│   │   │   │   ├── 22enkei0c.o
+│   │   │   │   ├── 22enkei0f.o
+│   │   │   │   ├── 22enkei0n.o
+│   │   │   │   ├── 22enkei0p.o
+│   │   │   │   ├── zimen0_01_b.o
+│   │   │   │   ├── zimen0_01_m.o
+│   │   │   │   └── zimen0_01_p.o
+│   │   │   ├── libhaikeibmp_mbc.a
+│   │   │   ├── libmapbmp_mbc/
+│   │   │   │   ├── course_data.o
+│   │   │   │   └── pal.o
+│   │   │   └── libmapbmp_mbc.a
+│   │   ├── p0/
+│   │   │   ├── libcarimg64x32rl.a
+│   │   │   ├── libcarimg64x32rl2.a
+│   │   │   ├── libcarimg64x64xrl.a
+│   │   │   ├── libcarimg_64x16_test.a
+│   │   │   ├── libcarimg_test.a
+│   │   │   ├── libmenubmp.a
+│   │   │   ├── libtitle_logo/
+│   │   │   │   ├── libtitle_logo.a0
+│   │   │   │   ├── tro21_0000.o
+│   │   │   │   ├── tro21_0001.o
+│   │   │   │   ├── tro21_0002.o
+│   │   │   │   ├── tro21_2_0000.o
+│   │   │   │   ├── tro21_2_0002.o
+│   │   │   │   ├── tro22_0000.o
+│   │   │   │   ├── tro22_0001.o
+│   │   │   │   ├── tro22_0002.o
+│   │   │   │   ├── trs21_0000.o
+│   │   │   │   ├── trs21_0001.o
+│   │   │   │   └── trs21_0002.o
+│   │   │   ├── libtitle_logo.a
+│   │   │   ├── libtitle_logo.a0
+│   │   │   ├── p0.o
+│   │   │   ├── tro21_0000.o
+│   │   │   ├── tro21_0001.o
+│   │   │   ├── tro21_0002.o
+│   │   │   ├── tro21_2_0000.o
+│   │   │   ├── tro21_2_0002.o
+│   │   │   ├── tro22_0000.o
+│   │   │   ├── tro22_0001.o
+│   │   │   ├── tro22_0002.o
+│   │   │   ├── trs21_0000.o
+│   │   │   ├── trs21_0001.o
+│   │   │   └── trs21_0002.o
+│   │   ├── p1/
+│   │   │   ├── dmap.o
+│   │   │   ├── libp1haikeibmp.a
+│   │   │   ├── libp1mapbmp.a
+│   │   │   ├── libp1mapbmp_mbc.a
+│   │   │   ├── libp1objbmp.a
+│   │   │   ├── p1.o
+│   │   │   ├── p1_ex.o
+│   │   │   └── p1objbmp/
+│   │   │       ├── b_fire_bmp.o
+│   │   │       ├── baku.o
+│   │   │       ├── baku_ss2.o
+│   │   │       ├── baku_zan00.o
+│   │   │       ├── c01_map.o
+│   │   │       ├── c02_map.o
+│   │   │       ├── c03_map.o
+│   │   │       ├── c04_map.o
+│   │   │       ├── c05_map.o
+│   │   │       ├── c06_map.o
+│   │   │       ├── c07_map.o
+│   │   │       ├── c08_map.o
+│   │   │       ├── c09_map.o
+│   │   │       ├── c10_map.o
+│   │   │       ├── c11_map.o
+│   │   │       ├── c12_map.o
+│   │   │       ├── c13_map.o
+│   │   │       ├── c14_map.o
+│   │   │       ├── c15_map.o
+│   │   │       ├── c16_map.o
+│   │   │       ├── c17_map.o
+│   │   │       ├── c18_map.o
+│   │   │       ├── c19_map.o
+│   │   │       ├── c20_map.o
+│   │   │       ├── c21_map.o
+│   │   │       ├── c22_map.o
+│   │   │       ├── f10_b.o
+│   │   │       ├── f20_b.o
+│   │   │       ├── ki_00.o
+│   │   │       ├── ki_10.o
+│   │   │       ├── ki_20.o
+│   │   │       ├── ki_30.o
+│   │   │       ├── km00.o
+│   │   │       ├── libp1objbmp.a
+│   │   │       ├── make.bat
+│   │   │       ├── no1.o
+│   │   │       ├── no2.o
+│   │   │       ├── no3.o
+│   │   │       ├── no4.o
+│   │   │       ├── obj_set1.o
+│   │   │       ├── obj_set1.o1
+│   │   │       └── obj_set2.o
+│   │   ├── p2/
+│   │   │   └── p2.o
+│   │   ├── p3/
+│   │   │   └── p3.o
+│   │   ├── p4/
+│   │   │   ├── libkanji.a
+│   │   │   ├── libp4objbmp/
+│   │   │   │   ├── now_loading.o
+│   │   │   │   ├── p4obj_set1.o
+│   │   │   │   └── p4obj_set2.o
+│   │   │   ├── libp4objbmp.a
+│   │   │   └── p4.o
+│   │   ├── p5/
+│   │   │   └── p5.o
+│   │   ├── p6/
+│   │   │   └── p6.o
+│   │   ├── rsys/
+│   │   │   └── libmsys_new.a
+│   │   ├── sio/
+│   │   │   └── multi_sio.o
+│   │   ├── sound/
+│   │   │   ├── beam02.o
+│   │   │   ├── beam3.o
+│   │   │   ├── BGM_5THDIST_C2.o
+│   │   │   ├── BGM_ABDUCTION.o
+│   │   │   ├── BGM_BAMHIT_G3.o
+│   │   │   ├── BGM_BIGLEAD_B3.o
+│   │   │   ├── BGM_CHORG2_C4.o
+│   │   │   ├── BGM_D50ORG_D4.o
+│   │   │   ├── BGM_END_SEQ.o
+│   │   │   ├── BGM_END_SINECD_E4.o
+│   │   │   ├── BGM_END_STAR1.o
+│   │   │   ├── BGM_END_STAR2.o
+│   │   │   ├── BGM_END_TEST.o
+│   │   │   ├── BGM_ENDING_FLTCD2.o
+│   │   │   ├── BGM_FEEDBACKGT1_C3.o
+│   │   │   ├── BGM_FEEDBACKGT2_C3.o
+│   │   │   ├── BGM_FMEP_D4.o
+│   │   │   ├── BGM_FRETLESS_G1.o
+│   │   │   ├── BGM_GTHARM_D3.o
+│   │   │   ├── BGM_JAZZORG_G1.o
+│   │   │   ├── BGM_JP8PLS_C4.o
+│   │   │   ├── BGM_JUNGLE_BD.o
+│   │   │   ├── BGM_MGOCTBS_C4.o
+│   │   │   ├── BGM_MGOCTBS_C5.o
+│   │   │   ├── BGM_MODULARBS_F1.o
+│   │   │   ├── BGM_MOREDRIVE_E2.o
+│   │   │   ├── BGM_MOREDRIVE_E3.o
+│   │   │   ├── BGM_MOREDRIVE_E4c.o
+│   │   │   ├── BGM_MOREDRIVE_E5.o
+│   │   │   ├── BGM_OBSTRING_C51.o
+│   │   │   ├── BGM_OCTBRASS_C4.o
+│   │   │   ├── BGM_OCTBRASS_C5.o
+│   │   │   ├── BGM_OPENHARD_G4.o
+│   │   │   ├── BGM_ORCHEHIT_F3_7884.o
+│   │   │   ├── BGM_PBASS_E1.o
+│   │   │   ├── BGM_PICKSCRAPE.o
+│   │   │   ├── BGM_PLUSSAW_D4.o
+│   │   │   ├── BGM_POLYSYN_C3.o
+│   │   │   ├── BGM_POWERGT_C2.o
+│   │   │   ├── BGM_ROCKRHYTHM_A1.o
+│   │   │   ├── BGM_RUBBERBS_C1.o
+│   │   │   ├── BGM_SILENT_E5.o
+│   │   │   ├── BGM_SINE_G3.o
+│   │   │   ├── BGM_SINE_G5.o
+│   │   │   ├── BGM_SITAL_E5.o
+│   │   │   ├── BGM_SLAPBS_C1.o
+│   │   │   ├── BGM_SLAPBS_C2.o
+│   │   │   ├── BGM_SQUARE_F4.o
+│   │   │   ├── BGM_STRINGS_C3.o
+│   │   │   ├── BGM_STRINGS_C4.o
+│   │   │   ├── BGM_SYNTHVOX_C4.o
+│   │   │   ├── BGM_TB303BS_A0.o
+│   │   │   ├── bigban.o
+│   │   │   ├── bigclash.o
+│   │   │   ├── bigclash_l.o
+│   │   │   ├── bigclash_m.o
+│   │   │   ├── bigclash_s.o
+│   │   │   ├── blast02.o
+│   │   │   ├── blast3c.o
+│   │   │   ├── cansel.o
+│   │   │   ├── car_sel.o
+│   │   │   ├── carsol.o
+│   │   │   ├── collision_L.o
+│   │   │   ├── collision_M.o
+│   │   │   ├── collision_S.o
+│   │   │   ├── com_engin.o
+│   │   │   ├── comengin.o
+│   │   │   ├── crush05b.o
+│   │   │   ├── crush05new.o
+│   │   │   ├── dashplate.o
+│   │   │   ├── disgtd3b.o
+│   │   │   ├── DRUM_DANCE_BD.o
+│   │   │   ├── DRUM_DANCE_OHH.o
+│   │   │   ├── DRUM_DANCE_SD.o
+│   │   │   ├── DRUM_HIPHOP_BD.o
+│   │   │   ├── DRUM_HIPHOP_SD.o
+│   │   │   ├── DRUM_JAZZ_BD.o
+│   │   │   ├── DRUM_JAZZ_CHH.o
+│   │   │   ├── DRUM_JAZZ_OHH.o
+│   │   │   ├── DRUM_JAZZ_SD.o
+│   │   │   ├── DRUM_JUNGLE_CHH.o
+│   │   │   ├── DRUM_JUNGLE_CONGA_LOW.o
+│   │   │   ├── DRUM_JUNGLE_CONGA_MUTE.o
+│   │   │   ├── DRUM_JUNGLE_SD.o
+│   │   │   ├── DRUM_JUNGLE_SD2.o
+│   │   │   ├── DRUM_ORCHESTRA_SD.o
+│   │   │   ├── DRUM_TECHNO_BD.o
+│   │   │   ├── DRUM_TECHNO_CHA.o
+│   │   │   ├── DRUM_TECHNO_TOMH.o
+│   │   │   ├── DRUM_TR808_BD.o
+│   │   │   ├── DRUM_TR808_SD.o
+│   │   │   ├── DRUM_TR909_CHH.o
+│   │   │   ├── DRUM_TR909_CYM.o
+│   │   │   ├── DRUM_TR909_HAND.o
+│   │   │   ├── DRUM_TR909_OHH.o
+│   │   │   ├── DRUM_TR909_SD.o
+│   │   │   ├── DRUM_TR909_TOM.o
+│   │   │   ├── DRUM_TR909_WB.o
+│   │   │   ├── dush11.o
+│   │   │   ├── dush6.o
+│   │   │   ├── f0_00menu.o
+│   │   │   ├── f0_a2midare.o
+│   │   │   ├── f0_ab1death.o
+│   │   │   ├── f0_ab2drama.o
+│   │   │   ├── f0_ab2dramafull.o
+│   │   │   ├── f0_b5lead.o
+│   │   │   ├── f0_ENDING_13K.o
+│   │   │   ├── f0_race01.o
+│   │   │   ├── f0_race02.o
+│   │   │   ├── f0_race04.o
+│   │   │   ├── f0_race05.o
+│   │   │   ├── f0_race06.o
+│   │   │   ├── f0_race07.o
+│   │   │   ├── f0_race08.o
+│   │   │   ├── f0_result_ver1.o
+│   │   │   ├── f0_result_ver2.o
+│   │   │   ├── f0_title.o
+│   │   │   ├── finalrap.o
+│   │   │   ├── frlsf1.o
+│   │   │   ├── go.o
+│   │   │   ├── jban.o
+│   │   │   ├── jban_l.o
+│   │   │   ├── jban_m.o
+│   │   │   ├── jban_s.o
+│   │   │   ├── jirai.o
+│   │   │   ├── jpmiss.o
+│   │   │   ├── jpmiss2.o
+│   │   │   ├── jpsuc.o
+│   │   │   ├── jpwind.o
+│   │   │   ├── jpwindtrg.o
+│   │   │   ├── jride.o
+│   │   │   ├── jumpmiss2.o
+│   │   │   ├── jumpsuc.o
+│   │   │   ├── juni_irekae.o
+│   │   │   ├── juni_keikoku.o
+│   │   │   ├── kasoku3.o
+│   │   │   ├── kettei.o
+│   │   │   ├── m4aLib.h
+│   │   │   ├── m4aLib.o
+│   │   │   ├── mks4agb.ini
+│   │   │   ├── myengin1.o
+│   │   │   ├── myjetnew3.o
+│   │   │   ├── myrakka.o
+│   │   │   ├── myspark.o
+│   │   │   ├── obstrd4.o
+│   │   │   ├── overht.o
+│   │   │   ├── ovheat.o
+│   │   │   ├── passmiss.o
+│   │   │   ├── passsuc.o
+│   │   │   ├── pause.o
+│   │   │   ├── pickbsc1.o
+│   │   │   ├── pit01.o
+│   │   │   ├── pit1.o
+│   │   │   ├── pwbd.o
+│   │   │   ├── pwsd.o
+│   │   │   ├── pwtom.o
+│   │   │   ├── rakka.o
+│   │   │   ├── rap.o
+│   │   │   ├── ready.o
+│   │   │   ├── result.o
+│   │   │   ├── rim.o
+│   │   │   ├── rough.o
+│   │   │   ├── sawc4.o
+│   │   │   ├── sawc5.o
+│   │   │   ├── select.o
+│   │   │   ├── slapc1.o
+│   │   │   ├── snare.o
+│   │   │   ├── SoundDat.o
+│   │   │   ├── Soundfiles
+│   │   │   ├── SoundMon.elf
+│   │   │   ├── spark.o
+│   │   │   ├── stage2.o
+│   │   │   ├── stdush.o
+│   │   │   ├── stdushmiss.o
+│   │   │   ├── syototsu.o
+│   │   │   ├── title.o
+│   │   │   ├── title_jet.o
+│   │   │   ├── title_se.o
+│   │   │   ├── trpc4.o
+│   │   │   ├── turbo.o
+│   │   │   ├── turbo_keikoku.o
+│   │   │   ├── turbo_on.o
+│   │   │   ├── wall_L.o
+│   │   │   ├── wall_M.o
+│   │   │   ├── wall_S.o
+│   │   │   ├── wallclash_L.o
+│   │   │   ├── wallclash_M.o
+│   │   │   ├── wallclash_S.o
+│   │   │   ├── wind.o
+│   │   │   ├── windshort.o
+│   │   │   └── zoomin_new.o
+│   │   ├── sound_mb/
+│   │   │   ├── beam02.o
+│   │   │   ├── blast02.o
+│   │   │   ├── blast3c.o
+│   │   │   ├── cansel.o
+│   │   │   ├── carsol.o
+│   │   │   ├── com_engin.o
+│   │   │   ├── finalrap.o
+│   │   │   ├── go.o
+│   │   │   ├── jban_l.o
+│   │   │   ├── jpsuc.o
+│   │   │   ├── juni_irekae.o
+│   │   │   ├── juni_keikoku.o
+│   │   │   ├── kettei.o
+│   │   │   ├── m4aLib.h
+│   │   │   ├── m4aLib.o
+│   │   │   ├── mks4agb.ini
+│   │   │   ├── myengin1.o
+│   │   │   ├── myjetnew3.o
+│   │   │   ├── myspark.o
+│   │   │   ├── passmiss.o
+│   │   │   ├── passsuc.o
+│   │   │   ├── pause.o
+│   │   │   ├── pit01.o
+│   │   │   ├── rap.o
+│   │   │   ├── ready.o
+│   │   │   ├── rough.o
+│   │   │   ├── SoundDat.o
+│   │   │   ├── Soundfiles
+│   │   │   ├── SoundMon.elf
+│   │   │   ├── stdush.o
+│   │   │   ├── stdushmiss.o
+│   │   │   ├── turbo_keikoku.o
+│   │   │   ├── turbo_on.o
+│   │   │   └── wallclash_L.o
+│   │   └── sram/
+│   │       └── ras_sram.o
+│   ├── lnkscript
+│   ├── Makefile
+│   ├── Makefile.bak
+│   ├── mark.txt
+│   ├── new.imb
+│   ├── obj.acl
+│   ├── rasheen.bin.inst
+│   ├── rasheen.dbg
+│   ├── rasheen.elf.inst
+│   ├── rasheen.map
+│   ├── rasheen.prj
+│   ├── rasheen.sa1
+│   ├── rasheen.sa2
+│   ├── rasheen.sa3
+│   ├── rasheen.sav
+│   ├── rasheen_1.bin
+│   ├── record.sh
+│   ├── src/
+│   │   ├── Log/
+│   │   │   ├── HealthGameData.c
+│   │   │   ├── HealthGameData.c.bak
+│   │   │   ├── HealthGameData.h
+│   │   │   ├── HealthGameData.h.bak
+│   │   │   ├── HealthGameData.o
+│   │   │   ├── iquelogo.c
+│   │   │   ├── iquelogo.c.bak
+│   │   │   ├── iquelogo.h
+│   │   │   ├── iquelogo.o
+│   │   │   ├── main.c
+│   │   │   ├── main.h
+│   │   │   ├── Makedepend
+│   │   │   └── makefile
+│   │   ├── main/
+│   │   │   ├── a.out
+│   │   │   ├── arm-elf-ld.exe.stackdump
+│   │   │   ├── as.exe
+│   │   │   ├── carbmp.h
+│   │   │   ├── champ_ras.bin
+│   │   │   ├── champ_ras.o
+│   │   │   ├── commonobjbmp.h
+│   │   │   ├── crt0.s
+│   │   │   ├── crt0_reintr.o
+│   │   │   ├── crt0_reintr.s
+│   │   │   ├── crt0_reintr_n.s
+│   │   │   ├── crt0_reintr_v.s
+│   │   │   ├── demo00.bin
+│   │   │   ├── demo00.o
+│   │   │   ├── demo01.bin
+│   │   │   ├── demo01.o
+│   │   │   ├── demo02.bin
+│   │   │   ├── demo02.o
+│   │   │   ├── demo03.bin
+│   │   │   ├── demo03.o
+│   │   │   ├── f10_pal.c
+│   │   │   ├── f10_pal.h
+│   │   │   ├── f10_pal.o
+│   │   │   ├── font_width.c
+│   │   │   ├── font_width.o
+│   │   │   ├── fontprint.c
+│   │   │   ├── fontprint.c.bak
+│   │   │   ├── fontprint.h
+│   │   │   ├── fontprint.o
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── Makefile.bak
+│   │   │   ├── mboot_car.h
+│   │   │   ├── mycar_image.h
+│   │   │   ├── ras_codec.c
+│   │   │   ├── ras_codec.c.bak
+│   │   │   ├── ras_codec.h
+│   │   │   ├── ras_codec.o
+│   │   │   ├── ras_main.c
+│   │   │   ├── ras_main.c.bak
+│   │   │   ├── ras_main.h
+│   │   │   ├── ras_main.h.bak
+│   │   │   ├── ras_main.o
+│   │   │   ├── ras_main_ex.c
+│   │   │   ├── ras_main_ex.o
+│   │   │   ├── ras_main_ext.h
+│   │   │   ├── ras_main_sub.c
+│   │   │   ├── ras_main_sub.h
+│   │   │   ├── ras_main_sub.o
+│   │   │   ├── ras_scene_dat.c
+│   │   │   ├── ras_scene_dat.c.bak
+│   │   │   ├── ras_scene_dat.o
+│   │   │   ├── rdiv.c
+│   │   │   ├── rdiv.h
+│   │   │   ├── rdiv.o
+│   │   │   ├── rom_header.o
+│   │   │   ├── rom_header.s
+│   │   │   ├── sdt.c
+│   │   │   ├── sdt.h
+│   │   │   ├── sdt.o
+│   │   │   ├── smycar_image.o
+│   │   │   ├── smycar_image.s
+│   │   │   ├── smycar_image16.o
+│   │   │   ├── smycar_image16.s
+│   │   │   ├── ｷﾉﾎ・__fontprint.c
+│   │   │   └── ｷﾉﾎ・ｺﾋﾟｰ ～ ras_main_sub.c
+│   │   ├── o_c/
+│   │   │   ├── clloader.bin
+│   │   │   ├── clloader.elf
+│   │   │   ├── entry.bmp
+│   │   │   ├── entry.imb
+│   │   │   ├── entry.o
+│   │   │   ├── hot_violet_0000.bmp
+│   │   │   ├── load_prog.bin
+│   │   │   ├── loader.bin
+│   │   │   ├── loader.elf
+│   │   │   ├── loader_LZ.bin
+│   │   │   ├── make_client
+│   │   │   ├── p0_practice.c
+│   │   │   ├── start.o
+│   │   │   └── Thumbs.db
+│   │   ├── p0/
+│   │   │   ├── bgm.o
+│   │   │   ├── bmxh.o
+│   │   │   ├── cancel.o
+│   │   │   ├── car_img_64x32_rl.h
+│   │   │   ├── car_img_64x32_rl2.h
+│   │   │   ├── cong.o
+│   │   │   ├── diannao.o
+│   │   │   ├── entry.o
+│   │   │   ├── error
+│   │   │   ├── font.c
+│   │   │   ├── gameover.o
+│   │   │   ├── grand.o
+│   │   │   ├── grid_1.c
+│   │   │   ├── Hanzi.h
+│   │   │   ├── Hanzi.h.bak
+│   │   │   ├── jisu.o
+│   │   │   ├── kyoutai_1031_64c.c
+│   │   │   ├── logo.c
+│   │   │   ├── logo8.o
+│   │   │   ├── logo9.o
+│   │   │   ├── machine_data.bmp
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── Makefile.bak
+│   │   │   ├── menu_arc7/
+│   │   │   │   ├── _7dot_bestlap.bmp
+│   │   │   │   ├── _7dot_bestlap.imb
+│   │   │   │   ├── _7dot_bestlap.o
+│   │   │   │   ├── _7dot_bishop_0000.bmp
+│   │   │   │   ├── _7dot_bishop_0000.imb
+│   │   │   │   ├── _7dot_bishop_0000.o
+│   │   │   │   ├── _7dot_bishop_0001.bmp
+│   │   │   │   ├── _7dot_bishop_0001.imb
+│   │   │   │   ├── _7dot_bishop_0001.o
+│   │   │   │   ├── _7dot_bishop_0002.bmp
+│   │   │   │   ├── _7dot_bishop_0002.imb
+│   │   │   │   ├── _7dot_bishop_0002.o
+│   │   │   │   ├── _7dot_bishop_0003.bmp
+│   │   │   │   ├── _7dot_bishop_0003.imb
+│   │   │   │   ├── _7dot_bishop_0003.o
+│   │   │   │   ├── _7dot_bishop_0004.bmp
+│   │   │   │   ├── _7dot_bishop_0004.imb
+│   │   │   │   ├── _7dot_bishop_0004.o
+│   │   │   │   ├── _7dot_knight_0000.bmp
+│   │   │   │   ├── _7dot_knight_0000.imb
+│   │   │   │   ├── _7dot_knight_0000.o
+│   │   │   │   ├── _7dot_knight_0001.bmp
+│   │   │   │   ├── _7dot_knight_0001.imb
+│   │   │   │   ├── _7dot_knight_0001.o
+│   │   │   │   ├── _7dot_knight_0002.bmp
+│   │   │   │   ├── _7dot_knight_0002.imb
+│   │   │   │   ├── _7dot_knight_0002.o
+│   │   │   │   ├── _7dot_knight_0003.bmp
+│   │   │   │   ├── _7dot_knight_0003.imb
+│   │   │   │   ├── _7dot_knight_0003.o
+│   │   │   │   ├── _7dot_knight_0004.bmp
+│   │   │   │   ├── _7dot_knight_0004.imb
+│   │   │   │   ├── _7dot_knight_0004.o
+│   │   │   │   ├── _7dot_pawn_0000.bmp
+│   │   │   │   ├── _7dot_pawn_0000.imb
+│   │   │   │   ├── _7dot_pawn_0000.o
+│   │   │   │   ├── _7dot_pawn_0001.bmp
+│   │   │   │   ├── _7dot_pawn_0001.imb
+│   │   │   │   ├── _7dot_pawn_0001.o
+│   │   │   │   ├── _7dot_pawn_0002.bmp
+│   │   │   │   ├── _7dot_pawn_0002.imb
+│   │   │   │   ├── _7dot_pawn_0002.o
+│   │   │   │   ├── _7dot_pawn_0003.bmp
+│   │   │   │   ├── _7dot_pawn_0003.imb
+│   │   │   │   ├── _7dot_pawn_0003.o
+│   │   │   │   ├── _7dot_pawn_0004.bmp
+│   │   │   │   ├── _7dot_pawn_0004.imb
+│   │   │   │   ├── _7dot_pawn_0004.o
+│   │   │   │   ├── _7dot_pawn_0004_L.bmp
+│   │   │   │   ├── _7dot_pawn_0004_L.imb
+│   │   │   │   ├── _7dot_pawn_0004_L.o
+│   │   │   │   ├── _7dot_queen_0000.bmp
+│   │   │   │   ├── _7dot_queen_0000.imb
+│   │   │   │   ├── _7dot_queen_0000.o
+│   │   │   │   ├── _7dot_queen_0001.bmp
+│   │   │   │   ├── _7dot_queen_0001.imb
+│   │   │   │   ├── _7dot_queen_0001.o
+│   │   │   │   ├── _7dot_queen_0002.bmp
+│   │   │   │   ├── _7dot_queen_0002.imb
+│   │   │   │   ├── _7dot_queen_0002.o
+│   │   │   │   ├── _7dot_queen_0003.bmp
+│   │   │   │   ├── _7dot_queen_0003.imb
+│   │   │   │   ├── _7dot_queen_0003.o
+│   │   │   │   ├── _7dot_queen_0004.bmp
+│   │   │   │   ├── _7dot_queen_0004.imb
+│   │   │   │   ├── _7dot_queen_0004.o
+│   │   │   │   ├── _lap10.bmp
+│   │   │   │   ├── _lap10.imb
+│   │   │   │   ├── _lap10.o
+│   │   │   │   ├── bishop_area.bmp
+│   │   │   │   ├── bishop_area.imb
+│   │   │   │   ├── bishop_area.o
+│   │   │   │   ├── boost_lv.bmp
+│   │   │   │   ├── boost_lv.imb
+│   │   │   │   ├── boost_lv.o
+│   │   │   │   ├── bracket1.bmp
+│   │   │   │   ├── bracket1.imb
+│   │   │   │   ├── bracket1.o
+│   │   │   │   ├── bracket4col_ofs.bmp
+│   │   │   │   ├── bracket4col_ofs.imb
+│   │   │   │   ├── bracket4col_ofs.o
+│   │   │   │   ├── cancel_0000.bmp
+│   │   │   │   ├── cancel_0000.imb
+│   │   │   │   ├── cancel_0000.o
+│   │   │   │   ├── cancel_0001.bmp
+│   │   │   │   ├── cancel_0001.imb
+│   │   │   │   ├── cancel_0001.o
+│   │   │   │   ├── car_sel_cursor_L.bmp
+│   │   │   │   ├── car_sel_cursor_L.imb
+│   │   │   │   ├── car_sel_cursor_L.o
+│   │   │   │   ├── car_sel_cursor_R.bmp
+│   │   │   │   ├── car_sel_cursor_R.imb
+│   │   │   │   ├── car_sel_cursor_R.o
+│   │   │   │   ├── caret.bmp
+│   │   │   │   ├── caret.imb
+│   │   │   │   ├── caret.o
+│   │   │   │   ├── casette_0000.bmp
+│   │   │   │   ├── casette_0000.imb
+│   │   │   │   ├── casette_0000.o
+│   │   │   │   ├── casette_0001.bmp
+│   │   │   │   ├── casette_0001.imb
+│   │   │   │   ├── casette_0001.o
+│   │   │   │   ├── casette_0002.bmp
+│   │   │   │   ├── casette_0002.imb
+│   │   │   │   ├── casette_0002.o
+│   │   │   │   ├── casette_0003.bmp
+│   │   │   │   ├── casette_0003.imb
+│   │   │   │   ├── casette_0003.o
+│   │   │   │   ├── champ_0000.bmp
+│   │   │   │   ├── champ_0000.imb
+│   │   │   │   ├── champ_0000.o
+│   │   │   │   ├── champ_0001.bmp
+│   │   │   │   ├── champ_0001.imb
+│   │   │   │   ├── champ_0001.o
+│   │   │   │   ├── champ_0002.bmp
+│   │   │   │   ├── champ_0002.imb
+│   │   │   │   ├── champ_0002.o
+│   │   │   │   ├── champ_ghost.bmp
+│   │   │   │   ├── champ_ghost.imb
+│   │   │   │   ├── champ_ghost.o
+│   │   │   │   ├── champion_0000.bmp
+│   │   │   │   ├── champion_0000.imb
+│   │   │   │   ├── champion_0000.o
+│   │   │   │   ├── champion_0001.bmp
+│   │   │   │   ├── champion_0001.imb
+│   │   │   │   ├── champion_0001.o
+│   │   │   │   ├── champion_0002.bmp
+│   │   │   │   ├── champion_0002.imb
+│   │   │   │   ├── champion_0002.o
+│   │   │   │   ├── champion_0003.bmp
+│   │   │   │   ├── champion_0003.imb
+│   │   │   │   ├── champion_0003.o
+│   │   │   │   ├── champion_ofs_0000.bmp
+│   │   │   │   ├── champion_ofs_0000.imb
+│   │   │   │   ├── champion_ofs_0000.o
+│   │   │   │   ├── champion_ofs_0001.bmp
+│   │   │   │   ├── champion_ofs_0001.imb
+│   │   │   │   ├── champion_ofs_0001.o
+│   │   │   │   ├── champion_ofs_0002.bmp
+│   │   │   │   ├── champion_ofs_0002.imb
+│   │   │   │   ├── champion_ofs_0002.o
+│   │   │   │   ├── champion_ofs_0003.bmp
+│   │   │   │   ├── champion_ofs_0003.imb
+│   │   │   │   ├── champion_ofs_0003.o
+│   │   │   │   ├── class_sel_cursor_bottom.bmp
+│   │   │   │   ├── class_sel_cursor_bottom.imb
+│   │   │   │   ├── class_sel_cursor_bottom.o
+│   │   │   │   ├── class_sel_cursor_up.bmp
+│   │   │   │   ├── class_sel_cursor_up.imb
+│   │   │   │   ├── class_sel_cursor_up.o
+│   │   │   │   ├── clear_ofs_0000.bmp
+│   │   │   │   ├── clear_ofs_0000.imb
+│   │   │   │   ├── clear_ofs_0000.o
+│   │   │   │   ├── clear_ofs_0001.bmp
+│   │   │   │   ├── clear_ofs_0001.imb
+│   │   │   │   ├── clear_ofs_0001.o
+│   │   │   │   ├── clear_pwd.bmp
+│   │   │   │   ├── clear_pwd.imb
+│   │   │   │   ├── clear_pwd.o
+│   │   │   │   ├── com.bmp
+│   │   │   │   ├── com.imb
+│   │   │   │   ├── com.o
+│   │   │   │   ├── com_class_d_dursor.bmp
+│   │   │   │   ├── com_class_d_dursor.imb
+│   │   │   │   ├── com_class_d_dursor.o
+│   │   │   │   ├── comet_0000_L.bmp
+│   │   │   │   ├── comet_0000_L.imb
+│   │   │   │   ├── comet_0000_L.o
+│   │   │   │   ├── comet_0001_L.bmp
+│   │   │   │   ├── comet_0001_L.imb
+│   │   │   │   ├── comet_0001_L.o
+│   │   │   │   ├── comet_0002_L.bmp
+│   │   │   │   ├── comet_0002_L.imb
+│   │   │   │   ├── comet_0002_L.o
+│   │   │   │   ├── course_16_map_b.bmp
+│   │   │   │   ├── course_16_map_b.imb
+│   │   │   │   ├── course_16_map_b.o
+│   │   │   │   ├── cp_champion_movie_0000.bmp
+│   │   │   │   ├── cp_champion_movie_0000.imb
+│   │   │   │   ├── cp_champion_movie_0000.o
+│   │   │   │   ├── cp_champion_movie_0001.bmp
+│   │   │   │   ├── cp_champion_movie_0001.imb
+│   │   │   │   ├── cp_champion_movie_0001.o
+│   │   │   │   ├── cp_champion_movie_0002.bmp
+│   │   │   │   ├── cp_champion_movie_0002.imb
+│   │   │   │   ├── cp_champion_movie_0002.o
+│   │   │   │   ├── cp_champion_movie_0003.bmp
+│   │   │   │   ├── cp_champion_movie_0003.imb
+│   │   │   │   ├── cp_champion_movie_0003.o
+│   │   │   │   ├── cp_champion_movie_0004.bmp
+│   │   │   │   ├── cp_ghost_replay_0000.bmp
+│   │   │   │   ├── cp_ghost_replay_0000.imb
+│   │   │   │   ├── cp_ghost_replay_0000.o
+│   │   │   │   ├── cp_ghost_replay_0001.bmp
+│   │   │   │   ├── cp_ghost_replay_0001.imb
+│   │   │   │   ├── cp_ghost_replay_0001.o
+│   │   │   │   ├── cp_ghost_replay_0002.bmp
+│   │   │   │   ├── cp_ghost_replay_0002.imb
+│   │   │   │   ├── cp_ghost_replay_0002.o
+│   │   │   │   ├── cp_ghost_replay_0003.bmp
+│   │   │   │   ├── cp_ghost_replay_0003.imb
+│   │   │   │   ├── cp_ghost_replay_0003.o
+│   │   │   │   ├── cp_time_attack_0000.bmp
+│   │   │   │   ├── cp_time_attack_0000.imb
+│   │   │   │   ├── cp_time_attack_0000.o
+│   │   │   │   ├── cp_time_attack_0001.bmp
+│   │   │   │   ├── cp_time_attack_0001.imb
+│   │   │   │   ├── cp_time_attack_0001.o
+│   │   │   │   ├── cp_time_attack_0002.bmp
+│   │   │   │   ├── cp_time_attack_0002.imb
+│   │   │   │   ├── cp_time_attack_0002.o
+│   │   │   │   ├── crazy_0000.bmp
+│   │   │   │   ├── crazy_0000.imb
+│   │   │   │   ├── crazy_0000.o
+│   │   │   │   ├── crazy_0000_L.bmp
+│   │   │   │   ├── crazy_0000_L.imb
+│   │   │   │   ├── crazy_0000_L.o
+│   │   │   │   ├── crazy_0001.bmp
+│   │   │   │   ├── crazy_0001.imb
+│   │   │   │   ├── crazy_0001.o
+│   │   │   │   ├── crazy_0001_L.bmp
+│   │   │   │   ├── crazy_0001_L.imb
+│   │   │   │   ├── crazy_0001_L.o
+│   │   │   │   ├── crazy_0002_L.bmp
+│   │   │   │   ├── crazy_0002_L.imb
+│   │   │   │   ├── crazy_0002_L.o
+│   │   │   │   ├── crazy_horse.bmp
+│   │   │   │   ├── crazy_horse.imb
+│   │   │   │   ├── crazy_horse.o
+│   │   │   │   ├── crazy_horse_0000.bmp
+│   │   │   │   ├── crazy_horse_0000.imb
+│   │   │   │   ├── crazy_horse_0000.o
+│   │   │   │   ├── crazy_horse_0001.bmp
+│   │   │   │   ├── crazy_horse_0001.imb
+│   │   │   │   ├── crazy_horse_0001.o
+│   │   │   │   ├── crazy_horse_0002.bmp
+│   │   │   │   ├── crazy_horse_0002.imb
+│   │   │   │   ├── crazy_horse_0002.o
+│   │   │   │   ├── crazy_horse_0003.bmp
+│   │   │   │   ├── crazy_horse_0003.imb
+│   │   │   │   ├── crazy_horse_0003.o
+│   │   │   │   ├── dirty_0000.bmp
+│   │   │   │   ├── dirty_0000.imb
+│   │   │   │   ├── dirty_0000.o
+│   │   │   │   ├── dirty_0000_L.bmp
+│   │   │   │   ├── dirty_0000_L.imb
+│   │   │   │   ├── dirty_0000_L.o
+│   │   │   │   ├── dirty_0001.bmp
+│   │   │   │   ├── dirty_0001.imb
+│   │   │   │   ├── dirty_0001.o
+│   │   │   │   ├── dirty_0001_L.bmp
+│   │   │   │   ├── dirty_0001_L.imb
+│   │   │   │   ├── dirty_0001_L.o
+│   │   │   │   ├── dirty_0002_L.bmp
+│   │   │   │   ├── dirty_0002_L.imb
+│   │   │   │   ├── dirty_0002_L.o
+│   │   │   │   ├── dirty_joker.bmp
+│   │   │   │   ├── dirty_joker.imb
+│   │   │   │   ├── dirty_joker.o
+│   │   │   │   ├── dirty_joker_0000.bmp
+│   │   │   │   ├── dirty_joker_0000.imb
+│   │   │   │   ├── dirty_joker_0000.o
+│   │   │   │   ├── dirty_joker_0001.bmp
+│   │   │   │   ├── dirty_joker_0001.imb
+│   │   │   │   ├── dirty_joker_0001.o
+│   │   │   │   ├── dirty_joker_0002.bmp
+│   │   │   │   ├── dirty_joker_0002.imb
+│   │   │   │   ├── dirty_joker_0002.o
+│   │   │   │   ├── dirty_joker_0003.bmp
+│   │   │   │   ├── dirty_joker_0003.imb
+│   │   │   │   ├── dirty_joker_0003.o
+│   │   │   │   ├── end.bmp
+│   │   │   │   ├── end.imb
+│   │   │   │   ├── end.o
+│   │   │   │   ├── end_f20_n0_0000.bmp
+│   │   │   │   ├── end_f20_n0_0000.imb
+│   │   │   │   ├── end_f20_n0_0000.o
+│   │   │   │   ├── end_f20_n0_0001.bmp
+│   │   │   │   ├── end_f20_n0_0001.imb
+│   │   │   │   ├── end_f20_n0_0001.o
+│   │   │   │   ├── end_f20_n0_0002.bmp
+│   │   │   │   ├── end_f20_n0_0002.imb
+│   │   │   │   ├── end_f20_n0_0002.o
+│   │   │   │   ├── end_f20_n0_0003.bmp
+│   │   │   │   ├── end_f20_n0_0003.imb
+│   │   │   │   ├── end_f20_n0_0003.o
+│   │   │   │   ├── entry.bmp
+│   │   │   │   ├── entry_ofs_0000.bmp
+│   │   │   │   ├── entry_ofs_0000.imb
+│   │   │   │   ├── entry_ofs_0000.o
+│   │   │   │   ├── entry_ofs_0001.bmp
+│   │   │   │   ├── entry_ofs_0001.imb
+│   │   │   │   ├── entry_ofs_0001.o
+│   │   │   │   ├── falcon.bmp
+│   │   │   │   ├── falcon.imb
+│   │   │   │   ├── falcon.o
+│   │   │   │   ├── falcon_0000.bmp
+│   │   │   │   ├── falcon_0000.imb
+│   │   │   │   ├── falcon_0000.o
+│   │   │   │   ├── falcon_0000_L.bmp
+│   │   │   │   ├── falcon_0000_L.imb
+│   │   │   │   ├── falcon_0000_L.o
+│   │   │   │   ├── falcon_0001.bmp
+│   │   │   │   ├── falcon_0001.imb
+│   │   │   │   ├── falcon_0001.o
+│   │   │   │   ├── falcon_0001_L.bmp
+│   │   │   │   ├── falcon_0001_L.imb
+│   │   │   │   ├── falcon_0001_L.o
+│   │   │   │   ├── falcon_0002_L.bmp
+│   │   │   │   ├── falcon_0002_L.imb
+│   │   │   │   ├── falcon_0002_L.o
+│   │   │   │   ├── falcon_mk-2.bmp
+│   │   │   │   ├── falcon_mk-2.imb
+│   │   │   │   ├── falcon_mk-2.o
+│   │   │   │   ├── falcon_mk-2_0000.bmp
+│   │   │   │   ├── falcon_mk-2_0000.imb
+│   │   │   │   ├── falcon_mk-2_0000.o
+│   │   │   │   ├── falcon_mk-2_0001.bmp
+│   │   │   │   ├── falcon_mk-2_0001.imb
+│   │   │   │   ├── falcon_mk-2_0001.o
+│   │   │   │   ├── falcon_mk-2_0002.bmp
+│   │   │   │   ├── falcon_mk-2_0002.imb
+│   │   │   │   ├── falcon_mk-2_0002.o
+│   │   │   │   ├── falcon_mk-2_0003.bmp
+│   │   │   │   ├── falcon_mk-2_0003.imb
+│   │   │   │   ├── falcon_mk-2_0003.o
+│   │   │   │   ├── fight_0000.bmp
+│   │   │   │   ├── fight_0000.imb
+│   │   │   │   ├── fight_0000.o
+│   │   │   │   ├── fight_0001.bmp
+│   │   │   │   ├── fight_0001.imb
+│   │   │   │   ├── fight_0001.o
+│   │   │   │   ├── fighting_comet.bmp
+│   │   │   │   ├── fighting_comet.imb
+│   │   │   │   ├── fighting_comet.o
+│   │   │   │   ├── fighting_comet_0000.bmp
+│   │   │   │   ├── fighting_comet_0000.imb
+│   │   │   │   ├── fighting_comet_0000.o
+│   │   │   │   ├── fighting_comet_0001.bmp
+│   │   │   │   ├── fighting_comet_0001.imb
+│   │   │   │   ├── fighting_comet_0001.o
+│   │   │   │   ├── fighting_comet_0002.bmp
+│   │   │   │   ├── fighting_comet_0002.imb
+│   │   │   │   ├── fighting_comet_0002.o
+│   │   │   │   ├── fighting_comet_0003.bmp
+│   │   │   │   ├── fighting_comet_0003.imb
+│   │   │   │   ├── fighting_comet_0003.o
+│   │   │   │   ├── fire_0000.bmp
+│   │   │   │   ├── fire_0000.imb
+│   │   │   │   ├── fire_0000.o
+│   │   │   │   ├── fire_0000_L.bmp
+│   │   │   │   ├── fire_0000_L.imb
+│   │   │   │   ├── fire_0000_L.o
+│   │   │   │   ├── fire_0001.bmp
+│   │   │   │   ├── fire_0001.imb
+│   │   │   │   ├── fire_0001.o
+│   │   │   │   ├── fire_0001_L.bmp
+│   │   │   │   ├── fire_0001_L.imb
+│   │   │   │   ├── fire_0001_L.o
+│   │   │   │   ├── fire_0002_L.bmp
+│   │   │   │   ├── fire_0002_L.imb
+│   │   │   │   ├── fire_0002_L.o
+│   │   │   │   ├── fire_ball.bmp
+│   │   │   │   ├── fire_ball.imb
+│   │   │   │   ├── fire_ball.o
+│   │   │   │   ├── fire_ball_0000.bmp
+│   │   │   │   ├── fire_ball_0000.imb
+│   │   │   │   ├── fire_ball_0000.o
+│   │   │   │   ├── fire_ball_0001.bmp
+│   │   │   │   ├── fire_ball_0001.imb
+│   │   │   │   ├── fire_ball_0001.o
+│   │   │   │   ├── fire_ball_0002.bmp
+│   │   │   │   ├── fire_ball_0002.imb
+│   │   │   │   ├── fire_ball_0002.o
+│   │   │   │   ├── fire_ball_0003.bmp
+│   │   │   │   ├── fire_ball_0003.imb
+│   │   │   │   ├── fire_ball_0003.o
+│   │   │   │   ├── for_agb.bmp
+│   │   │   │   ├── for_gameboy_advance.bmp
+│   │   │   │   ├── for_gameboy_advance.imb
+│   │   │   │   ├── for_gameboy_advance.o
+│   │   │   │   ├── g_000.bmp
+│   │   │   │   ├── g_000.imb
+│   │   │   │   ├── g_000.o
+│   │   │   │   ├── g_001.bmp
+│   │   │   │   ├── g_001.imb
+│   │   │   │   ├── g_001.o
+│   │   │   │   ├── game_start_ofs_0000.bmp
+│   │   │   │   ├── game_start_ofs_0000.imb
+│   │   │   │   ├── game_start_ofs_0000.o
+│   │   │   │   ├── game_start_ofs_0001.bmp
+│   │   │   │   ├── game_start_ofs_0001.imb
+│   │   │   │   ├── game_start_ofs_0001.o
+│   │   │   │   ├── game_start_ofs_0002.bmp
+│   │   │   │   ├── game_start_ofs_0002.imb
+│   │   │   │   ├── game_start_ofs_0002.o
+│   │   │   │   ├── GBad_Core_Dump.txt
+│   │   │   │   ├── grand_prix_ofs_0000.bmp
+│   │   │   │   ├── grand_prix_ofs_0000.imb
+│   │   │   │   ├── grand_prix_ofs_0000.o
+│   │   │   │   ├── grand_prix_ofs_0001.bmp
+│   │   │   │   ├── grand_prix_ofs_0001.imb
+│   │   │   │   ├── grand_prix_ofs_0001.o
+│   │   │   │   ├── honntaino_denngann_0000.bmp
+│   │   │   │   ├── honntaino_denngann_0000.imb
+│   │   │   │   ├── honntaino_denngann_0000.o
+│   │   │   │   ├── honntaino_denngann_0001.bmp
+│   │   │   │   ├── honntaino_denngann_0001.imb
+│   │   │   │   ├── honntaino_denngann_0001.o
+│   │   │   │   ├── honntaino_denngann_0002.bmp
+│   │   │   │   ├── honntaino_denngann_0002.imb
+│   │   │   │   ├── honntaino_denngann_0002.o
+│   │   │   │   ├── hot_0000.bmp
+│   │   │   │   ├── hot_0000.imb
+│   │   │   │   ├── hot_0000.o
+│   │   │   │   ├── hot_0000_L.bmp
+│   │   │   │   ├── hot_0000_L.imb
+│   │   │   │   ├── hot_0000_L.o
+│   │   │   │   ├── hot_0001.bmp
+│   │   │   │   ├── hot_0001.imb
+│   │   │   │   ├── hot_0001.o
+│   │   │   │   ├── hot_0001_L.bmp
+│   │   │   │   ├── hot_0001_L.imb
+│   │   │   │   ├── hot_0001_L.o
+│   │   │   │   ├── hot_0002.bmp
+│   │   │   │   ├── hot_0002_L.bmp
+│   │   │   │   ├── hot_0002_L.imb
+│   │   │   │   ├── hot_0002_L.o
+│   │   │   │   ├── hot_violet.bmp
+│   │   │   │   ├── hot_violet.imb
+│   │   │   │   ├── hot_violet.o
+│   │   │   │   ├── hot_violet_0000.bmp
+│   │   │   │   ├── hot_violet_0000.imb
+│   │   │   │   ├── hot_violet_0000.o
+│   │   │   │   ├── hot_violet_0001.bmp
+│   │   │   │   ├── hot_violet_0001.imb
+│   │   │   │   ├── hot_violet_0001.o
+│   │   │   │   ├── hot_violet_0002.bmp
+│   │   │   │   ├── hot_violet_0002.imb
+│   │   │   │   ├── hot_violet_0002.o
+│   │   │   │   ├── hot_violet_0003.bmp
+│   │   │   │   ├── hot_violet_0003.imb
+│   │   │   │   ├── hot_violet_0003.o
+│   │   │   │   ├── iquelogo.bmp
+│   │   │   │   ├── iquelogo.imb
+│   │   │   │   ├── iquelogo.o
+│   │   │   │   ├── iquelogo_L.bmp
+│   │   │   │   ├── iquelogo_L.imb
+│   │   │   │   ├── iquelogo_L.o
+│   │   │   │   ├── jb_0000_L.bmp
+│   │   │   │   ├── jb_0000_L.imb
+│   │   │   │   ├── jb_0000_L.o
+│   │   │   │   ├── jb_0001_L.bmp
+│   │   │   │   ├── jb_0001_L.imb
+│   │   │   │   ├── jb_0001_L.o
+│   │   │   │   ├── jb_0002_L.bmp
+│   │   │   │   ├── jb_0002_L.imb
+│   │   │   │   ├── jb_0002_L.o
+│   │   │   │   ├── jb_crystal.bmp
+│   │   │   │   ├── jb_crystal.imb
+│   │   │   │   ├── jb_crystal.o
+│   │   │   │   ├── jb_crystal_0000.bmp
+│   │   │   │   ├── jb_crystal_0000.imb
+│   │   │   │   ├── jb_crystal_0000.o
+│   │   │   │   ├── jb_crystal_0001.bmp
+│   │   │   │   ├── jb_crystal_0001.imb
+│   │   │   │   ├── jb_crystal_0001.o
+│   │   │   │   ├── jb_crystal_0002.bmp
+│   │   │   │   ├── jb_crystal_0002.imb
+│   │   │   │   ├── jb_crystal_0002.o
+│   │   │   │   ├── jb_crystal_0003.bmp
+│   │   │   │   ├── jb_crystal_0003.imb
+│   │   │   │   ├── jb_crystal_0003.o
+│   │   │   │   ├── jbc_0000.bmp
+│   │   │   │   ├── jbc_0000.imb
+│   │   │   │   ├── jbc_0000.o
+│   │   │   │   ├── jbc_0001.bmp
+│   │   │   │   ├── jbc_0001.imb
+│   │   │   │   ├── jbc_0001.o
+│   │   │   │   ├── jet_0000.bmp
+│   │   │   │   ├── jet_0000.imb
+│   │   │   │   ├── jet_0000.o
+│   │   │   │   ├── jet_0000_L.bmp
+│   │   │   │   ├── jet_0000_L.imb
+│   │   │   │   ├── jet_0000_L.o
+│   │   │   │   ├── jet_0001.bmp
+│   │   │   │   ├── jet_0001.imb
+│   │   │   │   ├── jet_0001.o
+│   │   │   │   ├── jet_0001_L.bmp
+│   │   │   │   ├── jet_0001_L.imb
+│   │   │   │   ├── jet_0001_L.o
+│   │   │   │   ├── jet_0002.bmp
+│   │   │   │   ├── jet_0002_L.bmp
+│   │   │   │   ├── jet_0002_L.imb
+│   │   │   │   ├── jet_0002_L.o
+│   │   │   │   ├── jet_vermilion.bmp
+│   │   │   │   ├── jet_vermilion.imb
+│   │   │   │   ├── jet_vermilion.o
+│   │   │   │   ├── jet_vermilion_0000.bmp
+│   │   │   │   ├── jet_vermilion_0000.imb
+│   │   │   │   ├── jet_vermilion_0000.o
+│   │   │   │   ├── jet_vermilion_0001.bmp
+│   │   │   │   ├── jet_vermilion_0001.imb
+│   │   │   │   ├── jet_vermilion_0001.o
+│   │   │   │   ├── jet_vermilion_0002.bmp
+│   │   │   │   ├── jet_vermilion_0002.imb
+│   │   │   │   ├── jet_vermilion_0002.o
+│   │   │   │   ├── jet_vermilion_0003.bmp
+│   │   │   │   ├── jet_vermilion_0003.imb
+│   │   │   │   ├── jet_vermilion_0003.o
+│   │   │   │   ├── kana_beginner.bmp
+│   │   │   │   ├── kana_beginner.imb
+│   │   │   │   ├── kana_beginner.o
+│   │   │   │   ├── kana_beshop_0000.bmp
+│   │   │   │   ├── kana_beshop_0000.imb
+│   │   │   │   ├── kana_beshop_0000.o
+│   │   │   │   ├── kana_beshop_0001.bmp
+│   │   │   │   ├── kana_beshop_0001.imb
+│   │   │   │   ├── kana_beshop_0001.o
+│   │   │   │   ├── kana_beshop_0002.bmp
+│   │   │   │   ├── kana_beshop_0002.imb
+│   │   │   │   ├── kana_beshop_0002.o
+│   │   │   │   ├── kana_beshop_0003.bmp
+│   │   │   │   ├── kana_beshop_0003.imb
+│   │   │   │   ├── kana_beshop_0003.o
+│   │   │   │   ├── kana_class.bmp
+│   │   │   │   ├── kana_class.imb
+│   │   │   │   ├── kana_class.o
+│   │   │   │   ├── kana_crazy_horse.bmp
+│   │   │   │   ├── kana_crazy_horse.imb
+│   │   │   │   ├── kana_crazy_horse.o
+│   │   │   │   ├── kana_dirty_joker.bmp
+│   │   │   │   ├── kana_dirty_joker.imb
+│   │   │   │   ├── kana_dirty_joker.o
+│   │   │   │   ├── kana_entry_cancel_ofs_0000.bmp
+│   │   │   │   ├── kana_entry_cancel_ofs_0000.imb
+│   │   │   │   ├── kana_entry_cancel_ofs_0000.o
+│   │   │   │   ├── kana_entry_cancel_ofs_0001.bmp
+│   │   │   │   ├── kana_entry_cancel_ofs_0001.imb
+│   │   │   │   ├── kana_entry_cancel_ofs_0001.o
+│   │   │   │   ├── kana_expert.bmp
+│   │   │   │   ├── kana_expert.imb
+│   │   │   │   ├── kana_expert.o
+│   │   │   │   ├── kana_expert_0000.bmp
+│   │   │   │   ├── kana_expert_0000.imb
+│   │   │   │   ├── kana_expert_0000.o
+│   │   │   │   ├── kana_expert_0001.bmp
+│   │   │   │   ├── kana_expert_0001.imb
+│   │   │   │   ├── kana_expert_0001.o
+│   │   │   │   ├── kana_falcon_mk2.bmp
+│   │   │   │   ├── kana_falcon_mk2.imb
+│   │   │   │   ├── kana_falcon_mk2.o
+│   │   │   │   ├── kana_fier_ball.bmp
+│   │   │   │   ├── kana_fier_ball.imb
+│   │   │   │   ├── kana_fier_ball.o
+│   │   │   │   ├── kana_fighting_comet.bmp
+│   │   │   │   ├── kana_fighting_comet.imb
+│   │   │   │   ├── kana_fighting_comet.o
+│   │   │   │   ├── kana_hot_violet.bmp
+│   │   │   │   ├── kana_hot_violet.imb
+│   │   │   │   ├── kana_hot_violet.o
+│   │   │   │   ├── kana_jb_crystal.bmp
+│   │   │   │   ├── kana_jb_crystal.imb
+│   │   │   │   ├── kana_jb_crystal.o
+│   │   │   │   ├── kana_jet_vermilion.bmp
+│   │   │   │   ├── kana_jet_vermilion.imb
+│   │   │   │   ├── kana_jet_vermilion.o
+│   │   │   │   ├── kana_knight_0000.bmp
+│   │   │   │   ├── kana_knight_0000.imb
+│   │   │   │   ├── kana_knight_0000.o
+│   │   │   │   ├── kana_knight_0001.bmp
+│   │   │   │   ├── kana_knight_0001.imb
+│   │   │   │   ├── kana_knight_0001.o
+│   │   │   │   ├── kana_knight_0002.bmp
+│   │   │   │   ├── kana_knight_0002.imb
+│   │   │   │   ├── kana_knight_0002.o
+│   │   │   │   ├── kana_knight_0003.bmp
+│   │   │   │   ├── kana_knight_0003.imb
+│   │   │   │   ├── kana_knight_0003.o
+│   │   │   │   ├── kana_master.bmp
+│   │   │   │   ├── kana_master.imb
+│   │   │   │   ├── kana_master.o
+│   │   │   │   ├── kana_pawn_0000.bmp
+│   │   │   │   ├── kana_pawn_0000.imb
+│   │   │   │   ├── kana_pawn_0000.o
+│   │   │   │   ├── kana_pawn_0001.bmp
+│   │   │   │   ├── kana_pawn_0001.imb
+│   │   │   │   ├── kana_pawn_0001.o
+│   │   │   │   ├── kana_pawn_0002.bmp
+│   │   │   │   ├── kana_pawn_0002.imb
+│   │   │   │   ├── kana_pawn_0002.o
+│   │   │   │   ├── kana_queen_0000.bmp
+│   │   │   │   ├── kana_queen_0000.imb
+│   │   │   │   ├── kana_queen_0000.o
+│   │   │   │   ├── kana_queen_0001.bmp
+│   │   │   │   ├── kana_queen_0001.imb
+│   │   │   │   ├── kana_queen_0001.o
+│   │   │   │   ├── kana_queen_0002.bmp
+│   │   │   │   ├── kana_queen_0002.imb
+│   │   │   │   ├── kana_queen_0002.o
+│   │   │   │   ├── kana_queen_0003.bmp
+│   │   │   │   ├── kana_queen_0003.imb
+│   │   │   │   ├── kana_queen_0003.o
+│   │   │   │   ├── kana_series.bmp
+│   │   │   │   ├── kana_series.imb
+│   │   │   │   ├── kana_series.o
+│   │   │   │   ├── kana_silver_thunder.bmp
+│   │   │   │   ├── kana_silver_thunder.imb
+│   │   │   │   ├── kana_silver_thunder.o
+│   │   │   │   ├── kana_standard.bmp
+│   │   │   │   ├── kana_standard.imb
+│   │   │   │   ├── kana_standard.o
+│   │   │   │   ├── kana_standard_0000.bmp
+│   │   │   │   ├── kana_standard_0000.imb
+│   │   │   │   ├── kana_standard_0000.o
+│   │   │   │   ├── kana_standard_0001.bmp
+│   │   │   │   ├── kana_standard_0001.imb
+│   │   │   │   ├── kana_standard_0001.o
+│   │   │   │   ├── kana_the_stingray.bmp
+│   │   │   │   ├── kana_the_stingray.imb
+│   │   │   │   ├── kana_the_stingray.o
+│   │   │   │   ├── kim_b_0000.bmp
+│   │   │   │   ├── kim_b_0000.imb
+│   │   │   │   ├── kim_b_0000.o
+│   │   │   │   ├── kim_b_0001.bmp
+│   │   │   │   ├── kim_b_0001.imb
+│   │   │   │   ├── kim_b_0001.o
+│   │   │   │   ├── kim_g_0000.bmp
+│   │   │   │   ├── kim_g_0000.imb
+│   │   │   │   ├── kim_g_0000.o
+│   │   │   │   ├── kim_g_0001.bmp
+│   │   │   │   ├── kim_g_0001.imb
+│   │   │   │   ├── kim_g_0001.o
+│   │   │   │   ├── kim_r_0000.bmp
+│   │   │   │   ├── kim_r_0000.imb
+│   │   │   │   ├── kim_r_0000.o
+│   │   │   │   ├── kim_r_0001.bmp
+│   │   │   │   ├── kim_r_0001.imb
+│   │   │   │   ├── kim_r_0001.o
+│   │   │   │   ├── kim_y_0000.bmp
+│   │   │   │   ├── kim_y_0000.imb
+│   │   │   │   ├── kim_y_0000.o
+│   │   │   │   ├── kim_y_0001.bmp
+│   │   │   │   ├── kim_y_0001.imb
+│   │   │   │   ├── kim_y_0001.o
+│   │   │   │   ├── kim_y_0002.bmp
+│   │   │   │   ├── kim_y_0002.imb
+│   │   │   │   ├── kim_y_0002.o
+│   │   │   │   ├── knight_area.bmp
+│   │   │   │   ├── knight_area.imb
+│   │   │   │   ├── knight_area.o
+│   │   │   │   ├── kudasai_0000.bmp
+│   │   │   │   ├── kudasai_0000.imb
+│   │   │   │   ├── kudasai_0000.o
+│   │   │   │   ├── kudasai_0001.bmp
+│   │   │   │   ├── kudasai_0001.imb
+│   │   │   │   ├── kudasai_0001.o
+│   │   │   │   ├── l_arrow.bmp
+│   │   │   │   ├── l_font_a_h.bmp
+│   │   │   │   ├── l_font_a_h.imb
+│   │   │   │   ├── l_font_a_h.o
+│   │   │   │   ├── l_font_i_p.bmp
+│   │   │   │   ├── l_font_i_p.imb
+│   │   │   │   ├── l_font_i_p.o
+│   │   │   │   ├── l_font_q_x.bmp
+│   │   │   │   ├── l_font_q_x.imb
+│   │   │   │   ├── l_font_q_x.o
+│   │   │   │   ├── l_font_y_z.bmp
+│   │   │   │   ├── l_font_y_z.imb
+│   │   │   │   ├── l_font_y_z.o
+│   │   │   │   ├── libmenubmp.a
+│   │   │   │   ├── load_error_msg0_0000.bmp
+│   │   │   │   ├── load_error_msg0_0000.imb
+│   │   │   │   ├── load_error_msg0_0000.o
+│   │   │   │   ├── load_error_msg0_0001.bmp
+│   │   │   │   ├── load_error_msg0_0001.imb
+│   │   │   │   ├── load_error_msg0_0001.o
+│   │   │   │   ├── load_error_msg1_0000.bmp
+│   │   │   │   ├── load_error_msg1_0000.imb
+│   │   │   │   ├── load_error_msg1_0000.o
+│   │   │   │   ├── load_error_msg1_0001.bmp
+│   │   │   │   ├── load_error_msg1_0001.imb
+│   │   │   │   ├── load_error_msg1_0001.o
+│   │   │   │   ├── load_error_msg1_0002.bmp
+│   │   │   │   ├── load_error_msg1_0002.imb
+│   │   │   │   ├── load_error_msg1_0002.o
+│   │   │   │   ├── load_error_msg1_0003.bmp
+│   │   │   │   ├── load_error_msg1_0003.imb
+│   │   │   │   ├── load_error_msg1_0003.o
+│   │   │   │   ├── load_error_msg2_0000.bmp
+│   │   │   │   ├── load_error_msg2_0000.imb
+│   │   │   │   ├── load_error_msg2_0000.o
+│   │   │   │   ├── load_error_msg2_0001.bmp
+│   │   │   │   ├── load_error_msg2_0001.imb
+│   │   │   │   ├── load_error_msg2_0001.o
+│   │   │   │   ├── load_error_msg3_0000.bmp
+│   │   │   │   ├── load_error_msg3_0000.imb
+│   │   │   │   ├── load_error_msg3_0000.o
+│   │   │   │   ├── load_error_msg4_0000.bmp
+│   │   │   │   ├── load_error_msg4_0000.imb
+│   │   │   │   ├── load_error_msg4_0000.o
+│   │   │   │   ├── load_error_msg4_0001.bmp
+│   │   │   │   ├── load_error_msg4_0001.imb
+│   │   │   │   ├── load_error_msg4_0001.o
+│   │   │   │   ├── load_error_msg4_0002.bmp
+│   │   │   │   ├── load_error_msg4_0002.imb
+│   │   │   │   ├── load_error_msg4_0002.o
+│   │   │   │   ├── load_error_msg4_0003.bmp
+│   │   │   │   ├── load_error_msg4_0003.imb
+│   │   │   │   ├── load_error_msg4_0003.o
+│   │   │   │   ├── load_error_msg4_0004.bmp
+│   │   │   │   ├── load_error_msg4_0004.imb
+│   │   │   │   ├── load_error_msg4_0004.o
+│   │   │   │   ├── ma_bo_00_0000.bmp
+│   │   │   │   ├── ma_bo_00_0000.imb
+│   │   │   │   ├── ma_bo_00_0000.o
+│   │   │   │   ├── ma_bo_00_0001.bmp
+│   │   │   │   ├── ma_bo_00_0001.imb
+│   │   │   │   ├── ma_bo_00_0001.o
+│   │   │   │   ├── ma_bo_00_0002.bmp
+│   │   │   │   ├── ma_bo_00_0002.imb
+│   │   │   │   ├── ma_bo_00_0002.o
+│   │   │   │   ├── ma_bo_00_0003.bmp
+│   │   │   │   ├── ma_bo_00_0003.imb
+│   │   │   │   ├── ma_bo_00_0003.o
+│   │   │   │   ├── ma_bo_00_value.bmp
+│   │   │   │   ├── ma_bo_00_value.imb
+│   │   │   │   ├── ma_bo_00_value.o
+│   │   │   │   ├── ma_bo_01_value.bmp
+│   │   │   │   ├── ma_bo_01_value.imb
+│   │   │   │   ├── ma_bo_01_value.o
+│   │   │   │   ├── ma_bo_02_value.bmp
+│   │   │   │   ├── ma_bo_02_value.imb
+│   │   │   │   ├── ma_bo_02_value.o
+│   │   │   │   ├── ma_bo_03_value.bmp
+│   │   │   │   ├── ma_bo_03_value.imb
+│   │   │   │   ├── ma_bo_03_value.o
+│   │   │   │   ├── ma_bo_04_value.bmp
+│   │   │   │   ├── ma_bo_04_value.imb
+│   │   │   │   ├── ma_bo_04_value.o
+│   │   │   │   ├── ma_bo_05_value.bmp
+│   │   │   │   ├── ma_bo_05_value.imb
+│   │   │   │   ├── ma_bo_05_value.o
+│   │   │   │   ├── ma_bo_06_value.bmp
+│   │   │   │   ├── ma_bo_06_value.imb
+│   │   │   │   ├── ma_bo_06_value.o
+│   │   │   │   ├── ma_bo_07_value.bmp
+│   │   │   │   ├── ma_bo_07_value.imb
+│   │   │   │   ├── ma_bo_07_value.o
+│   │   │   │   ├── ma_bo_08_value.bmp
+│   │   │   │   ├── ma_bo_08_value.imb
+│   │   │   │   ├── ma_bo_08_value.o
+│   │   │   │   ├── ma_bo_09_value.bmp
+│   │   │   │   ├── ma_bo_09_value.imb
+│   │   │   │   ├── ma_bo_09_value.o
+│   │   │   │   ├── ma_num0_9.bmp
+│   │   │   │   ├── ma_num0_9.imb
+│   │   │   │   ├── ma_num0_9.o
+│   │   │   │   ├── ma_pickup_0000.bmp
+│   │   │   │   ├── ma_pickup_0000.imb
+│   │   │   │   ├── ma_pickup_0000.o
+│   │   │   │   ├── ma_pickup_0001.bmp
+│   │   │   │   ├── ma_pickup_0001.imb
+│   │   │   │   ├── ma_pickup_0001.o
+│   │   │   │   ├── ma_sp_00_0000.bmp
+│   │   │   │   ├── ma_sp_00_0000.imb
+│   │   │   │   ├── ma_sp_00_0000.o
+│   │   │   │   ├── ma_sp_00_0001.bmp
+│   │   │   │   ├── ma_sp_00_0001.imb
+│   │   │   │   ├── ma_sp_00_0001.o
+│   │   │   │   ├── ma_sp_00_0002.bmp
+│   │   │   │   ├── ma_sp_00_0002.imb
+│   │   │   │   ├── ma_sp_00_0002.o
+│   │   │   │   ├── ma_tu_00_0000.bmp
+│   │   │   │   ├── ma_tu_00_0000.imb
+│   │   │   │   ├── ma_tu_00_0000.o
+│   │   │   │   ├── ma_tu_00_0001.bmp
+│   │   │   │   ├── ma_tu_00_0001.imb
+│   │   │   │   ├── ma_tu_00_0001.o
+│   │   │   │   ├── ma_tu_00_0002.bmp
+│   │   │   │   ├── ma_tu_00_0002.imb
+│   │   │   │   ├── ma_tu_00_0002.o
+│   │   │   │   ├── ma_tu_value.bmp
+│   │   │   │   ├── ma_tu_value.imb
+│   │   │   │   ├── ma_tu_value.o
+│   │   │   │   ├── machine_data.bmp
+│   │   │   │   ├── machine_data.imb
+│   │   │   │   ├── machine_data.o
+│   │   │   │   ├── makefile
+│   │   │   │   ├── maru_r.bmp
+│   │   │   │   ├── maru_r.imb
+│   │   │   │   ├── maru_r.o
+│   │   │   │   ├── max_speed.bmp
+│   │   │   │   ├── max_speed.imb
+│   │   │   │   ├── max_speed.o
+│   │   │   │   ├── mc_bishop.bmp
+│   │   │   │   ├── mc_bishop.imb
+│   │   │   │   ├── mc_bishop.o
+│   │   │   │   ├── mc_knight.bmp
+│   │   │   │   ├── mc_knight.imb
+│   │   │   │   ├── mc_knight.o
+│   │   │   │   ├── mc_pawn.bmp
+│   │   │   │   ├── mc_pawn.imb
+│   │   │   │   ├── mc_pawn.o
+│   │   │   │   ├── mc_queen.bmp
+│   │   │   │   ├── mc_queen.imb
+│   │   │   │   ├── mc_queen.o
+│   │   │   │   ├── mk_2.bmp
+│   │   │   │   ├── mk_2.imb
+│   │   │   │   ├── mk_2.o
+│   │   │   │   ├── multi_boot_ofs_0000.bmp
+│   │   │   │   ├── multi_boot_ofs_0000.imb
+│   │   │   │   ├── multi_boot_ofs_0000.o
+│   │   │   │   ├── multi_boot_ofs_0001.bmp
+│   │   │   │   ├── multi_boot_ofs_0001.imb
+│   │   │   │   ├── multi_boot_ofs_0001.o
+│   │   │   │   ├── multi_boot_ofs_0002.bmp
+│   │   │   │   ├── multi_boot_ofs_0002.imb
+│   │   │   │   ├── multi_boot_ofs_0002.o
+│   │   │   │   ├── multi_boot_ofs_0003.bmp
+│   │   │   │   ├── multi_boot_ofs_0003.imb
+│   │   │   │   ├── multi_boot_ofs_0003.o
+│   │   │   │   ├── multi_boot_ofs_0004.bmp
+│   │   │   │   ├── multi_boot_ofs_0004.imb
+│   │   │   │   ├── multi_boot_ofs_0004.o
+│   │   │   │   ├── multi_vs_ofs_0000.bmp
+│   │   │   │   ├── multi_vs_ofs_0000.imb
+│   │   │   │   ├── multi_vs_ofs_0000.o
+│   │   │   │   ├── multi_vs_ofs_0001.bmp
+│   │   │   │   ├── multi_vs_ofs_0001.imb
+│   │   │   │   ├── multi_vs_ofs_0001.o
+│   │   │   │   ├── multi_vs_ofs_0002.bmp
+│   │   │   │   ├── multi_vs_ofs_0002.imb
+│   │   │   │   ├── multi_vs_ofs_0002.o
+│   │   │   │   ├── multi_vs_ofs_0003.bmp
+│   │   │   │   ├── multi_vs_ofs_0003.imb
+│   │   │   │   ├── multi_vs_ofs_0003.o
+│   │   │   │   ├── multi_vs_ofs_0004.bmp
+│   │   │   │   ├── multi_vs_ofs_0004.imb
+│   │   │   │   ├── multi_vs_ofs_0004.o
+│   │   │   │   ├── name_underline.bmp
+│   │   │   │   ├── name_underline.imb
+│   │   │   │   ├── name_underline.o
+│   │   │   │   ├── name_waku.bmp
+│   │   │   │   ├── no_setuzoku_wo_0000.bmp
+│   │   │   │   ├── no_setuzoku_wo_0000.imb
+│   │   │   │   ├── no_setuzoku_wo_0000.o
+│   │   │   │   ├── no_setuzoku_wo_0001.bmp
+│   │   │   │   ├── no_setuzoku_wo_0001.imb
+│   │   │   │   ├── no_setuzoku_wo_0001.o
+│   │   │   │   ├── nukanaide_0000.bmp
+│   │   │   │   ├── nukanaide_0000.imb
+│   │   │   │   ├── nukanaide_0000.o
+│   │   │   │   ├── nukanaide_0001.bmp
+│   │   │   │   ├── nukanaide_0001.imb
+│   │   │   │   ├── nukanaide_0001.o
+│   │   │   │   ├── nukanaide_0002.bmp
+│   │   │   │   ├── nukanaide_0002.imb
+│   │   │   │   ├── nukanaide_0002.o
+│   │   │   │   ├── ok_0.bmp
+│   │   │   │   ├── ok_0.imb
+│   │   │   │   ├── ok_0.o
+│   │   │   │   ├── ok_0000.bmp
+│   │   │   │   ├── ok_0000.imb
+│   │   │   │   ├── ok_0000.o
+│   │   │   │   ├── ok_0001.bmp
+│   │   │   │   ├── ok_0001.imb
+│   │   │   │   ├── ok_0001.o
+│   │   │   │   ├── op_accel.bmp
+│   │   │   │   ├── op_accel.imb
+│   │   │   │   ├── op_accel.o
+│   │   │   │   ├── op_boost.bmp
+│   │   │   │   ├── op_boost.imb
+│   │   │   │   ├── op_boost.o
+│   │   │   │   ├── op_brake.bmp
+│   │   │   │   ├── op_brake.imb
+│   │   │   │   ├── op_brake.o
+│   │   │   │   ├── op_control_0000.bmp
+│   │   │   │   ├── op_control_0000.imb
+│   │   │   │   ├── op_control_0000.o
+│   │   │   │   ├── op_control_0001.bmp
+│   │   │   │   ├── op_control_0001.imb
+│   │   │   │   ├── op_control_0001.o
+│   │   │   │   ├── op_fb00_n0.bmp
+│   │   │   │   ├── op_fb00_n0.imb
+│   │   │   │   ├── op_fb00_n0.o
+│   │   │   │   ├── op_kakeru.bmp
+│   │   │   │   ├── op_kakeru.imb
+│   │   │   │   ├── op_kakeru.o
+│   │   │   │   ├── op_lr.bmp
+│   │   │   │   ├── op_lr.imb
+│   │   │   │   ├── op_lr.o
+│   │   │   │   ├── op_type.bmp
+│   │   │   │   ├── op_type.imb
+│   │   │   │   ├── op_type.o
+│   │   │   │   ├── option_ofs_0000.bmp
+│   │   │   │   ├── option_ofs_0000.imb
+│   │   │   │   ├── option_ofs_0000.o
+│   │   │   │   ├── option_ofs_0001.bmp
+│   │   │   │   ├── option_ofs_0001.imb
+│   │   │   │   ├── option_ofs_0001.o
+│   │   │   │   ├── p0_1_5lap20_0000.bmp
+│   │   │   │   ├── p0_1_5lap20_0000.imb
+│   │   │   │   ├── p0_1_5lap20_0000.o
+│   │   │   │   ├── p0_1_5lap20_0001.bmp
+│   │   │   │   ├── p0_1_5lap20_0001.imb
+│   │   │   │   ├── p0_1_5lap20_0001.o
+│   │   │   │   ├── p0_1_5lap20_0002.bmp
+│   │   │   │   ├── p0_1_5lap20_0002.imb
+│   │   │   │   ├── p0_1_5lap20_0002.o
+│   │   │   │   ├── p0_1_5lap20_0003.bmp
+│   │   │   │   ├── p0_1_5lap20_0003.imb
+│   │   │   │   ├── p0_1_5lap20_0003.o
+│   │   │   │   ├── p0_1_5lap20_0004.bmp
+│   │   │   │   ├── p0_1_5lap20_0004.imb
+│   │   │   │   ├── p0_1_5lap20_0004.o
+│   │   │   │   ├── p0_menubmp.h
+│   │   │   │   ├── p2_msg0_0000.bmp
+│   │   │   │   ├── p2_msg0_0000.imb
+│   │   │   │   ├── p2_msg0_0000.o
+│   │   │   │   ├── p2_msg0_0001.bmp
+│   │   │   │   ├── p2_msg0_0001.imb
+│   │   │   │   ├── p2_msg0_0001.o
+│   │   │   │   ├── p2_msg0_0002.bmp
+│   │   │   │   ├── p2_msg0_0002.imb
+│   │   │   │   ├── p2_msg0_0002.o
+│   │   │   │   ├── p2_msg0_0003.bmp
+│   │   │   │   ├── p2_msg0_0003.imb
+│   │   │   │   ├── p2_msg0_0003.o
+│   │   │   │   ├── p2_msg0_0004.bmp
+│   │   │   │   ├── p2_msg0_0004.imb
+│   │   │   │   ├── p2_msg0_0004.o
+│   │   │   │   ├── p2_msg0_0005.bmp
+│   │   │   │   ├── p2_msg0_0005.imb
+│   │   │   │   ├── p2_msg0_0005.o
+│   │   │   │   ├── p2_msg1_0000.bmp
+│   │   │   │   ├── p2_msg1_0000.imb
+│   │   │   │   ├── p2_msg1_0000.o
+│   │   │   │   ├── p2_msg1_0001.bmp
+│   │   │   │   ├── p2_msg1_0001.imb
+│   │   │   │   ├── p2_msg1_0001.o
+│   │   │   │   ├── p2_msg1_0002.bmp
+│   │   │   │   ├── p2_msg1_0002.imb
+│   │   │   │   ├── p2_msg1_0002.o
+│   │   │   │   ├── p2_msg1_0003.bmp
+│   │   │   │   ├── p2_msg1_0003.imb
+│   │   │   │   ├── p2_msg1_0003.o
+│   │   │   │   ├── p2_msg1_0004.bmp
+│   │   │   │   ├── p2_msg1_0004.imb
+│   │   │   │   ├── p2_msg1_0004.o
+│   │   │   │   ├── p2_msg1_0005.bmp
+│   │   │   │   ├── p2_msg1_0005.imb
+│   │   │   │   ├── p2_msg1_0005.o
+│   │   │   │   ├── p4_no1_0000.bmp
+│   │   │   │   ├── p4_no1_0000.imb
+│   │   │   │   ├── p4_no1_0000.o
+│   │   │   │   ├── p4_no1_0001.bmp
+│   │   │   │   ├── p4_no1_0001.imb
+│   │   │   │   ├── p4_no1_0001.o
+│   │   │   │   ├── p4_no2_0000.bmp
+│   │   │   │   ├── p4_no2_0000.imb
+│   │   │   │   ├── p4_no2_0000.o
+│   │   │   │   ├── p4_no2_0001.bmp
+│   │   │   │   ├── p4_no2_0001.imb
+│   │   │   │   ├── p4_no2_0001.o
+│   │   │   │   ├── p4_no3_0000.bmp
+│   │   │   │   ├── p4_no3_0000.imb
+│   │   │   │   ├── p4_no3_0000.o
+│   │   │   │   ├── p4_no3_0001.bmp
+│   │   │   │   ├── p4_no3_0001.imb
+│   │   │   │   ├── p4_no3_0001.o
+│   │   │   │   ├── pawn_area.bmp
+│   │   │   │   ├── pawn_area.imb
+│   │   │   │   ├── pawn_area.o
+│   │   │   │   ├── player_change_ofs_0000.bmp
+│   │   │   │   ├── player_change_ofs_0000.imb
+│   │   │   │   ├── player_change_ofs_0000.o
+│   │   │   │   ├── player_change_ofs_0001.bmp
+│   │   │   │   ├── player_change_ofs_0001.imb
+│   │   │   │   ├── player_change_ofs_0001.o
+│   │   │   │   ├── player_change_ofs_0002.bmp
+│   │   │   │   ├── player_change_ofs_0002.imb
+│   │   │   │   ├── player_change_ofs_0002.o
+│   │   │   │   ├── player_change_ofs_0003.bmp
+│   │   │   │   ├── player_change_ofs_0003.imb
+│   │   │   │   ├── player_change_ofs_0003.o
+│   │   │   │   ├── point00.bmp
+│   │   │   │   ├── point00.imb
+│   │   │   │   ├── point00.o
+│   │   │   │   ├── point01.bmp
+│   │   │   │   ├── point01.imb
+│   │   │   │   ├── point01.o
+│   │   │   │   ├── press_start.bmp
+│   │   │   │   ├── pwd_cursor.bmp
+│   │   │   │   ├── pwd_cursor.imb
+│   │   │   │   ├── pwd_cursor.o
+│   │   │   │   ├── pwd_font.bmp
+│   │   │   │   ├── pwd_font.imb
+│   │   │   │   ├── pwd_font.o
+│   │   │   │   ├── queen_area.bmp
+│   │   │   │   ├── queen_area.imb
+│   │   │   │   ├── queen_area.o
+│   │   │   │   ├── r_arrow.bmp
+│   │   │   │   ├── r_arrow.imb
+│   │   │   │   ├── r_arrow.o
+│   │   │   │   ├── rank_10th.bmp
+│   │   │   │   ├── rank_10th.imb
+│   │   │   │   ├── rank_10th.o
+│   │   │   │   ├── rank_1st.bmp
+│   │   │   │   ├── rank_1st.imb
+│   │   │   │   ├── rank_1st.o
+│   │   │   │   ├── rank_2nd.bmp
+│   │   │   │   ├── rank_2nd.imb
+│   │   │   │   ├── rank_2nd.o
+│   │   │   │   ├── rank_3rd.bmp
+│   │   │   │   ├── rank_3rd.imb
+│   │   │   │   ├── rank_3rd.o
+│   │   │   │   ├── rank_4th.bmp
+│   │   │   │   ├── rank_4th.imb
+│   │   │   │   ├── rank_4th.o
+│   │   │   │   ├── rank_5th.bmp
+│   │   │   │   ├── rank_5th.imb
+│   │   │   │   ├── rank_5th.o
+│   │   │   │   ├── rank_6th.bmp
+│   │   │   │   ├── rank_6th.imb
+│   │   │   │   ├── rank_6th.o
+│   │   │   │   ├── rank_7th.bmp
+│   │   │   │   ├── rank_7th.imb
+│   │   │   │   ├── rank_7th.o
+│   │   │   │   ├── rank_8th.bmp
+│   │   │   │   ├── rank_8th.imb
+│   │   │   │   ├── rank_8th.o
+│   │   │   │   ├── rank_9th.bmp
+│   │   │   │   ├── rank_9th.imb
+│   │   │   │   ├── rank_9th.o
+│   │   │   │   ├── ranking_cursor.bmp
+│   │   │   │   ├── ranking_cursor.imb
+│   │   │   │   ├── ranking_cursor.o
+│   │   │   │   ├── ranking_ofs_0000.bmp
+│   │   │   │   ├── ranking_ofs_0000.imb
+│   │   │   │   ├── ranking_ofs_0000.o
+│   │   │   │   ├── ranking_ofs_0001.bmp
+│   │   │   │   ├── ranking_ofs_0001.imb
+│   │   │   │   ├── ranking_ofs_0001.o
+│   │   │   │   ├── replay_0000.bmp
+│   │   │   │   ├── replay_0000.imb
+│   │   │   │   ├── replay_0000.o
+│   │   │   │   ├── replay_0001.bmp
+│   │   │   │   ├── replay_0001.imb
+│   │   │   │   ├── replay_0001.o
+│   │   │   │   ├── s_0.bmp
+│   │   │   │   ├── s_0.imb
+│   │   │   │   ├── s_0.o
+│   │   │   │   ├── s_1.bmp
+│   │   │   │   ├── s_1.imb
+│   │   │   │   ├── s_1.o
+│   │   │   │   ├── s_2.bmp
+│   │   │   │   ├── s_2.imb
+│   │   │   │   ├── s_2.o
+│   │   │   │   ├── s_3.bmp
+│   │   │   │   ├── s_3.imb
+│   │   │   │   ├── s_3.o
+│   │   │   │   ├── s_4.bmp
+│   │   │   │   ├── s_4.imb
+│   │   │   │   ├── s_4.o
+│   │   │   │   ├── s_5.bmp
+│   │   │   │   ├── s_5.imb
+│   │   │   │   ├── s_5.o
+│   │   │   │   ├── s_6.bmp
+│   │   │   │   ├── s_6.imb
+│   │   │   │   ├── s_6.o
+│   │   │   │   ├── s_nintendo.bmp
+│   │   │   │   ├── s_nintendo.imb
+│   │   │   │   ├── s_nintendo.o
+│   │   │   │   ├── sample.bmp
+│   │   │   │   ├── sample.imb
+│   │   │   │   ├── sample.o
+│   │   │   │   ├── save_pwd.bmp
+│   │   │   │   ├── save_pwd.imb
+│   │   │   │   ├── save_pwd.o
+│   │   │   │   ├── select_file.bmp
+│   │   │   │   ├── select_file.imb
+│   │   │   │   ├── select_file.o
+│   │   │   │   ├── sil_0000.bmp
+│   │   │   │   ├── sil_0000.imb
+│   │   │   │   ├── sil_0000.o
+│   │   │   │   ├── sil_0001.bmp
+│   │   │   │   ├── sil_0001.imb
+│   │   │   │   ├── sil_0001.o
+│   │   │   │   ├── silver_0000_L.bmp
+│   │   │   │   ├── silver_0000_L.imb
+│   │   │   │   ├── silver_0000_L.o
+│   │   │   │   ├── silver_0001_L.bmp
+│   │   │   │   ├── silver_0001_L.imb
+│   │   │   │   ├── silver_0001_L.o
+│   │   │   │   ├── silver_0002_L.bmp
+│   │   │   │   ├── silver_0002_L.imb
+│   │   │   │   ├── silver_0002_L.o
+│   │   │   │   ├── silver_boxer_0000.bmp
+│   │   │   │   ├── silver_boxer_0000.imb
+│   │   │   │   ├── silver_boxer_0000.o
+│   │   │   │   ├── silver_boxer_0001.bmp
+│   │   │   │   ├── silver_boxer_0001.imb
+│   │   │   │   ├── silver_boxer_0001.o
+│   │   │   │   ├── silver_boxer_0002.bmp
+│   │   │   │   ├── silver_boxer_0002.imb
+│   │   │   │   ├── silver_boxer_0002.o
+│   │   │   │   ├── silver_boxer_0003.bmp
+│   │   │   │   ├── silver_boxer_0003.imb
+│   │   │   │   ├── silver_boxer_0003.o
+│   │   │   │   ├── silver_thunder.bmp
+│   │   │   │   ├── silver_thunder.imb
+│   │   │   │   ├── silver_thunder.o
+│   │   │   │   ├── silver_thunder_0000.bmp
+│   │   │   │   ├── silver_thunder_0000.imb
+│   │   │   │   ├── silver_thunder_0000.o
+│   │   │   │   ├── silver_thunder_0001.bmp
+│   │   │   │   ├── silver_thunder_0001.imb
+│   │   │   │   ├── silver_thunder_0001.o
+│   │   │   │   ├── silver_thunder_0002.bmp
+│   │   │   │   ├── silver_thunder_0002.imb
+│   │   │   │   ├── silver_thunder_0002.o
+│   │   │   │   ├── silver_thunder_0003.bmp
+│   │   │   │   ├── silver_thunder_0003.imb
+│   │   │   │   ├── silver_thunder_0003.o
+│   │   │   │   ├── sl_clear_beginner.bmp
+│   │   │   │   ├── sl_clear_beginner.imb
+│   │   │   │   ├── sl_clear_beginner.o
+│   │   │   │   ├── sl_clear_expert.bmp
+│   │   │   │   ├── sl_clear_expert.imb
+│   │   │   │   ├── sl_clear_expert.o
+│   │   │   │   ├── sl_clear_master.bmp
+│   │   │   │   ├── sl_clear_master.imb
+│   │   │   │   ├── sl_clear_master.o
+│   │   │   │   ├── sl_clear_standard.bmp
+│   │   │   │   ├── sl_clear_standard.imb
+│   │   │   │   ├── sl_clear_standard.o
+│   │   │   │   ├── space_p9.bmp
+│   │   │   │   ├── space_p9.imb
+│   │   │   │   ├── space_p9.o
+│   │   │   │   ├── sting_0000.bmp
+│   │   │   │   ├── sting_0000.imb
+│   │   │   │   ├── sting_0000.o
+│   │   │   │   ├── sting_0000_L.bmp
+│   │   │   │   ├── sting_0000_L.imb
+│   │   │   │   ├── sting_0000_L.o
+│   │   │   │   ├── sting_0001.bmp
+│   │   │   │   ├── sting_0001.imb
+│   │   │   │   ├── sting_0001.o
+│   │   │   │   ├── sting_0001_L.bmp
+│   │   │   │   ├── sting_0001_L.imb
+│   │   │   │   ├── sting_0001_L.o
+│   │   │   │   ├── sting_0002_L.bmp
+│   │   │   │   ├── sting_0002_L.imb
+│   │   │   │   ├── sting_0002_L.o
+│   │   │   │   ├── tasikamete_0000.bmp
+│   │   │   │   ├── tasikamete_0000.imb
+│   │   │   │   ├── tasikamete_0000.o
+│   │   │   │   ├── tasikamete_0001.bmp
+│   │   │   │   ├── tasikamete_0001.imb
+│   │   │   │   ├── tasikamete_0001.o
+│   │   │   │   ├── the_stingray.bmp
+│   │   │   │   ├── the_stingray.imb
+│   │   │   │   ├── the_stingray.o
+│   │   │   │   ├── the_stingray_0000.bmp
+│   │   │   │   ├── the_stingray_0000.imb
+│   │   │   │   ├── the_stingray_0000.o
+│   │   │   │   ├── the_stingray_0001.bmp
+│   │   │   │   ├── the_stingray_0001.imb
+│   │   │   │   ├── the_stingray_0001.o
+│   │   │   │   ├── the_stingray_0002.bmp
+│   │   │   │   ├── the_stingray_0002.imb
+│   │   │   │   ├── the_stingray_0002.o
+│   │   │   │   ├── the_stingray_0003.bmp
+│   │   │   │   ├── the_stingray_0003.imb
+│   │   │   │   ├── the_stingray_0003.o
+│   │   │   │   ├── Thumbs.db
+│   │   │   │   ├── total_0000.bmp
+│   │   │   │   ├── total_0000.imb
+│   │   │   │   ├── total_0000.o
+│   │   │   │   ├── total_0001.bmp
+│   │   │   │   ├── total_0001.imb
+│   │   │   │   ├── total_0001.o
+│   │   │   │   ├── training_ofs_0000.bmp
+│   │   │   │   ├── training_ofs_0000.imb
+│   │   │   │   ├── training_ofs_0000.o
+│   │   │   │   ├── training_ofs_0001.bmp
+│   │   │   │   ├── training_ofs_0001.imb
+│   │   │   │   ├── training_ofs_0001.o
+│   │   │   │   ├── training_ofs_0002.bmp
+│   │   │   │   ├── training_ofs_0002.imb
+│   │   │   │   ├── training_ofs_0002.o
+│   │   │   │   ├── tu.bmp
+│   │   │   │   ├── tu.imb
+│   │   │   │   ├── tu.o
+│   │   │   │   ├── tu1.bmp
+│   │   │   │   ├── tu1.imb
+│   │   │   │   ├── tu1.o
+│   │   │   │   ├── tu2.bmp
+│   │   │   │   ├── tu2.imb
+│   │   │   │   ├── tu2.o
+│   │   │   │   ├── tu3.bmp
+│   │   │   │   ├── tu3.imb
+│   │   │   │   ├── tu3.o
+│   │   │   │   ├── tu4.bmp
+│   │   │   │   ├── tu4.imb
+│   │   │   │   ├── tu4.o
+│   │   │   │   ├── tu_coron.bmp
+│   │   │   │   ├── tu_coron.imb
+│   │   │   │   ├── tu_coron.o
+│   │   │   │   ├── tuusinn_error_desu_0000.bmp
+│   │   │   │   ├── tuusinn_error_desu_0000.imb
+│   │   │   │   ├── tuusinn_error_desu_0000.o
+│   │   │   │   ├── tuusinn_error_desu_0001.bmp
+│   │   │   │   ├── tuusinn_error_desu_0001.imb
+│   │   │   │   ├── tuusinn_error_desu_0001.o
+│   │   │   │   ├── tuusinn_error_desu_0002.bmp
+│   │   │   │   ├── tuusinn_error_desu_0002.imb
+│   │   │   │   ├── tuusinn_error_desu_0002.o
+│   │   │   │   ├── tuusinn_error_desu_0003.bmp
+│   │   │   │   ├── tuusinn_error_desu_0003.imb
+│   │   │   │   ├── tuusinn_error_desu_0003.o
+│   │   │   │   ├── tuusinn_ke_buru_0000.bmp
+│   │   │   │   ├── tuusinn_ke_buru_0000.imb
+│   │   │   │   ├── tuusinn_ke_buru_0000.o
+│   │   │   │   ├── tuusinn_ke_buru_0001.bmp
+│   │   │   │   ├── tuusinn_ke_buru_0001.imb
+│   │   │   │   ├── tuusinn_ke_buru_0001.o
+│   │   │   │   ├── tuusinn_ke_buru_0002.bmp
+│   │   │   │   ├── tuusinn_ke_buru_0002.imb
+│   │   │   │   ├── tuusinn_ke_buru_0002.o
+│   │   │   │   ├── tuusinn_ofs_0000.bmp
+│   │   │   │   ├── tuusinn_ofs_0000.imb
+│   │   │   │   ├── tuusinn_ofs_0000.o
+│   │   │   │   ├── tuusinn_ofs_0001.bmp
+│   │   │   │   ├── tuusinn_ofs_0001.imb
+│   │   │   │   ├── tuusinn_ofs_0001.o
+│   │   │   │   ├── tuusinntyuu_0000.bmp
+│   │   │   │   ├── tuusinntyuu_0000.imb
+│   │   │   │   ├── tuusinntyuu_0000.o
+│   │   │   │   ├── tuusinntyuu_0001.bmp
+│   │   │   │   ├── tuusinntyuu_0001.imb
+│   │   │   │   ├── tuusinntyuu_0001.o
+│   │   │   │   ├── vs_1_casette_ofs_0000.bmp
+│   │   │   │   ├── vs_1_casette_ofs_0000.imb
+│   │   │   │   ├── vs_1_casette_ofs_0000.o
+│   │   │   │   ├── vs_1_casette_ofs_0001.bmp
+│   │   │   │   ├── vs_1_casette_ofs_0001.imb
+│   │   │   │   ├── vs_1_casette_ofs_0001.o
+│   │   │   │   ├── vs_1_casette_ofs_0002.bmp
+│   │   │   │   ├── vs_1_casette_ofs_0002.imb
+│   │   │   │   ├── vs_1_casette_ofs_0002.o
+│   │   │   │   ├── vs_1_casette_ofs_0003.bmp
+│   │   │   │   ├── vs_1_casette_ofs_0003.imb
+│   │   │   │   ├── vs_1_casette_ofs_0003.o
+│   │   │   │   ├── vs_battle_ofs_0000.bmp
+│   │   │   │   ├── vs_battle_ofs_0000.imb
+│   │   │   │   ├── vs_battle_ofs_0000.o
+│   │   │   │   ├── vs_battle_ofs_0001.bmp
+│   │   │   │   ├── vs_battle_ofs_0001.imb
+│   │   │   │   ├── vs_battle_ofs_0001.o
+│   │   │   │   ├── vs_battle_ofs_0002.bmp
+│   │   │   │   ├── vs_battle_ofs_0002.imb
+│   │   │   │   ├── vs_battle_ofs_0002.o
+│   │   │   │   ├── vs_beginner.bmp
+│   │   │   │   ├── vs_beginner.imb
+│   │   │   │   ├── vs_beginner.o
+│   │   │   │   ├── vs_crazy_horse.bmp
+│   │   │   │   ├── vs_crazy_horse.imb
+│   │   │   │   ├── vs_crazy_horse.o
+│   │   │   │   ├── vs_dirty_joker.bmp
+│   │   │   │   ├── vs_dirty_joker.imb
+│   │   │   │   ├── vs_dirty_joker.o
+│   │   │   │   ├── vs_expert.bmp
+│   │   │   │   ├── vs_expert.imb
+│   │   │   │   ├── vs_expert.o
+│   │   │   │   ├── vs_falcon_mk-2.bmp
+│   │   │   │   ├── vs_falcon_mk-2.imb
+│   │   │   │   ├── vs_falcon_mk-2.o
+│   │   │   │   ├── vs_fighting_comet.bmp
+│   │   │   │   ├── vs_fighting_comet.imb
+│   │   │   │   ├── vs_fighting_comet.o
+│   │   │   │   ├── vs_fire_ball.bmp
+│   │   │   │   ├── vs_fire_ball.imb
+│   │   │   │   ├── vs_fire_ball.o
+│   │   │   │   ├── vs_hot_violet.bmp
+│   │   │   │   ├── vs_hot_violet.imb
+│   │   │   │   ├── vs_hot_violet.o
+│   │   │   │   ├── vs_jb_crystal.bmp
+│   │   │   │   ├── vs_jb_crystal.imb
+│   │   │   │   ├── vs_jb_crystal.o
+│   │   │   │   ├── vs_jet_vermilion.bmp
+│   │   │   │   ├── vs_jet_vermilion.imb
+│   │   │   │   ├── vs_jet_vermilion.o
+│   │   │   │   ├── vs_master.bmp
+│   │   │   │   ├── vs_master.imb
+│   │   │   │   ├── vs_master.o
+│   │   │   │   ├── vs_no_entry.bmp
+│   │   │   │   ├── vs_no_entry.imb
+│   │   │   │   ├── vs_no_entry.o
+│   │   │   │   ├── vs_ok.bmp
+│   │   │   │   ├── vs_ok.imb
+│   │   │   │   ├── vs_ok.o
+│   │   │   │   ├── vs_please_wait.bmp
+│   │   │   │   ├── vs_please_wait.imb
+│   │   │   │   ├── vs_please_wait.o
+│   │   │   │   ├── vs_pressstart.bmp
+│   │   │   │   ├── vs_pressstart.imb
+│   │   │   │   ├── vs_pressstart.o
+│   │   │   │   ├── vs_silver_thunder.bmp
+│   │   │   │   ├── vs_silver_thunder.imb
+│   │   │   │   ├── vs_silver_thunder.o
+│   │   │   │   ├── vs_standerd.bmp
+│   │   │   │   ├── vs_standerd.imb
+│   │   │   │   ├── vs_standerd.o
+│   │   │   │   ├── vs_the_stingray.bmp
+│   │   │   │   ├── vs_the_stingray.imb
+│   │   │   │   ├── vs_the_stingray.o
+│   │   │   │   ├── waku_long1_0000.bmp
+│   │   │   │   ├── waku_long1_0000.imb
+│   │   │   │   ├── waku_long1_0000.o
+│   │   │   │   ├── waku_long1_0001.bmp
+│   │   │   │   ├── waku_long1_0001.imb
+│   │   │   │   ├── waku_long1_0001.o
+│   │   │   │   ├── waku_long1_0002.bmp
+│   │   │   │   ├── waku_long1_0002.imb
+│   │   │   │   ├── waku_long1_0002.o
+│   │   │   │   ├── waku_long1_0003.bmp
+│   │   │   │   ├── waku_long1_0003.imb
+│   │   │   │   ├── waku_long1_0003.o
+│   │   │   │   ├── waku_long1_0004.bmp
+│   │   │   │   ├── waku_long1_0004.imb
+│   │   │   │   ├── waku_long1_0004.o
+│   │   │   │   ├── waku_long1_0005.bmp
+│   │   │   │   ├── waku_long1_0005.imb
+│   │   │   │   ├── waku_long1_0005.o
+│   │   │   │   ├── waku_long1_0006.bmp
+│   │   │   │   ├── waku_long1_0006.imb
+│   │   │   │   ├── waku_long1_0006.o
+│   │   │   │   ├── waku_long1_0007.bmp
+│   │   │   │   ├── waku_long1_0007.imb
+│   │   │   │   ├── waku_long1_0007.o
+│   │   │   │   ├── waku_short_1_0000.bmp
+│   │   │   │   ├── waku_short_1_0000.imb
+│   │   │   │   ├── waku_short_1_0000.o
+│   │   │   │   ├── waku_short_1_0001.bmp
+│   │   │   │   ├── waku_short_1_0001.imb
+│   │   │   │   ├── waku_short_1_0001.o
+│   │   │   │   ├── waku_short_1_0002.bmp
+│   │   │   │   ├── waku_short_1_0002.imb
+│   │   │   │   ├── waku_short_1_0002.o
+│   │   │   │   ├── waku_short_1_0003.bmp
+│   │   │   │   ├── waku_short_1_0003.imb
+│   │   │   │   ├── waku_short_1_0003.o
+│   │   │   │   ├── weight.bmp
+│   │   │   │   ├── weight.imb
+│   │   │   │   ├── weight.o
+│   │   │   │   ├── whicharea.bmp
+│   │   │   │   ├── whicharea.imb
+│   │   │   │   ├── whicharea.o
+│   │   │   │   ├── whichclass.bmp
+│   │   │   │   ├── whichclass.imb
+│   │   │   │   ├── whichclass.o
+│   │   │   │   ├── with_ghost.bmp
+│   │   │   │   ├── with_ghost.imb
+│   │   │   │   ├── with_ghost.o
+│   │   │   │   ├── wo.bmp
+│   │   │   │   ├── wo.imb
+│   │   │   │   ├── wo.o
+│   │   │   │   ├── wo_nukanaide_0000.bmp
+│   │   │   │   ├── wo_nukanaide_0000.imb
+│   │   │   │   ├── wo_nukanaide_0000.o
+│   │   │   │   ├── wo_nukanaide_0001.bmp
+│   │   │   │   ├── wo_nukanaide_0001.imb
+│   │   │   │   ├── wo_nukanaide_0001.o
+│   │   │   │   ├── wo_nukanaide_0002.bmp
+│   │   │   │   ├── wo_nukanaide_0002.imb
+│   │   │   │   ├── wo_nukanaide_0002.o
+│   │   │   │   ├── ｺﾋﾟｰ ～ com.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ dirty_joker.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ falcon_mk-2.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ fighting_comet.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ fire_ball.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ jb_crystal.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ jet_vermilion.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ kana_beginner.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ kana_expert.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ kana_master.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ kana_standard.bmp
+│   │   │   │   ├── ｺﾋﾟｰ ～ silver_thunder.bmp
+│   │   │   │   └── ｺﾋﾟｰ ～ the_stingray.bmp
+│   │   │   ├── mix.o
+│   │   │   ├── nd_logo.c
+│   │   │   ├── no.o
+│   │   │   ├── no_1.o
+│   │   │   ├── off.o
+│   │   │   ├── ok.o
+│   │   │   ├── on.o
+│   │   │   ├── op_kyoutai_aka.c
+│   │   │   ├── op_siroline2.c
+│   │   │   ├── p0_1p_mode.c
+│   │   │   ├── p0_1p_mode.c.bak
+│   │   │   ├── p0_comp_bmp.o
+│   │   │   ├── p0_entry.c
+│   │   │   ├── p0_entry.c.bak
+│   │   │   ├── p0_entry.h
+│   │   │   ├── p0_entry.o
+│   │   │   ├── p0_grandprix.c
+│   │   │   ├── p0_grandprix.c.bak
+│   │   │   ├── p0_grandprix.o
+│   │   │   ├── p0_kannji.h
+│   │   │   ├── p0_key_check.c
+│   │   │   ├── p0_key_check.c.bak
+│   │   │   ├── p0_key_check.h
+│   │   │   ├── p0_key_check.o
+│   │   │   ├── p0_menubmp.h
+│   │   │   ├── p0_menubmp.h.bak
+│   │   │   ├── p0_mode_select.c
+│   │   │   ├── p0_mode_select.c.bak
+│   │   │   ├── p0_mode_select.o
+│   │   │   ├── p0_multi_boot.c
+│   │   │   ├── p0_multi_boot.c.bak
+│   │   │   ├── p0_multi_boot.o
+│   │   │   ├── p0_name_entry.c
+│   │   │   ├── p0_name_entry.h
+│   │   │   ├── p0_name_entry.o
+│   │   │   ├── p0_official.c
+│   │   │   ├── p0_official.c.bak
+│   │   │   ├── p0_official.o
+│   │   │   ├── p0_option.c
+│   │   │   ├── p0_option.c.bak
+│   │   │   ├── p0_option.o
+│   │   │   ├── p0_password.c
+│   │   │   ├── p0_password.h
+│   │   │   ├── p0_practice.c
+│   │   │   ├── p0_practice.c.bak
+│   │   │   ├── p0_practice.o
+│   │   │   ├── p0_records.c
+│   │   │   ├── p0_records.c.bak
+│   │   │   ├── p0_records.h
+│   │   │   ├── p0_records.h.bak
+│   │   │   ├── p0_records.o
+│   │   │   ├── p0_sio.c
+│   │   │   ├── p0_sio.h
+│   │   │   ├── p0_title.c
+│   │   │   ├── p0_title.c.bak
+│   │   │   ├── p0_title.o
+│   │   │   ├── p0_vs_mode.c
+│   │   │   ├── p0_vs_mode.c.bak
+│   │   │   ├── p0_vs_mode.h
+│   │   │   ├── p0_vs_mode.o
+│   │   │   ├── p0_worldrank.c
+│   │   │   ├── p0_worldrank.c.bak
+│   │   │   ├── p0_worldrank.h
+│   │   │   ├── password.o
+│   │   │   ├── please_wait_00.o
+│   │   │   ├── please_wait_01.o
+│   │   │   ├── pleasewait.o
+│   │   │   ├── practice.o
+│   │   │   ├── presstart.o
+│   │   │   ├── printHanzi.c
+│   │   │   ├── printHanzi.c.bak
+│   │   │   ├── printHanzi.cpp.bak
+│   │   │   ├── printHanzi.o
+│   │   │   ├── ras_menu.c
+│   │   │   ├── ras_menu.c.bak
+│   │   │   ├── ras_menu.h
+│   │   │   ├── ras_menu.h.bak
+│   │   │   ├── ras_menu.o
+│   │   │   ├── ras_menu_dat.c
+│   │   │   ├── ras_menu_dat.c.bak
+│   │   │   ├── ras_menu_dat.h
+│   │   │   ├── ras_menu_dat.o
+│   │   │   ├── ras_menu_sub.c
+│   │   │   ├── ras_menu_sub.c.bak
+│   │   │   ├── ras_menu_sub.h
+│   │   │   ├── ras_menu_sub.o
+│   │   │   ├── retry.o
+│   │   │   ├── sending.o
+│   │   │   ├── start.o
+│   │   │   ├── Thumbs.db
+│   │   │   ├── title_back.c
+│   │   │   ├── trash/
+│   │   │   │   ├── end.bmp
+│   │   │   │   ├── isdwdcmd.dat
+│   │   │   │   ├── isdwdsym.dat
+│   │   │   │   ├── ld.exe.core
+│   │   │   │   ├── tags
+│   │   │   │   ├── Thumbs.db
+│   │   │   │   ├── tro_21_color
+│   │   │   │   ├── trs_21
+│   │   │   │   ├── wc_.sh
+│   │   │   │   ├── ｺﾋﾟｰ ～ p0_option.c
+│   │   │   │   ├── ｺﾋﾟｰ ～ p0_practice.c
+│   │   │   │   └── ｺﾋﾟｰ ～ p0_sio.h
+│   │   │   ├── tro_21.h
+│   │   │   ├── tro_21.h.bak
+│   │   │   ├── trs21_re.c
+│   │   │   ├── trs21_re.o
+│   │   │   ├── tu_idx.h
+│   │   │   ├── tu_idx.h.bak
+│   │   │   ├── waiting.o
+│   │   │   ├── wanjia.o
+│   │   │   ├── weilaisaiche.o
+│   │   │   ├── world_rank.o
+│   │   │   ├── yes.o
+│   │   │   └── yes_1.o
+│   │   ├── p1/
+│   │   │   ├── bkup/
+│   │   │   │   ├── cc1.exe.core
+│   │   │   │   ├── ld.exe.core
+│   │   │   │   ├── ras_game_intr__.s
+│   │   │   │   ├── scene_/
+│   │   │   │   │   ├── ras_stage_ddat_s01.c
+│   │   │   │   │   ├── ras_stage_ddat_s02.c
+│   │   │   │   │   ├── ras_stage_ddat_s03.c
+│   │   │   │   │   ├── ras_stage_ddat_s04.c
+│   │   │   │   │   ├── ras_stage_ddat_s05.c
+│   │   │   │   │   ├── ras_stage_ddat_s06.c
+│   │   │   │   │   ├── ras_stage_ddat_s07.c
+│   │   │   │   │   ├── ras_stage_ddat_s08.c
+│   │   │   │   │   ├── ras_stage_ddat_s09.c
+│   │   │   │   │   ├── ras_stage_ddat_s10.c
+│   │   │   │   │   ├── ras_stage_ddat_s11.c
+│   │   │   │   │   ├── ras_stage_ddat_s12.c
+│   │   │   │   │   ├── ras_stage_ddat_s13.c
+│   │   │   │   │   ├── ras_stage_ddat_s14.c
+│   │   │   │   │   ├── ras_stage_ddat_s15.c
+│   │   │   │   │   ├── ras_stage_ddat_s16.c
+│   │   │   │   │   ├── ras_stage_ddat_s17.c
+│   │   │   │   │   ├── ras_stage_ddat_s18.c
+│   │   │   │   │   ├── ras_stage_ddat_s19.c
+│   │   │   │   │   ├── ras_stage_ddat_s20.c
+│   │   │   │   │   ├── ras_stage_ddat_s21.c
+│   │   │   │   │   └── ras_stage_ddat_s22.c
+│   │   │   │   └── smbg__.s
+│   │   │   ├── car_dat_org.c
+│   │   │   ├── dmap.c
+│   │   │   ├── dmap.o
+│   │   │   ├── dmap_x.c
+│   │   │   ├── error
+│   │   │   ├── game
+│   │   │   ├── haikei.txt
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── Makefile_s
+│   │   │   ├── Makefile_s.bak
+│   │   │   ├── mbg.c
+│   │   │   ├── mbg.h
+│   │   │   ├── mbg.o
+│   │   │   ├── obj_set1_idx.h
+│   │   │   ├── obj_set1_idx.h.bak
+│   │   │   ├── obj_set2_idx.h
+│   │   │   ├── p1_haikeibmp.h
+│   │   │   ├── p1_mapbmp.h
+│   │   │   ├── p1_objbmp.h
+│   │   │   ├── p1_rank_commu_task.c
+│   │   │   ├── p1_rank_commu_task.o
+│   │   │   ├── p1_vcount_arm.s
+│   │   │   ├── ras_car_dat.c
+│   │   │   ├── ras_car_dat.o
+│   │   │   ├── ras_car_proc.c
+│   │   │   ├── ras_car_proc.c.bak
+│   │   │   ├── ras_car_proc.h
+│   │   │   ├── ras_car_proc.o
+│   │   │   ├── ras_effect.c
+│   │   │   ├── ras_effect.c.bak
+│   │   │   ├── ras_effect.h
+│   │   │   ├── ras_effect.o
+│   │   │   ├── ras_game.c
+│   │   │   ├── ras_game.c.bak
+│   │   │   ├── ras_game.h
+│   │   │   ├── ras_game.h.bak
+│   │   │   ├── ras_game.o
+│   │   │   ├── ras_game_dat.c
+│   │   │   ├── ras_game_dat.h
+│   │   │   ├── ras_game_dat.h.bak
+│   │   │   ├── ras_game_dat.o
+│   │   │   ├── ras_game_dat_ex.c
+│   │   │   ├── ras_game_dat_ex.o
+│   │   │   ├── ras_game_dbg.c
+│   │   │   ├── ras_game_dbg.h
+│   │   │   ├── ras_game_dbg.o
+│   │   │   ├── ras_game_intr.c
+│   │   │   ├── ras_game_intr.h
+│   │   │   ├── ras_game_intr.o
+│   │   │   ├── ras_game_pr.c
+│   │   │   ├── ras_game_pr.c.bak
+│   │   │   ├── ras_game_pr.h
+│   │   │   ├── ras_game_pr.h.bak
+│   │   │   ├── ras_game_pr.o
+│   │   │   ├── ras_game_scr.c
+│   │   │   ├── ras_game_scr.h
+│   │   │   ├── ras_game_scr.o
+│   │   │   ├── ras_game_sub.c
+│   │   │   ├── ras_game_sub.c.bak
+│   │   │   ├── ras_game_sub.h
+│   │   │   ├── ras_game_sub.o
+│   │   │   ├── ras_haikei_proc.c
+│   │   │   ├── ras_haikei_proc.h
+│   │   │   ├── ras_haikei_proc.o
+│   │   │   ├── ras_road_proc.c
+│   │   │   ├── ras_road_proc.h
+│   │   │   ├── ras_road_proc.o
+│   │   │   ├── ras_set_htmp.o
+│   │   │   ├── ras_set_htmp.s
+│   │   │   ├── ras_set_htmp1.s
+│   │   │   ├── ras_set_htmp_256.s
+│   │   │   ├── ras_set_htmp_64.s
+│   │   │   ├── ras_stage_dat.c
+│   │   │   ├── ras_stage_dat.o
+│   │   │   ├── ras_stage_ddat.c
+│   │   │   ├── ras_stage_ddat.o
+│   │   │   ├── ras_tutorial.c
+│   │   │   ├── ras_tutorial.c.bak
+│   │   │   ├── ras_tutorial.h
+│   │   │   ├── ras_tutorial.o
+│   │   │   ├── ras_tutorial_.c
+│   │   │   ├── rt.c
+│   │   │   ├── rt.h
+│   │   │   ├── rt.o
+│   │   │   ├── scene/
+│   │   │   │   ├── ras_stage_ddat_s01.c
+│   │   │   │   ├── ras_stage_ddat_s02.c
+│   │   │   │   ├── ras_stage_ddat_s03.c
+│   │   │   │   ├── ras_stage_ddat_s04.c
+│   │   │   │   ├── ras_stage_ddat_s05.c
+│   │   │   │   ├── ras_stage_ddat_s06.c
+│   │   │   │   ├── ras_stage_ddat_s07.c
+│   │   │   │   ├── ras_stage_ddat_s08.c
+│   │   │   │   ├── ras_stage_ddat_s09.c
+│   │   │   │   ├── ras_stage_ddat_s10.c
+│   │   │   │   ├── ras_stage_ddat_s11.c
+│   │   │   │   ├── ras_stage_ddat_s12.c
+│   │   │   │   ├── ras_stage_ddat_s13.c
+│   │   │   │   ├── ras_stage_ddat_s14.c
+│   │   │   │   ├── ras_stage_ddat_s15.c
+│   │   │   │   ├── ras_stage_ddat_s16.c
+│   │   │   │   ├── ras_stage_ddat_s17.c
+│   │   │   │   ├── ras_stage_ddat_s18.c
+│   │   │   │   ├── ras_stage_ddat_s19.c
+│   │   │   │   ├── ras_stage_ddat_s20.c
+│   │   │   │   ├── ras_stage_ddat_s21.c
+│   │   │   │   └── ras_stage_ddat_s22.c
+│   │   │   ├── scene_name.c
+│   │   │   ├── smbg.o
+│   │   │   ├── smbg.s
+│   │   │   ├── ttt.txt
+│   │   │   └── tuto_timing_tmp.c
+│   │   ├── p2/
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── p2_comp_bmp.o
+│   │   │   ├── ras_credit.c
+│   │   │   ├── ras_credit.c.bak
+│   │   │   └── ras_credit.o
+│   │   ├── p3/
+│   │   │   ├── bkup/
+│   │   │   │   ├── _MultiBoot.c
+│   │   │   │   ├── _MultiBoot.h
+│   │   │   │   ├── agb_c2s.bat
+│   │   │   │   ├── crt0_arm.s
+│   │   │   │   ├── crt0_loader_arm.s
+│   │   │   │   ├── crt0_multi_boot.s
+│   │   │   │   ├── crt0_multi_boot_arm.s
+│   │   │   │   ├── demo/
+│   │   │   │   │   ├── crt0_demo.s
+│   │   │   │   │   ├── crt0_demo_arm.s
+│   │   │   │   │   ├── demo.bin
+│   │   │   │   │   ├── demo.dep
+│   │   │   │   │   ├── demo.elf
+│   │   │   │   │   ├── demo.map
+│   │   │   │   │   ├── demo_main.c
+│   │   │   │   │   ├── GasdependDemo
+│   │   │   │   │   ├── gdbrc
+│   │   │   │   │   ├── intr_main_arm.s
+│   │   │   │   │   └── MakefileDemo
+│   │   │   │   ├── loader_LZ.bin
+│   │   │   │   ├── makeClient
+│   │   │   │   ├── makeClientContent
+│   │   │   │   ├── makeClientContent.bak
+│   │   │   │   ├── Makedepend
+│   │   │   │   ├── Makedepend.bak
+│   │   │   │   ├── Makedepend_p3
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── MultiSioAsmArm.s
+│   │   │   │   └── MultiSioDefineArm.s
+│   │   │   ├── bss.c
+│   │   │   ├── bss.h
+│   │   │   ├── bss.o
+│   │   │   ├── clloader.bin
+│   │   │   ├── clloader.elf
+│   │   │   ├── clloader.map
+│   │   │   ├── clloader.o
+│   │   │   ├── cloaderｱｸｷﾝ/
+│   │   │   │   ├── clloader.bin
+│   │   │   │   ├── clloader.elf
+│   │   │   │   ├── clloader.o
+│   │   │   │   ├── loader.bin
+│   │   │   │   ├── loader.map
+│   │   │   │   ├── loader_LZ.bin
+│   │   │   │   └── loader_LZ.o
+│   │   │   ├── crt0.s
+│   │   │   ├── crt0_loader.o
+│   │   │   ├── crt0_loader.s
+│   │   │   ├── crt0_multi_boot.o
+│   │   │   ├── crt0_multi_boot.s
+│   │   │   ├── crt0_multi_boot.s.bak
+│   │   │   ├── data.c
+│   │   │   ├── data.h
+│   │   │   ├── data.o
+│   │   │   ├── f10_pal.o
+│   │   │   ├── font_width.o
+│   │   │   ├── fontprint.o
+│   │   │   ├── Gasdepend
+│   │   │   ├── GasdependClient
+│   │   │   ├── GasdependLoader
+│   │   │   ├── GBad_Core_Dump.txt
+│   │   │   ├── intr_main.o
+│   │   │   ├── intr_main.s
+│   │   │   ├── intr_table.c
+│   │   │   ├── intr_table.h
+│   │   │   ├── intr_table.o
+│   │   │   ├── libcommonobjbmp.a
+│   │   │   ├── libutl.a
+│   │   │   ├── loader.bin
+│   │   │   ├── loader.bin.inst
+│   │   │   ├── loader.data
+│   │   │   ├── loader.dbg
+│   │   │   ├── loader.dep
+│   │   │   ├── loader.elf
+│   │   │   ├── loader.map
+│   │   │   ├── loader.o
+│   │   │   ├── loader.prj
+│   │   │   ├── loader_LZ.bin
+│   │   │   ├── loader_LZ.o
+│   │   │   ├── loader_main.c
+│   │   │   ├── loader_main.c.bak
+│   │   │   ├── loader_main.o
+│   │   │   ├── main.c
+│   │   │   ├── main.c.bak
+│   │   │   ├── Make_Clloader
+│   │   │   ├── makeClient
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── Makefile.bak
+│   │   │   ├── MakefileLoader
+│   │   │   ├── MakefileLoader.bak
+│   │   │   ├── multi_boot_car/
+│   │   │   │   ├── Makedepend
+│   │   │   │   ├── makefile
+│   │   │   │   ├── mbmycar.c
+│   │   │   │   ├── mbmycar.h
+│   │   │   │   ├── mbmycar.o
+│   │   │   │   ├── mbpal.c
+│   │   │   │   ├── mbpal.h
+│   │   │   │   ├── mbpal.o
+│   │   │   │   ├── multi_boot.act
+│   │   │   │   ├── multi_com.c
+│   │   │   │   ├── multi_com.h
+│   │   │   │   ├── multi_com.imb
+│   │   │   │   ├── multi_com.o
+│   │   │   │   ├── multi_com00.bmp
+│   │   │   │   ├── multi_com01.bmp
+│   │   │   │   ├── multi_com02.bmp
+│   │   │   │   ├── multi_com03.bmp
+│   │   │   │   ├── multi_com04.bmp
+│   │   │   │   ├── multi_com05.bmp
+│   │   │   │   ├── multi_com06.bmp
+│   │   │   │   ├── multi_com07.bmp
+│   │   │   │   ├── multi_com08.bmp
+│   │   │   │   ├── multi_com09.bmp
+│   │   │   │   ├── multi_com10.bmp
+│   │   │   │   ├── multi_com11.bmp
+│   │   │   │   ├── multi_com12.bmp
+│   │   │   │   ├── multi_com13.bmp
+│   │   │   │   ├── multi_com14.bmp
+│   │   │   │   ├── multi_com15.bmp
+│   │   │   │   ├── multi_com16.bmp
+│   │   │   │   ├── multi_com17.bmp
+│   │   │   │   ├── multi_com18.bmp
+│   │   │   │   ├── multi_com19.bmp
+│   │   │   │   ├── multi_com20.bmp
+│   │   │   │   ├── multi_com21.bmp
+│   │   │   │   ├── multi_com22.bmp
+│   │   │   │   ├── multi_com23.bmp
+│   │   │   │   ├── multi_com24.bmp
+│   │   │   │   ├── multi_com25.bmp
+│   │   │   │   ├── multi_com26.bmp
+│   │   │   │   ├── multi_com27.bmp
+│   │   │   │   ├── multi_com28.bmp
+│   │   │   │   ├── multi_com29.bmp
+│   │   │   │   ├── multi_com30.bmp
+│   │   │   │   ├── multi_com31.bmp
+│   │   │   │   ├── multi_com_LZ.bin
+│   │   │   │   ├── multi_com_LZ_Huff.bin
+│   │   │   │   ├── multi_jump01.bmp
+│   │   │   │   ├── multi_jump02.bmp
+│   │   │   │   ├── multi_player00.bmp
+│   │   │   │   ├── multi_player01.bmp
+│   │   │   │   ├── multi_player02.bmp
+│   │   │   │   ├── multi_player03.bmp
+│   │   │   │   ├── multi_player04.bmp
+│   │   │   │   ├── multi_player05.bmp
+│   │   │   │   ├── multi_player06.bmp
+│   │   │   │   ├── multi_player07.bmp
+│   │   │   │   ├── multi_player08.bmp
+│   │   │   │   ├── mycar_image.h
+│   │   │   │   └── Thumbs.db
+│   │   │   ├── MultiBoot.c
+│   │   │   ├── MultiBoot.c.bak
+│   │   │   ├── MultiBoot.h
+│   │   │   ├── Multiboot.o
+│   │   │   ├── MultiBoot.txt
+│   │   │   ├── MultiSio.c
+│   │   │   ├── MultiSio.h
+│   │   │   ├── MultiSio.o
+│   │   │   ├── MultiSioAsm.o
+│   │   │   ├── MultiSioAsm.s
+│   │   │   ├── MultiSioDefine.s
+│   │   │   ├── p3_ranking_commu.c
+│   │   │   ├── p3_ranking_commu.c.bak
+│   │   │   ├── p3_ranking_commu.o
+│   │   │   ├── p3_str_pal.c
+│   │   │   ├── p3_str_pal.h
+│   │   │   ├── p3_str_pal.o
+│   │   │   ├── p3_string.c
+│   │   │   ├── p3_string.h
+│   │   │   ├── p3_string.o
+│   │   │   ├── p3_string_disp.c
+│   │   │   ├── p3_string_disp.c.bak
+│   │   │   ├── p3_string_disp.o
+│   │   │   ├── p3_string_kind.h
+│   │   │   ├── ras_multi.c
+│   │   │   ├── ras_multi.c.bak
+│   │   │   ├── ras_multi.h
+│   │   │   ├── ras_multi.o
+│   │   │   ├── ras_multi_sv.c
+│   │   │   ├── ras_multi_sv.c.bak
+│   │   │   ├── ras_multi_sv.o
+│   │   │   ├── rom_header.s
+│   │   │   ├── rom_header_arm.s
+│   │   │   ├── sio32_multi_load.h
+│   │   │   ├── Sio32MultiLoad.c
+│   │   │   ├── Sio32MultiLoad.c.bak
+│   │   │   ├── Sio32MultiLoad.h
+│   │   │   ├── Sio32MultiLoad.o
+│   │   │   ├── string/
+│   │   │   │   ├── bmp2cimg.exe
+│   │   │   │   ├── chuu.bmp
+│   │   │   │   ├── datatensou.bmp
+│   │   │   │   ├── entry.bmp
+│   │   │   │   ├── hontainodengen.bmp
+│   │   │   │   ├── kudasai.bmp
+│   │   │   │   ├── mouichido.bmp
+│   │   │   │   ├── nisippaisimasita.bmp
+│   │   │   │   ├── nosetuzokuwo.bmp
+│   │   │   │   ├── nukanaide.bmp
+│   │   │   │   ├── OK.bmp
+│   │   │   │   ├── omachi.bmp
+│   │   │   │   ├── org/
+│   │   │   │   │   ├── OK.bmp
+│   │   │   │   │   ├── Thumbs.db
+│   │   │   │   │   ├── お待ち.bmp
+│   │   │   │   │   ├── ください.bmp
+│   │   │   │   │   ├── しばらく.bmp
+│   │   │   │   │   ├── に失敗しました.bmp
+│   │   │   │   │   ├── の接続を.bmp
+│   │   │   │   │   ├── もういちど.bmp
+│   │   │   │   │   ├── やり直して.bmp
+│   │   │   │   │   ├── を.bmp
+│   │   │   │   │   ├── を抜かないで.bmp
+│   │   │   │   │   ├── データ転送.bmp
+│   │   │   │   │   ├── データ転送中.AOB
+│   │   │   │   │   ├── データ転送失敗.AOB
+│   │   │   │   │   ├── 中.bmp
+│   │   │   │   │   ├── 抜かないで.bmp
+│   │   │   │   │   ├── 本体の電源.bmp
+│   │   │   │   │   ├── 確かめて.bmp
+│   │   │   │   │   ├── 通信エラー.AOB
+│   │   │   │   │   ├── 通信エラーです.bmp
+│   │   │   │   │   ├── 通信ケーブル.bmp
+│   │   │   │   │   ├── 通信中.AOB
+│   │   │   │   │   ├── 通信中.bmp
+│   │   │   │   │   ├── 通信追加.ACG
+│   │   │   │   │   └── 通信追加2.acg
+│   │   │   │   ├── p3_str_pal.c
+│   │   │   │   ├── p3_str_pal.h
+│   │   │   │   ├── p3_string.c
+│   │   │   │   ├── p3_string.h
+│   │   │   │   ├── pal2cimg.exe
+│   │   │   │   ├── sibaraku.bmp
+│   │   │   │   ├── str2c.bat
+│   │   │   │   ├── tashikamete.bmp
+│   │   │   │   ├── Thumbs.db
+│   │   │   │   ├── tuusincable.bmp
+│   │   │   │   ├── tuusinchuu.bmp
+│   │   │   │   ├── tuusinerrordesu.bmp
+│   │   │   │   ├── wo.bmp
+│   │   │   │   ├── wonukanaide.bmp
+│   │   │   │   └── yarinaosite.bmp
+│   │   │   ├── sub.c
+│   │   │   ├── sub.h
+│   │   │   ├── sub.o
+│   │   │   └── types.h
+│   │   ├── p4/
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── ras_aclear.c
+│   │   │   ├── ras_aclear.c.bak
+│   │   │   ├── ras_aclear.h
+│   │   │   └── ras_aclear.o
+│   │   ├── p5/
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── name_waku.c
+│   │   │   ├── name_waku.o
+│   │   │   ├── pwd_font_map.c
+│   │   │   ├── pwd_font_map.o
+│   │   │   ├── ras_passwd.c
+│   │   │   ├── ras_passwd.c.bak
+│   │   │   └── ras_passwd.o
+│   │   ├── p6/
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── p6_comp_lz_bmp.o
+│   │   │   ├── p6_pilot_comp_bmp.o
+│   │   │   ├── pilot/
+│   │   │   │   ├── comp.sh
+│   │   │   │   ├── makefile
+│   │   │   │   ├── megan192.bmp
+│   │   │   │   ├── megan192im.imb
+│   │   │   │   ├── megan192im_LZ_Huff.bin
+│   │   │   │   ├── megan192pl.plb
+│   │   │   │   └── megan192pl_LZ_Huff.bin
+│   │   │   ├── pilot_lz77/
+│   │   │   │   ├── alex192.bmp
+│   │   │   │   ├── alex192_LZ.bin
+│   │   │   │   ├── alex192im.imb
+│   │   │   │   ├── alex192im_LZ.bin
+│   │   │   │   ├── alex192pl.plb
+│   │   │   │   ├── alex192pl_LZ.bin
+│   │   │   │   ├── comet.bmp
+│   │   │   │   ├── comet_im.imb
+│   │   │   │   ├── comet_im_LZ.bin
+│   │   │   │   ├── comet_pl.plb
+│   │   │   │   ├── comet_pl_LZ.bin
+│   │   │   │   ├── comp_obj.sh
+│   │   │   │   ├── dagras192.bmp
+│   │   │   │   ├── dagras192im.imb
+│   │   │   │   ├── dagras192im_LZ.bin
+│   │   │   │   ├── dagras192pl.plb
+│   │   │   │   ├── dagras192pl_LZ.bin
+│   │   │   │   ├── dummy_.bmp
+│   │   │   │   ├── dummy_im.imb
+│   │   │   │   ├── dummy_im_LZ.bin
+│   │   │   │   ├── dummy_pl.plb
+│   │   │   │   ├── dummy_pl_LZ.bin
+│   │   │   │   ├── falcon.bmp
+│   │   │   │   ├── falcon_im.imb
+│   │   │   │   ├── falcon_im_LZ.bin
+│   │   │   │   ├── falcon_pl.plb
+│   │   │   │   ├── falcon_pl_LZ.bin
+│   │   │   │   ├── jane192.bmp
+│   │   │   │   ├── jane192im.imb
+│   │   │   │   ├── jane192im_LZ.bin
+│   │   │   │   ├── jane192pl.plb
+│   │   │   │   ├── jane192pl_LZ.bin
+│   │   │   │   ├── jet.bmp
+│   │   │   │   ├── jet_im.imb
+│   │   │   │   ├── jet_im_LZ.bin
+│   │   │   │   ├── jet_pl.plb
+│   │   │   │   ├── jet_pl_LZ.bin
+│   │   │   │   ├── libpilotbmp.bin
+│   │   │   │   ├── makefile
+│   │   │   │   ├── megan192.bmp
+│   │   │   │   ├── megan192.imb
+│   │   │   │   ├── megan192.plb
+│   │   │   │   ├── megan192im.imb
+│   │   │   │   ├── megan192im_LZ.bin
+│   │   │   │   ├── megan192pl.plb
+│   │   │   │   ├── megan192pl_LZ.bin
+│   │   │   │   ├── nich192.bmp
+│   │   │   │   ├── nich192im.imb
+│   │   │   │   ├── nich192im_LZ.bin
+│   │   │   │   ├── nich192pl.plb
+│   │   │   │   ├── nich192pl_LZ.bin
+│   │   │   │   ├── o/
+│   │   │   │   │   └── makefile
+│   │   │   │   ├── saiber192.bmp
+│   │   │   │   ├── saiber192_LZ.bin
+│   │   │   │   ├── saiber192im.imb
+│   │   │   │   ├── saiber192im_LZ.bin
+│   │   │   │   ├── saiber192pl.plb
+│   │   │   │   ├── saiber192pl_LZ.bin
+│   │   │   │   ├── silver.bmp
+│   │   │   │   ├── silver_bottom.bmp
+│   │   │   │   ├── silver_bottom_im.imb
+│   │   │   │   ├── silver_bottom_im_LZ.bin
+│   │   │   │   ├── silver_bottom_pl.plb
+│   │   │   │   ├── silver_bottom_pl_LZ.bin
+│   │   │   │   ├── silver_im.imb
+│   │   │   │   ├── silver_im_LZ.bin
+│   │   │   │   ├── silver_pl.plb
+│   │   │   │   ├── silver_pl_LZ.bin
+│   │   │   │   ├── silver_top.bmp
+│   │   │   │   ├── silver_top_im.imb
+│   │   │   │   ├── silver_top_im_LZ.bin
+│   │   │   │   ├── silver_top_pl.plb
+│   │   │   │   ├── silver_top_pl_LZ.bin
+│   │   │   │   ├── Thumbs.db
+│   │   │   │   └── trash/
+│   │   │   │       ├── Thumbs.db
+│   │   │   │       ├── ｺﾋﾟｰ (2) ～ silver.bmp
+│   │   │   │       ├── ｺﾋﾟｰ (4) ～ silver.bmp
+│   │   │   │       ├── ｺﾋﾟｰ ～ comp.sh
+│   │   │   │       └── ｺﾋﾟｰ ～ silver.bmp
+│   │   │   ├── pilot_lz77_rename/
+│   │   │   │   ├── comet.bmp
+│   │   │   │   ├── crazy.bmp
+│   │   │   │   ├── dirty.bmp
+│   │   │   │   ├── fire.bmp
+│   │   │   │   ├── hot.bmp
+│   │   │   │   ├── jb.bmp
+│   │   │   │   ├── sting.bmp
+│   │   │   │   └── Thumbs.db
+│   │   │   ├── ras_staff.c
+│   │   │   ├── ras_staff.c.bak
+│   │   │   ├── ras_staff.h
+│   │   │   ├── ras_staff.o
+│   │   │   ├── ras_staff_dat.c
+│   │   │   ├── ras_staff_dat.o
+│   │   │   └── trash/
+│   │   │       ├── Makefile
+│   │   │       └── tmp/
+│   │   │           └── pilot_lz77/
+│   │   │               ├── alex192.bmp
+│   │   │               ├── comet.bmp
+│   │   │               ├── comp_obj.sh
+│   │   │               ├── dagras192.bmp
+│   │   │               ├── dummy_.bmp
+│   │   │               ├── falcon.bmp
+│   │   │               ├── jane192.bmp
+│   │   │               ├── jet.bmp
+│   │   │               ├── libpilotbmp.bin
+│   │   │               ├── makefile
+│   │   │               ├── megan192.bmp
+│   │   │               ├── nich192.bmp
+│   │   │               ├── o/
+│   │   │               │   └── makefile
+│   │   │               ├── saiber192.bmp
+│   │   │               ├── silver.bmp
+│   │   │               ├── silver_bottom.bmp
+│   │   │               ├── silver_top.bmp
+│   │   │               ├── Thumbs.db
+│   │   │               ├── ｺﾋﾟｰ (2) ～ silver.bmp
+│   │   │               ├── ｺﾋﾟｰ (4) ～ silver.bmp
+│   │   │               ├── ｺﾋﾟｰ ～ comp.sh
+│   │   │               └── ｺﾋﾟｰ ～ silver.bmp
+│   │   ├── rsys/
+│   │   │   ├── controller.c
+│   │   │   ├── controller.h
+│   │   │   ├── controller.o
+│   │   │   ├── intr.c
+│   │   │   ├── intr.h
+│   │   │   ├── intr.o
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── Makefile.bak
+│   │   │   ├── msys.h
+│   │   │   ├── ramclear.h
+│   │   │   ├── sramclear.o
+│   │   │   ├── sramclear.s
+│   │   │   ├── sysinit.c
+│   │   │   └── sysinit.o
+│   │   ├── sio/
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── Makefile.bak
+│   │   │   ├── Makefile_mb
+│   │   │   ├── ras_sio.c
+│   │   │   ├── ras_sio.c.bak
+│   │   │   ├── ras_sio.h
+│   │   │   ├── ras_sio.o
+│   │   │   ├── ras_sio.s
+│   │   │   ├── sras_sio_mb.s
+│   │   │   └── trash.rar
+│   │   ├── sram/
+│   │   │   ├── Makedepend
+│   │   │   ├── Makefile
+│   │   │   ├── ras_rank_commu.txt
+│   │   │   ├── ras_sram.h
+│   │   │   ├── ras_sram_define.h
+│   │   │   ├── ras_sram_exc.c
+│   │   │   ├── ras_sram_exc.h
+│   │   │   ├── ras_sram_exc.o
+│   │   │   ├── ras_sram_item.c
+│   │   │   ├── ras_sram_item.o
+│   │   │   ├── ras_sram_main.c
+│   │   │   ├── ras_sram_main.o
+│   │   │   ├── ras_sram_rank.c
+│   │   │   ├── ras_sram_rank.h
+│   │   │   ├── ras_sram_rank.o
+│   │   │   ├── ボーナス条件.txt
+│   │   │   └── 記録するデータ.txt
+│   │   └── Thumbs.db
+│   └── vbalink.ini
+├── rasheen.map
+├── ﾐ霄ｺｻｯﾍｼﾆｬ/
+│   ├── p2_comp_bmp/
+│   │   ├── p2_sram_save_err.bmp
+│   │   ├── rasheen.bmp
+│   │   └── Thumbs.db
+│   ├── ｲﾋｵ･ﾍｼﾆｬ/
+│   │   ├── _7dot_bestlap.bmp
+│   │   ├── _7dot_bishop_0000.bmp
+│   │   ├── _7dot_bishop_0001.bmp
+│   │   ├── _7dot_bishop_0002.bmp
+│   │   ├── _7dot_bishop_0003.bmp
+│   │   ├── _7dot_bishop_0004.bmp
+│   │   ├── _7dot_knight_0000.bmp
+│   │   ├── _7dot_knight_0001.bmp
+│   │   ├── _7dot_knight_0002.bmp
+│   │   ├── _7dot_knight_0003.bmp
+│   │   ├── _7dot_knight_0004.bmp
+│   │   ├── _7dot_pawn_0000.bmp
+│   │   ├── _7dot_pawn_0001.bmp
+│   │   ├── _7dot_pawn_0002.bmp
+│   │   ├── _7dot_pawn_0003.bmp
+│   │   ├── _7dot_pawn_0004.bmp
+│   │   ├── _7dot_queen_0000.bmp
+│   │   ├── _7dot_queen_0001.bmp
+│   │   ├── _7dot_queen_0002.bmp
+│   │   ├── _7dot_queen_0003.bmp
+│   │   ├── _7dot_queen_0004.bmp
+│   │   ├── _lap10.bmp
+│   │   ├── bishop_area.bmp
+│   │   ├── boost_lv.bmp
+│   │   ├── bracket1.bmp
+│   │   ├── bracket4col_ofs.bmp
+│   │   ├── casette_0000.bmp
+│   │   ├── casette_0001.bmp
+│   │   ├── casette_0002.bmp
+│   │   ├── casette_0003.bmp
+│   │   ├── champ_0000.bmp
+│   │   ├── champ_0001.bmp
+│   │   ├── champ_0002.bmp
+│   │   ├── champ_ghost.bmp
+│   │   ├── champion_0000.bmp
+│   │   ├── champion_0001.bmp
+│   │   ├── champion_0002.bmp
+│   │   ├── champion_0003.bmp
+│   │   ├── champion_ofs_0000.bmp
+│   │   ├── champion_ofs_0001.bmp
+│   │   ├── champion_ofs_0002.bmp
+│   │   ├── champion_ofs_0003.bmp
+│   │   ├── clear_ofs_0000.bmp
+│   │   ├── clear_ofs_0001.bmp
+│   │   ├── clear_pwd.bmp
+│   │   ├── com.bmp
+│   │   ├── comet_0000_L.bmp
+│   │   ├── comet_0001_L.bmp
+│   │   ├── comet_0002_L.bmp
+│   │   ├── cp_champion_movie_0000.bmp
+│   │   ├── cp_champion_movie_0001.bmp
+│   │   ├── cp_champion_movie_0002.bmp
+│   │   ├── cp_champion_movie_0003.bmp
+│   │   ├── cp_champion_movie_0004.bmp
+│   │   ├── cp_ghost_replay_0000.bmp
+│   │   ├── cp_ghost_replay_0001.bmp
+│   │   ├── cp_ghost_replay_0002.bmp
+│   │   ├── cp_ghost_replay_0003.bmp
+│   │   ├── cp_time_attack_0000.bmp
+│   │   ├── cp_time_attack_0001.bmp
+│   │   ├── cp_time_attack_0002.bmp
+│   │   ├── crazy_0000.bmp
+│   │   ├── crazy_0000_L.bmp
+│   │   ├── crazy_0001.bmp
+│   │   ├── crazy_0001_L.bmp
+│   │   ├── crazy_0002_L.bmp
+│   │   ├── crazy_horse.bmp
+│   │   ├── crazy_horse_0000.bmp
+│   │   ├── crazy_horse_0001.bmp
+│   │   ├── crazy_horse_0002.bmp
+│   │   ├── dirty_0000.bmp
+│   │   ├── dirty_0000_L.bmp
+│   │   ├── dirty_0001.bmp
+│   │   ├── dirty_0001_L.bmp
+│   │   ├── dirty_0002_L.bmp
+│   │   ├── dirty_joker.bmp
+│   │   ├── dirty_joker_0000.bmp
+│   │   ├── dirty_joker_0001.bmp
+│   │   ├── dirty_joker_0002.bmp
+│   │   ├── end.bmp
+│   │   ├── entry_ofs_0000.bmp
+│   │   ├── entry_ofs_0001.bmp
+│   │   ├── falcon.bmp
+│   │   ├── falcon_0000.bmp
+│   │   ├── falcon_0000_L.bmp
+│   │   ├── falcon_0001.bmp
+│   │   ├── falcon_0001_L.bmp
+│   │   ├── falcon_0002_L.bmp
+│   │   ├── falcon_mk-2.bmp
+│   │   ├── falcon_mk-2_0000.bmp
+│   │   ├── falcon_mk-2_0001.bmp
+│   │   ├── falcon_mk-2_0002.bmp
+│   │   ├── falcon_mk-2_0003.bmp
+│   │   ├── fight_0000.bmp
+│   │   ├── fight_0001.bmp
+│   │   ├── fighting_comet.bmp
+│   │   ├── fighting_comet_0000.bmp
+│   │   ├── fighting_comet_0001.bmp
+│   │   ├── fighting_comet_0002.bmp
+│   │   ├── fighting_comet_0003.bmp
+│   │   ├── fire_0000.bmp
+│   │   ├── fire_0000_L.bmp
+│   │   ├── fire_0001.bmp
+│   │   ├── fire_0001_L.bmp
+│   │   ├── fire_0002_L.bmp
+│   │   ├── fire_ball.bmp
+│   │   ├── fire_ball_0000.bmp
+│   │   ├── fire_ball_0001.bmp
+│   │   ├── fire_ball_0002.bmp
+│   │   ├── for_agb.bmp
+│   │   ├── for_gameboy_advance.bmp
+│   │   ├── game_start_ofs_0000.bmp
+│   │   ├── game_start_ofs_0001.bmp
+│   │   ├── game_start_ofs_0002.bmp
+│   │   ├── grand_prix_ofs_0000.bmp
+│   │   ├── grand_prix_ofs_0001.bmp
+│   │   ├── honntaino_denngann_0000.bmp
+│   │   ├── honntaino_denngann_0001.bmp
+│   │   ├── honntaino_denngann_0002.bmp
+│   │   ├── hot_0000.bmp
+│   │   ├── hot_0000_L.bmp
+│   │   ├── hot_0001.bmp
+│   │   ├── hot_0001_L.bmp
+│   │   ├── hot_0002.bmp
+│   │   ├── hot_0002_L.bmp
+│   │   ├── hot_violet.bmp
+│   │   ├── hot_violet_0000.bmp
+│   │   ├── hot_violet_0001.bmp
+│   │   ├── hot_violet_0002.bmp
+│   │   ├── jb_0000_L.bmp
+│   │   ├── jb_0001_L.bmp
+│   │   ├── jb_0002_L.bmp
+│   │   ├── jb_crystal.bmp
+│   │   ├── jb_crystal_0000.bmp
+│   │   ├── jb_crystal_0001.bmp
+│   │   ├── jb_crystal_0002.bmp
+│   │   ├── jbc_0000.bmp
+│   │   ├── jbc_0001.bmp
+│   │   ├── jet_0000.bmp
+│   │   ├── jet_0000_L.bmp
+│   │   ├── jet_0001.bmp
+│   │   ├── jet_0001_L.bmp
+│   │   ├── jet_0002.bmp
+│   │   ├── jet_0002_L.bmp
+│   │   ├── jet_vermilion.bmp
+│   │   ├── jet_vermilion_0000.bmp
+│   │   ├── jet_vermilion_0001.bmp
+│   │   ├── jet_vermilion_0002.bmp
+│   │   ├── jet_vermilion_0003.bmp
+│   │   ├── kana_beginner.bmp
+│   │   ├── kana_beshop_0000.bmp
+│   │   ├── kana_beshop_0001.bmp
+│   │   ├── kana_beshop_0002.bmp
+│   │   ├── kana_beshop_0003.bmp
+│   │   ├── kana_class.bmp
+│   │   ├── kana_crazy_horse.bmp
+│   │   ├── kana_dirty_joker.bmp
+│   │   ├── kana_entry_cancel_ofs_0000.bmp
+│   │   ├── kana_entry_cancel_ofs_0001.bmp
+│   │   ├── kana_expert.bmp
+│   │   ├── kana_expert_0000.bmp
+│   │   ├── kana_expert_0001.bmp
+│   │   ├── kana_falcon_mk2.bmp
+│   │   ├── kana_fier_ball.bmp
+│   │   ├── kana_fighting_comet.bmp
+│   │   ├── kana_hot_violet.bmp
+│   │   ├── kana_jb_crystal.bmp
+│   │   ├── kana_jet_vermilion.bmp
+│   │   ├── kana_knight_0000.bmp
+│   │   ├── kana_knight_0001.bmp
+│   │   ├── kana_knight_0002.bmp
+│   │   ├── kana_knight_0003.bmp
+│   │   ├── kana_master.bmp
+│   │   ├── kana_pawn_0000.bmp
+│   │   ├── kana_pawn_0001.bmp
+│   │   ├── kana_pawn_0002.bmp
+│   │   ├── kana_queen_0000.bmp
+│   │   ├── kana_queen_0001.bmp
+│   │   ├── kana_queen_0002.bmp
+│   │   ├── kana_queen_0003.bmp
+│   │   ├── kana_series.bmp
+│   │   ├── kana_silver_thunder.bmp
+│   │   ├── kana_standard.bmp
+│   │   ├── kana_standard_0000.bmp
+│   │   ├── kana_standard_0001.bmp
+│   │   ├── kana_the_stingray.bmp
+│   │   ├── kim_b_0000.bmp
+│   │   ├── kim_b_0001.bmp
+│   │   ├── kim_g_0000.bmp
+│   │   ├── kim_g_0001.bmp
+│   │   ├── kim_r_0000.bmp
+│   │   ├── kim_r_0001.bmp
+│   │   ├── kim_y_0000.bmp
+│   │   ├── kim_y_0001.bmp
+│   │   ├── kim_y_0002.bmp
+│   │   ├── knight_area.bmp
+│   │   ├── kudasai_0000.bmp
+│   │   ├── kudasai_0001.bmp
+│   │   ├── load_error_msg0_0000.bmp
+│   │   ├── load_error_msg0_0001.bmp
+│   │   ├── load_error_msg1_0000.bmp
+│   │   ├── load_error_msg1_0001.bmp
+│   │   ├── load_error_msg1_0002.bmp
+│   │   ├── load_error_msg1_0003.bmp
+│   │   ├── load_error_msg2_0000.bmp
+│   │   ├── load_error_msg2_0001.bmp
+│   │   ├── load_error_msg3_0000.bmp
+│   │   ├── load_error_msg4_0000.bmp
+│   │   ├── load_error_msg4_0001.bmp
+│   │   ├── load_error_msg4_0002.bmp
+│   │   ├── load_error_msg4_0003.bmp
+│   │   ├── load_error_msg4_0004.bmp
+│   │   ├── ma_bo_00_0000.bmp
+│   │   ├── ma_bo_00_0001.bmp
+│   │   ├── ma_bo_00_0002.bmp
+│   │   ├── ma_bo_00_0003.bmp
+│   │   ├── ma_bo_00_value.bmp
+│   │   ├── ma_bo_01_value.bmp
+│   │   ├── ma_bo_02_value.bmp
+│   │   ├── ma_bo_03_value.bmp
+│   │   ├── ma_bo_04_value.bmp
+│   │   ├── ma_bo_05_value.bmp
+│   │   ├── ma_bo_06_value.bmp
+│   │   ├── ma_bo_07_value.bmp
+│   │   ├── ma_bo_08_value.bmp
+│   │   ├── ma_bo_09_value.bmp
+│   │   ├── ma_pickup_0000.bmp
+│   │   ├── ma_pickup_0001.bmp
+│   │   ├── ma_sp_00_0000.bmp
+│   │   ├── ma_sp_00_0001.bmp
+│   │   ├── ma_sp_00_0002.bmp
+│   │   ├── ma_tu_00_0000.bmp
+│   │   ├── ma_tu_00_0001.bmp
+│   │   ├── ma_tu_00_0002.bmp
+│   │   ├── ma_tu_value.bmp
+│   │   ├── machine_data.bmp
+│   │   ├── max_speed.bmp
+│   │   ├── multi_boot_ofs_0000.bmp
+│   │   ├── multi_boot_ofs_0001.bmp
+│   │   ├── multi_boot_ofs_0002.bmp
+│   │   ├── multi_boot_ofs_0003.bmp
+│   │   ├── multi_boot_ofs_0004.bmp
+│   │   ├── multi_vs_ofs_0000.bmp
+│   │   ├── multi_vs_ofs_0001.bmp
+│   │   ├── multi_vs_ofs_0002.bmp
+│   │   ├── multi_vs_ofs_0003.bmp
+│   │   ├── multi_vs_ofs_0004.bmp
+│   │   ├── no_setuzoku_wo_0000.bmp
+│   │   ├── no_setuzoku_wo_0001.bmp
+│   │   ├── nukanaide_0000.bmp
+│   │   ├── nukanaide_0001.bmp
+│   │   ├── nukanaide_0002.bmp
+│   │   ├── ok_0.bmp
+│   │   ├── ok_0000.bmp
+│   │   ├── ok_0001.bmp
+│   │   ├── op_accel.bmp
+│   │   ├── op_boost.bmp
+│   │   ├── op_brake.bmp
+│   │   ├── op_control_0000.bmp
+│   │   ├── op_control_0001.bmp
+│   │   ├── op_type.bmp
+│   │   ├── option_ofs_0000.bmp
+│   │   ├── option_ofs_0001.bmp
+│   │   ├── p2_msg0_0000.bmp
+│   │   ├── p2_msg0_0001.bmp
+│   │   ├── p2_msg0_0002.bmp
+│   │   ├── p2_msg0_0003.bmp
+│   │   ├── p2_msg0_0004.bmp
+│   │   ├── p2_msg0_0005.bmp
+│   │   ├── p2_msg1_0000.bmp
+│   │   ├── p2_msg1_0001.bmp
+│   │   ├── p2_msg1_0002.bmp
+│   │   ├── p2_msg1_0003.bmp
+│   │   ├── p2_msg1_0004.bmp
+│   │   ├── p2_msg1_0005.bmp
+│   │   ├── pawn_area.bmp
+│   │   ├── player_change_ofs_0000.bmp
+│   │   ├── player_change_ofs_0001.bmp
+│   │   ├── player_change_ofs_0002.bmp
+│   │   ├── player_change_ofs_0003.bmp
+│   │   ├── press_start.bmp
+│   │   ├── queen_area.bmp
+│   │   ├── rank_10th.bmp
+│   │   ├── rank_1st.bmp
+│   │   ├── rank_2nd.bmp
+│   │   ├── rank_3rd.bmp
+│   │   ├── rank_4th.bmp
+│   │   ├── rank_5th.bmp
+│   │   ├── rank_6th.bmp
+│   │   ├── rank_7th.bmp
+│   │   ├── rank_8th.bmp
+│   │   ├── rank_9th.bmp
+│   │   ├── ranking_ofs_0000.bmp
+│   │   ├── ranking_ofs_0001.bmp
+│   │   ├── replay_0000.bmp
+│   │   ├── replay_0001.bmp
+│   │   ├── s_nintendo.bmp
+│   │   ├── save_pwd.bmp
+│   │   ├── sil_0000.bmp
+│   │   ├── sil_0001.bmp
+│   │   ├── silver_0000_L.bmp
+│   │   ├── silver_0001_L.bmp
+│   │   ├── silver_0002_L.bmp
+│   │   ├── silver_boxer_0000.bmp
+│   │   ├── silver_boxer_0001.bmp
+│   │   ├── silver_boxer_0002.bmp
+│   │   ├── silver_thunder.bmp
+│   │   ├── silver_thunder_0000.bmp
+│   │   ├── silver_thunder_0001.bmp
+│   │   ├── silver_thunder_0002.bmp
+│   │   ├── silver_thunder_0003.bmp
+│   │   ├── sl_clear_beginner.bmp
+│   │   ├── sl_clear_expert.bmp
+│   │   ├── sl_clear_master.bmp
+│   │   ├── sl_clear_standard.bmp
+│   │   ├── sting_0000.bmp
+│   │   ├── sting_0000_L.bmp
+│   │   ├── sting_0001.bmp
+│   │   ├── sting_0001_L.bmp
+│   │   ├── sting_0002_L.bmp
+│   │   ├── tasikamete_0000.bmp
+│   │   ├── tasikamete_0001.bmp
+│   │   ├── the_stingray.bmp
+│   │   ├── the_stingray_0000.bmp
+│   │   ├── the_stingray_0001.bmp
+│   │   ├── the_stingray_0002.bmp
+│   │   ├── the_stingray_0003.bmp
+│   │   ├── Thumbs.db
+│   │   ├── total_0000.bmp
+│   │   ├── total_0001.bmp
+│   │   ├── training_ofs_0000.bmp
+│   │   ├── training_ofs_0001.bmp
+│   │   ├── training_ofs_0002.bmp
+│   │   ├── tu_coron.bmp
+│   │   ├── tuusinn_error_desu_0000.bmp
+│   │   ├── tuusinn_error_desu_0001.bmp
+│   │   ├── tuusinn_error_desu_0002.bmp
+│   │   ├── tuusinn_error_desu_0003.bmp
+│   │   ├── tuusinn_ke_buru_0000.bmp
+│   │   ├── tuusinn_ke_buru_0001.bmp
+│   │   ├── tuusinn_ke_buru_0002.bmp
+│   │   ├── tuusinn_ofs_0000.bmp
+│   │   ├── tuusinn_ofs_0001.bmp
+│   │   ├── tuusinntyuu_0000.bmp
+│   │   ├── tuusinntyuu_0001.bmp
+│   │   ├── vs_1_casette_ofs_0000.bmp
+│   │   ├── vs_1_casette_ofs_0001.bmp
+│   │   ├── vs_1_casette_ofs_0002.bmp
+│   │   ├── vs_1_casette_ofs_0003.bmp
+│   │   ├── vs_battle_ofs_0000.bmp
+│   │   ├── vs_battle_ofs_0001.bmp
+│   │   ├── vs_battle_ofs_0002.bmp
+│   │   ├── vs_beginner.bmp
+│   │   ├── vs_crazy_horse.bmp
+│   │   ├── vs_dirty_joker.bmp
+│   │   ├── vs_expert.bmp
+│   │   ├── vs_falcon_mk-2.bmp
+│   │   ├── vs_fighting_comet.bmp
+│   │   ├── vs_fire_ball.bmp
+│   │   ├── vs_hot_violet.bmp
+│   │   ├── vs_jb_crystal.bmp
+│   │   ├── vs_jet_vermilion.bmp
+│   │   ├── vs_master.bmp
+│   │   ├── vs_no_entry.bmp
+│   │   ├── vs_ok.bmp
+│   │   ├── vs_please_wait.bmp
+│   │   ├── vs_pressstart.bmp
+│   │   ├── vs_silver_thunder.bmp
+│   │   ├── vs_standerd.bmp
+│   │   ├── vs_the_stingray.bmp
+│   │   ├── weight.bmp
+│   │   ├── whicharea.bmp
+│   │   ├── whichclass.bmp
+│   │   ├── with_ghost.bmp
+│   │   ├── wo.bmp
+│   │   ├── wo_nukanaide_0000.bmp
+│   │   ├── wo_nukanaide_0001.bmp
+│   │   ├── wo_nukanaide_0002.bmp
+│   │   ├── ｺﾋﾟｰ ～ com.bmp
+│   │   ├── ｺﾋﾟｰ ～ dirty_joker.bmp
+│   │   ├── ｺﾋﾟｰ ～ falcon_mk-2.bmp
+│   │   ├── ｺﾋﾟｰ ～ fighting_comet.bmp
+│   │   ├── ｺﾋﾟｰ ～ fire_ball.bmp
+│   │   ├── ｺﾋﾟｰ ～ jb_crystal.bmp
+│   │   ├── ｺﾋﾟｰ ～ jet_vermilion.bmp
+│   │   ├── ｺﾋﾟｰ ～ kana_beginner.bmp
+│   │   ├── ｺﾋﾟｰ ～ kana_expert.bmp
+│   │   ├── ｺﾋﾟｰ ～ kana_master.bmp
+│   │   ├── ｺﾋﾟｰ ～ kana_standard.bmp
+│   │   ├── ｺﾋﾟｰ ～ silver_thunder.bmp
+│   │   └── ｺﾋﾟｰ ～ the_stingray.bmp
+│   └── ﾗﾖｷ逸ｮﾍｼﾆｬ/
+│       ├── chuu.bmp
+│       ├── datatensou.bmp
+│       ├── entry.bmp
+│       ├── hontainodengen.bmp
+│       ├── kudasai.bmp
+│       ├── mouichido.bmp
+│       ├── nisippaisimasita.bmp
+│       ├── nosetuzokuwo.bmp
+│       ├── nukanaide.bmp
+│       ├── OK.bmp
+│       ├── omachi.bmp
+│       └── Thumbs.db
+└── ﾐﾂｽｨﾎﾄｼｼﾐ/
+    ├── Makedepend
+    ├── makefile
+    ├── p2.o
+    ├── p2_comp_bmp.o
+    ├── p2_msg.o
+    ├── p2_msg0_0000.bmp
+    ├── p2_msg0_0000.o
+    ├── p2_msg0_0000.RL
+    ├── p2_msg0_0000_RL.c
+    ├── p2_msg0_0000_RL.o
+    ├── readbianary.exe
+    ├── Thumbs.db
+    └── ﾋｵﾃ・txt

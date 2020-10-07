@@ -1,0 +1,3002 @@
+os20l/
+├── .git/
+├── exegcc/
+│   ├── EXEW32.EXE
+│   ├── LD.OUT
+│   ├── MAKE.OUT
+│   ├── MILD.OUT
+│   ├── MILD.TXT
+│   └── README.TXT
+├── extracted/
+│   ├── setup.bat
+│   ├── setupgcc.bat
+│   ├── setuplib.bat
+│   └── usr/
+│       ├── include/
+│       │   ├── assert.h
+│       │   ├── make/
+│       │   │   ├── celfdefs
+│       │   │   ├── celfrules
+│       │   │   ├── commonrules
+│       │   │   └── PRdefs
+│       │   ├── PR/
+│       │   │   ├── abi.h
+│       │   │   ├── gbi.h
+│       │   │   ├── gs2dex.h
+│       │   │   ├── gt.h
+│       │   │   ├── gu.h
+│       │   │   ├── leo.h
+│       │   │   ├── leoappli.h
+│       │   │   ├── libaudio.h
+│       │   │   ├── mbi.h
+│       │   │   ├── n_libaudio.h
+│       │   │   ├── n_libaudio_s_to_n.h
+│       │   │   ├── os.h
+│       │   │   ├── os_ai.h
+│       │   │   ├── os_cache.h
+│       │   │   ├── os_cont.h
+│       │   │   ├── os_convert.h
+│       │   │   ├── os_debug.h
+│       │   │   ├── os_eeprom.h
+│       │   │   ├── os_error.h
+│       │   │   ├── os_exception.h
+│       │   │   ├── os_flash.h
+│       │   │   ├── os_gbpak.h
+│       │   │   ├── os_gio.h
+│       │   │   ├── os_host.h
+│       │   │   ├── os_internal.h
+│       │   │   ├── os_internal_debug.h
+│       │   │   ├── os_internal_error.h
+│       │   │   ├── os_internal_exception.h
+│       │   │   ├── os_internal_gio.h
+│       │   │   ├── os_internal_host.h
+│       │   │   ├── os_internal_reg.h
+│       │   │   ├── os_internal_rsp.h
+│       │   │   ├── os_internal_si.h
+│       │   │   ├── os_internal_thread.h
+│       │   │   ├── os_internal_tlb.h
+│       │   │   ├── os_libc.h
+│       │   │   ├── os_message.h
+│       │   │   ├── os_motor.h
+│       │   │   ├── os_pfs.h
+│       │   │   ├── os_pi.h
+│       │   │   ├── os_rdp.h
+│       │   │   ├── os_reg.h
+│       │   │   ├── os_rsp.h
+│       │   │   ├── os_si.h
+│       │   │   ├── os_system.h
+│       │   │   ├── os_thread.h
+│       │   │   ├── os_time.h
+│       │   │   ├── os_tlb.h
+│       │   │   ├── os_version.h
+│       │   │   ├── os_vi.h
+│       │   │   ├── os_voice.h
+│       │   │   ├── PRimage.h
+│       │   │   ├── R4300.h
+│       │   │   ├── ramrom.h
+│       │   │   ├── rcp.h
+│       │   │   ├── rdb.h
+│       │   │   ├── region.h
+│       │   │   ├── rmon.h
+│       │   │   ├── sched.h
+│       │   │   ├── sp.h
+│       │   │   ├── sptask.h
+│       │   │   ├── ucode.h
+│       │   │   ├── ucode_debug.h
+│       │   │   ├── ultraerror.h
+│       │   │   ├── ultralog.h
+│       │   │   ├── ultratypes.h
+│       │   │   └── uportals.h
+│       │   ├── sys/
+│       │   │   ├── u64driver.h
+│       │   │   └── u64gio.h
+│       │   ├── ultra64.h
+│       │   └── ultrahost.h
+│       ├── lib/
+│       │   ├── Borland/
+│       │   │   └── hostiopc.lib
+│       │   ├── libgn_audio.a
+│       │   ├── libgn_audio_d.a
+│       │   ├── libgultra.a
+│       │   ├── libgultra_d.a
+│       │   ├── libgultra_rom.a
+│       │   ├── libleo.a
+│       │   ├── libleo_d.a
+│       │   ├── Microsoft/
+│       │   │   └── hostiopc.lib
+│       │   └── PR/
+│       │       ├── aspMain.o
+│       │       ├── Boot
+│       │       ├── convert.o
+│       │       ├── dn
+│       │       ├── error.fmt
+│       │       ├── font
+│       │       ├── gcord
+│       │       ├── gspF3DEX.fifo.o
+│       │       ├── gspF3DEX.NoN.fifo.o
+│       │       ├── gspF3DEX2.fifo.o
+│       │       ├── gspF3DEX2.NoN.fifo.o
+│       │       ├── gspF3DEX2.NoN.xbus.o
+│       │       ├── gspF3DEX2.Rej.fifo.o
+│       │       ├── gspF3DEX2.Rej.xbus.o
+│       │       ├── gspF3DEX2.xbus.o
+│       │       ├── gspF3DEX2d.fifo.o
+│       │       ├── gspF3DEX2d.NoN.fifo.o
+│       │       ├── gspF3DEX2d.NoN.xbus.o
+│       │       ├── gspF3DEX2d.Rej.fifo.o
+│       │       ├── gspF3DEX2d.Rej.xbus.o
+│       │       ├── gspF3DEX2d.xbus.o
+│       │       ├── gspF3DLP.Rej.fifo.o
+│       │       ├── gspF3DLX.fifo.o
+│       │       ├── gspF3DLX.NoN.fifo.o
+│       │       ├── gspF3DLX.Rej.fifo.o
+│       │       ├── gspF3DLX2.Rej.fifo.o
+│       │       ├── gspF3DLX2.Rej.xbus.o
+│       │       ├── gspF3DLX2d.Rej.fifo.o
+│       │       ├── gspF3DLX2d.Rej.xbus.o
+│       │       ├── gspF3DNoN.dram.o
+│       │       ├── gspF3DNoN.fifo.o
+│       │       ├── gspF3DNoN.o
+│       │       ├── gspFast3D.dram.o
+│       │       ├── gspFast3D.fifo.o
+│       │       ├── gspFast3D.o
+│       │       ├── gspL3DEX.fifo.o
+│       │       ├── gspL3DEX2.fifo.o
+│       │       ├── gspL3DEX2.xbus.o
+│       │       ├── gspL3DEX2d.fifo.o
+│       │       ├── gspL3DEX2d.xbus.o
+│       │       ├── gspLine3D.dram.o
+│       │       ├── gspLine3D.fifo.o
+│       │       ├── gspLine3D.o
+│       │       ├── gspS2DEX.fifo.o
+│       │       ├── gspS2DEX.fifo_d.o
+│       │       ├── gspS2DEX2.fifo.o
+│       │       ├── gspS2DEX2.xbus.o
+│       │       ├── gspS2DEX2d.fifo.o
+│       │       ├── gspS2DEX2d.xbus.o
+│       │       ├── gspSprite2D.dram.o
+│       │       ├── gspSprite2D.fifo.o
+│       │       ├── gspSprite2D.o
+│       │       ├── gspTurbo3D.dram.o
+│       │       ├── gspTurbo3D.fifo.o
+│       │       ├── gspTurbo3D.o
+│       │       ├── ipl4rom
+│       │       ├── n_aspMain.o
+│       │       ├── nld
+│       │       ├── pif2Boot
+│       │       ├── romheader
+│       │       ├── rspboot.o
+│       │       ├── sequences/
+│       │       │   ├── BassDrive.cmf
+│       │       │   ├── BassDrive.seq
+│       │       │   ├── cmpship.sbk
+│       │       │   ├── Midnight.cmf
+│       │       │   ├── Midnight.seq
+│       │       │   ├── ship.sbk
+│       │       │   ├── Sweeps.cmf
+│       │       │   ├── Sweeps.seq
+│       │       │   ├── TechnoRiff.cmf
+│       │       │   └── TechnoRiff.seq
+│       │       ├── soundbanks/
+│       │       │   ├── GenMidi44k.ctl
+│       │       │   ├── GenMidi44k.sym
+│       │       │   ├── GenMidi44k.tbl
+│       │       │   ├── GenMidiBank.ctl
+│       │       │   ├── GenMidiBank.sym
+│       │       │   ├── GenMidiBank.tbl
+│       │       │   ├── GenMidiRaw.ctl
+│       │       │   ├── GenMidiRaw.sym
+│       │       │   ├── GenMidiRaw.tbl
+│       │       │   ├── imp.ctl
+│       │       │   ├── imp.sym
+│       │       │   ├── imp.tbl
+│       │       │   ├── sfx.ctl
+│       │       │   ├── sfx.sym
+│       │       │   ├── sfx.tbl
+│       │       │   ├── tone.ctl
+│       │       │   ├── tone.sym
+│       │       │   └── tone.tbl
+│       │       ├── sounds/
+│       │       │   ├── Ac_Bass_C3.22k.aifc
+│       │       │   ├── Ac_Bass_C3.aifc
+│       │       │   ├── Accordian_A5.23k.aifc
+│       │       │   ├── Accordian_A5.aifc
+│       │       │   ├── Accordian_G4.22k.aifc
+│       │       │   ├── Accordian_G4.aifc
+│       │       │   ├── AcSnare.22k.aifc
+│       │       │   ├── AcSnare_1.aifc
+│       │       │   ├── Agogo.20k.aifc
+│       │       │   ├── Agogo_1.aifc
+│       │       │   ├── Airhorn.22k.aifc
+│       │       │   ├── AltoSax_Bb4.22k.aifc
+│       │       │   ├── AltoSax_Bb4.aifc
+│       │       │   ├── Applause.22k.aifc
+│       │       │   ├── Atmosphere_C5.22k.aifc
+│       │       │   ├── Atmosphere_C5.aifc
+│       │       │   ├── Bagpipes_F4.17k.aifc
+│       │       │   ├── Bandoneon_F5.24k.aifc
+│       │       │   ├── Bandoneon_F5.aifc
+│       │       │   ├── Banjo_G4.17k.aifc
+│       │       │   ├── BariSax_C3.22k.aifc
+│       │       │   ├── BariSax_C3.aifc
+│       │       │   ├── BassLead_C5.22k.aifc
+│       │       │   ├── BassLead_C5.aifc
+│       │       │   ├── Bassoon_G3.22k.aifc
+│       │       │   ├── Bassoon_G3.aifc
+│       │       │   ├── BellTree.44k.aifc
+│       │       │   ├── Birdtweet.22k.aifc
+│       │       │   ├── Block.17k.aifc
+│       │       │   ├── Block_1.aifc
+│       │       │   ├── Bodyhit.14k.aifc
+│       │       │   ├── Bongo.15k.aifc
+│       │       │   ├── Bongo_1.aifc
+│       │       │   ├── BottleBlow2_C5.17k.aifc
+│       │       │   ├── BottleBlow2_C5.aifc
+│       │       │   ├── BowedGlass_C5.22k.aifc
+│       │       │   ├── BowedGlass_C5.aifc
+│       │       │   ├── BrassSect_C5.22k.aifc
+│       │       │   ├── BrassSect_C5.aifc
+│       │       │   ├── BrassSect_E4.22k.aifc
+│       │       │   ├── BrassSect_E4.aifc
+│       │       │   ├── Breath_G5.22k.aifc
+│       │       │   ├── Brightness6_C5.22k.aifc
+│       │       │   ├── Brightness6_C5.aifc
+│       │       │   ├── Cabasa.26k.aifc
+│       │       │   ├── Cabasa_1.aifc
+│       │       │   ├── Calliope_C5.22k.aifc
+│       │       │   ├── Calliope_C5.aifc
+│       │       │   ├── Castanet.19k.aifc
+│       │       │   ├── Castanet_1.aifc
+│       │       │   ├── Celeste_Bb4.22k.aifc
+│       │       │   ├── Celeste_Bb4.aifc
+│       │       │   ├── Celeste_C4.22k.aifc
+│       │       │   ├── Celeste_C4.aifc
+│       │       │   ├── Celeste_C6.29k.aifc
+│       │       │   ├── Celeste_C6.aifc
+│       │       │   ├── Celeste_F5.26k.aifc
+│       │       │   ├── Celeste_F5.aifc
+│       │       │   ├── Cello_A3.22k.aifc
+│       │       │   ├── Cello_A3.aifc
+│       │       │   ├── Cello_Bb1.22k.aifc
+│       │       │   ├── Cello_Bb1.aifc
+│       │       │   ├── Cello_C3.22k.aifc
+│       │       │   ├── Cello_C3.aifc
+│       │       │   ├── Cello_F2.22k.aifc
+│       │       │   ├── Cello_F2.aifc
+│       │       │   ├── Charang_C5.22k.aifc
+│       │       │   ├── Charang_C5.aifc
+│       │       │   ├── ChiffLead_C5.22k.aifc
+│       │       │   ├── ChiffLead_C5.aifc
+│       │       │   ├── ChinaCymbal.20k.aifc
+│       │       │   ├── ChinaCymbal_1.aifc
+│       │       │   ├── ChoirAhhs_C4.22k.aifc
+│       │       │   ├── ChoirAhhs_C4.aifc
+│       │       │   ├── ChoirAhhs_C5.22k.aifc
+│       │       │   ├── ChoirAhhs_C5.aifc
+│       │       │   ├── ChoirAhhs_F3.22k.aifc
+│       │       │   ├── ChoirAhhs_F3.aifc
+│       │       │   ├── ChoirAhhs_F5.22k.aifc
+│       │       │   ├── ChoirAhhs_F5.aifc
+│       │       │   ├── ChoirAhhs_G4.22k.aifc
+│       │       │   ├── ChoirAhhs_G4.aifc
+│       │       │   ├── ChoirOohs_C4.22k.aifc
+│       │       │   ├── ChoirOohs_C4.aifc
+│       │       │   ├── ChoirOohs_C5.22k.aifc
+│       │       │   ├── ChoirOohs_C5.aifc
+│       │       │   ├── ChoirOohs_G3.22k.aifc
+│       │       │   ├── ChoirOohs_G3.aifc
+│       │       │   ├── ChoirOohs_G4.22k.aifc
+│       │       │   ├── ChoirOohs_G4.aifc
+│       │       │   ├── ChoirOohs_G5.22k.aifc
+│       │       │   ├── ChoirOohs_G5.aifc
+│       │       │   ├── Clarinet_C5.22k.aifc
+│       │       │   ├── Clarinet_C5.aifc
+│       │       │   ├── Claves.15k.aifc
+│       │       │   ├── Claves_1.aifc
+│       │       │   ├── ClosedHat_2.22k.aifc
+│       │       │   ├── ClosedHat_2.aifc
+│       │       │   ├── CongaHi.16k.aifc
+│       │       │   ├── CongaHi_1.aifc
+│       │       │   ├── Cowbell.20k.aifc
+│       │       │   ├── Cowbell_1.aifc
+│       │       │   ├── Crash.20k.aifc
+│       │       │   ├── Crash_1.aifc
+│       │       │   ├── Crystal_C5.22k.aifc
+│       │       │   ├── Crystal_C5.aifc
+│       │       │   ├── Cuica.16k.aifc
+│       │       │   ├── Cuica_1.aifc
+│       │       │   ├── DistGtr_A3.22k.aifc
+│       │       │   ├── DistGtr_A3.aifc
+│       │       │   ├── DistGtr_A5.22k.aifc
+│       │       │   ├── DistGtr_A5.aifc
+│       │       │   ├── DistGtr_C5.22k.aifc
+│       │       │   ├── DistGtr_C5.aifc
+│       │       │   ├── DistGtr_E4.22k.aifc
+│       │       │   ├── DistGtr_E4.aifc
+│       │       │   ├── DistGtr_F6.24k.aifc
+│       │       │   ├── DistGtr_F6.aifc
+│       │       │   ├── DrawBarOrgan_C6.31k.aifc
+│       │       │   ├── DrawBarOrgan_C6.aifc
+│       │       │   ├── Dulcimer_C5.22k.aifc
+│       │       │   ├── Dulcimer_C5.aifc
+│       │       │   ├── EchoDrops_C5.22k.aifc
+│       │       │   ├── EchoDrops_C5.aifc
+│       │       │   ├── ElecPiano1_C5.22k.aifc
+│       │       │   ├── ElecPiano1_C5.aifc
+│       │       │   ├── ElecPiano1_C6.22k.aifc
+│       │       │   ├── ElecPiano1_C6.aifc
+│       │       │   ├── ElecSnare1.22k.aifc
+│       │       │   ├── ElecSnare_1.aifc
+│       │       │   ├── EngHorn_C5.22k.aifc
+│       │       │   ├── EngHorn_C5.aifc
+│       │       │   ├── FingerBass_G3.22k.aifc
+│       │       │   ├── FingerBass_G3.aifc
+│       │       │   ├── FloorTom.18k.aifc
+│       │       │   ├── FloorTom_1.aifc
+│       │       │   ├── Flute_C6.18k.aifc
+│       │       │   ├── Flute_C6.aifc
+│       │       │   ├── Fretless_C3.22k.aifc
+│       │       │   ├── Fretless_C3.aifc
+│       │       │   ├── FretNoise.aifc
+│       │       │   ├── FrHorn_F4.22k.aifc
+│       │       │   ├── FrHorn_F4.aifc
+│       │       │   ├── Glock_Bb4.23k.aifc
+│       │       │   ├── Glock_Bb4.aifc
+│       │       │   ├── Glock_C4.19k.aifc
+│       │       │   ├── Glock_C4.aifc
+│       │       │   ├── Glock_C6.33k.aifc
+│       │       │   ├── Glock_C6.aifc
+│       │       │   ├── Glock_F5.27k.aifc
+│       │       │   ├── Glock_F5.aifc
+│       │       │   ├── GMPiano_Bb2.16k.aifc
+│       │       │   ├── GMPiano_Bb2.aifc
+│       │       │   ├── GMPiano_C2.18k.aifc
+│       │       │   ├── GMPiano_C2.aifc
+│       │       │   ├── GMPiano_C4.22k.aifc
+│       │       │   ├── GMPiano_C4.aifc
+│       │       │   ├── GMPiano_C5.22k.aifc
+│       │       │   ├── GMPiano_C5.aifc
+│       │       │   ├── GMPiano_C6.18k.aifc
+│       │       │   ├── GMPiano_C6.aifc
+│       │       │   ├── GMPiano_F3.19k.aifc
+│       │       │   ├── GMPiano_F3.aifc
+│       │       │   ├── GMPiano_G4.22k.aifc
+│       │       │   ├── GMPiano_G4.aifc
+│       │       │   ├── GMPiano_G5.22k.aifc
+│       │       │   ├── GMPiano_G5.aifc
+│       │       │   ├── Goblins_C5.22k.aifc
+│       │       │   ├── Goblins_C5.aifc
+│       │       │   ├── Grunt.22k.aifc
+│       │       │   ├── GtrHarmonic_C5.15k.aifc
+│       │       │   ├── GtrHarmonic_C5.aifc
+│       │       │   ├── Guiro.17k.aifc
+│       │       │   ├── Guiro_1.aifc
+│       │       │   ├── GunShot.22k.aifc
+│       │       │   ├── HaloPad_C5.22k.aifc
+│       │       │   ├── HaloPad_C5.aifc
+│       │       │   ├── HandClaps.22k.aifc
+│       │       │   ├── HandClaps_1.aifc
+│       │       │   ├── Harmonica_F5.31k.aifc
+│       │       │   ├── Harmonica_F5.aifc
+│       │       │   ├── Harp_E5.16k.aifc
+│       │       │   ├── Harp_E5.aifc
+│       │       │   ├── Harpsichord_A3.22k.aifc
+│       │       │   ├── Harpsichord_A3.aifc
+│       │       │   ├── Harpsichord_C5.31k.aifc
+│       │       │   ├── Harpsichord_C5.aifc
+│       │       │   ├── Harpsichord_C6.31k.aifc
+│       │       │   ├── Harpsichord_C6.aifc
+│       │       │   ├── Harpsichord_F4.24k.aifc
+│       │       │   ├── Harpsichord_F4.aifc
+│       │       │   ├── Harpsichord_Gb5.26k.aifc
+│       │       │   ├── Harpsichord_Gb5.aifc
+│       │       │   ├── Helicopter.22k.aifc
+│       │       │   ├── IceRain_C5.22k.aifc
+│       │       │   ├── IceRain_C5.aifc
+│       │       │   ├── imp.aifc
+│       │       │   ├── JazzGtr_Db6.22k.aifc
+│       │       │   ├── JazzGtr_Db6.aifc
+│       │       │   ├── JazzGtr_E5.22k.aifc
+│       │       │   ├── JazzGtr_E5.aifc
+│       │       │   ├── JazzGtr_G4.22k.aifc
+│       │       │   ├── JazzGtr_G4.aifc
+│       │       │   ├── JingleBells.44k.aifc
+│       │       │   ├── Kalimba_C5.22k.aifc
+│       │       │   ├── Kalimba_C5.aifc
+│       │       │   ├── Kick1.16k.aifc
+│       │       │   ├── Kick2.17k.aifc
+│       │       │   ├── Kick_1.aifc
+│       │       │   ├── Kick_2.aifc
+│       │       │   ├── Koto_C5.22k.aifc
+│       │       │   ├── Koto_C5.aifc
+│       │       │   ├── Maracas.27k.aifc
+│       │       │   ├── Maracas_1.aifc
+│       │       │   ├── Marimba_Bb4.22k.aifc
+│       │       │   ├── Marimba_Bb4.aifc
+│       │       │   ├── Marimba_C4.22k.aifc
+│       │       │   ├── Marimba_C4.aifc
+│       │       │   ├── Marimba_C6.22k.aifc
+│       │       │   ├── Marimba_C6.aifc
+│       │       │   ├── Marimba_F5.22k.aifc
+│       │       │   ├── Marimba_F5.aifc
+│       │       │   ├── MetalicPad_C5.22k.aifc
+│       │       │   ├── MetalicPad_C5.aifc
+│       │       │   ├── Music_Box_C5.20k.aifc
+│       │       │   ├── Music_Box_C5.aifc
+│       │       │   ├── MuteConga.18k.aifc
+│       │       │   ├── MuteConga_1.aifc
+│       │       │   ├── MuteTrmpt_Bb5.22k.aifc
+│       │       │   ├── MuteTrmpt_Bb5.aifc
+│       │       │   ├── MuteTrmpt_C5.22k.aifc
+│       │       │   ├── MuteTrmpt_C5.aifc
+│       │       │   ├── MuteTrmpt_F5.22k.aifc
+│       │       │   ├── MuteTrmpt_F5.aifc
+│       │       │   ├── NewAgePad_C5.22k.aifc
+│       │       │   ├── NewAgePad_C5.aifc
+│       │       │   ├── NewAgePad_C6.aifc
+│       │       │   ├── NylonStrGtr_B4.15k.aifc
+│       │       │   ├── NylonStrGtr_B4.aifc
+│       │       │   ├── NylonStrGtr_Db6.19k.aifc
+│       │       │   ├── NylonStrGtr_Db6.aifc
+│       │       │   ├── NylonStrGtr_Gb5.17k.aifc
+│       │       │   ├── NylonStrGtr_Gb5.aifc
+│       │       │   ├── Oboe_C5.17k.aifc
+│       │       │   ├── Oboe_C5.aifc
+│       │       │   ├── Ocarina_C5.15k.aifc
+│       │       │   ├── Ocarina_C5.aifc
+│       │       │   ├── OpenHat.22k.aifc
+│       │       │   ├── OpenHat_1.aifc
+│       │       │   ├── OrchHit_C4.18k.aifc
+│       │       │   ├── OrchHit_C4.aifc
+│       │       │   ├── OverDrvGtr_A3.19k.aifc
+│       │       │   ├── OverDrvGtr_A3.aifc
+│       │       │   ├── OverDrvGtr_A5.19k.aifc
+│       │       │   ├── OverDrvGtr_A5.aifc
+│       │       │   ├── OverDrvGtr_C5.19k.aifc
+│       │       │   ├── OverDrvGtr_C5.aifc
+│       │       │   ├── OverDrvGtr_E4.19k.aifc
+│       │       │   ├── OverDrvGtr_E4.aifc
+│       │       │   ├── PanFlute2_C5.20k.aifc
+│       │       │   ├── PanFlute2_C5.aifc
+│       │       │   ├── PercOrgan_C6.18k.aifc
+│       │       │   ├── PercOrgan_C6.aifc
+│       │       │   ├── PickBass_C3.22k.aifc
+│       │       │   ├── PickBass_C3.aifc
+│       │       │   ├── PipeOrgan_A5.22k.aifc
+│       │       │   ├── PipeOrgan_A5.aifc
+│       │       │   ├── PipeOrgan_C5.22k.aifc
+│       │       │   ├── PipeOrgan_C5.aifc
+│       │       │   ├── PipeOrgan_E4.22k.aifc
+│       │       │   ├── PipeOrgan_E4.aifc
+│       │       │   ├── PipeOrgan_G3.22k.aifc
+│       │       │   ├── PipeOrgan_G3.aifc
+│       │       │   ├── Pizzicato_C5.17k.aifc
+│       │       │   ├── Pizzicato_C5.aifc
+│       │       │   ├── PnchThrw.44k.aifc
+│       │       │   ├── Polysynth2_C5.22k.aifc
+│       │       │   ├── Polysynth2_C5.aifc
+│       │       │   ├── Recorder_G5.17k.aifc
+│       │       │   ├── Recorder_G5.aifc
+│       │       │   ├── ReedOrgan_G5.22k.aifc
+│       │       │   ├── ReedOrgan_G5.aifc
+│       │       │   ├── RevCymbal.22k.aifc
+│       │       │   ├── RevCymbal_1.aifc
+│       │       │   ├── Ride.22k.aifc
+│       │       │   ├── Ride_1.aifc
+│       │       │   ├── RockOrgan_C6.24k.aifc
+│       │       │   ├── RockOrgan_C6.aifc
+│       │       │   ├── SawFifths_C5.22k.aifc
+│       │       │   ├── SawFifths_C5.aifc
+│       │       │   ├── SawWave2_C5.22k.aifc
+│       │       │   ├── SawWave2_C5.aifc
+│       │       │   ├── SeaShore.22k.aifc
+│       │       │   ├── Select.6k.aifc
+│       │       │   ├── Shakuhachi_C5.16k.aifc
+│       │       │   ├── Shakuhachi_C5.aifc
+│       │       │   ├── Shamison_C5.19k.aifc
+│       │       │   ├── Shanai_C5.22k.aifc
+│       │       │   ├── SideStick.22k.aifc
+│       │       │   ├── SideStick_1.aifc
+│       │       │   ├── sin.aifc
+│       │       │   ├── Sitar2_G4.20k.aifc
+│       │       │   ├── Skate.22k.aifc
+│       │       │   ├── SkateStop.11k.aifc
+│       │       │   ├── SlapBass1_C3.22k.aifc
+│       │       │   ├── SlapBass1_C3.aifc
+│       │       │   ├── SlapBass2_C3.22k.aifc
+│       │       │   ├── SlapBass2_C3.aifc
+│       │       │   ├── Slapshot.11k.aifc
+│       │       │   ├── Snare.17k.aifc
+│       │       │   ├── Snare_1.aifc
+│       │       │   ├── SoloVoice_C5.22k.aifc
+│       │       │   ├── SoloVoice_C5.aifc
+│       │       │   ├── SopSax_F5.23k.aifc
+│       │       │   ├── SopSax_F5.aifc
+│       │       │   ├── Soundtrack_C5.22k.aifc
+│       │       │   ├── Soundtrack_C5.aifc
+│       │       │   ├── SpaceVoice_C5.22k.aifc
+│       │       │   ├── SpaceVoice_C5.aifc
+│       │       │   ├── SqrWave_C5.22k.aifc
+│       │       │   ├── SqrWave_C5.aifc
+│       │       │   ├── StarTheme_C5.22k.aifc
+│       │       │   ├── StarTheme_C5.aifc
+│       │       │   ├── StDrum_C4.22k.aifc
+│       │       │   ├── StDrum_C5.22k.aifc
+│       │       │   ├── StlStrGtr_Db6.22k.aifc
+│       │       │   ├── StlStrGtr_Db6.aifc
+│       │       │   ├── StlStrGtr_E5.22k.aifc
+│       │       │   ├── StlStrGtr_E5.aifc
+│       │       │   ├── StlStrGtr_G4.22k.aifc
+│       │       │   ├── StlStrGtr_G4.aifc
+│       │       │   ├── Strings_Ab3.22k.aifc
+│       │       │   ├── Strings_Ab3.aifc
+│       │       │   ├── Strings_C6.22k.aifc
+│       │       │   ├── Strings_C6.aifc
+│       │       │   ├── Strings_D5.22k.aifc
+│       │       │   ├── Strings_D5.aifc
+│       │       │   ├── Strings_E4.22k.aifc
+│       │       │   ├── Strings_E4.aifc
+│       │       │   ├── Strings_Gb4.22k.aifc
+│       │       │   ├── Strings_Gb4.aifc
+│       │       │   ├── Surdo.16k.aifc
+│       │       │   ├── Surdo_1.aifc
+│       │       │   ├── SweepPad_C5.22k.aifc
+│       │       │   ├── SweepPad_C5.aifc
+│       │       │   ├── SynBass1_G3.22k.aifc
+│       │       │   ├── SynBass1_G3.aifc
+│       │       │   ├── SynBass3_G3.22k.aifc
+│       │       │   ├── SynBass3_G3.aifc
+│       │       │   ├── SynBrass2_C5.22k.aifc
+│       │       │   ├── SynBrass2_C5.aifc
+│       │       │   ├── SynBrass4_C5.24k.aifc
+│       │       │   ├── SynBrass4_C5.aifc
+│       │       │   ├── SynthDrum.22k.aifc
+│       │       │   ├── SynthDrum_1.aifc
+│       │       │   ├── SynthStr3_C5.18k.aifc
+│       │       │   ├── SynthStr3_C5.aifc
+│       │       │   ├── SynthStr4_C5.31k.aifc
+│       │       │   ├── SynthStr4_C5.aifc
+│       │       │   ├── SynthVoice_F4.13k.aifc
+│       │       │   ├── SynthVoice_F4.aifc
+│       │       │   ├── Taiko.22k.aifc
+│       │       │   ├── Taiko_1.aifc
+│       │       │   ├── Tamborine.24k.aifc
+│       │       │   ├── Tamborine_1.aifc
+│       │       │   ├── Telephone3.aifc
+│       │       │   ├── TenorSax_C4.22k.aifc
+│       │       │   ├── TenorSax_C4.aifc
+│       │       │   ├── Timbale.18k.aifc
+│       │       │   ├── Timbale_1.aifc
+│       │       │   ├── Timpani_C3.15k.aifc
+│       │       │   ├── Timpani_C3.aifc
+│       │       │   ├── Triangle.24k.aifc
+│       │       │   ├── Triangle_1.aifc
+│       │       │   ├── Trombone_C4.22k.aifc
+│       │       │   ├── Trombone_C4.aifc
+│       │       │   ├── Trombone_F3.22k.aifc
+│       │       │   ├── Trombone_F3.aifc
+│       │       │   ├── Trumpet_A4.22k.aifc
+│       │       │   ├── Trumpet_A4.aifc
+│       │       │   ├── Trumpet_A5.20k.aifc
+│       │       │   ├── Trumpet_A5.aifc
+│       │       │   ├── Trumpet_Db5.20k.aifc
+│       │       │   ├── Trumpet_Db5.aifc
+│       │       │   ├── Trumpet_F5.22k.aifc
+│       │       │   ├── Trumpet_F5.aifc
+│       │       │   ├── Tuba_C3.22k.aifc
+│       │       │   ├── Tuba_C3.aifc
+│       │       │   ├── TubeBells_C5.18k.aifc
+│       │       │   ├── TubeBells_C5.aifc
+│       │       │   ├── TubeBells_E4.18k.aifc
+│       │       │   ├── TubeBells_E4.aifc
+│       │       │   ├── TubeBells_G5.18k.aifc
+│       │       │   ├── TubeBells_G5.aifc
+│       │       │   ├── Vibes_Bb4.22k.aifc
+│       │       │   ├── Vibes_Bb4.aifc
+│       │       │   ├── Vibes_C4.22k.aifc
+│       │       │   ├── Vibes_C4.aifc
+│       │       │   ├── Vibes_C6.22k.aifc
+│       │       │   ├── Vibes_C6.aifc
+│       │       │   ├── Vibes_F5.22k.aifc
+│       │       │   ├── Vibes_F5.aifc
+│       │       │   ├── Viola_A3.19k.aifc
+│       │       │   ├── Viola_A3.aifc
+│       │       │   ├── Viola_C5.22k.aifc
+│       │       │   ├── Viola_C5.aifc
+│       │       │   ├── Viola_F4.19k.aifc
+│       │       │   ├── Viola_F4.aifc
+│       │       │   ├── Violin_C5.20k.aifc
+│       │       │   ├── Violin_C5.aifc
+│       │       │   ├── Violin_C6.19k.aifc
+│       │       │   ├── Violin_C6.aifc
+│       │       │   ├── WarmPad_C5.22k.aifc
+│       │       │   ├── WarmPad_C5.aifc
+│       │       │   ├── Warnhorn.9k.aifc
+│       │       │   ├── Whistle.19k.aifc
+│       │       │   ├── Whistle2_F5.24k.aifc
+│       │       │   ├── Whistle2_F5.aifc
+│       │       │   └── Whistle_1.aifc
+│       │       └── table.o
+│       ├── sbin/
+│       │   ├── asccode.exe
+│       │   ├── asccode.out
+│       │   ├── byte2lba.exe
+│       │   ├── byte2lba.out
+│       │   ├── calcncc.exe
+│       │   ├── calcncc.out
+│       │   ├── hostiopc.dll
+│       │   ├── lba2byte.exe
+│       │   ├── lba2byte.out
+│       │   ├── n64mdisk.exe
+│       │   ├── n64mdisk.out
+│       │   ├── ramstart.exe
+│       │   └── ramstart.out
+│       └── src/
+│           └── PR/
+│               ├── assets/
+│               │   ├── banks/
+│               │   │   ├── GenMidi44k.inst
+│               │   │   ├── GenMidiBank.inst
+│               │   │   ├── GenMidiRaw.inst
+│               │   │   ├── ie.cnfg
+│               │   │   ├── imp.inst
+│               │   │   ├── Makefile
+│               │   │   ├── sfx.inst
+│               │   │   └── tone.inst
+│               │   ├── ddfonts/
+│               │   │   ├── kk0.rgb
+│               │   │   ├── kk00.rgb
+│               │   │   ├── kk01.rgb
+│               │   │   ├── kk02.rgb
+│               │   │   ├── kk03.rgb
+│               │   │   ├── kk04.rgb
+│               │   │   ├── kk05.rgb
+│               │   │   ├── kk06.rgb
+│               │   │   ├── kk07.rgb
+│               │   │   ├── kk08.rgb
+│               │   │   ├── kk09.rgb
+│               │   │   ├── kk1.rgb
+│               │   │   ├── kk10.rgb
+│               │   │   ├── kk11.rgb
+│               │   │   ├── kk2.rgb
+│               │   │   ├── kk3.rgb
+│               │   │   ├── kk4.rgb
+│               │   │   ├── kk5.rgb
+│               │   │   └── kk6.rgb
+│               │   ├── ddsound/
+│               │   │   ├── Aifc/
+│               │   │   │   ├── 001PF.32.a4.aifc
+│               │   │   │   ├── 001PF.32.a5.aifc
+│               │   │   │   ├── 001PF.32.c4.aifc
+│               │   │   │   ├── 001PF.32.c5.aifc
+│               │   │   │   ├── 001PF.32.c7.aifc
+│               │   │   │   ├── 001PF.32.fs6.aifc
+│               │   │   │   ├── 002EP.32.c4.aifc
+│               │   │   │   ├── 002EP.32.c5.aifc
+│               │   │   │   ├── 002EP.32.c6.aifc
+│               │   │   │   ├── 003Harpsicord.32.c5.aifc
+│               │   │   │   ├── 003Harpsicord.32.f4.aifc
+│               │   │   │   ├── 003Harpsicord.32.g3.aifc
+│               │   │   │   ├── 004iClavinet.32.fs2.aifc
+│               │   │   │   ├── 005Celesta.32.c6.aifc
+│               │   │   │   ├── 006Glocken.32.a6.aifc
+│               │   │   │   ├── 006Glocken.32.d6.aifc
+│               │   │   │   ├── 006Glocken.32.fs5.aifc
+│               │   │   │   ├── 007Vibraphone.32.a3.aifc
+│               │   │   │   ├── 007Vibraphone.32.cs5.aifc
+│               │   │   │   ├── 007Vibraphone.32.d4.aifc
+│               │   │   │   ├── 008Marimba.32.d4.aifc
+│               │   │   │   ├── 008Marimba.32.d5.aifc
+│               │   │   │   ├── 008Marimba.32.e3.aifc
+│               │   │   │   ├── 009Xylophone.32.a5.aifc
+│               │   │   │   ├── 009Xylophone.32.d5.aifc
+│               │   │   │   ├── 009Xylophone.32.e6.aifc
+│               │   │   │   ├── 010TublarBell.32.fs4.aifc
+│               │   │   │   ├── 011JazzOrg.32.fs6.aifc
+│               │   │   │   ├── 011JazzOrg.32.gs5.aifc
+│               │   │   │   ├── 012PipeOrg.32.c4.aifc
+│               │   │   │   ├── 012PipeOrg.32.c5.aifc
+│               │   │   │   ├── 013LesOrgFst.32.a4.aifc
+│               │   │   │   ├── 013LesOrgFst.32.a5.aifc
+│               │   │   │   ├── 013LesOrgFst.32.ds6.aifc
+│               │   │   │   ├── 014LesOrgSlw.32.cs6.aifc
+│               │   │   │   ├── 014LesOrgSlw.32.f5.aifc
+│               │   │   │   ├── 014LesOrgSlw.32.g4.aifc
+│               │   │   │   ├── 015Accordion.32.b3.aifc
+│               │   │   │   ├── 015Accordion.32.f4.aifc
+│               │   │   │   ├── 015Accordion.32.gs3.aifc
+│               │   │   │   ├── 016Harmonica.32.ds6.aifc
+│               │   │   │   ├── 016Harmonica.32.gs5.aifc
+│               │   │   │   ├── 017NylonGuit.32.cs4.aifc
+│               │   │   │   ├── 017NylonGuit.32.ds5.aifc
+│               │   │   │   ├── 017NylonGuit.32.gs3.aifc
+│               │   │   │   ├── 018ChoGuit.t.32.c4.aifc
+│               │   │   │   ├── 019MtGuit.32.d3.aifc
+│               │   │   │   ├── 020DistGuit.32.b3.aifc
+│               │   │   │   ├── 020DistGuit.32.d5.aifc
+│               │   │   │   ├── 020DistGuit.32.e3.aifc
+│               │   │   │   ├── 020DistGuit.32.e4.aifc
+│               │   │   │   ├── 025Chop.32.a1.aifc
+│               │   │   │   ├── 025Chop.32.d2.aifc
+│               │   │   │   ├── 025Chop.32.e1.aifc
+│               │   │   │   ├── 026Pull.32.a2.aifc
+│               │   │   │   ├── 026Pull.32.d3.aifc
+│               │   │   │   ├── 026Pull.32.e2.aifc
+│               │   │   │   ├── 027Vln.32.as4.aifc
+│               │   │   │   ├── 027Vln.32.e5.aifc
+│               │   │   │   ├── 027Vln.32.fs4.aifc
+│               │   │   │   ├── 028Viola.32.c4.aifc
+│               │   │   │   ├── 028Viola.32.d5.aifc
+│               │   │   │   ├── 028Viola.32.f4.aifc
+│               │   │   │   ├── 029Cello.32.as3.aifc
+│               │   │   │   ├── 029Cello.32.d3.aifc
+│               │   │   │   ├── 029Cello.32.f2.aifc
+│               │   │   │   ├── 030Pizz.32.as4.aifc
+│               │   │   │   ├── 030Pizz.32.b2.aifc
+│               │   │   │   ├── 030Pizz.32.fs5.aifc
+│               │   │   │   ├── 031Strings.32.a4.aifc
+│               │   │   │   ├── 031Strings.32.as3.aifc
+│               │   │   │   ├── 031Strings.32.c3.aifc
+│               │   │   │   ├── 031Strings.32.d4.aifc
+│               │   │   │   ├── 031Strings.32.g2.aifc
+│               │   │   │   ├── 031Strings.32.g6.aifc
+│               │   │   │   ├── 031Strings.32.gs5.aifc
+│               │   │   │   ├── 032Harp.32.cs4.aifc
+│               │   │   │   ├── 032Harp.32.cs5.aifc
+│               │   │   │   ├── 032Harp.32.e6.aifc
+│               │   │   │   ├── 033Timpani.32.c4.aifc
+│               │   │   │   ├── 034Chorus.32.cs5.aifc
+│               │   │   │   ├── 034Chorus.32.f5.aifc
+│               │   │   │   ├── 034Chorus.32.g4.aifc
+│               │   │   │   ├── 035Tp.32.c5.aifc
+│               │   │   │   ├── 035Tp.32.f5.aifc
+│               │   │   │   ├── 035Tp.32.g4.aifc
+│               │   │   │   ├── 036Tb.32.d4.aifc
+│               │   │   │   ├── 036Tb.32.gs3.aifc
+│               │   │   │   ├── 036Tb.32.gs4.aifc
+│               │   │   │   ├── 037Tuba.32.c3.aifc
+│               │   │   │   ├── 037Tuba.32.e2.aifc
+│               │   │   │   ├── 037Tuba.32.gs2.aifc
+│               │   │   │   ├── 038MtTp.32.a4.aifc
+│               │   │   │   ├── 038MtTp.32.ds5.aifc
+│               │   │   │   ├── 039FHorn.32.b4.aifc
+│               │   │   │   ├── 039FHorn.32.g4.aifc
+│               │   │   │   ├── 040Brass.32.as4.aifc
+│               │   │   │   ├── 040Brass.32.fs5.aifc
+│               │   │   │   ├── 041SynBrass.32.c5.aifc
+│               │   │   │   ├── 041SynBrass.32.c6.aifc
+│               │   │   │   ├── 042SopSax.32.a5.aifc
+│               │   │   │   ├── 042SopSax.32.b4.aifc
+│               │   │   │   ├── 042SopSax.32.e5.aifc
+│               │   │   │   ├── 043AltSax.32.e4.aifc
+│               │   │   │   ├── 043AltSax.32.e5.aifc
+│               │   │   │   ├── 043AltSax.32.g4.aifc
+│               │   │   │   ├── 044TenSax.32.a3.aifc
+│               │   │   │   ├── 044TenSax.32.a4.aifc
+│               │   │   │   ├── 044TenSax.32.e4.aifc
+│               │   │   │   ├── 045BarSax.32.d3.aifc
+│               │   │   │   ├── 045BarSax.32.gs2.aifc
+│               │   │   │   ├── 046Oboe.32.fs5.aifc
+│               │   │   │   ├── 047EHorn.32.e3.aifc
+│               │   │   │   ├── 048Bsn.32.a2.aifc
+│               │   │   │   ├── 048Bsn.32.c2.aifc
+│               │   │   │   ├── 048Bsn.32.e2.aifc
+│               │   │   │   ├── 049Cl.32.c5.aifc
+│               │   │   │   ├── 049Cl.32.g4.aifc
+│               │   │   │   ├── 049Cl.32.g5.aifc
+│               │   │   │   ├── 050Picclo.32.g6.aifc
+│               │   │   │   ├── 051Flute.32.cs6.aifc
+│               │   │   │   ├── 051Flute.32.fs6.aifc
+│               │   │   │   ├── 052Recorder.32.d6.aifc
+│               │   │   │   ├── 052Recorder.32.f6.aifc
+│               │   │   │   ├── 053PanFlute.32.a5.aifc
+│               │   │   │   ├── 053PanFlute.32.d6.aifc
+│               │   │   │   ├── 053PanFlute.32.ds5.aifc
+│               │   │   │   ├── 054SteelDrm.32.c4.aifc
+│               │   │   │   ├── 054SteelDrm.32.d5.aifc
+│               │   │   │   ├── 054SteelDrm.32.g4.aifc
+│               │   │   │   ├── 055StandardBD.32.c4.aifc
+│               │   │   │   ├── 056GateBD.32.c4.aifc
+│               │   │   │   ├── 057OrchBD.32.c4.aifc
+│               │   │   │   ├── 058StandardSD.32.c4.aifc
+│               │   │   │   ├── 059GateSD.32.c4.aifc
+│               │   │   │   ├── 060OrchSD.32.c4.aifc
+│               │   │   │   ├── 061Rim.32.c4.aifc
+│               │   │   │   ├── 062Close.32.c4.aifc
+│               │   │   │   ├── 063Open.32.c4.aifc
+│               │   │   │   ├── 064Tom.32.g4.aifc
+│               │   │   │   ├── 065TomLow.32.c4.aifc
+│               │   │   │   ├── 066Crash.32.c4.aifc
+│               │   │   │   ├── 067Ride.32.c4.aifc
+│               │   │   │   ├── 068Bongo1.32.c4.aifc
+│               │   │   │   ├── 069Bongo2.32.c4.aifc
+│               │   │   │   ├── 070CongaMute.32.c4.aifc
+│               │   │   │   ├── 071CongaOpen.32.c4.aifc
+│               │   │   │   ├── 072CongaSlap.32.c4.aifc
+│               │   │   │   ├── 073Shaker.32.c4.aifc
+│               │   │   │   ├── 074CowBell.32.c4.aifc
+│               │   │   │   ├── 075Agogo.32.c4.aifc
+│               │   │   │   ├── 076Tamb.32.e4.aifc
+│               │   │   │   └── 077Noise.32.c7.aifc
+│               │   │   ├── Aifc16/
+│               │   │   │   ├── 001PF.16.a4.aifc
+│               │   │   │   ├── 001PF.16.a5.aifc
+│               │   │   │   ├── 001PF.16.c4.aifc
+│               │   │   │   ├── 001PF.16.c5.aifc
+│               │   │   │   ├── 001PF.16.fs6.aifc
+│               │   │   │   ├── 002EP.16.c4.aifc
+│               │   │   │   ├── 002EP.16.c5.aifc
+│               │   │   │   ├── 002EP.16.c6.aifc
+│               │   │   │   ├── 003Harpsicord.16.c5.aifc
+│               │   │   │   ├── 003Harpsicord.16.f4.aifc
+│               │   │   │   ├── 003Harpsicord.16.g3.aifc
+│               │   │   │   ├── 004iClavinet.16.fs2.aifc
+│               │   │   │   ├── 005Celesta.16.c6.aifc
+│               │   │   │   ├── 006Glocken.16.d6.aifc
+│               │   │   │   ├── 006Glocken.16.fs5.aifc
+│               │   │   │   ├── 007Vibraphone.16.a3.aifc
+│               │   │   │   ├── 007Vibraphone.16.cs5.aifc
+│               │   │   │   ├── 007Vibraphone.16.d4.aifc
+│               │   │   │   ├── 008Marimba.16.d4.aifc
+│               │   │   │   ├── 008Marimba.16.d5.aifc
+│               │   │   │   ├── 008Marimba.16.e3.aifc
+│               │   │   │   ├── 009Xylophone.16.d5.aifc
+│               │   │   │   ├── 009Xylophone.16.e6.aifc
+│               │   │   │   ├── 010TublarBell.16.fs4.aifc
+│               │   │   │   ├── 011JazzOrg.16.gs5.aifc
+│               │   │   │   ├── 012PipeOrg.16.c4.aifc
+│               │   │   │   ├── 012PipeOrg.16.c5.aifc
+│               │   │   │   ├── 013LesOrgFst.16.a4.aifc
+│               │   │   │   ├── 013LesOrgFst.16.a5.aifc
+│               │   │   │   ├── 013LesOrgFst.16.ds6.aifc
+│               │   │   │   ├── 014LesOrgSlw.16.cs6.aifc
+│               │   │   │   ├── 014LesOrgSlw.16.f5.aifc
+│               │   │   │   ├── 014LesOrgSlw.16.g4.aifc
+│               │   │   │   ├── 015Accordion.16.b3.aifc
+│               │   │   │   ├── 015Accordion.16.gs3.aifc
+│               │   │   │   ├── 016Harmonica.16.gs5.aifc
+│               │   │   │   ├── 017NylonGuit.16.cs4.aifc
+│               │   │   │   ├── 017NylonGuit.16.gs3.aifc
+│               │   │   │   ├── 018ChoGuit.16.c4.aifc
+│               │   │   │   ├── 019MtGuit.16.d3.aifc
+│               │   │   │   ├── 020DistGuit.16.b3.aifc
+│               │   │   │   ├── 020DistGuit.16.e3.aifc
+│               │   │   │   ├── 021AcBass.16.a1.aifc
+│               │   │   │   ├── 021AcBass.16.a2.aifc
+│               │   │   │   ├── 021AcBass.16.e2.aifc
+│               │   │   │   ├── 022FngBass.16.a1.aifc
+│               │   │   │   ├── 022FngBass.16.b0.aifc
+│               │   │   │   ├── 022FngBass.16.d2.aifc
+│               │   │   │   ├── 023PickBass.16.a1.aifc
+│               │   │   │   ├── 023PickBass.16.d2.aifc
+│               │   │   │   ├── 023PickBass.16.e1.aifc
+│               │   │   │   ├── 024Fretless.16.e2.aifc
+│               │   │   │   ├── 024Fretless.t.16.a2.aifc
+│               │   │   │   ├── 025Chop.16.e1.aifc
+│               │   │   │   ├── 026Pull.16.d3.aifc
+│               │   │   │   ├── 027Vln.16.as4.aifc
+│               │   │   │   ├── 027Vln.16.e5.aifc
+│               │   │   │   ├── 027Vln.16.fs4.aifc
+│               │   │   │   ├── 028Viola.16.c4.aifc
+│               │   │   │   ├── 028Viola.16.d5.aifc
+│               │   │   │   ├── 028Viola.16.f4.aifc
+│               │   │   │   ├── 029Cello.16.d3.aifc
+│               │   │   │   ├── 029Cello.16.f2.aifc
+│               │   │   │   ├── 030Pizz.16.as4.aifc
+│               │   │   │   ├── 030Pizz.16.b2.aifc
+│               │   │   │   ├── 031Strings.16.a4.aifc
+│               │   │   │   ├── 031Strings.16.as3.aifc
+│               │   │   │   ├── 031Strings.16.c3.aifc
+│               │   │   │   ├── 031Strings.16.d4.aifc
+│               │   │   │   ├── 031Strings.16.g2.aifc
+│               │   │   │   ├── 031Strings.16.gs5.aifc
+│               │   │   │   ├── 032Harp.16.cs4.aifc
+│               │   │   │   ├── 032Harp.16.cs5.aifc
+│               │   │   │   ├── 032Harp.16.e6.aifc
+│               │   │   │   ├── 033Timpani.16.c4.aifc
+│               │   │   │   ├── 034Chorus.16.cs5.aifc
+│               │   │   │   ├── 034Chorus.16.g4.aifc
+│               │   │   │   ├── 035Tp.16.c5.aifc
+│               │   │   │   ├── 035Tp.16.f5.aifc
+│               │   │   │   ├── 035Tp.t.16.g4.aifc
+│               │   │   │   ├── 036Tb.16.d4.aifc
+│               │   │   │   ├── 036Tb.16.gs3.aifc
+│               │   │   │   ├── 036Tb.16.gs4.aifc
+│               │   │   │   ├── 037Tuba.16.c3.aifc
+│               │   │   │   ├── 037Tuba.16.e2.aifc
+│               │   │   │   ├── 037Tuba.16.gs2.aifc
+│               │   │   │   ├── 038MtTp.16.a4.aifc
+│               │   │   │   ├── 038MtTp.16.ds5.aifc
+│               │   │   │   ├── 039FHorn.16.b4.aifc
+│               │   │   │   ├── 039FHorn.16.g4.aifc
+│               │   │   │   ├── 040Brass.16.as4.aifc
+│               │   │   │   ├── 040Brass.16.fs5.aifc
+│               │   │   │   ├── 041SynBrass.16.c5.aifc
+│               │   │   │   ├── 041SynBrass.16.c6.aifc
+│               │   │   │   ├── 042SopSax.16.a5.aifc
+│               │   │   │   ├── 042SopSax.16.b4.aifc
+│               │   │   │   ├── 042SopSax.16.e5.aifc
+│               │   │   │   ├── 043AltSax.16.e4.aifc
+│               │   │   │   ├── 043AltSax.16.e5.aifc
+│               │   │   │   ├── 043AltSax.16.g4.aifc
+│               │   │   │   ├── 044TenSax.16.a3.aifc
+│               │   │   │   ├── 044TenSax.16.a4.aifc
+│               │   │   │   ├── 044TenSax.16.e4.aifc
+│               │   │   │   ├── 045BarSax.16.d3.aifc
+│               │   │   │   ├── 045BarSax.16.gs2.aifc
+│               │   │   │   ├── 046Oboe.16.fs5.aifc
+│               │   │   │   ├── 047EHorn.16.e3.aifc
+│               │   │   │   ├── 048Bsn.16.c2.aifc
+│               │   │   │   ├── 049Cl.16.c5.aifc
+│               │   │   │   ├── 049Cl.16.g4.aifc
+│               │   │   │   ├── 050Picclo.16.g6.aifc
+│               │   │   │   ├── 051Flute.16.cs6.aifc
+│               │   │   │   ├── 051Flute.16.fs6.aifc
+│               │   │   │   ├── 052Recorder.16.d6.aifc
+│               │   │   │   ├── 053PanFlute.16.a5.aifc
+│               │   │   │   ├── 054SteelDrm.16.g4.aifc
+│               │   │   │   ├── 055StandardBD.16.c4.aifc
+│               │   │   │   ├── 056GateBD.16.c4.aifc
+│               │   │   │   ├── 057OrchBD.16.c4.aifc
+│               │   │   │   ├── 058StandardSD.16.c4.aifc
+│               │   │   │   ├── 059GateSD.16.c4.aifc
+│               │   │   │   ├── 060OrchSD.16.c4.aifc
+│               │   │   │   ├── 061Rim.16.c4.aifc
+│               │   │   │   ├── 062Close.16.c4.aifc
+│               │   │   │   ├── 063Open.16.c4.aifc
+│               │   │   │   ├── 064Tom.16.g4.aifc
+│               │   │   │   ├── 065TomLow.16.c4.aifc
+│               │   │   │   ├── 066Crash.16.c4.aifc
+│               │   │   │   ├── 067Ride.16.c4.aifc
+│               │   │   │   ├── 068Bongo1.16.c4.aifc
+│               │   │   │   ├── 069Bongo2.16.c4.aifc
+│               │   │   │   ├── 070CongaMute.16.c4.aifc
+│               │   │   │   ├── 071CongaOpen.16.c4.aifc
+│               │   │   │   ├── 072CongaSlap.16.c4.aifc
+│               │   │   │   ├── 073Shaker.16.c4.aifc
+│               │   │   │   ├── 074CowBell.16.c4.aifc
+│               │   │   │   ├── 075Agogo.16.c4.aifc
+│               │   │   │   ├── 076Tamb.16.e4.aifc
+│               │   │   │   └── 077Noise.16.c7.aifc
+│               │   │   ├── romimage.snd
+│               │   │   ├── romsound.exinfo
+│               │   │   └── romsound.infos.txt
+│               │   ├── Makefile
+│               │   ├── README.txt
+│               │   ├── sequences/
+│               │   │   ├── BassDrive.mid
+│               │   │   ├── Makefile
+│               │   │   ├── Midnight.mid
+│               │   │   ├── Sweeps.mid
+│               │   │   └── TechnoRiff.mid
+│               │   ├── sfx/
+│               │   │   ├── Airhorn.22k.aiff
+│               │   │   ├── Bodyhit.14k.aiff
+│               │   │   ├── Dungeon.22k.aiff
+│               │   │   ├── EngRev.22k.aiff
+│               │   │   ├── GlassBreak.22k.aiff
+│               │   │   ├── Grunt.22k.aiff
+│               │   │   ├── LionRoar.22k.aiff
+│               │   │   ├── Makefile
+│               │   │   ├── PnchThrw.44k.aiff
+│               │   │   ├── Select.6k.aiff
+│               │   │   ├── Skate.22k.aiff
+│               │   │   ├── SkateStop.11k.aiff
+│               │   │   ├── Slapshot.11k.aiff
+│               │   │   ├── Thunder.32k.aiff
+│               │   │   ├── TireSqueal.22k.aiff
+│               │   │   └── Warnhorn.9k.aiff
+│               │   └── sounds/
+│               │       ├── Ac_Bass_C3.22k.aiff
+│               │       ├── Ac_Bass_C3.aiff
+│               │       ├── Accordian_A5.23k.aiff
+│               │       ├── Accordian_A5.aiff
+│               │       ├── Accordian_G4.22k.aiff
+│               │       ├── Accordian_G4.aiff
+│               │       ├── AcSnare.22k.aiff
+│               │       ├── AcSnare_1.aiff
+│               │       ├── Agogo.20k.aiff
+│               │       ├── Agogo_1.aiff
+│               │       ├── AltoSax_Bb4.22k.aiff
+│               │       ├── AltoSax_Bb4.aiff
+│               │       ├── Applause.22k.aiff
+│               │       ├── Atmosphere_C5.22k.aiff
+│               │       ├── Atmosphere_C5.aiff
+│               │       ├── Bagpipes_F4.17k.aiff
+│               │       ├── Bandoneon_F5.24k.aiff
+│               │       ├── Bandoneon_F5.aiff
+│               │       ├── Banjo_G4.17k.aiff
+│               │       ├── BariSax_C3.22k.aiff
+│               │       ├── BariSax_C3.aiff
+│               │       ├── BassLead_C5.22k.aiff
+│               │       ├── BassLead_C5.aiff
+│               │       ├── Bassoon_G3.22k.aiff
+│               │       ├── Bassoon_G3.aiff
+│               │       ├── BellTree.44k.aiff
+│               │       ├── Birdtweet.22k.aiff
+│               │       ├── Block.17k.aiff
+│               │       ├── Block_1.aiff
+│               │       ├── Bongo.15k.aiff
+│               │       ├── Bongo_1.aiff
+│               │       ├── BottleBlow2_C5.17k.aiff
+│               │       ├── BottleBlow2_C5.aiff
+│               │       ├── BowedGlass_C5.22k.aiff
+│               │       ├── BowedGlass_C5.aiff
+│               │       ├── BrassSect_C5.22k.aiff
+│               │       ├── BrassSect_C5.aiff
+│               │       ├── BrassSect_E4.22k.aiff
+│               │       ├── BrassSect_E4.aiff
+│               │       ├── Breath_G5.22k.aiff
+│               │       ├── Brightness6_C5.22k.aiff
+│               │       ├── Brightness6_C5.aiff
+│               │       ├── Cabasa.26k.aiff
+│               │       ├── Cabasa_1.aiff
+│               │       ├── Calliope_C5.22k.aiff
+│               │       ├── Calliope_C5.aiff
+│               │       ├── Castanet.19k.aiff
+│               │       ├── Castanet_1.aiff
+│               │       ├── Celeste_Bb4.22k.aiff
+│               │       ├── Celeste_Bb4.aiff
+│               │       ├── Celeste_C4.22k.aiff
+│               │       ├── Celeste_C4.aiff
+│               │       ├── Celeste_C6.29k.aiff
+│               │       ├── Celeste_C6.aiff
+│               │       ├── Celeste_F5.26k.aiff
+│               │       ├── Celeste_F5.aiff
+│               │       ├── Cello_A3.22k.aiff
+│               │       ├── Cello_A3.aiff
+│               │       ├── Cello_Bb1.22k.aiff
+│               │       ├── Cello_Bb1.aiff
+│               │       ├── Cello_C3.22k.aiff
+│               │       ├── Cello_C3.aiff
+│               │       ├── Cello_F2.22k.aiff
+│               │       ├── Cello_F2.aiff
+│               │       ├── Charang_C5.22k.aiff
+│               │       ├── Charang_C5.aiff
+│               │       ├── ChiffLead_C5.22k.aiff
+│               │       ├── ChiffLead_C5.aiff
+│               │       ├── ChinaCymbal.20k.aiff
+│               │       ├── ChinaCymbal_1.aiff
+│               │       ├── ChoirAhhs_C4.22k.aiff
+│               │       ├── ChoirAhhs_C4.aiff
+│               │       ├── ChoirAhhs_C5.22k.aiff
+│               │       ├── ChoirAhhs_C5.aiff
+│               │       ├── ChoirAhhs_F3.22k.aiff
+│               │       ├── ChoirAhhs_F3.aiff
+│               │       ├── ChoirAhhs_F5.22k.aiff
+│               │       ├── ChoirAhhs_F5.aiff
+│               │       ├── ChoirAhhs_G4.22k.aiff
+│               │       ├── ChoirAhhs_G4.aiff
+│               │       ├── ChoirOohs_C4.22k.aiff
+│               │       ├── ChoirOohs_C4.aiff
+│               │       ├── ChoirOohs_C5.22k.aiff
+│               │       ├── ChoirOohs_C5.aiff
+│               │       ├── ChoirOohs_G3.22k.aiff
+│               │       ├── ChoirOohs_G3.aiff
+│               │       ├── ChoirOohs_G4.22k.aiff
+│               │       ├── ChoirOohs_G4.aiff
+│               │       ├── ChoirOohs_G5.22k.aiff
+│               │       ├── ChoirOohs_G5.aiff
+│               │       ├── Clarinet_C5.22k.aiff
+│               │       ├── Clarinet_C5.aiff
+│               │       ├── Claves.15k.aiff
+│               │       ├── Claves_1.aiff
+│               │       ├── ClosedHat_2.22k.aiff
+│               │       ├── ClosedHat_2.aiff
+│               │       ├── CongaHi.16k.aiff
+│               │       ├── CongaHi_1.aiff
+│               │       ├── Cowbell.20k.aiff
+│               │       ├── Cowbell_1.aiff
+│               │       ├── Crash.20k.aiff
+│               │       ├── Crash_1.aiff
+│               │       ├── Crystal_C5.22k.aiff
+│               │       ├── Crystal_C5.aiff
+│               │       ├── Cuica.16k.aiff
+│               │       ├── Cuica_1.aiff
+│               │       ├── DistGtr_A3.22k.aiff
+│               │       ├── DistGtr_A3.aiff
+│               │       ├── DistGtr_A5.22k.aiff
+│               │       ├── DistGtr_A5.aiff
+│               │       ├── DistGtr_C5.22k.aiff
+│               │       ├── DistGtr_C5.aiff
+│               │       ├── DistGtr_E4.22k.aiff
+│               │       ├── DistGtr_E4.aiff
+│               │       ├── DistGtr_F6.24k.aiff
+│               │       ├── DistGtr_F6.aiff
+│               │       ├── DrawBarOrgan_C6.31k.aiff
+│               │       ├── DrawBarOrgan_C6.aiff
+│               │       ├── Dulcimer_C5.22k.aiff
+│               │       ├── Dulcimer_C5.aiff
+│               │       ├── EchoDrops_C5.22k.aiff
+│               │       ├── EchoDrops_C5.aiff
+│               │       ├── ElecPiano1_C5.22k.aiff
+│               │       ├── ElecPiano1_C5.aiff
+│               │       ├── ElecPiano1_C6.22k.aiff
+│               │       ├── ElecPiano1_C6.aiff
+│               │       ├── ElecSnare1.22k.aiff
+│               │       ├── ElecSnare_1.aiff
+│               │       ├── EngHorn_C5.22k.aiff
+│               │       ├── EngHorn_C5.aiff
+│               │       ├── FingerBass_G3.22k.aiff
+│               │       ├── FingerBass_G3.aiff
+│               │       ├── FloorTom.18k.aiff
+│               │       ├── FloorTom_1.aiff
+│               │       ├── Flute_C6.18k.aiff
+│               │       ├── Flute_C6.aiff
+│               │       ├── Fretless_C3.22k.aiff
+│               │       ├── Fretless_C3.aiff
+│               │       ├── FretNoise.aiff
+│               │       ├── FrHorn_F4.22k.aiff
+│               │       ├── FrHorn_F4.aiff
+│               │       ├── Glock_Bb4.23k.aiff
+│               │       ├── Glock_Bb4.aiff
+│               │       ├── Glock_C4.19k.aiff
+│               │       ├── Glock_C4.aiff
+│               │       ├── Glock_C6.33k.aiff
+│               │       ├── Glock_C6.aiff
+│               │       ├── Glock_F5.27k.aiff
+│               │       ├── Glock_F5.aiff
+│               │       ├── GMPiano_Bb2.16k.aiff
+│               │       ├── GMPiano_Bb2.aiff
+│               │       ├── GMPiano_C2.18k.aiff
+│               │       ├── GMPiano_C2.aiff
+│               │       ├── GMPiano_C4.22k.aiff
+│               │       ├── GMPiano_C4.aiff
+│               │       ├── GMPiano_C5.22k.aiff
+│               │       ├── GMPiano_C5.aiff
+│               │       ├── GMPiano_C6.18k.aiff
+│               │       ├── GMPiano_C6.aiff
+│               │       ├── GMPiano_F3.19k.aiff
+│               │       ├── GMPiano_F3.aiff
+│               │       ├── GMPiano_G4.22k.aiff
+│               │       ├── GMPiano_G4.aiff
+│               │       ├── GMPiano_G5.22k.aiff
+│               │       ├── GMPiano_G5.aiff
+│               │       ├── Goblins_C5.22k.aiff
+│               │       ├── Goblins_C5.aiff
+│               │       ├── GtrHarmonic_C5.15k.aiff
+│               │       ├── GtrHarmonic_C5.aiff
+│               │       ├── Guiro.17k.aiff
+│               │       ├── Guiro_1.aiff
+│               │       ├── GunShot.22k.aiff
+│               │       ├── HaloPad_C5.22k.aiff
+│               │       ├── HaloPad_C5.aiff
+│               │       ├── HandClaps.22k.aiff
+│               │       ├── HandClaps_1.aiff
+│               │       ├── Harmonica_F5.31k.aiff
+│               │       ├── Harmonica_F5.aiff
+│               │       ├── Harp_E5.16k.aiff
+│               │       ├── Harp_E5.aiff
+│               │       ├── Harpsichord_A3.22k.aiff
+│               │       ├── Harpsichord_A3.aiff
+│               │       ├── Harpsichord_C5.31k.aiff
+│               │       ├── Harpsichord_C5.aiff
+│               │       ├── Harpsichord_C6.31k.aiff
+│               │       ├── Harpsichord_C6.aiff
+│               │       ├── Harpsichord_F4.24k.aiff
+│               │       ├── Harpsichord_F4.aiff
+│               │       ├── Harpsichord_Gb5.26k.aiff
+│               │       ├── Harpsichord_Gb5.aiff
+│               │       ├── Helicopter.22k.aiff
+│               │       ├── IceRain_C5.22k.aiff
+│               │       ├── IceRain_C5.aiff
+│               │       ├── imp.aiff
+│               │       ├── JazzGtr_Db6.22k.aiff
+│               │       ├── JazzGtr_Db6.aiff
+│               │       ├── JazzGtr_E5.22k.aiff
+│               │       ├── JazzGtr_E5.aiff
+│               │       ├── JazzGtr_G4.22k.aiff
+│               │       ├── JazzGtr_G4.aiff
+│               │       ├── JingleBells.44k.aiff
+│               │       ├── Kalimba_C5.22k.aiff
+│               │       ├── Kalimba_C5.aiff
+│               │       ├── Kick1.16k.aiff
+│               │       ├── Kick2.17k.aiff
+│               │       ├── Kick_1.aiff
+│               │       ├── Kick_2.aiff
+│               │       ├── Koto_C5.22k.aiff
+│               │       ├── Koto_C5.aiff
+│               │       ├── Makefile
+│               │       ├── Maracas.27k.aiff
+│               │       ├── Maracas_1.aiff
+│               │       ├── Marimba_Bb4.22k.aiff
+│               │       ├── Marimba_Bb4.aiff
+│               │       ├── Marimba_C4.22k.aiff
+│               │       ├── Marimba_C4.aiff
+│               │       ├── Marimba_C6.22k.aiff
+│               │       ├── Marimba_C6.aiff
+│               │       ├── Marimba_F5.22k.aiff
+│               │       ├── Marimba_F5.aiff
+│               │       ├── MetalicPad_C5.22k.aiff
+│               │       ├── MetalicPad_C5.aiff
+│               │       ├── Music_Box_C5.20k.aiff
+│               │       ├── Music_Box_C5.aiff
+│               │       ├── MuteConga.18k.aiff
+│               │       ├── MuteConga_1.aiff
+│               │       ├── MuteTrmpt_Bb5.22k.aiff
+│               │       ├── MuteTrmpt_Bb5.aiff
+│               │       ├── MuteTrmpt_C5.22k.aiff
+│               │       ├── MuteTrmpt_C5.aiff
+│               │       ├── MuteTrmpt_F5.22k.aiff
+│               │       ├── MuteTrmpt_F5.aiff
+│               │       ├── NewAgePad_C5.22k.aiff
+│               │       ├── NewAgePad_C5.aiff
+│               │       ├── NewAgePad_C6.aiff
+│               │       ├── NylonStrGtr_B4.15k.aiff
+│               │       ├── NylonStrGtr_B4.aiff
+│               │       ├── NylonStrGtr_Db6.19k.aiff
+│               │       ├── NylonStrGtr_Db6.aiff
+│               │       ├── NylonStrGtr_Gb5.17k.aiff
+│               │       ├── NylonStrGtr_Gb5.aiff
+│               │       ├── Oboe_C5.17k.aiff
+│               │       ├── Oboe_C5.aiff
+│               │       ├── Ocarina_C5.15k.aiff
+│               │       ├── Ocarina_C5.aiff
+│               │       ├── OpenHat.22k.aiff
+│               │       ├── OpenHat_1.aiff
+│               │       ├── OrchHit_C4.18k.aiff
+│               │       ├── OrchHit_C4.aiff
+│               │       ├── OverDrvGtr_A3.19k.aiff
+│               │       ├── OverDrvGtr_A3.aiff
+│               │       ├── OverDrvGtr_A5.19k.aiff
+│               │       ├── OverDrvGtr_A5.aiff
+│               │       ├── OverDrvGtr_C5.19k.aiff
+│               │       ├── OverDrvGtr_C5.aiff
+│               │       ├── OverDrvGtr_E4.19k.aiff
+│               │       ├── OverDrvGtr_E4.aiff
+│               │       ├── PanFlute2_C5.20k.aiff
+│               │       ├── PanFlute2_C5.aiff
+│               │       ├── PercOrgan_C6.18k.aiff
+│               │       ├── PercOrgan_C6.aiff
+│               │       ├── PickBass_C3.22k.aiff
+│               │       ├── PickBass_C3.aiff
+│               │       ├── PipeOrgan_A5.22k.aiff
+│               │       ├── PipeOrgan_A5.aiff
+│               │       ├── PipeOrgan_C5.22k.aiff
+│               │       ├── PipeOrgan_C5.aiff
+│               │       ├── PipeOrgan_E4.22k.aiff
+│               │       ├── PipeOrgan_E4.aiff
+│               │       ├── PipeOrgan_G3.22k.aiff
+│               │       ├── PipeOrgan_G3.aiff
+│               │       ├── Pizzicato_C5.17k.aiff
+│               │       ├── Pizzicato_C5.aiff
+│               │       ├── Polysynth2_C5.22k.aiff
+│               │       ├── Polysynth2_C5.aiff
+│               │       ├── Recorder_G5.17k.aiff
+│               │       ├── Recorder_G5.aiff
+│               │       ├── ReedOrgan_G5.22k.aiff
+│               │       ├── ReedOrgan_G5.aiff
+│               │       ├── RevCymbal.22k.aiff
+│               │       ├── RevCymbal_1.aiff
+│               │       ├── Ride.22k.aiff
+│               │       ├── Ride_1.aiff
+│               │       ├── RockOrgan_C6.24k.aiff
+│               │       ├── RockOrgan_C6.aiff
+│               │       ├── SawFifths_C5.22k.aiff
+│               │       ├── SawFifths_C5.aiff
+│               │       ├── SawWave2_C5.22k.aiff
+│               │       ├── SawWave2_C5.aiff
+│               │       ├── SeaShore.22k.aiff
+│               │       ├── Shakuhachi_C5.16k.aiff
+│               │       ├── Shakuhachi_C5.aiff
+│               │       ├── Shamison_C5.19k.aiff
+│               │       ├── Shanai_C5.22k.aiff
+│               │       ├── SideStick.22k.aiff
+│               │       ├── SideStick_1.aiff
+│               │       ├── sin.aiff
+│               │       ├── Sitar2_G4.20k.aiff
+│               │       ├── SlapBass1_C3.22k.aiff
+│               │       ├── SlapBass1_C3.aiff
+│               │       ├── SlapBass2_C3.22k.aiff
+│               │       ├── SlapBass2_C3.aiff
+│               │       ├── Snare.17k.aiff
+│               │       ├── Snare_1.aiff
+│               │       ├── SoloVoice_C5.22k.aiff
+│               │       ├── SoloVoice_C5.aiff
+│               │       ├── SopSax_F5.23k.aiff
+│               │       ├── SopSax_F5.aiff
+│               │       ├── Soundtrack_C5.22k.aiff
+│               │       ├── Soundtrack_C5.aiff
+│               │       ├── SpaceVoice_C5.22k.aiff
+│               │       ├── SpaceVoice_C5.aiff
+│               │       ├── SqrWave_C5.22k.aiff
+│               │       ├── SqrWave_C5.aiff
+│               │       ├── StarTheme_C5.22k.aiff
+│               │       ├── StarTheme_C5.aiff
+│               │       ├── StDrum_C4.22k.aiff
+│               │       ├── StDrum_C5.22k.aiff
+│               │       ├── StlStrGtr_Db6.22k.aiff
+│               │       ├── StlStrGtr_Db6.aiff
+│               │       ├── StlStrGtr_E5.22k.aiff
+│               │       ├── StlStrGtr_E5.aiff
+│               │       ├── StlStrGtr_G4.22k.aiff
+│               │       ├── StlStrGtr_G4.aiff
+│               │       ├── Strings_Ab3.22k.aiff
+│               │       ├── Strings_Ab3.aiff
+│               │       ├── Strings_C6.22k.aiff
+│               │       ├── Strings_C6.aiff
+│               │       ├── Strings_D5.22k.aiff
+│               │       ├── Strings_D5.aiff
+│               │       ├── Strings_E4.22k.aiff
+│               │       ├── Strings_E4.aiff
+│               │       ├── Strings_Gb4.22k.aiff
+│               │       ├── Strings_Gb4.aiff
+│               │       ├── Surdo.16k.aiff
+│               │       ├── Surdo_1.aiff
+│               │       ├── SweepPad_C5.22k.aiff
+│               │       ├── SweepPad_C5.aiff
+│               │       ├── SynBass1_G3.22k.aiff
+│               │       ├── SynBass1_G3.aiff
+│               │       ├── SynBass3_G3.22k.aiff
+│               │       ├── SynBass3_G3.aiff
+│               │       ├── SynBrass2_C5.22k.aiff
+│               │       ├── SynBrass2_C5.aiff
+│               │       ├── SynBrass4_C5.24k.aiff
+│               │       ├── SynBrass4_C5.aiff
+│               │       ├── SynthDrum.22k.aiff
+│               │       ├── SynthDrum_1.aiff
+│               │       ├── SynthStr3_C5.18k.aiff
+│               │       ├── SynthStr3_C5.aiff
+│               │       ├── SynthStr4_C5.31k.aiff
+│               │       ├── SynthStr4_C5.aiff
+│               │       ├── SynthVoice_F4.13k.aiff
+│               │       ├── SynthVoice_F4.aiff
+│               │       ├── Taiko.22k.aiff
+│               │       ├── Taiko_1.aiff
+│               │       ├── Tamborine.24k.aiff
+│               │       ├── Tamborine_1.aiff
+│               │       ├── Telephone3.aiff
+│               │       ├── TenorSax_C4.22k.aiff
+│               │       ├── TenorSax_C4.aiff
+│               │       ├── Timbale.18k.aiff
+│               │       ├── Timbale_1.aiff
+│               │       ├── Timpani_C3.15k.aiff
+│               │       ├── Timpani_C3.aiff
+│               │       ├── Triangle.24k.aiff
+│               │       ├── Triangle_1.aiff
+│               │       ├── Trombone_C4.22k.aiff
+│               │       ├── Trombone_C4.aiff
+│               │       ├── Trombone_F3.22k.aiff
+│               │       ├── Trombone_F3.aiff
+│               │       ├── Trumpet_A4.22k.aiff
+│               │       ├── Trumpet_A4.aiff
+│               │       ├── Trumpet_A5.20k.aiff
+│               │       ├── Trumpet_A5.aiff
+│               │       ├── Trumpet_Db5.20k.aiff
+│               │       ├── Trumpet_Db5.aiff
+│               │       ├── Trumpet_F5.22k.aiff
+│               │       ├── Trumpet_F5.aiff
+│               │       ├── Tuba_C3.22k.aiff
+│               │       ├── Tuba_C3.aiff
+│               │       ├── TubeBells_C5.18k.aiff
+│               │       ├── TubeBells_C5.aiff
+│               │       ├── TubeBells_E4.18k.aiff
+│               │       ├── TubeBells_E4.aiff
+│               │       ├── TubeBells_G5.18k.aiff
+│               │       ├── TubeBells_G5.aiff
+│               │       ├── Vibes_Bb4.22k.aiff
+│               │       ├── Vibes_Bb4.aiff
+│               │       ├── Vibes_C4.22k.aiff
+│               │       ├── Vibes_C4.aiff
+│               │       ├── Vibes_C6.22k.aiff
+│               │       ├── Vibes_C6.aiff
+│               │       ├── Vibes_F5.22k.aiff
+│               │       ├── Vibes_F5.aiff
+│               │       ├── Viola_A3.19k.aiff
+│               │       ├── Viola_A3.aiff
+│               │       ├── Viola_C5.22k.aiff
+│               │       ├── Viola_C5.aiff
+│               │       ├── Viola_F4.19k.aiff
+│               │       ├── Viola_F4.aiff
+│               │       ├── Violin_C5.20k.aiff
+│               │       ├── Violin_C5.aiff
+│               │       ├── Violin_C6.19k.aiff
+│               │       ├── Violin_C6.aiff
+│               │       ├── WarmPad_C5.22k.aiff
+│               │       ├── WarmPad_C5.aiff
+│               │       ├── Whistle.19k.aiff
+│               │       ├── Whistle2_F5.24k.aiff
+│               │       ├── Whistle2_F5.aiff
+│               │       └── Whistle_1.aiff
+│               ├── demos/
+│               │   ├── autofill/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── cfb_b.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── fill.c
+│               │   │   ├── fill.h
+│               │   │   ├── Makefile
+│               │   │   ├── rdp_output.c
+│               │   │   ├── README
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── static.h
+│               │   │   ├── timer.c
+│               │   │   ├── timer.h
+│               │   │   ├── tris.c
+│               │   │   └── zbuffer.c
+│               │   ├── blockmonkey/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── block.c
+│               │   │   ├── block.h
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── Makefile
+│               │   │   ├── rdp_output.c
+│               │   │   ├── README
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── static.h
+│               │   │   ├── subcube.c
+│               │   │   ├── subcube.h
+│               │   │   ├── subplane.c
+│               │   │   ├── subplane.h
+│               │   │   ├── timer.c
+│               │   │   ├── timer.h
+│               │   │   └── zbuffer.c
+│               │   ├── bumpmap/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── bumpmap.c
+│               │   │   ├── bumpmap.h
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── Makefile
+│               │   │   ├── obj_dls.h
+│               │   │   ├── obj_real.h
+│               │   │   ├── obj_texs.h
+│               │   │   ├── obj_verts.h
+│               │   │   ├── README
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   └── zbuf.c
+│               │   ├── chrome/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── dump.c
+│               │   │   ├── dump.h
+│               │   │   ├── letters.c
+│               │   │   ├── letters.h
+│               │   │   ├── mahogany.h
+│               │   │   ├── Makefile
+│               │   │   ├── metallic.h
+│               │   │   ├── smroad.h
+│               │   │   ├── sp_gameday.h
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── Texture/
+│               │   │   │   ├── chrome_bline.rgb
+│               │   │   │   ├── gameday.rgb
+│               │   │   │   ├── gameday_bms.h
+│               │   │   │   ├── gameday_imgs.h
+│               │   │   │   ├── mahogany.rgb
+│               │   │   │   ├── metallic.h
+│               │   │   │   ├── metallic.rgb
+│               │   │   │   ├── metallic_red.rgb
+│               │   │   │   ├── saturn53.rgb
+│               │   │   │   └── smroad.rgb
+│               │   │   ├── u64_tri.h
+│               │   │   ├── u64_vtx.h
+│               │   │   └── zbuffer.c
+│               │   ├── ci8fb/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── fill.c
+│               │   │   ├── fill.h
+│               │   │   ├── Makefile
+│               │   │   ├── rdp_output.c
+│               │   │   ├── README
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── static.h
+│               │   │   ├── timer.c
+│               │   │   ├── timer.h
+│               │   │   ├── TlutCI8.h
+│               │   │   ├── tris.c
+│               │   │   └── zbuffer.c
+│               │   ├── ddspgame/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── command.txt
+│               │   │   ├── cont.c
+│               │   │   ├── cont.h
+│               │   │   ├── dd.c
+│               │   │   ├── dd_checksum.c
+│               │   │   ├── dd_core.c
+│               │   │   ├── dd_func.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── err.c
+│               │   │   ├── font.c
+│               │   │   ├── font.h
+│               │   │   ├── funcs.txt
+│               │   │   ├── hdd.h
+│               │   │   ├── hdd_internal.h
+│               │   │   ├── heap.c
+│               │   │   ├── herr.h
+│               │   │   ├── hscr.h
+│               │   │   ├── htry.h
+│               │   │   ├── kbuffer.c
+│               │   │   ├── main.c
+│               │   │   ├── main.h
+│               │   │   ├── Makefile
+│               │   │   ├── messages.c
+│               │   │   ├── n64mdisk.cfg
+│               │   │   ├── pics.c
+│               │   │   ├── README.txt
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── sp_ball.h
+│               │   │   ├── sp_lit.h
+│               │   │   ├── spec
+│               │   │   ├── spgame.c
+│               │   │   ├── static.c
+│               │   │   ├── sysassigned.h
+│               │   │   ├── test_64dd.c
+│               │   │   ├── Texture/
+│               │   │   │   ├── ball.rgba
+│               │   │   │   ├── ball_bms.h
+│               │   │   │   ├── ball_imgs.h
+│               │   │   │   ├── L2_TV.rgb
+│               │   │   │   ├── lit_bms.h
+│               │   │   │   └── lit_imgs.h
+│               │   │   └── try.c
+│               │   ├── delall.bat
+│               │   ├── detail/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── app.h
+│               │   │   ├── cfb.c
+│               │   │   ├── czb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── gorge_dl.h
+│               │   │   ├── gorge_vtx.h
+│               │   │   ├── I8water32.h
+│               │   │   ├── main.c
+│               │   │   ├── Makefile
+│               │   │   ├── matrix.c
+│               │   │   ├── matrix.h
+│               │   │   ├── RGBA16drainage32.h
+│               │   │   ├── RGBA16field32.h
+│               │   │   ├── RGBA16forest32.h
+│               │   │   ├── RGBA16leaf32.h
+│               │   │   ├── RGBA16sand64x32.h
+│               │   │   ├── river_dl.h
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── rsp_czb.c
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── vector.c
+│               │   │   ├── vector.h
+│               │   │   ├── walk_around.c
+│               │   │   └── walk_around.h
+│               │   ├── eeptest/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── asci.c
+│               │   │   ├── cfb1.c
+│               │   │   ├── eeptest.c
+│               │   │   ├── eeptest.h
+│               │   │   ├── graph.c
+│               │   │   ├── graph.h
+│               │   │   ├── Makefile
+│               │   │   ├── nu64sys.c
+│               │   │   ├── nu64sys.h
+│               │   │   ├── spec
+│               │   │   └── thread.h
+│               │   ├── fault/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── fault.c
+│               │   │   ├── fault.h
+│               │   │   ├── Makefile
+│               │   │   ├── printfault.c
+│               │   │   └── spec
+│               │   ├── flash/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── asci.c
+│               │   │   ├── buffer.c
+│               │   │   ├── buffer.h
+│               │   │   ├── cfb.c
+│               │   │   ├── display.h
+│               │   │   ├── graph.c
+│               │   │   ├── graph.h
+│               │   │   ├── main.c
+│               │   │   ├── Makefile
+│               │   │   ├── nu64sys.c
+│               │   │   ├── nu64sys.h
+│               │   │   ├── README.txt
+│               │   │   ├── spec
+│               │   │   └── thread.h
+│               │   ├── fogworld/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── boot.c
+│               │   │   ├── boot.h
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── font.c
+│               │   │   ├── font.h
+│               │   │   ├── font_ext.h
+│               │   │   ├── game.c
+│               │   │   ├── game.h
+│               │   │   ├── gfxinit.c
+│               │   │   ├── gfxstatic.c
+│               │   │   ├── letters_img.h
+│               │   │   ├── Makefile
+│               │   │   ├── RGBA16foliageMM.h
+│               │   │   ├── RGBA16graniteMM.h
+│               │   │   ├── RGBA16grass2MM.h
+│               │   │   ├── RGBA16sandMM.h
+│               │   │   ├── RGBA16sidewalkMM.h
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   ├── static.h
+│               │   │   ├── ter0_data.h
+│               │   │   ├── ter0_header.h
+│               │   │   ├── texture.c
+│               │   │   └── zbuffer.c
+│               │   ├── gbpak/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── asci.c
+│               │   │   ├── cfb.c
+│               │   │   ├── gbpaksramreadwrite.c
+│               │   │   ├── graph.c
+│               │   │   ├── graph.h
+│               │   │   ├── kfont.c
+│               │   │   ├── main.c
+│               │   │   ├── main.h
+│               │   │   ├── Makefile
+│               │   │   ├── mes.c
+│               │   │   ├── mes.h
+│               │   │   ├── mes_e.h
+│               │   │   ├── nu64sys.c
+│               │   │   ├── nu64sys.h
+│               │   │   ├── printkanji.c
+│               │   │   ├── putkanji.c
+│               │   │   ├── siproc.c
+│               │   │   ├── siproc.h
+│               │   │   ├── spec
+│               │   │   └── thread.h
+│               │   ├── ginv/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── ginv.c
+│               │   │   ├── ginv.h
+│               │   │   ├── Makefile
+│               │   │   └── spec
+│               │   ├── gl/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── gl.c
+│               │   │   ├── gl.exe
+│               │   │   ├── Makefile.borland
+│               │   │   ├── pt.c
+│               │   │   ├── pt.exe
+│               │   │   └── README.txt
+│               │   ├── ground/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── boot.c
+│               │   │   ├── boot.h
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── font.c
+│               │   │   ├── font.h
+│               │   │   ├── font_ext.h
+│               │   │   ├── game.c
+│               │   │   ├── game.h
+│               │   │   ├── gfxinit.c
+│               │   │   ├── gfxstatic.c
+│               │   │   ├── letters_img.h
+│               │   │   ├── Makefile
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   ├── sphere_dl.h
+│               │   │   ├── sphere_vtx.h
+│               │   │   ├── static.h
+│               │   │   ├── texture.c
+│               │   │   ├── texture.h
+│               │   │   └── zbuffer.c
+│               │   ├── gs2dex/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── action.c
+│               │   │   ├── action.h
+│               │   │   ├── L2_TV.c
+│               │   │   ├── L2_TV.rgb
+│               │   │   ├── L2_TV.rgba5551
+│               │   │   ├── main.c
+│               │   │   ├── Makefile
+│               │   │   ├── ppm8to5.perl
+│               │   │   ├── ppmtoCI.perl
+│               │   │   ├── rgb2u64.c
+│               │   │   ├── spec
+│               │   │   ├── sprite.c
+│               │   │   ├── sprite.h
+│               │   │   ├── sprite_ball.c
+│               │   │   ├── static.c
+│               │   │   ├── system.c
+│               │   │   ├── system.h
+│               │   │   ├── system_cfb.c
+│               │   │   ├── system_rspbuf.c
+│               │   │   ├── texture.c
+│               │   │   ├── texture.h
+│               │   │   ├── texture_pattern.h
+│               │   │   ├── uc_assert.c
+│               │   │   └── uc_assert.h
+│               │   ├── lights/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── I4spec.h
+│               │   │   ├── IA8phong.h
+│               │   │   ├── Makefile
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── teapot.c
+│               │   │   ├── teapot.h
+│               │   │   ├── teapot.iv
+│               │   │   ├── teapot_shad64.h
+│               │   │   ├── teapot_tri.h
+│               │   │   ├── teapot_vtx.h
+│               │   │   ├── Texture/
+│               │   │   │   └── teapot_shad64.rgb
+│               │   │   └── zbuffer.c
+│               │   ├── makeall.bat
+│               │   ├── makelog.bat
+│               │   ├── mipmap/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── boot.c
+│               │   │   ├── boot.h
+│               │   │   ├── brick.rgb
+│               │   │   ├── brick0.rgb
+│               │   │   ├── brick1.rgb
+│               │   │   ├── brick2.rgb
+│               │   │   ├── brick3.rgb
+│               │   │   ├── brick4.rgb
+│               │   │   ├── brick5.rgb
+│               │   │   ├── cfb.c
+│               │   │   ├── chainlink.rgb
+│               │   │   ├── chainlink0.rgb
+│               │   │   ├── chainlink1.rgb
+│               │   │   ├── chainlink2.rgb
+│               │   │   ├── chainlink3.rgb
+│               │   │   ├── chainlink4.rgb
+│               │   │   ├── checker.rgba
+│               │   │   ├── checker0.rgb
+│               │   │   ├── checker0.rgba
+│               │   │   ├── checker1.rgb
+│               │   │   ├── checker2.rgb
+│               │   │   ├── checker3.rgb
+│               │   │   ├── checker4.rgb
+│               │   │   ├── checker5.rgb
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── font.c
+│               │   │   ├── font.h
+│               │   │   ├── font_ext.h
+│               │   │   ├── game.c
+│               │   │   ├── game.h
+│               │   │   ├── gfxinit.c
+│               │   │   ├── gfxstatic.c
+│               │   │   ├── Makefile
+│               │   │   ├── molecule.rgba
+│               │   │   ├── molecule0.rgba
+│               │   │   ├── molecule1.rgba
+│               │   │   ├── molecule2.rgba
+│               │   │   ├── molecule3.rgba
+│               │   │   ├── molecule4.rgba
+│               │   │   ├── molecule5.rgba
+│               │   │   ├── mymip.rgb
+│               │   │   ├── mymip0.rgb
+│               │   │   ├── mymip1.rgb
+│               │   │   ├── mymip2.rgb
+│               │   │   ├── mymip3.rgb
+│               │   │   ├── mymip4.rgb
+│               │   │   ├── RGBA16brick.h
+│               │   │   ├── RGBA16brickHMM.h
+│               │   │   ├── RGBA16brickMM.h
+│               │   │   ├── RGBA16chainlink.h
+│               │   │   ├── RGBA16chainlinkHMM.h
+│               │   │   ├── RGBA16chainlinkMM.h
+│               │   │   ├── RGBA16checker.h
+│               │   │   ├── RGBA16checkerHMM.h
+│               │   │   ├── RGBA16checkerMM.h
+│               │   │   ├── RGBA16molecule.h
+│               │   │   ├── RGBA16moleculeHMM.h
+│               │   │   ├── RGBA16moleculeMM.h
+│               │   │   ├── RGBA16mymip.h
+│               │   │   ├── RGBA16mymipHMM.h
+│               │   │   ├── RGBA16mymipMM.h
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   ├── static.h
+│               │   │   ├── texture.c
+│               │   │   ├── texture.h
+│               │   │   └── zbuffer.c
+│               │   ├── morphcube/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── batman.ppm
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── dynamic.c
+│               │   │   ├── Makefile
+│               │   │   ├── makeverts.c
+│               │   │   ├── mario.ppm
+│               │   │   ├── mariotex.h
+│               │   │   ├── morph.c
+│               │   │   ├── morphdemo.c
+│               │   │   ├── morphdemo.h
+│               │   │   ├── ppm2cTex
+│               │   │   ├── ppm2cTex.c
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   └── zbuf.c
+│               │   ├── morphfaces/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── data.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── dynamic.c
+│               │   │   ├── ed.ppm
+│               │   │   ├── ed_tj.t
+│               │   │   ├── ed_tj.v
+│               │   │   ├── libaux.a
+│               │   │   ├── Makefile
+│               │   │   ├── mcode.h
+│               │   │   ├── medit.c
+│               │   │   ├── medit2c
+│               │   │   ├── medit2c.c
+│               │   │   ├── morph.c
+│               │   │   ├── morphfaces.c
+│               │   │   ├── morphfaces.h
+│               │   │   ├── mstatic.h
+│               │   │   ├── n_aux.h
+│               │   │   ├── NOTES
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── tj.ppm
+│               │   │   └── zbuf.c
+│               │   ├── motortest/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── asci.c
+│               │   │   ├── cfb1.c
+│               │   │   ├── Makefile
+│               │   │   ├── motortest.c
+│               │   │   ├── motortest.h
+│               │   │   ├── nu64sys.c
+│               │   │   ├── nu64sys.h
+│               │   │   ├── README.jpn
+│               │   │   ├── README.txt
+│               │   │   ├── spec
+│               │   │   └── thread.h
+│               │   ├── nosPak/
+│               │   │   ├── lib/
+│               │   │   │   ├── canvas.s
+│               │   │   │   ├── eng
+│               │   │   │   ├── jpn
+│               │   │   │   ├── libnos.h
+│               │   │   │   ├── loadfont.s
+│               │   │   │   ├── Makefile
+│               │   │   │   ├── ncode.h
+│               │   │   │   ├── pakmenu.h
+│               │   │   │   └── pakmenu.s
+│               │   │   ├── Makenos.bat
+│               │   │   ├── man/
+│               │   │   │   ├── nosLoadFont.man
+│               │   │   │   ├── nosLoadFontj.man
+│               │   │   │   ├── nosPakMenu.man
+│               │   │   │   └── nosPakMenuj.man
+│               │   │   ├── README
+│               │   │   ├── src/
+│               │   │   │   ├── canvas.c
+│               │   │   │   ├── fontbmp.h
+│               │   │   │   ├── Makefile
+│               │   │   │   ├── Makefile_eng
+│               │   │   │   ├── Makefile_jpn
+│               │   │   │   └── pakmenu.c
+│               │   │   └── test/
+│               │   │       ├── __elfcom.c
+│               │   │       ├── brick.h
+│               │   │       ├── cfb.c
+│               │   │       ├── dram_stack.c
+│               │   │       ├── Makefile
+│               │   │       ├── onetri.c
+│               │   │       ├── onetri.h
+│               │   │       ├── rdp_output.c
+│               │   │       ├── rsp_cfb.c
+│               │   │       ├── spec
+│               │   │       └── static.c
+│               │   ├── onetri/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── brick.h
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── Makefile
+│               │   │   ├── onetri.c
+│               │   │   ├── onetri.h
+│               │   │   ├── rdp_output.c
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   └── static.c
+│               │   ├── onetri-fpal/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── brick.h
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── Makefile
+│               │   │   ├── onetri.c
+│               │   │   ├── onetri.h
+│               │   │   ├── rdp_output.c
+│               │   │   ├── rdp_output_len.c
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   └── static.c
+│               │   ├── overlay/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── brick.h
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── Makefile
+│               │   │   ├── overlay.c
+│               │   │   ├── overlay.h
+│               │   │   ├── plain.c
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   └── texture.c
+│               │   ├── pfs/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── asci.c
+│               │   │   ├── cfb.c
+│               │   │   ├── eep_test.c
+│               │   │   ├── main.c
+│               │   │   ├── Makefile
+│               │   │   ├── ncode.h
+│               │   │   ├── nu64sys.c
+│               │   │   ├── spec
+│               │   │   ├── textlib.c
+│               │   │   ├── textlib.h
+│               │   │   └── thread.h
+│               │   ├── playseq/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── Makefile
+│               │   │   ├── playseq.c
+│               │   │   ├── playseq.fb
+│               │   │   ├── playseq.h
+│               │   │   └── spec
+│               │   ├── playseq.naudio/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── Makefile
+│               │   │   ├── Midnight.sbk
+│               │   │   ├── playseq.c
+│               │   │   ├── playseq.h
+│               │   │   ├── sampleBank.ctl
+│               │   │   ├── sampleBank.inst
+│               │   │   ├── sampleBank.sym
+│               │   │   ├── sampleBank.tbl
+│               │   │   └── spec
+│               │   ├── polyline/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── lines.c
+│               │   │   ├── lines.h
+│               │   │   ├── Makefile
+│               │   │   ├── makesphere.c
+│               │   │   ├── README
+│               │   │   ├── spec
+│               │   │   ├── sphere.dat
+│               │   │   ├── sphere.dl
+│               │   │   ├── static.c
+│               │   │   ├── static.h
+│               │   │   └── zbuffer.c
+│               │   ├── README_DEMOS.txt
+│               │   ├── reboot/
+│               │   │   ├── ddproc/
+│               │   │   │   ├── btile.c
+│               │   │   │   ├── dd.c
+│               │   │   │   ├── dd_checksum.c
+│               │   │   │   ├── dd_core.c
+│               │   │   │   ├── dd_func.c
+│               │   │   │   ├── font_sys.h
+│               │   │   │   ├── globals.c
+│               │   │   │   ├── hcontroller.h
+│               │   │   │   ├── hdd.h
+│               │   │   │   ├── hdd_internal.h
+│               │   │   │   ├── hddproc.h
+│               │   │   │   ├── heap.c
+│               │   │   │   ├── hglobals.h
+│               │   │   │   ├── hreset.h
+│               │   │   │   ├── hsb.h
+│               │   │   │   ├── hsi.h
+│               │   │   │   ├── hsp.h
+│               │   │   │   ├── hspfix.h
+│               │   │   │   ├── htry.h
+│               │   │   │   ├── hvideo.h
+│               │   │   │   ├── hvideo_str.h
+│               │   │   │   ├── Makefile
+│               │   │   │   ├── reset.c
+│               │   │   │   ├── sb.c
+│               │   │   │   ├── si.c
+│               │   │   │   ├── sp.h
+│               │   │   │   ├── sprite.c
+│               │   │   │   ├── sysassigned.h
+│               │   │   │   ├── Texture/
+│               │   │   │   │   ├── audio_core.c
+│               │   │   │   │   ├── audio_dma.c
+│               │   │   │   │   ├── audio_main.c
+│               │   │   │   │   ├── audio_osc.c
+│               │   │   │   │   ├── audio_plyr.c
+│               │   │   │   │   ├── audio_snd.c
+│               │   │   │   │   ├── audio_synth.c
+│               │   │   │   │   ├── ball_bms.h
+│               │   │   │   │   ├── ball_imgs.h
+│               │   │   │   │   ├── font_sys.h
+│               │   │   │   │   ├── hcontroller.h
+│               │   │   │   │   ├── l2_tv.rgb
+│               │   │   │   │   ├── letters_img.h
+│               │   │   │   │   ├── lit_bms.h
+│               │   │   │   │   ├── lit_imgs.h
+│               │   │   │   │   └── sp.h
+│               │   │   │   ├── try.c
+│               │   │   │   ├── video_core.c
+│               │   │   │   ├── video_draw.c
+│               │   │   │   ├── video_jstr.c
+│               │   │   │   └── video_str.c
+│               │   │   ├── hello_world/
+│               │   │   │   ├── cfb.c
+│               │   │   │   ├── dd_proc.c
+│               │   │   │   ├── dram_stack.c
+│               │   │   │   ├── hello_world.c
+│               │   │   │   ├── hello_world.h
+│               │   │   │   ├── hmain.h
+│               │   │   │   ├── Makefile
+│               │   │   │   ├── mkddproc.bat
+│               │   │   │   ├── rdp_output.c
+│               │   │   │   ├── rdp_output_len.c
+│               │   │   │   ├── rsp_cfb.c
+│               │   │   │   ├── spec
+│               │   │   │   └── static.c
+│               │   │   ├── id.dat
+│               │   │   ├── makefat/
+│               │   │   │   ├── byte2lba.c
+│               │   │   │   ├── makefat.c
+│               │   │   │   ├── makefat.exe
+│               │   │   │   ├── Makefile.borland
+│               │   │   │   ├── Makefile.microsoft
+│               │   │   │   ├── smakefat.c
+│               │   │   │   ├── table.c
+│               │   │   │   └── ultratypesmini.h
+│               │   │   ├── Makefile
+│               │   │   ├── onetri/
+│               │   │   │   ├── brick.h
+│               │   │   │   ├── cfb.c
+│               │   │   │   ├── dd_proc.c
+│               │   │   │   ├── dram_stack.c
+│               │   │   │   ├── err.c
+│               │   │   │   ├── herr.h
+│               │   │   │   ├── hmenu.h
+│               │   │   │   ├── Makefile
+│               │   │   │   ├── menu.c
+│               │   │   │   ├── mkddproc.bat
+│               │   │   │   ├── onetri.c
+│               │   │   │   ├── onetri.h
+│               │   │   │   ├── rdp_output.c
+│               │   │   │   ├── rdp_output_len.c
+│               │   │   │   ├── rsp_cfb.c
+│               │   │   │   ├── spec
+│               │   │   │   └── static.c
+│               │   │   └── topgun/
+│               │   │       ├── av8b.c
+│               │   │       ├── av8b.h
+│               │   │       ├── cfb.c
+│               │   │       ├── dd_proc.c
+│               │   │       ├── dd_rtc.c
+│               │   │       ├── dd_summon.c
+│               │   │       ├── dram_stack.c
+│               │   │       ├── dynamic.c
+│               │   │       ├── err.c
+│               │   │       ├── ground.c
+│               │   │       ├── ground.h
+│               │   │       ├── herr.h
+│               │   │       ├── hmenu.h
+│               │   │       ├── Makefile
+│               │   │       ├── menu.c
+│               │   │       ├── mkddproc.bat
+│               │   │       ├── Models/
+│               │   │       │   └── av8b.flt
+│               │   │       ├── rdp_output.c
+│               │   │       ├── rdp_output_len.c
+│               │   │       ├── sky.h
+│               │   │       ├── spec
+│               │   │       ├── static.c
+│               │   │       ├── Textures/
+│               │   │       │   ├── camo2.int
+│               │   │       │   ├── camo2.int.attr
+│               │   │       │   ├── clouds.rgb
+│               │   │       │   ├── decal.inta
+│               │   │       │   ├── decal.inta.attr
+│               │   │       │   ├── harrier_num.rgba
+│               │   │       │   ├── harrier_num.rgba.attr
+│               │   │       │   ├── stree1.rgba
+│               │   │       │   └── terrain.rgb
+│               │   │       ├── topgun.c
+│               │   │       ├── topgun.h
+│               │   │       ├── tree.h
+│               │   │       └── zbuffer.c
+│               │   ├── soundmonkey/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── Makefile
+│               │   │   ├── soundmonkey.c
+│               │   │   ├── soundmonkey.h
+│               │   │   └── spec
+│               │   ├── spgame/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── dynamic.c
+│               │   │   ├── font.c
+│               │   │   ├── font.h
+│               │   │   ├── font_ext.h
+│               │   │   ├── main.c
+│               │   │   ├── main.h
+│               │   │   ├── Makefile
+│               │   │   ├── pics.c
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── sp_ball.h
+│               │   │   ├── sp_lit.h
+│               │   │   ├── spec
+│               │   │   ├── spgame.c
+│               │   │   ├── static.c
+│               │   │   └── Texture/
+│               │   │       ├── ball.rgba
+│               │   │       ├── ball_bms.h
+│               │   │       ├── ball_imgs.h
+│               │   │       ├── L2_TV.rgb
+│               │   │       ├── lit_bms.h
+│               │   │       └── lit_imgs.h
+│               │   ├── spritemonkey/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dk.h
+│               │   │   ├── dk7.h
+│               │   │   ├── Makefile
+│               │   │   ├── spec
+│               │   │   ├── sprite.c
+│               │   │   ├── sprite.h
+│               │   │   ├── static.c
+│               │   │   ├── static.h
+│               │   │   └── static.sgi
+│               │   ├── spritemonkeyEX/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── cont.c
+│               │   │   ├── Cont.h
+│               │   │   ├── dk.c
+│               │   │   ├── dk7.c
+│               │   │   ├── dma.c
+│               │   │   ├── Dma.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── framebuffer.c
+│               │   │   ├── FrameBuffer.h
+│               │   │   ├── game.c
+│               │   │   ├── l2_tv.c
+│               │   │   ├── main.c
+│               │   │   ├── Makefile
+│               │   │   ├── rcprdp.c
+│               │   │   ├── RcpRdp.h
+│               │   │   ├── road.c
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── task.c
+│               │   │   ├── Task.h
+│               │   │   ├── tile_rect.c
+│               │   │   └── Tile_Rect.h
+│               │   ├── sramtest/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── main.c
+│               │   │   ├── Makefile
+│               │   │   ├── nu64sys.c
+│               │   │   ├── nu64sys.h
+│               │   │   ├── readbuf.c
+│               │   │   ├── spec
+│               │   │   ├── sram.h
+│               │   │   ├── sraminit.c
+│               │   │   └── writebuf.c
+│               │   ├── terrain/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── boot.c
+│               │   │   ├── boot.h
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── font.c
+│               │   │   ├── font.h
+│               │   │   ├── font_ext.h
+│               │   │   ├── game.c
+│               │   │   ├── game.h
+│               │   │   ├── gfxinit.c
+│               │   │   ├── gfxstatic.c
+│               │   │   ├── letters_img.h
+│               │   │   ├── Makefile
+│               │   │   ├── README
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── shared.h
+│               │   │   ├── spec
+│               │   │   ├── static.h
+│               │   │   ├── ter0_save.h.cool
+│               │   │   ├── ter0_save.h.cool2
+│               │   │   ├── terrain.c
+│               │   │   ├── terrainfile
+│               │   │   ├── terrainls
+│               │   │   ├── terrainlsMM
+│               │   │   ├── terrainlsrgb
+│               │   │   ├── timing
+│               │   │   └── zbuffer.c
+│               │   ├── texlight/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── boot.c
+│               │   │   ├── boot.h
+│               │   │   ├── brick.jpg
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── font.c
+│               │   │   ├── font.h
+│               │   │   ├── font_ext.h
+│               │   │   ├── game.c
+│               │   │   ├── game.h
+│               │   │   ├── gfxinit.c
+│               │   │   ├── gfxstatic.c
+│               │   │   ├── I4spec.h
+│               │   │   ├── Makefile
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   ├── static.h
+│               │   │   ├── teapot_tri.h
+│               │   │   ├── teapot_vtx.h
+│               │   │   ├── texture.c
+│               │   │   ├── texture.h
+│               │   │   └── zbuffer.c
+│               │   ├── Texture/
+│               │   │   ├── brick.rgb
+│               │   │   ├── chainlink.rgb
+│               │   │   ├── checker.rgba
+│               │   │   ├── letters.rgb
+│               │   │   ├── letters_img.h
+│               │   │   ├── Makefile
+│               │   │   ├── mario.rgb
+│               │   │   ├── molecule.rgba
+│               │   │   ├── README
+│               │   │   ├── RGBA16brick.h
+│               │   │   ├── RGBA16brickMM.h
+│               │   │   ├── RGBA16chainlink.h
+│               │   │   ├── RGBA16chainlinkMM.h
+│               │   │   ├── RGBA16checker.h
+│               │   │   ├── RGBA16checkerMM.h
+│               │   │   ├── RGBA16mario.h
+│               │   │   ├── RGBA16marioMM.h
+│               │   │   ├── RGBA16molecule.h
+│               │   │   └── RGBA16moleculeMM.h
+│               │   ├── threadmonkey/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── block.c
+│               │   │   ├── block.h
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── Makefile
+│               │   │   ├── rdp_output.c
+│               │   │   ├── README.txt
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── static.h
+│               │   │   ├── subcube.c
+│               │   │   ├── subcube.h
+│               │   │   ├── subplane.c
+│               │   │   ├── subplane.h
+│               │   │   ├── timer.c
+│               │   │   ├── timer.h
+│               │   │   └── zbuffer.c
+│               │   ├── tile_rect2d/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── cv01.rgb
+│               │   │   ├── cv02.rgb
+│               │   │   ├── cv03.rgb
+│               │   │   ├── cv04.rgb
+│               │   │   ├── dram_stack.c
+│               │   │   ├── main.c
+│               │   │   ├── Makefile
+│               │   │   ├── RGBA16cv01.h
+│               │   │   ├── RGBA16cv02.h
+│               │   │   ├── RGBA16cv03.h
+│               │   │   ├── RGBA16cv04.h
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── tile_rect.h
+│               │   │   └── tile_rectangle.c
+│               │   ├── tile_rect3d/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cafe.c
+│               │   │   ├── cafe.h
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── cv01.h
+│               │   │   ├── cv01.rgb
+│               │   │   ├── cv03.h
+│               │   │   ├── cv03.rgb
+│               │   │   ├── cv04.h
+│               │   │   ├── cv04.rgb
+│               │   │   ├── cv05.h
+│               │   │   ├── cv05.rgb
+│               │   │   ├── cv06.h
+│               │   │   ├── cv06.rgb
+│               │   │   ├── dram_stack.c
+│               │   │   ├── main.c
+│               │   │   ├── Makefile
+│               │   │   ├── rd01.h
+│               │   │   ├── rd01.rgb
+│               │   │   ├── rd02.h
+│               │   │   ├── rd02.rgb
+│               │   │   ├── rd03.h
+│               │   │   ├── rd03.rgb
+│               │   │   ├── rd04.h
+│               │   │   ├── rd04.rgb
+│               │   │   ├── rd05.h
+│               │   │   ├── rd05.rgb
+│               │   │   ├── rd06.h
+│               │   │   ├── rd06.rgb
+│               │   │   ├── road.c
+│               │   │   ├── road.h
+│               │   │   ├── rsp_cfb.c
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── tile_rect.h
+│               │   │   ├── tile_rectangle.c
+│               │   │   ├── world.c
+│               │   │   ├── world.h
+│               │   │   ├── world01.h
+│               │   │   ├── world01.rgb
+│               │   │   ├── world02.h
+│               │   │   ├── world02.rgb
+│               │   │   ├── world03.h
+│               │   │   ├── world03.rgb
+│               │   │   ├── world04.h
+│               │   │   ├── world04.rgb
+│               │   │   ├── world05.h
+│               │   │   ├── world05.rgb
+│               │   │   ├── world06.h
+│               │   │   └── world06.rgb
+│               │   ├── topgun/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── av8b.c
+│               │   │   ├── av8b.h
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── dynamic.c
+│               │   │   ├── ground.c
+│               │   │   ├── ground.h
+│               │   │   ├── init.c
+│               │   │   ├── Makefile
+│               │   │   ├── Models/
+│               │   │   │   └── av8b.flt
+│               │   │   ├── rdp_output.c
+│               │   │   ├── sky.h
+│               │   │   ├── spec
+│               │   │   ├── spec_em
+│               │   │   ├── static.c
+│               │   │   ├── Textures/
+│               │   │   │   ├── camo2.int
+│               │   │   │   ├── camo2.int.attr
+│               │   │   │   ├── clouds.rgb
+│               │   │   │   ├── decal.inta
+│               │   │   │   ├── decal.inta.attr
+│               │   │   │   ├── harrier_num.rgba
+│               │   │   │   ├── harrier_num.rgba.attr
+│               │   │   │   ├── stree1.rgba
+│               │   │   │   └── terrain.rgb
+│               │   │   ├── topgun.c
+│               │   │   ├── topgun.h
+│               │   │   ├── tree.h
+│               │   │   └── zbuffer.c
+│               │   ├── tron/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── dram_stack.c
+│               │   │   ├── dram_yield.c
+│               │   │   ├── dynamic.c
+│               │   │   ├── grid.c
+│               │   │   ├── init.c
+│               │   │   ├── Makefile
+│               │   │   ├── makegrid.c
+│               │   │   ├── spec
+│               │   │   ├── tron.c
+│               │   │   ├── tron.h
+│               │   │   └── zbuffer.c
+│               │   └── voice/
+│               │       ├── __elfcom.c
+│               │       ├── action.c
+│               │       ├── action.h
+│               │       ├── asci.c
+│               │       ├── cfb.c
+│               │       ├── graph.c
+│               │       ├── graph.h
+│               │       ├── kfont.c
+│               │       ├── main.c
+│               │       ├── Makefile
+│               │       ├── mes.c
+│               │       ├── mes.h
+│               │       ├── message.c
+│               │       ├── nu64sys.c
+│               │       ├── nu64sys.h
+│               │       ├── readme.txt
+│               │       ├── siproc.c
+│               │       ├── siproc.h
+│               │       ├── spec
+│               │       └── thread.h
+│               ├── demos_old/
+│               │   ├── gtdemo/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── cfb.c
+│               │   │   ├── char_data.h
+│               │   │   ├── character.c
+│               │   │   ├── character.h
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── floor.c
+│               │   │   ├── gtdemo.c
+│               │   │   ├── gtdemo.h
+│               │   │   ├── Makefile
+│               │   │   ├── punch.c
+│               │   │   ├── punch.h
+│               │   │   ├── punchtable
+│               │   │   ├── punchtable.c
+│               │   │   ├── punchtable.h
+│               │   │   ├── rdp_output.c
+│               │   │   ├── rdp_output_len.c
+│               │   │   ├── README
+│               │   │   ├── spec
+│               │   │   ├── static.c
+│               │   │   ├── timer.c
+│               │   │   ├── timer.h
+│               │   │   ├── turbo.c
+│               │   │   ├── turbo.h
+│               │   │   ├── walk.c
+│               │   │   ├── walk.h
+│               │   │   ├── walktable
+│               │   │   ├── walktable.c
+│               │   │   ├── walktable.h
+│               │   │   └── zbuffer.c
+│               │   ├── host_test/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── Borland/
+│               │   │   │   ├── makefile
+│               │   │   │   ├── test.c
+│               │   │   │   └── x.bat
+│               │   │   ├── game.c
+│               │   │   ├── Makefile
+│               │   │   ├── Microsoft/
+│               │   │   │   ├── makefile
+│               │   │   │   └── test.c
+│               │   │   └── spec
+│               │   ├── hostio/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── Borland/
+│               │   │   │   ├── host.c
+│               │   │   │   ├── hostio.h
+│               │   │   │   └── makefile
+│               │   │   ├── game.c
+│               │   │   ├── hostio.h
+│               │   │   ├── Makefile
+│               │   │   ├── Microsoft/
+│               │   │   │   ├── host.c
+│               │   │   │   ├── hostio.h
+│               │   │   │   └── makefile
+│               │   │   ├── README.txt
+│               │   │   └── spec
+│               │   ├── nnsample1/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── audio.c
+│               │   │   ├── audio.h
+│               │   │   ├── boot.c
+│               │   │   ├── cfb.c
+│               │   │   ├── cont_finish.c
+│               │   │   ├── cont_finish.h
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── def.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── fiter_1s1.c
+│               │   │   ├── fiter_1s1.h
+│               │   │   ├── fiter_2s1.c
+│               │   │   ├── fiter_2s1.h
+│               │   │   ├── gfxdlistbuf.c
+│               │   │   ├── gfxinit.c
+│               │   │   ├── gfxyield.c
+│               │   │   ├── graphic.c
+│               │   │   ├── graphic.h
+│               │   │   ├── graphic_00.c
+│               │   │   ├── graphic_01.c
+│               │   │   ├── main.c
+│               │   │   ├── main.h
+│               │   │   ├── main00.c
+│               │   │   ├── main01.c
+│               │   │   ├── main01.h
+│               │   │   ├── Makefile
+│               │   │   ├── message.c
+│               │   │   ├── message.h
+│               │   │   ├── nnsched.c
+│               │   │   ├── nnsched.h
+│               │   │   ├── nnsched.txt
+│               │   │   ├── rdp_output.c
+│               │   │   ├── README.ASCII
+│               │   │   ├── README.TXT
+│               │   │   ├── reflect.h
+│               │   │   ├── segment.h
+│               │   │   ├── spec
+│               │   │   ├── vram.h
+│               │   │   └── zbuf.c
+│               │   ├── nnsample2/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── audio.c
+│               │   │   ├── audio.h
+│               │   │   ├── boot.c
+│               │   │   ├── cfb.c
+│               │   │   ├── controller.c
+│               │   │   ├── controller.h
+│               │   │   ├── def.h
+│               │   │   ├── dram_stack.c
+│               │   │   ├── far_.c
+│               │   │   ├── far_.h
+│               │   │   ├── gfxdlistbuf.c
+│               │   │   ├── gfxinit.c
+│               │   │   ├── gfxperfm.c
+│               │   │   ├── gfxyield.c
+│               │   │   ├── graphic.c
+│               │   │   ├── graphic.h
+│               │   │   ├── graphic_00.c
+│               │   │   ├── lodmodel.c
+│               │   │   ├── main.c
+│               │   │   ├── main.h
+│               │   │   ├── main00.c
+│               │   │   ├── Makefile
+│               │   │   ├── message.c
+│               │   │   ├── message.h
+│               │   │   ├── middle_.c
+│               │   │   ├── middle_.h
+│               │   │   ├── near_.c
+│               │   │   ├── near_.h
+│               │   │   ├── nnsched.c
+│               │   │   ├── nnsched.h
+│               │   │   ├── nnsched.txt
+│               │   │   ├── rdp_output.c
+│               │   │   ├── README.ASCII
+│               │   │   ├── README.TXT
+│               │   │   ├── segment.h
+│               │   │   ├── spec
+│               │   │   ├── vram.h
+│               │   │   └── zbuf.c
+│               │   ├── simple/
+│               │   │   ├── __elfcom.c
+│               │   │   ├── audio.c
+│               │   │   ├── audio.h
+│               │   │   ├── audiomgr.c
+│               │   │   ├── controller.c
+│               │   │   ├── gfx.c
+│               │   │   ├── gfx.h
+│               │   │   ├── gfx_tri.h
+│               │   │   ├── gfx_vtx.h
+│               │   │   ├── gfxcfb.c
+│               │   │   ├── gfxdlists.c
+│               │   │   ├── gfxdynamic.c
+│               │   │   ├── gfxinit.c
+│               │   │   ├── gfxstack.c
+│               │   │   ├── gfxstatic.c
+│               │   │   ├── gfxyield.c
+│               │   │   ├── gfxzbuffer.c
+│               │   │   ├── Makefile
+│               │   │   ├── misc.c
+│               │   │   ├── misc.h
+│               │   │   ├── simple.c
+│               │   │   ├── simple.h
+│               │   │   └── spec
+│               │   └── turbomonkey/
+│               │       ├── __elfcom.c
+│               │       ├── block.c
+│               │       ├── block.h
+│               │       ├── brick.h
+│               │       ├── cfb.c
+│               │       ├── controller.c
+│               │       ├── controller.h
+│               │       ├── Makefile
+│               │       ├── mario-small.h
+│               │       ├── README
+│               │       ├── spec
+│               │       ├── static.c
+│               │       ├── static.h
+│               │       ├── subcube.c
+│               │       ├── subcube.h
+│               │       ├── subplane.c
+│               │       ├── subplane.h
+│               │       ├── timer.c
+│               │       ├── timer.h
+│               │       └── zbuffer.c
+│               ├── doc/
+│               │   ├── gfxucode.F3DEX/
+│               │   │   ├── ChangeLog
+│               │   │   ├── ChangeLog.txt
+│               │   │   ├── NewFunctions
+│               │   │   ├── NewFunctions.txt
+│               │   │   ├── README
+│               │   │   └── Readme.txt
+│               │   ├── gfxucode.F3DEX2/
+│               │   │   └── Readme.txt
+│               │   ├── gfxucode.S2DEX/
+│               │   │   └── Readme.txt
+│               │   ├── relnotes20L.txt
+│               │   └── relnotes_old/
+│               │       ├── patches20I/
+│               │       │   ├── 64dd/
+│               │       │   │   ├── Changefiles.txt
+│               │       │   │   ├── DOC_brake.txt
+│               │       │   │   ├── DOC_errseq.txt
+│               │       │   │   ├── DOC_mdisk.txt
+│               │       │   │   ├── DOC_packer.txt
+│               │       │   │   ├── DOC_pwoff.txt
+│               │       │   │   ├── DOC_rtcfnc.txt
+│               │       │   │   └── README.txt
+│               │       │   └── ultra/
+│               │       │       ├── Changefiles.txt
+│               │       │       ├── DOC_clock.txt
+│               │       │       ├── DOC_cpak.txt
+│               │       │       ├── DOC_fpal.txt
+│               │       │       ├── DOC_handle.txt
+│               │       │       ├── DOC_piraw.txt
+│               │       │       ├── DOC_prenmi.txt
+│               │       │       └── README.txt
+│               │       ├── patches20J/
+│               │       │   └── ultra/
+│               │       │       ├── Changefiles.txt
+│               │       │       └── README.txt
+│               │       ├── relnotes.090795
+│               │       ├── relnotes.092995
+│               │       ├── relnotes.102695
+│               │       ├── relnotes20B
+│               │       ├── relnotes20C
+│               │       ├── relnotes20E
+│               │       ├── relnotes20F
+│               │       ├── relnotes20G
+│               │       ├── relnotes20H.txt
+│               │       ├── relnotes20I.txt
+│               │       ├── relnotes20I_64dd.txt
+│               │       ├── relnotes20I_naudio.txt
+│               │       ├── relnotes20J.txt
+│               │       └── relnotes20K.txt
+│               ├── libsrc/
+│               │   ├── libnaudio/
+│               │   │   ├── libn_audio/
+│               │   │   │   └── locdefs
+│               │   │   ├── libn_audio_d/
+│               │   │   │   └── locdefs
+│               │   │   ├── Makefile
+│               │   │   ├── n_abi.h
+│               │   │   ├── n_auxbus.c
+│               │   │   ├── n_cseqp.h
+│               │   │   ├── n_cspdelete.c
+│               │   │   ├── n_cspgetchlvol.c
+│               │   │   ├── n_cspgetfxmix.c
+│               │   │   ├── n_cspgetpan.c
+│               │   │   ├── n_cspgetpriority.c
+│               │   │   ├── n_cspgetprogram.c
+│               │   │   ├── n_cspgetseq.c
+│               │   │   ├── n_cspgetstate.c
+│               │   │   ├── n_cspgettempo.c
+│               │   │   ├── n_cspgetvol.c
+│               │   │   ├── n_csplayer.c
+│               │   │   ├── n_cspplay.c
+│               │   │   ├── n_cspsendmidi.c
+│               │   │   ├── n_cspsetbank.c
+│               │   │   ├── n_cspsetchlvol.c
+│               │   │   ├── n_cspsetfxmix.c
+│               │   │   ├── n_cspsetpan.c
+│               │   │   ├── n_cspsetpriority.c
+│               │   │   ├── n_cspsetprogram.c
+│               │   │   ├── n_cspsetseq.c
+│               │   │   ├── n_cspsettempo.c
+│               │   │   ├── n_cspsetvol.c
+│               │   │   ├── n_cspstop.c
+│               │   │   ├── n_csq.c
+│               │   │   ├── n_drvrNew.c
+│               │   │   ├── n_env.c
+│               │   │   ├── n_env_add01.c
+│               │   │   ├── n_event.c
+│               │   │   ├── n_libaudio.h
+│               │   │   ├── n_libaudio_s_to_n.h
+│               │   │   ├── n_load.c
+│               │   │   ├── n_load_add01.c
+│               │   │   ├── n_load_add02.c
+│               │   │   ├── n_mainbus.c
+│               │   │   ├── n_resample.c
+│               │   │   ├── n_resample_add01.c
+│               │   │   ├── n_reverb.c
+│               │   │   ├── n_reverb_add01.c
+│               │   │   ├── n_reverb_add02.c
+│               │   │   ├── n_reverb_add03.c
+│               │   │   ├── n_reverb_add04.c
+│               │   │   ├── n_save.c
+│               │   │   ├── n_save_add01.c
+│               │   │   ├── n_seq.c
+│               │   │   ├── n_seqp.h
+│               │   │   ├── n_seqpdelete.c
+│               │   │   ├── n_seqpgetchlvol.c
+│               │   │   ├── n_seqpgetfxmix.c
+│               │   │   ├── n_seqpgetpan.c
+│               │   │   ├── n_seqpgetpriority.c
+│               │   │   ├── n_seqpgetprogram.c
+│               │   │   ├── n_seqpgetseq.c
+│               │   │   ├── n_seqpgetstate.c
+│               │   │   ├── n_seqpgettempo.c
+│               │   │   ├── n_seqpgetvol.c
+│               │   │   ├── n_seqplayer.c
+│               │   │   ├── n_seqploop.c
+│               │   │   ├── n_seqpplay.c
+│               │   │   ├── n_seqpsendmidi.c
+│               │   │   ├── n_seqpsetbank.c
+│               │   │   ├── n_seqpsetchlvol.c
+│               │   │   ├── n_seqpsetfxmix.c
+│               │   │   ├── n_seqpsetpan.c
+│               │   │   ├── n_seqpsetpriority.c
+│               │   │   ├── n_seqpsetprogram.c
+│               │   │   ├── n_seqpsetseq.c
+│               │   │   ├── n_seqpsettempo.c
+│               │   │   ├── n_seqpsetvol.c
+│               │   │   ├── n_seqpstop.c
+│               │   │   ├── n_sl.c
+│               │   │   ├── n_sndp.h
+│               │   │   ├── n_sndpallocate.c
+│               │   │   ├── n_sndpdeallocate.c
+│               │   │   ├── n_sndpdelete.c
+│               │   │   ├── n_sndpgetsound.c
+│               │   │   ├── n_sndpgetstate.c
+│               │   │   ├── n_sndplayer.c
+│               │   │   ├── n_sndpplay.c
+│               │   │   ├── n_sndpplayat.c
+│               │   │   ├── n_sndpsetfxmix.c
+│               │   │   ├── n_sndpsetpan.c
+│               │   │   ├── n_sndpsetpitch.c
+│               │   │   ├── n_sndpsetpriority.c
+│               │   │   ├── n_sndpsetsound.c
+│               │   │   ├── n_sndpsetvol.c
+│               │   │   ├── n_sndpstop.c
+│               │   │   ├── n_synaddplayer.c
+│               │   │   ├── n_synallocfx.c
+│               │   │   ├── n_synallocvoice.c
+│               │   │   ├── n_syndelete.c
+│               │   │   ├── n_synfreefx.c
+│               │   │   ├── n_synfreevoice.c
+│               │   │   ├── n_syngetfxref.c
+│               │   │   ├── n_syngetpriority.c
+│               │   │   ├── n_synremoveplayer.c
+│               │   │   ├── n_synsetfxmix.c
+│               │   │   ├── n_synsetfxparam.c
+│               │   │   ├── n_synsetpan.c
+│               │   │   ├── n_synsetpitch.c
+│               │   │   ├── n_synsetpriority.c
+│               │   │   ├── n_synsetvol.c
+│               │   │   ├── n_synstartvoice.c
+│               │   │   ├── n_synstartvoiceparam.c
+│               │   │   ├── n_synstopvoice.c
+│               │   │   ├── n_synthesizer.c
+│               │   │   └── n_synthInternals.h
+│               │   └── libultra/
+│               │       ├── audio/
+│               │       │   ├── auxbus.c
+│               │       │   ├── bnkf.c
+│               │       │   ├── cents2ratio.c
+│               │       │   ├── copy.c
+│               │       │   ├── cseq.c
+│               │       │   ├── cseq.h
+│               │       │   ├── cseqp.h
+│               │       │   ├── cspdelete.c
+│               │       │   ├── cspgetchlvol.c
+│               │       │   ├── cspgetfxmix.c
+│               │       │   ├── cspgetpan.c
+│               │       │   ├── cspgetpriority.c
+│               │       │   ├── cspgetprogram.c
+│               │       │   ├── cspgetseq.c
+│               │       │   ├── cspgetstate.c
+│               │       │   ├── cspgettempo.c
+│               │       │   ├── cspgetvol.c
+│               │       │   ├── csplayer.c
+│               │       │   ├── cspplay.c
+│               │       │   ├── cspsendmidi.c
+│               │       │   ├── cspsetbank.c
+│               │       │   ├── cspsetchlvol.c
+│               │       │   ├── cspsetfxmix.c
+│               │       │   ├── cspsetpan.c
+│               │       │   ├── cspsetpriority.c
+│               │       │   ├── cspsetprogram.c
+│               │       │   ├── cspsetseq.c
+│               │       │   ├── cspsettempo.c
+│               │       │   ├── cspsetvol.c
+│               │       │   ├── cspstop.c
+│               │       │   ├── drvrNew.c
+│               │       │   ├── env.c
+│               │       │   ├── event.c
+│               │       │   ├── filter.c
+│               │       │   ├── heapalloc.c
+│               │       │   ├── heapcheck.c
+│               │       │   ├── heapinit.c
+│               │       │   ├── initfx.h
+│               │       │   ├── load.c
+│               │       │   ├── mainbus.c
+│               │       │   ├── Makefile
+│               │       │   ├── parse_abi.c
+│               │       │   ├── resample.c
+│               │       │   ├── reverb.c
+│               │       │   ├── save.c
+│               │       │   ├── seq.c
+│               │       │   ├── seq.h
+│               │       │   ├── seqp.h
+│               │       │   ├── seqpdelete.c
+│               │       │   ├── seqpgetchlvol.c
+│               │       │   ├── seqpgetfxmix.c
+│               │       │   ├── seqpgetpan.c
+│               │       │   ├── seqpgetpriority.c
+│               │       │   ├── seqpgetprogram.c
+│               │       │   ├── seqpgetseq.c
+│               │       │   ├── seqpgetstate.c
+│               │       │   ├── seqpgettempo.c
+│               │       │   ├── seqpgetvol.c
+│               │       │   ├── seqplayer.c
+│               │       │   ├── seqploop.c
+│               │       │   ├── seqpplay.c
+│               │       │   ├── seqpsendmidi.c
+│               │       │   ├── seqpsetbank.c
+│               │       │   ├── seqpsetchlvol.c
+│               │       │   ├── seqpsetfxmix.c
+│               │       │   ├── seqpsetpan.c
+│               │       │   ├── seqpsetpriority.c
+│               │       │   ├── seqpsetprogram.c
+│               │       │   ├── seqpsetseq.c
+│               │       │   ├── seqpsettempo.c
+│               │       │   ├── seqpsetvol.c
+│               │       │   ├── seqpstop.c
+│               │       │   ├── sl.c
+│               │       │   ├── sndp.h
+│               │       │   ├── sndpallocate.c
+│               │       │   ├── sndpdeallocate.c
+│               │       │   ├── sndpdelete.c
+│               │       │   ├── sndpgetsound.c
+│               │       │   ├── sndpgetstate.c
+│               │       │   ├── sndplayer.c
+│               │       │   ├── sndpplay.c
+│               │       │   ├── sndpplayat.c
+│               │       │   ├── sndpsetfxmix.c
+│               │       │   ├── sndpsetpan.c
+│               │       │   ├── sndpsetpitch.c
+│               │       │   ├── sndpsetpriority.c
+│               │       │   ├── sndpsetsound.c
+│               │       │   ├── sndpsetvol.c
+│               │       │   ├── sndpstop.c
+│               │       │   ├── synaddplayer.c
+│               │       │   ├── synallocfx.c
+│               │       │   ├── synallocvoice.c
+│               │       │   ├── syndelete.c
+│               │       │   ├── synfreefx.c
+│               │       │   ├── synfreevoice.c
+│               │       │   ├── syngetfxref.c
+│               │       │   ├── syngetpriority.c
+│               │       │   ├── synremoveplayer.c
+│               │       │   ├── synsetfxmix.c
+│               │       │   ├── synsetfxparam.c
+│               │       │   ├── synsetpan.c
+│               │       │   ├── synsetpitch.c
+│               │       │   ├── synsetpriority.c
+│               │       │   ├── synsetvol.c
+│               │       │   ├── synstartvoice.c
+│               │       │   ├── synstartvoiceparam.c
+│               │       │   ├── synstopvoice.c
+│               │       │   ├── synthesizer.c
+│               │       │   └── synthInternals.h
+│               │       ├── gt/
+│               │       │   ├── dumpturbo.c
+│               │       │   ├── gt.c
+│               │       │   ├── gtint.h
+│               │       │   └── Makefile
+│               │       ├── gu/
+│               │       │   ├── align.c
+│               │       │   ├── cosf.c
+│               │       │   ├── coss.c
+│               │       │   ├── dump_gbi.c
+│               │       │   ├── frustum.c
+│               │       │   ├── guint.h
+│               │       │   ├── guLoadTile_bug.c
+│               │       │   ├── libm_vals.s
+│               │       │   ├── loadtextureblockmipmap.c
+│               │       │   ├── lookat.c
+│               │       │   ├── lookathil.c
+│               │       │   ├── lookatref.c
+│               │       │   ├── lookatstereo.c
+│               │       │   ├── Makefile
+│               │       │   ├── mtxcatf.c
+│               │       │   ├── mtxcatl.c
+│               │       │   ├── mtxutil.c
+│               │       │   ├── normalize.c
+│               │       │   ├── ortho.c
+│               │       │   ├── parse_gbi.c
+│               │       │   ├── parse_rdp.c
+│               │       │   ├── parse_string.c
+│               │       │   ├── perspective.c
+│               │       │   ├── position.c
+│               │       │   ├── poslight.c
+│               │       │   ├── poslighthil.c
+│               │       │   ├── random.c
+│               │       │   ├── readme.txt
+│               │       │   ├── rotate.c
+│               │       │   ├── rotateRPY.c
+│               │       │   ├── scale.c
+│               │       │   ├── sinf.c
+│               │       │   ├── sins.c
+│               │       │   ├── sintable.h
+│               │       │   ├── sqrtf.s
+│               │       │   ├── translate.c
+│               │       │   ├── us2dex.c
+│               │       │   ├── us2dex2_emu.c
+│               │       │   ├── us2dex_emu.c
+│               │       │   └── usprite.c
+│               │       ├── mgu/
+│               │       │   ├── asm.h
+│               │       │   ├── Makefile
+│               │       │   ├── mtxcatf.s
+│               │       │   ├── mtxcatl.c
+│               │       │   ├── mtxf2l.s
+│               │       │   ├── mtxident.s
+│               │       │   ├── mtxidentf.s
+│               │       │   ├── mtxl2f.s
+│               │       │   ├── mtxxfmf.c
+│               │       │   ├── mtxxfml.c
+│               │       │   ├── normalize.s
+│               │       │   ├── regdef.h
+│               │       │   ├── rotate.c
+│               │       │   ├── scale.s
+│               │       │   ├── scalef.s
+│               │       │   ├── translate.s
+│               │       │   └── translatef.s
+│               │       ├── sched/
+│               │       │   ├── Makefile
+│               │       │   ├── sched.c
+│               │       │   └── sched_log.fmt
+│               │       └── sp/
+│               │           ├── clearattribute.c
+│               │           ├── color.c
+│               │           ├── hide.c
+│               │           ├── Makefile
+│               │           ├── setattribute.c
+│               │           ├── show.c
+│               │           ├── sprite.c
+│               │           ├── spriteEX.c
+│               │           ├── spriteEX2.c
+│               │           └── spscale.c
+│               └── README.txt
+├── install.txt
+└── os20l_eng.exe

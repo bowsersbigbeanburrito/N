@@ -1,0 +1,812 @@
+viewer/
+├── lobby/
+│   ├── .git/
+│   ├── jj.txt
+│   ├── lobby_server/
+│   │   ├── common.h
+│   │   ├── config
+│   │   ├── lobby_server
+│   │   ├── lobby_server.c
+│   │   ├── Makefile
+│   │   ├── manger
+│   │   ├── manger.c
+│   │   ├── pccert_bpki.sys
+│   │   ├── Readme
+│   │   ├── test
+│   │   ├── test.c
+│   │   ├── worker
+│   │   └── worker.c
+│   ├── lobby_server.cpp
+│   ├── lobby_server.cpp.bak
+│   ├── lobby_server.h
+│   ├── Makefile
+│   └── multiclients/
+│       ├── client.c
+│       ├── dll.c
+│       ├── dll.c.bak
+│       ├── dll.h
+│       ├── Makefile
+│       ├── multiclients.c
+│       ├── pccert_bpki.sys
+│       ├── shell.sh
+│       └── test_plog/
+│           ├── log31/
+│           │   ├── _19545.log
+│           │   ├── _19551.log
+│           │   ├── _19557.log
+│           │   ├── _19563.log
+│           │   ├── _19569.log
+│           │   ├── _19575.log
+│           │   ├── _19581.log
+│           │   ├── _19587.log
+│           │   ├── _19593.log
+│           │   ├── _19599.log
+│           │   ├── _19605.log
+│           │   ├── _19611.log
+│           │   ├── _19617.log
+│           │   ├── _19623.log
+│           │   ├── _19629.log
+│           │   ├── _19635.log
+│           │   ├── _19641.log
+│           │   ├── _19647.log
+│           │   ├── _19653.log
+│           │   ├── _19659.log
+│           │   ├── _19669.log
+│           │   ├── _19675.log
+│           │   ├── _19682.log
+│           │   ├── _19688.log
+│           │   ├── _19696.log
+│           │   ├── _19702.log
+│           │   ├── _19709.log
+│           │   ├── _19715.log
+│           │   ├── _19721.log
+│           │   ├── _19727.log
+│           │   ├── _19733.log
+│           │   ├── _19739.log
+│           │   ├── _19745.log
+│           │   ├── _19751.log
+│           │   ├── _19757.log
+│           │   ├── _19763.log
+│           │   ├── _19769.log
+│           │   ├── _19777.log
+│           │   ├── _19784.log
+│           │   ├── _19791.log
+│           │   ├── _19797.log
+│           │   ├── _19803.log
+│           │   ├── _19809.log
+│           │   ├── _19815.log
+│           │   ├── _19821.log
+│           │   ├── _19827.log
+│           │   ├── _19833.log
+│           │   ├── _19840.log
+│           │   ├── _19846.log
+│           │   ├── _19854.log
+│           │   ├── _19861.log
+│           │   ├── _19868.log
+│           │   ├── _19875.log
+│           │   ├── _19882.log
+│           │   ├── _19888.log
+│           │   ├── _19894.log
+│           │   ├── _19900.log
+│           │   ├── _19906.log
+│           │   ├── _19912.log
+│           │   ├── _19922.log
+│           │   ├── _19928.log
+│           │   ├── _19934.log
+│           │   ├── _19941.log
+│           │   ├── _19947.log
+│           │   ├── _19955.log
+│           │   ├── _19961.log
+│           │   ├── _19967.log
+│           │   ├── _19974.log
+│           │   ├── _19980.log
+│           │   ├── _19986.log
+│           │   ├── _19992.log
+│           │   ├── _19998.log
+│           │   ├── _20004.log
+│           │   ├── _20010.log
+│           │   ├── _20016.log
+│           │   ├── _20022.log
+│           │   ├── _20028.log
+│           │   ├── _20034.log
+│           │   ├── _20041.log
+│           │   ├── _20048.log
+│           │   ├── _20055.log
+│           │   ├── _20062.log
+│           │   ├── _20068.log
+│           │   ├── _20074.log
+│           │   ├── _20080.log
+│           │   ├── _20086.log
+│           │   ├── _20092.log
+│           │   ├── _20098.log
+│           │   ├── _20104.log
+│           │   ├── _20110.log
+│           │   ├── _20117.log
+│           │   ├── _20123.log
+│           │   ├── _20131.log
+│           │   ├── _20139.log
+│           │   ├── _20145.log
+│           │   ├── _20152.log
+│           │   ├── _20159.log
+│           │   ├── _20165.log
+│           │   ├── _20171.log
+│           │   ├── _20181.log
+│           │   ├── _20187.log
+│           │   ├── _20193.log
+│           │   ├── _20200.log
+│           │   ├── _20206.log
+│           │   ├── _20213.log
+│           │   ├── _20220.log
+│           │   ├── _20226.log
+│           │   ├── _20232.log
+│           │   ├── _20239.log
+│           │   ├── _20245.log
+│           │   ├── _20251.log
+│           │   ├── _20257.log
+│           │   ├── _20263.log
+│           │   ├── _20269.log
+│           │   ├── _20275.log
+│           │   ├── _20281.log
+│           │   ├── _20287.log
+│           │   ├── _20293.log
+│           │   ├── _20299.log
+│           │   ├── _20305.log
+│           │   ├── _20313.log
+│           │   ├── _20319.log
+│           │   ├── _20326.log
+│           │   ├── _20333.log
+│           │   ├── _20339.log
+│           │   ├── _20345.log
+│           │   ├── _20351.log
+│           │   ├── _20357.log
+│           │   ├── _20363.log
+│           │   ├── _20369.log
+│           │   ├── _20375.log
+│           │   ├── _20381.log
+│           │   ├── _20388.log
+│           │   ├── _20394.log
+│           │   ├── _20402.log
+│           │   ├── _20409.log
+│           │   ├── _20416.log
+│           │   ├── _20423.log
+│           │   ├── _20429.log
+│           │   ├── _20439.log
+│           │   ├── _20446.log
+│           │   ├── _20452.log
+│           │   ├── _20458.log
+│           │   ├── _20465.log
+│           │   ├── _20471.log
+│           │   ├── _20477.log
+│           │   ├── _20485.log
+│           │   ├── _20491.log
+│           │   ├── _20497.log
+│           │   ├── _20503.log
+│           │   ├── _20510.log
+│           │   ├── _20516.log
+│           │   ├── _20522.log
+│           │   ├── _20528.log
+│           │   ├── _20534.log
+│           │   ├── _20540.log
+│           │   ├── _20546.log
+│           │   ├── _20552.log
+│           │   ├── _20558.log
+│           │   ├── _20564.log
+│           │   ├── _20570.log
+│           │   ├── _20576.log
+│           │   ├── _20582.log
+│           │   ├── _20588.log
+│           │   ├── _20594.log
+│           │   ├── _20602.log
+│           │   ├── _20608.log
+│           │   ├── _20615.log
+│           │   ├── _20622.log
+│           │   ├── _20628.log
+│           │   ├── _20634.log
+│           │   ├── _20640.log
+│           │   ├── _20646.log
+│           │   ├── _20652.log
+│           │   ├── _20658.log
+│           │   ├── _20664.log
+│           │   ├── _20670.log
+│           │   ├── _20676.log
+│           │   ├── _20682.log
+│           │   ├── _20692.log
+│           │   ├── _20699.log
+│           │   ├── _20705.log
+│           │   ├── _20711.log
+│           │   ├── _20717.log
+│           │   ├── _20723.log
+│           │   ├── _20731.log
+│           │   ├── _20738.log
+│           │   ├── _20745.log
+│           │   ├── _20751.log
+│           │   ├── _20758.log
+│           │   ├── _20764.log
+│           │   ├── _20770.log
+│           │   ├── _20777.log
+│           │   ├── _20785.log
+│           │   ├── _20791.log
+│           │   ├── _20797.log
+│           │   ├── _20803.log
+│           │   ├── _20810.log
+│           │   ├── _20816.log
+│           │   └── _20822.log
+│           ├── shell.sh
+│           └── total.out
+└── Viewer_NC/
+    ├── .git/
+    ├── base/
+    │   ├── buddy.c
+    │   ├── buddy.h
+    │   ├── createdata.c
+    │   ├── createdata.h
+    │   ├── device.c
+    │   ├── device.h
+    │   ├── flashsave.c
+    │   ├── flashsave.h
+    │   ├── game.c
+    │   ├── game.h
+    │   ├── GNUmakefile
+    │   ├── level.c
+    │   ├── level.h
+    │   ├── lobby.c
+    │   ├── lobby.h
+    │   ├── localdata_manager.c
+    │   ├── localdata_manager.h
+    │   ├── maildata.c
+    │   ├── maildata.h
+    │   ├── option.c
+    │   ├── option.h
+    │   ├── README
+    │   ├── save.c
+    │   ├── save.h
+    │   ├── user.c
+    │   ├── user.h
+    │   ├── viewerdata.c
+    │   ├── viewerdata.h
+    │   ├── visualize.c
+    │   └── visualize.h
+    ├── common/
+    │   ├── common.c
+    │   ├── common.h
+    │   ├── fix.c
+    │   ├── fix.h
+    │   ├── GNUmakefile
+    │   ├── random.c
+    │   ├── random.h
+    │   ├── types.h
+    │   ├── varg.h
+    │   ├── w_string.c
+    │   └── w_string.h
+    ├── communicate/
+    │   ├── mail/
+    │   │   └── mail.h
+    │   └── protocol/
+    │       └── protocol.h
+    ├── doc/
+    │   └── esapi.doc
+    ├── GNUmakefile
+    ├── graphics/
+    │   ├── emotion.c
+    │   ├── emotion.h
+    │   ├── font.c
+    │   ├── font.h
+    │   ├── GNUmakefile
+    │   ├── raster.c
+    │   ├── raster.h
+    │   ├── rtf.c
+    │   └── rtf.h
+    ├── logic/
+    │   ├── club_room/
+    │   │   ├── GameCenter.c
+    │   │   ├── GameCenter.h
+    │   │   ├── LobbyRoom.c
+    │   │   ├── LobbyRoom.h
+    │   │   ├── MainRoom.c
+    │   │   ├── MainRoom.h
+    │   │   ├── MediaCenter.c
+    │   │   └── MediaCenter.h
+    │   ├── common/
+    │   │   ├── buddylist_win.c
+    │   │   ├── buddylist_win.h
+    │   │   ├── listwindow.c
+    │   │   ├── listwindow.h
+    │   │   ├── message_win.c
+    │   │   ├── message_win.h
+    │   │   ├── pfile_header.h
+    │   │   ├── popmenu.c
+    │   │   ├── popmenu.h
+    │   │   ├── popwindow.c
+    │   │   ├── popwindow.h
+    │   │   ├── proc_id.h
+    │   │   ├── proclist.c
+    │   │   ├── proclist.h
+    │   │   ├── room.c
+    │   │   ├── room.h
+    │   │   ├── room_p.c
+    │   │   ├── room_w.c
+    │   │   ├── status_bar.c
+    │   │   ├── status_bar.h
+    │   │   ├── visual_win.c
+    │   │   ├── visual_win.h
+    │   │   ├── wfile_header.h
+    │   │   └── win_id.h
+    │   ├── game_center/
+    │   │   ├── game_shop.h
+    │   │   ├── game_shop_p.c
+    │   │   ├── game_shop_w.c
+    │   │   ├── gamelist.h
+    │   │   ├── gamelist_p.c
+    │   │   ├── gamelist_w.c
+    │   │   └── viewer_vng.h
+    │   ├── GNUmakefile
+    │   ├── initialize/
+    │   │   ├── init_install.h
+    │   │   ├── init_install_p.c
+    │   │   ├── init_install_w.c
+    │   │   ├── init_welcome.h
+    │   │   ├── init_welcome_p.c
+    │   │   ├── init_welcome_w.c
+    │   │   ├── register.h
+    │   │   ├── register_p.c
+    │   │   └── register_w.c
+    │   ├── lobby/
+    │   │   ├── ique_online_chat.h
+    │   │   ├── ique_online_chat_p.c
+    │   │   ├── ique_online_chat_w.c
+    │   │   ├── ique_online_link_mode.h
+    │   │   ├── ique_online_link_mode_p.c
+    │   │   ├── ique_online_link_mode_w.c
+    │   │   ├── ique_online_link_room.h
+    │   │   ├── ique_online_link_room_p.c
+    │   │   ├── ique_online_link_room_w.c
+    │   │   ├── ique_online_link_wait.h
+    │   │   ├── ique_online_link_wait_p.c
+    │   │   ├── ique_online_link_wait_w.c
+    │   │   ├── ique_online_mail_main.h
+    │   │   ├── ique_online_mail_main_p.c
+    │   │   ├── ique_online_mail_main_w.c
+    │   │   ├── ique_online_mail_new.h
+    │   │   ├── ique_online_mail_new_p.c
+    │   │   ├── ique_online_mail_new_w.c
+    │   │   ├── ique_online_mail_read.h
+    │   │   ├── ique_online_mail_read_p.c
+    │   │   ├── ique_online_mail_read_w.c
+    │   │   ├── ique_online_setup.h
+    │   │   ├── ique_online_setup_msglist.h
+    │   │   ├── ique_online_setup_msglist_p.c
+    │   │   ├── ique_online_setup_msglist_w.c
+    │   │   ├── ique_online_setup_p.c
+    │   │   └── ique_online_setup_w.c
+    │   ├── media_center/
+    │   │   ├── mc_book_read.h
+    │   │   ├── mc_book_read_p.c
+    │   │   ├── mc_book_read_w.c
+    │   │   ├── mc_music_play.h
+    │   │   ├── mc_music_play_p.c
+    │   │   ├── mc_music_play_w.c
+    │   │   ├── mc_pic_play.h
+    │   │   └── mc_pic_play_p.c
+    │   ├── system_procs/
+    │   │   ├── iQueShell.h
+    │   │   ├── iQueShell_api.c
+    │   │   ├── iQueShell_api.h
+    │   │   ├── lobby_client.c
+    │   │   ├── lobby_client.h
+    │   │   ├── net_procedure.c
+    │   │   ├── sys_procedure.c
+    │   │   └── sys_procedure.h
+    │   └── utils/
+    │       ├── chongzhi.h
+    │       ├── chongzhi_p.c
+    │       ├── chongzhi_w.c
+    │       ├── userinfo.h
+    │       ├── userinfo_p.c
+    │       ├── userinfo_w.c
+    │       ├── utils_help.h
+    │       ├── utils_help_p.c
+    │       └── utils_help_w.c
+    ├── main/
+    │   ├── crt0.s
+    │   ├── GNUmakefile
+    │   ├── launch.c
+    │   ├── main.c
+    │   ├── procs.c
+    │   └── rom_header.s
+    ├── MakeInclude
+    ├── ncpart/
+    │   ├── GNUmakefile
+    │   ├── libmp3.a
+    │   ├── mp3.c
+    │   ├── mp3.h
+    │   ├── mp3_lib.c
+    │   ├── mp3_main.c
+    │   ├── mp3_main.h
+    │   ├── mp3dec.h
+    │   ├── mp3dec_ittiam.c
+    │   ├── mp3dec_ittiam.h
+    │   ├── mp3dec_mad.c
+    │   ├── mp3dec_mad.h
+    │   ├── mp3dec_thread.c
+    │   ├── mp3dec_thread.h
+    │   ├── mp3dec_vsofts.c
+    │   ├── mp3dec_vsofts.c.paulm.txt
+    │   ├── mp3dec_vsofts.h
+    │   ├── mp3utils.c
+    │   ├── mp3utils.h
+    │   ├── nc_auto_update.c
+    │   ├── nc_lobby.c
+    │   ├── perf.c
+    │   ├── perf.h
+    │   └── testProc.c
+    ├── Readme
+    ├── res/
+    │   ├── club_room/
+    │   │   ├── boy.acg
+    │   │   ├── boy.acl
+    │   │   ├── boy.aob
+    │   │   ├── Characters.acg
+    │   │   ├── Characters.acl
+    │   │   ├── Characters.aob
+    │   │   ├── chongzhi_bg.acg
+    │   │   ├── chongzhi_bg.acl
+    │   │   ├── chongzhi_bg.asc
+    │   │   ├── club_room.cfg
+    │   │   ├── game_center.acg
+    │   │   ├── game_center.acl
+    │   │   ├── game_center.asc
+    │   │   ├── game_center_2.acg
+    │   │   ├── game_center_2.acl
+    │   │   ├── game_center_2.asc
+    │   │   ├── gamecenter_obj.acg
+    │   │   ├── gamecenter_obj.acl
+    │   │   ├── gamecenter_obj.aob
+    │   │   ├── girl.acg
+    │   │   ├── girl.acl
+    │   │   ├── girl.aob
+    │   │   ├── GNUmakefile
+    │   │   ├── help_bg.acg
+    │   │   ├── help_bg.acl
+    │   │   ├── help_bg.asc
+    │   │   ├── help_obj.acg
+    │   │   ├── help_obj.acl
+    │   │   ├── help_obj.aob
+    │   │   ├── lighting.acg
+    │   │   ├── lighting.acl
+    │   │   ├── lighting.asc
+    │   │   ├── lobby.acg
+    │   │   ├── lobby.acl
+    │   │   ├── lobby.asc
+    │   │   ├── main_room.acg
+    │   │   ├── main_room.acl
+    │   │   ├── main_room.asc
+    │   │   ├── mainrroom_obj.acg
+    │   │   ├── mainrroom_obj.acl
+    │   │   ├── mainrroom_obj.aob
+    │   │   ├── media_center.acg
+    │   │   ├── media_center.acl
+    │   │   ├── media_center.asc
+    │   │   ├── mediacenter_obj.acg
+    │   │   ├── mediacenter_obj.acl
+    │   │   ├── mediacenter_obj.aob
+    │   │   ├── ol_lobby_btn.acg
+    │   │   ├── ol_lobby_btn.acl
+    │   │   ├── ol_lobby_btn.aob
+    │   │   ├── Qz.acg
+    │   │   ├── Qz.acl
+    │   │   ├── Qz.aob
+    │   │   ├── reception_obj.acg
+    │   │   ├── reception_obj.acl
+    │   │   ├── reception_obj.aob
+    │   │   ├── userinfo_bg.acg
+    │   │   ├── userinfo_bg.acl
+    │   │   ├── userinfo_bg.asc
+    │   │   ├── userinfo_txt_bg.acg
+    │   │   ├── userinfo_txt_bg.acl
+    │   │   └── userinfo_txt_bg.asc
+    │   ├── common/
+    │   │   ├── 1234567890.acg
+    │   │   ├── 1234567890.acl
+    │   │   ├── 1234567890.aob
+    │   │   ├── bg_mail_edit.asc
+    │   │   ├── bg_text.acg
+    │   │   ├── bg_text.acl
+    │   │   ├── bg_text.asc
+    │   │   ├── buddylist.cfg
+    │   │   ├── characters_bg.acg
+    │   │   ├── Characters_bg.acl
+    │   │   ├── common.cfg
+    │   │   ├── gbabutton.acg
+    │   │   ├── gbabutton.acl
+    │   │   ├── gbabutton.aob
+    │   │   ├── GNUmakefile
+    │   │   ├── help.acg
+    │   │   ├── help.acl
+    │   │   ├── help.asc
+    │   │   ├── help_bg_text.acg
+    │   │   ├── help_bg_text.asc
+    │   │   ├── help_buddylist.asc
+    │   │   ├── list_title_man_obj.acg
+    │   │   ├── list_title_man_obj.acl
+    │   │   ├── list_title_man_obj.aob
+    │   │   ├── list_title_media_obj.acg
+    │   │   ├── list_title_media_obj.acl
+    │   │   ├── list_title_media_obj.aob
+    │   │   ├── list_window_bg.acg
+    │   │   ├── list_window_bg.acl
+    │   │   ├── list_window_bg.asc
+    │   │   ├── list_window_obj.acg
+    │   │   ├── list_window_obj.acl
+    │   │   ├── list_window_obj.aob
+    │   │   ├── list_window_txt_bg.acg
+    │   │   ├── list_window_txt_bg.asc
+    │   │   ├── MsgBox.acg
+    │   │   ├── MsgBox.acl
+    │   │   ├── msgbox.asc
+    │   │   ├── ol_buddylist_bg.acg
+    │   │   ├── ol_buddylist_bg.acl
+    │   │   ├── ol_buddylist_bg.asc
+    │   │   ├── ol_buddylist_obj.acg
+    │   │   ├── ol_buddylist_obj.acl
+    │   │   ├── ol_buddylist_obj.aob
+    │   │   ├── ol_xx.acg
+    │   │   ├── ol_xx.acl
+    │   │   ├── ol_xx.aob
+    │   │   ├── popup.acg
+    │   │   ├── popup.acl
+    │   │   ├── popup.aob
+    │   │   ├── scrollmsg_obj.acg
+    │   │   ├── scrollmsg_obj.acl
+    │   │   ├── scrollmsg_obj.aob
+    │   │   ├── shadow.acg
+    │   │   ├── shadow.acl
+    │   │   ├── shadow.asc
+    │   │   ├── shuru.acg
+    │   │   ├── shuru.acl
+    │   │   ├── shuru.aob
+    │   │   ├── shuru.asc
+    │   │   ├── statusbar_obj.acg
+    │   │   ├── statusbar_obj.acl
+    │   │   ├── statusbar_obj.aob
+    │   │   ├── text_bg.acg
+    │   │   ├── text_bg.acl
+    │   │   ├── text_bg_pal2.asc
+    │   │   └── text_bg_pal3.asc
+    │   ├── font/
+    │   │   ├── emo_4b_data.dta
+    │   │   ├── emo_4b_mask.dta
+    │   │   ├── face.acl
+    │   │   ├── fnt12_1b_data.dta
+    │   │   ├── fnt12_1b_map.dta
+    │   │   ├── fnt12_1bc_data.dta
+    │   │   ├── fnt12_1bc_map.dta
+    │   │   ├── fnt8_1b_data.dta
+    │   │   ├── fnt8_1b_map.dta
+    │   │   ├── fnt8_1b_width.dta
+    │   │   ├── font.acl
+    │   │   ├── font.cfg
+    │   │   └── GNUmakefile
+    │   ├── game_center/
+    │   │   ├── game_center.cfg
+    │   │   ├── GameList_bg.acg
+    │   │   ├── GameList_bg.acl
+    │   │   ├── gamelist_bg.asc
+    │   │   ├── GameList_bg_empty.acg
+    │   │   ├── GameList_bg_empty.acl
+    │   │   ├── GameList_more_bg.acg
+    │   │   ├── gamelist_more_bg.acl
+    │   │   ├── gamelist_more_bg.asc
+    │   │   ├── gamelist_more_obj.acg
+    │   │   ├── gamelist_more_obj.acl
+    │   │   ├── gamelist_more_obj.aob
+    │   │   ├── GameList_obj.acg
+    │   │   ├── GameList_obj.acl
+    │   │   ├── gamelist_obj.aob
+    │   │   ├── gamelist_select.acl
+    │   │   ├── gamelist_unselect.acl
+    │   │   ├── gamereplace_nc_obj.acg
+    │   │   ├── gamereplace_nc_obj.acl
+    │   │   ├── gamereplace_nc_obj.aob
+    │   │   ├── gamereplace_obj.acg
+    │   │   ├── gamereplace_obj.acl
+    │   │   ├── gamereplace_obj.aob
+    │   │   └── GNUmakefile
+    │   ├── GNUmakefile
+    │   ├── history
+    │   ├── initialize/
+    │   │   ├── anm_bg.cfg
+    │   │   ├── GNUmakefile
+    │   │   ├── initialize.cfg
+    │   │   ├── initialize_bg.acg
+    │   │   ├── initialize_bg.acl
+    │   │   ├── initialize_bg.asc
+    │   │   ├── initialize_bg0.asc
+    │   │   ├── initialize_bg1.asc
+    │   │   ├── initialize_bg2.asc
+    │   │   ├── initialize_bg3.asc
+    │   │   ├── initialize_bg_obj.acg
+    │   │   ├── initialize_bg_obj.acl
+    │   │   ├── initialize_bg_obj.aob
+    │   │   ├── initialize_obj.acg
+    │   │   ├── initialize_obj.acl
+    │   │   └── initialize_obj.aob
+    │   ├── lobby/
+    │   │   ├── GNUmakefile
+    │   │   ├── lobby.cfg
+    │   │   ├── ol_chat_bg.acg
+    │   │   ├── ol_chat_bg.acl
+    │   │   ├── ol_chat_bg.asc
+    │   │   ├── ol_chat_obj.acg
+    │   │   ├── ol_chat_obj.acl
+    │   │   ├── ol_chat_obj.aob
+    │   │   ├── ol_link_mode.acg
+    │   │   ├── ol_link_mode.acl
+    │   │   ├── ol_link_mode.aob
+    │   │   ├── ol_link_mode_bg.acg
+    │   │   ├── ol_link_mode_bg.acl
+    │   │   ├── ol_link_mode_bg.asc
+    │   │   ├── ol_link_mode_obj.acg
+    │   │   ├── ol_link_mode_obj.acl
+    │   │   ├── ol_link_mode_obj.aob
+    │   │   ├── ol_link_room_bg.acg
+    │   │   ├── ol_link_room_bg.acl
+    │   │   ├── ol_link_room_bg.asc
+    │   │   ├── ol_link_room_obj.acg
+    │   │   ├── ol_link_room_obj.acl
+    │   │   ├── ol_link_room_obj.aob
+    │   │   ├── ol_link_wait_bg.acg
+    │   │   ├── ol_link_wait_bg.acl
+    │   │   ├── ol_link_wait_bg.asc
+    │   │   ├── ol_link_wait_obj.acg
+    │   │   ├── ol_link_wait_obj.acl
+    │   │   ├── ol_link_wait_obj.aob
+    │   │   ├── ol_mail_bg.acg
+    │   │   ├── ol_mail_bg.acl
+    │   │   ├── ol_mail_bg.asc
+    │   │   ├── ol_mail_btn.acg
+    │   │   ├── ol_mail_btn.acl
+    │   │   ├── ol_mail_btn.aob
+    │   │   ├── ol_new_mail_edit_bg.asc
+    │   │   ├── ol_readmail_bg.acg
+    │   │   ├── ol_readmail_bg.acl
+    │   │   ├── ol_readmail_bg.asc
+    │   │   ├── ol_setup_bg.acg
+    │   │   ├── ol_setup_bg.acl
+    │   │   ├── ol_setup_bg.asc
+    │   │   ├── ol_setup_msg_list_bg.acg
+    │   │   ├── ol_setup_msg_list_bg.acl
+    │   │   ├── ol_setup_msg_list_bg.asc
+    │   │   ├── ol_setup_msg_list_obj.acg
+    │   │   ├── ol_setup_msg_list_obj.acl
+    │   │   ├── ol_setup_msg_list_obj.aob
+    │   │   ├── ol_setup_obj.acg
+    │   │   ├── ol_setup_obj.acl
+    │   │   ├── ol_setup_obj.aob
+    │   │   ├── ol_writemail_bg.acg
+    │   │   ├── ol_writemail_bg.acl
+    │   │   └── ol_writemail_bg.asc
+    │   ├── MakeInclude
+    │   ├── media_center/
+    │   │   ├── book_bg.acg
+    │   │   ├── book_bg.acl
+    │   │   ├── book_bg.asc
+    │   │   ├── GNUmakefile
+    │   │   ├── media_center.cfg
+    │   │   ├── mp3_bg.acg
+    │   │   ├── mp3_bg.acl
+    │   │   ├── mp3_bg.asc
+    │   │   ├── mp3_obj.acg
+    │   │   ├── mp3_obj.acl
+    │   │   └── mp3_obj.aob
+    │   ├── message/
+    │   │   ├── GNUmakefile
+    │   │   └── MessageList.xls
+    │   └── subdirs.file
+    ├── sound/
+    │   ├── Begin_text.o
+    │   ├── Buddy_menu_navigate.o
+    │   ├── Buddy_selected.o
+    │   ├── Buddylist_msg.o
+    │   ├── Enter_exit.o
+    │   ├── Exit_npcmenu.o
+    │   ├── GNUmakefile
+    │   ├── Letter_navigate.o
+    │   ├── Lobby_failure.o
+    │   ├── m4aLib.h
+    │   ├── m4aLib.o
+    │   ├── menu_navigate.o
+    │   ├── Menu_selected.o
+    │   ├── Msg.o
+    │   ├── Navigate_npcmenu.o
+    │   ├── Offline_buddylist.o
+    │   ├── Online_buddylist.o
+    │   ├── opendoor.o
+    │   ├── Pagedown_text.o
+    │   ├── Play_text.o
+    │   ├── Pull.o
+    │   ├── se_d01.o
+    │   ├── se_d02.o
+    │   ├── se_d03.o
+    │   ├── se_d04.o
+    │   ├── se_d05.o
+    │   ├── se_d06.o
+    │   ├── se_d08.o
+    │   ├── se_d09.o
+    │   ├── se_d10.o
+    │   ├── se_d11.o
+    │   ├── se_d12.o
+    │   ├── se_d13.o
+    │   ├── se_d14.o
+    │   ├── se_d15.o
+    │   ├── se_d16.o
+    │   ├── se_d17.o
+    │   ├── se_d18.o
+    │   ├── se_d19.o
+    │   ├── se_d20.o
+    │   ├── se_d21.o
+    │   ├── se_d22.o
+    │   ├── Selected_npcmenu.o
+    │   ├── Send.o
+    │   ├── SoundDat.o
+    │   ├── Soundfiles
+    │   └── walk.o
+    ├── system/
+    │   ├── event.c
+    │   ├── event.h
+    │   ├── event_seq.c
+    │   ├── event_seq.h
+    │   ├── fade.c
+    │   ├── fade.h
+    │   ├── game/
+    │   │   ├── anm.c
+    │   │   ├── anm.h
+    │   │   ├── type.h
+    │   │   ├── vram.c
+    │   │   └── vram.h
+    │   ├── GNUmakefile
+    │   ├── interrupt.c
+    │   ├── interrupt.h
+    │   ├── key.c
+    │   ├── key.h
+    │   ├── mem.c
+    │   ├── mem.h
+    │   ├── resmon.c
+    │   ├── resmon.h
+    │   ├── routine.c
+    │   ├── routine.h
+    │   ├── sm_mem.c
+    │   ├── sm_mem.h
+    │   └── system.h
+    ├── tools/
+    │   ├── agbcomp.exe
+    │   ├── res_converter.exe
+    │   ├── res_mes_gen.exe
+    │   ├── res_pack.exe
+    │   └── res_scr_anim.exe
+    └── window/
+        ├── cmn_msg_list.c
+        ├── cmn_msg_list.h
+        ├── edit.c
+        ├── edit.h
+        ├── edit_raster_buf.c
+        ├── edit_raster_buf.h
+        ├── GNUmakefile
+        ├── inputbox.c
+        ├── inputbox.h
+        ├── layout.c
+        ├── layout.h
+        ├── num_edit.c
+        ├── num_edit.h
+        ├── procedure.c
+        ├── procedure.h
+        ├── py.c
+        ├── py.h
+        ├── py_ch.c
+        ├── py_hanzi_unicode.c
+        ├── py_unicode.c
+        ├── scroll_edit.c
+        ├── scroll_edit.h
+        ├── window.c
+        ├── window.h
+        ├── window_factory.c
+        └── window_factory.h

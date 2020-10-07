@@ -1,0 +1,147 @@
+ntr_bootrom/
+├── .git/
+├── AGBモニタ履歴.txt
+├── doc/
+│   ├── flashme_ipl2の構成と処理内容.txt
+│   ├── IPL-CPUマップ_EX_040304/
+│   │   └── IPL-CPUâ}âbâv_EX_040304.vsd
+│   ├── IPL1フロー_040630.vsd
+│   ├── NITRO-IPLセキュリティ040323.vsd
+│   ├── NITRO_ROM内登録データ_パッチ（公開）_040922.vsd
+│   ├── NITRO_ROM内登録データ（公開）_040911.vsd
+│   ├── NITRO_ROM内登録データ（非公開）_041019.vsd
+│   ├── カードアプリケーション・メモリマップ_040623.vsd
+│   ├── カードブート・メモリマップ_040712.vsd
+│   └── システム領域_040722.vsd
+├── IrisMainp/
+│   ├── include/
+│   │   ├── Iris.h
+│   │   ├── Iris2D.h
+│   │   ├── Iris2D_Arm.s
+│   │   ├── Iris2D_Mw.s
+│   │   ├── IrisDefine.h
+│   │   ├── IrisDefineArm.s
+│   │   ├── IrisGX.h
+│   │   ├── IrisGX_Primitive.h
+│   │   ├── IrisGXB.h
+│   │   ├── IrisGXB_Primitive.h
+│   │   ├── IrisGXC.h
+│   │   ├── IrisMacro.h
+│   │   ├── IrisMacroArm.s
+│   │   ├── IrisMacroMw.s
+│   │   ├── IrisMemoryMap.h
+│   │   ├── IrisMemoryMapArm.s
+│   │   ├── IrisMTX.h
+│   │   ├── IrisOS.h
+│   │   ├── IrisOS_Arm.s
+│   │   ├── IrisOS_Mw.s
+│   │   ├── IrisQUAT.h
+│   │   ├── IrisSinTable.h
+│   │   ├── IrisSystemCall.h
+│   │   ├── IrisSystemCallArm.s
+│   │   ├── IrisSystemCallDefine.h
+│   │   ├── IrisSystemCallDefineArm.s
+│   │   ├── IrisSystemCallMw.s
+│   │   ├── IrisTarget.h
+│   │   ├── IrisTargetArm.s
+│   │   ├── IrisTypes.h
+│   │   ├── IrisUTL.h
+│   │   ├── IrisUTL_Arm.s
+│   │   ├── IrisUTL_Mw.s
+│   │   ├── IrisVEC.h
+│   │   └── private/
+│   │       ├── IrisCardDefine.h
+│   │       ├── IrisCardDefineArm.s
+│   │       ├── IrisMainMemeoryDefine.h
+│   │       └── IrisMainMemoryDefineArm.s
+│   └── IrisMon/
+│       ├── Cp15InitArm.s
+│       ├── crt0Arm.s
+│       ├── crt0subArmCommon.s
+│       ├── IrisMon.c
+│       ├── IrisMon.h
+│       ├── IrisMon.mcp
+│       ├── IrisMon.ses
+│       ├── IrisMonCard.c
+│       ├── IrisMonDefine.h
+│       ├── IrisMonDefineArm.s
+│       ├── IrisMonMacro.h
+│       ├── IrisMonMemoryMap.h
+│       ├── IrisMonMempryMapArm.s
+│       ├── IrisMonSub.c
+│       ├── IrisMonSub.h
+│       ├── IrisMonTarget.h
+│       ├── IrisMonTargetArm.s
+│       ├── IrisTegOnlySub.c
+│       ├── IRISモニタ履歴.txt
+│       ├── NitroAgbMonTS1_040304.bin
+│       └── NitroMainpMonTS1_040304.bin
+├── IrisSubp/
+│   ├── include/
+│   │   ├── IrisSubp.h
+│   │   ├── IrisSubpDefine.h
+│   │   ├── IrisSubpDefineArm.s
+│   │   ├── IrisSubpMacro.h
+│   │   ├── IrisSubpMacroArm.s
+│   │   ├── IrisSubpMacroMw.s
+│   │   ├── IrisSubpMemoryMap.h
+│   │   ├── IrisSubpMemoryMapArm.s
+│   │   ├── IrisSubpOS.h
+│   │   ├── IrisSubpOS_Arm.s
+│   │   ├── IrisSubpOS_Mw.s
+│   │   ├── IrisSubpSystemCall.h
+│   │   ├── IrisSubpSystemCallArm.s
+│   │   ├── IrisSubpSystemCallDefine.h
+│   │   ├── IrisSubpSystemCallDefineArm.s
+│   │   ├── IrisSubpSystemCallMw.s
+│   │   ├── IrisSubpTarget.h
+│   │   ├── IrisSubpTargetArm.s
+│   │   ├── IrisSubpTypes.h
+│   │   ├── IrisSubpUTL.h
+│   │   ├── IrisSubpUTL_Arm.s
+│   │   ├── IrisSubpUTL_Mw.s
+│   │   └── private/
+│   │       ├── IrisCardDefine.h
+│   │       ├── IrisCardDefineArm.s
+│   │       ├── IrisMainMemeoryDefine.h
+│   │       ├── IrisMainMemoryDefineArm.s
+│   │       ├── IrisRtcDefine.h
+│   │       ├── IrisSioDefine.h
+│   │       └── IrisSpiDefine.h
+│   └── IrisSubpMon/
+│       ├── Blowfish.c
+│       ├── Blowfish.h
+│       ├── BlowfishInitTable.s
+│       ├── BlowfishTestTable.s
+│       ├── crt0Arm.s
+│       ├── crt0subArmCommon.s
+│       ├── crt0subExceptions.s
+│       ├── IRIS-SUBPモニタ履歴.txt
+│       ├── IrisMonSharedArea.h
+│       ├── IrisSubpMon.c
+│       ├── IrisSubpMon.h
+│       ├── IrisSubpMon.mcp
+│       ├── IrisSubpMon.ses
+│       ├── IrisSubpMonCard.c
+│       ├── IrisSubpMonDefine.h
+│       ├── IrisSubpMonDefineArm.s
+│       ├── IrisSubpMonMacro.h
+│       ├── IrisSubpMonMemeoryMap.h
+│       ├── IrisSubpMonMemoryMapArm.s
+│       ├── IrisSubpMonRtc.c
+│       ├── IrisSubpMonSpi.c
+│       ├── IrisSubpMonSub.c
+│       ├── IrisSubpMonSub.h
+│       ├── IrisSubpMonTarget.h
+│       ├── IrisSubpMonTargetArm.s
+│       ├── NintendoLogoData.s
+│       ├── snd_ptable.bin
+│       ├── snd_sinetable.bin
+│       ├── snd_vtable.bin
+│       └── SndDataArm.s
+├── NitroAgbMonTS1_040304.bin
+├── NitroMainpMonTS1_040304.bin
+├── NitroMainpMonTS1_040304.map
+├── NitroMonCheckSumTS1_040304.txt
+├── NitroSubpMonTS1_040304.bin
+└── NitroSubpMonTS1_040304.map

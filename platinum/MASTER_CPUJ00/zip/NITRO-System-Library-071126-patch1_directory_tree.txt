@@ -1,0 +1,249 @@
+NITRO-System-Library-071126-patch1/
+└── NITRO-System-Library-071126-patch1/
+    ├── NitroSystem/
+    │   ├── build/
+    │   │   ├── demos/
+    │   │   │   └── g3d/
+    │   │   │       ├── demolib/
+    │   │   │       │   └── src/
+    │   │   │       │       └── camera.c
+    │   │   │       └── samples/
+    │   │   │           ├── 1mat1shp/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── callback1/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── callback2/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── callback3/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── callback4/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── callback5/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── CameraMtx/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── CustomizeSbcOp/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── DisposeTex/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── Envelope/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── EnvMap/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── GeComBuffering/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── JointAnm/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── ManualSetup/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── MatColAnm/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── ModifyNsbmd/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── MotionLOD/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── MultiModel/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── PartialAnm1/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── PartialAnm2/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── ProjMap/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── RecordJoint/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── RecordMaterial/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── RecordMtx/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── ScreenUtil/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── SeparateTex/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── ShadowVolume/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── SharedMotion/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── simple/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── SlowMotion/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── TexPatternAnm/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── TexSRTAnm/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── Translucent/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── UnbindTex/
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           └── VisibilityAnm/
+    │   │   │               └── src/
+    │   │   │                   └── main.c
+    │   │   └── libraries/
+    │   │       └── g3d/
+    │   │           └── src/
+    │   │               ├── anm.c
+    │   │               └── util.c
+    │   ├── include/
+    │   │   └── nnsys/
+    │   │       └── version.h
+    │   ├── lib/
+    │   │   └── ARM9-TS/
+    │   │       ├── Debug/
+    │   │       │   ├── libnnsfnd.a
+    │   │       │   ├── libnnsfnd.thumb.a
+    │   │       │   ├── libnnsg2d.a
+    │   │       │   ├── libnnsg2d.thumb.a
+    │   │       │   ├── libnnsg3d.a
+    │   │       │   ├── libnnsg3d.thumb.a
+    │   │       │   ├── libnnsgfd.a
+    │   │       │   ├── libnnsgfd.thumb.a
+    │   │       │   ├── libnnsmcs.a
+    │   │       │   ├── libnnsmcs.thumb.a
+    │   │       │   ├── libnnssnd.a
+    │   │       │   └── libnnssnd.thumb.a
+    │   │       ├── Release/
+    │   │       │   ├── libnnsfnd.a
+    │   │       │   ├── libnnsfnd.thumb.a
+    │   │       │   ├── libnnsg2d.a
+    │   │       │   ├── libnnsg2d.thumb.a
+    │   │       │   ├── libnnsg3d.a
+    │   │       │   ├── libnnsg3d.thumb.a
+    │   │       │   ├── libnnsgfd.a
+    │   │       │   ├── libnnsgfd.thumb.a
+    │   │       │   ├── libnnsmcs.a
+    │   │       │   ├── libnnsmcs.thumb.a
+    │   │       │   ├── libnnssnd.a
+    │   │       │   └── libnnssnd.thumb.a
+    │   │       └── Rom/
+    │   │           ├── libnnsfnd.a
+    │   │           ├── libnnsfnd.thumb.a
+    │   │           ├── libnnsg2d.a
+    │   │           ├── libnnsg2d.thumb.a
+    │   │           ├── libnnsg3d.a
+    │   │           ├── libnnsg3d.thumb.a
+    │   │           ├── libnnsgfd.a
+    │   │           ├── libnnsgfd.thumb.a
+    │   │           ├── libnnsmcs.a
+    │   │           ├── libnnsmcs.thumb.a
+    │   │           ├── libnnssnd.a
+    │   │           └── libnnssnd.thumb.a
+    │   ├── man/
+    │   │   └── ja_JP/
+    │   │       ├── g3d/
+    │   │       │   ├── kernel/
+    │   │       │   │   ├── NNS_G3dPlttLoad.html
+    │   │       │   │   └── NNS_G3dTexLoad.html
+    │   │       │   ├── list_g3d.html
+    │   │       │   ├── sbc/
+    │   │       │   │   ├── NNS_G3dDraw.html
+    │   │       │   │   └── NNS_G3dDraw1Mat1Shp.html
+    │   │       │   └── util/
+    │   │       │       └── NNS_G3dResDefaultSetup.html
+    │   │       └── main.html
+    │   └── tools/
+    │       ├── nitro/
+    │       │   └── SoundPlayer/
+    │       │       └── components/
+    │       │           ├── ARM7-TS/
+    │       │           │   ├── Debug/
+    │       │           │   │   ├── sub.nef
+    │       │           │   │   ├── sub.sbin
+    │       │           │   │   └── sub_defs.sbin
+    │       │           │   ├── Release/
+    │       │           │   │   ├── sub.nef
+    │       │           │   │   ├── sub.sbin
+    │       │           │   │   └── sub_defs.sbin
+    │       │           │   └── Rom/
+    │       │           │       ├── sub.nef
+    │       │           │       ├── sub.sbin
+    │       │           │       └── sub_defs.sbin
+    │       │           ├── ARM7-TS.thumb/
+    │       │           │   ├── Debug/
+    │       │           │   │   ├── sub.nef
+    │       │           │   │   ├── sub.sbin
+    │       │           │   │   └── sub_defs.sbin
+    │       │           │   ├── Release/
+    │       │           │   │   ├── sub.nef
+    │       │           │   │   ├── sub.sbin
+    │       │           │   │   └── sub_defs.sbin
+    │       │           │   └── Rom/
+    │       │           │       ├── sub.nef
+    │       │           │       ├── sub.sbin
+    │       │           │       └── sub_defs.sbin
+    │       │           ├── ARM9-TS/
+    │       │           │   ├── Debug/
+    │       │           │   │   ├── main.nef
+    │       │           │   │   ├── main.sbin
+    │       │           │   │   └── main_defs.sbin
+    │       │           │   ├── Release/
+    │       │           │   │   ├── main.nef
+    │       │           │   │   ├── main.sbin
+    │       │           │   │   └── main_defs.sbin
+    │       │           │   └── Rom/
+    │       │           │       ├── main.nef
+    │       │           │       ├── main.sbin
+    │       │           │       └── main_defs.sbin
+    │       │           └── ARM9-TS.thumb/
+    │       │               ├── Debug/
+    │       │               │   ├── main.nef
+    │       │               │   ├── main.sbin
+    │       │               │   └── main_defs.sbin
+    │       │               ├── Release/
+    │       │               │   ├── main.nef
+    │       │               │   ├── main.sbin
+    │       │               │   └── main_defs.sbin
+    │       │               └── Rom/
+    │       │                   ├── main.nef
+    │       │                   ├── main.sbin
+    │       │                   └── main_defs.sbin
+    │       └── win/
+    │           ├── bin/
+    │           │   └── g3dcvtr.exe
+    │           └── NitroPlayer/
+    │               └── nitro/
+    │                   ├── ARM9-TS/
+    │                   │   ├── Debug/
+    │                   │   │   └── NitroPlayer.srl
+    │                   │   └── Release/
+    │                   │       └── NitroPlayer.srl
+    │                   └── ARM9-TS.thumb/
+    │                       ├── Debug/
+    │                       │   └── NitroPlayer.srl
+    │                       └── Release/
+    │                           └── NitroPlayer.srl
+    └── Readme-NITRO-System-Library-071126-patch1.txt

@@ -1,0 +1,52 @@
+hw/
+├── .git/
+├── chip/
+│   ├── sim/
+│   │   ├── aes/
+│   │   │   └── compile
+│   │   └── sha/
+│   │       └── compile
+│   ├── syn/
+│   │   ├── aes/
+│   │   │   └── syn.scr
+│   │   └── sha/
+│   │       └── syn.scr
+│   └── v/
+│       ├── aes/
+│       │   ├── aes_ahb.v
+│       │   ├── aes_eng.v
+│       │   ├── aes_kbuf.v
+│       │   ├── aes_main.v
+│       │   ├── aes_mgr.v
+│       │   ├── aes_mixd.v
+│       │   ├── aes_mixe.v
+│       │   ├── aes_top.v
+│       │   ├── ahb_fdl_defs.v
+│       │   ├── Mem1R1W16x32.v
+│       │   └── Mem1R1W32x32.v
+│       ├── fla/
+│       │   ├── fla_buf4.v
+│       │   ├── fla_c2k.v
+│       │   ├── fla_hbm.v
+│       │   ├── fla_seq.v
+│       │   └── fla_top.v
+│       ├── sha/
+│       │   ├── ahb_fdl_defs.v
+│       │   ├── sha_eng.v
+│       │   └── sha_top.v
+│       └── srn/
+│           ├── srn_chs.v
+│           ├── srn_dhs.v
+│           ├── srn_rom.v
+│           ├── srn_sram.v
+│           ├── srn_src.v
+│           └── srn_top.v
+├── fdl/
+│   └── ahb_fdl_defs.fdl
+└── models/
+    └── flash/
+        └── samsung/
+            ├── k9f4g08u0m.v
+            ├── task.v
+            ├── test_bench.v
+            └── verilog.log

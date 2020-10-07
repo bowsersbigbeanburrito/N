@@ -1,0 +1,576 @@
+{
+    ".": {
+        "0019486": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0019486'"
+        },
+        "0022882": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0022882'"
+        },
+        "0582936": {
+            "Content-Type": [
+                "application/x-gtar",
+                "text/plain; charset=ISO-8859-1",
+                "application/gzip",
+                "text/plain; charset=ISO-8859-1",
+                "text/plain; charset=ISO-8859-1",
+                "application/gzip",
+                "application/xhtml+xml; charset=UTF-8",
+                "application/gzip",
+                "text/plain; charset=ISO-8859-1",
+                "application/vnd.hp-pcl",
+                "application/gzip",
+                "application/vnd.hp-pcl",
+                "application/gzip",
+                "application/vnd.hp-pcl",
+                "application/gzip",
+                "application/vnd.hp-pcl",
+                "application/gzip",
+                "application/vnd.hp-pcl",
+                "application/gzip",
+                "application/vnd.hp-pcl",
+                "application/gzip",
+                "application/vnd.hp-pcl",
+                "application/gzip",
+                "application/vnd.hp-pcl",
+                "application/gzip",
+                "application/vnd.hp-pcl",
+                "application/gzip",
+                "application/vnd.hp-pcl",
+                "application/gzip"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.html.HtmlParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Truncated TAR archive\r\n\tat org.apache.commons.compress.archivers.tar.TarArchiveInputStream.read(TarArchiveInputStream.java:878)\r\n\tat org.apache.commons.compress.utils.IOUtils.readFully(IOUtils.java:189)\r\n\tat org.apache.commons.compress.utils.IOUtils.skip(IOUtils.java:121)\r\n\tat org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getNextTarEntry(TarArchiveInputStream.java:354)\r\n\tat org.apache.commons.compress.archivers.tar.TarArchiveInputStream.getNextEntry(TarArchiveInputStream.java:799)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": [
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler"
+            ],
+            "X-TIKA:embedded_depth": [
+                "0",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "51",
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "25",
+                "26",
+                "2",
+                "0",
+                "1",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1",
+                "0",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "0",
+                "1",
+                "1",
+                "2"
+            ],
+            "resourceName": [
+                "b'0582936'",
+                "./usr/share/doc/hplip-data/changelog",
+                "./usr/share/doc/hplip-data/changelog.gz",
+                "./usr/share/doc/hplip-data/copyright",
+                "./usr/share/doc/hplip-data/changelog.Debian",
+                "./usr/share/doc/hplip-data/changelog.Debian.gz",
+                "./usr/share/doc/hplip-data/changelog.html",
+                "./usr/share/doc/hplip-data/changelog.html.gz",
+                "./usr/share/lintian/overrides/hplip-data",
+                "./usr/share/hplip/data/pcl/align2_8xx.pcl",
+                "./usr/share/hplip/data/pcl/align2_8xx.pcl.gz",
+                "./usr/share/hplip/data/pcl/align4_450.pcl",
+                "./usr/share/hplip/data/pcl/align4_450.pcl.gz",
+                "./usr/share/hplip/data/pcl/crcpcal.pcl",
+                "./usr/share/hplip/data/pcl/crcpcal.pcl.gz",
+                "./usr/share/hplip/data/pcl/align6_450.pcl",
+                "./usr/share/hplip/data/pcl/align6_450.pcl.gz",
+                "./usr/share/hplip/data/pcl/crcbcal.pcl",
+                "./usr/share/hplip/data/pcl/crcbcal.pcl.gz",
+                "./usr/share/hplip/data/pcl/align1_9xx.pcl",
+                "./usr/share/hplip/data/pcl/align1_9xx.pcl.gz",
+                "./usr/share/hplip/data/pcl/crpcal.pcl",
+                "./usr/share/hplip/data/pcl/crpcal.pcl.gz",
+                "./usr/share/hplip/data/pcl/crcaldone.pcl",
+                "./usr/share/hplip/data/pcl/crcaldone.pcl.gz",
+                "./usr/share/hplip/data/pcl/align2_9xx.pcl",
+                "./usr/share/hplip/data/pcl/align2_9xx.pcl.gz",
+                "./usr/share/hplip/data/pcl/colorcal1_450.pcl",
+                "./usr/share/hplip/data/pcl/colorcal1_450.pcl.gz"
+            ],
+            "Content-Encoding": [
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "UTF-8",
+                "ISO-8859-1"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/changelog.gz/changelog",
+                "/changelog.gz",
+                "/copyright",
+                "/changelog.Debian.gz/changelog.Debian",
+                "/changelog.Debian.gz",
+                "/changelog.html.gz/changelog.html",
+                "/changelog.html.gz",
+                "/hplip-data",
+                "/align2_8xx.pcl.gz/align2_8xx.pcl",
+                "/align2_8xx.pcl.gz",
+                "/align4_450.pcl.gz/align4_450.pcl",
+                "/align4_450.pcl.gz",
+                "/crcpcal.pcl.gz/crcpcal.pcl",
+                "/crcpcal.pcl.gz",
+                "/align6_450.pcl.gz/align6_450.pcl",
+                "/align6_450.pcl.gz",
+                "/crcbcal.pcl.gz/crcbcal.pcl",
+                "/crcbcal.pcl.gz",
+                "/align1_9xx.pcl.gz/align1_9xx.pcl",
+                "/align1_9xx.pcl.gz",
+                "/crpcal.pcl.gz/crpcal.pcl",
+                "/crpcal.pcl.gz",
+                "/crcaldone.pcl.gz/crcaldone.pcl",
+                "/crcaldone.pcl.gz",
+                "/align2_9xx.pcl.gz/align2_9xx.pcl",
+                "/align2_9xx.pcl.gz",
+                "/colorcal1_450.pcl.gz/colorcal1_450.pcl",
+                "/colorcal1_450.pcl.gz"
+            ],
+            "Content-Length": [
+                "22699",
+                "4544",
+                "23733",
+                "21431",
+                "62",
+                "2702",
+                "38210",
+                "41768",
+                "39148",
+                "31232",
+                "95888",
+                "12230",
+                "725",
+                "11930",
+                "3590197"
+            ],
+            "Last-Modified": [
+                "2007-12-24T13:43:23Z",
+                "2007-12-24T13:40:48Z",
+                "2007-12-24T13:40:48Z",
+                "2006-10-16T18:03:18Z",
+                "2007-12-24T13:43:02Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z"
+            ],
+            "Last-Save-Date": [
+                "2007-12-24T13:43:23Z",
+                "2007-12-24T13:40:48Z",
+                "2007-12-24T13:40:48Z",
+                "2006-10-16T18:03:18Z",
+                "2007-12-24T13:43:02Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z"
+            ],
+            "date": [
+                "2007-12-24T13:43:23Z",
+                "2007-12-24T13:40:48Z",
+                "2007-12-24T13:40:48Z",
+                "2006-10-16T18:03:18Z",
+                "2007-12-24T13:43:02Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z"
+            ],
+            "dcterms:modified": [
+                "2007-12-24T13:43:23Z",
+                "2007-12-24T13:40:48Z",
+                "2007-12-24T13:40:48Z",
+                "2006-10-16T18:03:18Z",
+                "2007-12-24T13:43:02Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z"
+            ],
+            "embeddedRelationshipId": [
+                "./usr/share/doc/hplip-data/changelog.gz",
+                "./usr/share/doc/hplip-data/copyright",
+                "./usr/share/doc/hplip-data/changelog.Debian.gz",
+                "./usr/share/doc/hplip-data/changelog.html.gz",
+                "./usr/share/lintian/overrides/hplip-data",
+                "./usr/share/hplip/data/pcl/align2_8xx.pcl.gz",
+                "./usr/share/hplip/data/pcl/align4_450.pcl.gz",
+                "./usr/share/hplip/data/pcl/crcpcal.pcl.gz",
+                "./usr/share/hplip/data/pcl/align6_450.pcl.gz",
+                "./usr/share/hplip/data/pcl/crcbcal.pcl.gz",
+                "./usr/share/hplip/data/pcl/align1_9xx.pcl.gz",
+                "./usr/share/hplip/data/pcl/crpcal.pcl.gz",
+                "./usr/share/hplip/data/pcl/crcaldone.pcl.gz",
+                "./usr/share/hplip/data/pcl/align2_9xx.pcl.gz",
+                "./usr/share/hplip/data/pcl/colorcal1_450.pcl.gz"
+            ],
+            "meta:save-date": [
+                "2007-12-24T13:43:23Z",
+                "2007-12-24T13:40:48Z",
+                "2007-12-24T13:40:48Z",
+                "2006-10-16T18:03:18Z",
+                "2007-12-24T13:43:02Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z"
+            ],
+            "modified": [
+                "2007-12-24T13:43:23Z",
+                "2007-12-24T13:40:48Z",
+                "2007-12-24T13:40:48Z",
+                "2006-10-16T18:03:18Z",
+                "2007-12-24T13:43:02Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:58Z",
+                "2007-12-24T13:42:57Z",
+                "2007-12-24T13:42:58Z"
+            ],
+            "Content-Language": "en",
+            "Content-Type-Hint": "text/html; charset=utf-8",
+            "EXPIRES": "Mon, 22 Jul 2002 11:12:01 GMT",
+            "PRAGMA": "NO-CACHE",
+            "author": "",
+            "dc:title": "HPLIP",
+            "email": "",
+            "title": "HPLIP"
+        },
+        "20050416_091729.Id_705032": {
+            "Content-Type": "application/octet-stream",
+            "X-Parsed-By": "org.apache.tika.parser.EmptyParser",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'20050416_091729.Id_705032'"
+        },
+        "20050416_091729.Id_788774": {
+            "Content-Type": "application/octet-stream",
+            "X-Parsed-By": "org.apache.tika.parser.EmptyParser",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'20050416_091729.Id_788774'"
+        },
+        "20050416_091732.Id_788778": {
+            "Content-Type": "application/octet-stream",
+            "X-Parsed-By": "org.apache.tika.parser.EmptyParser",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'20050416_091732.Id_788778'"
+        },
+        "20071024_111708.Id_27841": {
+            "Content-Type": "application/octet-stream",
+            "X-Parsed-By": "org.apache.tika.parser.EmptyParser",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'20071024_111708.Id_27841'"
+        },
+        "20071024_111709.Id_27845": {
+            "Content-Type": "application/octet-stream",
+            "X-Parsed-By": "org.apache.tika.parser.EmptyParser",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'20071024_111709.Id_27845'"
+        },
+        "f2018823": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f2018823'"
+        },
+        "f2252295": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f2252295'"
+        },
+        "f2576711": {
+            "Content-Type": "application/octet-stream",
+            "X-Parsed-By": "org.apache.tika.parser.EmptyParser",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'f2576711'"
+        },
+        "f2578663": {
+            "Content-Type": "application/octet-stream",
+            "X-Parsed-By": "org.apache.tika.parser.EmptyParser",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'f2578663'"
+        },
+        "JOHAB": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "4",
+            "resourceName": "b'JOHAB'"
+        },
+        "JOHAB (4)": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "5",
+            "resourceName": "b'JOHAB (4)'"
+        },
+        "JOHAB (5)": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "5",
+            "resourceName": "b'JOHAB (5)'"
+        },
+        "UTF-8": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "5",
+            "resourceName": "b'UTF-8'"
+        },
+        "UTF-8 (7)": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "5",
+            "resourceName": "b'UTF-8 (7)'"
+        }
+    }
+}

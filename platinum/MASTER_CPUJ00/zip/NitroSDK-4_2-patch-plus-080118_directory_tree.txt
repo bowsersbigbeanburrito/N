@@ -1,0 +1,182 @@
+NitroSDK-4_2-patch-plus-080118/
+└── NitroSDK/
+    ├── build/
+    │   └── libraries/
+    │       ├── spi/
+    │       │   └── ARM9/
+    │       │       └── src/
+    │       │           └── tp.c
+    │       └── wm/
+    │           └── ARM9/
+    │               └── src/
+    │                   └── wm_standard.c
+    ├── components/
+    │   ├── ichneumon/
+    │   │   ├── ARM7-TS/
+    │   │   │   ├── Debug/
+    │   │   │   │   ├── ichneumon_sub.nef
+    │   │   │   │   ├── ichneumon_sub.sbin
+    │   │   │   │   ├── ichneumon_sub_defs.sbin
+    │   │   │   │   ├── ichneumon_sub_TS0.nef
+    │   │   │   │   ├── ichneumon_sub_TS0.sbin
+    │   │   │   │   ├── ichneumon_sub_TS0_defs.sbin
+    │   │   │   │   ├── ichneumon_sub_TS100.nef
+    │   │   │   │   ├── ichneumon_sub_TS100.sbin
+    │   │   │   │   ├── ichneumon_sub_TS100_defs.sbin
+    │   │   │   │   ├── ichneumon_sub_TS200.nef
+    │   │   │   │   ├── ichneumon_sub_TS200.sbin
+    │   │   │   │   └── ichneumon_sub_TS200_defs.sbin
+    │   │   │   ├── Release/
+    │   │   │   │   ├── ichneumon_sub.nef
+    │   │   │   │   ├── ichneumon_sub.sbin
+    │   │   │   │   ├── ichneumon_sub_defs.sbin
+    │   │   │   │   ├── ichneumon_sub_TS0.nef
+    │   │   │   │   ├── ichneumon_sub_TS0.sbin
+    │   │   │   │   ├── ichneumon_sub_TS0_defs.sbin
+    │   │   │   │   ├── ichneumon_sub_TS100.nef
+    │   │   │   │   ├── ichneumon_sub_TS100.sbin
+    │   │   │   │   ├── ichneumon_sub_TS100_defs.sbin
+    │   │   │   │   ├── ichneumon_sub_TS200.nef
+    │   │   │   │   ├── ichneumon_sub_TS200.sbin
+    │   │   │   │   └── ichneumon_sub_TS200_defs.sbin
+    │   │   │   └── Rom/
+    │   │   │       ├── ichneumon_sub.sbin
+    │   │   │       ├── ichneumon_sub_TS0.sbin
+    │   │   │       ├── ichneumon_sub_TS100.sbin
+    │   │   │       └── ichneumon_sub_TS200.sbin
+    │   │   └── ARM7-TS.thumb/
+    │   │       ├── Debug/
+    │   │       │   ├── ichneumon_sub.nef
+    │   │       │   ├── ichneumon_sub.sbin
+    │   │       │   ├── ichneumon_sub_defs.sbin
+    │   │       │   ├── ichneumon_sub_TS0.nef
+    │   │       │   ├── ichneumon_sub_TS0.sbin
+    │   │       │   ├── ichneumon_sub_TS0_defs.sbin
+    │   │       │   ├── ichneumon_sub_TS100.nef
+    │   │       │   ├── ichneumon_sub_TS100.sbin
+    │   │       │   ├── ichneumon_sub_TS100_defs.sbin
+    │   │       │   ├── ichneumon_sub_TS200.nef
+    │   │       │   ├── ichneumon_sub_TS200.sbin
+    │   │       │   └── ichneumon_sub_TS200_defs.sbin
+    │   │       ├── Release/
+    │   │       │   ├── ichneumon_sub.nef
+    │   │       │   ├── ichneumon_sub.sbin
+    │   │       │   ├── ichneumon_sub_defs.sbin
+    │   │       │   ├── ichneumon_sub_TS0.nef
+    │   │       │   ├── ichneumon_sub_TS0.sbin
+    │   │       │   ├── ichneumon_sub_TS0_defs.sbin
+    │   │       │   ├── ichneumon_sub_TS100.nef
+    │   │       │   ├── ichneumon_sub_TS100.sbin
+    │   │       │   ├── ichneumon_sub_TS100_defs.sbin
+    │   │       │   ├── ichneumon_sub_TS200.nef
+    │   │       │   ├── ichneumon_sub_TS200.sbin
+    │   │       │   └── ichneumon_sub_TS200_defs.sbin
+    │   │       └── Rom/
+    │   │           ├── ichneumon_sub.sbin
+    │   │           ├── ichneumon_sub_TS0.sbin
+    │   │           ├── ichneumon_sub_TS100.sbin
+    │   │           └── ichneumon_sub_TS200.sbin
+    │   └── mongoose/
+    │       ├── ARM7-TS/
+    │       │   ├── Debug/
+    │       │   │   ├── mongoose_sub.nef
+    │       │   │   ├── mongoose_sub.sbin
+    │       │   │   ├── mongoose_sub_defs.sbin
+    │       │   │   ├── mongoose_sub_TS0.nef
+    │       │   │   ├── mongoose_sub_TS0.sbin
+    │       │   │   ├── mongoose_sub_TS0_defs.sbin
+    │       │   │   ├── mongoose_sub_TS100.nef
+    │       │   │   ├── mongoose_sub_TS100.sbin
+    │       │   │   ├── mongoose_sub_TS100_defs.sbin
+    │       │   │   ├── mongoose_sub_TS200.nef
+    │       │   │   ├── mongoose_sub_TS200.sbin
+    │       │   │   └── mongoose_sub_TS200_defs.sbin
+    │       │   ├── Release/
+    │       │   │   ├── mongoose_sub.nef
+    │       │   │   ├── mongoose_sub.sbin
+    │       │   │   ├── mongoose_sub_defs.sbin
+    │       │   │   ├── mongoose_sub_TS0.nef
+    │       │   │   ├── mongoose_sub_TS0.sbin
+    │       │   │   ├── mongoose_sub_TS0_defs.sbin
+    │       │   │   ├── mongoose_sub_TS100.nef
+    │       │   │   ├── mongoose_sub_TS100.sbin
+    │       │   │   ├── mongoose_sub_TS100_defs.sbin
+    │       │   │   ├── mongoose_sub_TS200.nef
+    │       │   │   ├── mongoose_sub_TS200.sbin
+    │       │   │   └── mongoose_sub_TS200_defs.sbin
+    │       │   └── Rom/
+    │       │       ├── mongoose_sub.sbin
+    │       │       ├── mongoose_sub_TS0.sbin
+    │       │       ├── mongoose_sub_TS100.sbin
+    │       │       └── mongoose_sub_TS200.sbin
+    │       └── ARM7-TS.thumb/
+    │           ├── Debug/
+    │           │   ├── mongoose_sub.nef
+    │           │   ├── mongoose_sub.sbin
+    │           │   ├── mongoose_sub_defs.sbin
+    │           │   ├── mongoose_sub_TS0.nef
+    │           │   ├── mongoose_sub_TS0.sbin
+    │           │   ├── mongoose_sub_TS0_defs.sbin
+    │           │   ├── mongoose_sub_TS100.nef
+    │           │   ├── mongoose_sub_TS100.sbin
+    │           │   ├── mongoose_sub_TS100_defs.sbin
+    │           │   ├── mongoose_sub_TS200.nef
+    │           │   ├── mongoose_sub_TS200.sbin
+    │           │   └── mongoose_sub_TS200_defs.sbin
+    │           ├── Release/
+    │           │   ├── mongoose_sub.nef
+    │           │   ├── mongoose_sub.sbin
+    │           │   ├── mongoose_sub_defs.sbin
+    │           │   ├── mongoose_sub_TS0.nef
+    │           │   ├── mongoose_sub_TS0.sbin
+    │           │   ├── mongoose_sub_TS0_defs.sbin
+    │           │   ├── mongoose_sub_TS100.nef
+    │           │   ├── mongoose_sub_TS100.sbin
+    │           │   ├── mongoose_sub_TS100_defs.sbin
+    │           │   ├── mongoose_sub_TS200.nef
+    │           │   ├── mongoose_sub_TS200.sbin
+    │           │   └── mongoose_sub_TS200_defs.sbin
+    │           └── Rom/
+    │               ├── mongoose_sub.sbin
+    │               ├── mongoose_sub_TS0.sbin
+    │               ├── mongoose_sub_TS100.sbin
+    │               └── mongoose_sub_TS200.sbin
+    ├── include/
+    │   └── nitro/
+    │       └── version.h
+    ├── lib/
+    │   └── ARM9-TS/
+    │       ├── Debug/
+    │       │   ├── crt0.o
+    │       │   ├── libspi.a
+    │       │   ├── libspi.thumb.a
+    │       │   ├── libspi_TS0.a
+    │       │   ├── libspi_TS0.thumb.a
+    │       │   ├── libspi_TS100.a
+    │       │   ├── libspi_TS100.thumb.a
+    │       │   ├── libspi_TS200.a
+    │       │   ├── libspi_TS200.thumb.a
+    │       │   ├── libwm.a
+    │       │   └── libwm.thumb.a
+    │       ├── Release/
+    │       │   ├── crt0.o
+    │       │   ├── libspi.a
+    │       │   ├── libspi.thumb.a
+    │       │   ├── libspi_TS0.a
+    │       │   ├── libspi_TS0.thumb.a
+    │       │   ├── libspi_TS100.a
+    │       │   ├── libspi_TS100.thumb.a
+    │       │   ├── libspi_TS200.a
+    │       │   ├── libspi_TS200.thumb.a
+    │       │   ├── libwm.a
+    │       │   └── libwm.thumb.a
+    │       └── Rom/
+    │           ├── crt0.o
+    │           ├── libwm.a
+    │           └── libwm.thumb.a
+    ├── man/
+    │   └── ja_JP/
+    │       └── os/
+    │           └── thread/
+    │               └── about_Thread.html
+    └── Readme-NitroSDK-4_2-patch-plus-080118.txt

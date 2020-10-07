@@ -1,0 +1,1261 @@
+svn/
+├── ctr_mcu/
+│   ├── .git/
+│   ├── accero.c
+│   ├── accero.h
+│   ├── adc.c
+│   ├── adc.h
+│   ├── batt_params.c
+│   ├── batt_params.h
+│   ├── bsr.hex
+│   ├── bsr.lmf
+│   ├── bsr_k0r.map
+│   ├── bsr_mcu.dr
+│   ├── bsr_system.h
+│   ├── config.h
+│   ├── fsl.h
+│   ├── fsl_user.h
+│   ├── get_ei.asm
+│   ├── hal.c
+│   ├── hal.h
+│   ├── hoge.bin
+│   ├── i2c_ctr.c
+│   ├── i2c_ctr.h
+│   ├── i2c_mcu-sub.c
+│   ├── i2c_mcu.c
+│   ├── i2c_mcu.h
+│   ├── i2c_mcu_sub.h
+│   ├── i2c_twl.c
+│   ├── i2c_twl.h
+│   ├── i2c_twl_defs.h
+│   ├── incs.h
+│   ├── incs_loader.h
+│   ├── ini_VECT.c
+│   ├── jhl_defs.h
+│   ├── kanaria.asm
+│   ├── kanaria_c.c
+│   ├── led.c
+│   ├── led.h
+│   ├── led_cam.c
+│   ├── led_pow.c
+│   ├── loader.c
+│   ├── loader.h
+│   ├── magic.c
+│   ├── magic.h
+│   ├── main.c
+│   ├── nec_s_2_bsrbin2.rb
+│   ├── OMakefile
+│   ├── OMakeroot
+│   ├── pedo_alg_thre_det2.c
+│   ├── pedo_lpf_coeff.c
+│   ├── pedo_lpf_coeff.h
+│   ├── pedometer.h
+│   ├── pm.c
+│   ├── pm.h
+│   ├── pool.h
+│   ├── reboot.c
+│   ├── reboot.h
+│   ├── renge/
+│   │   ├── renge.c
+│   │   ├── renge.h
+│   │   ├── renge_defs.h
+│   │   ├── renge_task_config.rb
+│   │   ├── renge_task_immediate.h
+│   │   ├── renge_task_intval.h
+│   │   └── renge_tasks.txt
+│   ├── rtc.c
+│   ├── rtc.h
+│   ├── self_flash.c
+│   ├── self_flash.h
+│   ├── sw.c
+│   ├── sw.h
+│   ├── task_debug.c
+│   ├── task_misc.c
+│   ├── task_status.c
+│   ├── task_sys.c
+│   ├── user_define.h
+│   ├── util_funcs.c
+│   ├── util_funcs.h
+│   ├── VCProj/
+│   │   ├── _UpgradeReport_Files/
+│   │   │   ├── UpgradeReport.css
+│   │   │   ├── UpgradeReport.xslt
+│   │   │   ├── UpgradeReport_Minus.gif
+│   │   │   └── UpgradeReport_Plus.gif
+│   │   ├── bsr_trunk.ncb
+│   │   ├── bsr_trunk.opensdf
+│   │   ├── bsr_trunk.sdf
+│   │   ├── bsr_trunk.sln
+│   │   ├── bsr_trunk.sln.old
+│   │   ├── bsr_trunk.suo
+│   │   ├── bsr_trunk.suo.old
+│   │   ├── bsr_trunk.vcproj
+│   │   ├── bsr_trunk.vcproj.NCL.N2232.user
+│   │   ├── bsr_trunk.vcxproj
+│   │   ├── bsr_trunk.vcxproj.filters
+│   │   ├── bsr_trunk.vcxproj.user
+│   │   └── Debug/
+│   │       ├── bsr_trunk.lastbuildstate
+│   │       ├── bsr_trunk.log
+│   │       ├── bsr_trunk.unsuccessfulbuild
+│   │       └── BuildLog.htm
+│   ├── voltable.c
+│   ├── voltable.h
+│   ├── vreg_ctr.c
+│   ├── vreg_ctr.h
+│   ├── vreg_twl.c
+│   ├── vreg_twl.h
+│   ├── WDT.c
+│   ├── WDT.h
+│   ├── yav_mcu_bsr.plg
+│   ├── yav_mcu_bsr.pri
+│   ├── yav_mcu_bsr.prj
+│   ├── yav_mcu_bsr.prk
+│   ├── yav_mcu_bsr.prw
+│   ├── yav_mcu_bsr.sdb
+│   ├── ベースからの変更.xls
+│   └── 覚え書き.txt
+└── ctr_Repair/
+    ├── .git/
+    ├── BoxyardEraser/
+    │   ├── banner/
+    │   │   ├── model.cbmd
+    │   │   ├── sound.cbsd
+    │   │   ├── unknown24x24.ctpk
+    │   │   └── unknown48x48.ctpk
+    │   ├── BoxyardEraser.bsf
+    │   ├── BoxyardEraser.rsf
+    │   ├── BoxyardRemover.desc
+    │   ├── HeapManager.cpp
+    │   ├── HeapManager.h
+    │   ├── main.cpp
+    │   ├── OMakefile
+    │   ├── OMakeroot
+    │   ├── RepairTool.desc
+    │   ├── ResFont.cpp
+    │   ├── ResFont.h
+    │   └── romfiles/
+    │       ├── 000400DB00016102-0_0_0-nup.version.EU-UnfixedKey.cia
+    │       ├── 000400DB00016202-0_0_0-nup.version.JP-UnfixedKey.cia
+    │       ├── 000400DB00016302-0_0_0-nup.version.US-UnfixedKey.cia
+    │       ├── lc.bcfnt
+    │       └── nnfont_RectDrawerShader.shbin
+    ├── CardCup/
+    │   ├── banner/
+    │   │   ├── model.cbmd
+    │   │   ├── sound.cbsd
+    │   │   ├── unknown24x24.ctpk
+    │   │   └── unknown48x48.ctpk
+    │   ├── forCardCup.patch
+    │   ├── HeapManager.cpp
+    │   ├── HeapManager.h
+    │   ├── main.cpp
+    │   ├── OMakefile
+    │   ├── OMakeroot
+    │   ├── Readme.txt
+    │   ├── romfiles/
+    │   │   └── nup_version.bin
+    │   ├── scrollBuffer.cpp
+    │   ├── scrollBuffer.h
+    │   ├── SelfCup.desc
+    │   ├── SelfCupTool.bsf
+    │   ├── SelfCupTool.rsf
+    │   ├── Util.cpp
+    │   ├── Util.h
+    │   ├── VersionDetect.cpp
+    │   └── VersionDetect.h
+    ├── CardSaveData/
+    │   ├── common/
+    │   │   ├── common.cpp
+    │   │   ├── common.h
+    │   │   ├── gui/
+    │   │   │   ├── gui.cpp
+    │   │   │   └── gui.h
+    │   │   ├── icon.icn
+    │   │   ├── my_defs.h
+    │   │   ├── null_banner/
+    │   │   │   ├── banner_null.bsf
+    │   │   │   ├── model.cbmd
+    │   │   │   ├── sound.cbsd
+    │   │   │   ├── unknown24x24.ctpk
+    │   │   │   └── unknown48x48.ctpk
+    │   │   ├── savefile/
+    │   │   │   ├── exsave.cpp
+    │   │   │   ├── exsave.h
+    │   │   │   ├── membak.cpp
+    │   │   │   ├── membak.h
+    │   │   │   ├── savedata.cpp
+    │   │   │   ├── savedata.h
+    │   │   │   ├── savefile.cpp
+    │   │   │   ├── savefile.h
+    │   │   │   ├── sdmc.cpp
+    │   │   │   ├── sdmc.h
+    │   │   │   ├── sdmcwo.cpp
+    │   │   │   └── sdmcwo.h
+    │   │   ├── shfnt.cpp
+    │   │   ├── shfnt.h
+    │   │   ├── sleep.cpp
+    │   │   ├── sleep.h
+    │   │   ├── test_data.cpp
+    │   │   └── test_data.h
+    │   ├── docs/
+    │   │   ├── csm_inf_sample.txt
+    │   │   ├── Error_code.txt
+    │   │   ├── HowToビルド.txt
+    │   │   ├── import.txt
+    │   │   ├── option.txt
+    │   │   ├── マスタリング.txt
+    │   │   ├── 操作説明.txt
+    │   │   └── 署名に関する覚え書.txt
+    │   ├── Mover/
+    │   │   ├── body/
+    │   │   │   ├── banner/
+    │   │   │   │   ├── banner.cbmd
+    │   │   │   │   ├── banner_dummy.bcwav
+    │   │   │   │   ├── BannerModel_test/
+    │   │   │   │   │   └── COMMON/
+    │   │   │   │   │       ├── COMMON.cmdl
+    │   │   │   │   │       └── Textures/
+    │   │   │   │   │           └── banner.ctex
+    │   │   │   │   ├── icon_24.ctpk
+    │   │   │   │   └── icon_48.ctpk
+    │   │   │   ├── banner.bsf
+    │   │   │   ├── banner_null_icon.bsf
+    │   │   │   ├── body.rsf
+    │   │   │   ├── body_card1.rsf
+    │   │   │   ├── body_card2.rsf
+    │   │   │   ├── OMakefile
+    │   │   │   ├── romfiles/
+    │   │   │   │   ├── lang_en.mes
+    │   │   │   │   ├── lang_jp.mes
+    │   │   │   │   ├── langファイルについて.txt
+    │   │   │   │   └── nnfont_RectDrawerShader.shbin
+    │   │   │   ├── source/
+    │   │   │   │   ├── main.cpp
+    │   │   │   │   ├── main.h
+    │   │   │   │   ├── screen/
+    │   │   │   │   │   ├── screen.cpp
+    │   │   │   │   │   └── screen.h
+    │   │   │   │   ├── sub.cpp
+    │   │   │   │   └── sub.h
+    │   │   │   └── ver.h
+    │   │   ├── card2注意.txt
+    │   │   ├── Imp/
+    │   │   │   ├── banner/
+    │   │   │   │   ├── banner_dummy.bcwav
+    │   │   │   │   ├── banner_imp.cbmd
+    │   │   │   │   ├── BannerModel_imp/
+    │   │   │   │   │   └── COMMON/
+    │   │   │   │   │       ├── COMMON.cmdl
+    │   │   │   │   │       └── Textures/
+    │   │   │   │   │           └── banner_imp.ctex
+    │   │   │   │   ├── icon2_24.ctpk
+    │   │   │   │   └── icon2_48.ctpk
+    │   │   │   ├── banner.bsf
+    │   │   │   ├── banner_null_icon.bsf
+    │   │   │   ├── Imp.rsf
+    │   │   │   ├── imp_list/
+    │   │   │   │   ├── batch/
+    │   │   │   │   │   ├── csm_list.txt
+    │   │   │   │   │   ├── csm_sign.dat
+    │   │   │   │   │   ├── makekey.bat
+    │   │   │   │   │   ├── makekey_100.bat
+    │   │   │   │   │   └── makesign.bat
+    │   │   │   │   ├── caution.txt
+    │   │   │   │   ├── digit.txt
+    │   │   │   │   ├── import.txt
+    │   │   │   │   └── key/
+    │   │   │   │       └── public_key.der
+    │   │   │   ├── OMakefile
+    │   │   │   ├── romfiles/
+    │   │   │   │   └── nnfont_RectDrawerShader.shbin
+    │   │   │   ├── source/
+    │   │   │   │   ├── main.cpp
+    │   │   │   │   ├── main_nochk.cpp
+    │   │   │   │   └── main_test_only.cpp
+    │   │   │   └── マスタリング時はomakeのIMPOTEE_PATH確認
+    │   │   ├── OMakefile
+    │   │   └── release.txt
+    │   ├── OMakefile
+    │   ├── OMakeroot
+    │   └── ToSD/
+    │       ├── body/
+    │       │   ├── banner/
+    │       │   │   ├── BannerModel_test/
+    │       │   │   │   └── COMMON/
+    │       │   │   │       ├── COMMON.cmdl
+    │       │   │   │       └── Textures/
+    │       │   │   │           └── tosd.ctex
+    │       │   │   ├── body.cbmd
+    │       │   │   ├── dummy.bcwav
+    │       │   │   ├── icon_24.ctpk
+    │       │   │   └── icon_48.ctpk
+    │       │   ├── banner.bsf
+    │       │   ├── body.rsf
+    │       │   ├── OMakefile
+    │       │   ├── romfiles/
+    │       │   │   └── nnfont_RectDrawerShader.shbin
+    │       │   ├── source/
+    │       │   │   ├── main.cpp
+    │       │   │   └── screen/
+    │       │   │       ├── screen.cpp
+    │       │   │       └── screen.h
+    │       │   └── ver.h
+    │       ├── Imp/
+    │       │   ├── banner/
+    │       │   │   ├── BannerModel_imp/
+    │       │   │   │   └── COMMON/
+    │       │   │   │       ├── COMMON.cmdl
+    │       │   │   │       └── Textures/
+    │       │   │   │           └── tosdimp.ctex
+    │       │   │   ├── dummy.bcwav
+    │       │   │   ├── icon2_24.ctpk
+    │       │   │   ├── icon2_48.ctpk
+    │       │   │   └── imp.cbmd
+    │       │   ├── banner.bsf
+    │       │   ├── Imp.rsf
+    │       │   ├── imp_list/
+    │       │   │   ├── batch/
+    │       │   │   │   ├── cts_list.txt
+    │       │   │   │   ├── cts_sign.dat
+    │       │   │   │   ├── makekey.bat
+    │       │   │   │   ├── makekey_100.bat
+    │       │   │   │   └── makesign.bat
+    │       │   │   ├── caution.txt
+    │       │   │   ├── digit.txt
+    │       │   │   └── key/
+    │       │   │       ├── private_key.der
+    │       │   │       ├── private_key.pem
+    │       │   │       └── public_key.der
+    │       │   ├── OMakefile
+    │       │   ├── romfiles/
+    │       │   │   └── nnfont_RectDrawerShader.shbin
+    │       │   ├── source/
+    │       │   │   └── main.cpp
+    │       │   └── マスタリング時はomakeのIMPOTEE_PATH確認
+    │       ├── OMakefile
+    │       └── release.txt
+    ├── ConsoleDataMigration/
+    │   ├── documents/
+    │   │   ├── CTR修理フロー_1stNUP.vsd
+    │   │   ├── CTR本体データ移行ツール.doc
+    │   │   ├── CTR本体データ移行ツール.pdf
+    │   │   ├── CTR用本体データ移行ツール仕様_20101221.ppt
+    │   │   ├── fig/
+    │   │   │   ├── Backup_CheckError.bmp
+    │   │   │   ├── Backup_Checking.bmp
+    │   │   │   ├── Backup_Connect_Ac_Adapter.bmp
+    │   │   │   ├── Backup_Failed.bmp
+    │   │   │   ├── Backup_Insert_SD_Card.bmp
+    │   │   │   ├── Backup_No_Setting_File.bmp
+    │   │   │   ├── Backup_Show_Erased_File.bmp
+    │   │   │   ├── Backup_Succeeded.bmp
+    │   │   │   ├── Backup_Wait_PullOut.bmp
+    │   │   │   ├── Backup_Wait_Start.bmp
+    │   │   │   ├── NupOnly_NupFinished.bmp
+    │   │   │   ├── NupOnly_PullOut.bmp
+    │   │   │   ├── NupOnly_Shutdown.bmp
+    │   │   │   ├── NupOnly_Wait.bmp
+    │   │   │   ├── NupOnly_Wait_DeleteAccount.bmp
+    │   │   │   ├── preinstall_Checking_UserSd.bmp
+    │   │   │   ├── Preinstall_Download.bmp
+    │   │   │   ├── Preinstall_Download_Done.bmp
+    │   │   │   ├── Preinstall_Failed.bmp
+    │   │   │   ├── Preinstall_NUP_Finished.bmp
+    │   │   │   ├── Preinstall_PullOut.bmp
+    │   │   │   ├── Preinstall_Succeeded.bmp
+    │   │   │   ├── Preinstall_SyncClock.bmp
+    │   │   │   ├── Preinstall_SyncTicket.bmp
+    │   │   │   ├── preinstall_UserSd_AlreadyIntialized.bmp
+    │   │   │   ├── Preinstall_UserSd_Failed.bmp
+    │   │   │   ├── Preinstall_Wait_NUP.bmp
+    │   │   │   ├── Preinstall_Wait_Sync.bmp
+    │   │   │   ├── Preinstall_Wait_UserSd_Insert.bmp
+    │   │   │   ├── Restore_All_Done.bmp
+    │   │   │   ├── Restore_Download_Twl.bmp
+    │   │   │   ├── Restore_Failed.bmp
+    │   │   │   ├── Restore_GetSdci_Done.bmp
+    │   │   │   ├── Restore_Import_TwlSaveData.bmp
+    │   │   │   ├── Restore_Invalid_Format.bmp
+    │   │   │   ├── Restore_No_Setting_File.bmp
+    │   │   │   ├── Restore_NUP_Finished.bmp
+    │   │   │   ├── Restore_OperateBms.bmp
+    │   │   │   ├── Restore_Restore_Done.bmp
+    │   │   │   ├── Restore_Succeeded.bmp
+    │   │   │   ├── Restore_SyncClock.bmp
+    │   │   │   ├── Restore_SyncTicket.bmp
+    │   │   │   ├── Restore_Wait_DeleteAccount.bmp
+    │   │   │   ├── Restore_Wait_Import.bmp
+    │   │   │   ├── Restore_Wait_Import_No_Serial.bmp
+    │   │   │   ├── Restore_Wait_NUP.bmp
+    │   │   │   ├── Restore_Wait_SyncSdci.bmp
+    │   │   │   ├── Restore_Wait_TransferAccount.bmp
+    │   │   │   ├── Sdci_GetSdci_Done.bmp
+    │   │   │   ├── Sdci_Nup_Finished.bmp
+    │   │   │   ├── Sdci_OperateBms.bmp
+    │   │   │   ├── Sdci_PullOut.bmp
+    │   │   │   ├── Sdci_Succeeded.bmp
+    │   │   │   ├── Sdci_TransferAccount.bmp
+    │   │   │   ├── Sdci_Wait_DeleteAccount.bmp
+    │   │   │   ├── Sdci_Wait_NUP.bmp
+    │   │   │   └── Sdci_Wait_Sync.bmp
+    │   │   ├── Readme.txt
+    │   │   ├── SavedataCheckerテスト.xls
+    │   │   ├── SD出力ファイルのフォーマット.vsd
+    │   │   ├── データ移行ツール1stNUPテスト.xls
+    │   │   ├── データ移行ツール2ndNUPテスト.xls
+    │   │   ├── データ移行ツールプリインストールモードテスト.xlsx
+    │   │   ├── プリインストールモードのフロー.vsd
+    │   │   └── プリインストール対応版テスト.xlsx
+    │   └── sources/
+    │       ├── build.sh
+    │       ├── common/
+    │       │   ├── Aes_define.h
+    │       │   ├── BuildSwitch.om
+    │       │   ├── common_Types.h
+    │       │   ├── CommonLogger.cpp
+    │       │   ├── CommonLogger.h
+    │       │   ├── configLoader.cpp
+    │       │   ├── configLoader.h
+    │       │   ├── DrawSystemState.cpp
+    │       │   ├── DrawSystemState.h
+    │       │   ├── FileChecker.cpp
+    │       │   ├── FileChecker.h
+    │       │   ├── FileName.h
+    │       │   ├── FileTransfer.cpp
+    │       │   ├── FileTransfer.h
+    │       │   ├── HardwareStateManager.cpp
+    │       │   ├── HardwareStateManager.h
+    │       │   ├── HeapManager.cpp
+    │       │   ├── HeapManager.h
+    │       │   ├── LogConsole.cpp
+    │       │   ├── LogConsole.h
+    │       │   ├── LogConsole_Private.h
+    │       │   ├── OMakefile
+    │       │   ├── OperationMessage.cpp
+    │       │   ├── OperationMessage.h
+    │       │   ├── ProgramId.h
+    │       │   ├── QrImage.cpp
+    │       │   ├── QrImage.h
+    │       │   ├── ResFont.cpp
+    │       │   ├── ResFont.h
+    │       │   ├── romfiles/
+    │       │   │   ├── annotation.wav
+    │       │   │   ├── CAVE_ACCOUNT_save_0.bin
+    │       │   │   ├── cursor.wav
+    │       │   │   ├── lc.bcfnt
+    │       │   │   ├── ng.wav
+    │       │   │   ├── nnfont_RectDrawerShader.shbin
+    │       │   │   ├── ok.wav
+    │       │   │   └── regionData/
+    │       │   │       ├── 0/
+    │       │   │       │   ├── EU/
+    │       │   │       │   │   ├── 100_LZ.bin
+    │       │   │       │   │   ├── 101_LZ.bin
+    │       │   │       │   │   ├── 102_LZ.bin
+    │       │   │       │   │   ├── 103_LZ.bin
+    │       │   │       │   │   ├── 104_LZ.bin
+    │       │   │       │   │   ├── 105_LZ.bin
+    │       │   │       │   │   ├── 106_LZ.bin
+    │       │   │       │   │   ├── 107_LZ.bin
+    │       │   │       │   │   ├── 108_LZ.bin
+    │       │   │       │   │   ├── 109_LZ.bin
+    │       │   │       │   │   ├── 110_LZ.bin
+    │       │   │       │   │   ├── 111_LZ.bin
+    │       │   │       │   │   ├── 112_LZ.bin
+    │       │   │       │   │   ├── 113_LZ.bin
+    │       │   │       │   │   ├── 114_LZ.bin
+    │       │   │       │   │   ├── 115_LZ.bin
+    │       │   │       │   │   ├── 116_LZ.bin
+    │       │   │       │   │   ├── 117_LZ.bin
+    │       │   │       │   │   ├── 118_LZ.bin
+    │       │   │       │   │   ├── 119_LZ.bin
+    │       │   │       │   │   ├── 120_LZ.bin
+    │       │   │       │   │   ├── 121_LZ.bin
+    │       │   │       │   │   ├── 122_LZ.bin
+    │       │   │       │   │   ├── 123_LZ.bin
+    │       │   │       │   │   ├── 124_LZ.bin
+    │       │   │       │   │   ├── 125_LZ.bin
+    │       │   │       │   │   ├── 126_LZ.bin
+    │       │   │       │   │   ├── 127_LZ.bin
+    │       │   │       │   │   ├── 169_LZ.bin
+    │       │   │       │   │   ├── 184_LZ.bin
+    │       │   │       │   │   ├── 185_LZ.bin
+    │       │   │       │   │   ├── 64_LZ.bin
+    │       │   │       │   │   ├── 65_LZ.bin
+    │       │   │       │   │   ├── 66_LZ.bin
+    │       │   │       │   │   ├── 67_LZ.bin
+    │       │   │       │   │   ├── 68_LZ.bin
+    │       │   │       │   │   ├── 69_LZ.bin
+    │       │   │       │   │   ├── 70_LZ.bin
+    │       │   │       │   │   ├── 71_LZ.bin
+    │       │   │       │   │   ├── 72_LZ.bin
+    │       │   │       │   │   ├── 73_LZ.bin
+    │       │   │       │   │   ├── 74_LZ.bin
+    │       │   │       │   │   ├── 75_LZ.bin
+    │       │   │       │   │   ├── 76_LZ.bin
+    │       │   │       │   │   ├── 77_LZ.bin
+    │       │   │       │   │   ├── 78_LZ.bin
+    │       │   │       │   │   ├── 79_LZ.bin
+    │       │   │       │   │   ├── 80_LZ.bin
+    │       │   │       │   │   ├── 81_LZ.bin
+    │       │   │       │   │   ├── 82_LZ.bin
+    │       │   │       │   │   ├── 83_LZ.bin
+    │       │   │       │   │   ├── 84_LZ.bin
+    │       │   │       │   │   ├── 85_LZ.bin
+    │       │   │       │   │   ├── 86_LZ.bin
+    │       │   │       │   │   ├── 87_LZ.bin
+    │       │   │       │   │   ├── 88_LZ.bin
+    │       │   │       │   │   ├── 89_LZ.bin
+    │       │   │       │   │   ├── 90_LZ.bin
+    │       │   │       │   │   ├── 91_LZ.bin
+    │       │   │       │   │   ├── 92_LZ.bin
+    │       │   │       │   │   ├── 93_LZ.bin
+    │       │   │       │   │   ├── 94_LZ.bin
+    │       │   │       │   │   ├── 95_LZ.bin
+    │       │   │       │   │   ├── 96_LZ.bin
+    │       │   │       │   │   ├── 97_LZ.bin
+    │       │   │       │   │   ├── 98_LZ.bin
+    │       │   │       │   │   ├── 99_LZ.bin
+    │       │   │       │   │   └── country_LZ.bin
+    │       │   │       │   ├── JP/
+    │       │   │       │   │   ├── 1_LZ.bin
+    │       │   │       │   │   └── country_LZ.bin
+    │       │   │       │   └── US/
+    │       │   │       │       ├── 10_LZ.bin
+    │       │   │       │       ├── 11_LZ.bin
+    │       │   │       │       ├── 12_LZ.bin
+    │       │   │       │       ├── 13_LZ.bin
+    │       │   │       │       ├── 14_LZ.bin
+    │       │   │       │       ├── 153_LZ.bin
+    │       │   │       │       ├── 156_LZ.bin
+    │       │   │       │       ├── 15_LZ.bin
+    │       │   │       │       ├── 168_LZ.bin
+    │       │   │       │       ├── 16_LZ.bin
+    │       │   │       │       ├── 174_LZ.bin
+    │       │   │       │       ├── 17_LZ.bin
+    │       │   │       │       ├── 18_LZ.bin
+    │       │   │       │       ├── 19_LZ.bin
+    │       │   │       │       ├── 20_LZ.bin
+    │       │   │       │       ├── 21_LZ.bin
+    │       │   │       │       ├── 22_LZ.bin
+    │       │   │       │       ├── 23_LZ.bin
+    │       │   │       │       ├── 24_LZ.bin
+    │       │   │       │       ├── 25_LZ.bin
+    │       │   │       │       ├── 26_LZ.bin
+    │       │   │       │       ├── 27_LZ.bin
+    │       │   │       │       ├── 28_LZ.bin
+    │       │   │       │       ├── 29_LZ.bin
+    │       │   │       │       ├── 30_LZ.bin
+    │       │   │       │       ├── 31_LZ.bin
+    │       │   │       │       ├── 32_LZ.bin
+    │       │   │       │       ├── 33_LZ.bin
+    │       │   │       │       ├── 34_LZ.bin
+    │       │   │       │       ├── 35_LZ.bin
+    │       │   │       │       ├── 36_LZ.bin
+    │       │   │       │       ├── 37_LZ.bin
+    │       │   │       │       ├── 38_LZ.bin
+    │       │   │       │       ├── 39_LZ.bin
+    │       │   │       │       ├── 40_LZ.bin
+    │       │   │       │       ├── 41_LZ.bin
+    │       │   │       │       ├── 42_LZ.bin
+    │       │   │       │       ├── 43_LZ.bin
+    │       │   │       │       ├── 44_LZ.bin
+    │       │   │       │       ├── 45_LZ.bin
+    │       │   │       │       ├── 46_LZ.bin
+    │       │   │       │       ├── 47_LZ.bin
+    │       │   │       │       ├── 48_LZ.bin
+    │       │   │       │       ├── 49_LZ.bin
+    │       │   │       │       ├── 50_LZ.bin
+    │       │   │       │       ├── 51_LZ.bin
+    │       │   │       │       ├── 52_LZ.bin
+    │       │   │       │       ├── 8_LZ.bin
+    │       │   │       │       ├── 9_LZ.bin
+    │       │   │       │       └── country_LZ.bin
+    │       │   │       ├── 2/
+    │       │   │       │   ├── EU/
+    │       │   │       │   │   ├── 100_LZ.bin
+    │       │   │       │   │   ├── 101_LZ.bin
+    │       │   │       │   │   ├── 102_LZ.bin
+    │       │   │       │   │   ├── 103_LZ.bin
+    │       │   │       │   │   ├── 104_LZ.bin
+    │       │   │       │   │   ├── 105_LZ.bin
+    │       │   │       │   │   ├── 106_LZ.bin
+    │       │   │       │   │   ├── 107_LZ.bin
+    │       │   │       │   │   ├── 108_LZ.bin
+    │       │   │       │   │   ├── 109_LZ.bin
+    │       │   │       │   │   ├── 110_LZ.bin
+    │       │   │       │   │   ├── 111_LZ.bin
+    │       │   │       │   │   ├── 112_LZ.bin
+    │       │   │       │   │   ├── 113_LZ.bin
+    │       │   │       │   │   ├── 114_LZ.bin
+    │       │   │       │   │   ├── 115_LZ.bin
+    │       │   │       │   │   ├── 116_LZ.bin
+    │       │   │       │   │   ├── 117_LZ.bin
+    │       │   │       │   │   ├── 118_LZ.bin
+    │       │   │       │   │   ├── 119_LZ.bin
+    │       │   │       │   │   ├── 120_LZ.bin
+    │       │   │       │   │   ├── 121_LZ.bin
+    │       │   │       │   │   ├── 122_LZ.bin
+    │       │   │       │   │   ├── 123_LZ.bin
+    │       │   │       │   │   ├── 124_LZ.bin
+    │       │   │       │   │   ├── 125_LZ.bin
+    │       │   │       │   │   ├── 126_LZ.bin
+    │       │   │       │   │   ├── 127_LZ.bin
+    │       │   │       │   │   ├── 169_LZ.bin
+    │       │   │       │   │   ├── 184_LZ.bin
+    │       │   │       │   │   ├── 185_LZ.bin
+    │       │   │       │   │   ├── 64_LZ.bin
+    │       │   │       │   │   ├── 65_LZ.bin
+    │       │   │       │   │   ├── 66_LZ.bin
+    │       │   │       │   │   ├── 67_LZ.bin
+    │       │   │       │   │   ├── 68_LZ.bin
+    │       │   │       │   │   ├── 69_LZ.bin
+    │       │   │       │   │   ├── 70_LZ.bin
+    │       │   │       │   │   ├── 71_LZ.bin
+    │       │   │       │   │   ├── 72_LZ.bin
+    │       │   │       │   │   ├── 73_LZ.bin
+    │       │   │       │   │   ├── 74_LZ.bin
+    │       │   │       │   │   ├── 75_LZ.bin
+    │       │   │       │   │   ├── 76_LZ.bin
+    │       │   │       │   │   ├── 77_LZ.bin
+    │       │   │       │   │   ├── 78_LZ.bin
+    │       │   │       │   │   ├── 79_LZ.bin
+    │       │   │       │   │   ├── 80_LZ.bin
+    │       │   │       │   │   ├── 81_LZ.bin
+    │       │   │       │   │   ├── 82_LZ.bin
+    │       │   │       │   │   ├── 83_LZ.bin
+    │       │   │       │   │   ├── 84_LZ.bin
+    │       │   │       │   │   ├── 85_LZ.bin
+    │       │   │       │   │   ├── 86_LZ.bin
+    │       │   │       │   │   ├── 87_LZ.bin
+    │       │   │       │   │   ├── 88_LZ.bin
+    │       │   │       │   │   ├── 89_LZ.bin
+    │       │   │       │   │   ├── 90_LZ.bin
+    │       │   │       │   │   ├── 91_LZ.bin
+    │       │   │       │   │   ├── 92_LZ.bin
+    │       │   │       │   │   ├── 93_LZ.bin
+    │       │   │       │   │   ├── 94_LZ.bin
+    │       │   │       │   │   ├── 95_LZ.bin
+    │       │   │       │   │   ├── 96_LZ.bin
+    │       │   │       │   │   ├── 97_LZ.bin
+    │       │   │       │   │   ├── 98_LZ.bin
+    │       │   │       │   │   ├── 99_LZ.bin
+    │       │   │       │   │   └── country_LZ.bin
+    │       │   │       │   ├── JP/
+    │       │   │       │   │   ├── 1_LZ.bin
+    │       │   │       │   │   └── country_LZ.bin
+    │       │   │       │   └── US/
+    │       │   │       │       ├── 10_LZ.bin
+    │       │   │       │       ├── 11_LZ.bin
+    │       │   │       │       ├── 12_LZ.bin
+    │       │   │       │       ├── 13_LZ.bin
+    │       │   │       │       ├── 14_LZ.bin
+    │       │   │       │       ├── 153_LZ.bin
+    │       │   │       │       ├── 156_LZ.bin
+    │       │   │       │       ├── 15_LZ.bin
+    │       │   │       │       ├── 168_LZ.bin
+    │       │   │       │       ├── 16_LZ.bin
+    │       │   │       │       ├── 174_LZ.bin
+    │       │   │       │       ├── 17_LZ.bin
+    │       │   │       │       ├── 18_LZ.bin
+    │       │   │       │       ├── 19_LZ.bin
+    │       │   │       │       ├── 20_LZ.bin
+    │       │   │       │       ├── 21_LZ.bin
+    │       │   │       │       ├── 22_LZ.bin
+    │       │   │       │       ├── 23_LZ.bin
+    │       │   │       │       ├── 24_LZ.bin
+    │       │   │       │       ├── 25_LZ.bin
+    │       │   │       │       ├── 26_LZ.bin
+    │       │   │       │       ├── 27_LZ.bin
+    │       │   │       │       ├── 28_LZ.bin
+    │       │   │       │       ├── 29_LZ.bin
+    │       │   │       │       ├── 30_LZ.bin
+    │       │   │       │       ├── 31_LZ.bin
+    │       │   │       │       ├── 32_LZ.bin
+    │       │   │       │       ├── 33_LZ.bin
+    │       │   │       │       ├── 34_LZ.bin
+    │       │   │       │       ├── 35_LZ.bin
+    │       │   │       │       ├── 36_LZ.bin
+    │       │   │       │       ├── 37_LZ.bin
+    │       │   │       │       ├── 38_LZ.bin
+    │       │   │       │       ├── 39_LZ.bin
+    │       │   │       │       ├── 40_LZ.bin
+    │       │   │       │       ├── 41_LZ.bin
+    │       │   │       │       ├── 42_LZ.bin
+    │       │   │       │       ├── 43_LZ.bin
+    │       │   │       │       ├── 44_LZ.bin
+    │       │   │       │       ├── 45_LZ.bin
+    │       │   │       │       ├── 46_LZ.bin
+    │       │   │       │       ├── 47_LZ.bin
+    │       │   │       │       ├── 48_LZ.bin
+    │       │   │       │       ├── 49_LZ.bin
+    │       │   │       │       ├── 50_LZ.bin
+    │       │   │       │       ├── 51_LZ.bin
+    │       │   │       │       ├── 52_LZ.bin
+    │       │   │       │       ├── 8_LZ.bin
+    │       │   │       │       ├── 9_LZ.bin
+    │       │   │       │       └── country_LZ.bin
+    │       │   │       └── 5/
+    │       │   │           ├── EU/
+    │       │   │           │   ├── 100_LZ.bin
+    │       │   │           │   ├── 101_LZ.bin
+    │       │   │           │   ├── 102_LZ.bin
+    │       │   │           │   ├── 103_LZ.bin
+    │       │   │           │   ├── 104_LZ.bin
+    │       │   │           │   ├── 105_LZ.bin
+    │       │   │           │   ├── 106_LZ.bin
+    │       │   │           │   ├── 107_LZ.bin
+    │       │   │           │   ├── 108_LZ.bin
+    │       │   │           │   ├── 109_LZ.bin
+    │       │   │           │   ├── 110_LZ.bin
+    │       │   │           │   ├── 111_LZ.bin
+    │       │   │           │   ├── 112_LZ.bin
+    │       │   │           │   ├── 113_LZ.bin
+    │       │   │           │   ├── 114_LZ.bin
+    │       │   │           │   ├── 115_LZ.bin
+    │       │   │           │   ├── 116_LZ.bin
+    │       │   │           │   ├── 117_LZ.bin
+    │       │   │           │   ├── 118_LZ.bin
+    │       │   │           │   ├── 119_LZ.bin
+    │       │   │           │   ├── 120_LZ.bin
+    │       │   │           │   ├── 121_LZ.bin
+    │       │   │           │   ├── 122_LZ.bin
+    │       │   │           │   ├── 123_LZ.bin
+    │       │   │           │   ├── 124_LZ.bin
+    │       │   │           │   ├── 125_LZ.bin
+    │       │   │           │   ├── 126_LZ.bin
+    │       │   │           │   ├── 127_LZ.bin
+    │       │   │           │   ├── 169_LZ.bin
+    │       │   │           │   ├── 184_LZ.bin
+    │       │   │           │   ├── 185_LZ.bin
+    │       │   │           │   ├── 64_LZ.bin
+    │       │   │           │   ├── 65_LZ.bin
+    │       │   │           │   ├── 66_LZ.bin
+    │       │   │           │   ├── 67_LZ.bin
+    │       │   │           │   ├── 68_LZ.bin
+    │       │   │           │   ├── 69_LZ.bin
+    │       │   │           │   ├── 70_LZ.bin
+    │       │   │           │   ├── 71_LZ.bin
+    │       │   │           │   ├── 72_LZ.bin
+    │       │   │           │   ├── 73_LZ.bin
+    │       │   │           │   ├── 74_LZ.bin
+    │       │   │           │   ├── 75_LZ.bin
+    │       │   │           │   ├── 76_LZ.bin
+    │       │   │           │   ├── 77_LZ.bin
+    │       │   │           │   ├── 78_LZ.bin
+    │       │   │           │   ├── 79_LZ.bin
+    │       │   │           │   ├── 80_LZ.bin
+    │       │   │           │   ├── 81_LZ.bin
+    │       │   │           │   ├── 82_LZ.bin
+    │       │   │           │   ├── 83_LZ.bin
+    │       │   │           │   ├── 84_LZ.bin
+    │       │   │           │   ├── 85_LZ.bin
+    │       │   │           │   ├── 86_LZ.bin
+    │       │   │           │   ├── 87_LZ.bin
+    │       │   │           │   ├── 88_LZ.bin
+    │       │   │           │   ├── 89_LZ.bin
+    │       │   │           │   ├── 90_LZ.bin
+    │       │   │           │   ├── 91_LZ.bin
+    │       │   │           │   ├── 92_LZ.bin
+    │       │   │           │   ├── 93_LZ.bin
+    │       │   │           │   ├── 94_LZ.bin
+    │       │   │           │   ├── 95_LZ.bin
+    │       │   │           │   ├── 96_LZ.bin
+    │       │   │           │   ├── 97_LZ.bin
+    │       │   │           │   ├── 98_LZ.bin
+    │       │   │           │   ├── 99_LZ.bin
+    │       │   │           │   └── country_LZ.bin
+    │       │   │           ├── JP/
+    │       │   │           │   ├── 1_LZ.bin
+    │       │   │           │   └── country_LZ.bin
+    │       │   │           └── US/
+    │       │   │               ├── 10_LZ.bin
+    │       │   │               ├── 11_LZ.bin
+    │       │   │               ├── 12_LZ.bin
+    │       │   │               ├── 13_LZ.bin
+    │       │   │               ├── 14_LZ.bin
+    │       │   │               ├── 153_LZ.bin
+    │       │   │               ├── 156_LZ.bin
+    │       │   │               ├── 15_LZ.bin
+    │       │   │               ├── 168_LZ.bin
+    │       │   │               ├── 16_LZ.bin
+    │       │   │               ├── 174_LZ.bin
+    │       │   │               ├── 17_LZ.bin
+    │       │   │               ├── 18_LZ.bin
+    │       │   │               ├── 19_LZ.bin
+    │       │   │               ├── 20_LZ.bin
+    │       │   │               ├── 21_LZ.bin
+    │       │   │               ├── 22_LZ.bin
+    │       │   │               ├── 23_LZ.bin
+    │       │   │               ├── 24_LZ.bin
+    │       │   │               ├── 25_LZ.bin
+    │       │   │               ├── 26_LZ.bin
+    │       │   │               ├── 27_LZ.bin
+    │       │   │               ├── 28_LZ.bin
+    │       │   │               ├── 29_LZ.bin
+    │       │   │               ├── 30_LZ.bin
+    │       │   │               ├── 31_LZ.bin
+    │       │   │               ├── 32_LZ.bin
+    │       │   │               ├── 33_LZ.bin
+    │       │   │               ├── 34_LZ.bin
+    │       │   │               ├── 35_LZ.bin
+    │       │   │               ├── 36_LZ.bin
+    │       │   │               ├── 37_LZ.bin
+    │       │   │               ├── 38_LZ.bin
+    │       │   │               ├── 39_LZ.bin
+    │       │   │               ├── 40_LZ.bin
+    │       │   │               ├── 41_LZ.bin
+    │       │   │               ├── 42_LZ.bin
+    │       │   │               ├── 43_LZ.bin
+    │       │   │               ├── 44_LZ.bin
+    │       │   │               ├── 45_LZ.bin
+    │       │   │               ├── 46_LZ.bin
+    │       │   │               ├── 47_LZ.bin
+    │       │   │               ├── 48_LZ.bin
+    │       │   │               ├── 49_LZ.bin
+    │       │   │               ├── 50_LZ.bin
+    │       │   │               ├── 51_LZ.bin
+    │       │   │               ├── 52_LZ.bin
+    │       │   │               ├── 8_LZ.bin
+    │       │   │               ├── 9_LZ.bin
+    │       │   │               └── country_LZ.bin
+    │       │   ├── SaveDataMover.cpp
+    │       │   ├── SaveDataMover.h
+    │       │   ├── SdLogger.cpp
+    │       │   ├── SdLogger.h
+    │       │   ├── SdMountManager.cpp
+    │       │   ├── SdMountManager.h
+    │       │   ├── SdReaderWriter.cpp
+    │       │   ├── SdReaderWriter.h
+    │       │   ├── SimplePlayer.cpp
+    │       │   ├── SimplePlayer.h
+    │       │   ├── Util.cpp
+    │       │   ├── Util.h
+    │       │   ├── version.h
+    │       │   ├── VersionDetect.cpp
+    │       │   ├── VersionDetect.h
+    │       │   ├── wave.cpp
+    │       │   └── wave.h
+    │       ├── ConsoleBackup/
+    │       │   ├── Auto_WiFi_and_Snake_version.patch
+    │       │   ├── banner/
+    │       │   │   ├── model.cbmd
+    │       │   │   ├── sound.cbsd
+    │       │   │   ├── unknown24x24.ctpk
+    │       │   │   └── unknown48x48.ctpk
+    │       │   ├── Checker.cpp
+    │       │   ├── Checker.h
+    │       │   ├── ConsoleBackup.bsf
+    │       │   ├── ConsoleBackup.cpp
+    │       │   ├── ConsoleBackup.rsf
+    │       │   ├── Controller.cpp
+    │       │   ├── Controller.h
+    │       │   ├── Exporter.cpp
+    │       │   ├── Exporter.h
+    │       │   ├── MenuSavedataModifier.cpp
+    │       │   ├── MenuSavedataModifier.h
+    │       │   ├── MenuSavedataVersion.cpp
+    │       │   ├── MenuSavedataVersion.h
+    │       │   ├── OMakefile
+    │       │   ├── SavedataChecker.cpp
+    │       │   └── SavedataChecker.h
+    │       ├── ConsoleRestore/
+    │       │   ├── ActCompleter.cpp
+    │       │   ├── ActCompleter.h
+    │       │   ├── AgeChecker.cpp
+    │       │   ├── AgeChecker.h
+    │       │   ├── banner/
+    │       │   │   ├── model.cbmd
+    │       │   │   ├── sound.cbsd
+    │       │   │   ├── unknown24x24.ctpk
+    │       │   │   └── unknown48x48.ctpk
+    │       │   ├── ConsoleRestore.bsf
+    │       │   ├── ConsoleRestore.cpp
+    │       │   ├── ConsoleRestore.rsf
+    │       │   ├── Controller.cpp
+    │       │   ├── Controller.h
+    │       │   ├── Importer.cpp
+    │       │   ├── Importer.h
+    │       │   ├── NinjaCommunicator.cpp
+    │       │   ├── NinjaCommunicator.h
+    │       │   ├── NinjaXmlReader.cpp
+    │       │   ├── NinjaXmlReader.h
+    │       │   ├── NtpClient.cpp
+    │       │   ├── NtpClient.h
+    │       │   ├── OMakefile
+    │       │   ├── PreinstallImporter.cpp
+    │       │   ├── PreinstallImporter.h
+    │       │   ├── PreorderTitleRestorer.cpp
+    │       │   ├── PreorderTitleRestorer.h
+    │       │   ├── PreorderTitleRestorerManager.cpp
+    │       │   ├── PreorderTitleRestorerManager.h
+    │       │   ├── RegionIdModifier.cpp
+    │       │   ├── RegionIdModifier.h
+    │       │   ├── RestoreTypes.h
+    │       │   ├── Shop.cpp
+    │       │   ├── Shop.h
+    │       │   ├── SimpleXmlPreprocessor.cpp
+    │       │   ├── SimpleXmlPreprocessor.h
+    │       │   ├── TitleDownloader.cpp
+    │       │   ├── TitleDownloader.h
+    │       │   ├── Updater.cpp
+    │       │   └── Updater.h
+    │       ├── OMakefile
+    │       ├── OMakeroot
+    │       ├── profile.xml
+    │       ├── tests/
+    │       │   ├── common/
+    │       │   │   ├── OMakefile
+    │       │   │   └── util/
+    │       │   │       ├── OMakefile
+    │       │   │       └── test_Util.cpp
+    │       │   ├── ConsoleBackup/
+    │       │   │   ├── Exporter/
+    │       │   │   │   ├── OMakefile
+    │       │   │   │   └── test_Exporter.cpp
+    │       │   │   └── OMakefile
+    │       │   ├── ConsoleRestore/
+    │       │   │   ├── NinjaCommunicator/
+    │       │   │   │   ├── OMakefile
+    │       │   │   │   └── test_NinjaCommunicator.cpp
+    │       │   │   ├── NinjaXmlReader/
+    │       │   │   │   ├── OMakefile
+    │       │   │   │   └── test_NinjaXmlReader.cpp
+    │       │   │   ├── OMakefile
+    │       │   │   ├── PreinstallImporter/
+    │       │   │   │   ├── OMakefile
+    │       │   │   │   └── test_PreinstallImporter.cpp
+    │       │   │   ├── PreorderTitleRestorer/
+    │       │   │   │   ├── OMakefile
+    │       │   │   │   └── test_PreorderTitleRestorer.cpp
+    │       │   │   └── TitleDownloader/
+    │       │   │       ├── OMakefile
+    │       │   │       ├── test_TitleDownloader.cpp
+    │       │   │       └── testdata/
+    │       │   │           └── TwlTitleList.txt
+    │       │   ├── googletest/
+    │       │   │   ├── AgeChecker/
+    │       │   │   │   ├── OMakefile
+    │       │   │   │   └── testAgeChecker.cpp
+    │       │   │   ├── common/
+    │       │   │   │   ├── build.om
+    │       │   │   │   ├── common.om
+    │       │   │   │   ├── common_stub.h
+    │       │   │   │   ├── OMakefile
+    │       │   │   │   ├── test_common.h
+    │       │   │   │   └── types.h
+    │       │   │   ├── MenuSavedataVersion/
+    │       │   │   │   ├── OMakefile
+    │       │   │   │   └── testMenuSavedataVersion.cpp
+    │       │   │   ├── OMakefile
+    │       │   │   ├── OMakeroot
+    │       │   │   └── RegionIdModifier/
+    │       │   │       ├── OMakefile
+    │       │   │       ├── stub.h
+    │       │   │       ├── testdata_1stNUP_all_invalid.txt
+    │       │   │       ├── testdata_1stNUP_all_valid.txt
+    │       │   │       ├── testdata_2ndNUP_all_invalid.txt
+    │       │   │       ├── testdata_2ndNUP_all_valid.txt
+    │       │   │       ├── testdata_Launch_all_invalid.txt
+    │       │   │       ├── testdata_Launch_all_valid.txt
+    │       │   │       ├── testRegionIdModifier.cpp
+    │       │   │       ├── testUtil.cpp
+    │       │   │       └── testUtil.h
+    │       │   └── OMakefile
+    │       └── tools/
+    │           ├── CmacAdder/
+    │           │   ├── AutoBoot.bsf
+    │           │   ├── banner/
+    │           │   │   ├── model.cbmd
+    │           │   │   ├── sound.cbsd
+    │           │   │   ├── unknown24x24.ctpk
+    │           │   │   └── unknown48x48.ctpk
+    │           │   ├── CmacAdder.rsf
+    │           │   ├── main.cpp
+    │           │   └── OMakefile
+    │           ├── ExportedDataDecrypter/
+    │           │   ├── banner/
+    │           │   │   ├── model.cbmd
+    │           │   │   ├── sound.cbsd
+    │           │   │   ├── unknown24x24.ctpk
+    │           │   │   └── unknown48x48.ctpk
+    │           │   ├── ExportedDataDecrypter.bsf
+    │           │   ├── ExportedDataDecrypter.rsf
+    │           │   ├── main.cpp
+    │           │   └── OMakefile
+    │           ├── ExportedDataVerifier/
+    │           │   ├── banner/
+    │           │   │   ├── model.cbmd
+    │           │   │   ├── sound.cbsd
+    │           │   │   ├── unknown24x24.ctpk
+    │           │   │   └── unknown48x48.ctpk
+    │           │   ├── ExportedDataVerifier.bsf
+    │           │   ├── ExportedDataVerifier.rsf
+    │           │   ├── main.cpp
+    │           │   └── OMakefile
+    │           ├── FatDataEncrypter/
+    │           │   ├── banner/
+    │           │   │   ├── model.cbmd
+    │           │   │   ├── sound.cbsd
+    │           │   │   ├── unknown24x24.ctpk
+    │           │   │   └── unknown48x48.ctpk
+    │           │   ├── FatDataEncrypter.bsf
+    │           │   ├── FatDataEncrypter.rsf
+    │           │   ├── main.cpp
+    │           │   └── OMakefile
+    │           └── OMakefile
+    ├── FlickerCalCollector/
+    │   ├── banner/
+    │   │   ├── model.cbmd
+    │   │   ├── sound.cbsd
+    │   │   ├── unknown24x24.ctpk
+    │   │   └── unknown48x48.ctpk
+    │   ├── ConsoleBackup.bsf
+    │   ├── main.cpp
+    │   ├── OMakefile
+    │   ├── OMakeroot
+    │   └── Readme.txt
+    ├── FlickerCfgChanger/
+    │   ├── banner/
+    │   │   ├── model.cbmd
+    │   │   ├── sound.cbsd
+    │   │   ├── unknown24x24.ctpk
+    │   │   └── unknown48x48.ctpk
+    │   ├── ConsoleBackup.bsf
+    │   ├── main.cpp
+    │   ├── OMakefile
+    │   ├── OMakeroot
+    │   └── Readme.txt
+    ├── Initializer2ndNUP/
+    │   ├── AcChanger.cpp
+    │   ├── AcChanger.h
+    │   ├── AutoBoot.bsf
+    │   ├── banner/
+    │   │   ├── model.cbmd
+    │   │   ├── sound.cbsd
+    │   │   ├── unknown24x24.ctpk
+    │   │   └── unknown48x48.ctpk
+    │   ├── ConsoleInitializer.rsf
+    │   ├── main.cpp
+    │   ├── OMakefile
+    │   ├── OMakeroot
+    │   ├── Readme.txt
+    │   └── 初期化ツール2nd確認.xls
+    ├── MakeMasterKey/
+    │   └── src/
+    │       └── MakeMasterKeyForCtr.cpp
+    ├── MakeMasterKeyForCtr3rd/
+    │   ├── documents/
+    │   │   ├── MakeMasterKeyForCtr_チェックリスト_20150209a.xls
+    │   │   └── parental_masterkey_20150210a.pptx
+    │   ├── MakeMasterKeyForCtr/
+    │   │   ├── App.config
+    │   │   ├── KeyInfo.cs
+    │   │   ├── MakeMasterKeyForCtr.csproj
+    │   │   ├── MakeMasterKeyForCtr.csproj.user
+    │   │   ├── Program.cs
+    │   │   └── Properties/
+    │   │       └── AssemblyInfo.cs
+    │   └── MakeMasterKeyForCtr3rd.sln
+    ├── NetworkUpdater/
+    │   ├── documents/
+    │   │   └── Readme.txt
+    │   └── sources/
+    │       ├── build.sh
+    │       ├── common/
+    │       │   ├── BuildSwitch.om
+    │       │   ├── common_Types.h
+    │       │   ├── CommonLogger.cpp
+    │       │   ├── CommonLogger.h
+    │       │   ├── configLoader.cpp
+    │       │   ├── configLoader.h
+    │       │   ├── DrawSystemState.cpp
+    │       │   ├── DrawSystemState.h
+    │       │   ├── FileChecker.cpp
+    │       │   ├── FileChecker.h
+    │       │   ├── FileName.h
+    │       │   ├── HardwareStateManager.cpp
+    │       │   ├── HardwareStateManager.h
+    │       │   ├── HeapManager.cpp
+    │       │   ├── HeapManager.h
+    │       │   ├── LogConsole.cpp
+    │       │   ├── LogConsole.h
+    │       │   ├── LogConsole_Private.h
+    │       │   ├── nwm_ExtAPI.cpp
+    │       │   ├── OMakefile
+    │       │   ├── OperationMessage.cpp
+    │       │   ├── OperationMessage.h
+    │       │   ├── ProgramId.h
+    │       │   ├── ResFont.cpp
+    │       │   ├── ResFont.h
+    │       │   ├── romfiles/
+    │       │   │   ├── annotation.wav
+    │       │   │   ├── cursor.wav
+    │       │   │   ├── lc.bcfnt
+    │       │   │   ├── ng.wav
+    │       │   │   ├── nnfont_RectDrawerShader.shbin
+    │       │   │   └── ok.wav
+    │       │   ├── SdLogger.cpp
+    │       │   ├── SdLogger.h
+    │       │   ├── SdMountManager.cpp
+    │       │   ├── SdMountManager.h
+    │       │   ├── SimplePlayer.cpp
+    │       │   ├── SimplePlayer.h
+    │       │   ├── Util.cpp
+    │       │   ├── Util.h
+    │       │   ├── version.h
+    │       │   ├── VersionDetect.cpp
+    │       │   ├── VersionDetect.h
+    │       │   ├── wave.cpp
+    │       │   └── wave.h
+    │       ├── NetworkUpdater/
+    │       │   ├── banner/
+    │       │   │   ├── model.cbmd
+    │       │   │   ├── sound.cbsd
+    │       │   │   ├── unknown24x24.ctpk
+    │       │   │   └── unknown48x48.ctpk
+    │       │   ├── ConsoleRestore.cpp
+    │       │   ├── Controller.cpp
+    │       │   ├── Controller.h
+    │       │   ├── Importer.cpp
+    │       │   ├── Importer.h
+    │       │   ├── NetworkUpdater.bsf
+    │       │   ├── NetworkUpdater.rsf
+    │       │   ├── OMakefile
+    │       │   ├── Updater.cpp
+    │       │   └── Updater.h
+    │       ├── OMakefile
+    │       ├── OMakeroot
+    │       └── profile.xml
+    ├── PersonalDataEraser/
+    │   ├── banner/
+    │   │   ├── model.cbmd
+    │   │   ├── sound.cbsd
+    │   │   ├── unknown24x24.ctpk
+    │   │   └── unknown48x48.ctpk
+    │   ├── HeapManager.cpp
+    │   ├── HeapManager.h
+    │   ├── main.cpp
+    │   ├── OMakefile
+    │   ├── OMakeroot
+    │   ├── PersonalDataDeleteTool.desc
+    │   ├── PersonalDataEraser.bsf
+    │   ├── PersonalDataEraser.rsf
+    │   ├── Readme.txt
+    │   ├── ResFont.cpp
+    │   ├── ResFont.h
+    │   └── romfiles/
+    │       ├── lc.bcfnt
+    │       └── nnfont_RectDrawerShader.shbin
+    └── SkipFirstLaunch/
+        ├── AutoBoot.bsf
+        ├── banner/
+        │   ├── model.cbmd
+        │   ├── sound.cbsd
+        │   ├── unknown24x24.ctpk
+        │   └── unknown48x48.ctpk
+        ├── CfgChanger.cpp
+        ├── CfgChanger.h
+        ├── idb/
+        │   ├── include/
+        │   │   ├── CTR_LegacyData.h
+        │   │   ├── CtrIcon.h
+        │   │   ├── IDB.h
+        │   │   ├── IDBi.h
+        │   │   └── IDBUT.h
+        │   └── src/
+        │       ├── IDB.cpp
+        │       ├── IDBi.cpp
+        │       └── IDBUT.cpp
+        ├── ImageDb/
+        │   ├── include/
+        │   │   └── imgdb/
+        │   │       ├── Core/
+        │   │       │   ├── ImageDatabase.h
+        │   │       │   ├── ImageDbAllocator.h
+        │   │       │   ├── ImageDbArchiveMounter.h
+        │   │       │   ├── ImageDbConst.h
+        │   │       │   ├── ImageDbCrc.h
+        │   │       │   ├── ImageDbDateTimeSeconds.h
+        │   │       │   ├── ImageDbDebug.h
+        │   │       │   ├── ImageDbDirectory.h
+        │   │       │   ├── ImageDbDynamicArray.h
+        │   │       │   ├── ImageDbFaceInfo.h
+        │   │       │   ├── ImageDbFileDuplicator.h
+        │   │       │   ├── ImageDbFileReader.h
+        │   │       │   ├── ImageDbFileUtility.h
+        │   │       │   ├── ImageDbFileWriter.h
+        │   │       │   ├── ImageDbImageCollector.h
+        │   │       │   ├── ImageDbImageInfo.h
+        │   │       │   ├── ImageDbImageSearcher.h
+        │   │       │   ├── ImageDbImageUtility.h
+        │   │       │   ├── ImageDbImageValidator.h
+        │   │       │   ├── ImageDbIndexInfo.h
+        │   │       │   ├── ImageDbInit.h
+        │   │       │   ├── ImageDbInitEx.h
+        │   │       │   ├── ImageDbLegacyTable.h
+        │   │       │   ├── ImageDbMiscUtility.h
+        │   │       │   ├── ImageDbNmjPlayerConfig.h
+        │   │       │   ├── ImageDbNmjRecordingConfig.h
+        │   │       │   ├── ImageDbPathUtility.h
+        │   │       │   ├── ImageDbPictureDatabase.h
+        │   │       │   ├── ImageDbPictureTable.h
+        │   │       │   ├── ImageDbRecord.h
+        │   │       │   ├── ImageDbRecordParam.h
+        │   │       │   ├── ImageDbRestore.h
+        │   │       │   ├── ImageDbResult.h
+        │   │       │   ├── ImageDbSearchObject.h
+        │   │       │   ├── ImageDbSingleton.h
+        │   │       │   ├── ImageDbTypes.h
+        │   │       │   ├── ImageDbUtility.h
+        │   │       │   ├── ImageDbValidityStateTable.h
+        │   │       │   ├── JpegMpDecoder.h
+        │   │       │   ├── JpegMpEncoder.h
+        │   │       │   ├── SysMakerNote.h
+        │   │       │   ├── SysMakerNoteRewriter.h
+        │   │       │   └── UserMakerNote.h
+        │   │       ├── ImageDb.h
+        │   │       ├── ImageIO/
+        │   │       │   ├── ImageIOArchiveMount.h
+        │   │       │   ├── ImageIOSearch.h
+        │   │       │   ├── ImageIOTypes.h
+        │   │       │   ├── ImageIOUtility.h
+        │   │       │   ├── JpegMpLoader.h
+        │   │       │   ├── JpegMpSaver.h
+        │   │       │   └── JpegMpSaverEx.h
+        │   │       └── ImageIO.h
+        │   └── libraries/
+        │       └── CTR-TS.Process.MPCore/
+        │           ├── noopt/
+        │           │   ├── ImageDb.fast.a
+        │           │   └── ImageDb.small.a
+        │           ├── release/
+        │           │   ├── ImageDb.fast.a
+        │           │   └── ImageDb.small.a
+        │           └── verbose/
+        │               ├── ImageDb.fast.a
+        │               └── ImageDb.small.a
+        ├── InitialSequenceSkipTool.desc
+        ├── main.cpp
+        ├── OMakefile
+        ├── OMakeroot
+        ├── Readme.txt
+        ├── StateManager.cpp
+        ├── StateManager.h
+        ├── syokaikidou.cpp
+        ├── syokaikidou.h
+        ├── sysFile.cpp
+        ├── sysFile.h
+        ├── sysHeap.cpp
+        ├── sysHeap.h
+        ├── sysInput.cpp
+        ├── sysInput.h
+        ├── sysSharedExtSaveData.cpp
+        ├── sysSharedExtSaveData.h
+        ├── sysUserInfoAccessor.cpp
+        ├── sysUserInfoAccessor.h
+        ├── UserSettingManager.rsf
+        ├── VersionDetect.cpp
+        ├── VersionDetect.h
+        └── ユーザ情報設定カード画面遷移.vsd

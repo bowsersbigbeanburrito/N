@@ -1,0 +1,2305 @@
+20090703/
+├── TwlManualTools-3_0-20090703-en/
+│   └── TwlManualTools/
+│       ├── build/
+│       │   ├── buildtools/
+│       │   │   ├── commondefs
+│       │   │   └── modulerules
+│       │   ├── demos/
+│       │   │   ├── m2d/
+│       │   │   │   ├── explicitLang/
+│       │   │   │   │   ├── data/
+│       │   │   │   │   │   └── manpages_narc.blz
+│       │   │   │   │   ├── demo.rsf
+│       │   │   │   │   ├── include/
+│       │   │   │   │   │   └── loader.h
+│       │   │   │   │   ├── Makefile
+│       │   │   │   │   └── src/
+│       │   │   │   │       ├── loader.c
+│       │   │   │   │       └── main.c
+│       │   │   │   ├── Makefile
+│       │   │   │   └── simple/
+│       │   │   │       ├── data/
+│       │   │   │       │   ├── manpages_narc.blz
+│       │   │   │       │   └── nsc/
+│       │   │   │       │       ├── nlv_sample.NCLR
+│       │   │   │       │       ├── nlv_sample_down.NCGR
+│       │   │   │       │       ├── nlv_sample_down.NSCR
+│       │   │   │       │       ├── nlv_sample_up.NCGR
+│       │   │   │       │       └── nlv_sample_up.NSCR
+│       │   │   │       ├── demo.rsf
+│       │   │   │       ├── include/
+│       │   │   │       │   └── loader.h
+│       │   │   │       ├── Makefile
+│       │   │   │       └── src/
+│       │   │   │           ├── loader.c
+│       │   │   │           └── main.c
+│       │   │   └── Makefile
+│       │   ├── libraries/
+│       │   │   ├── m2d/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       ├── m2d_arcResourceAccessor.cpp
+│       │   │   │       ├── m2d_common.cpp
+│       │   │   │       ├── m2d_directTexture.cpp
+│       │   │   │       ├── m2d_drawInfo.cpp
+│       │   │   │       ├── m2d_gamePad.cpp
+│       │   │   │       ├── m2d_langInfo.cpp
+│       │   │   │       ├── m2d_manualButton.cpp
+│       │   │   │       ├── m2d_manualTableOfContents.cpp
+│       │   │   │       ├── m2d_manualTocPanel.cpp
+│       │   │   │       ├── m2d_manualView.cpp
+│       │   │   │       ├── m2d_manualViewer.cpp
+│       │   │   │       ├── m2d_objButton.cpp
+│       │   │   │       ├── m2d_objManager.cpp
+│       │   │   │       ├── m2d_page.cpp
+│       │   │   │       ├── m2d_pageHeaderPanel.cpp
+│       │   │   │       ├── m2d_pageView.cpp
+│       │   │   │       ├── m2d_pane.cpp
+│       │   │   │       ├── m2d_picture.cpp
+│       │   │   │       ├── m2d_resG2dLoader.cpp
+│       │   │   │       ├── m2d_resourceAccessor.cpp
+│       │   │   │       ├── m2d_scrollButton.cpp
+│       │   │   │       ├── m2d_scrollIndicator.cpp
+│       │   │   │       ├── m2d_soundManager.cpp
+│       │   │   │       ├── m2d_texMap.cpp
+│       │   │   │       ├── m2d_textBox.cpp
+│       │   │   │       ├── m2d_textCanvasContext.cpp
+│       │   │   │       ├── m2d_touchPanel.cpp
+│       │   │   │       ├── m2d_uiElement.cpp
+│       │   │   │       ├── m2d_uiPanel.cpp
+│       │   │   │       ├── m2d_uiStatic.cpp
+│       │   │   │       └── m2d_window.cpp
+│       │   │   └── Makefile
+│       │   └── Makefile
+│       ├── data/
+│       │   └── m2dres_narc.blz
+│       ├── docs/
+│       │   ├── ChangeLog/
+│       │   │   └── M2d_ChangeLog.html
+│       │   ├── ProgrammerGuide.pdf
+│       │   ├── QuickStart.pdf
+│       │   └── ReleaseNotes.html
+│       ├── include/
+│       │   └── ntmv/
+│       │       ├── m2d/
+│       │       │   ├── arcResourceAccessor.h
+│       │       │   ├── Color.h
+│       │       │   ├── common.h
+│       │       │   ├── debug.h
+│       │       │   ├── directTexture.h
+│       │       │   ├── drawInfo.h
+│       │       │   ├── gamePad.h
+│       │       │   ├── graphicDefines.h
+│       │       │   ├── inlines.h
+│       │       │   ├── langInfo.h
+│       │       │   ├── langInfoResource.h
+│       │       │   ├── manualButton.h
+│       │       │   ├── manualPageResource.h
+│       │       │   ├── manualTableOfContents.h
+│       │       │   ├── manualTocPanel.h
+│       │       │   ├── manualTocResource.h
+│       │       │   ├── manualView.h
+│       │       │   ├── manualViewer.h
+│       │       │   ├── nlv_skin_NANR_LBLDEFS.h
+│       │       │   ├── nlv_skin_up_obj_NANR_LBLDEFS.h
+│       │       │   ├── objButton.h
+│       │       │   ├── objectConstructor.h
+│       │       │   ├── objG2dInfo.h
+│       │       │   ├── objManager.h
+│       │       │   ├── page.h
+│       │       │   ├── pageHeaderPanel.h
+│       │       │   ├── pageView.h
+│       │       │   ├── pane.h
+│       │       │   ├── picture.h
+│       │       │   ├── Rect.h
+│       │       │   ├── resG2dLoader.h
+│       │       │   ├── resourceAccessor.h
+│       │       │   ├── resources.h
+│       │       │   ├── RuntimeTypeInfo.h
+│       │       │   ├── scrollButton.h
+│       │       │   ├── scrollIndicator.h
+│       │       │   ├── sound_data.sadl
+│       │       │   ├── soundManager.h
+│       │       │   ├── texMap.h
+│       │       │   ├── textBox.h
+│       │       │   ├── textCanvasContext.h
+│       │       │   ├── texture.h
+│       │       │   ├── textureList.h
+│       │       │   ├── touchPanel.h
+│       │       │   ├── touchPanelData.h
+│       │       │   ├── types.h
+│       │       │   ├── uiElement.h
+│       │       │   ├── uiPanel.h
+│       │       │   ├── uiResDefines.h
+│       │       │   ├── uiStatic.h
+│       │       │   ├── version.h
+│       │       │   └── window.h
+│       │       └── m2d.h
+│       ├── lib/
+│       │   └── ARM9-TS/
+│       │       ├── Debug/
+│       │       │   ├── libntmvm2d.a
+│       │       │   ├── libntmvm2d.thumb.a
+│       │       │   ├── libntmvm2d.TWL.HYB.a
+│       │       │   ├── libntmvm2d.TWL.HYB.thumb.a
+│       │       │   ├── libntmvm2d.TWL.LTD.a
+│       │       │   └── libntmvm2d.TWL.LTD.thumb.a
+│       │       ├── Release/
+│       │       │   ├── libntmvm2d.a
+│       │       │   ├── libntmvm2d.thumb.a
+│       │       │   ├── libntmvm2d.TWL.HYB.a
+│       │       │   ├── libntmvm2d.TWL.HYB.thumb.a
+│       │       │   ├── libntmvm2d.TWL.LTD.a
+│       │       │   └── libntmvm2d.TWL.LTD.thumb.a
+│       │       └── Rom/
+│       │           ├── libntmvm2d.a
+│       │           ├── libntmvm2d.thumb.a
+│       │           ├── libntmvm2d.TWL.HYB.a
+│       │           ├── libntmvm2d.TWL.HYB.thumb.a
+│       │           ├── libntmvm2d.TWL.LTD.a
+│       │           └── libntmvm2d.TWL.LTD.thumb.a
+│       ├── Makefile
+│       ├── man/
+│       │   └── ja_JP/
+│       │       ├── contents.html
+│       │       ├── css/
+│       │       │   ├── apilist.css
+│       │       │   ├── contents.css
+│       │       │   ├── icons.css
+│       │       │   ├── main.css
+│       │       │   ├── nitro.css
+│       │       │   └── titles.css
+│       │       ├── demos/
+│       │       │   └── m2d/
+│       │       │       └── m2ddemos.html
+│       │       ├── icons.html
+│       │       ├── index.html
+│       │       ├── m2d/
+│       │       │   ├── basic/
+│       │       │   │   ├── NTMV_M2dFinalize.html
+│       │       │   │   ├── NTMV_M2dInitForFilePath.html
+│       │       │   │   ├── NTMV_M2dInitForFilePathEx.html
+│       │       │   │   ├── NTMV_M2dInitForMem.html
+│       │       │   │   ├── NTMV_M2dInitForMemEx.html
+│       │       │   │   └── NTMV_M2dRun.html
+│       │       │   ├── list_m2d.html
+│       │       │   └── m2d.html
+│       │       └── main.html
+│       ├── ManualEditorStarter.exe
+│       ├── manualResources/
+│       │   └── guidePage/
+│       │       ├── AUS_en/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── CHN_zh/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── exit_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── EUR_de/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── EUR_en/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── EUR_es/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── EUR_fr/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── EUR_it/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── EUR_nl/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── JPN_ja/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── KOR_ko/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── exit_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── USA_en/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       ├── USA_es/
+│       │       │   ├── layouts/
+│       │       │   │   ├── 000guide.ntpg
+│       │       │   │   └── 000uitext.ntpg
+│       │       │   └── textures/
+│       │       │       ├── A_button_Lf.gif
+│       │       │       ├── arrow_01.gif
+│       │       │       ├── arrow_02.gif
+│       │       │       ├── circle_button.gif
+│       │       │       ├── frame_00.gif
+│       │       │       ├── frame_01.gif
+│       │       │       ├── frame_02.gif
+│       │       │       ├── frame_03.gif
+│       │       │       ├── frame_button_01.gif
+│       │       │       ├── frame_button_02.gif
+│       │       │       ├── frame_button_base_01.gif
+│       │       │       ├── help_03.gif
+│       │       │       ├── help_05.gif
+│       │       │       ├── help_05_2.gif
+│       │       │       ├── help_bar.gif
+│       │       │       ├── juji_right_left_button_Lf.gif
+│       │       │       ├── juji_up_down_button_Lf.gif
+│       │       │       ├── n_help_06_1.gif
+│       │       │       ├── n_help_06_2.gif
+│       │       │       ├── n_help_06_3.gif
+│       │       │       ├── n_help_07_1.gif
+│       │       │       ├── n_help_08_1.gif
+│       │       │       ├── nintendo_logo.gif
+│       │       │       ├── title_button_01.gif
+│       │       │       ├── title_button_02.gif
+│       │       │       ├── title_button_03.gif
+│       │       │       ├── title_button_04.gif
+│       │       │       ├── title_button_05.gif
+│       │       │       ├── touch_pen_01.gif
+│       │       │       └── touch_pen_02.gif
+│       │       └── USA_fr/
+│       │           ├── layouts/
+│       │           │   ├── 000guide.ntpg
+│       │           │   └── 000uitext.ntpg
+│       │           └── textures/
+│       │               ├── A_button_Lf.gif
+│       │               ├── arrow_01.gif
+│       │               ├── arrow_02.gif
+│       │               ├── circle_button.gif
+│       │               ├── frame_00.gif
+│       │               ├── frame_01.gif
+│       │               ├── frame_02.gif
+│       │               ├── frame_03.gif
+│       │               ├── frame_button_01.gif
+│       │               ├── frame_button_02.gif
+│       │               ├── frame_button_base_01.gif
+│       │               ├── help_03.gif
+│       │               ├── help_05.gif
+│       │               ├── help_05_2.gif
+│       │               ├── help_bar.gif
+│       │               ├── juji_right_left_button_Lf.gif
+│       │               ├── juji_up_down_button_Lf.gif
+│       │               ├── n_help_06_1.gif
+│       │               ├── n_help_06_2.gif
+│       │               ├── n_help_06_3.gif
+│       │               ├── n_help_07_1.gif
+│       │               ├── n_help_08_1.gif
+│       │               ├── nintendo_logo.gif
+│       │               ├── title_button_01.gif
+│       │               ├── title_button_02.gif
+│       │               ├── title_button_03.gif
+│       │               ├── title_button_04.gif
+│       │               ├── title_button_05.gif
+│       │               ├── touch_pen_01.gif
+│       │               └── touch_pen_02.gif
+│       ├── readme.txt
+│       ├── SourceTreeMap.txt
+│       └── tools/
+│           ├── bin/
+│           │   ├── compBLZ.exe
+│           │   ├── ConvertPreview.bat
+│           │   ├── en/
+│           │   │   ├── ManualEditorStarter.resources.dll
+│           │   │   └── ntmv_types.resources.dll
+│           │   ├── ManualViewer.bat
+│           │   ├── nnsarc.exe
+│           │   ├── ntexconv.exe
+│           │   ├── ntmv_binwrt.dll
+│           │   ├── ntmv_m2dcvtr.exe
+│           │   ├── ntmv_nftr.dll
+│           │   ├── ntmv_types.dll
+│           │   └── TXLib.dll
+│           ├── ManualEditor/
+│           │   ├── ColorPicker.dll
+│           │   ├── docs/
+│           │   │   ├── html/
+│           │   │   │   ├── basis/
+│           │   │   │   │   ├── datasize.html
+│           │   │   │   │   ├── environment.html
+│           │   │   │   │   ├── glossary.html
+│           │   │   │   │   ├── history_m.html
+│           │   │   │   │   ├── hyphenation.html
+│           │   │   │   │   ├── image/
+│           │   │   │   │   │   ├── environment_1.gif
+│           │   │   │   │   │   ├── pictur_128_96.gif
+│           │   │   │   │   │   ├── pictur_192_144.gif
+│           │   │   │   │   │   ├── pictur_256_192.gif
+│           │   │   │   │   │   └── pictur_64_48.gif
+│           │   │   │   │   ├── introduction.html
+│           │   │   │   │   ├── outline.html
+│           │   │   │   │   ├── shortcut.html
+│           │   │   │   │   └── trademark.html
+│           │   │   │   ├── contents.html
+│           │   │   │   ├── css/
+│           │   │   │   │   ├── contents.css
+│           │   │   │   │   ├── main.css
+│           │   │   │   │   ├── mainpage.css
+│           │   │   │   │   ├── manpage.css
+│           │   │   │   │   └── table.css
+│           │   │   │   ├── localize/
+│           │   │   │   │   └── localize_.html
+│           │   │   │   ├── title.html
+│           │   │   │   ├── tutorial/
+│           │   │   │   │   ├── tu0_basis/
+│           │   │   │   │   │   ├── 00_tutorial.html
+│           │   │   │   │   │   ├── 01_setup.html
+│           │   │   │   │   │   ├── 02_project.html
+│           │   │   │   │   │   ├── 03_layout.html
+│           │   │   │   │   │   └── image/
+│           │   │   │   │   │       ├── 01_01_setup.gif
+│           │   │   │   │   │       ├── 02_01_project.gif
+│           │   │   │   │   │       ├── 02_02_project.gif
+│           │   │   │   │   │       ├── 02_03_project.gif
+│           │   │   │   │   │       ├── 02_04_project.gif
+│           │   │   │   │   │       ├── 02_05_project.gif
+│           │   │   │   │   │       ├── 03_01_layout.gif
+│           │   │   │   │   │       └── 03_02_layout.gif
+│           │   │   │   │   ├── tu1_layout/
+│           │   │   │   │   │   ├── 10_picture.html
+│           │   │   │   │   │   ├── 20_flame.html
+│           │   │   │   │   │   ├── 21_flamesetting.html
+│           │   │   │   │   │   ├── 22_flameattention.html
+│           │   │   │   │   │   ├── 30_textbox.html
+│           │   │   │   │   │   ├── 31_fontsize.html
+│           │   │   │   │   │   ├── 32_txticon.html
+│           │   │   │   │   │   ├── 33_exfonts.html
+│           │   │   │   │   │   ├── 34_textcolor.html
+│           │   │   │   │   │   └── image/
+│           │   │   │   │   │       ├── 10_1_picture.gif
+│           │   │   │   │   │       ├── 10_2_picture.gif
+│           │   │   │   │   │       ├── 20_1_frame.gif
+│           │   │   │   │   │       ├── 20_2_frame.gif
+│           │   │   │   │   │       ├── 20_3_frame.gif
+│           │   │   │   │   │       ├── 20_4_frame.gif
+│           │   │   │   │   │       ├── 21_0_flamesetting.gif
+│           │   │   │   │   │       ├── 21_1_flamesetting.gif
+│           │   │   │   │   │       ├── 21_2_flamesetting.gif
+│           │   │   │   │   │       ├── 21_3_framesetting.gif
+│           │   │   │   │   │       ├── 21_4_framesetting.gif
+│           │   │   │   │   │       ├── 21_5_framesetting.gif
+│           │   │   │   │   │       ├── 22_1_frameattention.gif
+│           │   │   │   │   │       ├── 22_2_frameattention.gif
+│           │   │   │   │   │       ├── 30_0_textbox_m.gif
+│           │   │   │   │   │       ├── 30_1_textbox_m.gif
+│           │   │   │   │   │       ├── 30_2_textbox.gif
+│           │   │   │   │   │       ├── 30_3_textbox.gif
+│           │   │   │   │   │       ├── 31_1_fontsize.gif
+│           │   │   │   │   │       ├── 31_2_fontsize.gif
+│           │   │   │   │   │       ├── 31_3_fontsize.gif
+│           │   │   │   │   │       ├── 32_1_texticon_m.gif
+│           │   │   │   │   │       ├── 32_2_texticon_m.gif
+│           │   │   │   │   │       ├── 32_3_texticon_m.gif
+│           │   │   │   │   │       ├── 32_4_texticon_m.gif
+│           │   │   │   │   │       ├── 32_5_texticon_m.gif
+│           │   │   │   │   │       ├── 32_6_texticon_m.gif
+│           │   │   │   │   │       ├── 33_1_exfont.gif
+│           │   │   │   │   │       ├── 33_2_exfont.gif
+│           │   │   │   │   │       ├── 33_3_exfont.gif
+│           │   │   │   │   │       ├── 33_4_exfont.gif
+│           │   │   │   │   │       ├── 34_1_textcolor_m.gif
+│           │   │   │   │   │       ├── 34_2_textcolor.gif
+│           │   │   │   │   │       ├── 34_3_textcolor_m.gif
+│           │   │   │   │   │       └── 34_4_textcolor_m.gif
+│           │   │   │   │   └── tu2_adjust/
+│           │   │   │   │       ├── 07_group.html
+│           │   │   │   │       ├── 08_copypaste.html
+│           │   │   │   │       ├── 11_textturns.html
+│           │   │   │   │       ├── 12_preview.html
+│           │   │   │   │       ├── 13_title.html
+│           │   │   │   │       ├── 14_chapter.html
+│           │   │   │   │       ├── 18_export.html
+│           │   │   │   │       ├── 19_localizedate.html
+│           │   │   │   │       └── image/
+│           │   │   │   │           ├── 07_01_groupe_m.gif
+│           │   │   │   │           ├── 07_02_groupe_m.gif
+│           │   │   │   │           ├── 07_03_groupe.gif
+│           │   │   │   │           ├── 07_04_groupe.gif
+│           │   │   │   │           ├── 07_05_groupe.gif
+│           │   │   │   │           ├── 07_06_groupe.gif
+│           │   │   │   │           ├── 07_07groupe.gif
+│           │   │   │   │           ├── 08_00_copypaste.gif
+│           │   │   │   │           ├── 11_01_textturn_m.gif
+│           │   │   │   │           ├── 11_02_textturn.gif
+│           │   │   │   │           ├── 11_03_textturn_m.gif
+│           │   │   │   │           ├── 11_04_textturn_m.gif
+│           │   │   │   │           ├── 12_01_preview_m.gif
+│           │   │   │   │           ├── 12_02_preview.gif
+│           │   │   │   │           ├── 13_01_title.gif
+│           │   │   │   │           ├── 14_01_chapter.gif
+│           │   │   │   │           ├── 14_02_chapter.gif
+│           │   │   │   │           ├── 14_03_chapter.gif
+│           │   │   │   │           ├── 18_01_export_z.gif
+│           │   │   │   │           ├── 18_02_export.gif
+│           │   │   │   │           ├── 19_01_localize.gif
+│           │   │   │   │           ├── 19_02_localize.gif
+│           │   │   │   │           ├── 19_03_localize.gif
+│           │   │   │   │           ├── 19_04_localize.gif
+│           │   │   │   │           └── 19_05_localize.gif
+│           │   │   │   ├── ui/
+│           │   │   │   │   ├── dialog/
+│           │   │   │   │   │   ├── 00_dialog.html
+│           │   │   │   │   │   ├── 01_pagesetting.html
+│           │   │   │   │   │   ├── 02_environment.html
+│           │   │   │   │   │   ├── 03_colorpicker.html
+│           │   │   │   │   │   ├── 04_export.html
+│           │   │   │   │   │   ├── 05_inport.html
+│           │   │   │   │   │   ├── images/
+│           │   │   │   │   │   │   ├── 01_pagesetting_m.gif
+│           │   │   │   │   │   │   ├── 02_environment_m.gif
+│           │   │   │   │   │   │   ├── 03_colorpicker.gif
+│           │   │   │   │   │   │   ├── 04_export.gif
+│           │   │   │   │   │   │   └── 05_inport.gif
+│           │   │   │   │   │   └── manpage.css
+│           │   │   │   │   ├── main_window/
+│           │   │   │   │   │   ├── images/
+│           │   │   │   │   │   │   └── userinterface.gif
+│           │   │   │   │   │   └── userinterface.html
+│           │   │   │   │   ├── menu/
+│           │   │   │   │   │   ├── 00_mainmenu.html
+│           │   │   │   │   │   ├── 01_filemenu.html
+│           │   │   │   │   │   ├── 02_editmenu.html
+│           │   │   │   │   │   ├── 03_objectmenu.html
+│           │   │   │   │   │   ├── 04_selectmenu.html
+│           │   │   │   │   │   ├── 05_viewmenu.html
+│           │   │   │   │   │   ├── 06_windoumenu.html
+│           │   │   │   │   │   ├── 07_preview_menu.html
+│           │   │   │   │   │   ├── 08_toolmenu.html
+│           │   │   │   │   │   ├── 09_helpmenu.html
+│           │   │   │   │   │   └── images/
+│           │   │   │   │   │       ├── 00_01_mainmenu.gif
+│           │   │   │   │   │       ├── 01_01_filemenu.gif
+│           │   │   │   │   │       ├── 02_01_editmenu.gif
+│           │   │   │   │   │       ├── 03_01_objectmenu_m.gif
+│           │   │   │   │   │       ├── 04_01_selectmenu.gif
+│           │   │   │   │   │       ├── 05_01_viewmenu.gif
+│           │   │   │   │   │       ├── 06_01_windowmenu.gif
+│           │   │   │   │   │       ├── 07_01_previewmenu_m.gif
+│           │   │   │   │   │       ├── 08_01_toolmenu.gif
+│           │   │   │   │   │       └── 09_01_helpmenu.gif
+│           │   │   │   │   ├── page_window/
+│           │   │   │   │   │   ├── 00_page_window.html
+│           │   │   │   │   │   ├── 01_object.html
+│           │   │   │   │   │   ├── 02_guide.html
+│           │   │   │   │   │   ├── 03_page_toolbar.html
+│           │   │   │   │   │   ├── 04_page_state.html
+│           │   │   │   │   │   ├── 05_reference_page.html
+│           │   │   │   │   │   ├── 06_guide_chapter.html
+│           │   │   │   │   │   └── images/
+│           │   │   │   │   │       ├── 00_01_page_window.gif
+│           │   │   │   │   │       ├── 00_02_page_window.gif
+│           │   │   │   │   │       ├── 03_01_page_toolbar.gif
+│           │   │   │   │   │       ├── 04_01_page_state.gif
+│           │   │   │   │   │       ├── 05_01_reference_page.gif
+│           │   │   │   │   │       ├── 05_02_reference_page.gif
+│           │   │   │   │   │       ├── 05_03_reference_page.gif
+│           │   │   │   │   │       └── 06_01_guidechapter.gif
+│           │   │   │   │   ├── property/
+│           │   │   │   │   │   ├── 00_object_editing.html
+│           │   │   │   │   │   ├── 01_object_basis.html
+│           │   │   │   │   │   ├── 02_picture_property.html
+│           │   │   │   │   │   ├── 03_textbox_property.html
+│           │   │   │   │   │   ├── 04_window_property.html
+│           │   │   │   │   │   └── images/
+│           │   │   │   │   │       ├── 00_object_editing_m.gif
+│           │   │   │   │   │       ├── 01_01_object_basis.gif
+│           │   │   │   │   │       ├── 01_02_object_basis.gif
+│           │   │   │   │   │       ├── 02_picture_property_m.gif
+│           │   │   │   │   │       ├── 03_text_property_m.gif
+│           │   │   │   │   │       └── 04_01_window_property.gif
+│           │   │   │   │   ├── sub_window/
+│           │   │   │   │   │   ├── 00_subwindow.html
+│           │   │   │   │   │   ├── 01_projectwindow.html
+│           │   │   │   │   │   ├── 02_function_menu.html
+│           │   │   │   │   │   ├── 02_objectmanage.html
+│           │   │   │   │   │   ├── 02_priority.html
+│           │   │   │   │   │   ├── 03_texture.html
+│           │   │   │   │   │   ├── 04_colorset.html
+│           │   │   │   │   │   ├── 05_localizesupport.html
+│           │   │   │   │   │   ├── 06_panesearch.html
+│           │   │   │   │   │   ├── images/
+│           │   │   │   │   │   │   ├── 01_01_projectwindow.gif
+│           │   │   │   │   │   │   ├── 01_02_projectwindow.gif
+│           │   │   │   │   │   │   ├── 02_01_objectmanage.gif
+│           │   │   │   │   │   │   ├── 02_02_objectmanage.gif
+│           │   │   │   │   │   │   ├── 02_03_objectmanage.gif
+│           │   │   │   │   │   │   ├── 02_group_function_menu.gif
+│           │   │   │   │   │   │   ├── 02_objectmanage_icon/
+│           │   │   │   │   │   │   │   ├── 02_enable_frame.gif
+│           │   │   │   │   │   │   │   ├── 02_enable_group.gif
+│           │   │   │   │   │   │   │   ├── 02_enable_pict.gif
+│           │   │   │   │   │   │   │   ├── 02_enable_text.gif
+│           │   │   │   │   │   │   │   ├── 02_external_pict.gif
+│           │   │   │   │   │   │   │   ├── 02_hide_frame.gif
+│           │   │   │   │   │   │   │   ├── 02_hide_group.gif
+│           │   │   │   │   │   │   │   ├── 02_hide_pict.gif
+│           │   │   │   │   │   │   │   ├── 02_hide_text.gif
+│           │   │   │   │   │   │   │   ├── 02_lock_frame.gif
+│           │   │   │   │   │   │   │   ├── 02_lock_group.gif
+│           │   │   │   │   │   │   │   ├── 02_lock_hide_frame.gif
+│           │   │   │   │   │   │   │   ├── 02_lock_hide_group.gif
+│           │   │   │   │   │   │   │   ├── 02_lock_hide_pict.gif
+│           │   │   │   │   │   │   │   ├── 02_lock_hide_text.gif
+│           │   │   │   │   │   │   │   ├── 02_lock_pict.gif
+│           │   │   │   │   │   │   │   ├── 02_lock_text.gif
+│           │   │   │   │   │   │   │   └── 02_lost_pict.gif
+│           │   │   │   │   │   │   ├── 03_texture_detail_window.gif
+│           │   │   │   │   │   │   ├── 03_texture_window.gif
+│           │   │   │   │   │   │   ├── 04_colorset_edit_dialog.gif
+│           │   │   │   │   │   │   ├── 04_colorset_window.gif
+│           │   │   │   │   │   │   ├── 05_localize_support_01.gif
+│           │   │   │   │   │   │   └── 06_objectsearch.gif
+│           │   │   │   │   │   └── manpage.css
+│           │   │   │   │   └── tool_bar/
+│           │   │   │   │       ├── 00_tool_bar.html
+│           │   │   │   │       ├── 01_common_tool_bar.html
+│           │   │   │   │       ├── 02_base_tool_bar.html
+│           │   │   │   │       ├── 03_textbox_tool_bar.html
+│           │   │   │   │       ├── 04_picture_tool_bar.html
+│           │   │   │   │       ├── 05_frame_tool_bar.html
+│           │   │   │   │       └── images/
+│           │   │   │   │           ├── 00_01_tool_bar.gif
+│           │   │   │   │           ├── 01_01_common_tool_bar_m.gif
+│           │   │   │   │           ├── 02_01_bass_tool_bar.gif
+│           │   │   │   │           ├── 03_01_textbox_tool_bar.gif
+│           │   │   │   │           ├── 04_01_picture_tool_bar_m.gif
+│           │   │   │   │           └── 05_01_frame_tool_bar.gif
+│           │   │   │   └── viewer/
+│           │   │   │       ├── 01_viewersetup.html
+│           │   │   │       ├── 02_multilanguage.html
+│           │   │   │       ├── 03_viewer_m.html
+│           │   │   │       ├── 04_pcpreview.html
+│           │   │   │       ├── 06_viewer_helpui.html
+│           │   │   │       └── image/
+│           │   │   │           ├── EditorPreview_01.gif
+│           │   │   │           ├── manualviewer_01.gif
+│           │   │   │           ├── manualviewer_02.gif
+│           │   │   │           ├── manualviewer_03.gif
+│           │   │   │           ├── manualviewer_04.gif
+│           │   │   │           ├── manualviewer_05.gif
+│           │   │   │           ├── multilanguage_01.gif
+│           │   │   │           ├── multilanguage_02.gif
+│           │   │   │           └── nse_NSEditorPreview_02.gif
+│           │   │   └── ManualEditor.html
+│           │   ├── en/
+│           │   │   ├── LECore.resources.dll
+│           │   │   └── NSEditor.resources.dll
+│           │   ├── LECore.dll
+│           │   ├── ManualEditor.exe
+│           │   ├── NW4RFont.dll
+│           │   ├── ResourcesForManualEditor.dll
+│           │   ├── sample/
+│           │   │   ├── JPN_ja/
+│           │   │   │   ├── layouts/
+│           │   │   │   │   ├── page_01.ntpg
+│           │   │   │   │   ├── page_02.ntpg
+│           │   │   │   │   ├── page_03.ntpg
+│           │   │   │   │   ├── page_04.ntpg
+│           │   │   │   │   ├── page_05.ntpg
+│           │   │   │   │   ├── page_06.ntpg
+│           │   │   │   │   ├── page_07.ntpg
+│           │   │   │   │   ├── page_08.ntpg
+│           │   │   │   │   ├── page_09.ntpg
+│           │   │   │   │   └── page_10.ntpg
+│           │   │   │   └── textures/
+│           │   │   │       ├── 10_ManualViewer_01.gif
+│           │   │   │       ├── 10_ManualViewer_02.gif
+│           │   │   │       ├── 10_ManualViewer_03.gif
+│           │   │   │       ├── angry.gif
+│           │   │   │       ├── chapter_01.gif
+│           │   │   │       ├── chapter_02.gif
+│           │   │   │       ├── chapter_03.gif
+│           │   │   │       ├── chapter_04.gif
+│           │   │   │       ├── copy_test.gif
+│           │   │   │       ├── create_group_01.gif
+│           │   │   │       ├── create_group_02.gif
+│           │   │   │       ├── create_group_03.gif
+│           │   │   │       ├── create_page_01.gif
+│           │   │   │       ├── create_page_02.gif
+│           │   │   │       ├── cry.gif
+│           │   │   │       ├── frame_L.gif
+│           │   │   │       ├── frame_M.gif
+│           │   │   │       ├── frame_parts_00.gif
+│           │   │   │       ├── frame_R.gif
+│           │   │   │       ├── guide_arrow.gif
+│           │   │   │       ├── link_01.gif
+│           │   │   │       ├── link_02.gif
+│           │   │   │       ├── link_03.gif
+│           │   │   │       ├── link_04.gif
+│           │   │   │       ├── link_picture_01.gif
+│           │   │   │       ├── new_picture_01.gif
+│           │   │   │       ├── new_textbox.gif
+│           │   │   │       ├── new_textbox_01.gif
+│           │   │   │       ├── new_textbox_02.gif
+│           │   │   │       ├── new_textbox_03.gif
+│           │   │   │       ├── new_textbox_04.gif
+│           │   │   │       ├── priority_01.gif
+│           │   │   │       ├── priority_02.gif
+│           │   │   │       ├── priority_03.gif
+│           │   │   │       ├── priority_04.gif
+│           │   │   │       ├── return_01.gif
+│           │   │   │       ├── scale.gif
+│           │   │   │       ├── smile.gif
+│           │   │   │       ├── text_color_03.gif
+│           │   │   │       ├── text_color_04.gif
+│           │   │   │       ├── text_color_05.gif
+│           │   │   │       ├── textbox_icon_01.gif
+│           │   │   │       ├── textbox_icon_02.gif
+│           │   │   │       ├── textbox_icon_03.gif
+│           │   │   │       ├── textbox_turn_01.gif
+│           │   │   │       └── textbox_turn_02.gif
+│           │   │   └── USA_en/
+│           │   │       ├── layouts/
+│           │   │       │   ├── page_01.ntpg
+│           │   │       │   ├── page_02.ntpg
+│           │   │       │   ├── page_03.ntpg
+│           │   │       │   ├── page_04.ntpg
+│           │   │       │   ├── page_05.ntpg
+│           │   │       │   ├── page_06.ntpg
+│           │   │       │   ├── page_07.ntpg
+│           │   │       │   ├── page_08.ntpg
+│           │   │       │   ├── page_09.ntpg
+│           │   │       │   └── page_10.ntpg
+│           │   │       └── textures/
+│           │   │           ├── 10_ManualViewer_01.gif
+│           │   │           ├── 10_ManualViewer_02.gif
+│           │   │           ├── 10_ManualViewer_03.gif
+│           │   │           ├── angry.gif
+│           │   │           ├── chapter_01.gif
+│           │   │           ├── chapter_02.gif
+│           │   │           ├── chapter_03.gif
+│           │   │           ├── chapter_04.gif
+│           │   │           ├── create_group_01.gif
+│           │   │           ├── create_group_02.gif
+│           │   │           ├── create_group_03.gif
+│           │   │           ├── create_page_01.gif
+│           │   │           ├── create_page_02.gif
+│           │   │           ├── cry.gif
+│           │   │           ├── frame_L.gif
+│           │   │           ├── frame_M.gif
+│           │   │           ├── frame_parts_00.gif
+│           │   │           ├── frame_R.gif
+│           │   │           ├── guide_arrow.gif
+│           │   │           ├── link_01.gif
+│           │   │           ├── link_02.gif
+│           │   │           ├── link_03.gif
+│           │   │           ├── link_04.gif
+│           │   │           ├── link_picture_01.gif
+│           │   │           ├── new_picture_01.gif
+│           │   │           ├── new_textbox.gif
+│           │   │           ├── new_textbox_01.gif
+│           │   │           ├── new_textbox_02.gif
+│           │   │           ├── new_textbox_03.gif
+│           │   │           ├── new_textbox_04.gif
+│           │   │           ├── priority_01.gif
+│           │   │           ├── priority_02.gif
+│           │   │           ├── priority_03.gif
+│           │   │           ├── priority_04.gif
+│           │   │           ├── return_01.gif
+│           │   │           ├── scale.gif
+│           │   │           ├── smile.gif
+│           │   │           ├── text_color_03.gif
+│           │   │           ├── text_color_04.gif
+│           │   │           ├── text_color_05.gif
+│           │   │           ├── textbox_icon_01.gif
+│           │   │           ├── textbox_icon_02.gif
+│           │   │           ├── textbox_icon_03.gif
+│           │   │           ├── textbox_turn_01.gif
+│           │   │           └── textbox_turn_02.gif
+│           │   ├── setup_ManualEditor.bat
+│           │   └── Tga.dll
+│           ├── ManualPCPreviewCapturer/
+│           │   ├── en/
+│           │   │   └── ManualPCPreviewCapturer.resources.dll
+│           │   └── ManualPCPreviewCapturer.exe
+│           ├── ManualViewer/
+│           │   └── bin/
+│           │       ├── ARM9-TS/
+│           │       │   └── viewer.srl
+│           │       └── ARM9-TS.HYB/
+│           │           └── viewer.srl
+│           ├── ManualViewerSD/
+│           │   ├── bin/
+│           │   │   └── ARM9-TS.LTD/
+│           │   │       ├── TWLManualViewerSD.nand.srl
+│           │   │       └── TWLManualViewerSD.tad
+│           │   └── docs/
+│           │       ├── images/
+│           │       │   ├── howto_use_1_1.gif
+│           │       │   ├── howto_use_1_2.gif
+│           │       │   ├── howto_use_2_1.gif
+│           │       │   ├── howto_use_2_2.gif
+│           │       │   ├── howto_use_3_1.gif
+│           │       │   ├── howto_use_3_2.gif
+│           │       │   ├── menu_icon.gif
+│           │       │   └── screen_information.gif
+│           │       └── ManualViewerSD.html
+│           ├── mcsserver/
+│           │   ├── 1041/
+│           │   │   └── langRes.dll
+│           │   ├── mcsserv.exe
+│           │   └── nnsmcs.dll
+│           └── preview/
+│               ├── dlls/
+│               │   ├── preview.dll
+│               │   └── StrRes_eng.dll
+│               ├── ext_dlls/
+│               │   └── est_nitro_viewer.dll
+│               └── Release/
+│                   └── preview.exe
+└── TwlManualTools-3_0-20090703-jp/
+    └── TwlManualTools/
+        ├── build/
+        │   ├── buildtools/
+        │   │   ├── commondefs
+        │   │   └── modulerules
+        │   ├── demos/
+        │   │   ├── m2d/
+        │   │   │   ├── explicitLang/
+        │   │   │   │   ├── data/
+        │   │   │   │   │   └── manpages_narc.blz
+        │   │   │   │   ├── demo.rsf
+        │   │   │   │   ├── include/
+        │   │   │   │   │   └── loader.h
+        │   │   │   │   ├── Makefile
+        │   │   │   │   └── src/
+        │   │   │   │       ├── loader.c
+        │   │   │   │       └── main.c
+        │   │   │   ├── Makefile
+        │   │   │   └── simple/
+        │   │   │       ├── data/
+        │   │   │       │   ├── manpages_narc.blz
+        │   │   │       │   └── nsc/
+        │   │   │       │       ├── nlv_sample.NCLR
+        │   │   │       │       ├── nlv_sample_down.NCGR
+        │   │   │       │       ├── nlv_sample_down.NSCR
+        │   │   │       │       ├── nlv_sample_up.NCGR
+        │   │   │       │       └── nlv_sample_up.NSCR
+        │   │   │       ├── demo.rsf
+        │   │   │       ├── include/
+        │   │   │       │   └── loader.h
+        │   │   │       ├── Makefile
+        │   │   │       └── src/
+        │   │   │           ├── loader.c
+        │   │   │           └── main.c
+        │   │   └── Makefile
+        │   ├── libraries/
+        │   │   ├── m2d/
+        │   │   │   ├── Makefile
+        │   │   │   └── src/
+        │   │   │       ├── m2d_arcResourceAccessor.cpp
+        │   │   │       ├── m2d_common.cpp
+        │   │   │       ├── m2d_directTexture.cpp
+        │   │   │       ├── m2d_drawInfo.cpp
+        │   │   │       ├── m2d_gamePad.cpp
+        │   │   │       ├── m2d_langInfo.cpp
+        │   │   │       ├── m2d_manualButton.cpp
+        │   │   │       ├── m2d_manualTableOfContents.cpp
+        │   │   │       ├── m2d_manualTocPanel.cpp
+        │   │   │       ├── m2d_manualView.cpp
+        │   │   │       ├── m2d_manualViewer.cpp
+        │   │   │       ├── m2d_objButton.cpp
+        │   │   │       ├── m2d_objManager.cpp
+        │   │   │       ├── m2d_page.cpp
+        │   │   │       ├── m2d_pageHeaderPanel.cpp
+        │   │   │       ├── m2d_pageView.cpp
+        │   │   │       ├── m2d_pane.cpp
+        │   │   │       ├── m2d_picture.cpp
+        │   │   │       ├── m2d_resG2dLoader.cpp
+        │   │   │       ├── m2d_resourceAccessor.cpp
+        │   │   │       ├── m2d_scrollButton.cpp
+        │   │   │       ├── m2d_scrollIndicator.cpp
+        │   │   │       ├── m2d_soundManager.cpp
+        │   │   │       ├── m2d_texMap.cpp
+        │   │   │       ├── m2d_textBox.cpp
+        │   │   │       ├── m2d_textCanvasContext.cpp
+        │   │   │       ├── m2d_touchPanel.cpp
+        │   │   │       ├── m2d_uiElement.cpp
+        │   │   │       ├── m2d_uiPanel.cpp
+        │   │   │       ├── m2d_uiStatic.cpp
+        │   │   │       └── m2d_window.cpp
+        │   │   └── Makefile
+        │   └── Makefile
+        ├── data/
+        │   └── m2dres_narc.blz
+        ├── docs/
+        │   ├── ChangeLog/
+        │   │   └── M2d_ChangeLog.html
+        │   ├── ProgrammerGuide.pdf
+        │   ├── QuickStart.pdf
+        │   └── ReleaseNotes.html
+        ├── include/
+        │   └── ntmv/
+        │       ├── m2d/
+        │       │   ├── arcResourceAccessor.h
+        │       │   ├── Color.h
+        │       │   ├── common.h
+        │       │   ├── debug.h
+        │       │   ├── directTexture.h
+        │       │   ├── drawInfo.h
+        │       │   ├── gamePad.h
+        │       │   ├── graphicDefines.h
+        │       │   ├── inlines.h
+        │       │   ├── langInfo.h
+        │       │   ├── langInfoResource.h
+        │       │   ├── manualButton.h
+        │       │   ├── manualPageResource.h
+        │       │   ├── manualTableOfContents.h
+        │       │   ├── manualTocPanel.h
+        │       │   ├── manualTocResource.h
+        │       │   ├── manualView.h
+        │       │   ├── manualViewer.h
+        │       │   ├── nlv_skin_NANR_LBLDEFS.h
+        │       │   ├── nlv_skin_up_obj_NANR_LBLDEFS.h
+        │       │   ├── objButton.h
+        │       │   ├── objectConstructor.h
+        │       │   ├── objG2dInfo.h
+        │       │   ├── objManager.h
+        │       │   ├── page.h
+        │       │   ├── pageHeaderPanel.h
+        │       │   ├── pageView.h
+        │       │   ├── pane.h
+        │       │   ├── picture.h
+        │       │   ├── Rect.h
+        │       │   ├── resG2dLoader.h
+        │       │   ├── resourceAccessor.h
+        │       │   ├── resources.h
+        │       │   ├── RuntimeTypeInfo.h
+        │       │   ├── scrollButton.h
+        │       │   ├── scrollIndicator.h
+        │       │   ├── sound_data.sadl
+        │       │   ├── soundManager.h
+        │       │   ├── texMap.h
+        │       │   ├── textBox.h
+        │       │   ├── textCanvasContext.h
+        │       │   ├── texture.h
+        │       │   ├── textureList.h
+        │       │   ├── touchPanel.h
+        │       │   ├── touchPanelData.h
+        │       │   ├── types.h
+        │       │   ├── uiElement.h
+        │       │   ├── uiPanel.h
+        │       │   ├── uiResDefines.h
+        │       │   ├── uiStatic.h
+        │       │   ├── version.h
+        │       │   └── window.h
+        │       └── m2d.h
+        ├── lib/
+        │   └── ARM9-TS/
+        │       ├── Debug/
+        │       │   ├── libntmvm2d.a
+        │       │   ├── libntmvm2d.thumb.a
+        │       │   ├── libntmvm2d.TWL.HYB.a
+        │       │   ├── libntmvm2d.TWL.HYB.thumb.a
+        │       │   ├── libntmvm2d.TWL.LTD.a
+        │       │   └── libntmvm2d.TWL.LTD.thumb.a
+        │       ├── Release/
+        │       │   ├── libntmvm2d.a
+        │       │   ├── libntmvm2d.thumb.a
+        │       │   ├── libntmvm2d.TWL.HYB.a
+        │       │   ├── libntmvm2d.TWL.HYB.thumb.a
+        │       │   ├── libntmvm2d.TWL.LTD.a
+        │       │   └── libntmvm2d.TWL.LTD.thumb.a
+        │       └── Rom/
+        │           ├── libntmvm2d.a
+        │           ├── libntmvm2d.thumb.a
+        │           ├── libntmvm2d.TWL.HYB.a
+        │           ├── libntmvm2d.TWL.HYB.thumb.a
+        │           ├── libntmvm2d.TWL.LTD.a
+        │           └── libntmvm2d.TWL.LTD.thumb.a
+        ├── Makefile
+        ├── man/
+        │   └── ja_JP/
+        │       ├── contents.html
+        │       ├── css/
+        │       │   ├── apilist.css
+        │       │   ├── contents.css
+        │       │   ├── icons.css
+        │       │   ├── main.css
+        │       │   ├── nitro.css
+        │       │   └── titles.css
+        │       ├── demos/
+        │       │   └── m2d/
+        │       │       └── m2ddemos.html
+        │       ├── icons.html
+        │       ├── index.html
+        │       ├── m2d/
+        │       │   ├── basic/
+        │       │   │   ├── NTMV_M2dFinalize.html
+        │       │   │   ├── NTMV_M2dInitForFilePath.html
+        │       │   │   ├── NTMV_M2dInitForFilePathEx.html
+        │       │   │   ├── NTMV_M2dInitForMem.html
+        │       │   │   ├── NTMV_M2dInitForMemEx.html
+        │       │   │   └── NTMV_M2dRun.html
+        │       │   ├── list_m2d.html
+        │       │   └── m2d.html
+        │       └── main.html
+        ├── ManualEditorStarter.exe
+        ├── manualResources/
+        │   └── guidePage/
+        │       ├── AUS_en/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── CHN_zh/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── exit_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── EUR_de/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── EUR_en/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── EUR_es/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── EUR_fr/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── EUR_it/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── EUR_nl/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── JPN_ja/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── KOR_ko/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── exit_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── USA_en/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       ├── USA_es/
+        │       │   ├── layouts/
+        │       │   │   ├── 000guide.ntpg
+        │       │   │   └── 000uitext.ntpg
+        │       │   └── textures/
+        │       │       ├── A_button_Lf.gif
+        │       │       ├── arrow_01.gif
+        │       │       ├── arrow_02.gif
+        │       │       ├── circle_button.gif
+        │       │       ├── frame_00.gif
+        │       │       ├── frame_01.gif
+        │       │       ├── frame_02.gif
+        │       │       ├── frame_03.gif
+        │       │       ├── frame_button_01.gif
+        │       │       ├── frame_button_02.gif
+        │       │       ├── frame_button_base_01.gif
+        │       │       ├── help_03.gif
+        │       │       ├── help_05.gif
+        │       │       ├── help_05_2.gif
+        │       │       ├── help_bar.gif
+        │       │       ├── juji_right_left_button_Lf.gif
+        │       │       ├── juji_up_down_button_Lf.gif
+        │       │       ├── n_help_06_1.gif
+        │       │       ├── n_help_06_2.gif
+        │       │       ├── n_help_06_3.gif
+        │       │       ├── n_help_07_1.gif
+        │       │       ├── n_help_08_1.gif
+        │       │       ├── nintendo_logo.gif
+        │       │       ├── title_button_01.gif
+        │       │       ├── title_button_02.gif
+        │       │       ├── title_button_03.gif
+        │       │       ├── title_button_04.gif
+        │       │       ├── title_button_05.gif
+        │       │       ├── touch_pen_01.gif
+        │       │       └── touch_pen_02.gif
+        │       └── USA_fr/
+        │           ├── layouts/
+        │           │   ├── 000guide.ntpg
+        │           │   └── 000uitext.ntpg
+        │           └── textures/
+        │               ├── A_button_Lf.gif
+        │               ├── arrow_01.gif
+        │               ├── arrow_02.gif
+        │               ├── circle_button.gif
+        │               ├── frame_00.gif
+        │               ├── frame_01.gif
+        │               ├── frame_02.gif
+        │               ├── frame_03.gif
+        │               ├── frame_button_01.gif
+        │               ├── frame_button_02.gif
+        │               ├── frame_button_base_01.gif
+        │               ├── help_03.gif
+        │               ├── help_05.gif
+        │               ├── help_05_2.gif
+        │               ├── help_bar.gif
+        │               ├── juji_right_left_button_Lf.gif
+        │               ├── juji_up_down_button_Lf.gif
+        │               ├── n_help_06_1.gif
+        │               ├── n_help_06_2.gif
+        │               ├── n_help_06_3.gif
+        │               ├── n_help_07_1.gif
+        │               ├── n_help_08_1.gif
+        │               ├── nintendo_logo.gif
+        │               ├── title_button_01.gif
+        │               ├── title_button_02.gif
+        │               ├── title_button_03.gif
+        │               ├── title_button_04.gif
+        │               ├── title_button_05.gif
+        │               ├── touch_pen_01.gif
+        │               └── touch_pen_02.gif
+        ├── readme.txt
+        ├── SourceTreeMap.txt
+        └── tools/
+            ├── bin/
+            │   ├── compBLZ.exe
+            │   ├── ConvertPreview.bat
+            │   ├── ManualViewer.bat
+            │   ├── nnsarc.exe
+            │   ├── ntexconv.exe
+            │   ├── ntmv_binwrt.dll
+            │   ├── ntmv_m2dcvtr.exe
+            │   ├── ntmv_nftr.dll
+            │   ├── ntmv_types.dll
+            │   └── TXLib.dll
+            ├── ManualEditor/
+            │   ├── ColorPicker.dll
+            │   ├── docs/
+            │   │   ├── html/
+            │   │   │   ├── basis/
+            │   │   │   │   ├── datasize.html
+            │   │   │   │   ├── environment.html
+            │   │   │   │   ├── glossary.html
+            │   │   │   │   ├── history_m.html
+            │   │   │   │   ├── hyphenation.html
+            │   │   │   │   ├── image/
+            │   │   │   │   │   ├── en/
+            │   │   │   │   │   │   └── environment_1.gif
+            │   │   │   │   │   ├── environment_1.gif
+            │   │   │   │   │   ├── pictur_128_96.gif
+            │   │   │   │   │   ├── pictur_192_144.gif
+            │   │   │   │   │   ├── pictur_256_192.gif
+            │   │   │   │   │   └── pictur_64_48.gif
+            │   │   │   │   ├── introduction.html
+            │   │   │   │   ├── outline.html
+            │   │   │   │   ├── shortcut.html
+            │   │   │   │   └── trademark.html
+            │   │   │   ├── contents.html
+            │   │   │   ├── css/
+            │   │   │   │   ├── contents.css
+            │   │   │   │   ├── main.css
+            │   │   │   │   ├── mainpage.css
+            │   │   │   │   ├── manpage.css
+            │   │   │   │   └── table.css
+            │   │   │   ├── localize/
+            │   │   │   │   └── localize_.html
+            │   │   │   ├── title.html
+            │   │   │   ├── tutorial/
+            │   │   │   │   ├── tu0_basis/
+            │   │   │   │   │   ├── 00_tutorial.html
+            │   │   │   │   │   ├── 01_setup.html
+            │   │   │   │   │   ├── 02_project.html
+            │   │   │   │   │   ├── 03_layout.html
+            │   │   │   │   │   └── image/
+            │   │   │   │   │       ├── 01_01_setup.gif
+            │   │   │   │   │       ├── 02_01_project.gif
+            │   │   │   │   │       ├── 02_02_project.gif
+            │   │   │   │   │       ├── 02_03_project.gif
+            │   │   │   │   │       ├── 02_04_project.gif
+            │   │   │   │   │       ├── 02_05_project.gif
+            │   │   │   │   │       ├── 03_01_layout.gif
+            │   │   │   │   │       ├── 03_02_layout.gif
+            │   │   │   │   │       └── en/
+            │   │   │   │   │           ├── 01_01_setup.gif
+            │   │   │   │   │           ├── 02_01_project.gif
+            │   │   │   │   │           ├── 02_02_project.gif
+            │   │   │   │   │           ├── 02_03_project.gif
+            │   │   │   │   │           ├── 02_04_project.gif
+            │   │   │   │   │           ├── 02_05_project.gif
+            │   │   │   │   │           ├── 03_01_layout.gif
+            │   │   │   │   │           └── 03_02_layout.gif
+            │   │   │   │   ├── tu1_layout/
+            │   │   │   │   │   ├── 10_picture.html
+            │   │   │   │   │   ├── 20_flame.html
+            │   │   │   │   │   ├── 21_flamesetting.html
+            │   │   │   │   │   ├── 22_flameattention.html
+            │   │   │   │   │   ├── 30_textbox.html
+            │   │   │   │   │   ├── 31_fontsize.html
+            │   │   │   │   │   ├── 32_txticon.html
+            │   │   │   │   │   ├── 33_exfonts.html
+            │   │   │   │   │   ├── 34_textcolor.html
+            │   │   │   │   │   └── image/
+            │   │   │   │   │       ├── 10_1_picture.gif
+            │   │   │   │   │       ├── 10_2_picture.gif
+            │   │   │   │   │       ├── 20_1_frame.gif
+            │   │   │   │   │       ├── 20_2_frame.gif
+            │   │   │   │   │       ├── 20_3_frame.gif
+            │   │   │   │   │       ├── 20_4_frame.gif
+            │   │   │   │   │       ├── 21_0_flamesetting.gif
+            │   │   │   │   │       ├── 21_1_flamesetting.gif
+            │   │   │   │   │       ├── 21_2_flamesetting.gif
+            │   │   │   │   │       ├── 21_3_framesetting.gif
+            │   │   │   │   │       ├── 21_4_framesetting.gif
+            │   │   │   │   │       ├── 21_5_framesetting.gif
+            │   │   │   │   │       ├── 22_1_frameattention.gif
+            │   │   │   │   │       ├── 22_2_frameattention.gif
+            │   │   │   │   │       ├── 30_0_textbox_m.gif
+            │   │   │   │   │       ├── 30_1_textbox_m.gif
+            │   │   │   │   │       ├── 30_2_textbox.gif
+            │   │   │   │   │       ├── 30_3_textbox.gif
+            │   │   │   │   │       ├── 31_1_fontsize.gif
+            │   │   │   │   │       ├── 31_2_fontsize.gif
+            │   │   │   │   │       ├── 31_3_fontsize.gif
+            │   │   │   │   │       ├── 32_1_texticon_m.gif
+            │   │   │   │   │       ├── 32_2_texticon_m.gif
+            │   │   │   │   │       ├── 32_3_texticon_m.gif
+            │   │   │   │   │       ├── 32_4_texticon_m.gif
+            │   │   │   │   │       ├── 32_5_texticon_m.gif
+            │   │   │   │   │       ├── 32_6_texticon_m.gif
+            │   │   │   │   │       ├── 33_1_exfont.gif
+            │   │   │   │   │       ├── 33_2_exfont.gif
+            │   │   │   │   │       ├── 33_3_exfont.gif
+            │   │   │   │   │       ├── 33_4_exfont.gif
+            │   │   │   │   │       ├── 34_1_textcolor_m.gif
+            │   │   │   │   │       ├── 34_2_textcolor.gif
+            │   │   │   │   │       ├── 34_3_textcolor_m.gif
+            │   │   │   │   │       ├── 34_4_textcolor_m.gif
+            │   │   │   │   │       └── en/
+            │   │   │   │   │           ├── 10_1_picture.gif
+            │   │   │   │   │           ├── 10_2_picture.gif
+            │   │   │   │   │           ├── 20_3_frame.gif
+            │   │   │   │   │           ├── 21_0_flamesetting.gif
+            │   │   │   │   │           ├── 21_2_flamesetting.gif
+            │   │   │   │   │           ├── 21_4_framesetting.gif
+            │   │   │   │   │           ├── 30_0_textbox_m.gif
+            │   │   │   │   │           ├── 30_1_textbox_m.gif
+            │   │   │   │   │           ├── 30_2_textbox.gif
+            │   │   │   │   │           ├── 31_1_fontsize.gif
+            │   │   │   │   │           ├── 31_2_fontsize.gif
+            │   │   │   │   │           ├── 31_3_fontsize.gif
+            │   │   │   │   │           ├── 32_4_texticon_m.gif
+            │   │   │   │   │           ├── 32_5_texticon_m.gif
+            │   │   │   │   │           ├── 33_1_exfont.gif
+            │   │   │   │   │           ├── 33_2_exfont.gif
+            │   │   │   │   │           ├── 33_3_exfont.gif
+            │   │   │   │   │           ├── 34_2_textcolor.gif
+            │   │   │   │   │           ├── 34_3_textcolor_m.gif
+            │   │   │   │   │           └── 34_4_textcolor_m.gif
+            │   │   │   │   └── tu2_adjust/
+            │   │   │   │       ├── 07_group.html
+            │   │   │   │       ├── 08_copypaste.html
+            │   │   │   │       ├── 11_textturns.html
+            │   │   │   │       ├── 12_preview.html
+            │   │   │   │       ├── 13_title.html
+            │   │   │   │       ├── 14_chapter.html
+            │   │   │   │       ├── 18_export.html
+            │   │   │   │       ├── 19_localizedate.html
+            │   │   │   │       └── image/
+            │   │   │   │           ├── 07_01_groupe_m.gif
+            │   │   │   │           ├── 07_02_groupe_m.gif
+            │   │   │   │           ├── 07_03_groupe.gif
+            │   │   │   │           ├── 07_04_groupe.gif
+            │   │   │   │           ├── 07_05_groupe.gif
+            │   │   │   │           ├── 07_06_groupe.gif
+            │   │   │   │           ├── 07_07groupe.gif
+            │   │   │   │           ├── 08_00_copypaste.gif
+            │   │   │   │           ├── 11_01_textturn_m.gif
+            │   │   │   │           ├── 11_02_textturn.gif
+            │   │   │   │           ├── 11_03_textturn_m.gif
+            │   │   │   │           ├── 11_04_textturn_m.gif
+            │   │   │   │           ├── 12_01_preview_m.gif
+            │   │   │   │           ├── 12_02_preview.gif
+            │   │   │   │           ├── 13_01_title.gif
+            │   │   │   │           ├── 14_01_chapter.gif
+            │   │   │   │           ├── 14_02_chapter.gif
+            │   │   │   │           ├── 14_03_chapter.gif
+            │   │   │   │           ├── 18_01_export_z.gif
+            │   │   │   │           ├── 18_02_export.gif
+            │   │   │   │           ├── 19_01_localize.gif
+            │   │   │   │           ├── 19_02_localize.gif
+            │   │   │   │           ├── 19_03_localize.gif
+            │   │   │   │           ├── 19_04_localize.gif
+            │   │   │   │           ├── 19_05_localize.gif
+            │   │   │   │           └── en/
+            │   │   │   │               ├── 07_02_groupe_m.gif
+            │   │   │   │               ├── 07_03_groupe.gif
+            │   │   │   │               ├── 07_04_groupe.gif
+            │   │   │   │               ├── 07_05_groupe.gif
+            │   │   │   │               ├── 07_06_groupe.gif
+            │   │   │   │               ├── 07_07groupe.gif
+            │   │   │   │               ├── 11_02_textturn.gif
+            │   │   │   │               ├── 11_04_textturn_m.gif
+            │   │   │   │               ├── 12_01_preview_m.gif
+            │   │   │   │               ├── 12_02_preview.gif
+            │   │   │   │               ├── 13_01_title.gif
+            │   │   │   │               ├── 14_03_chapter.gif
+            │   │   │   │               ├── 18_01_export_z.gif
+            │   │   │   │               ├── 18_02_export.gif
+            │   │   │   │               ├── 19_01_localize.gif
+            │   │   │   │               ├── 19_02_localize.gif
+            │   │   │   │               ├── 19_03_localize.gif
+            │   │   │   │               ├── 19_04_localize.gif
+            │   │   │   │               └── 19_05_localize.gif
+            │   │   │   ├── ui/
+            │   │   │   │   ├── dialog/
+            │   │   │   │   │   ├── 00_dialog.html
+            │   │   │   │   │   ├── 01_pagesetting.html
+            │   │   │   │   │   ├── 02_environment.html
+            │   │   │   │   │   ├── 03_colorpicker.html
+            │   │   │   │   │   ├── 04_export.html
+            │   │   │   │   │   ├── 05_inport.html
+            │   │   │   │   │   ├── images/
+            │   │   │   │   │   │   ├── 01_pagesetting_m.gif
+            │   │   │   │   │   │   ├── 02_environment_m.gif
+            │   │   │   │   │   │   ├── 03_colorpicker.gif
+            │   │   │   │   │   │   ├── 04_export.gif
+            │   │   │   │   │   │   ├── 05_inport.gif
+            │   │   │   │   │   │   └── en/
+            │   │   │   │   │   │       ├── 01_pagesetting_m.gif
+            │   │   │   │   │   │       ├── 02_environment_m.gif
+            │   │   │   │   │   │       ├── 03_colorpicker.gif
+            │   │   │   │   │   │       ├── 04_export.gif
+            │   │   │   │   │   │       └── 05_inport.gif
+            │   │   │   │   │   └── manpage.css
+            │   │   │   │   ├── main_window/
+            │   │   │   │   │   ├── images/
+            │   │   │   │   │   │   ├── en/
+            │   │   │   │   │   │   │   └── userinterface.gif
+            │   │   │   │   │   │   └── userinterface.gif
+            │   │   │   │   │   └── userinterface.html
+            │   │   │   │   ├── menu/
+            │   │   │   │   │   ├── 00_mainmenu.html
+            │   │   │   │   │   ├── 01_filemenu.html
+            │   │   │   │   │   ├── 02_editmenu.html
+            │   │   │   │   │   ├── 03_objectmenu.html
+            │   │   │   │   │   ├── 04_selectmenu.html
+            │   │   │   │   │   ├── 05_viewmenu.html
+            │   │   │   │   │   ├── 06_windoumenu.html
+            │   │   │   │   │   ├── 07_preview_menu.html
+            │   │   │   │   │   ├── 08_toolmenu.html
+            │   │   │   │   │   ├── 09_helpmenu.html
+            │   │   │   │   │   └── images/
+            │   │   │   │   │       ├── 00_01_mainmenu.gif
+            │   │   │   │   │       ├── 01_01_filemenu.gif
+            │   │   │   │   │       ├── 02_01_editmenu.gif
+            │   │   │   │   │       ├── 03_01_objectmenu_m.gif
+            │   │   │   │   │       ├── 04_01_selectmenu.gif
+            │   │   │   │   │       ├── 05_01_viewmenu.gif
+            │   │   │   │   │       ├── 06_01_windowmenu.gif
+            │   │   │   │   │       ├── 07_01_previewmenu_m.gif
+            │   │   │   │   │       ├── 08_01_toolmenu.gif
+            │   │   │   │   │       ├── 09_01_helpmenu.gif
+            │   │   │   │   │       └── en/
+            │   │   │   │   │           ├── 00_01_mainmenu.gif
+            │   │   │   │   │           ├── 01_01_filemenu.gif
+            │   │   │   │   │           ├── 02_01_editmenu.gif
+            │   │   │   │   │           ├── 03_01_objectmenu_m.gif
+            │   │   │   │   │           ├── 04_01_selectmenu.gif
+            │   │   │   │   │           ├── 05_01_viewmenu.gif
+            │   │   │   │   │           ├── 06_01_windowmenu.gif
+            │   │   │   │   │           ├── 07_01_previewmenu_m.gif
+            │   │   │   │   │           ├── 08_01_toolmenu.gif
+            │   │   │   │   │           └── 09_01_helpmenu.gif
+            │   │   │   │   ├── page_window/
+            │   │   │   │   │   ├── 00_page_window.html
+            │   │   │   │   │   ├── 01_object.html
+            │   │   │   │   │   ├── 02_guide.html
+            │   │   │   │   │   ├── 03_page_toolbar.html
+            │   │   │   │   │   ├── 04_page_state.html
+            │   │   │   │   │   ├── 05_reference_page.html
+            │   │   │   │   │   ├── 06_guide_chapter.html
+            │   │   │   │   │   └── images/
+            │   │   │   │   │       ├── 00_01_page_window.gif
+            │   │   │   │   │       ├── 00_02_page_window.gif
+            │   │   │   │   │       ├── 03_01_page_toolbar.gif
+            │   │   │   │   │       ├── 04_01_page_state.gif
+            │   │   │   │   │       ├── 05_01_reference_page.gif
+            │   │   │   │   │       ├── 05_02_reference_page.gif
+            │   │   │   │   │       ├── 05_03_reference_page.gif
+            │   │   │   │   │       ├── 06_01_guidechapter.gif
+            │   │   │   │   │       └── en/
+            │   │   │   │   │           ├── 00_01_page_window.gif
+            │   │   │   │   │           ├── 03_01_page_toolbar.gif
+            │   │   │   │   │           └── 05_01_reference_page.gif
+            │   │   │   │   ├── property/
+            │   │   │   │   │   ├── 00_object_editing.html
+            │   │   │   │   │   ├── 01_object_basis.html
+            │   │   │   │   │   ├── 02_picture_property.html
+            │   │   │   │   │   ├── 03_textbox_property.html
+            │   │   │   │   │   ├── 04_window_property.html
+            │   │   │   │   │   └── images/
+            │   │   │   │   │       ├── 00_object_editing_m.gif
+            │   │   │   │   │       ├── 01_01_object_basis.gif
+            │   │   │   │   │       ├── 01_02_object_basis.gif
+            │   │   │   │   │       ├── 02_picture_property_m.gif
+            │   │   │   │   │       ├── 03_text_property_m.gif
+            │   │   │   │   │       ├── 04_01_window_property.gif
+            │   │   │   │   │       └── en/
+            │   │   │   │   │           ├── 00_object_editing_m.gif
+            │   │   │   │   │           ├── 01_01_object_basis.gif
+            │   │   │   │   │           ├── 02_picture_property_m.gif
+            │   │   │   │   │           ├── 03_text_property_m.gif
+            │   │   │   │   │           └── 04_01_window_property.gif
+            │   │   │   │   ├── sub_window/
+            │   │   │   │   │   ├── 00_subwindow.html
+            │   │   │   │   │   ├── 01_projectwindow.html
+            │   │   │   │   │   ├── 02_function_menu.html
+            │   │   │   │   │   ├── 02_objectmanage.html
+            │   │   │   │   │   ├── 02_priority.html
+            │   │   │   │   │   ├── 03_texture.html
+            │   │   │   │   │   ├── 04_colorset.html
+            │   │   │   │   │   ├── 05_localizesupport.html
+            │   │   │   │   │   ├── 06_panesearch.html
+            │   │   │   │   │   ├── images/
+            │   │   │   │   │   │   ├── 01_01_projectwindow.gif
+            │   │   │   │   │   │   ├── 01_02_projectwindow.gif
+            │   │   │   │   │   │   ├── 02_01_objectmanage.gif
+            │   │   │   │   │   │   ├── 02_02_objectmanage.gif
+            │   │   │   │   │   │   ├── 02_03_objectmanage.gif
+            │   │   │   │   │   │   ├── 02_group_function_menu.gif
+            │   │   │   │   │   │   ├── 02_objectmanage_icon/
+            │   │   │   │   │   │   │   ├── 02_enable_frame.gif
+            │   │   │   │   │   │   │   ├── 02_enable_group.gif
+            │   │   │   │   │   │   │   ├── 02_enable_pict.gif
+            │   │   │   │   │   │   │   ├── 02_enable_text.gif
+            │   │   │   │   │   │   │   ├── 02_external_pict.gif
+            │   │   │   │   │   │   │   ├── 02_hide_frame.gif
+            │   │   │   │   │   │   │   ├── 02_hide_group.gif
+            │   │   │   │   │   │   │   ├── 02_hide_pict.gif
+            │   │   │   │   │   │   │   ├── 02_hide_text.gif
+            │   │   │   │   │   │   │   ├── 02_lock_frame.gif
+            │   │   │   │   │   │   │   ├── 02_lock_group.gif
+            │   │   │   │   │   │   │   ├── 02_lock_hide_frame.gif
+            │   │   │   │   │   │   │   ├── 02_lock_hide_group.gif
+            │   │   │   │   │   │   │   ├── 02_lock_hide_pict.gif
+            │   │   │   │   │   │   │   ├── 02_lock_hide_text.gif
+            │   │   │   │   │   │   │   ├── 02_lock_pict.gif
+            │   │   │   │   │   │   │   ├── 02_lock_text.gif
+            │   │   │   │   │   │   │   └── 02_lost_pict.gif
+            │   │   │   │   │   │   ├── 03_texture_detail_window.gif
+            │   │   │   │   │   │   ├── 03_texture_window.gif
+            │   │   │   │   │   │   ├── 04_colorset_edit_dialog.gif
+            │   │   │   │   │   │   ├── 04_colorset_window.gif
+            │   │   │   │   │   │   ├── 05_localize_support_01.gif
+            │   │   │   │   │   │   ├── 06_objectsearch.gif
+            │   │   │   │   │   │   └── en/
+            │   │   │   │   │   │       ├── 01_01_projectwindow.gif
+            │   │   │   │   │   │       ├── 01_02_projectwindow.gif
+            │   │   │   │   │   │       ├── 02_01_objectmanage.gif
+            │   │   │   │   │   │       ├── 02_02_objectmanage.gif
+            │   │   │   │   │   │       ├── 02_03_objectmanage.gif
+            │   │   │   │   │   │       ├── 02_group_function_menu.gif
+            │   │   │   │   │   │       ├── 03_texture_detail_window.gif
+            │   │   │   │   │   │       ├── 03_texture_window.gif
+            │   │   │   │   │   │       ├── 04_colorset_edit_dialog.gif
+            │   │   │   │   │   │       ├── 04_colorset_window.gif
+            │   │   │   │   │   │       ├── 05_localize_support_01.gif
+            │   │   │   │   │   │       └── 06_objectsearch.gif
+            │   │   │   │   │   └── manpage.css
+            │   │   │   │   └── tool_bar/
+            │   │   │   │       ├── 00_tool_bar.html
+            │   │   │   │       ├── 01_common_tool_bar.html
+            │   │   │   │       ├── 02_base_tool_bar.html
+            │   │   │   │       ├── 03_textbox_tool_bar.html
+            │   │   │   │       ├── 04_picture_tool_bar.html
+            │   │   │   │       ├── 05_frame_tool_bar.html
+            │   │   │   │       └── images/
+            │   │   │   │           ├── 00_01_tool_bar.gif
+            │   │   │   │           ├── 01_01_common_tool_bar_m.gif
+            │   │   │   │           ├── 02_01_bass_tool_bar.gif
+            │   │   │   │           ├── 03_01_textbox_tool_bar.gif
+            │   │   │   │           ├── 04_01_picture_tool_bar_m.gif
+            │   │   │   │           ├── 05_01_frame_tool_bar.gif
+            │   │   │   │           └── en/
+            │   │   │   │               ├── 00_01_tool_bar.gif
+            │   │   │   │               ├── 02_01_bass_tool_bar.gif
+            │   │   │   │               ├── 03_01_textbox_tool_bar.gif
+            │   │   │   │               ├── 04_01_picture_tool_bar_m.gif
+            │   │   │   │               └── 05_01_frame_tool_bar.gif
+            │   │   │   └── viewer/
+            │   │   │       ├── 01_viewersetup.html
+            │   │   │       ├── 02_multilanguage.html
+            │   │   │       ├── 03_viewer_m.html
+            │   │   │       ├── 04_pcpreview.html
+            │   │   │       ├── 06_viewer_helpui.html
+            │   │   │       └── image/
+            │   │   │           ├── EditorPreview_01.gif
+            │   │   │           ├── en/
+            │   │   │           │   ├── EditorPreview_01.gif
+            │   │   │           │   ├── manualviewer_01.gif
+            │   │   │           │   ├── manualviewer_02.gif
+            │   │   │           │   ├── manualviewer_03.gif
+            │   │   │           │   ├── manualviewer_04.gif
+            │   │   │           │   ├── manualviewer_05.gif
+            │   │   │           │   ├── multilanguage_01.gif
+            │   │   │           │   ├── multilanguage_02.gif
+            │   │   │           │   └── nse_NSEditorPreview_02.gif
+            │   │   │           ├── manualviewer_01.gif
+            │   │   │           ├── manualviewer_02.gif
+            │   │   │           ├── manualviewer_03.gif
+            │   │   │           ├── manualviewer_04.gif
+            │   │   │           ├── manualviewer_05.gif
+            │   │   │           ├── multilanguage_01.gif
+            │   │   │           ├── multilanguage_02.gif
+            │   │   │           └── nse_NSEditorPreview_02.gif
+            │   │   └── ManualEditor.html
+            │   ├── LECore.dll
+            │   ├── ManualEditor.exe
+            │   ├── NW4RFont.dll
+            │   ├── ResourcesForManualEditor.dll
+            │   ├── sample/
+            │   │   ├── JPN_ja/
+            │   │   │   ├── layouts/
+            │   │   │   │   ├── page_01.ntpg
+            │   │   │   │   ├── page_02.ntpg
+            │   │   │   │   ├── page_03.ntpg
+            │   │   │   │   ├── page_04.ntpg
+            │   │   │   │   ├── page_05.ntpg
+            │   │   │   │   ├── page_06.ntpg
+            │   │   │   │   ├── page_07.ntpg
+            │   │   │   │   ├── page_08.ntpg
+            │   │   │   │   ├── page_09.ntpg
+            │   │   │   │   └── page_10.ntpg
+            │   │   │   └── textures/
+            │   │   │       ├── 10_ManualViewer_01.gif
+            │   │   │       ├── 10_ManualViewer_02.gif
+            │   │   │       ├── 10_ManualViewer_03.gif
+            │   │   │       ├── angry.gif
+            │   │   │       ├── chapter_01.gif
+            │   │   │       ├── chapter_02.gif
+            │   │   │       ├── chapter_03.gif
+            │   │   │       ├── chapter_04.gif
+            │   │   │       ├── copy_test.gif
+            │   │   │       ├── create_group_01.gif
+            │   │   │       ├── create_group_02.gif
+            │   │   │       ├── create_group_03.gif
+            │   │   │       ├── create_page_01.gif
+            │   │   │       ├── create_page_02.gif
+            │   │   │       ├── cry.gif
+            │   │   │       ├── frame_L.gif
+            │   │   │       ├── frame_M.gif
+            │   │   │       ├── frame_parts_00.gif
+            │   │   │       ├── frame_R.gif
+            │   │   │       ├── guide_arrow.gif
+            │   │   │       ├── link_01.gif
+            │   │   │       ├── link_02.gif
+            │   │   │       ├── link_03.gif
+            │   │   │       ├── link_04.gif
+            │   │   │       ├── link_picture_01.gif
+            │   │   │       ├── new_picture_01.gif
+            │   │   │       ├── new_textbox.gif
+            │   │   │       ├── new_textbox_01.gif
+            │   │   │       ├── new_textbox_02.gif
+            │   │   │       ├── new_textbox_03.gif
+            │   │   │       ├── new_textbox_04.gif
+            │   │   │       ├── priority_01.gif
+            │   │   │       ├── priority_02.gif
+            │   │   │       ├── priority_03.gif
+            │   │   │       ├── priority_04.gif
+            │   │   │       ├── return_01.gif
+            │   │   │       ├── scale.gif
+            │   │   │       ├── smile.gif
+            │   │   │       ├── text_color_03.gif
+            │   │   │       ├── text_color_04.gif
+            │   │   │       ├── text_color_05.gif
+            │   │   │       ├── textbox_icon_01.gif
+            │   │   │       ├── textbox_icon_02.gif
+            │   │   │       ├── textbox_icon_03.gif
+            │   │   │       ├── textbox_turn_01.gif
+            │   │   │       └── textbox_turn_02.gif
+            │   │   └── USA_en/
+            │   │       ├── layouts/
+            │   │       │   ├── page_01.ntpg
+            │   │       │   ├── page_02.ntpg
+            │   │       │   ├── page_03.ntpg
+            │   │       │   ├── page_04.ntpg
+            │   │       │   ├── page_05.ntpg
+            │   │       │   ├── page_06.ntpg
+            │   │       │   ├── page_07.ntpg
+            │   │       │   ├── page_08.ntpg
+            │   │       │   ├── page_09.ntpg
+            │   │       │   └── page_10.ntpg
+            │   │       └── textures/
+            │   │           ├── 10_ManualViewer_01.gif
+            │   │           ├── 10_ManualViewer_02.gif
+            │   │           ├── 10_ManualViewer_03.gif
+            │   │           ├── angry.gif
+            │   │           ├── chapter_01.gif
+            │   │           ├── chapter_02.gif
+            │   │           ├── chapter_03.gif
+            │   │           ├── chapter_04.gif
+            │   │           ├── create_group_01.gif
+            │   │           ├── create_group_02.gif
+            │   │           ├── create_group_03.gif
+            │   │           ├── create_page_01.gif
+            │   │           ├── create_page_02.gif
+            │   │           ├── cry.gif
+            │   │           ├── frame_L.gif
+            │   │           ├── frame_M.gif
+            │   │           ├── frame_parts_00.gif
+            │   │           ├── frame_R.gif
+            │   │           ├── guide_arrow.gif
+            │   │           ├── link_01.gif
+            │   │           ├── link_02.gif
+            │   │           ├── link_03.gif
+            │   │           ├── link_04.gif
+            │   │           ├── link_picture_01.gif
+            │   │           ├── new_picture_01.gif
+            │   │           ├── new_textbox.gif
+            │   │           ├── new_textbox_01.gif
+            │   │           ├── new_textbox_02.gif
+            │   │           ├── new_textbox_03.gif
+            │   │           ├── new_textbox_04.gif
+            │   │           ├── priority_01.gif
+            │   │           ├── priority_02.gif
+            │   │           ├── priority_03.gif
+            │   │           ├── priority_04.gif
+            │   │           ├── return_01.gif
+            │   │           ├── scale.gif
+            │   │           ├── smile.gif
+            │   │           ├── text_color_03.gif
+            │   │           ├── text_color_04.gif
+            │   │           ├── text_color_05.gif
+            │   │           ├── textbox_icon_01.gif
+            │   │           ├── textbox_icon_02.gif
+            │   │           ├── textbox_icon_03.gif
+            │   │           ├── textbox_turn_01.gif
+            │   │           └── textbox_turn_02.gif
+            │   ├── setup_ManualEditor.bat
+            │   └── Tga.dll
+            ├── ManualPCPreviewCapturer/
+            │   └── ManualPCPreviewCapturer.exe
+            ├── ManualViewer/
+            │   └── bin/
+            │       ├── ARM9-TS/
+            │       │   └── viewer.srl
+            │       └── ARM9-TS.HYB/
+            │           └── viewer.srl
+            ├── ManualViewerSD/
+            │   ├── bin/
+            │   │   └── ARM9-TS.LTD/
+            │   │       ├── TWLManualViewerSD.nand.srl
+            │   │       └── TWLManualViewerSD.tad
+            │   └── docs/
+            │       ├── images/
+            │       │   ├── howto_use_1_1.gif
+            │       │   ├── howto_use_1_2.gif
+            │       │   ├── howto_use_2_1.gif
+            │       │   ├── howto_use_2_2.gif
+            │       │   ├── howto_use_3_1.gif
+            │       │   ├── howto_use_3_2.gif
+            │       │   ├── menu_icon.gif
+            │       │   └── screen_information.gif
+            │       └── ManualViewerSD.html
+            ├── mcsserver/
+            │   ├── 1041/
+            │   │   └── langRes.dll
+            │   ├── mcsserv.exe
+            │   └── nnsmcs.dll
+            └── preview/
+                ├── dlls/
+                │   ├── preview.dll
+                │   └── StrRes_eng.dll
+                ├── ext_dlls/
+                │   └── est_nitro_viewer.dll
+                └── Release/
+                    └── preview.exe

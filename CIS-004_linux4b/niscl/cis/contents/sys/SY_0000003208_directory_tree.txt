@@ -1,0 +1,385 @@
+Made with tikatree 0.0.10
+SY_0000003208/
+├── system/
+│   └── system.sh
+└── system_dis/
+    ├── patch_60fps/
+    │   ├── libraspberrypi-bin_1.20160315-1_armhf/
+    │   │   └── opt/
+    │   │       └── vc/
+    │   │           ├── bin/
+    │   │           │   ├── containers_check_frame_int
+    │   │           │   ├── containers_datagram_receiver
+    │   │           │   ├── containers_datagram_sender
+    │   │           │   ├── containers_dump_pktfile
+    │   │           │   ├── containers_rtp_decoder
+    │   │           │   ├── containers_stream_client
+    │   │           │   ├── containers_stream_server
+    │   │           │   ├── containers_test
+    │   │           │   ├── containers_test_bits
+    │   │           │   ├── containers_test_uri
+    │   │           │   ├── containers_uri_pipe
+    │   │           │   ├── dtoverlay
+    │   │           │   ├── edidparser
+    │   │           │   ├── mmal_vc_diag
+    │   │           │   ├── raspistill
+    │   │           │   ├── raspivid
+    │   │           │   ├── raspividyuv
+    │   │           │   ├── raspiyuv
+    │   │           │   ├── tvservice
+    │   │           │   ├── vcdbg
+    │   │           │   ├── vcgencmd
+    │   │           │   ├── vchiq_test
+    │   │           │   ├── vcmailbox
+    │   │           │   └── vcsmem
+    │   │           └── sbin/
+    │   │               └── vcfiled
+    │   ├── libraspberrypi-dev_1.20160315-1_armhf/
+    │   │   └── opt/
+    │   │       └── vc/
+    │   │           ├── include/
+    │   │           │   ├── bcm_host.h
+    │   │           │   ├── EGL/
+    │   │           │   │   ├── egl.h
+    │   │           │   │   ├── eglext.h
+    │   │           │   │   ├── eglext_android.h
+    │   │           │   │   ├── eglext_brcm.h
+    │   │           │   │   ├── eglext_nvidia.h
+    │   │           │   │   └── eglplatform.h
+    │   │           │   ├── GLES/
+    │   │           │   │   ├── gl.h
+    │   │           │   │   ├── glext.h
+    │   │           │   │   └── glplatform.h
+    │   │           │   ├── GLES2/
+    │   │           │   │   ├── gl2.h
+    │   │           │   │   ├── gl2ext.h
+    │   │           │   │   └── gl2platform.h
+    │   │           │   ├── IL/
+    │   │           │   │   ├── OMX_Audio.h
+    │   │           │   │   ├── OMX_Broadcom.h
+    │   │           │   │   ├── OMX_Component.h
+    │   │           │   │   ├── OMX_Core.h
+    │   │           │   │   ├── OMX_ILCS.h
+    │   │           │   │   ├── OMX_Image.h
+    │   │           │   │   ├── OMX_Index.h
+    │   │           │   │   ├── OMX_IVCommon.h
+    │   │           │   │   ├── OMX_Other.h
+    │   │           │   │   ├── OMX_Types.h
+    │   │           │   │   └── OMX_Video.h
+    │   │           │   ├── interface/
+    │   │           │   │   ├── mmal/
+    │   │           │   │   │   ├── core/
+    │   │           │   │   │   │   ├── mmal_buffer_private.h
+    │   │           │   │   │   │   ├── mmal_clock_private.h
+    │   │           │   │   │   │   ├── mmal_component_private.h
+    │   │           │   │   │   │   ├── mmal_core_private.h
+    │   │           │   │   │   │   ├── mmal_events_private.h
+    │   │           │   │   │   │   └── mmal_port_private.h
+    │   │           │   │   │   ├── mmal.h
+    │   │           │   │   │   ├── mmal_buffer.h
+    │   │           │   │   │   ├── mmal_clock.h
+    │   │           │   │   │   ├── mmal_common.h
+    │   │           │   │   │   ├── mmal_component.h
+    │   │           │   │   │   ├── mmal_encodings.h
+    │   │           │   │   │   ├── mmal_events.h
+    │   │           │   │   │   ├── mmal_format.h
+    │   │           │   │   │   ├── mmal_logging.h
+    │   │           │   │   │   ├── mmal_metadata.h
+    │   │           │   │   │   ├── mmal_parameters.h
+    │   │           │   │   │   ├── mmal_parameters_audio.h
+    │   │           │   │   │   ├── mmal_parameters_camera.h
+    │   │           │   │   │   ├── mmal_parameters_clock.h
+    │   │           │   │   │   ├── mmal_parameters_common.h
+    │   │           │   │   │   ├── mmal_parameters_video.h
+    │   │           │   │   │   ├── mmal_pool.h
+    │   │           │   │   │   ├── mmal_port.h
+    │   │           │   │   │   ├── mmal_queue.h
+    │   │           │   │   │   ├── mmal_types.h
+    │   │           │   │   │   ├── util/
+    │   │           │   │   │   │   ├── mmal_component_wrapper.h
+    │   │           │   │   │   │   ├── mmal_connection.h
+    │   │           │   │   │   │   ├── mmal_default_components.h
+    │   │           │   │   │   │   ├── mmal_graph.h
+    │   │           │   │   │   │   ├── mmal_il.h
+    │   │           │   │   │   │   ├── mmal_list.h
+    │   │           │   │   │   │   ├── mmal_param_convert.h
+    │   │           │   │   │   │   ├── mmal_util.h
+    │   │           │   │   │   │   ├── mmal_util_params.h
+    │   │           │   │   │   │   └── mmal_util_rational.h
+    │   │           │   │   │   └── vc/
+    │   │           │   │   │       ├── mmal_vc_api.h
+    │   │           │   │   │       ├── mmal_vc_api_drm.h
+    │   │           │   │   │       ├── mmal_vc_client_priv.h
+    │   │           │   │   │       ├── mmal_vc_msgnames.h
+    │   │           │   │   │       ├── mmal_vc_msgs.h
+    │   │           │   │   │       ├── mmal_vc_opaque_alloc.h
+    │   │           │   │   │       └── mmal_vc_shm.h
+    │   │           │   │   ├── vchi/
+    │   │           │   │   │   ├── common/
+    │   │           │   │   │   │   └── endian.h
+    │   │           │   │   │   ├── connections/
+    │   │           │   │   │   │   └── connection.h
+    │   │           │   │   │   ├── message_drivers/
+    │   │           │   │   │   │   └── message.h
+    │   │           │   │   │   ├── vchi.h
+    │   │           │   │   │   ├── vchi_cfg.h
+    │   │           │   │   │   ├── vchi_cfg_internal.h
+    │   │           │   │   │   ├── vchi_common.h
+    │   │           │   │   │   └── vchi_mh.h
+    │   │           │   │   ├── vchiq_arm/
+    │   │           │   │   │   ├── vchiq.h
+    │   │           │   │   │   ├── vchiq_cfg.h
+    │   │           │   │   │   ├── vchiq_if.h
+    │   │           │   │   │   ├── vchiq_ioctl.h
+    │   │           │   │   │   ├── vchiq_test.h
+    │   │           │   │   │   ├── vchiq_test_if.h
+    │   │           │   │   │   └── vchiq_util.h
+    │   │           │   │   ├── vcos/
+    │   │           │   │   │   ├── generic/
+    │   │           │   │   │   │   ├── vcos_common.h
+    │   │           │   │   │   │   ├── vcos_deprecated.h
+    │   │           │   │   │   │   ├── vcos_generic_blockpool.h
+    │   │           │   │   │   │   ├── vcos_generic_event_flags.h
+    │   │           │   │   │   │   ├── vcos_generic_named_sem.h
+    │   │           │   │   │   │   ├── vcos_generic_quickslow_mutex.h
+    │   │           │   │   │   │   ├── vcos_generic_reentrant_mtx.h
+    │   │           │   │   │   │   ├── vcos_generic_tls.h
+    │   │           │   │   │   │   ├── vcos_joinable_thread_from_plain.h
+    │   │           │   │   │   │   ├── vcos_latch_from_sem.h
+    │   │           │   │   │   │   ├── vcos_mem_from_malloc.h
+    │   │           │   │   │   │   ├── vcos_mutexes_are_reentrant.h
+    │   │           │   │   │   │   └── vcos_thread_reaper.h
+    │   │           │   │   │   ├── pthreads/
+    │   │           │   │   │   │   ├── vcos_futex_mutex.h
+    │   │           │   │   │   │   ├── vcos_platform.h
+    │   │           │   │   │   │   └── vcos_platform_types.h
+    │   │           │   │   │   ├── user_nodefs.h
+    │   │           │   │   │   ├── vcos.h
+    │   │           │   │   │   ├── vcos_assert.h
+    │   │           │   │   │   ├── vcos_atomic_flags.h
+    │   │           │   │   │   ├── vcos_attr.h
+    │   │           │   │   │   ├── vcos_blockpool.h
+    │   │           │   │   │   ├── vcos_build_info.h
+    │   │           │   │   │   ├── vcos_cfg.h
+    │   │           │   │   │   ├── vcos_cmd.h
+    │   │           │   │   │   ├── vcos_ctype.h
+    │   │           │   │   │   ├── vcos_dlfcn.h
+    │   │           │   │   │   ├── vcos_event.h
+    │   │           │   │   │   ├── vcos_event_flags.h
+    │   │           │   │   │   ├── vcos_init.h
+    │   │           │   │   │   ├── vcos_inttypes.h
+    │   │           │   │   │   ├── vcos_isr.h
+    │   │           │   │   │   ├── vcos_legacy_isr.h
+    │   │           │   │   │   ├── vcos_logging.h
+    │   │           │   │   │   ├── vcos_logging_control.h
+    │   │           │   │   │   ├── vcos_lowlevel_thread.h
+    │   │           │   │   │   ├── vcos_mem.h
+    │   │           │   │   │   ├── vcos_mempool.h
+    │   │           │   │   │   ├── vcos_msgqueue.h
+    │   │           │   │   │   ├── vcos_mutex.h
+    │   │           │   │   │   ├── vcos_named_semaphore.h
+    │   │           │   │   │   ├── vcos_once.h
+    │   │           │   │   │   ├── vcos_queue.h
+    │   │           │   │   │   ├── vcos_quickslow_mutex.h
+    │   │           │   │   │   ├── vcos_reentrant_mutex.h
+    │   │           │   │   │   ├── vcos_semaphore.h
+    │   │           │   │   │   ├── vcos_stdbool.h
+    │   │           │   │   │   ├── vcos_stdint.h
+    │   │           │   │   │   ├── vcos_string.h
+    │   │           │   │   │   ├── vcos_thread.h
+    │   │           │   │   │   ├── vcos_thread_attr.h
+    │   │           │   │   │   ├── vcos_timer.h
+    │   │           │   │   │   ├── vcos_tls.h
+    │   │           │   │   │   └── vcos_types.h
+    │   │           │   │   ├── vctypes/
+    │   │           │   │   │   ├── vc_display_types.h
+    │   │           │   │   │   └── vc_image_types.h
+    │   │           │   │   └── vmcs_host/
+    │   │           │   │       ├── linux/
+    │   │           │   │       │   ├── vcfiled/
+    │   │           │   │       │   │   └── vcfiled_check.h
+    │   │           │   │       │   └── vchost_config.h
+    │   │           │   │       ├── vc_cec.h
+    │   │           │   │       ├── vc_cecservice.h
+    │   │           │   │       ├── vc_cecservice_defs.h
+    │   │           │   │       ├── vc_cma.h
+    │   │           │   │       ├── vc_dispmanx.h
+    │   │           │   │       ├── vc_dispmanx_types.h
+    │   │           │   │       ├── vc_dispservice_defs.h
+    │   │           │   │       ├── vc_dispservice_x_defs.h
+    │   │           │   │       ├── vc_fileservice_defs.h
+    │   │           │   │       ├── vc_gencmd_defs.h
+    │   │           │   │       ├── vc_hdmi.h
+    │   │           │   │       ├── vc_hdmi_property.h
+    │   │           │   │       ├── vc_hostreq_defs.h
+    │   │           │   │       ├── vc_ilcs_defs.h
+    │   │           │   │       ├── vc_imageconv_defs.h
+    │   │           │   │       ├── vc_sdtv.h
+    │   │           │   │       ├── vc_service_common.h
+    │   │           │   │       ├── vc_tvservice.h
+    │   │           │   │       ├── vc_tvservice_defs.h
+    │   │           │   │       ├── vc_vchi_audioserv_defs.h
+    │   │           │   │       ├── vc_vchi_bufman.h
+    │   │           │   │       ├── vc_vchi_bufman_defs.h
+    │   │           │   │       ├── vc_vchi_dispmanx.h
+    │   │           │   │       ├── vc_vchi_fileservice_defs.h
+    │   │           │   │       ├── vc_vchi_filesys.h
+    │   │           │   │       ├── vc_vchi_gencmd.h
+    │   │           │   │       ├── vcfilesys.h
+    │   │           │   │       ├── vcfilesys_defs.h
+    │   │           │   │       ├── vcgencmd.h
+    │   │           │   │       ├── vchost.h
+    │   │           │   │       ├── vchostreq.h
+    │   │           │   │       ├── vcilcs.h
+    │   │           │   │       └── vcilcs_common.h
+    │   │           │   ├── KHR/
+    │   │           │   │   └── khrplatform.h
+    │   │           │   ├── vcinclude/
+    │   │           │   │   ├── common.h
+    │   │           │   │   ├── vc_image_types.h
+    │   │           │   │   └── vcore.h
+    │   │           │   ├── VG/
+    │   │           │   │   ├── openvg.h
+    │   │           │   │   ├── vgext.h
+    │   │           │   │   ├── vgplatform.h
+    │   │           │   │   └── vgu.h
+    │   │           │   └── WF/
+    │   │           │       ├── wfc.h
+    │   │           │       └── wfcplatform.h
+    │   │           └── lib/
+    │   │               ├── libdebug_sym_static.a
+    │   │               ├── libEGL_static.a
+    │   │               ├── libGLESv2_static.a
+    │   │               ├── libkhrn_client.a
+    │   │               ├── libkhrn_static.a
+    │   │               ├── libvcfiled_check.a
+    │   │               ├── libvchostif.a
+    │   │               ├── libvcilcs.a
+    │   │               └── libvmcs_rpc_client.a
+    │   ├── libraspberrypi0_1.20160315-1_armhf/
+    │   │   ├── etc/
+    │   │   │   └── ld.so.conf.d/
+    │   │   │       └── 00-vmcs.conf
+    │   │   ├── lib/
+    │   │   │   └── udev/
+    │   │   │       └── rules.d/
+    │   │   │           └── 10-local-rpi.rules
+    │   │   └── opt/
+    │   │       └── vc/
+    │   │           └── lib/
+    │   │               ├── libbcm_host.so
+    │   │               ├── libcontainers.so
+    │   │               ├── libdebug_sym.so
+    │   │               ├── libEGL.so
+    │   │               ├── libGLESv1_CM.so
+    │   │               ├── libGLESv2.so
+    │   │               ├── libmmal.so
+    │   │               ├── libmmal_components.so
+    │   │               ├── libmmal_core.so
+    │   │               ├── libmmal_util.so
+    │   │               ├── libmmal_vc_client.so
+    │   │               ├── libopenmaxil.so
+    │   │               ├── libOpenVG.so
+    │   │               ├── libvchiq_arm.so
+    │   │               ├── libvcos.so
+    │   │               ├── libvcsm.so
+    │   │               ├── libWFC.so
+    │   │               └── plugins/
+    │   │                   └── plugins/
+    │   │                       ├── reader_asf.so
+    │   │                       ├── reader_avi.so
+    │   │                       ├── reader_binary.so
+    │   │                       ├── reader_flv.so
+    │   │                       ├── reader_metadata_id3.so
+    │   │                       ├── reader_mkv.so
+    │   │                       ├── reader_mp4.so
+    │   │                       ├── reader_mpga.so
+    │   │                       ├── reader_ps.so
+    │   │                       ├── reader_qsynth.so
+    │   │                       ├── reader_raw_video.so
+    │   │                       ├── reader_rcv.so
+    │   │                       ├── reader_rtp.so
+    │   │                       ├── reader_rtsp.so
+    │   │                       ├── reader_rv9.so
+    │   │                       ├── reader_simple.so
+    │   │                       ├── reader_wav.so
+    │   │                       ├── writer_avi.so
+    │   │                       ├── writer_binary.so
+    │   │                       ├── writer_dummy.so
+    │   │                       ├── writer_mp4.so
+    │   │                       ├── writer_raw_video.so
+    │   │                       └── writer_simple.so
+    │   ├── raspberrypi-bootloader_1.20160315-1_armhf/
+    │   │   └── boot/
+    │   │       ├── bcm2708-rpi-b-plus.dtb
+    │   │       ├── bcm2708-rpi-b.dtb
+    │   │       ├── bcm2708-rpi-cm.dtb
+    │   │       ├── bcm2709-rpi-2-b.dtb
+    │   │       ├── bcm2710-rpi-3-b.dtb
+    │   │       ├── bootcode.bin
+    │   │       ├── COPYING.linux
+    │   │       ├── LICENCE.broadcom
+    │   │       ├── overlays/
+    │   │       │   ├── ads7846-overlay.dtb
+    │   │       │   ├── at86rf233-overlay.dtb
+    │   │       │   ├── bmp085_i2c-sensor-overlay.dtb
+    │   │       │   ├── dht11-overlay.dtb
+    │   │       │   ├── enc28j60-overlay.dtb
+    │   │       │   ├── gpio-ir-overlay.dtb
+    │   │       │   ├── gpio-poweroff-overlay.dtb
+    │   │       │   ├── hifiberry-amp-overlay.dtb
+    │   │       │   ├── hifiberry-dac-overlay.dtb
+    │   │       │   ├── hifiberry-dacplus-overlay.dtb
+    │   │       │   ├── hifiberry-digi-overlay.dtb
+    │   │       │   ├── hy28a-overlay.dtb
+    │   │       │   ├── hy28b-overlay.dtb
+    │   │       │   ├── i2c-gpio-overlay.dtb
+    │   │       │   ├── i2c-rtc-overlay.dtb
+    │   │       │   ├── i2c0-bcm2708-overlay.dtb
+    │   │       │   ├── i2c1-bcm2708-overlay.dtb
+    │   │       │   ├── i2s-mmap-overlay.dtb
+    │   │       │   ├── iqaudio-dac-overlay.dtb
+    │   │       │   ├── iqaudio-dacplus-overlay.dtb
+    │   │       │   ├── lirc-rpi-overlay.dtb
+    │   │       │   ├── mcp2515-can0-overlay.dtb
+    │   │       │   ├── mcp2515-can1-overlay.dtb
+    │   │       │   ├── mmc-overlay.dtb
+    │   │       │   ├── mz61581-overlay.dtb
+    │   │       │   ├── pi3-disable-bt-overlay.dtb
+    │   │       │   ├── pi3-miniuart-bt-overlay.dtb
+    │   │       │   ├── piscreen-overlay.dtb
+    │   │       │   ├── piscreen2r-overlay.dtb
+    │   │       │   ├── pitft28-capacitive-overlay.dtb
+    │   │       │   ├── pitft28-resistive-overlay.dtb
+    │   │       │   ├── pps-gpio-overlay.dtb
+    │   │       │   ├── pwm-2chan-overlay.dtb
+    │   │       │   ├── pwm-overlay.dtb
+    │   │       │   ├── qca7000-overlay.dtb
+    │   │       │   ├── raspidac3-overlay.dtb
+    │   │       │   ├── README
+    │   │       │   ├── rpi-backlight-overlay.dtb
+    │   │       │   ├── rpi-dac-overlay.dtb
+    │   │       │   ├── rpi-display-overlay.dtb
+    │   │       │   ├── rpi-ft5406-overlay.dtb
+    │   │       │   ├── rpi-proto-overlay.dtb
+    │   │       │   ├── rpi-sense-overlay.dtb
+    │   │       │   ├── sdhost-overlay.dtb
+    │   │       │   ├── sdio-overlay.dtb
+    │   │       │   ├── smi-dev-overlay.dtb
+    │   │       │   ├── smi-nand-overlay.dtb
+    │   │       │   ├── smi-overlay.dtb
+    │   │       │   ├── spi-bcm2708-overlay.dtb
+    │   │       │   ├── spi-bcm2835-overlay.dtb
+    │   │       │   ├── spi-dma-overlay.dtb
+    │   │       │   ├── tinylcd35-overlay.dtb
+    │   │       │   ├── uart1-overlay.dtb
+    │   │       │   ├── vc4-kms-v3d-overlay.dtb
+    │   │       │   ├── vga666-overlay.dtb
+    │   │       │   ├── w1-gpio-overlay.dtb
+    │   │       │   └── w1-gpio-pullup-overlay.dtb
+    │   │       ├── start.elf
+    │   │       ├── start_cd.elf
+    │   │       ├── start_db.elf
+    │   │       └── start_x.elf
+    │   └── update.sh
+    └── system.sh

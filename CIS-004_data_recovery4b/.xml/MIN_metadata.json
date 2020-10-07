@@ -1,0 +1,1477 @@
+{
+    ".": {
+        "0013059.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 1102; columnNumber: 10; Invalid byte 2 of 3-byte UTF-8 sequence.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.apache.xerces.impl.io.MalformedByteSequenceException: Invalid byte 2 of 3-byte UTF-8 sequence.\r\n\tat org.apache.xerces.impl.io.UTF8Reader.invalidByte(Unknown Source)\r\n\tat org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanQName(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)\r\n\t... 56 more\r\n",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0013059.xml'"
+        },
+        "0013061.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 898; columnNumber: 10; Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.apache.xerces.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.impl.io.UTF8Reader.invalidByte(Unknown Source)\r\n\tat org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.skipChar(Unknown Source)\r\n\t... 56 more\r\n",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0013061.xml'"
+        },
+        "0021013.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0021013.xml'"
+        },
+        "0021015.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0021015.xml'"
+        },
+        "0021103.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0021103.xml'"
+        },
+        "0024913.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0024913.xml'"
+        },
+        "0024914.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0024914.xml'"
+        },
+        "0035037.xml": {
+            "Content-Encoding": "UTF-8",
+            "Content-Type": "application/xhtml+xml; charset=UTF-8",
+            "Content-Type-Hint": "text/html; charset=UTF-8",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.html.HtmlParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:title": "11. FUTURE REVISIONS OF THIS LICENSE",
+            "generator": "DocBook XSL Stylesheets V1.73.2",
+            "resourceName": "b'0035037.xml'",
+            "title": "11. FUTURE REVISIONS OF THIS LICENSE"
+        },
+        "0035044.xml": {
+            "Content-Encoding": "UTF-8",
+            "Content-Type": "application/xhtml+xml; charset=UTF-8",
+            "Content-Type-Hint": "text/html; charset=UTF-8",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.html.HtmlParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:title": "9. TRANSLATION",
+            "generator": "DocBook XSL Stylesheets V1.73.2",
+            "resourceName": "b'0035044.xml'",
+            "title": "9. TRANSLATION"
+        },
+        "0035045.xml": {
+            "Content-Encoding": "UTF-8",
+            "Content-Type": "application/xhtml+xml; charset=UTF-8",
+            "Content-Type-Hint": "text/html; charset=UTF-8",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.html.HtmlParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:title": "10. TERMINATION",
+            "generator": "DocBook XSL Stylesheets V1.73.2",
+            "resourceName": "b'0035045.xml'",
+            "title": "10. TERMINATION"
+        },
+        "0035385.xml": {
+            "Content-Encoding": "UTF-8",
+            "Content-Type": "application/xhtml+xml; charset=UTF-8",
+            "Content-Type-Hint": "text/html; charset=UTF-8",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.html.HtmlParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:title": "Appendix C.  GNU Free Documentation License",
+            "generator": "DocBook XSL Stylesheets V1.73.2",
+            "resourceName": "b'0035385.xml'",
+            "title": "Appendix C.  GNU Free Documentation License"
+        },
+        "0035432.xml": {
+            "Content-Encoding": "UTF-8",
+            "Content-Type": "application/xhtml+xml; charset=UTF-8",
+            "Content-Type-Hint": "text/html; charset=UTF-8",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.html.HtmlParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:title": "10.4.  Fractal Trace",
+            "generator": "DocBook XSL Stylesheets V1.73.2",
+            "resourceName": "b'0035432.xml'",
+            "title": "10.4.  Fractal Trace"
+        },
+        "0035433.xml": {
+            "Content-Encoding": "UTF-8",
+            "Content-Type": "application/xhtml+xml; charset=UTF-8",
+            "Content-Type-Hint": "text/html; charset=UTF-8",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.html.HtmlParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:title": "11.14.  Fractal Explorer",
+            "generator": "DocBook XSL Stylesheets V1.73.2",
+            "resourceName": "b'0035433.xml'",
+            "title": "11.14.  Fractal Explorer"
+        },
+        "0038066.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0038066.xml'"
+        },
+        "0038092.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0038092.xml'"
+        },
+        "0038252.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'0038252.xml'"
+        },
+        "0038253.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0038253.xml'"
+        },
+        "0038263.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0038263.xml'"
+        },
+        "0038264.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0038264.xml'"
+        },
+        "0038310.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 742; columnNumber: 74; Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.apache.xerces.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.impl.io.UTF8Reader.invalidByte(Unknown Source)\r\n\tat org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.skipChar(Unknown Source)\r\n\t... 56 more\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0038310.xml'"
+        },
+        "0038505.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0038505.xml'"
+        },
+        "0038608.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0038608.xml'"
+        },
+        "0039075.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 977; columnNumber: 40; Invalid byte 2 of 3-byte UTF-8 sequence.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.apache.xerces.impl.io.MalformedByteSequenceException: Invalid byte 2 of 3-byte UTF-8 sequence.\r\n\tat org.apache.xerces.impl.io.UTF8Reader.invalidByte(Unknown Source)\r\n\tat org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanLiteral(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.scanAttributeValue(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanAttribute(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)\r\n\t... 56 more\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "5",
+            "resourceName": "b'0039075.xml'"
+        },
+        "0039478.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 866; columnNumber: 144; Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.apache.xerces.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.impl.io.UTF8Reader.invalidByte(Unknown Source)\r\n\tat org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanContent(Unknown Source)\r\n\t... 56 more\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0039478.xml'"
+        },
+        "0040126.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0040126.xml'"
+        },
+        "0040291.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0040291.xml'"
+        },
+        "0040432.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0040432.xml'"
+        },
+        "0040433.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0040433.xml'"
+        },
+        "0040652.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0040652.xml'"
+        },
+        "0040911.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0040911.xml'"
+        },
+        "0040942.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0040942.xml'"
+        },
+        "0040963.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0040963.xml'"
+        },
+        "0040976.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0040976.xml'"
+        },
+        "0041315.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0041315.xml'"
+        },
+        "0041427.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0041427.xml'"
+        },
+        "0041428.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0041428.xml'"
+        },
+        "0041429.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "3",
+            "resourceName": "b'0041429.xml'"
+        },
+        "0041434.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0041434.xml'"
+        },
+        "0041438.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0041438.xml'"
+        },
+        "0041926.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0041926.xml'"
+        },
+        "0042002.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'0042002.xml'"
+        },
+        "0042040.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0042040.xml'"
+        },
+        "0042083.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042083.xml'"
+        },
+        "0042112.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042112.xml'"
+        },
+        "0042233.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042233.xml'"
+        },
+        "0042359.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0042359.xml'"
+        },
+        "0042385.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042385.xml'"
+        },
+        "0042406.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042406.xml'"
+        },
+        "0042455.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042455.xml'"
+        },
+        "0042490.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0042490.xml'"
+        },
+        "0042582.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0042582.xml'"
+        },
+        "0042597.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042597.xml'"
+        },
+        "0042680.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0042680.xml'"
+        },
+        "0042709.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042709.xml'"
+        },
+        "0042732.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042732.xml'"
+        },
+        "0042770.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0042770.xml'"
+        },
+        "0043076.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0043076.xml'"
+        },
+        "0043127.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 792; columnNumber: 20; Invalid byte 2 of 3-byte UTF-8 sequence.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.apache.xerces.impl.io.MalformedByteSequenceException: Invalid byte 2 of 3-byte UTF-8 sequence.\r\n\tat org.apache.xerces.impl.io.UTF8Reader.invalidByte(Unknown Source)\r\n\tat org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanContent(Unknown Source)\r\n\t... 56 more\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0043127.xml'"
+        },
+        "0043135.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 808; columnNumber: 351; An invalid XML character (Unicode: 0x13) was found in the element content of the document.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0043135.xml'"
+        },
+        "0043953.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0043953.xml'"
+        },
+        "0044090.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0044090.xml'"
+        },
+        "0044168.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0044168.xml'"
+        },
+        "0044301.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0044301.xml'"
+        },
+        "0044363.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 717; columnNumber: 117; An invalid XML character (Unicode: 0x16) was found in the element content of the document.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0044363.xml'"
+        },
+        "0044425.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0044425.xml'"
+        },
+        "0044464.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0044464.xml'"
+        },
+        "0044477.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0044477.xml'"
+        },
+        "0044603.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0044603.xml'"
+        },
+        "0045229.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0045229.xml'"
+        },
+        "0045242.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0045242.xml'"
+        },
+        "0045740.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0045740.xml'"
+        },
+        "0046580.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0046580.xml'"
+        },
+        "0046884.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0046884.xml'"
+        },
+        "0047190.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0047190.xml'"
+        },
+        "0048349.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 601; columnNumber: 49; An invalid XML character (Unicode: 0x13) was found in the value of attribute \"id\" and element is \"sect3\".\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.scanAttributeValue(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanAttribute(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0048349.xml'"
+        },
+        "0048529.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0048529.xml'"
+        },
+        "0048560.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0048560.xml'"
+        },
+        "0049083.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0049083.xml'"
+        },
+        "0049084.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0049084.xml'"
+        },
+        "0049222.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0049222.xml'"
+        },
+        "0049224.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0049224.xml'"
+        },
+        "0049238.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0049238.xml'"
+        },
+        "0049269.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0049269.xml'"
+        },
+        "0068873.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0068873.xml'"
+        },
+        "0068890.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0068890.xml'"
+        },
+        "0102322.xml": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Language": "en",
+            "Content-Script-Type": "text/javascript",
+            "Content-Type": "application/xhtml+xml; charset=ISO-8859-1",
+            "Content-Type-Hint": "text/html; charset=iso-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.html.HtmlParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:title": "File: extconf.rb",
+            "resourceName": "b'0102322.xml'",
+            "title": "File: extconf.rb"
+        },
+        "0114145.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0114145.xml'"
+        },
+        "0126677.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0126677.xml'"
+        },
+        "0126679.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0126679.xml'"
+        },
+        "0134845.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "3",
+            "resourceName": "b'0134845.xml'"
+        },
+        "0134866.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0134866.xml'"
+        },
+        "0134890.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0134890.xml'"
+        },
+        "0134891.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0134891.xml'"
+        },
+        "0134918.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0134918.xml'"
+        },
+        "0134921.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0134921.xml'"
+        },
+        "0134958.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "3",
+            "resourceName": "b'0134958.xml'"
+        },
+        "0134965.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0134965.xml'"
+        },
+        "0134985.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0134985.xml'"
+        },
+        "0410132.xml": {
+            "Content-Type": "application/xslt+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0410132.xml'"
+        },
+        "0410137.xml": {
+            "Content-Type": "application/xslt+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "3",
+            "resourceName": "b'0410137.xml'"
+        },
+        "0415387.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0415387.xml'"
+        },
+        "0415388.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0415388.xml'"
+        },
+        "0415390.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0415390.xml'"
+        },
+        "0426331.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 1338; columnNumber: 6; The content of elements must consist of well-formed character data or markup.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0426331.xml'"
+        },
+        "0432468.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 1596; columnNumber: 6; The content of elements must consist of well-formed character data or markup.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0432468.xml'"
+        },
+        "0433219.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0433219.xml'"
+        },
+        "0470188.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0470188.xml'"
+        },
+        "0470269.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0470269.xml'"
+        },
+        "0470366.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0470366.xml'"
+        },
+        "0470372.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0470372.xml'"
+        },
+        "0470382.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0470382.xml'"
+        },
+        "0470435.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'0470435.xml'"
+        },
+        "0470506.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0470506.xml'"
+        },
+        "0622306.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0622306.xml'"
+        },
+        "0622310.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0622310.xml'"
+        },
+        "0658578.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'0658578.xml'"
+        },
+        "0660118.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'0660118.xml'"
+        },
+        "0792395.xml": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Language": "en",
+            "Content-Type": "application/xhtml+xml; charset=ISO-8859-1",
+            "Content-Type-Hint": "text/html; charset=iso-8859-1",
+            "DESCRIPTION": "FAQ for the GNU libstdc++ effort.",
+            "KEYWORDS": "libstdc++, libstdc++-v3, GCC, g++, libg++, STL",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.html.HtmlParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "3",
+            "dc:title": "libstdc++-v3 FAQ",
+            "resourceName": "b'0792395.xml'",
+            "title": "libstdc++-v3 FAQ"
+        },
+        "f1601239.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 1102; columnNumber: 1; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f1601239.xml'"
+        },
+        "f1601487.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 898; columnNumber: 1; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f1601487.xml'"
+        },
+        "f3601687.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 742; columnNumber: 74; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.skipChar(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f3601687.xml'"
+        },
+        "f3655383.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 977; columnNumber: 1; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f3655383.xml'"
+        },
+        "f3665111.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 866; columnNumber: 19; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.skipChar(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f3665111.xml'"
+        },
+        "f4187879.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 791; columnNumber: 29; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.skipChar(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f4187879.xml'"
+        },
+        "f4188271.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 808; columnNumber: 265; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.skipChar(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f4188271.xml'"
+        },
+        "f4407783.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'f4407783.xml'"
+        },
+        "f4411527.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 717; columnNumber: 11; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.skipChar(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'f4411527.xml'"
+        },
+        "f4704367.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 601; columnNumber: 1; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanContent(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'f4704367.xml'"
+        },
+        "f50779607.xml": {
+            "Content-Type": "application/xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'f50779607.xml'"
+        }
+    }
+}

@@ -1,0 +1,919 @@
+{
+    "aperture": {
+        "0107372.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 81236\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "1",
+                "0"
+            ],
+            "resourceName": "b'0107372.lib'",
+            "Content-Length": "81108",
+            "Last-Modified": "2009-09-10T15:38:02Z",
+            "Last-Save-Date": "2009-09-10T15:38:02Z",
+            "X-TIKA:embedded_resource_path": "/embedded-1",
+            "date": "2009-09-10T15:38:02Z",
+            "dcterms:modified": "2009-09-10T15:38:02Z",
+            "meta:save-date": "2009-09-10T15:38:02Z",
+            "modified": "2009-09-10T15:38:02Z"
+        }
+    },
+    "[Eagle]": {
+        "0603030.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 1096282\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "2",
+                "0",
+                "1"
+            ],
+            "resourceName": [
+                "b'0603030.lib'",
+                "xf86ScanPci.o"
+            ],
+            "Content-Length": [
+                "230",
+                "1095864"
+            ],
+            "Last-Modified": [
+                "2006-01-06T19:25:54Z",
+                "2006-01-06T19:25:54Z"
+            ],
+            "Last-Save-Date": [
+                "2006-01-06T19:25:54Z",
+                "2006-01-06T19:25:54Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86ScanPci.o"
+            ],
+            "date": [
+                "2006-01-06T19:25:54Z",
+                "2006-01-06T19:25:54Z"
+            ],
+            "dcterms:modified": [
+                "2006-01-06T19:25:54Z",
+                "2006-01-06T19:25:54Z"
+            ],
+            "meta:save-date": [
+                "2006-01-06T19:25:54Z",
+                "2006-01-06T19:25:54Z"
+            ],
+            "modified": [
+                "2006-01-06T19:25:54Z",
+                "2006-01-06T19:25:54Z"
+            ],
+            "embeddedRelationshipId": "xf86ScanPci.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0603034.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 1096282\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "2",
+                "0",
+                "1"
+            ],
+            "resourceName": [
+                "b'0603034.lib'",
+                "xf86ScanPci.o"
+            ],
+            "Content-Length": [
+                "230",
+                "1095864"
+            ],
+            "Last-Modified": [
+                "2006-01-06T19:25:44Z",
+                "2006-01-06T19:25:43Z"
+            ],
+            "Last-Save-Date": [
+                "2006-01-06T19:25:44Z",
+                "2006-01-06T19:25:43Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86ScanPci.o"
+            ],
+            "date": [
+                "2006-01-06T19:25:44Z",
+                "2006-01-06T19:25:43Z"
+            ],
+            "dcterms:modified": [
+                "2006-01-06T19:25:44Z",
+                "2006-01-06T19:25:43Z"
+            ],
+            "meta:save-date": [
+                "2006-01-06T19:25:44Z",
+                "2006-01-06T19:25:43Z"
+            ],
+            "modified": [
+                "2006-01-06T19:25:44Z",
+                "2006-01-06T19:25:43Z"
+            ],
+            "embeddedRelationshipId": "xf86ScanPci.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0619160.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object",
+                "application/x-object",
+                "application/x-object",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 12890\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "2",
+                "1",
+                "0",
+                "1",
+                "0",
+                "0"
+            ],
+            "resourceName": [
+                "b'0619160.lib'",
+                "libdha.o",
+                "mtrr.o",
+                "pci.o",
+                "mmi.o"
+            ],
+            "Content-Length": [
+                "494",
+                "1664",
+                "1916",
+                "6212",
+                "2236"
+            ],
+            "Last-Modified": [
+                "2006-09-07T09:07:30Z",
+                "2006-09-07T09:07:23Z",
+                "2006-09-07T09:07:24Z",
+                "2006-09-07T09:07:25Z",
+                "2006-09-07T09:07:26Z"
+            ],
+            "Last-Save-Date": [
+                "2006-09-07T09:07:30Z",
+                "2006-09-07T09:07:23Z",
+                "2006-09-07T09:07:24Z",
+                "2006-09-07T09:07:25Z",
+                "2006-09-07T09:07:26Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/libdha.o",
+                "/mtrr.o",
+                "/pci.o",
+                "/mmi.o"
+            ],
+            "date": [
+                "2006-09-07T09:07:30Z",
+                "2006-09-07T09:07:23Z",
+                "2006-09-07T09:07:24Z",
+                "2006-09-07T09:07:25Z",
+                "2006-09-07T09:07:26Z"
+            ],
+            "dcterms:modified": [
+                "2006-09-07T09:07:30Z",
+                "2006-09-07T09:07:23Z",
+                "2006-09-07T09:07:24Z",
+                "2006-09-07T09:07:25Z",
+                "2006-09-07T09:07:26Z"
+            ],
+            "meta:save-date": [
+                "2006-09-07T09:07:30Z",
+                "2006-09-07T09:07:23Z",
+                "2006-09-07T09:07:24Z",
+                "2006-09-07T09:07:25Z",
+                "2006-09-07T09:07:26Z"
+            ],
+            "modified": [
+                "2006-09-07T09:07:30Z",
+                "2006-09-07T09:07:23Z",
+                "2006-09-07T09:07:24Z",
+                "2006-09-07T09:07:25Z",
+                "2006-09-07T09:07:26Z"
+            ],
+            "embeddedRelationshipId": [
+                "libdha.o",
+                "mtrr.o",
+                "pci.o",
+                "mmi.o"
+            ],
+            "machine:architectureBits": [
+                "32",
+                "32",
+                "32",
+                "32"
+            ],
+            "machine:endian": [
+                "Little",
+                "Little",
+                "Little",
+                "Little"
+            ],
+            "machine:machineType": [
+                "x86-32",
+                "x86-32",
+                "x86-32",
+                "x86-32"
+            ]
+        },
+        "0708072.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 1096282\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "1",
+                "1",
+                "0"
+            ],
+            "resourceName": [
+                "b'0708072.lib'",
+                "xf86ScanPci.o"
+            ],
+            "Content-Length": [
+                "230",
+                "1095864"
+            ],
+            "Last-Modified": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "Last-Save-Date": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86ScanPci.o"
+            ],
+            "date": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "dcterms:modified": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "meta:save-date": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "modified": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "embeddedRelationshipId": "xf86ScanPci.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0789509.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 1096282\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "2",
+                "0",
+                "1"
+            ],
+            "resourceName": [
+                "b'0789509.lib'",
+                "xf86ScanPci.o"
+            ],
+            "Content-Length": [
+                "230",
+                "1095864"
+            ],
+            "Last-Modified": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "Last-Save-Date": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86ScanPci.o"
+            ],
+            "date": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "dcterms:modified": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "meta:save-date": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "modified": [
+                "2005-05-13T16:28:10Z",
+                "2005-05-13T16:28:10Z"
+            ],
+            "embeddedRelationshipId": "xf86ScanPci.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0793649.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 1096282\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "1",
+                "1",
+                "0"
+            ],
+            "resourceName": [
+                "b'0793649.lib'",
+                "xf86ScanPci.o"
+            ],
+            "Content-Length": [
+                "230",
+                "1095864"
+            ],
+            "Last-Modified": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "Last-Save-Date": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86ScanPci.o"
+            ],
+            "date": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "dcterms:modified": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "meta:save-date": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "modified": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "embeddedRelationshipId": "xf86ScanPci.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0796581.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 1096282\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "2",
+                "0",
+                "1"
+            ],
+            "resourceName": [
+                "b'0796581.lib'",
+                "xf86ScanPci.o"
+            ],
+            "Content-Length": [
+                "230",
+                "1095864"
+            ],
+            "Last-Modified": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "Last-Save-Date": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86ScanPci.o"
+            ],
+            "date": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "dcterms:modified": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "meta:save-date": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "modified": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "embeddedRelationshipId": "xf86ScanPci.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0796613.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 1096282\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "1",
+                "0",
+                "0"
+            ],
+            "resourceName": [
+                "b'0796613.lib'",
+                "xf86ScanPci.o"
+            ],
+            "Content-Length": [
+                "230",
+                "1095864"
+            ],
+            "Last-Modified": [
+                "2006-10-13T00:58:47Z",
+                "2006-10-13T00:58:47Z"
+            ],
+            "Last-Save-Date": [
+                "2006-10-13T00:58:47Z",
+                "2006-10-13T00:58:47Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86ScanPci.o"
+            ],
+            "date": [
+                "2006-10-13T00:58:47Z",
+                "2006-10-13T00:58:47Z"
+            ],
+            "dcterms:modified": [
+                "2006-10-13T00:58:47Z",
+                "2006-10-13T00:58:47Z"
+            ],
+            "meta:save-date": [
+                "2006-10-13T00:58:47Z",
+                "2006-10-13T00:58:47Z"
+            ],
+            "modified": [
+                "2006-10-13T00:58:47Z",
+                "2006-10-13T00:58:47Z"
+            ],
+            "embeddedRelationshipId": "xf86ScanPci.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0801110.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 24772\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "1",
+                "1",
+                "0"
+            ],
+            "resourceName": [
+                "b'0801110.lib'",
+                "damage.o"
+            ],
+            "Content-Length": [
+                "352",
+                "24232"
+            ],
+            "Last-Modified": [
+                "2006-10-13T02:06:07Z",
+                "2006-10-13T02:06:07Z"
+            ],
+            "Last-Save-Date": [
+                "2006-10-13T02:06:07Z",
+                "2006-10-13T02:06:07Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/damage.o"
+            ],
+            "date": [
+                "2006-10-13T02:06:07Z",
+                "2006-10-13T02:06:07Z"
+            ],
+            "dcterms:modified": [
+                "2006-10-13T02:06:07Z",
+                "2006-10-13T02:06:07Z"
+            ],
+            "meta:save-date": [
+                "2006-10-13T02:06:07Z",
+                "2006-10-13T02:06:07Z"
+            ],
+            "modified": [
+                "2006-10-13T02:06:07Z",
+                "2006-10-13T02:06:07Z"
+            ],
+            "embeddedRelationshipId": "damage.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0830347.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 1096282\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "2",
+                "0",
+                "0"
+            ],
+            "resourceName": [
+                "b'0830347.lib'",
+                "xf86ScanPci.o"
+            ],
+            "Content-Length": [
+                "230",
+                "1095864"
+            ],
+            "Last-Modified": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "Last-Save-Date": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86ScanPci.o"
+            ],
+            "date": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "dcterms:modified": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "meta:save-date": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "modified": [
+                "2006-10-13T02:05:37Z",
+                "2006-10-13T02:05:37Z"
+            ],
+            "embeddedRelationshipId": "xf86ScanPci.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0830354.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 450652\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "2",
+                "0",
+                "1"
+            ],
+            "resourceName": [
+                "b'0830354.lib'",
+                "xf86PciData.o"
+            ],
+            "Content-Length": [
+                "200",
+                "450264"
+            ],
+            "Last-Modified": [
+                "2006-10-13T02:05:41Z",
+                "2006-10-13T02:05:41Z"
+            ],
+            "Last-Save-Date": [
+                "2006-10-13T02:05:41Z",
+                "2006-10-13T02:05:41Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86PciData.o"
+            ],
+            "date": [
+                "2006-10-13T02:05:41Z",
+                "2006-10-13T02:05:41Z"
+            ],
+            "dcterms:modified": [
+                "2006-10-13T02:05:41Z",
+                "2006-10-13T02:05:41Z"
+            ],
+            "meta:save-date": [
+                "2006-10-13T02:05:41Z",
+                "2006-10-13T02:05:41Z"
+            ],
+            "modified": [
+                "2006-10-13T02:05:41Z",
+                "2006-10-13T02:05:41Z"
+            ],
+            "embeddedRelationshipId": "xf86PciData.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        },
+        "0830355.lib": {
+            "Content-Type": [
+                "application/x-archive",
+                "application/octet-stream",
+                "application/x-object"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                "org.apache.tika.parser.EmptyParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ]
+            ],
+            "X-TIKA:EXCEPTION:runtime": "java.io.IOException: Invalid entry trailer. not read the content? Occured at byte: 1096282\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextArEntry(ArArchiveInputStream.java:143)\r\n\tat org.apache.commons.compress.archivers.ar.ArArchiveInputStream.getNextEntry(ArArchiveInputStream.java:236)\r\n\tat org.apache.tika.parser.pkg.PackageParser.parse(PackageParser.java:297)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "2",
+                "0",
+                "0"
+            ],
+            "resourceName": [
+                "b'0830355.lib'",
+                "xf86ScanPci.o"
+            ],
+            "Content-Length": [
+                "230",
+                "1095864"
+            ],
+            "Last-Modified": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "Last-Save-Date": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/embedded-1",
+                "/xf86ScanPci.o"
+            ],
+            "date": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "dcterms:modified": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "meta:save-date": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "modified": [
+                "2006-10-13T02:05:51Z",
+                "2006-10-13T02:05:51Z"
+            ],
+            "embeddedRelationshipId": "xf86ScanPci.o",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32"
+        }
+    }
+}

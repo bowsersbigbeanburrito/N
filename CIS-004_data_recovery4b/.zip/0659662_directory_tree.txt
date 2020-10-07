@@ -1,0 +1,526 @@
+Made with tikatree 0.0.10
+0659662/
+└── org/
+    ├── apache/
+    │   ├── xerces/
+    │   │   ├── impl/
+    │   │   │   ├── dv/
+    │   │   │   │   ├── ObjectFactory.class
+    │   │   │   │   ├── SchemaDVFactory.class
+    │   │   │   │   ├── SecuritySupport.class
+    │   │   │   │   ├── SecuritySupport12$1.class
+    │   │   │   │   ├── SecuritySupport12$2.class
+    │   │   │   │   ├── SecuritySupport12$3.class
+    │   │   │   │   ├── SecuritySupport12$4.class
+    │   │   │   │   ├── SecuritySupport12$5.class
+    │   │   │   │   ├── SecuritySupport12$6.class
+    │   │   │   │   ├── SecuritySupport12$7.class
+    │   │   │   │   ├── SecuritySupport12$8.class
+    │   │   │   │   ├── SecuritySupport12.class
+    │   │   │   │   ├── util/
+    │   │   │   │   │   ├── Base64.class
+    │   │   │   │   │   └── HexBin.class
+    │   │   │   │   ├── ValidatedInfo.class
+    │   │   │   │   ├── ValidationContext.class
+    │   │   │   │   ├── xs/
+    │   │   │   │   │   ├── AbstractDateTimeDV$DateTimeData.class
+    │   │   │   │   │   ├── AbstractDateTimeDV.class
+    │   │   │   │   │   ├── AnySimpleDV.class
+    │   │   │   │   │   ├── AnyURIDV.class
+    │   │   │   │   │   ├── Base64BinaryDV$XBase64.class
+    │   │   │   │   │   ├── Base64BinaryDV.class
+    │   │   │   │   │   ├── BaseDVFactory.class
+    │   │   │   │   │   ├── BooleanDV.class
+    │   │   │   │   │   ├── DateDV.class
+    │   │   │   │   │   ├── DateTimeDV.class
+    │   │   │   │   │   ├── DayDV.class
+    │   │   │   │   │   ├── DecimalDV$XDecimal.class
+    │   │   │   │   │   ├── DecimalDV.class
+    │   │   │   │   │   ├── DoubleDV$XDouble.class
+    │   │   │   │   │   ├── DoubleDV.class
+    │   │   │   │   │   ├── DurationDV.class
+    │   │   │   │   │   ├── EntityDV.class
+    │   │   │   │   │   ├── FloatDV$XFloat.class
+    │   │   │   │   │   ├── FloatDV.class
+    │   │   │   │   │   ├── FullDVFactory.class
+    │   │   │   │   │   ├── HexBinaryDV$XHex.class
+    │   │   │   │   │   ├── HexBinaryDV.class
+    │   │   │   │   │   ├── IDDV.class
+    │   │   │   │   │   ├── IDREFDV.class
+    │   │   │   │   │   ├── IntegerDV.class
+    │   │   │   │   │   ├── ListDV$ListData.class
+    │   │   │   │   │   ├── ListDV.class
+    │   │   │   │   │   ├── MIN/
+    │   │   │   │   │   │   └── TypeValidator.class
+    │   │   │   │   │   ├── MonthDayDV.class
+    │   │   │   │   │   ├── MonthDV.class
+    │   │   │   │   │   ├── QNameDV$XQName.class
+    │   │   │   │   │   ├── QNameDV.class
+    │   │   │   │   │   ├── SchemaDateTimeException.class
+    │   │   │   │   │   ├── SchemaDVFactoryImpl.class
+    │   │   │   │   │   ├── StringDV.class
+    │   │   │   │   │   ├── TimeDV.class
+    │   │   │   │   │   ├── UnionDV.class
+    │   │   │   │   │   ├── XSSimpleTypeDecl$1.class
+    │   │   │   │   │   ├── XSSimpleTypeDecl$2.class
+    │   │   │   │   │   ├── XSSimpleTypeDecl$ValidationContextImpl.class
+    │   │   │   │   │   ├── XSSimpleTypeDecl$XSFacetImpl.class
+    │   │   │   │   │   ├── XSSimpleTypeDecl$XSMVFacetImpl.class
+    │   │   │   │   │   ├── XSSimpleTypeDecl.class
+    │   │   │   │   │   ├── YearDV.class
+    │   │   │   │   │   └── YearMonthDV.class
+    │   │   │   │   ├── XSFacets.class
+    │   │   │   │   └── XSSimpleType.class
+    │   │   │   ├── io/
+    │   │   │   │   ├── ASCIIReader.class
+    │   │   │   │   ├── UCSReader.class
+    │   │   │   │   └── UTF8Reader.class
+    │   │   │   ├── MIN/
+    │   │   │   │   └── XMLDocumentFragmentScannerImpl.class
+    │   │   │   ├── msg/
+    │   │   │   │   ├── NUS/
+    │   │   │   │   │   └── DOMMessages.properties
+    │   │   │   │   ├── SAXMessages.properties
+    │   │   │   │   ├── XIncludeMessages.properties
+    │   │   │   │   ├── XMLMessageFormatter.class
+    │   │   │   │   ├── XMLMessages.properties
+    │   │   │   │   ├── XMLSchemaMessages.properties
+    │   │   │   │   └── XMLSerializerMessages.properties
+    │   │   │   ├── RevalidationHandler.class
+    │   │   │   ├── validation/
+    │   │   │   │   ├── EntityState.class
+    │   │   │   │   ├── ValidationManager.class
+    │   │   │   │   └── ValidationState.class
+    │   │   │   ├── Version.class
+    │   │   │   ├── XML11DocumentScannerImpl.class
+    │   │   │   ├── XML11DTDScannerImpl.class
+    │   │   │   ├── XML11EntityScanner.class
+    │   │   │   ├── XML11NamespaceBinder.class
+    │   │   │   ├── XML11NSDocumentScannerImpl$NS11ContentDispatcher.class
+    │   │   │   ├── XML11NSDocumentScannerImpl.class
+    │   │   │   ├── XMLDocumentFragmentScannerImpl$Dispatcher.class
+    │   │   │   ├── XMLDocumentFragmentScannerImpl$ElementStack.class
+    │   │   │   ├── XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.class
+    │   │   │   ├── XMLDocumentScannerImpl$ContentDispatcher.class
+    │   │   │   ├── XMLDocumentScannerImpl$DTDDispatcher.class
+    │   │   │   ├── XMLDocumentScannerImpl$PrologDispatcher.class
+    │   │   │   ├── XMLDocumentScannerImpl$TrailingMiscDispatcher.class
+    │   │   │   ├── XMLDocumentScannerImpl$XMLDeclDispatcher.class
+    │   │   │   ├── XMLDocumentScannerImpl.class
+    │   │   │   ├── XMLDTDScannerImpl.class
+    │   │   │   ├── XMLEntityHandler.class
+    │   │   │   ├── XMLEntityManager$Entity.class
+    │   │   │   ├── XMLEntityManager$ExternalEntity.class
+    │   │   │   ├── XMLEntityManager$InternalEntity.class
+    │   │   │   ├── XMLEntityManager$RewindableInputStream.class
+    │   │   │   ├── XMLEntityManager$ScannedEntity.class
+    │   │   │   ├── XMLEntityManager.class
+    │   │   │   ├── XMLEntityScanner.class
+    │   │   │   ├── XMLErrorReporter.class
+    │   │   │   ├── XMLNamespaceBinder.class
+    │   │   │   ├── XMLNSDocumentScannerImpl$NSContentDispatcher.class
+    │   │   │   ├── XMLNSDocumentScannerImpl.class
+    │   │   │   ├── XMLScanner.class
+    │   │   │   ├── XMLVersionDetector.class
+    │   │   │   ├── xpath/
+    │   │   │   │   ├── DOL/
+    │   │   │   │   │   └── XPath$Scanner.class
+    │   │   │   │   ├── NUS/
+    │   │   │   │   │   └── XPath$Tokens.class
+    │   │   │   │   ├── regex/
+    │   │   │   │   │   ├── BMPattern.class
+    │   │   │   │   │   ├── DOL/
+    │   │   │   │   │   │   └── RegexParser.class
+    │   │   │   │   │   ├── Match.class
+    │   │   │   │   │   ├── message.properties
+    │   │   │   │   │   ├── message_fr.properties
+    │   │   │   │   │   ├── message_ja.properties
+    │   │   │   │   │   ├── NGC/
+    │   │   │   │   │   │   └── Token.class
+    │   │   │   │   │   ├── Op$CharOp.class
+    │   │   │   │   │   ├── Op$ChildOp.class
+    │   │   │   │   │   ├── Op$ConditionOp.class
+    │   │   │   │   │   ├── Op$ModifierOp.class
+    │   │   │   │   │   ├── Op$RangeOp.class
+    │   │   │   │   │   ├── Op$StringOp.class
+    │   │   │   │   │   ├── Op$UnionOp.class
+    │   │   │   │   │   ├── Op.class
+    │   │   │   │   │   ├── ParseException.class
+    │   │   │   │   │   ├── ParserForXMLSchema.class
+    │   │   │   │   │   ├── RangeToken.class
+    │   │   │   │   │   ├── RegexParser$ReferencePosition.class
+    │   │   │   │   │   ├── RegularExpression$Context.class
+    │   │   │   │   │   ├── RegularExpression.class
+    │   │   │   │   │   ├── REUtil.class
+    │   │   │   │   │   ├── Token$CharToken.class
+    │   │   │   │   │   ├── Token$ClosureToken.class
+    │   │   │   │   │   ├── Token$ConcatToken.class
+    │   │   │   │   │   ├── Token$ConditionToken.class
+    │   │   │   │   │   ├── Token$FixedStringContainer.class
+    │   │   │   │   │   ├── Token$ModifierToken.class
+    │   │   │   │   │   ├── Token$ParenToken.class
+    │   │   │   │   │   ├── Token$StringToken.class
+    │   │   │   │   │   └── Token$UnionToken.class
+    │   │   │   │   ├── XPath$1.class
+    │   │   │   │   ├── XPath$Axis.class
+    │   │   │   │   ├── XPath$LocationPath.class
+    │   │   │   │   ├── XPath$NodeTest.class
+    │   │   │   │   ├── XPath$Step.class
+    │   │   │   │   ├── XPath.class
+    │   │   │   │   └── XPathException.class
+    │   │   │   └── xs/
+    │   │   │       ├── AttributePSVImpl.class
+    │   │   │       ├── ElementPSVImpl.class
+    │   │   │       ├── identity/
+    │   │   │       │   ├── Field$Matcher.class
+    │   │   │       │   ├── Field$XPath.class
+    │   │   │       │   ├── Field.class
+    │   │   │       │   ├── FieldActivator.class
+    │   │   │       │   ├── IdentityConstraint.class
+    │   │   │       │   ├── KeyRef.class
+    │   │   │       │   ├── Selector$Matcher.class
+    │   │   │       │   ├── Selector$XPath.class
+    │   │   │       │   ├── Selector.class
+    │   │   │       │   ├── UniqueOrKey.class
+    │   │   │       │   ├── ValueStore.class
+    │   │   │       │   └── XPathMatcher.class
+    │   │   │       ├── MIN/
+    │   │   │       │   └── SchemaSymbols.class
+    │   │   │       ├── models/
+    │   │   │       │   ├── CMBuilder.class
+    │   │   │       │   ├── CMNodeFactory.class
+    │   │   │       │   ├── XSAllCM.class
+    │   │   │       │   ├── XSCMBinOp.class
+    │   │   │       │   ├── XSCMLeaf.class
+    │   │   │       │   ├── XSCMUniOp.class
+    │   │   │       │   ├── XSCMValidator.class
+    │   │   │       │   ├── XSDFACM.class
+    │   │   │       │   └── XSEmptyCM.class
+    │   │   │       ├── opti/
+    │   │   │       │   ├── AttrImpl.class
+    │   │   │       │   ├── DefaultDocument.class
+    │   │   │       │   ├── DefaultElement.class
+    │   │   │       │   ├── DefaultNode.class
+    │   │   │       │   ├── DefaultText.class
+    │   │   │       │   ├── DefaultXMLDocumentHandler.class
+    │   │   │       │   ├── ElementImpl.class
+    │   │   │       │   ├── NamedNodeMapImpl.class
+    │   │   │       │   ├── NodeImpl.class
+    │   │   │       │   ├── SchemaDOM.class
+    │   │   │       │   ├── SchemaDOMParser.class
+    │   │   │       │   ├── SchemaParsingConfig.class
+    │   │   │       │   └── TextImpl.class
+    │   │   │       ├── SchemaGrammar$1.class
+    │   │   │       ├── SchemaGrammar$BuiltinAttrDecl.class
+    │   │   │       ├── SchemaGrammar$BuiltinSchemaGrammar.class
+    │   │   │       ├── SchemaGrammar$XSAnyType.class
+    │   │   │       ├── SchemaGrammar.class
+    │   │   │       ├── SchemaNamespaceSupport.class
+    │   │   │       ├── SubstitutionGroupHandler$OneSubGroup.class
+    │   │   │       ├── SubstitutionGroupHandler.class
+    │   │   │       ├── traversers/
+    │   │   │       │   ├── Container.class
+    │   │   │       │   ├── LargeContainer.class
+    │   │   │       │   ├── MIN/
+    │   │   │       │   │   ├── XSAttributeChecker.class
+    │   │   │       │   │   ├── XSDAbstractParticleTraverser.class
+    │   │   │       │   │   ├── XSDAbstractTraverser.class
+    │   │   │       │   │   ├── XSDElementTraverser.class
+    │   │   │       │   │   ├── XSDGroupTraverser.class
+    │   │   │       │   │   ├── XSDHandler.class
+    │   │   │       │   │   └── XSDWildcardTraverser.class
+    │   │   │       │   ├── OneAttr.class
+    │   │   │       │   ├── OneElement.class
+    │   │   │       │   ├── SmallContainer.class
+    │   │   │       │   ├── XSDAbstractIDConstraintTraverser.class
+    │   │   │       │   ├── XSDAbstractParticleTraverser$ParticleArray.class
+    │   │   │       │   ├── XSDAbstractTraverser$FacetInfo.class
+    │   │   │       │   ├── XSDAttributeGroupTraverser.class
+    │   │   │       │   ├── XSDAttributeTraverser.class
+    │   │   │       │   ├── XSDComplexTypeTraverser$ComplexTypeRecoverableError.class
+    │   │   │       │   ├── XSDComplexTypeTraverser.class
+    │   │   │       │   ├── XSDHandler$XSDKey.class
+    │   │   │       │   ├── XSDKeyrefTraverser.class
+    │   │   │       │   ├── XSDNotationTraverser.class
+    │   │   │       │   ├── XSDocumentInfo.class
+    │   │   │       │   ├── XSDSimpleTypeTraverser.class
+    │   │   │       │   └── XSDUniqueOrKeyTraverser.class
+    │   │   │       ├── util/
+    │   │   │       │   ├── NSItemListImpl.class
+    │   │   │       │   ├── ShortListImpl.class
+    │   │   │       │   ├── SimpleLocator.class
+    │   │   │       │   ├── StringListImpl.class
+    │   │   │       │   ├── XInt.class
+    │   │   │       │   ├── XIntPool.class
+    │   │   │       │   ├── XSGrammarPool.class
+    │   │   │       │   ├── XSNamedMap4Types.class
+    │   │   │       │   ├── XSNamedMapImpl.class
+    │   │   │       │   └── XSObjectListImpl.class
+    │   │   │       ├── XMLSchemaException.class
+    │   │   │       ├── XMLSchemaLoader$LocationArray.class
+    │   │   │       ├── XMLSchemaLoader.class
+    │   │   │       ├── XMLSchemaValidator$KeyRefValueStore.class
+    │   │   │       ├── XMLSchemaValidator$KeyValueStore.class
+    │   │   │       ├── XMLSchemaValidator$LocalIDKey.class
+    │   │   │       ├── XMLSchemaValidator$UniqueValueStore.class
+    │   │   │       ├── XMLSchemaValidator$ValueStoreBase.class
+    │   │   │       ├── XMLSchemaValidator$ValueStoreCache.class
+    │   │   │       ├── XMLSchemaValidator$XPathMatcherStack.class
+    │   │   │       ├── XMLSchemaValidator$XSIErrorReporter.class
+    │   │   │       ├── XMLSchemaValidator.class
+    │   │   │       ├── XSAnnotationImpl.class
+    │   │   │       ├── XSAttributeDecl.class
+    │   │   │       ├── XSAttributeGroupDecl.class
+    │   │   │       ├── XSAttributeUseImpl.class
+    │   │   │       ├── XSComplexTypeDecl.class
+    │   │   │       ├── XSConstraints.class
+    │   │   │       ├── XSDDescription.class
+    │   │   │       ├── XSDeclarationPool.class
+    │   │   │       ├── XSElementDecl.class
+    │   │   │       ├── XSGrammarBucket.class
+    │   │   │       ├── XSGroupDecl.class
+    │   │   │       ├── XSImplementationImpl.class
+    │   │   │       ├── XSMessageFormatter.class
+    │   │   │       ├── XSModelGroupImpl.class
+    │   │   │       ├── XSModelImpl.class
+    │   │   │       ├── XSNotationDecl.class
+    │   │   │       ├── XSParticleDecl.class
+    │   │   │       └── XSWildcardDecl.class
+    │   │   ├── jaxp/
+    │   │   │   ├── DefaultValidationErrorHandler.class
+    │   │   │   ├── DocumentBuilderFactoryImpl.class
+    │   │   │   ├── DocumentBuilderImpl.class
+    │   │   │   ├── JAXPConstants.class
+    │   │   │   ├── SAXParserFactoryImpl.class
+    │   │   │   └── SAXParserImpl.class
+    │   │   ├── parsers/
+    │   │   │   ├── AbstractDOMParser.class
+    │   │   │   ├── AbstractSAXParser$1.class
+    │   │   │   ├── AbstractSAXParser$2.class
+    │   │   │   ├── AbstractSAXParser$AttributesProxy.class
+    │   │   │   ├── AbstractSAXParser$LocatorProxy.class
+    │   │   │   ├── AbstractSAXParser.class
+    │   │   │   ├── AbstractXMLDocumentParser.class
+    │   │   │   ├── BasicParserConfiguration.class
+    │   │   │   ├── CachingParserPool$ShadowedGrammarPool.class
+    │   │   │   ├── CachingParserPool$SynchronizedGrammarPool.class
+    │   │   │   ├── CachingParserPool.class
+    │   │   │   ├── DOMASBuilderImpl.class
+    │   │   │   ├── DOMParser.class
+    │   │   │   ├── DOMParserImpl.class
+    │   │   │   ├── DTDConfiguration.class
+    │   │   │   ├── DTDParser.class
+    │   │   │   ├── IntegratedParserConfiguration.class
+    │   │   │   ├── NonValidatingConfiguration.class
+    │   │   │   ├── ObjectFactory$ConfigurationError.class
+    │   │   │   ├── ObjectFactory.class
+    │   │   │   ├── SAXParser.class
+    │   │   │   ├── SecurityConfiguration.class
+    │   │   │   ├── SecuritySupport.class
+    │   │   │   ├── SecuritySupport12$1.class
+    │   │   │   ├── SecuritySupport12$2.class
+    │   │   │   ├── SecuritySupport12$3.class
+    │   │   │   ├── SecuritySupport12$4.class
+    │   │   │   ├── SecuritySupport12$5.class
+    │   │   │   ├── SecuritySupport12$6.class
+    │   │   │   ├── SecuritySupport12$7.class
+    │   │   │   ├── SecuritySupport12$8.class
+    │   │   │   ├── SecuritySupport12.class
+    │   │   │   ├── StandardParserConfiguration.class
+    │   │   │   ├── XIncludeParserConfiguration.class
+    │   │   │   ├── XML11Configuration.class
+    │   │   │   ├── XMLDocumentParser.class
+    │   │   │   ├── XMLGrammarCachingConfiguration.class
+    │   │   │   ├── XMLGrammarParser.class
+    │   │   │   ├── XMLGrammarPreparser.class
+    │   │   │   └── XMLParser.class
+    │   │   ├── util/
+    │   │   │   ├── AugmentationsImpl$AugmentationsItemsContainer.class
+    │   │   │   ├── AugmentationsImpl$LargeContainer.class
+    │   │   │   ├── AugmentationsImpl$SmallContainer$SmallContainerKeyEnumeration.class
+    │   │   │   ├── AugmentationsImpl$SmallContainer.class
+    │   │   │   ├── AugmentationsImpl.class
+    │   │   │   ├── DefaultErrorHandler.class
+    │   │   │   ├── DOMEntityResolverWrapper.class
+    │   │   │   ├── DOMErrorHandlerWrapper.class
+    │   │   │   ├── DOMUtil.class
+    │   │   │   ├── EntityResolverWrapper.class
+    │   │   │   ├── ErrorHandlerWrapper$1.class
+    │   │   │   ├── ErrorHandlerWrapper.class
+    │   │   │   ├── IntStack.class
+    │   │   │   ├── MessageFormatter.class
+    │   │   │   ├── NamespaceSupport$Prefixes.class
+    │   │   │   ├── NamespaceSupport.class
+    │   │   │   ├── NTR/
+    │   │   │   │   └── XML11Char.class
+    │   │   │   ├── ParserConfigurationSettings.class
+    │   │   │   ├── SAXMessageFormatter.class
+    │   │   │   ├── SecurityManager.class
+    │   │   │   ├── ShadowedSymbolTable.class
+    │   │   │   ├── SymbolHash$Entry.class
+    │   │   │   ├── SymbolHash.class
+    │   │   │   ├── SymbolTable$Entry.class
+    │   │   │   ├── SymbolTable.class
+    │   │   │   ├── SynchronizedSymbolTable.class
+    │   │   │   ├── TIS-/
+    │   │   │   │   └── EncodingMap.class
+    │   │   │   ├── URI$MalformedURIException.class
+    │   │   │   ├── URI.class
+    │   │   │   ├── XMLAttributesImpl$Attribute.class
+    │   │   │   ├── XMLAttributesImpl.class
+    │   │   │   ├── XMLCatalogResolver.class
+    │   │   │   ├── XMLChar.class
+    │   │   │   ├── XMLGrammarPoolImpl$Entry.class
+    │   │   │   ├── XMLGrammarPoolImpl.class
+    │   │   │   ├── XMLResourceIdentifierImpl.class
+    │   │   │   ├── XMLStringBuffer.class
+    │   │   │   └── XMLSymbols.class
+    │   │   ├── xinclude/
+    │   │   │   ├── MultipleScopeNamespaceSupport.class
+    │   │   │   ├── ObjectFactory$ConfigurationError.class
+    │   │   │   ├── ObjectFactory.class
+    │   │   │   ├── SecuritySupport.class
+    │   │   │   ├── SecuritySupport12$1.class
+    │   │   │   ├── SecuritySupport12$2.class
+    │   │   │   ├── SecuritySupport12$3.class
+    │   │   │   ├── SecuritySupport12$4.class
+    │   │   │   ├── SecuritySupport12$5.class
+    │   │   │   ├── SecuritySupport12$6.class
+    │   │   │   ├── SecuritySupport12$7.class
+    │   │   │   ├── SecuritySupport12$8.class
+    │   │   │   ├── SecuritySupport12.class
+    │   │   │   ├── XInclude11TextReader.class
+    │   │   │   ├── XIncludeHandler$Notation.class
+    │   │   │   ├── XIncludeHandler$UnparsedEntity.class
+    │   │   │   ├── XIncludeHandler.class
+    │   │   │   ├── XIncludeMessageFormatter.class
+    │   │   │   ├── XIncludeNamespaceSupport.class
+    │   │   │   └── XIncludeTextReader.class
+    │   │   ├── xni/
+    │   │   │   ├── Augmentations.class
+    │   │   │   ├── grammars/
+    │   │   │   │   ├── Grammar.class
+    │   │   │   │   ├── XMLDTDDescription.class
+    │   │   │   │   ├── XMLGrammarDescription.class
+    │   │   │   │   ├── XMLGrammarLoader.class
+    │   │   │   │   ├── XMLGrammarPool.class
+    │   │   │   │   ├── XMLSchemaDescription.class
+    │   │   │   │   └── XSGrammar.class
+    │   │   │   ├── NamespaceContext.class
+    │   │   │   ├── parser/
+    │   │   │   │   ├── XMLComponent.class
+    │   │   │   │   ├── XMLComponentManager.class
+    │   │   │   │   ├── XMLConfigurationException.class
+    │   │   │   │   ├── XMLDocumentFilter.class
+    │   │   │   │   ├── XMLDocumentScanner.class
+    │   │   │   │   ├── XMLDocumentSource.class
+    │   │   │   │   ├── XMLDTDContentModelFilter.class
+    │   │   │   │   ├── XMLDTDContentModelSource.class
+    │   │   │   │   ├── XMLDTDFilter.class
+    │   │   │   │   ├── XMLDTDScanner.class
+    │   │   │   │   ├── XMLDTDSource.class
+    │   │   │   │   ├── XMLEntityResolver.class
+    │   │   │   │   ├── XMLErrorHandler.class
+    │   │   │   │   ├── XMLInputSource.class
+    │   │   │   │   ├── XMLParseException.class
+    │   │   │   │   ├── XMLParserConfiguration.class
+    │   │   │   │   └── XMLPullParserConfiguration.class
+    │   │   │   ├── QName.class
+    │   │   │   ├── XMLAttributes.class
+    │   │   │   ├── XMLDocumentFragmentHandler.class
+    │   │   │   ├── XMLDocumentHandler.class
+    │   │   │   ├── XMLDTDContentModelHandler.class
+    │   │   │   ├── XMLDTDHandler.class
+    │   │   │   ├── XMLLocator.class
+    │   │   │   ├── XMLResourceIdentifier.class
+    │   │   │   ├── XMLString.class
+    │   │   │   └── XNIException.class
+    │   │   └── xs/
+    │   │       ├── AttributePSVI.class
+    │   │       ├── ElementPSVI.class
+    │   │       ├── ItemPSVI.class
+    │   │       ├── LSInputList.class
+    │   │       ├── MIN/
+    │   │       │   └── XSSimpleTypeDefinition.class
+    │   │       ├── PSVIProvider.class
+    │   │       ├── ShortList.class
+    │   │       ├── StringList.class
+    │   │       ├── XSAnnotation.class
+    │   │       ├── XSAttributeDeclaration.class
+    │   │       ├── XSAttributeGroupDefinition.class
+    │   │       ├── XSAttributeUse.class
+    │   │       ├── XSComplexTypeDefinition.class
+    │   │       ├── XSConstants.class
+    │   │       ├── XSElementDeclaration.class
+    │   │       ├── XSException.class
+    │   │       ├── XSFacet.class
+    │   │       ├── XSIDCDefinition.class
+    │   │       ├── XSImplementation.class
+    │   │       ├── XSLoader.class
+    │   │       ├── XSModel.class
+    │   │       ├── XSModelGroup.class
+    │   │       ├── XSModelGroupDefinition.class
+    │   │       ├── XSMultiValueFacet.class
+    │   │       ├── XSNamedMap.class
+    │   │       ├── XSNamespaceItem.class
+    │   │       ├── XSNamespaceItemList.class
+    │   │       ├── XSNotationDeclaration.class
+    │   │       ├── XSObject.class
+    │   │       ├── XSObjectList.class
+    │   │       ├── XSParticle.class
+    │   │       ├── XSTerm.class
+    │   │       ├── XSTypeDefinition.class
+    │   │       └── XSWildcard.class
+    │   └── xml/
+    │       └── serialize/
+    │           ├── BaseMarkupSerializer.class
+    │           ├── DOMSerializer.class
+    │           ├── DOMSerializerImpl.class
+    │           ├── ElementState.class
+    │           ├── EncodingInfo.class
+    │           ├── Encodings.class
+    │           ├── HTMLdtd.class
+    │           ├── HTMLEntities.res
+    │           ├── HTMLSerializer.class
+    │           ├── IndentPrinter.class
+    │           ├── LineSeparator.class
+    │           ├── Method.class
+    │           ├── ObjectFactory$ConfigurationError.class
+    │           ├── ObjectFactory.class
+    │           ├── OutputFormat$Defaults.class
+    │           ├── OutputFormat$DTD.class
+    │           ├── OutputFormat.class
+    │           ├── Printer.class
+    │           ├── SecuritySupport.class
+    │           ├── SecuritySupport12$1.class
+    │           ├── SecuritySupport12$2.class
+    │           ├── SecuritySupport12$3.class
+    │           ├── SecuritySupport12$4.class
+    │           ├── SecuritySupport12$5.class
+    │           ├── SecuritySupport12$6.class
+    │           ├── SecuritySupport12$7.class
+    │           ├── SecuritySupport12$8.class
+    │           ├── SecuritySupport12.class
+    │           ├── Serializer.class
+    │           ├── SerializerFactory.class
+    │           ├── SerializerFactoryImpl.class
+    │           ├── TextSerializer.class
+    │           ├── XHTMLSerializer.class
+    │           ├── XML11Serializer.class
+    │           └── XMLSerializer.class
+    └── w3c/
+        └── dom/
+            ├── html/
+            │   └── HTMLDOMImplementation.class
+            └── ls/
+                ├── DOMImplementationLS.class
+                ├── LSException.class
+                ├── LSInput.class
+                ├── LSLoadEvent.class
+                ├── LSOutput.class
+                ├── LSParser.class
+                ├── LSParserFilter.class
+                ├── LSProgressEvent.class
+                ├── LSResourceResolver.class
+                ├── LSSerializer.class
+                └── LSSerializerFilter.class

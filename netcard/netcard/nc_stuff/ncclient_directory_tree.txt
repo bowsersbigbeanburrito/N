@@ -1,0 +1,322 @@
+ncclient/
+├── .svn/
+├── 01.ico
+├── 02.ico
+├── 2mp3/
+│   ├── Include/
+│   │   ├── lame.h
+│   │   ├── st.h
+│   │   ├── st_i.h
+│   │   ├── stconfig.h
+│   │   └── ststdint.h
+│   ├── Lib/
+│   │   ├── libmp3lame.lib
+│   │   ├── mpglib.lib
+│   │   └── stlib.lib
+│   ├── sox.cpp
+│   ├── sox.h
+│   └── tomp3.rar
+├── ADFlib/
+│   ├── Include/
+│   │   ├── adf_bitm.h
+│   │   ├── adf_blk.h
+│   │   ├── adf_cache.h
+│   │   ├── adf_defs.h
+│   │   ├── adf_dir.h
+│   │   ├── adf_disk.h
+│   │   ├── adf_dump.h
+│   │   ├── adf_env.h
+│   │   ├── adf_err.h
+│   │   ├── adf_file.h
+│   │   ├── adf_hd.h
+│   │   ├── adf_link.h
+│   │   ├── adf_raw.h
+│   │   ├── adf_salv.h
+│   │   ├── adf_str.h
+│   │   ├── adf_util.h
+│   │   ├── adflib.h
+│   │   ├── Generic/
+│   │   │   ├── adf_nativ.c
+│   │   │   └── adf_nativ.h
+│   │   ├── hd_blk.h
+│   │   ├── prefix.h
+│   │   └── Win32/
+│   │       ├── adf_nativ.c
+│   │       ├── adf_nativ.h
+│   │       ├── adfvolinfo.c
+│   │       ├── defendian.h
+│   │       ├── nt4_dev.c
+│   │       ├── nt4_dev.h
+│   │       └── readme_win32.html
+│   ├── Libs/
+│   │   ├── adf.lib
+│   │   └── adfdbg.lib
+│   └── README
+├── AutoFont.cpp
+├── AutoFont.h
+├── bitButton.cpp
+├── bitButton.h
+├── bitmapwindow.h
+├── ClassListWnd.cpp
+├── ClassListWnd.h
+├── filecopy.h
+├── FileCopyProgress.cpp
+├── FileCopyProgress.h
+├── FlgDel.cpp
+├── FlgDel.h
+├── FreeImage.dll
+├── FreeImage.lib
+├── img2gba/
+│   ├── bmp2gba.cpp
+│   ├── bmp2gba.h
+│   ├── convert.cpp
+│   ├── convert.h
+│   ├── FreeImage.h
+│   ├── lib/
+│   │   ├── FreeImage.dll
+│   │   └── FreeImage.lib
+│   ├── utilities.cpp
+│   └── utilities.h
+├── include/
+│   ├── ec.h
+│   ├── es.h
+│   ├── estypes.h
+│   ├── flash.h
+│   ├── fs.h
+│   ├── gba/
+│   │   ├── Agb.h
+│   │   ├── AgbDefine.h
+│   │   ├── AgbDefine.s
+│   │   ├── AgbDefineArm.s
+│   │   ├── AgbIr.h
+│   │   ├── AgbMacro.h
+│   │   ├── AgbMacro.s
+│   │   ├── AgbMacroArm.s
+│   │   ├── AgbMemoryMap.h
+│   │   ├── AgbMemoryMap.s
+│   │   ├── AgbMemoryMapArm.s
+│   │   ├── AgbMultiBoot.h
+│   │   ├── AgbRtc.h
+│   │   ├── AgbSound.h
+│   │   ├── AgbSyscallDefine.s
+│   │   ├── AgbSyscallDefineArm.s
+│   │   ├── AgbSystemCall.h
+│   │   ├── AgbTypes.h
+│   │   ├── backup/
+│   │   │   ├── AgbDacs.h
+│   │   │   ├── AgbEeprom.h
+│   │   │   ├── AgbFlash1M.h
+│   │   │   ├── AgbFlash512K.h
+│   │   │   ├── AgbSram.h
+│   │   │   └── AgbSramFast.h
+│   │   ├── bg.h
+│   │   ├── ios.h
+│   │   ├── IsAgbPrint.h
+│   │   ├── libc.h
+│   │   ├── mylib.h
+│   │   ├── myTypes.h
+│   │   ├── obj.h
+│   │   ├── scrpc.h
+│   │   └── stdSub.h
+│   ├── iosc.h
+│   ├── ioslibc.h
+│   ├── lce.h
+│   ├── make/
+│   │   ├── commondefs
+│   │   ├── commonrules
+│   │   ├── GBAdefs
+│   │   ├── SCaddrs
+│   │   ├── SCboot
+│   │   ├── SCdefs
+│   │   └── X86defs
+│   ├── sc/
+│   │   ├── addr_map.h
+│   │   ├── arm.h
+│   │   ├── asm.h
+│   │   ├── aud.h
+│   │   ├── elf.h
+│   │   ├── ios.h
+│   │   ├── iostypes.h
+│   │   ├── mad.h
+│   │   ├── mediafs.h
+│   │   ├── mp3.h
+│   │   ├── rtc.h
+│   │   ├── sc.h
+│   │   ├── semihost.h
+│   │   ├── semihost_usb.h
+│   │   ├── shell.h
+│   │   ├── usb.h
+│   │   ├── vio.h
+│   │   └── wa.h
+│   ├── server_rpc.h
+│   ├── types.h
+│   ├── vng.h
+│   ├── vng_p.h
+│   ├── vng_priv.h
+│   ├── vng_server.h
+│   ├── vng_types.h
+│   └── x86/
+│       ├── elf.h
+│       └── ncmedia.h
+├── iQue聚乐部管理软件.exe
+├── MCIMP3.cpp
+├── MCIMP3.h
+├── MEMDC.H
+├── MFECToolTip.cpp
+├── MFECToolTip.h
+├── nc.clw
+├── nc.cpp
+├── nc.dsp
+├── nc.dsw
+├── nc.h
+├── nc.ncb
+├── nc.opt
+├── nc.plg
+├── nc.rc
+├── ncDlg.cpp
+├── ncDlg.h
+├── NcFolder.cpp
+├── NcFolder.h
+├── ncmedia.cpp
+├── ncmedia.h
+├── ncskin/
+│   └── red/
+│       ├── bk_part0.bmp
+│       ├── bk_part1.bmp
+│       ├── bk_part10.bmp
+│       ├── bk_part2.bmp
+│       ├── bk_part3.bmp
+│       ├── bk_part4.bmp
+│       ├── bk_part6.bmp
+│       ├── bk_part8.bmp
+│       ├── bk_part9.bmp
+│       ├── book_h.bmp
+│       ├── book_n.bmp
+│       ├── book_on.bmp
+│       ├── bot_left.bmp
+│       ├── btback_d.bmp
+│       ├── btback_g.bmp
+│       ├── btback_h.bmp
+│       ├── btback_n.bmp
+│       ├── btclose_d.bmp
+│       ├── btclose_h.bmp
+│       ├── btclose_n.bmp
+│       ├── btdel_d.bmp
+│       ├── btdel_h.bmp
+│       ├── btdel_n.bmp
+│       ├── btmin_d.bmp
+│       ├── btmin_h.bmp
+│       ├── btmin_n.bmp
+│       ├── btmut_c.bmp
+│       ├── btmut_o.bmp
+│       ├── btnewdir_d.bmp
+│       ├── btnewdir_h.bmp
+│       ├── btnewdir_n.bmp
+│       ├── btnext_d.bmp
+│       ├── btnext_g.bmp
+│       ├── btnext_h.bmp
+│       ├── btnext_n.bmp
+│       ├── btplay_d.bmp
+│       ├── btplay_g.bmp
+│       ├── btplay_h.bmp
+│       ├── btplay_n.bmp
+│       ├── btrefresh_d.bmp
+│       ├── btrefresh_h.bmp
+│       ├── btrefresh_n.bmp
+│       ├── btstop_d.bmp
+│       ├── btstop_h.bmp
+│       ├── btstop_n.bmp
+│       ├── freespace_bk.bmp
+│       ├── header_split.bmp
+│       ├── header_tt.bmp
+│       ├── jlb.ico
+│       ├── music_h.bmp
+│       ├── music_n.bmp
+│       ├── music_on.bmp
+│       ├── nc.ico
+│       ├── ncsys.ico
+│       ├── new.bmp
+│       ├── pgs_back.bmp
+│       ├── pgs_fore.bmp
+│       ├── pic_h.bmp
+│       ├── pic_n.bmp
+│       ├── pic_on.bmp
+│       ├── skin.ini
+│       ├── top_mid2.bmp
+│       ├── vol_sld.bmp
+│       └── vol_tub.bmp
+├── PictureEx.cpp
+├── PictureEx.h
+├── ProgCtrl.cpp
+├── ProgCtrl.h
+├── ReadMe.txt
+├── Release/
+│   ├── bitButton.obj
+│   ├── bmp2gba.obj
+│   ├── ClassListWnd.obj
+│   ├── convert.obj
+│   ├── FileCopyProgress.obj
+│   ├── FlgDel.obj
+│   ├── MCIMP3.obj
+│   ├── MFECToolTip.obj
+│   ├── nc.obj
+│   ├── nc.pch
+│   ├── nc.res
+│   ├── ncDlg.obj
+│   ├── NcFolder.obj
+│   ├── ncmedia.obj
+│   ├── PictureEx.obj
+│   ├── ProgCtrl.obj
+│   ├── RCa03172
+│   ├── SkinHeaderCtrl.obj
+│   ├── SliderCtrl.obj
+│   ├── StdAfx.obj
+│   ├── TransparentStatic2.obj
+│   ├── utilities.obj
+│   ├── utils.obj
+│   ├── vc60.idb
+│   └── VolumControl.obj
+├── res/
+│   ├── 0002.bmp
+│   ├── 0003.bmp
+│   ├── bk_part7.bmp
+│   ├── deldlg.bmp
+│   ├── delete_no.bmp
+│   ├── delete_noup.bmp
+│   ├── delete_no按下.bmp
+│   ├── delete_yes.bmp
+│   ├── delete_yesup.bmp
+│   ├── delete_yes按下.bmp
+│   ├── jlb.ico
+│   ├── nc.ico
+│   ├── nc.rc2
+│   ├── ncsys.ico
+│   ├── sld.bmp
+│   └── tiao.GIF
+├── resource.h
+├── SkinHeaderCtrl.cpp
+├── SkinHeaderCtrl.h
+├── SkinHorizontalScrollbar.cpp
+├── SkinHorizontalScrollbar.h
+├── SkinListCtrl.cpp
+├── SkinListCtrl.cppbak
+├── SkinListCtrl.h
+├── SkinListCtrl.hbak
+├── SkinVerticleScrollbar.cpp
+├── SkinVerticleScrollbar.h
+├── SliderCtrl.cpp
+├── SliderCtrl.h
+├── StdAfx.cpp
+├── StdAfx.h
+├── tmpwork.txt
+├── TransparentStatic.cpp
+├── TransparentStatic.h
+├── TransparentStatic2.cpp
+├── TransparentStatic2.h
+├── USkin.dll
+├── USkin.h
+├── USkin.lib
+├── utils.cpp
+├── utils.h
+├── VolumControl.cpp
+└── VolumControl.h

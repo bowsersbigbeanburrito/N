@@ -1,0 +1,771 @@
+ctr_firmware/
+├── .git/
+├── bootrom/
+│   ├── _
+│   ├── build/
+│   │   ├── bootrom/
+│   │   │   ├── alarm/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── main.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   ├── main.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── Makefile
+│   │   │   │   └── rom/
+│   │   │   │       ├── crt0.c
+│   │   │   │       └── Makefile
+│   │   │   ├── ctr_bootrom/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── main.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   ├── main.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── Makefile
+│   │   │   │   └── rom/
+│   │   │   │       ├── crt0.c
+│   │   │   │       └── Makefile
+│   │   │   ├── jtag-only/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── crt0.c
+│   │   │   │   │   ├── crt0_secure.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   ├── crt0.c
+│   │   │   │   │   ├── crt0_secure_sp.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── Makefile
+│   │   │   │   └── rom/
+│   │   │   │       ├── crt0.c
+│   │   │   │       └── Makefile
+│   │   │   ├── Makefile
+│   │   │   ├── teg-dev/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── crt0_secure.c
+│   │   │   │   │   ├── main.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   ├── crt0_secure_sp.c
+│   │   │   │   │   ├── main.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── Makefile
+│   │   │   │   └── rom/
+│   │   │   │       ├── crt0.c
+│   │   │   │       └── Makefile
+│   │   │   ├── thread/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── Makefile
+│   │   │   │   └── rom/
+│   │   │   │       ├── crt0.c
+│   │   │   │       └── Makefile
+│   │   │   └── vfp/
+│   │   │       ├── ARM11/
+│   │   │       │   └── Makefile
+│   │   │       ├── ARM9/
+│   │   │       │   └── Makefile
+│   │   │       ├── Makefile
+│   │   │       └── rom/
+│   │   │           ├── crt0.c
+│   │   │           └── Makefile
+│   │   ├── buildsetup/
+│   │   │   └── Makefile
+│   │   ├── buildtools/
+│   │   │   ├── commondefs
+│   │   │   ├── commondefs.config
+│   │   │   └── modulerules
+│   │   ├── firmware_tests/
+│   │   │   ├── exclusive/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   └── Makefile
+│   │   │   ├── Makefile
+│   │   │   └── thread/
+│   │   │       ├── ARM11/
+│   │   │       │   └── Makefile
+│   │   │       ├── ARM9/
+│   │   │       │   └── Makefile
+│   │   │       └── Makefile
+│   │   ├── libraries/
+│   │   │   ├── init/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── crt0.c
+│   │   │   │   │   ├── crt0_app.c
+│   │   │   │   │   ├── crt0_firm.c
+│   │   │   │   │   ├── crt0_misc.c
+│   │   │   │   │   ├── crt0_mmu.c
+│   │   │   │   │   ├── crt0_ne1.c
+│   │   │   │   │   ├── crt0_scat.c
+│   │   │   │   │   ├── crt0_secure.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   ├── crt0.c
+│   │   │   │   │   ├── crt0_app.c
+│   │   │   │   │   ├── crt0_firm.c
+│   │   │   │   │   ├── crt0_misc_sp.c
+│   │   │   │   │   ├── crt0_pu.c
+│   │   │   │   │   ├── crt0_scat.c
+│   │   │   │   │   ├── crt0_secure_sp.c
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── common/
+│   │   │   │   │   └── crt0_excp.c
+│   │   │   │   └── Makefile
+│   │   │   ├── Makefile
+│   │   │   ├── mi/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── common/
+│   │   │   │   │   ├── mi_exclusive.c
+│   │   │   │   │   └── mi_memory.c
+│   │   │   │   └── Makefile
+│   │   │   ├── nand/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   └── src/
+│   │   │   │   │       └── ne1/
+│   │   │   │   │           ├── crc.c
+│   │   │   │   │           ├── crc.h
+│   │   │   │   │           ├── nand.c
+│   │   │   │   │           ├── nand.h
+│   │   │   │   │           ├── nandif.c
+│   │   │   │   │           ├── nandif_ip.h
+│   │   │   │   │           └── nandif_reg.h
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   └── Makefile
+│   │   │   ├── os/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   └── os_mmu.c
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   └── os_protectionUnit.c
+│   │   │   │   ├── common/
+│   │   │   │   │   ├── os_alarm.c
+│   │   │   │   │   ├── os_boot.c
+│   │   │   │   │   ├── os_cache.c
+│   │   │   │   │   ├── os_context.c
+│   │   │   │   │   ├── os_event.c
+│   │   │   │   │   ├── os_exception.c
+│   │   │   │   │   ├── os_init.c
+│   │   │   │   │   ├── os_interrupt.c
+│   │   │   │   │   ├── os_irqHandler.c
+│   │   │   │   │   ├── os_irqThreadSwitch.c
+│   │   │   │   │   ├── os_message.c
+│   │   │   │   │   ├── os_mutex.c
+│   │   │   │   │   ├── os_printf.c
+│   │   │   │   │   ├── os_spinLock.c
+│   │   │   │   │   ├── os_system.c
+│   │   │   │   │   ├── os_thread.c
+│   │   │   │   │   ├── os_tick.c
+│   │   │   │   │   └── os_timer.c
+│   │   │   │   └── Makefile
+│   │   │   ├── prom/
+│   │   │   │   └── prom_crt0.c
+│   │   │   ├── pxi/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── common/
+│   │   │   │   │   └── pxi_misc.c
+│   │   │   │   └── Makefile
+│   │   │   ├── swi/
+│   │   │   │   └── common/
+│   │   │   │       └── swi_table.c
+│   │   │   └── vlink/
+│   │   │       ├── ARM11/
+│   │   │       │   └── Makefile
+│   │   │       ├── ARM9/
+│   │   │       │   └── Makefile
+│   │   │       ├── common/
+│   │   │       │   └── osemu.c
+│   │   │       └── Makefile
+│   │   ├── Makefile
+│   │   └── tests/
+│   │       ├── exclusive/
+│   │       │   ├── ARM11/
+│   │       │   │   ├── main.c
+│   │       │   │   └── Makefile
+│   │       │   ├── ARM9/
+│   │       │   │   ├── main.c
+│   │       │   │   └── Makefile
+│   │       │   └── Makefile
+│   │       ├── Makefile
+│   │       ├── nand/
+│   │       │   ├── ARM11/
+│   │       │   │   ├── main.c
+│   │       │   │   └── Makefile
+│   │       │   ├── ARM9/
+│   │       │   │   ├── main.c
+│   │       │   │   └── Makefile
+│   │       │   └── Makefile
+│   │       ├── thread/
+│   │       │   ├── ARM11/
+│   │       │   │   ├── main.c
+│   │       │   │   └── Makefile
+│   │       │   ├── ARM9/
+│   │       │   │   ├── main.c
+│   │       │   │   └── Makefile
+│   │       │   └── Makefile
+│   │       └── vfp/
+│   │           ├── ARM11/
+│   │           │   ├── main.c
+│   │           │   └── Makefile
+│   │           ├── ARM9/
+│   │           │   ├── main.c
+│   │           │   └── Makefile
+│   │           └── Makefile
+│   ├── include/
+│   │   ├── app/
+│   │   │   ├── hw/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── mmap_app.h
+│   │   │   │   │   └── mmap_main.h
+│   │   │   │   └── ARM9/
+│   │   │   │       ├── mmap_app.h
+│   │   │   │       └── mmap_tcm.h
+│   │   │   ├── memorymap.h
+│   │   │   └── memorymap_sp.h
+│   │   ├── brom/
+│   │   │   ├── brom_defs.h
+│   │   │   ├── c_extension.h
+│   │   │   ├── code16.h
+│   │   │   ├── code32.h
+│   │   │   ├── codereset.h
+│   │   │   ├── dtcm_begin.h
+│   │   │   ├── dtcm_end.h
+│   │   │   ├── hw/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── mmap_axi_wram.h
+│   │   │   │   │   └── mmap_brom.h
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   ├── mmap_brom.h
+│   │   │   │   │   └── mmap_tcm.h
+│   │   │   │   └── common/
+│   │   │   │       ├── mmap_prom.h
+│   │   │   │       └── mmap_shared.h
+│   │   │   ├── init/
+│   │   │   │   ├── crt0.h
+│   │   │   │   └── stup.h
+│   │   │   ├── init.h
+│   │   │   ├── itcm_begin.h
+│   │   │   ├── itcm_end.h
+│   │   │   ├── math/
+│   │   │   │   └── math.h
+│   │   │   ├── math.h
+│   │   │   ├── memorymap.h
+│   │   │   ├── memorymap_sp.h
+│   │   │   ├── mi/
+│   │   │   │   ├── byteAccess.h
+│   │   │   │   ├── exclusive.h
+│   │   │   │   └── memory.h
+│   │   │   ├── mi.h
+│   │   │   ├── misc.h
+│   │   │   ├── nand/
+│   │   │   │   ├── nand.h
+│   │   │   │   └── nandif_ip.h
+│   │   │   ├── os/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── interrupt_types.h
+│   │   │   │   │   └── mmu.h
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   ├── interrupt_types.h
+│   │   │   │   │   └── protectionUnit.h
+│   │   │   │   └── common/
+│   │   │   │       ├── alarm.h
+│   │   │   │       ├── boot.h
+│   │   │   │       ├── cache.h
+│   │   │   │       ├── context.h
+│   │   │   │       ├── event.h
+│   │   │   │       ├── exception.h
+│   │   │   │       ├── init.h
+│   │   │   │       ├── interrupt.h
+│   │   │   │       ├── message.h
+│   │   │   │       ├── mutex.h
+│   │   │   │       ├── printf.h
+│   │   │   │       ├── spinLock.h
+│   │   │   │       ├── system.h
+│   │   │   │       ├── thread.h
+│   │   │   │       ├── tick.h
+│   │   │   │       └── timer.h
+│   │   │   ├── os.h
+│   │   │   ├── pxi/
+│   │   │   │   └── common/
+│   │   │   │       ├── fifo.h
+│   │   │   │       ├── misc.h
+│   │   │   │       └── regname.h
+│   │   │   ├── pxi.h
+│   │   │   ├── specfiles/
+│   │   │   │   ├── ARM11-APP.ldscript.template
+│   │   │   │   ├── ARM11-BROM.ldscript.template
+│   │   │   │   ├── ARM11-FIRM.ldscript.template
+│   │   │   │   ├── ARM9-APP.ldscript.template
+│   │   │   │   ├── ARM9-BROM.ldscript.template
+│   │   │   │   ├── ARM9-FIRM.ldscript.template
+│   │   │   │   └── PROM.ldscript.template
+│   │   │   ├── swi/
+│   │   │   │   └── swi.h
+│   │   │   ├── swi.h
+│   │   │   ├── types.h
+│   │   │   └── vlink.h
+│   │   └── brom.h
+│   ├── Makefile
+│   └── tools/
+│       ├── bin/
+│       │   └── bin2palladium.pl
+│       └── prom/
+│           └── mg20/
+│               ├── ipl-rom-iop_20061113.exo
+│               ├── ipl-rom-iop_20061114.exo
+│               ├── ipl-rom-iop_20061117.exo
+│               ├── ipl-rom-iop_20061201.exo
+│               ├── ipl-rom-iop_20061205.exo
+│               ├── ipl-rom-iop_20070824.exo
+│               ├── ipl-rom-iop_emu_090113.exo
+│               ├── ipl-rom-mg20_20061116.exo
+│               ├── JTAG書き込みマニュアル_青版.doc
+│               ├── nv-bootrom_20061129.exo
+│               ├── nv-bootrom_20070824.exo
+│               └── readme.txt
+├── doc/
+│   ├── ctr_map.xls
+│   ├── CtrFirmStandard.css
+│   └── Rule-NameSpace.html
+├── firmware/
+│   ├── _
+│   ├── build/
+│   │   ├── buildsetup/
+│   │   │   ├── ioreg/
+│   │   │   │   ├── header_generator_ioreg.pl
+│   │   │   │   ├── io_register_list.csv
+│   │   │   │   ├── io_register_list_ne1patch.csv
+│   │   │   │   └── Makefile
+│   │   │   ├── ioreg_sp/
+│   │   │   │   ├── header_generator_ioreg_sp.pl
+│   │   │   │   ├── io_register_list_sp.csv
+│   │   │   │   ├── io_register_list_sp_mg20patch.csv
+│   │   │   │   └── Makefile
+│   │   │   ├── ioreg_twl/
+│   │   │   │   ├── header_generator_ioreg.TWL.pl
+│   │   │   │   ├── io_register_list.TWL.csv
+│   │   │   │   └── Makefile
+│   │   │   ├── ioreg_twl_sp/
+│   │   │   │   ├── header_generator_ioreg_sp.TWL.pl
+│   │   │   │   ├── io_register_list_sp.TWL.csv
+│   │   │   │   └── Makefile
+│   │   │   ├── Makefile
+│   │   │   └── versions/
+│   │   │       ├── Makefile
+│   │   │       └── version.h
+│   │   ├── buildtools/
+│   │   │   ├── commondefs
+│   │   │   ├── commondefs.config
+│   │   │   └── modulerules
+│   │   ├── libraries/
+│   │   │   ├── fatfs/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── common/
+│   │   │   │   │   ├── include/
+│   │   │   │   │   │   ├── attach.h
+│   │   │   │   │   │   ├── csstrtab.h
+│   │   │   │   │   │   ├── drdefault.h
+│   │   │   │   │   │   ├── drfile.h
+│   │   │   │   │   │   ├── portconf.h
+│   │   │   │   │   │   ├── prfs.h
+│   │   │   │   │   │   ├── rtfs.h
+│   │   │   │   │   │   ├── rtfs_naming_convention.h
+│   │   │   │   │   │   ├── rtfs_target_os.h
+│   │   │   │   │   │   ├── rtfs_twl_append.h
+│   │   │   │   │   │   ├── rtfsapi.h
+│   │   │   │   │   │   ├── rtfsconf.h
+│   │   │   │   │   │   ├── rtfspro.h
+│   │   │   │   │   │   └── sdmc.h
+│   │   │   │   │   └── src/
+│   │   │   │   │       ├── apickdsk.c
+│   │   │   │   │       ├── apicnfig.c
+│   │   │   │   │       ├── apideltr.c
+│   │   │   │   │       ├── apienum.c
+│   │   │   │   │       ├── apifastmv.c
+│   │   │   │   │       ├── apifilio.c
+│   │   │   │   │       ├── apifilmv.c
+│   │   │   │   │       ├── apifrmat.c
+│   │   │   │   │       ├── apigetwd.c
+│   │   │   │   │       ├── apigfrst.c
+│   │   │   │   │       ├── apiinfo.c
+│   │   │   │   │       ├── apiinit.c
+│   │   │   │   │       ├── apimkdir.c
+│   │   │   │   │       ├── apirealt.c
+│   │   │   │   │       ├── apiregrs.c
+│   │   │   │   │       ├── apisetwd.c
+│   │   │   │   │       ├── apistat.c
+│   │   │   │   │       ├── apiwrite.c
+│   │   │   │   │       ├── appcmdsh.c
+│   │   │   │   │       ├── appdemo.c
+│   │   │   │   │       ├── attach.c
+│   │   │   │   │       ├── csascii.c
+│   │   │   │   │       ├── csjis.c
+│   │   │   │   │       ├── csjistab.c
+│   │   │   │   │       ├── csstrtab.c
+│   │   │   │   │       ├── csunicod.c
+│   │   │   │   │       ├── drdefault.c
+│   │   │   │   │       ├── drfile.c
+│   │   │   │   │       ├── drnand.c
+│   │   │   │   │       ├── portio.c
+│   │   │   │   │       ├── portkern.c
+│   │   │   │   │       ├── portmain.c
+│   │   │   │   │       ├── prapipro.c
+│   │   │   │   │       ├── prblock.c
+│   │   │   │   │       ├── prfsapi.c
+│   │   │   │   │       ├── prfscore.c
+│   │   │   │   │       ├── prfsnvio.c
+│   │   │   │   │       ├── prfstest.c
+│   │   │   │   │       ├── rtdevio.c
+│   │   │   │   │       ├── rtdrobj.c
+│   │   │   │   │       ├── rtfat16.c
+│   │   │   │   │       ├── rtfat32.c
+│   │   │   │   │       ├── rtfatxx.c
+│   │   │   │   │       ├── rtfs_twl_append.c
+│   │   │   │   │       ├── rtfs_twl_vfat_append.c
+│   │   │   │   │       ├── rtkernfn.c
+│   │   │   │   │       ├── rtlowl.c
+│   │   │   │   │       ├── rtnvfat.c
+│   │   │   │   │       ├── rttermin.c
+│   │   │   │   │       ├── rtutbyte.c
+│   │   │   │   │       ├── rtutil.c
+│   │   │   │   │       ├── rtvfat.c
+│   │   │   │   │       ├── winhdisk.c
+│   │   │   │   │       ├── winmkrom.c
+│   │   │   │   │       └── winsplsh.c
+│   │   │   │   └── Makefile
+│   │   │   ├── heap/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── common/
+│   │   │   │   │   ├── buddy_allocator.c
+│   │   │   │   │   └── buddy_allocator.h
+│   │   │   │   └── Makefile
+│   │   │   ├── init/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   └── Makefile
+│   │   │   ├── Makefile
+│   │   │   ├── mi/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   └── Makefile
+│   │   │   ├── nand/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   └── Makefile
+│   │   │   ├── nfs/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── common/
+│   │   │   │   │   ├── include/
+│   │   │   │   │   │   ├── client/
+│   │   │   │   │   │   │   ├── _wfs_Server.h
+│   │   │   │   │   │   │   ├── _wfssrv_Defs.h
+│   │   │   │   │   │   │   ├── randomlib.h
+│   │   │   │   │   │   │   ├── wfs_AsyncUtils.h
+│   │   │   │   │   │   │   ├── wfs_Client.h
+│   │   │   │   │   │   │   ├── wfs_Config.h
+│   │   │   │   │   │   │   ├── wfs_Defs.h
+│   │   │   │   │   │   │   ├── wfs_Errors.h
+│   │   │   │   │   │   │   ├── wfs_Heap.h
+│   │   │   │   │   │   │   ├── wfs_Mutex.h
+│   │   │   │   │   │   │   ├── wfs_Names.h
+│   │   │   │   │   │   │   ├── wfs_PathNames.h
+│   │   │   │   │   │   │   ├── wfs_Platform.h
+│   │   │   │   │   │   │   ├── wfs_Types.h
+│   │   │   │   │   │   │   └── wfscli_Handles.h
+│   │   │   │   │   │   ├── driver_interface/
+│   │   │   │   │   │   │   ├── drnand.h
+│   │   │   │   │   │   │   └── sdmc.h
+│   │   │   │   │   │   ├── msc_error.h
+│   │   │   │   │   │   ├── private/
+│   │   │   │   │   │   │   └── wfs_Debug.h
+│   │   │   │   │   │   ├── randomlib.h
+│   │   │   │   │   │   ├── revolution/
+│   │   │   │   │   │   │   ├── __mem.h
+│   │   │   │   │   │   │   ├── wfs.h
+│   │   │   │   │   │   │   ├── wfsError.h
+│   │   │   │   │   │   │   ├── wfsPerm.h
+│   │   │   │   │   │   │   └── wfstypes.h
+│   │   │   │   │   │   ├── revolution.h
+│   │   │   │   │   │   ├── wfskrn_Api.h
+│   │   │   │   │   │   ├── wfskrn_Area.h
+│   │   │   │   │   │   ├── wfskrn_BCache.h
+│   │   │   │   │   │   ├── wfskrn_BitField.h
+│   │   │   │   │   │   ├── wfskrn_Config.h
+│   │   │   │   │   │   ├── wfskrn_Defs.h
+│   │   │   │   │   │   ├── wfskrn_Device.h
+│   │   │   │   │   │   ├── wfskrn_Dir.h
+│   │   │   │   │   │   ├── wfskrn_DirFind.h
+│   │   │   │   │   │   ├── wfskrn_DirNodeStack.h
+│   │   │   │   │   │   ├── wfskrn_DirRxTree.h
+│   │   │   │   │   │   ├── wfskrn_EPTree.h
+│   │   │   │   │   │   ├── wfskrn_Errors.h
+│   │   │   │   │   │   ├── wfskrn_FreeBlkAlloc.h
+│   │   │   │   │   │   ├── wfskrn_FreeBlkAlloc_Type.h
+│   │   │   │   │   │   ├── wfskrn_FTree.h
+│   │   │   │   │   │   ├── wfskrn_Handles.h
+│   │   │   │   │   │   ├── wfskrn_Heap.h
+│   │   │   │   │   │   ├── wfskrn_Mutex.h
+│   │   │   │   │   │   ├── wfskrn_PathCache.h
+│   │   │   │   │   │   ├── wfskrn_Permission.h
+│   │   │   │   │   │   ├── wfskrn_Permission_AccessList.h
+│   │   │   │   │   │   ├── wfskrn_Permission_AccessList_Type.h
+│   │   │   │   │   │   ├── wfskrn_Permission_File.h
+│   │   │   │   │   │   ├── wfskrn_Permission_Iop.h
+│   │   │   │   │   │   ├── wfskrn_Permission_Private.h
+│   │   │   │   │   │   ├── wfskrn_Permission_Type.h
+│   │   │   │   │   │   ├── wfskrn_Permission_Win32.h
+│   │   │   │   │   │   ├── wfskrn_Platform.h
+│   │   │   │   │   │   ├── wfskrn_PTree.h
+│   │   │   │   │   │   ├── wfskrn_SubBlkAlloc.h
+│   │   │   │   │   │   ├── wfskrn_Trans.h
+│   │   │   │   │   │   ├── wfskrn_Types.h
+│   │   │   │   │   │   ├── wfskrn_Utils.h
+│   │   │   │   │   │   ├── wfskrn_Volume.h
+│   │   │   │   │   │   └── wfssrv_Defs.h
+│   │   │   │   │   └── src/
+│   │   │   │   │       ├── client/
+│   │   │   │   │       │   ├── randomlib.cpp
+│   │   │   │   │       │   ├── wfs_AsyncUtils.cpp
+│   │   │   │   │       │   ├── wfs_Client_Common.cpp
+│   │   │   │   │       │   ├── wfs_Debug.cpp
+│   │   │   │   │       │   ├── wfs_Heap.cpp
+│   │   │   │   │       │   ├── wfs_Mutex.cpp
+│   │   │   │   │       │   ├── wfs_Names.cpp
+│   │   │   │   │       │   ├── wfs_PathNames.cpp
+│   │   │   │   │       │   └── wfscli_Handles.cpp
+│   │   │   │   │       ├── driver_interface/
+│   │   │   │   │       │   └── drnand.c
+│   │   │   │   │       ├── my_wfskrn_Device.cpp
+│   │   │   │   │       ├── wfskrn_Api.cpp
+│   │   │   │   │       ├── wfskrn_Area.cpp
+│   │   │   │   │       ├── wfskrn_BCache.cpp
+│   │   │   │   │       ├── wfskrn_BitField.cpp
+│   │   │   │   │       ├── wfskrn_Dir.cpp
+│   │   │   │   │       ├── wfskrn_DirApi.cpp
+│   │   │   │   │       ├── wfskrn_DirCheck.cpp
+│   │   │   │   │       ├── wfskrn_DirFind.cpp
+│   │   │   │   │       ├── wfskrn_DirNodeStack.cpp
+│   │   │   │   │       ├── wfskrn_DirRxTree.cpp
+│   │   │   │   │       ├── wfskrn_EPTree.cpp
+│   │   │   │   │       ├── wfskrn_Errors.cpp
+│   │   │   │   │       ├── wfskrn_FreeBlkAlloc.cpp
+│   │   │   │   │       ├── wfskrn_FTree.cpp
+│   │   │   │   │       ├── wfskrn_Handles.cpp
+│   │   │   │   │       ├── wfskrn_Heap.cpp
+│   │   │   │   │       ├── wfskrn_Mutex.cpp
+│   │   │   │   │       ├── wfskrn_PathCache.cpp
+│   │   │   │   │       ├── wfskrn_Permission.cpp
+│   │   │   │   │       ├── wfskrn_Permission_AccessList.cpp
+│   │   │   │   │       ├── wfskrn_Permission_File.cpp
+│   │   │   │   │       ├── wfskrn_Permission_Iop.cpp
+│   │   │   │   │       ├── wfskrn_Permission_Win32.cpp
+│   │   │   │   │       ├── wfskrn_PTree.cpp
+│   │   │   │   │       ├── wfskrn_SubBlkAlloc.cpp
+│   │   │   │   │       ├── wfskrn_Trans.cpp
+│   │   │   │   │       ├── wfskrn_Utils.cpp
+│   │   │   │   │       └── wfskrn_Volume.cpp
+│   │   │   │   └── Makefile
+│   │   │   ├── os/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   └── Makefile
+│   │   │   ├── pxi/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   └── Makefile
+│   │   │   ├── std/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── ARM9/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── common/
+│   │   │   │   │   └── src/
+│   │   │   │   │       └── std_string.c
+│   │   │   │   └── Makefile
+│   │   │   └── vlink/
+│   │   │       ├── ARM11/
+│   │   │       │   └── Makefile
+│   │   │       ├── ARM9/
+│   │   │       │   └── Makefile
+│   │   │       └── Makefile
+│   │   ├── Makefile
+│   │   └── tests/
+│   │       ├── fatfs/
+│   │       │   ├── ARM11/
+│   │       │   │   ├── main.c
+│   │       │   │   └── Makefile
+│   │       │   ├── ARM9/
+│   │       │   │   ├── main.c
+│   │       │   │   └── Makefile
+│   │       │   └── Makefile
+│   │       ├── Makefile
+│   │       └── nfs/
+│   │           ├── ARM11/
+│   │           │   ├── main.c
+│   │           │   └── Makefile
+│   │           ├── ARM9/
+│   │           │   ├── main.c
+│   │           │   └── Makefile
+│   │           └── Makefile
+│   ├── include/
+│   │   ├── firm/
+│   │   │   ├── _
+│   │   │   ├── fatfs/
+│   │   │   │   ├── _
+│   │   │   │   ├── attach.h
+│   │   │   │   ├── csstrtab.h
+│   │   │   │   ├── portconf.h
+│   │   │   │   ├── rtfs.h
+│   │   │   │   ├── rtfsconf.h
+│   │   │   │   └── rtfspro.h
+│   │   │   ├── heap/
+│   │   │   │   └── heap.h
+│   │   │   ├── heap.h
+│   │   │   ├── hw/
+│   │   │   │   ├── ARM11/
+│   │   │   │   │   ├── mmap_axi_wram.h
+│   │   │   │   │   └── mmap_firm.h
+│   │   │   │   └── ARM9/
+│   │   │   │       ├── firm.h
+│   │   │   │       ├── firmDummy.h
+│   │   │   │       ├── mmap_firm.h
+│   │   │   │       └── mmap_tcm.h
+│   │   │   ├── nfs/
+│   │   │   │   ├── revolution/
+│   │   │   │   │   ├── wfs.h
+│   │   │   │   │   ├── wfsError.h
+│   │   │   │   │   ├── wfsPerm.h
+│   │   │   │   │   └── wfstypes.h
+│   │   │   │   └── revolution.h
+│   │   │   ├── specfiles/
+│   │   │   │   ├── ARM11-APP.ldscript.template
+│   │   │   │   ├── ARM11-FIRM.ldscript.template
+│   │   │   │   ├── ARM9-APP.ldscript.template
+│   │   │   │   └── ARM9-FIRM.ldscript.template
+│   │   │   ├── std/
+│   │   │   │   └── string.h
+│   │   │   └── std.h
+│   │   ├── firm.h
+│   │   └── readme.txt
+│   └── Makefile
+├── Makefile
+├── public/
+│   ├── build/
+│   │   └── buildtools/
+│   │       ├── @privatedefs
+│   │       ├── _privatedefs
+│   │       ├── commondefs
+│   │       ├── commondefs.cctype.CW
+│   │       ├── commondefs.cctype.RVCT
+│   │       ├── commondefs.emtype.ISD
+│   │       ├── modulerules
+│   │       ├── modulerules.add-ins.firm
+│   │       ├── modulerules.cctype.CW
+│   │       ├── modulerules.cctype.RVCT
+│   │       ├── modulerules.emtype.ISD
+│   │       ├── modulerules.x86
+│   │       ├── sdk_indent.pl
+│   │       ├── template/
+│   │       │   ├── Copyright.Header
+│   │       │   ├── Function.Header
+│   │       │   ├── Makefile.BuildSrc
+│   │       │   ├── Makefile.BuildSrc.ARM7
+│   │       │   └── Makefile.BuildSubdir
+│   │       ├── verinfo.cw.cc
+│   │       ├── verinfo.cw.ld
+│   │       └── versiondefs
+│   └── include/
+│       └── ctr/
+│           ├── arm_reg.h
+│           ├── hw/
+│           │   ├── ARM11/
+│           │   │   ├── arm11_reg.h
+│           │   │   ├── mmap_axi_wram.h
+│           │   │   ├── mmap_global.h
+│           │   │   ├── mmu_table.h
+│           │   │   └── vfp.h
+│           │   ├── ARM9/
+│           │   │   ├── arm9_reg.h
+│           │   │   ├── mmap_global.h
+│           │   │   └── mmap_prv_wram.h
+│           │   └── common/
+│           │       ├── arm_reg_common.h
+│           │       └── mmap_shared.h
+│           ├── ioreg.h
+│           ├── memorymap.h
+│           ├── memorymap_sp.h
+│           ├── misc.h
+│           ├── os/
+│           │   └── common/
+│           │       ├── svc.h
+│           │       └── svc_id.h
+│           └── types.h
+├── readme.txt
+├── setup
+└── tools/
+    ├── axd/
+    │   └── mg20/
+    │       ├── _
+    │       └── ARM9/
+    │           ├── ARM9-MG20.cfg
+    │           ├── ARM9.ses
+    │           └── readme.txt
+    ├── bootrom/
+    │   └── ne1tb/
+    │       ├── nand_deviceformat.axf
+    │       ├── nand_fatfsformat.axf
+    │       ├── ne1_dev.axf
+    │       ├── ne1_dev11.dasm
+    │       ├── readme.txt
+    │       ├── realview.map
+    │       ├── S-boot.axf
+    │       └── thread11.axf
+    └── partner_mlt/
+        ├── mg20/
+        │   ├── _
+        │   ├── ARM11/
+        │   │   ├── JETCTR.CFG
+        │   │   └── JETCTR.JPX
+        │   └── ARM9/
+        │       ├── JETCTR.CFG
+        │       └── JETCTR.JPX
+        ├── ne1tb/
+        │   ├── _
+        │   ├── ARM11_Core0/
+        │   │   ├── JETCTR.CFG
+        │   │   └── JETCTR.JPX
+        │   └── ARM11_Core1/
+        │       ├── JETCTR.CFG
+        │       └── JETCTR.JPX
+        └── readme.txt

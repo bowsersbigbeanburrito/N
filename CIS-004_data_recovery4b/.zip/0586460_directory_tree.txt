@@ -1,0 +1,71 @@
+Made with tikatree 0.0.10
+0586460/
+├── README.txt
+└── sp3e1600e_mb_bclinux/
+    ├── bclinux_images/
+    │   └── AGS/
+    │       └── standalone.kdi
+    ├── data/
+    │   └── fpga/
+    │       └── system.ucf
+    ├── etc/
+    │   ├── bitgen.ut
+    │   ├── download.cmd
+    │   └── FPGA/
+    │       └── fast_runtime.opt
+    ├── fpga/
+    │   ├── system.mhs
+    │   └── system.xmp
+    ├── pcores/
+    │   └── flash_io_multiplexer_v1_00_a/
+    │       ├── data/
+    │       │   ├── VERILOG/
+    │       │   │   └── flash_io_multiplexer_v2_1_0.mpd
+    │       │   └── vhdl/
+    │       │       └── flash_io_multiplexer_v2_1_0.pao
+    │       └── hdl/
+    │           └── vhdl/
+    │               └── flash_io_multiplexer.vhd
+    ├── ready_for_download/
+    │   ├── AGS/
+    │   │   └── standalone.kdi
+    │   ├── download.bit
+    │   ├── Flash_files/
+    │   │   ├── bootloader_bclinux.bit
+    │   │   ├── bootloader_bclinux.elf
+    │   │   └── bootloader_bclinux.mcs
+    │   ├── s3e1600e_bclinux.cmd
+    │   ├── testapp_memory_executable.elf
+    │   └── testapp_peripheral_executable.elf
+    ├── system.mss
+    ├── TestApp_Memory/
+    │   └── src/
+    │       ├── NTR/
+    │       │   └── TestApp_Memory_LinkScr.ld
+    │       └── TestApp_Memory.c
+    └── TestApp_Peripheral/
+        └── src/
+            ├── CTR/
+            │   ├── xtmrctr_intr_example.c
+            │   └── xtmrctr_selftest_example.c
+            ├── emaclite_header.h
+            ├── emaclite_intr_header.h
+            ├── gpio_header.h
+            ├── gpio_intr_header.h
+            ├── intc_header.h
+            ├── NTR/
+            │   ├── TestApp_Peripheral.c
+            │   ├── TestApp_Peripheral_LinkScr.ld
+            │   ├── xemaclite_intr_tapp_example.c
+            │   ├── xgpio_intr_tapp_example.c
+            │   └── xwdttb_intr_example.c
+            ├── tmrctr_header.h
+            ├── tmrctr_intr_header.h
+            ├── uartlite_header.h
+            ├── wdttb_header.h
+            ├── wdttb_intr_header.h
+            ├── xemaclite_selftest_example.c
+            ├── xgpio_tapp_example.c
+            ├── xintc_tapp_example.c
+            ├── xuartlite_selftest_example.c
+            └── xwdttb_selftest_example.c

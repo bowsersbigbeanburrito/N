@@ -1,0 +1,248 @@
+NitroDWC-addon-ppwlobby-20080707/
+├── build/
+│   ├── demos/
+│   │   ├── lobby_sample/
+│   │   │   ├── dwc_lobby_sample.lsf
+│   │   │   ├── dwc_lobby_sample.rsf
+│   │   │   ├── include/
+│   │   │   │   ├── font.h
+│   │   │   │   ├── init.h
+│   │   │   │   ├── lobby.h
+│   │   │   │   ├── main.h
+│   │   │   │   ├── screen.h
+│   │   │   │   ├── userdata.h
+│   │   │   │   └── utility.h
+│   │   │   ├── Makefile
+│   │   │   └── src/
+│   │   │       ├── font.c
+│   │   │       ├── init.c
+│   │   │       ├── lobby.c
+│   │   │       ├── main.c
+│   │   │       ├── screen.c
+│   │   │       ├── userdata.c
+│   │   │       └── utility.c
+│   │   └── Makefile
+│   └── libraries/
+│       ├── ilobby/
+│       │   ├── include/
+│       │   │   ├── dwci_lobbyBase.h
+│       │   │   ├── dwci_lobbyCallback.h
+│       │   │   ├── dwci_lobbyData.h
+│       │   │   ├── dwci_lobbyNewHandler.h
+│       │   │   ├── dwci_lobbyNonport.h
+│       │   │   ├── dwci_lobbyUtil.h
+│       │   │   └── nonport/
+│       │   │       ├── dwci_lobbyNonportLinux.h
+│       │   │       ├── dwci_lobbyNonportNitro.h
+│       │   │       ├── dwci_lobbyNonportRvl.h
+│       │   │       └── dwci_lobbyNonportWin32.h
+│       │   ├── Makefile
+│       │   └── src/
+│       │       ├── dwci_lobby.cpp
+│       │       ├── dwci_lobbyBase.cpp
+│       │       ├── dwci_lobbyCallback.cpp
+│       │       ├── dwci_lobbyData.cpp
+│       │       └── dwci_lobbyNewHandler.cpp
+│       ├── Makefile
+│       └── ppwlobby/
+│           ├── include/
+│           │   ├── dwci_encsessioncpp.h
+│           │   ├── ppw_channel.h
+│           │   ├── ppw_data.h
+│           │   ├── ppw_innerInfo.h
+│           │   ├── ppw_parser.h
+│           │   ├── ppw_profile.h
+│           │   ├── ppw_sender.h
+│           │   ├── ppw_timer.h
+│           │   └── WFLBY_USER_PROFILE.h
+│           ├── Makefile
+│           └── src/
+│               ├── dwci_encsessioncpp.cpp
+│               ├── ppw_innerInfo.cpp
+│               ├── ppw_lobby.cpp
+│               ├── ppw_parser.cpp
+│               └── ppw_profile.cpp
+├── include/
+│   ├── base/
+│   │   └── dwc_memfunc.h
+│   ├── enc/
+│   │   └── dwci_encsession.h
+│   ├── lobby/
+│   │   ├── dwc_lobby.h
+│   │   └── dwci_lobby.h
+│   └── ppwlobby/
+│       └── ppw_lobby.h
+├── lib/
+│   └── ARM9-TS/
+│       ├── Debug/
+│       │   ├── libdwcenc.a
+│       │   ├── libdwcenc.thumb.a
+│       │   ├── libdwcilobby.a
+│       │   ├── libdwcilobby.thumb.a
+│       │   ├── libdwcppwlobby.a
+│       │   └── libdwcppwlobby.thumb.a
+│       ├── Release/
+│       │   ├── libdwcenc.a
+│       │   ├── libdwcenc.thumb.a
+│       │   ├── libdwcilobby.a
+│       │   ├── libdwcilobby.thumb.a
+│       │   ├── libdwcppwlobby.a
+│       │   └── libdwcppwlobby.thumb.a
+│       └── Rom/
+│           ├── libdwcenc.a
+│           ├── libdwcenc.thumb.a
+│           ├── libdwcilobby.a
+│           ├── libdwcilobby.thumb.a
+│           ├── libdwcppwlobby.a
+│           └── libdwcppwlobby.thumb.a
+├── man/
+│   └── PokemonPlatinumWi-FiLobbyLibraryReference.chm
+├── Readme-PPW_LOBBY.txt
+└── tools/
+    └── PpwAdminTool/
+        ├── AdminTool.exe
+        ├── data/
+        │   ├── password_de.txt
+        │   ├── password_en.txt
+        │   ├── password_fr.txt
+        │   ├── password_it.txt
+        │   ├── password_jp.txt
+        │   ├── password_kr.txt
+        │   └── password_sp.txt
+        ├── dpwutil.dll
+        ├── DpwUtilAssembly.dll
+        ├── dwcenc.dll
+        ├── Interop.DPWUTILLib.1.0.dll
+        ├── Interop.DPWUTILLib.dll
+        ├── Marshaler.dll
+        ├── Readme.txt
+        ├── SampleFreeQuestion.xml
+        ├── SampleSchedule.xml
+        ├── SampleSpecialWeek.xml
+        ├── SampleVip.xml
+        └── src/
+            ├── AdminTool/
+            │   ├── AdminTool.csproj
+            │   ├── app.config
+            │   ├── bin/
+            │   │   ├── Debug/
+            │   │   │   ├── dpwutil.dll
+            │   │   │   └── dwcenc.dll
+            │   │   └── Release/
+            │   │       ├── AdminTool.exe
+            │   │       ├── dpwutil.dll
+            │   │       ├── DpwUtilAssembly.dll
+            │   │       ├── dwcenc.dll
+            │   │       ├── Interop.DPWUTILLib.1.0.dll
+            │   │       ├── Interop.DPWUTILLib.dll
+            │   │       └── Marshaler.dll
+            │   ├── Controls/
+            │   │   ├── DGVCalendarCell.cs
+            │   │   ├── ExtendedDataGridView.cs
+            │   │   └── ListViewInputBox.cs
+            │   ├── EncSession.cs
+            │   ├── Forms/
+            │   │   ├── EditRecordForm.cs
+            │   │   ├── EditRecordForm.Designer.cs
+            │   │   ├── EditRecordForm.resx
+            │   │   ├── MainForm.cs
+            │   │   ├── MainForm.Designer.cs
+            │   │   ├── MainForm.resx
+            │   │   ├── ProxySettingForm.cs
+            │   │   ├── ProxySettingForm.Designer.cs
+            │   │   └── ProxySettingForm.resx
+            │   ├── IconMainForm.ico
+            │   ├── ListBoxMember.cs
+            │   ├── LobbyRequestInterface.cs
+            │   ├── Program.cs
+            │   ├── Properties/
+            │   │   ├── AssemblyInfo.cs
+            │   │   ├── Resources.Designer.cs
+            │   │   ├── Resources.resx
+            │   │   ├── Settings.Designer.cs
+            │   │   └── Settings.settings
+            │   ├── RequestInterface.cs
+            │   └── Settings.cs
+            ├── AdminTool.sln
+            ├── DpwUtilAssembly/
+            │   ├── DpwUtil.cs
+            │   ├── DpwUtilAssembly.csproj
+            │   ├── Form1.cs
+            │   ├── Form1.Designer.cs
+            │   ├── Program.cs
+            │   ├── Properties/
+            │   │   ├── AssemblyInfo.cs
+            │   │   ├── Resources.Designer.cs
+            │   │   ├── Resources.resx
+            │   │   ├── Settings.Designer.cs
+            │   │   └── Settings.settings
+            │   └── Util.cs
+            ├── Marshaler/
+            │   ├── app.aps
+            │   ├── app.ico
+            │   ├── app.rc
+            │   ├── AssemblyInfo.cpp
+            │   ├── dwci_np_types.h
+            │   ├── lobby.h
+            │   ├── Marshaler.cpp
+            │   ├── Marshaler.h
+            │   ├── Marshaler.vcproj
+            │   ├── ReadMe.txt
+            │   ├── resource.h
+            │   ├── Stdafx.cpp
+            │   ├── Stdafx.h
+            │   ├── util.h
+            │   └── WFLBY_USER_PROFILE.h
+            └── Setup/
+                ├── PpwAdminToolInstaller/
+                │   ├── _0558E5E5559E35B1BD01C83FEF46BA94
+                │   ├── _056A8CF3437E48C7B0F7B17445AEF0A7
+                │   ├── _20072FD14C05788255B5D58D50D654E1
+                │   ├── _2C3FF69853A2ABC37CAE86B15FE870CC
+                │   ├── _339EFC81A1B724FFD0C4179C3072225B
+                │   ├── _3A8EB0CA935B4A44AA01D95E241C12C1
+                │   ├── _3AC0F97F903041BCA21643BA0A50CE42
+                │   ├── _3ADD0DE4C4644A678EABC085572529A8
+                │   ├── _3E7BEB6832AD4F368C50C9D5E93F720D
+                │   ├── _43B42D417864A902EE700181DCFDF1CB
+                │   ├── _4490DA63640644E0A8252AFA51B3E354
+                │   ├── _515D46D0C3805827215638F89CDBC859
+                │   ├── _5D2C1873AE0956456139EB390AD0231C
+                │   ├── _5D8E705FD3AEB2FC6AE942085050C985
+                │   ├── _7605069703F74B45946B5EF16D79F301
+                │   ├── _7BF7FDD123824BC8A4C6808748AE4CB8
+                │   ├── _8559383DA9BB4109898B72ADF600A418
+                │   ├── _893693EF77335CA8662D88E6BE69BAC9
+                │   ├── _90BE98B03D2440499F2E5B125A53DBAD
+                │   ├── _90D785B28DDC8F8D11551ED23B77FA19
+                │   ├── _9C7FCFC6C53641888FE7E5C8C6B14211
+                │   ├── _A23A496B645C38908F93E54ED385B793
+                │   ├── _A329779DC4924DE192FBFFF3BE964928
+                │   ├── _A4050E7F1536C03E9D51329A6B6C819C
+                │   ├── _B7BAC04F47803C4386917ECCD6043292
+                │   ├── _BA121661BDB4463085840E3EB7E91A8D
+                │   ├── _D5069E533AA75A7A0E485DF925862494
+                │   ├── _D5FDED8619C07D8EB09FBCB1A91824EA
+                │   ├── _DAE7337362A4E9201DE86810B5863CB3
+                │   ├── _E496F6D0DC32367666D4A296F141ADE1
+                │   ├── _F1594A5078B0A5F969510F48BBD4F7B2
+                │   ├── _F710092E7EE116D1CD67FD13C152FAA9
+                │   ├── catalog.8.0.50727.762.63E949F6_03BC_5C40_FF1F_C8B3B9A1E18E
+                │   ├── catalog.8.0.50727.762.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── manifest.8.0.50727.762.63E949F6_03BC_5C40_FF1F_C8B3B9A1E18E
+                │   ├── manifest.8.0.50727.762.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── msvcm80.dll.8.0.50727.762.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── msvcp80.dll.8.0.50727.762.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── msvcr80.dll.8.0.50727.762.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── nosxs_msvcm80.dll.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── nosxs_msvcp80.dll.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── nosxs_msvcr80.dll.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── ul_catalog.63E949F6_03BC_5C40_FF1F_C8B3B9A1E18E
+                │   ├── ul_catalog.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── ul_manifest.63E949F6_03BC_5C40_FF1F_C8B3B9A1E18E
+                │   ├── ul_manifest.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── ul_msvcm80.dll.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   ├── ul_msvcp80.dll.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                │   └── ul_msvcr80.dll.98CB24AD_52FB_DB5F_FF1F_C8B3B9A1E18E
+                ├── PpwAdminToolInstaller.msi
+                └── Setup.vdproj

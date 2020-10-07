@@ -1,0 +1,3076 @@
+devkit/
+├── .git/
+└── japan/
+    ├── CHANGES.txt
+    ├── N64SoundTools/
+    │   ├── DiskLP/
+    │   │   ├── convert.bat
+    │   │   ├── convpc.bat
+    │   │   ├── lib/
+    │   │   │   ├── libmus.h
+    │   │   │   ├── libmus_data.h
+    │   │   │   ├── n_libaudio_sc.h
+    │   │   │   └── n_libaudio_sn_sc.h
+    │   │   ├── lib-src/
+    │   │   │   ├── aud_dma.c
+    │   │   │   ├── aud_dma.h
+    │   │   │   ├── aud_samples.c
+    │   │   │   ├── aud_samples.h
+    │   │   │   ├── aud_sched.c
+    │   │   │   ├── aud_sched.h
+    │   │   │   ├── aud_thread.c
+    │   │   │   ├── aud_thread.h
+    │   │   │   ├── lib_memory.c
+    │   │   │   ├── lib_memory.h
+    │   │   │   ├── libmus.h
+    │   │   │   ├── libmus_config.h
+    │   │   │   ├── libmus_data.h
+    │   │   │   ├── Makefile
+    │   │   │   ├── Makefile.depend
+    │   │   │   ├── Makefile.dos
+    │   │   │   ├── n_abi.h
+    │   │   │   ├── n_libaudio_sc.h
+    │   │   │   ├── n_libaudio_sn_sc.h
+    │   │   │   ├── n_synthInternals.h
+    │   │   │   ├── player.c
+    │   │   │   ├── player.h
+    │   │   │   ├── player_api.c
+    │   │   │   ├── player_commands.c
+    │   │   │   ├── player_fifo.c
+    │   │   │   ├── player_fifo.h
+    │   │   │   ├── player_fx.c
+    │   │   │   ├── player_fx.h
+    │   │   │   └── synthInternals.h
+    │   │   ├── n_gaudio_sc/
+    │   │   │   ├── n_libaudio_sc.h
+    │   │   │   ├── n_libaudio_sn_sc.h
+    │   │   │   ├── README.TXT
+    │   │   │   └── src/
+    │   │   │       ├── Makefile
+    │   │   │       ├── n_abi.h
+    │   │   │       ├── n_auxbus.c
+    │   │   │       ├── n_drvrNew.c
+    │   │   │       ├── n_env.c
+    │   │   │       ├── n_env_add01.c
+    │   │   │       ├── n_libaudio_sc.h
+    │   │   │       ├── n_libaudio_sn_sc.h
+    │   │   │       ├── n_load.c
+    │   │   │       ├── n_load_add01.c
+    │   │   │       ├── n_load_add02.c
+    │   │   │       ├── n_mainbus.c
+    │   │   │       ├── n_resample.c
+    │   │   │       ├── n_resample_add01.c
+    │   │   │       ├── n_reverb.c
+    │   │   │       ├── n_reverb_add01.c
+    │   │   │       ├── n_reverb_add02.c
+    │   │   │       ├── n_reverb_add03.c
+    │   │   │       ├── n_reverb_add04.c
+    │   │   │       ├── n_save.c
+    │   │   │       ├── n_save_add01.c
+    │   │   │       ├── n_sl.c
+    │   │   │       ├── n_synaddplayer.c
+    │   │   │       ├── n_synallocfx.c
+    │   │   │       ├── n_synallocvoice.c
+    │   │   │       ├── n_syndelete.c
+    │   │   │       ├── n_synfreefx.c
+    │   │   │       ├── n_synfreevoice.c
+    │   │   │       ├── n_syngetfxref.c
+    │   │   │       ├── n_syngetpriority.c
+    │   │   │       ├── n_synremoveplayer.c
+    │   │   │       ├── n_synsetfxmix.c
+    │   │   │       ├── n_synsetfxparam.c
+    │   │   │       ├── n_synsetfxtype.c
+    │   │   │       ├── n_synsetpan.c
+    │   │   │       ├── n_synsetpitch.c
+    │   │   │       ├── n_synsetpriority.c
+    │   │   │       ├── n_synsetvol.c
+    │   │   │       ├── n_synstartvoice.c
+    │   │   │       ├── n_synstartvoiceparam.c
+    │   │   │       ├── n_synstopvoice.c
+    │   │   │       ├── n_synthesizer.c
+    │   │   │       ├── n_synthInternals.h
+    │   │   │       ├── README.TXT
+    │   │   │       └── synthInternals.h
+    │   │   ├── README.txt
+    │   │   └── samples/
+    │   │       ├── crossfade/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── README.txt
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── effects/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── README.txt
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── fromram/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── README.txt
+    │   │       │   ├── sampleram.c
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── fxchange/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── README.txt
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── fxsong/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── README.txt
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── lookup/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── README.txt
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── Makefile
+    │   │       ├── Makefile.dos
+    │   │       ├── Makefile.dos.n
+    │   │       ├── marker/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── README.txt
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── n64dd/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makedisk
+    │   │       │   ├── Makefile.makedisk.n
+    │   │       │   ├── README.txt
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_mem.c
+    │   │       │   ├── test_mem.h
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_n64dd.c
+    │   │       │   ├── test_n64dd.h
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── nnsched/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── nnsched.c
+    │   │       │   ├── nnsched.h
+    │   │       │   ├── nnsched.txt
+    │   │       │   ├── README.txt
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── pause/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.dos
+    │   │       │   ├── Makefile.dos.n
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── README.txt
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── README.SAMPLES
+    │   │       ├── README.SAMPLES.txt
+    │   │       ├── simple/
+    │   │       │   ├── after/
+    │   │       │   │   ├── Makefile
+    │   │       │   │   ├── Makefile.depend
+    │   │       │   │   ├── Makefile.dos
+    │   │       │   │   ├── Makefile.dos.n
+    │   │       │   │   ├── Makefile.makerom
+    │   │       │   │   ├── Makefile.makerom.n
+    │   │       │   │   ├── README.txt
+    │   │       │   │   ├── test_main.c
+    │   │       │   │   ├── test_music.c
+    │   │       │   │   ├── test_rom.h
+    │   │       │   │   └── test_workspace.c
+    │   │       │   └── before/
+    │   │       │       ├── Makefile
+    │   │       │       ├── Makefile.depend
+    │   │       │       ├── Makefile.dos
+    │   │       │       ├── Makefile.makerom
+    │   │       │       ├── README.txt
+    │   │       │       ├── test_main.c
+    │   │       │       ├── test_rom.h
+    │   │       │       └── test_workspace.c
+    │   │       └── testmenu/
+    │   │           ├── Makefile
+    │   │           ├── Makefile.depend
+    │   │           ├── Makefile.dos
+    │   │           ├── Makefile.dos.n
+    │   │           ├── Makefile.makerom
+    │   │           ├── Makefile.makerom.n
+    │   │           ├── README.txt
+    │   │           ├── test_draw.c
+    │   │           ├── test_main.c
+    │   │           ├── test_menu.c
+    │   │           ├── test_rom.h
+    │   │           └── test_workspace.c
+    │   ├── DiskLS/
+    │   │   ├── convert.bat
+    │   │   ├── convpc.bat
+    │   │   ├── lib/
+    │   │   │   ├── libmus.h
+    │   │   │   ├── libmus_data.h
+    │   │   │   ├── n_libaudio_sc.h
+    │   │   │   └── n_libaudio_sn_sc.h
+    │   │   ├── lib-src/
+    │   │   │   ├── aud_dma.c
+    │   │   │   ├── aud_dma.h
+    │   │   │   ├── aud_samples.c
+    │   │   │   ├── aud_samples.h
+    │   │   │   ├── aud_sched.c
+    │   │   │   ├── aud_sched.h
+    │   │   │   ├── aud_thread.c
+    │   │   │   ├── aud_thread.h
+    │   │   │   ├── lib_memory.c
+    │   │   │   ├── lib_memory.h
+    │   │   │   ├── libmus.h
+    │   │   │   ├── libmus_config.h
+    │   │   │   ├── libmus_data.h
+    │   │   │   ├── Makefile
+    │   │   │   ├── Makefile.depend
+    │   │   │   ├── Makefile.sgi
+    │   │   │   ├── n_abi.h
+    │   │   │   ├── n_libaudio_sc.h
+    │   │   │   ├── n_libaudio_sn_sc.h
+    │   │   │   ├── n_synthInternals.h
+    │   │   │   ├── player.c
+    │   │   │   ├── player.h
+    │   │   │   ├── player_api.c
+    │   │   │   ├── player_commands.c
+    │   │   │   ├── player_fifo.c
+    │   │   │   ├── player_fifo.h
+    │   │   │   ├── player_fx.c
+    │   │   │   ├── player_fx.h
+    │   │   │   └── synthInternals.h
+    │   │   ├── n_audio_sc/
+    │   │   │   ├── n_libaudio_sc.h
+    │   │   │   ├── n_libaudio_sn_sc.h
+    │   │   │   ├── README
+    │   │   │   └── src/
+    │   │   │       ├── Makefile
+    │   │   │       ├── n_abi.h
+    │   │   │       ├── n_auxbus.c
+    │   │   │       ├── n_drvrNew.c
+    │   │   │       ├── n_env.c
+    │   │   │       ├── n_env_add01.c
+    │   │   │       ├── n_libaudio_sc.h
+    │   │   │       ├── n_libaudio_sn_sc.h
+    │   │   │       ├── n_load.c
+    │   │   │       ├── n_load_add01.c
+    │   │   │       ├── n_load_add02.c
+    │   │   │       ├── n_mainbus.c
+    │   │   │       ├── n_resample.c
+    │   │   │       ├── n_resample_add01.c
+    │   │   │       ├── n_reverb.c
+    │   │   │       ├── n_reverb_add01.c
+    │   │   │       ├── n_reverb_add02.c
+    │   │   │       ├── n_reverb_add03.c
+    │   │   │       ├── n_reverb_add04.c
+    │   │   │       ├── n_save.c
+    │   │   │       ├── n_save_add01.c
+    │   │   │       ├── n_sl.c
+    │   │   │       ├── n_synaddplayer.c
+    │   │   │       ├── n_synallocfx.c
+    │   │   │       ├── n_synallocvoice.c
+    │   │   │       ├── n_syndelete.c
+    │   │   │       ├── n_synfreefx.c
+    │   │   │       ├── n_synfreevoice.c
+    │   │   │       ├── n_syngetfxref.c
+    │   │   │       ├── n_syngetpriority.c
+    │   │   │       ├── n_synremoveplayer.c
+    │   │   │       ├── n_synsetfxmix.c
+    │   │   │       ├── n_synsetfxparam.c
+    │   │   │       ├── n_synsetfxtype.c
+    │   │   │       ├── n_synsetpan.c
+    │   │   │       ├── n_synsetpitch.c
+    │   │   │       ├── n_synsetpriority.c
+    │   │   │       ├── n_synsetvol.c
+    │   │   │       ├── n_synstartvoice.c
+    │   │   │       ├── n_synstartvoiceparam.c
+    │   │   │       ├── n_synstopvoice.c
+    │   │   │       ├── n_synthesizer.c
+    │   │   │       ├── n_synthInternals.h
+    │   │   │       ├── README
+    │   │   │       └── synthInternals.h
+    │   │   ├── README
+    │   │   └── samples/
+    │   │       ├── crossfade/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── README.euc
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── effects/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── README.euc
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── fromram/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── README.euc
+    │   │       │   ├── sampleram.c
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── fxchange/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── README.euc
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── fxsong/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── README.euc
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── lookup/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── README.euc
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── Makefile
+    │   │       ├── Makefile.sgi
+    │   │       ├── Makefile.sgi.n
+    │   │       ├── marker/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── README.euc
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── n64dd/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makedisk
+    │   │       │   ├── Makefile.makedisk.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── README.euc
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_mem.c
+    │   │       │   ├── test_mem.h
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_n64dd.c
+    │   │       │   ├── test_n64dd.h
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── nnsched/
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── nnsched.c
+    │   │       │   ├── nnsched.h
+    │   │       │   ├── README.euc
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── pause/
+    │   │       │   ├── Makedepend
+    │   │       │   ├── Makefile
+    │   │       │   ├── Makefile.depend
+    │   │       │   ├── Makefile.makerom
+    │   │       │   ├── Makefile.makerom.n
+    │   │       │   ├── Makefile.sgi
+    │   │       │   ├── Makefile.sgi.n
+    │   │       │   ├── README.euc
+    │   │       │   ├── test_main.c
+    │   │       │   ├── test_music.c
+    │   │       │   ├── test_rom.h
+    │   │       │   └── test_workspace.c
+    │   │       ├── README.SAMPLES
+    │   │       ├── README.SAMPLES.euc
+    │   │       ├── simple/
+    │   │       │   ├── after/
+    │   │       │   │   ├── Makefile
+    │   │       │   │   ├── Makefile.depend
+    │   │       │   │   ├── Makefile.makerom
+    │   │       │   │   ├── Makefile.makerom.n
+    │   │       │   │   ├── Makefile.sgi
+    │   │       │   │   ├── Makefile.sgi.n
+    │   │       │   │   ├── README.euc
+    │   │       │   │   ├── test_main.c
+    │   │       │   │   ├── test_music.c
+    │   │       │   │   ├── test_rom.h
+    │   │       │   │   └── test_workspace.c
+    │   │       │   └── before/
+    │   │       │       ├── Makefile
+    │   │       │       ├── Makefile.depend
+    │   │       │       ├── Makefile.makerom
+    │   │       │       ├── Makefile.sgi
+    │   │       │       ├── Makefile.sgi.n
+    │   │       │       ├── README.euc
+    │   │       │       ├── test_main.c
+    │   │       │       ├── test_rom.h
+    │   │       │       └── test_workspace.c
+    │   │       └── testmenu/
+    │   │           ├── Makefile
+    │   │           ├── Makefile.depend
+    │   │           ├── Makefile.makerom
+    │   │           ├── Makefile.makerom.n
+    │   │           ├── Makefile.sgi
+    │   │           ├── Makefile.sgi.n
+    │   │           ├── README.euc
+    │   │           ├── test_draw.c
+    │   │           ├── test_main.c
+    │   │           ├── test_menu.c
+    │   │           ├── test_rom.h
+    │   │           └── test_workspace.c
+    │   ├── DiskM/
+    │   │   ├── ChangeLog.txt
+    │   │   ├── html/
+    │   │   │   ├── chapter_apiuse.html
+    │   │   │   ├── chapter_cautions.html
+    │   │   │   ├── chapter_history.html
+    │   │   │   ├── chapter_libfiles.html
+    │   │   │   ├── chapter_libref.html
+    │   │   │   ├── chapter_libuse.html
+    │   │   │   ├── chapter_overview.html
+    │   │   │   ├── contents_apiuse.html
+    │   │   │   ├── contents_libfiles.html
+    │   │   │   ├── contents_libref.html
+    │   │   │   ├── contents_libuse.html
+    │   │   │   ├── image_arrowdown.gif
+    │   │   │   ├── image_arrowup.gif
+    │   │   │   ├── image_logoscbg.gif
+    │   │   │   ├── index.html
+    │   │   │   ├── index_contents.html
+    │   │   │   ├── index_cover.html
+    │   │   │   ├── MusAsk.html
+    │   │   │   ├── MusFxBankGetCurrent.html
+    │   │   │   ├── MusFxBankGetPtrBank.html
+    │   │   │   ├── MusFxBankInitialize.html
+    │   │   │   ├── MusFxBankNumberOfEffects.html
+    │   │   │   ├── MusFxBankSetCurrent.html
+    │   │   │   ├── MusFxBankSetPtrBank.html
+    │   │   │   ├── MusFxBankSetSingle.html
+    │   │   │   ├── MusHandleAsk.html
+    │   │   │   ├── MusHandleGetPtrBank.html
+    │   │   │   ├── MusHandlePause.html
+    │   │   │   ├── MusHandleSetFreqOffset.html
+    │   │   │   ├── MusHandleSetPan.html
+    │   │   │   ├── MusHandleSetReverb.html
+    │   │   │   ├── MusHandleSetTempo.html
+    │   │   │   ├── MusHandleSetVolume.html
+    │   │   │   ├── MusHandleStop.html
+    │   │   │   ├── MusHandleUnPause.html
+    │   │   │   ├── MusHandleWaveAddress.html
+    │   │   │   ├── MusHandleWaveCount.html
+    │   │   │   ├── MusInitialize.html
+    │   │   │   ├── MusPtrBankGetCurrent.html
+    │   │   │   ├── MusPtrBankInitialize.html
+    │   │   │   ├── MusPtrBankSetCurrent.html
+    │   │   │   ├── MusPtrBankSetSingle.html
+    │   │   │   ├── MusSetFxType.html
+    │   │   │   ├── MusSetMarkerCallback.html
+    │   │   │   ├── MusSetMasterVolume.html
+    │   │   │   ├── MusSetScheduler.html
+    │   │   │   ├── MusSetSongFxChange.html
+    │   │   │   ├── MusStartEffect.html
+    │   │   │   ├── MusStartEffect2.html
+    │   │   │   ├── MusStartSong.html
+    │   │   │   ├── MusStartSongFromMarker.html
+    │   │   │   └── MusStop.html
+    │   │   ├── PROGMANJ.doc
+    │   │   ├── readme.txt
+    │   │   ├── RELNOTE.DOC
+    │   │   ├── SETUP.DOC
+    │   │   ├── TUTORMAN.DOC
+    │   │   └── USERMANJ.doc
+    │   ├── DiskSD-1/
+    │   │   └── samples/
+    │   │       └── SoundData/
+    │   │           ├── fxbank1.bfx
+    │   │           ├── fxbank1.ptr
+    │   │           ├── fxbank1.wbk
+    │   │           ├── fxbank2.bfx
+    │   │           ├── fxbank2.ptr
+    │   │           ├── fxbank2.wbk
+    │   │           ├── groove.bin
+    │   │           ├── groove.ptr
+    │   │           ├── groove.wbk
+    │   │           ├── groovedd.bin
+    │   │           ├── groovedd.ptr
+    │   │           ├── groovedd.wbk
+    │   │           ├── rock.bfx
+    │   │           ├── rock.bin
+    │   │           ├── rock.ptr
+    │   │           └── rock.wbk
+    │   ├── DiskSD-2/
+    │   │   └── samples/
+    │   │       └── SoundData/
+    │   │           ├── ddtest0.bin
+    │   │           ├── ddtest0.ptr
+    │   │           ├── ddtest0.wbk
+    │   │           ├── drumtest.ptr
+    │   │           ├── drumtest.wbk
+    │   │           ├── drumtst.bfx
+    │   │           ├── dt_sfx1.bfx
+    │   │           ├── dt_song1.bin
+    │   │           ├── dt_song2.bin
+    │   │           ├── dt_song3.bin
+    │   │           ├── dt_song4.bin
+    │   │           ├── orch.bfx
+    │   │           ├── orch.bin
+    │   │           ├── orch.ptr
+    │   │           └── orch.wbk
+    │   ├── README.euc
+    │   ├── README.txt
+    │   └── Tools/
+    │       ├── disk1/
+    │       │   ├── _INST32I.EX_
+    │       │   ├── _Setup.dll
+    │       │   ├── _sys1.cab
+    │       │   ├── _sys1.hdr
+    │       │   ├── _user1.cab
+    │       │   ├── _user1.hdr
+    │       │   ├── DATA.TAG
+    │       │   ├── data1.cab
+    │       │   ├── data1.hdr
+    │       │   ├── lang.dat
+    │       │   ├── layout.bin
+    │       │   ├── os.dat
+    │       │   ├── SETUP.INI
+    │       │   ├── setup.ins
+    │       │   └── setup.lid
+    │       └── disk2/
+    │           └── data2.cab
+    ├── pc/
+    │   ├── _INST16.EX_
+    │   ├── _INST32I.EX_
+    │   ├── _setup.dll
+    │   ├── _sys1.cab
+    │   ├── _sys1.hdr
+    │   ├── _user1.cab
+    │   ├── _user1.hdr
+    │   ├── basic/
+    │   │   ├── _INST16.EX_
+    │   │   ├── _INST32I.EX_
+    │   │   ├── _setup.dll
+    │   │   ├── _sys1.cab
+    │   │   ├── _sys1.hdr
+    │   │   ├── _user1.cab
+    │   │   ├── _user1.hdr
+    │   │   ├── DATA.TAG
+    │   │   ├── data1.cab
+    │   │   ├── data1.hdr
+    │   │   ├── lang.dat
+    │   │   ├── layout.bin
+    │   │   ├── os.dat
+    │   │   ├── README.txt
+    │   │   ├── README2.TXT
+    │   │   ├── SETUP.INI
+    │   │   ├── setup.ins
+    │   │   └── setup.lid
+    │   ├── DATA.TAG
+    │   ├── data1.cab
+    │   ├── data1.hdr
+    │   ├── ddtool/
+    │   │   ├── _INST32I.EX_
+    │   │   ├── _ISDEL.EXE
+    │   │   ├── _SETUP.DLL
+    │   │   ├── _sys1.cab
+    │   │   ├── _sys1.hdr
+    │   │   ├── _user1.cab
+    │   │   ├── _user1.hdr
+    │   │   ├── DATA.TAG
+    │   │   ├── data1.cab
+    │   │   ├── data1.hdr
+    │   │   ├── lang.dat
+    │   │   ├── layout.bin
+    │   │   ├── os.dat
+    │   │   ├── README.txt
+    │   │   ├── SETUP.EXE
+    │   │   ├── SETUP.INI
+    │   │   ├── setup.ins
+    │   │   └── setup.lid
+    │   ├── dptest/
+    │   │   ├── _inst32i.ex_
+    │   │   ├── _Setup.dll
+    │   │   ├── _sys1.cab
+    │   │   ├── _sys1.hdr
+    │   │   ├── _user1.cab
+    │   │   ├── _user1.hdr
+    │   │   ├── DATA.TAG
+    │   │   ├── data1.cab
+    │   │   ├── data1.hdr
+    │   │   ├── lang.dat
+    │   │   ├── layout.bin
+    │   │   ├── os.dat
+    │   │   ├── SETUP.INI
+    │   │   ├── setup.ins
+    │   │   └── setup.lid
+    │   ├── HVQ/
+    │   │   ├── _INST32I.EX_
+    │   │   ├── _setup.dll
+    │   │   ├── _sys1.cab
+    │   │   ├── _sys1.hdr
+    │   │   ├── _user1.cab
+    │   │   ├── _user1.hdr
+    │   │   ├── DATA.TAG
+    │   │   ├── data1.cab
+    │   │   ├── data1.hdr
+    │   │   ├── lang.dat
+    │   │   ├── layout.bin
+    │   │   ├── os.dat
+    │   │   ├── README.TXT
+    │   │   ├── SETUP.INI
+    │   │   ├── setup.ins
+    │   │   └── setup.lid
+    │   ├── lang.dat
+    │   ├── layout.bin
+    │   ├── mmv64/
+    │   │   ├── _inst32i.ex_
+    │   │   ├── _Setup.dll
+    │   │   ├── _sys1.cab
+    │   │   ├── _sys1.hdr
+    │   │   ├── _user1.cab
+    │   │   ├── _user1.hdr
+    │   │   ├── DATA.TAG
+    │   │   ├── data1.cab
+    │   │   ├── data1.hdr
+    │   │   ├── lang.dat
+    │   │   ├── layout.bin
+    │   │   ├── os.dat
+    │   │   ├── setup.bmp
+    │   │   ├── SETUP.INI
+    │   │   ├── setup.ins
+    │   │   └── setup.lid
+    │   ├── niff/
+    │   │   ├── _inst16.ex_
+    │   │   ├── _inst32i.ex_
+    │   │   ├── _setup.dll
+    │   │   ├── _sys1.cab
+    │   │   ├── _sys1.hdr
+    │   │   ├── _user1.cab
+    │   │   ├── _user1.hdr
+    │   │   ├── DATA.TAG
+    │   │   ├── data1.cab
+    │   │   ├── data1.hdr
+    │   │   ├── lang.dat
+    │   │   ├── layout.bin
+    │   │   ├── os.dat
+    │   │   ├── SETUP.INI
+    │   │   ├── setup.ins
+    │   │   └── setup.lid
+    │   ├── niffedit/
+    │   │   ├── _INST32I.EX_
+    │   │   ├── _sys1.cab
+    │   │   ├── _sys1.hdr
+    │   │   ├── _user1.cab
+    │   │   ├── _user1.hdr
+    │   │   ├── DATA.TAG
+    │   │   ├── data1.cab
+    │   │   ├── data1.hdr
+    │   │   ├── lang.dat
+    │   │   ├── layout.bin
+    │   │   ├── os.dat
+    │   │   ├── SETUP.INI
+    │   │   ├── setup.ins
+    │   │   ├── setup.lid
+    │   │   └── setupdir/
+    │   │       ├── 0009/
+    │   │       │   └── _setup.dll
+    │   │       └── 0011/
+    │   │           └── _setup.dll
+    │   ├── os.dat
+    │   ├── pict.bmp
+    │   ├── README.TXT
+    │   ├── Setup.bmp
+    │   ├── SETUP.INI
+    │   ├── setup.ins
+    │   ├── setup.lid
+    │   └── texedit/
+    │       ├── _INST32I.EX_
+    │       ├── _sys1.cab
+    │       ├── _sys1.hdr
+    │       ├── _user1.cab
+    │       ├── _user1.hdr
+    │       ├── DATA.TAG
+    │       ├── data1.cab
+    │       ├── data1.hdr
+    │       ├── lang.dat
+    │       ├── layout.bin
+    │       ├── os.dat
+    │       ├── setup.bmp
+    │       ├── SETUP.INI
+    │       ├── setup.ins
+    │       ├── setup.lid
+    │       └── setupdir/
+    │           ├── 0009/
+    │           │   └── _Setup.dll
+    │           └── 0011/
+    │               └── _Setup.dll
+    ├── README.txt
+    └── sgi/
+        └── n64kit50.tar/
+            └── n64kit50/
+                └── n64kit/
+                    ├── ccbl/
+                    │   ├── bg_image.c
+                    │   ├── bg_model.c
+                    │   ├── bg_model.h
+                    │   ├── bgimg/
+                    │   │   ├── img1.sgi
+                    │   │   └── img2.sgi
+                    │   ├── bgimg1.h
+                    │   ├── bgimg2.h
+                    │   ├── bl_macro.c
+                    │   ├── bl_menu.c
+                    │   ├── boot.c
+                    │   ├── cam.c
+                    │   ├── cam.h
+                    │   ├── cc_macro.c
+                    │   ├── ccbl_host.c
+                    │   ├── ccbl_host.h
+                    │   ├── common_include.h
+                    │   ├── cube.c
+                    │   ├── doc/
+                    │   │   └── MANUAL.txt
+                    │   ├── etc/
+                    │   │   ├── model/
+                    │   │   │   ├── dummy.c
+                    │   │   │   ├── Makefile
+                    │   │   │   ├── model.c
+                    │   │   │   ├── model.niff
+                    │   │   │   ├── model.rom
+                    │   │   │   ├── README
+                    │   │   │   ├── spec
+                    │   │   │   ├── truncate
+                    │   │   │   └── truncate.c
+                    │   │   └── tex/
+                    │   ├── graphics.c
+                    │   ├── graphics.h
+                    │   ├── grid.c
+                    │   ├── heap.c
+                    │   ├── heap.h
+                    │   ├── is_debug.c
+                    │   ├── is_debug.h
+                    │   ├── letters.bin
+                    │   ├── light.c
+                    │   ├── light.h
+                    │   ├── main.c
+                    │   ├── Makefile
+                    │   ├── mdl.h
+                    │   ├── menu.c
+                    │   ├── menu.h
+                    │   ├── misc_menu.c
+                    │   ├── mizo.c
+                    │   ├── model_load.c
+                    │   ├── model_load.h
+                    │   ├── model_out.c
+                    │   ├── model_out.h
+                    │   ├── mysys.c
+                    │   ├── mysys.h
+                    │   ├── niff/
+                    │   │   ├── cube.niff
+                    │   │   ├── grid.niff
+                    │   │   ├── mizo.niff
+                    │   │   ├── sphere.niff
+                    │   │   ├── stars.niff
+                    │   │   ├── tetra.niff
+                    │   │   ├── text.niff
+                    │   │   ├── torus2.niff
+                    │   │   ├── tri.niff
+                    │   │   ├── xy_bgm.niff
+                    │   │   └── xy_yz.niff
+                    │   ├── pad.c
+                    │   ├── pad.h
+                    │   ├── pal.h
+                    │   ├── rcp_reg.c
+                    │   ├── rcp_reg.h
+                    │   ├── rdp_menu.c
+                    │   ├── README.txt
+                    │   ├── rom_reg.h
+                    │   ├── rsp_menu.c
+                    │   ├── shape.h
+                    │   ├── spec
+                    │   ├── sphere.c
+                    │   ├── stars.h
+                    │   ├── tetra.c
+                    │   ├── text.c
+                    │   ├── texture/
+                    │   │   ├── brick.rgb
+                    │   │   ├── check.rgb
+                    │   │   ├── gradIA.rgb
+                    │   │   ├── gradient.rgb
+                    │   │   ├── highlight.rgb
+                    │   │   ├── mario.rgb
+                    │   │   ├── reflect.rgb
+                    │   │   └── tree_rgba.rgb
+                    │   ├── texture.c
+                    │   ├── texture.h
+                    │   ├── torus2.c
+                    │   ├── trackball.c
+                    │   ├── trackball.h
+                    │   ├── tri.c
+                    │   ├── tx_brick.h
+                    │   ├── tx_brickMM.h
+                    │   ├── tx_check.h
+                    │   ├── tx_grad32.h
+                    │   ├── tx_gradIA16.h
+                    │   ├── tx_highlight.h
+                    │   ├── tx_mario.h
+                    │   ├── tx_reflect.h
+                    │   ├── tx_tree.h
+                    │   ├── vi_menu.c
+                    │   ├── window.c
+                    │   ├── window.h
+                    │   ├── window_out.c
+                    │   ├── window_out.h
+                    │   ├── xy_bgm.h
+                    │   └── xy_yz.c
+                    ├── HVQ/
+                    │   ├── HVQ/
+                    │   │   ├── hvq2enc/
+                    │   │   │   ├── hvq2enc.exe
+                    │   │   │   └── USAGE.TXT
+                    │   │   ├── libhvq2/
+                    │   │   │   ├── FUNCTIONS.jp
+                    │   │   │   ├── GUIDE.jp
+                    │   │   │   ├── lib/
+                    │   │   │   │   ├── hvq2dec.h
+                    │   │   │   │   ├── HVQ2File.h
+                    │   │   │   │   ├── HVQmd.h
+                    │   │   │   │   └── libhvq2.a
+                    │   │   │   ├── README.jp
+                    │   │   │   └── rspcode/
+                    │   │   │       ├── hvq2sp1.o
+                    │   │   │       └── hvq2sp2.o
+                    │   │   ├── nuhvq/
+                    │   │   │   ├── appgfxinit.c
+                    │   │   │   ├── drumtest.ptr
+                    │   │   │   ├── drumtest.wbk
+                    │   │   │   ├── dt_sfx1.bfx
+                    │   │   │   ├── dt_song2.bin
+                    │   │   │   ├── hvqbuf.c
+                    │   │   │   ├── hvqimg.c
+                    │   │   │   ├── hvqwork.c
+                    │   │   │   ├── localdef.h
+                    │   │   │   ├── main.c
+                    │   │   │   ├── main.h
+                    │   │   │   ├── Makefile
+                    │   │   │   ├── Readme.jp
+                    │   │   │   ├── sample1.hvq
+                    │   │   │   ├── sample2.hvq
+                    │   │   │   ├── segment.h
+                    │   │   │   ├── spec
+                    │   │   │   └── stage00.c
+                    │   │   ├── README.jp
+                    │   │   └── sample/
+                    │   │       ├── cfb.c
+                    │   │       ├── hvqbuf.c
+                    │   │       ├── hvqwork.c
+                    │   │       ├── main.c
+                    │   │       ├── Makefile
+                    │   │       ├── README.jp
+                    │   │       ├── sample.hvq
+                    │   │       ├── spec
+                    │   │       ├── system.c
+                    │   │       └── system.h
+                    │   ├── HVQlogo/
+                    │   │   ├── HVQbig.BMP
+                    │   │   ├── HVQlogo1.ai
+                    │   │   ├── HVQsmall.BMP
+                    │   │   ├── HVQstaff.BMP
+                    │   │   └── README.jp
+                    │   ├── HVQM/
+                    │   │   ├── hvqm2enc/
+                    │   │   │   ├── hvqm2enc.exe
+                    │   │   │   ├── SUPPORT.TXT
+                    │   │   │   └── USAGE.TXT
+                    │   │   ├── libhvqm2/
+                    │   │   │   ├── FUNCTIONS.jp
+                    │   │   │   ├── GUIDE.jp
+                    │   │   │   ├── lib/
+                    │   │   │   │   ├── adpcmdec.h
+                    │   │   │   │   ├── hvqm2dec.h
+                    │   │   │   │   ├── HVQM2File.h
+                    │   │   │   │   ├── HVQmd.h
+                    │   │   │   │   └── libhvqm2.a
+                    │   │   │   ├── README.jp
+                    │   │   │   └── rspcode/
+                    │   │   │       ├── hvqm2sp1.o
+                    │   │   │       └── hvqm2sp2.o
+                    │   │   ├── nuhvqm/
+                    │   │   │   ├── gfxinit.c
+                    │   │   │   ├── graphic.c
+                    │   │   │   ├── graphic.h
+                    │   │   │   ├── hvqm.h
+                    │   │   │   ├── hvqmaudio.c
+                    │   │   │   ├── hvqmaudiobuf.c
+                    │   │   │   ├── hvqmcopyframebuffer.c
+                    │   │   │   ├── hvqmgfxinit.c
+                    │   │   │   ├── hvqmmain.c
+                    │   │   │   ├── hvqmvideobuf.c
+                    │   │   │   ├── hvqmwork.c
+                    │   │   │   ├── main.c
+                    │   │   │   ├── main.h
+                    │   │   │   ├── Makefile
+                    │   │   │   ├── Makefile.dos
+                    │   │   │   ├── Makefile.sgi
+                    │   │   │   ├── README.jp
+                    │   │   │   ├── spec
+                    │   │   │   ├── stage00.c
+                    │   │   │   └── stage01.c
+                    │   │   ├── README.jp
+                    │   │   └── sample/
+                    │   │       ├── adpcmbuf.c
+                    │   │       ├── cfb.c
+                    │   │       ├── cfbkeep.c
+                    │   │       ├── getrecord.c
+                    │   │       ├── hvqbuf.c
+                    │   │       ├── hvqmwork.c
+                    │   │       ├── main.c
+                    │   │       ├── Makefile
+                    │   │       ├── mirror.hvqm
+                    │   │       ├── pcmbuf.c
+                    │   │       ├── README.jp
+                    │   │       ├── sample.hvqm
+                    │   │       ├── spec
+                    │   │       ├── SUPPORT.jp
+                    │   │       ├── system.c
+                    │   │       ├── system.h
+                    │   │       ├── timekeeper.c
+                    │   │       └── timekeeper.h
+                    │   └── README.jp
+                    ├── mfs/
+                    │   ├── 64dd-fs10.doc
+                    │   ├── history.euc
+                    │   ├── history.sjis
+                    │   ├── INSTALL.jp
+                    │   ├── libmfs.a
+                    │   ├── libmfs_d.a
+                    │   ├── Makefile
+                    │   ├── mfs.h
+                    │   ├── mfsfuncman.euc
+                    │   ├── mfsfuncman.sjis
+                    │   ├── readme.euc
+                    │   └── readme.sjis
+                    ├── misc/
+                    │   ├── audiochk/
+                    │   │   ├── chk_sgi/
+                    │   │   │   ├── checkseq/
+                    │   │   │   │   ├── checkseq1.bin
+                    │   │   │   │   ├── checkseq2.bin
+                    │   │   │   │   ├── Makedepend
+                    │   │   │   │   ├── Makefile
+                    │   │   │   │   ├── params.c
+                    │   │   │   │   ├── params.h
+                    │   │   │   │   └── spec
+                    │   │   │   ├── checksfx/
+                    │   │   │   │   ├── checksfx1.bin
+                    │   │   │   │   ├── checksfx2.bin
+                    │   │   │   │   ├── Makedepend
+                    │   │   │   │   ├── Makefile
+                    │   │   │   │   ├── params.c
+                    │   │   │   │   ├── params.h
+                    │   │   │   │   └── spec
+                    │   │   │   ├── data/
+                    │   │   │   │   ├── midi.sbk
+                    │   │   │   │   ├── se.ctl
+                    │   │   │   │   ├── se.tbl
+                    │   │   │   │   ├── wave.ctl
+                    │   │   │   │   └── wave.tbl
+                    │   │   │   ├── include/
+                    │   │   │   │   ├── internal_n.h
+                    │   │   │   │   ├── internal_n_sn.h
+                    │   │   │   │   └── libchk_sgi.h
+                    │   │   │   └── lib/
+                    │   │   │       └── libchk_sgi.a
+                    │   │   ├── chk_stl/
+                    │   │   │   ├── checkseq/
+                    │   │   │   │   ├── checkseq1.bin
+                    │   │   │   │   ├── checkseq2.bin
+                    │   │   │   │   ├── Makedepend
+                    │   │   │   │   ├── Makefile
+                    │   │   │   │   ├── params.c
+                    │   │   │   │   ├── params.h
+                    │   │   │   │   └── spec
+                    │   │   │   ├── checksfx/
+                    │   │   │   │   ├── checksfx1.bin
+                    │   │   │   │   ├── checksfx2.bin
+                    │   │   │   │   ├── Makedepend
+                    │   │   │   │   ├── Makefile
+                    │   │   │   │   ├── params.c
+                    │   │   │   │   ├── params.h
+                    │   │   │   │   └── spec
+                    │   │   │   ├── data/
+                    │   │   │   │   ├── demo1_1.bfx
+                    │   │   │   │   ├── demo1_1.bin
+                    │   │   │   │   ├── demo1_1.ptr
+                    │   │   │   │   ├── demo1_1.wbk
+                    │   │   │   │   ├── demo1_2.bin
+                    │   │   │   │   ├── demo2_1.bin
+                    │   │   │   │   ├── demo2_1.ptr
+                    │   │   │   │   ├── demo2_1.wbk
+                    │   │   │   │   └── demo2_2.bin
+                    │   │   │   ├── include/
+                    │   │   │   │   ├── internal_sc.h
+                    │   │   │   │   ├── internal_sc_sn.h
+                    │   │   │   │   └── libchk_stl.h
+                    │   │   │   └── lib/
+                    │   │   │       └── libchk_stl.a
+                    │   │   └── README
+                    │   ├── pakfatal/
+                    │   │   ├── pakfatal.n64
+                    │   │   └── pakfatal.txt
+                    │   └── slide_v1.1/
+                    │       ├── README
+                    │       ├── slidec.s
+                    │       ├── sliencV11
+                    │       └── sliencw11.exe
+                    ├── niff/
+                    │   ├── bin/
+                    │   │   ├── .niffcnvops
+                    │   │   ├── convert_options
+                    │   │   ├── killgload
+                    │   │   ├── killnload
+                    │   │   ├── ne2
+                    │   │   ├── Niffeditor2
+                    │   │   └── niffeditor2
+                    │   ├── doc/
+                    │   │   ├── index.htm
+                    │   │   ├── index_frame.htm
+                    │   │   ├── mtv/
+                    │   │   │   ├── img/
+                    │   │   │   │   └── mtv_logo.gif
+                    │   │   │   ├── index.htm
+                    │   │   │   └── tvdbin.htm
+                    │   │   ├── n64prev/
+                    │   │   │   ├── car_hrc0.gif
+                    │   │   │   ├── car_hrc1.gif
+                    │   │   │   ├── history.htm
+                    │   │   │   ├── how2play.htm
+                    │   │   │   ├── mem_map.gif
+                    │   │   │   ├── prog_flow.gif
+                    │   │   │   ├── quickprev.htm
+                    │   │   │   └── seg1.htm
+                    │   │   ├── nd/
+                    │   │   │   ├── index.htm
+                    │   │   │   ├── prog_flow.gif
+                    │   │   │   └── refer.htm
+                    │   │   ├── niff2gfx/
+                    │   │   │   ├── history.htm
+                    │   │   │   ├── index.gif
+                    │   │   │   └── index.htm
+                    │   │   ├── niff2nvf/
+                    │   │   │   ├── change.htm
+                    │   │   │   ├── convert.htm
+                    │   │   │   └── index.htm
+                    │   │   ├── niff_edit/
+                    │   │   │   ├── chapt2/
+                    │   │   │   │   ├── animdialog.gif
+                    │   │   │   │   ├── button.htm
+                    │   │   │   │   ├── camdialog.gif
+                    │   │   │   │   ├── command_button.gif
+                    │   │   │   │   ├── envdialog.gif
+                    │   │   │   │   ├── FileOpen_img.gif
+                    │   │   │   │   ├── fileselect.gif
+                    │   │   │   │   ├── history.htm
+                    │   │   │   │   ├── hv_change_button.gif
+                    │   │   │   │   ├── lightdialog.gif
+                    │   │   │   │   ├── link_view_button.gif
+                    │   │   │   │   ├── lod.gif
+                    │   │   │   │   ├── main-menu.gif
+                    │   │   │   │   ├── matdialog.gif
+                    │   │   │   │   ├── menu.htm
+                    │   │   │   │   ├── mouse.htm
+                    │   │   │   │   ├── ne2.gif
+                    │   │   │   │   ├── NIFFeditor_default_view.gif
+                    │   │   │   │   ├── NIFFeditor_main_menu.gif
+                    │   │   │   │   ├── NIFFeditSGI_mat.gif
+                    │   │   │   │   ├── NIFFeditSGI_obj.gif
+                    │   │   │   │   ├── NIFFeditSGI_scene.gif
+                    │   │   │   │   ├── NIFFeditSGI_shape.gif
+                    │   │   │   │   ├── NIFFeditSGI_tex.gif
+                    │   │   │   │   ├── nodes.htm
+                    │   │   │   │   ├── objdialog.gif
+                    │   │   │   │   ├── options.htm
+                    │   │   │   │   ├── over_view_button.gif
+                    │   │   │   │   ├── over_viewing.gif
+                    │   │   │   │   ├── Overwrite_OK.gif
+                    │   │   │   │   ├── partdialog.gif
+                    │   │   │   │   ├── re_position_button.gif
+                    │   │   │   │   ├── scale_button.gif
+                    │   │   │   │   ├── scale_down_button.gif
+                    │   │   │   │   ├── scale_up_button.gif
+                    │   │   │   │   ├── shapedialog.gif
+                    │   │   │   │   ├── spec.htm
+                    │   │   │   │   ├── start.htm
+                    │   │   │   │   └── whattodo.htm
+                    │   │   │   ├── indexsgi.htm
+                    │   │   │   ├── indexwin.htm
+                    │   │   │   ├── niff_editor_title2.gif
+                    │   │   │   └── win/
+                    │   │   │       ├── animproperty.html
+                    │   │   │       ├── camproperty.html
+                    │   │   │       ├── chainrootproperty.html
+                    │   │   │       ├── effectorproperty.html
+                    │   │   │       ├── environment.html
+                    │   │   │       ├── envproperty.html
+                    │   │   │       ├── execute.html
+                    │   │   │       ├── faq.html
+                    │   │   │       ├── first.html
+                    │   │   │       ├── history.html
+                    │   │   │       ├── images/
+                    │   │   │       │   ├── animframe.gif
+                    │   │   │       │   ├── animloop.gif
+                    │   │   │       │   ├── animname.gif
+                    │   │   │       │   ├── animtype.gif
+                    │   │   │       │   ├── camclip.gif
+                    │   │   │       │   ├── cametc.gif
+                    │   │   │       │   ├── camname.gif
+                    │   │   │       │   ├── camtype.gif
+                    │   │   │       │   ├── chainrootname.gif
+                    │   │   │       │   ├── collname.gif
+                    │   │   │       │   ├── convert.gif
+                    │   │   │       │   ├── convertbutton.gif
+                    │   │   │       │   ├── convertnvf.gif
+                    │   │   │       │   ├── convertnvfbutton.gif
+                    │   │   │       │   ├── copybutton.gif
+                    │   │   │       │   ├── cutbutton.gif
+                    │   │   │       │   ├── editmenu.gif
+                    │   │   │       │   ├── effectorname.gif
+                    │   │   │       │   ├── envcolor.gif
+                    │   │   │       │   ├── envdepth.gif
+                    │   │   │       │   ├── envfog.gif
+                    │   │   │       │   ├── envname.gif
+                    │   │   │       │   ├── error.gif
+                    │   │   │       │   ├── existmessage.gif
+                    │   │   │       │   ├── filemenu.gif
+                    │   │   │       │   ├── helpmenu.gif
+                    │   │   │       │   ├── index.gif
+                    │   │   │       │   ├── jointname.gif
+                    │   │   │       │   ├── jointtype.gif
+                    │   │   │       │   ├── largebutton.gif
+                    │   │   │       │   ├── lightambient.gif
+                    │   │   │       │   ├── lightname.gif
+                    │   │   │       │   ├── lighttype.gif
+                    │   │   │       │   ├── listbutton.gif
+                    │   │   │       │   ├── loddialog.gif
+                    │   │   │       │   ├── lodlist.gif
+                    │   │   │       │   ├── matambient.gif
+                    │   │   │       │   ├── matdiffuse.gif
+                    │   │   │       │   ├── matemission.gif
+                    │   │   │       │   ├── matname.gif
+                    │   │   │       │   ├── matprim.gif
+                    │   │   │       │   ├── matprimforfog.gif
+                    │   │   │       │   ├── matshade.gif
+                    │   │   │       │   ├── mattype.gif
+                    │   │   │       │   ├── mattypeforfog.gif
+                    │   │   │       │   ├── matuser.gif
+                    │   │   │       │   ├── menu.gif
+                    │   │   │       │   ├── new.gif
+                    │   │   │       │   ├── newbutton.gif
+                    │   │   │       │   ├── next.gif
+                    │   │   │       │   ├── niffedit.gif
+                    │   │   │       │   ├── ntsc.gif
+                    │   │   │       │   ├── objbillboard.gif
+                    │   │   │       │   ├── objgroup.gif
+                    │   │   │       │   ├── objname.gif
+                    │   │   │       │   ├── objpriority.gif
+                    │   │   │       │   ├── objrender.gif
+                    │   │   │       │   ├── objrenderforfog.gif
+                    │   │   │       │   ├── objstate.gif
+                    │   │   │       │   ├── objtype.gif
+                    │   │   │       │   ├── openbutton.gif
+                    │   │   │       │   ├── partname.gif
+                    │   │   │       │   ├── pastebutton.gif
+                    │   │   │       │   ├── popupmenu.gif
+                    │   │   │       │   ├── preview.gif
+                    │   │   │       │   ├── previewbutton.gif
+                    │   │   │       │   ├── previewnvf.gif
+                    │   │   │       │   ├── previewnvfbutton.gif
+                    │   │   │       │   ├── previous.gif
+                    │   │   │       │   ├── quickpreview.gif
+                    │   │   │       │   ├── quickpreviewbutton.gif
+                    │   │   │       │   ├── reportbutton.gif
+                    │   │   │       │   ├── savebutton.gif
+                    │   │   │       │   ├── savemessage.gif
+                    │   │   │       │   ├── scenename.gif
+                    │   │   │       │   ├── scenevi.gif
+                    │   │   │       │   ├── shapefog.gif
+                    │   │   │       │   ├── shapename.gif
+                    │   │   │       │   ├── shapetype.gif
+                    │   │   │       │   ├── smallbutton.gif
+                    │   │   │       │   ├── statusbar.gif
+                    │   │   │       │   ├── texcorrection.gif
+                    │   │   │       │   ├── texfilter.gif
+                    │   │   │       │   ├── texlevel.gif
+                    │   │   │       │   ├── texname.gif
+                    │   │   │       │   ├── texpalette.gif
+                    │   │   │       │   ├── textype.gif
+                    │   │   │       │   ├── texwrap.gif
+                    │   │   │       │   ├── toolbar.gif
+                    │   │   │       │   ├── toolmenu.gif
+                    │   │   │       │   ├── triname.gif
+                    │   │   │       │   ├── update.gif
+                    │   │   │       │   ├── versionbutton.gif
+                    │   │   │       │   ├── viewmenu.gif
+                    │   │   │       │   └── warning.gif
+                    │   │   │       ├── index.html
+                    │   │   │       ├── jointproperty.html
+                    │   │   │       ├── license.html
+                    │   │   │       ├── lightproperty.html
+                    │   │   │       ├── limit.html
+                    │   │   │       ├── lodproperty.html
+                    │   │   │       ├── matproperty.html
+                    │   │   │       ├── menu.html
+                    │   │   │       ├── message.html
+                    │   │   │       ├── objproperty.html
+                    │   │   │       ├── operation.html
+                    │   │   │       ├── option.html
+                    │   │   │       ├── partproperty.html
+                    │   │   │       ├── popupmenu.html
+                    │   │   │       ├── property.html
+                    │   │   │       ├── sceneproperty.html
+                    │   │   │       ├── setup.html
+                    │   │   │       ├── shapeproperty.html
+                    │   │   │       ├── statusbar.html
+                    │   │   │       ├── support.html
+                    │   │   │       ├── texproperty.html
+                    │   │   │       └── toolbar.html
+                    │   │   ├── niff_logo.gif
+                    │   │   ├── niff_navi2/
+                    │   │   │   ├── img/
+                    │   │   │   │   └── niffnavi2_title.gif
+                    │   │   │   └── index.htm
+                    │   │   ├── niff_spec/
+                    │   │   │   ├── chapt1/
+                    │   │   │   │   ├── all_cast.gif
+                    │   │   │   │   ├── axis.gif
+                    │   │   │   │   ├── data_flow.gif
+                    │   │   │   │   ├── scene_img.gif
+                    │   │   │   │   ├── seg1.htm
+                    │   │   │   │   ├── seg2.htm
+                    │   │   │   │   ├── seg3.htm
+                    │   │   │   │   └── seg4.htm
+                    │   │   │   ├── chapt2/
+                    │   │   │   │   ├── amigo_obj.gif
+                    │   │   │   │   ├── anim_link.gif
+                    │   │   │   │   ├── anim_node_link.gif
+                    │   │   │   │   ├── cam_to_obj.gif
+                    │   │   │   │   ├── coll_terr.gif
+                    │   │   │   │   ├── fig_1shape.gif
+                    │   │   │   │   ├── fig_cam_link.gif
+                    │   │   │   │   ├── fig_mat_link.gif
+                    │   │   │   │   ├── fig_obj_coll.gif
+                    │   │   │   │   ├── following_null.gif
+                    │   │   │   │   ├── hrc_link.gif
+                    │   │   │   │   ├── magaru_ude.gif
+                    │   │   │   │   ├── niff_link_all.gif
+                    │   │   │   │   ├── obj_coll.gif
+                    │   │   │   │   ├── poly_data_link.gif
+                    │   │   │   │   ├── poly_front.gif
+                    │   │   │   │   ├── running_man.gif
+                    │   │   │   │   ├── seg1.htm
+                    │   │   │   │   ├── seg2-1.htm
+                    │   │   │   │   ├── seg2-2.htm
+                    │   │   │   │   ├── seg2-3.htm
+                    │   │   │   │   ├── seg2-4.htm
+                    │   │   │   │   ├── seg2-5.htm
+                    │   │   │   │   ├── seg2-6.htm
+                    │   │   │   │   ├── seg2-7.htm
+                    │   │   │   │   ├── seg2-8.htm
+                    │   │   │   │   ├── sphere_mat.gif
+                    │   │   │   │   └── top_null_obj.gif
+                    │   │   │   ├── chapt3/
+                    │   │   │   │   ├── float_data.gif
+                    │   │   │   │   ├── seg1.htm
+                    │   │   │   │   ├── seg10-2.htm
+                    │   │   │   │   ├── seg10-3.htm
+                    │   │   │   │   ├── seg10.htm
+                    │   │   │   │   ├── seg11-2.htm
+                    │   │   │   │   ├── seg11-3.htm
+                    │   │   │   │   ├── seg11-4.htm
+                    │   │   │   │   ├── seg11-5.htm
+                    │   │   │   │   ├── seg11-6.htm
+                    │   │   │   │   ├── seg11-7.htm
+                    │   │   │   │   ├── seg11-8.htm
+                    │   │   │   │   ├── seg11-9.htm
+                    │   │   │   │   ├── seg11.htm
+                    │   │   │   │   ├── seg12-2.htm
+                    │   │   │   │   ├── seg12.htm
+                    │   │   │   │   ├── seg13-2.htm
+                    │   │   │   │   ├── seg13.htm
+                    │   │   │   │   ├── seg14-2.htm
+                    │   │   │   │   ├── seg14-3.htm
+                    │   │   │   │   ├── seg14.htm
+                    │   │   │   │   ├── seg15-2.htm
+                    │   │   │   │   ├── seg15.htm
+                    │   │   │   │   ├── seg16-2.htm
+                    │   │   │   │   ├── seg16-3.htm
+                    │   │   │   │   ├── seg16.htm
+                    │   │   │   │   ├── seg17-2.htm
+                    │   │   │   │   ├── seg17-3.htm
+                    │   │   │   │   ├── seg17-4.htm
+                    │   │   │   │   ├── seg17.htm
+                    │   │   │   │   ├── seg18-2.htm
+                    │   │   │   │   ├── seg18.htm
+                    │   │   │   │   ├── seg19-2.htm
+                    │   │   │   │   ├── seg19-3.htm
+                    │   │   │   │   ├── seg19.htm
+                    │   │   │   │   ├── seg2.htm
+                    │   │   │   │   ├── seg20-2.htm
+                    │   │   │   │   ├── seg20.htm
+                    │   │   │   │   ├── seg21-2.htm
+                    │   │   │   │   ├── seg21.htm
+                    │   │   │   │   ├── seg22-2.htm
+                    │   │   │   │   ├── seg22.htm
+                    │   │   │   │   ├── seg3.htm
+                    │   │   │   │   ├── seg4.htm
+                    │   │   │   │   ├── seg5-2.htm
+                    │   │   │   │   ├── seg5.htm
+                    │   │   │   │   ├── seg6-2.htm
+                    │   │   │   │   ├── seg6.htm
+                    │   │   │   │   ├── seg7-2.htm
+                    │   │   │   │   ├── seg7-3.htm
+                    │   │   │   │   ├── seg7.htm
+                    │   │   │   │   ├── seg8-2.htm
+                    │   │   │   │   ├── seg8-3.htm
+                    │   │   │   │   ├── seg8-4.htm
+                    │   │   │   │   ├── seg8-5.htm
+                    │   │   │   │   ├── seg8.htm
+                    │   │   │   │   ├── seg9-2.htm
+                    │   │   │   │   ├── seg9-3.htm
+                    │   │   │   │   ├── seg9-4.htm
+                    │   │   │   │   ├── seg9-5.htm
+                    │   │   │   │   ├── seg9.htm
+                    │   │   │   │   └── u32_data.gif
+                    │   │   │   ├── chapt4/
+                    │   │   │   │   ├── anim_full.jpg
+                    │   │   │   │   ├── anim_key.jpg
+                    │   │   │   │   ├── mat_flag_n64.jpg
+                    │   │   │   │   ├── mat_flag_niff.jpg
+                    │   │   │   │   ├── obj_lod.jpg
+                    │   │   │   │   ├── obj_render_pri.jpg
+                    │   │   │   │   ├── obj_render_type.jpg
+                    │   │   │   │   ├── seg1.htm
+                    │   │   │   │   └── version_num.jpg
+                    │   │   │   ├── chapt5/
+                    │   │   │   │   ├── seg1.htm
+                    │   │   │   │   └── seg2.htm
+                    │   │   │   └── index.htm
+                    │   │   ├── niff_spec2/
+                    │   │   │   ├── additional_node_C.htm
+                    │   │   │   ├── anim_C.htm
+                    │   │   │   ├── anim_E.htm
+                    │   │   │   ├── anim_J.htm
+                    │   │   │   ├── appendix/
+                    │   │   │   │   ├── envelope_system_E.htm
+                    │   │   │   │   ├── envelope_system_J.htm
+                    │   │   │   │   ├── flag.htm
+                    │   │   │   │   ├── hermite_J.htm
+                    │   │   │   │   ├── IK_system_E.htm
+                    │   │   │   │   ├── IK_system_J.htm
+                    │   │   │   │   ├── img/
+                    │   │   │   │   │   ├── 2bone_ik.jpg
+                    │   │   │   │   │   ├── classical_scale.jpg
+                    │   │   │   │   │   ├── classical_scale_hrc.jpg
+                    │   │   │   │   │   ├── default_scale.jpg
+                    │   │   │   │   │   ├── default_scale_hrc.jpg
+                    │   │   │   │   │   ├── default_scaling.jpg
+                    │   │   │   │   │   ├── envelope_part.jpg
+                    │   │   │   │   │   ├── full_weighted.jpg
+                    │   │   │   │   │   ├── hermite1.gif
+                    │   │   │   │   │   ├── hermite2.gif
+                    │   │   │   │   │   ├── ik_axis.jpg
+                    │   │   │   │   │   ├── joint_axis.jpg
+                    │   │   │   │   │   ├── joint_down.jpg
+                    │   │   │   │   │   ├── joint_up.jpg
+                    │   │   │   │   │   ├── morph.jpg
+                    │   │   │   │   │   ├── resplane.jpg
+                    │   │   │   │   │   ├── table_for_morph_part.jpg
+                    │   │   │   │   │   ├── unique_scale.jpg
+                    │   │   │   │   │   └── unique_scale_hrc.jpg
+                    │   │   │   │   ├── tag.htm
+                    │   │   │   │   ├── unique_scale_E.htm
+                    │   │   │   │   └── unique_scale_J.htm
+                    │   │   │   ├── cam_C.htm
+                    │   │   │   ├── cam_E.htm
+                    │   │   │   ├── cam_J.htm
+                    │   │   │   ├── chain_root_C.htm
+                    │   │   │   ├── chain_root_E.htm
+                    │   │   │   ├── chain_root_J.htm
+                    │   │   │   ├── change_log_E.htm
+                    │   │   │   ├── change_log_J.htm
+                    │   │   │   ├── ci_img_C.htm
+                    │   │   │   ├── ci_img_E.htm
+                    │   │   │   ├── ci_img_J.htm
+                    │   │   │   ├── cluster_C.htm
+                    │   │   │   ├── cluster_E.htm
+                    │   │   │   ├── cluster_J.htm
+                    │   │   │   ├── color_palette_C.htm
+                    │   │   │   ├── color_palette_E.htm
+                    │   │   │   ├── color_palette_J.htm
+                    │   │   │   ├── effector_C.htm
+                    │   │   │   ├── effector_E.htm
+                    │   │   │   ├── effector_J.htm
+                    │   │   │   ├── envelope_C.htm
+                    │   │   │   ├── envelope_E.htm
+                    │   │   │   ├── envelope_J.htm
+                    │   │   │   ├── external_name_C.htm
+                    │   │   │   ├── external_name_E.htm
+                    │   │   │   ├── external_name_J.htm
+                    │   │   │   ├── file_header_C.htm
+                    │   │   │   ├── file_header_E.htm
+                    │   │   │   ├── file_header_J.htm
+                    │   │   │   ├── index.htm
+                    │   │   │   ├── joint_C.htm
+                    │   │   │   ├── joint_E.htm
+                    │   │   │   ├── joint_J.htm
+                    │   │   │   ├── mat_C.htm
+                    │   │   │   ├── mat_E.htm
+                    │   │   │   ├── mat_J.htm
+                    │   │   │   ├── obj_C.htm
+                    │   │   │   ├── obj_E.htm
+                    │   │   │   ├── obj_J.htm
+                    │   │   │   ├── part_C.htm
+                    │   │   │   ├── part_E.htm
+                    │   │   │   ├── part_J.htm
+                    │   │   │   ├── scene_C.htm
+                    │   │   │   ├── scene_E.htm
+                    │   │   │   ├── scene_J.htm
+                    │   │   │   ├── shape_C.htm
+                    │   │   │   ├── shape_E.htm
+                    │   │   │   ├── shape_J.htm
+                    │   │   │   ├── tex_C.htm
+                    │   │   │   ├── tex_E.htm
+                    │   │   │   ├── tex_img_C.htm
+                    │   │   │   ├── tex_img_E.htm
+                    │   │   │   ├── tex_img_J.htm
+                    │   │   │   ├── tex_J.htm
+                    │   │   │   ├── user_friendly_render_mode_name.txt
+                    │   │   │   ├── weight_C.htm
+                    │   │   │   ├── weight_E.htm
+                    │   │   │   └── weight_J.htm
+                    │   │   ├── niffapi/
+                    │   │   │   ├── history.htm
+                    │   │   │   ├── index.htm
+                    │   │   │   ├── intro.htm
+                    │   │   │   ├── niaddname.htm
+                    │   │   │   ├── niffapi.htm
+                    │   │   │   ├── nigetname.htm
+                    │   │   │   ├── ninbreadopen.htm
+                    │   │   │   ├── ninbwriteopen.htm
+                    │   │   │   ├── ninewnis.htm
+                    │   │   │   ├── niniffver.htm
+                    │   │   │   ├── nintreadopen.htm
+                    │   │   │   ├── nintwriteopen.htm
+                    │   │   │   ├── niopennb.htm
+                    │   │   │   ├── niopennt.htm
+                    │   │   │   ├── nioutputnt.htm
+                    │   │   │   ├── nis.htm
+                    │   │   │   ├── nis2.htm
+                    │   │   │   ├── nisaveasnb.htm
+                    │   │   │   ├── nisaveasnb2.htm
+                    │   │   │   ├── nisaveasnt.htm
+                    │   │   │   ├── nisetname.htm
+                    │   │   │   ├── niwritenb.htm
+                    │   │   │   └── niwritenb2.htm
+                    │   │   ├── nifftools/
+                    │   │   │   ├── checknb.htm
+                    │   │   │   ├── checknb2.htm
+                    │   │   │   ├── history.htm
+                    │   │   │   ├── index.htm
+                    │   │   │   ├── nb2nt.htm
+                    │   │   │   ├── niff1to2.htm
+                    │   │   │   ├── niffb2t.htm
+                    │   │   │   ├── niffopt.htm
+                    │   │   │   ├── nifft2b.htm
+                    │   │   │   └── nt2nb.htm
+                    │   │   ├── nvf/
+                    │   │   │   ├── Image1.gif
+                    │   │   │   ├── Image2.gif
+                    │   │   │   ├── index.htm
+                    │   │   │   ├── mgkintro.htm
+                    │   │   │   ├── nvfhier.htm
+                    │   │   │   ├── nvfhier1.gif
+                    │   │   │   ├── nvfhier2.gif
+                    │   │   │   ├── nvfhier3.gif
+                    │   │   │   └── nvfhier4.gif
+                    │   │   ├── nvfview/
+                    │   │   │   ├── history.htm
+                    │   │   │   ├── how2play.htm
+                    │   │   │   ├── memmap.gif
+                    │   │   │   └── seg1.htm
+                    │   │   └── readme/
+                    │   │       ├── index.gif
+                    │   │       └── index.htm
+                    │   ├── gif/
+                    │   │   ├── gccon54.gif
+                    │   │   ├── index.gif
+                    │   │   ├── new50.gif
+                    │   │   ├── next.gif
+                    │   │   ├── previous.gif
+                    │   │   ├── renewal50.gif
+                    │   │   └── update50.gif
+                    │   ├── n64prev/
+                    │   │   ├── animmenu.c
+                    │   │   ├── atan2f.c
+                    │   │   ├── bgcolormenu.c
+                    │   │   ├── cameramenu.c
+                    │   │   ├── controlmenu.c
+                    │   │   ├── cruise.c
+                    │   │   ├── cruise.h
+                    │   │   ├── expad.c
+                    │   │   ├── expad.h
+                    │   │   ├── fogmenu.c
+                    │   │   ├── gfx.c
+                    │   │   ├── gfx.h
+                    │   │   ├── is_debug.c
+                    │   │   ├── is_debug.h
+                    │   │   ├── lightmenu.c
+                    │   │   ├── main.c
+                    │   │   ├── Makefile
+                    │   │   ├── Makefile.win
+                    │   │   ├── malloc.c
+                    │   │   ├── malloc.h
+                    │   │   ├── menu.c
+                    │   │   ├── menu.h
+                    │   │   ├── menudef.h
+                    │   │   ├── mode.c
+                    │   │   ├── mode.h
+                    │   │   ├── n64.c
+                    │   │   ├── n64prev.MANUAL
+                    │   │   ├── nd.h
+                    │   │   ├── nddisp.c
+                    │   │   ├── ndeval.c
+                    │   │   ├── ndman.c
+                    │   │   ├── ndres.c
+                    │   │   ├── ndstuff.c
+                    │   │   ├── niff2gfx
+                    │   │   ├── objectmenu.c
+                    │   │   ├── pack.h
+                    │   │   ├── premodel.c
+                    │   │   ├── pub.h
+                    │   │   ├── quickprev/
+                    │   │   │   ├── clean.bin
+                    │   │   │   ├── HOWTOUSE
+                    │   │   │   ├── quickprev.n64
+                    │   │   │   ├── readme.txt
+                    │   │   │   └── star.niff
+                    │   │   ├── readme.txt
+                    │   │   ├── rootmenu.c
+                    │   │   ├── spec
+                    │   │   ├── tbmove.c
+                    │   │   ├── tbmove.h
+                    │   │   ├── trckball.c
+                    │   │   ├── trckball.h
+                    │   │   └── videomenu.c
+                    │   ├── niffapi/
+                    │   │   ├── depend
+                    │   │   ├── libnis.a
+                    │   │   ├── Makefile
+                    │   │   ├── niff2tags.h
+                    │   │   ├── niffapi.h
+                    │   │   ├── niffn64.h
+                    │   │   ├── nifftags.h
+                    │   │   ├── nis.h
+                    │   │   ├── nis2.h
+                    │   │   ├── README
+                    │   │   ├── sample.c
+                    │   │   └── yellow-cube.niff
+                    │   ├── nifftools/
+                    │   │   ├── checknb2
+                    │   │   ├── nb2nt
+                    │   │   ├── niff1to2
+                    │   │   ├── niffb2t
+                    │   │   ├── niffopt
+                    │   │   ├── nifft2b
+                    │   │   └── nt2nb
+                    │   ├── nvfview/
+                    │   │   ├── common.sgi
+                    │   │   ├── common.win
+                    │   │   ├── commonx.sgi
+                    │   │   ├── commonx.win
+                    │   │   ├── doc/
+                    │   │   │   ├── changes.txt
+                    │   │   │   ├── LoadingNVF.txt
+                    │   │   │   ├── nvfview.txt
+                    │   │   │   └── Parse.txt
+                    │   │   ├── gprev
+                    │   │   ├── include/
+                    │   │   │   ├── mgi/
+                    │   │   │   │   ├── App.h
+                    │   │   │   │   ├── Character.h
+                    │   │   │   │   ├── Control.h
+                    │   │   │   │   ├── Job.h
+                    │   │   │   │   └── JobList.h
+                    │   │   │   ├── mgk/
+                    │   │   │   │   ├── App.h
+                    │   │   │   │   └── Obj.h
+                    │   │   │   ├── mhc/
+                    │   │   │   │   ├── Animation.h
+                    │   │   │   │   ├── DirUpConstr.h
+                    │   │   │   │   ├── ExternalNode.h
+                    │   │   │   │   ├── Function.h
+                    │   │   │   │   ├── Instance.h
+                    │   │   │   │   ├── InstanceList.h
+                    │   │   │   │   ├── Module.h
+                    │   │   │   │   ├── ModuleNode.h
+                    │   │   │   │   ├── Node.h
+                    │   │   │   │   ├── NodeHandle.h
+                    │   │   │   │   ├── NodeList.h
+                    │   │   │   │   ├── Reference.h
+                    │   │   │   │   ├── Rotation1.h
+                    │   │   │   │   ├── Scene.h
+                    │   │   │   │   ├── Sequencer.h
+                    │   │   │   │   ├── Transform.h
+                    │   │   │   │   ├── TransformInfo.h
+                    │   │   │   │   └── Translation.h
+                    │   │   │   ├── mif/
+                    │   │   │   │   ├── ChunkParser.h
+                    │   │   │   │   ├── FileParser.h
+                    │   │   │   │   └── FormParser.h
+                    │   │   │   ├── mis/
+                    │   │   │   │   ├── Buffer.h
+                    │   │   │   │   ├── Input.h
+                    │   │   │   │   ├── RomInputEpi.h
+                    │   │   │   │   ├── RomInputPi.h
+                    │   │   │   │   └── util.h
+                    │   │   │   ├── mrn/
+                    │   │   │   │   ├── BlenderMode.h
+                    │   │   │   │   ├── Camera.h
+                    │   │   │   │   ├── Context.h
+                    │   │   │   │   ├── Fog.h
+                    │   │   │   │   ├── Group.h
+                    │   │   │   │   ├── GroupList.h
+                    │   │   │   │   ├── Light.h
+                    │   │   │   │   ├── LightSet.h
+                    │   │   │   │   ├── LightSetList.h
+                    │   │   │   │   ├── Material.h
+                    │   │   │   │   ├── MaterialList.h
+                    │   │   │   │   ├── Object.h
+                    │   │   │   │   ├── ObjectList.h
+                    │   │   │   │   ├── ObjectState.h
+                    │   │   │   │   ├── Scene.h
+                    │   │   │   │   ├── Screen.h
+                    │   │   │   │   ├── Texture.h
+                    │   │   │   │   ├── TextureImage.h
+                    │   │   │   │   ├── TextureImageList.h
+                    │   │   │   │   ├── TextureList.h
+                    │   │   │   │   ├── TextureLut.h
+                    │   │   │   │   ├── TextureLutList.h
+                    │   │   │   │   ├── TextureTile.h
+                    │   │   │   │   ├── util.h
+                    │   │   │   │   └── View.h
+                    │   │   │   ├── msn/
+                    │   │   │   │   ├── AnimatedGeometry.h
+                    │   │   │   │   ├── Animation.h
+                    │   │   │   │   ├── BgColor.h
+                    │   │   │   │   ├── ClassicScale.h
+                    │   │   │   │   ├── DepthFog.h
+                    │   │   │   │   ├── DirectionalLight.h
+                    │   │   │   │   ├── DirectionConstr.h
+                    │   │   │   │   ├── DirUpConstr.h
+                    │   │   │   │   ├── EnvelopeGeometry.h
+                    │   │   │   │   ├── EnvelopeVertex.h
+                    │   │   │   │   ├── EnvelopeVertexC.h
+                    │   │   │   │   ├── EnvelopeVertexN.h
+                    │   │   │   │   ├── Float.h
+                    │   │   │   │   ├── FormParser.h
+                    │   │   │   │   ├── Function.h
+                    │   │   │   │   ├── Geometry.h
+                    │   │   │   │   ├── LightSet.h
+                    │   │   │   │   ├── Lod.h
+                    │   │   │   │   ├── Marker.h
+                    │   │   │   │   ├── Material.h
+                    │   │   │   │   ├── Nop.h
+                    │   │   │   │   ├── Orientation.h
+                    │   │   │   │   ├── OrientationConstr.h
+                    │   │   │   │   ├── Path.h
+                    │   │   │   │   ├── PerspectiveCamera.h
+                    │   │   │   │   ├── PointLight.h
+                    │   │   │   │   ├── PositionConstr.h
+                    │   │   │   │   ├── RotationX.h
+                    │   │   │   │   ├── RotationXyz.h
+                    │   │   │   │   ├── RotationY.h
+                    │   │   │   │   ├── RotationZ.h
+                    │   │   │   │   ├── RotationZxy.h
+                    │   │   │   │   ├── Scale.h
+                    │   │   │   │   ├── ScaleConstr.h
+                    │   │   │   │   ├── Shape.h
+                    │   │   │   │   ├── Skeleton2.h
+                    │   │   │   │   ├── Skeleton2d2.h
+                    │   │   │   │   ├── SkeletonPx2.h
+                    │   │   │   │   ├── SkeletonUv2.h
+                    │   │   │   │   ├── Switch.h
+                    │   │   │   │   ├── Texture.h
+                    │   │   │   │   ├── TextureImage.h
+                    │   │   │   │   ├── TextureLut.h
+                    │   │   │   │   ├── TransformInfo.h
+                    │   │   │   │   ├── Translation.h
+                    │   │   │   │   ├── util.h
+                    │   │   │   │   └── VertexInterpolator.h
+                    │   │   │   ├── mso/
+                    │   │   │   │   ├── Allocator.h
+                    │   │   │   │   ├── BilistBase.h
+                    │   │   │   │   ├── CascadeAllocator.h
+                    │   │   │   │   ├── debug.h
+                    │   │   │   │   ├── define.h
+                    │   │   │   │   ├── derive.h
+                    │   │   │   │   ├── GfxBuffer.h
+                    │   │   │   │   ├── HeapAllocator.h
+                    │   │   │   │   └── ListBase.h
+                    │   │   │   ├── mvm/
+                    │   │   │   │   ├── Color.h
+                    │   │   │   │   ├── Matrix.h
+                    │   │   │   │   ├── util.h
+                    │   │   │   │   └── Vector.h
+                    │   │   │   ├── nusys.h
+                    │   │   │   └── nux.h
+                    │   │   ├── lib/
+                    │   │   │   ├── libmgi.a
+                    │   │   │   ├── libmgi_d.a
+                    │   │   │   ├── libmgk.a
+                    │   │   │   ├── libmgk_d.a
+                    │   │   │   ├── libmhc.a
+                    │   │   │   ├── libmhc_d.a
+                    │   │   │   ├── libmif.a
+                    │   │   │   ├── libmif_d.a
+                    │   │   │   ├── libmis.a
+                    │   │   │   ├── libmis_d.a
+                    │   │   │   ├── libmrn.a
+                    │   │   │   ├── libmrn_d.a
+                    │   │   │   ├── libmsn.a
+                    │   │   │   ├── libmsn_d.a
+                    │   │   │   ├── libmso.a
+                    │   │   │   ├── libmso_d.a
+                    │   │   │   ├── libmvm.a
+                    │   │   │   ├── libmvm_d.a
+                    │   │   │   ├── libnusys.a
+                    │   │   │   ├── libnusys_d.a
+                    │   │   │   └── nusys.o
+                    │   │   ├── libdoc/
+                    │   │   │   ├── mgi/
+                    │   │   │   │   ├── App.txt
+                    │   │   │   │   ├── Character.txt
+                    │   │   │   │   ├── Control.txt
+                    │   │   │   │   └── Job.txt
+                    │   │   │   ├── mgk/
+                    │   │   │   │   ├── App.txt
+                    │   │   │   │   └── Obj.txt
+                    │   │   │   ├── mhc/
+                    │   │   │   │   ├── ExternalNode.txt
+                    │   │   │   │   ├── Instance.txt
+                    │   │   │   │   ├── Module.txt
+                    │   │   │   │   ├── ModuleNode.txt
+                    │   │   │   │   ├── Node.txt
+                    │   │   │   │   ├── NodeHandle.txt
+                    │   │   │   │   ├── Reference.txt
+                    │   │   │   │   ├── Scene.txt
+                    │   │   │   │   ├── Sequencer.txt
+                    │   │   │   │   └── Transform.txt
+                    │   │   │   ├── mif/
+                    │   │   │   │   ├── ChunkParser.txt
+                    │   │   │   │   ├── FileParser.txt
+                    │   │   │   │   └── FormParser.txt
+                    │   │   │   ├── mis/
+                    │   │   │   │   ├── Buffer.txt
+                    │   │   │   │   ├── Input.txt
+                    │   │   │   │   ├── RomInputEpi.txt
+                    │   │   │   │   ├── RomInputPi.txt
+                    │   │   │   │   └── util.txt
+                    │   │   │   ├── mrn/
+                    │   │   │   │   ├── BlenderMode.txt
+                    │   │   │   │   ├── Camera.txt
+                    │   │   │   │   ├── Context.txt
+                    │   │   │   │   ├── Fog.txt
+                    │   │   │   │   ├── Group.txt
+                    │   │   │   │   ├── LightSet.txt
+                    │   │   │   │   ├── Material.txt
+                    │   │   │   │   ├── Object.txt
+                    │   │   │   │   ├── ObjectState.txt
+                    │   │   │   │   ├── Scene.txt
+                    │   │   │   │   ├── Screen.txt
+                    │   │   │   │   ├── Texture.txt
+                    │   │   │   │   ├── TextureImage.txt
+                    │   │   │   │   ├── TextureLut.txt
+                    │   │   │   │   ├── TextureTile.txt
+                    │   │   │   │   └── View.txt
+                    │   │   │   ├── msn/
+                    │   │   │   │   └── NodeGuide.txt
+                    │   │   │   ├── mso/
+                    │   │   │   │   ├── Allocator.txt
+                    │   │   │   │   ├── BilistBase.txt
+                    │   │   │   │   ├── CascadeAllocator.txt
+                    │   │   │   │   ├── debug.txt
+                    │   │   │   │   ├── derive.txt
+                    │   │   │   │   ├── GfxBuffer.txt
+                    │   │   │   │   ├── HeapAllocator.txt
+                    │   │   │   │   └── ListBase.txt
+                    │   │   │   └── mvm/
+                    │   │   │       ├── Color.txt
+                    │   │   │       ├── Matrix.txt
+                    │   │   │       ├── util.txt
+                    │   │   │       └── Vector.txt
+                    │   │   ├── libexample/
+                    │   │   │   ├── mgk/
+                    │   │   │   │   └── chars/
+                    │   │   │   │       ├── animal.nvf
+                    │   │   │   │       ├── main.c
+                    │   │   │   │       ├── Makefile.sgi
+                    │   │   │   │       ├── Makefile.win
+                    │   │   │   │       ├── spec
+                    │   │   │   │       └── stage.nvf
+                    │   │   │   ├── mif/
+                    │   │   │   │   └── read_chunk/
+                    │   │   │   │       ├── boot.c
+                    │   │   │   │       ├── main.c
+                    │   │   │   │       ├── Makefile.sgi
+                    │   │   │   │       ├── Makefile.win
+                    │   │   │   │       ├── spec
+                    │   │   │   │       └── test.nvf
+                    │   │   │   ├── mis/
+                    │   │   │   │   └── hello/
+                    │   │   │   │       ├── boot.c
+                    │   │   │   │       ├── hello.txt
+                    │   │   │   │       ├── main.c
+                    │   │   │   │       ├── Makefile.sgi
+                    │   │   │   │       ├── Makefile.win
+                    │   │   │   │       └── spec
+                    │   │   │   └── msn/
+                    │   │   │       └── load/
+                    │   │   │           ├── boot.c
+                    │   │   │           ├── cube.nvf
+                    │   │   │           ├── main.c
+                    │   │   │           ├── Makefile.sgi
+                    │   │   │           ├── Makefile.win
+                    │   │   │           └── spec
+                    │   │   ├── libsrc/
+                    │   │   │   ├── mgk/
+                    │   │   │   │   ├── app.c
+                    │   │   │   │   ├── Makedepend
+                    │   │   │   │   ├── Makefile.sgi
+                    │   │   │   │   ├── Makefile.win
+                    │   │   │   │   └── obj.c
+                    │   │   │   └── nusys/
+                    │   │   │       ├── Makedepend
+                    │   │   │       ├── Makefile.sgi
+                    │   │   │       ├── Makefile.win
+                    │   │   │       ├── nuboot.c
+                    │   │   │       ├── nuboot.o
+                    │   │   │       ├── nucontdataget.c
+                    │   │   │       ├── nucontdatagetall.c
+                    │   │   │       ├── nucontdatagetex.c
+                    │   │   │       ├── nucontdatagetexall.c
+                    │   │   │       ├── nucontdatalock.c
+                    │   │   │       ├── nucontdataread.c
+                    │   │   │       ├── nucontdatareadstart.c
+                    │   │   │       ├── nucontdatareadwait.c
+                    │   │   │       ├── nucontgbpakcheck.c
+                    │   │   │       ├── nucontgbpakfread.c
+                    │   │   │       ├── nucontgbpakfwrite.c
+                    │   │   │       ├── nucontgbpakgetstatus.c
+                    │   │   │       ├── nucontgbpakmgr.c
+                    │   │   │       ├── nucontgbpakopen.c
+                    │   │   │       ├── nucontgbpakpower.c
+                    │   │   │       ├── nucontgbpakreadid.c
+                    │   │   │       ├── nucontgbpakreadwrite.c
+                    │   │   │       ├── nucontgbpakregwrite.c
+                    │   │   │       ├── nucontinit.c
+                    │   │   │       ├── nucontmgr.c
+                    │   │   │       ├── nucontpakcodeset.c
+                    │   │   │       ├── nucontpakfiledelete.c
+                    │   │   │       ├── nucontpakfiledeletejis.c
+                    │   │   │       ├── nucontpakfilefread.c
+                    │   │   │       ├── nucontpakfilefwrite.c
+                    │   │   │       ├── nucontpakfilenum.c
+                    │   │   │       ├── nucontpakfileopen.c
+                    │   │   │       ├── nucontpakfileopenjis.c
+                    │   │   │       ├── nucontpakfilereadwrite.c
+                    │   │   │       ├── nucontpakfilestate.c
+                    │   │   │       ├── nucontpakgetfree.c
+                    │   │   │       ├── nucontpakjiston64.c
+                    │   │   │       ├── nucontpakmgr.c
+                    │   │   │       ├── nucontpakopen.c
+                    │   │   │       ├── nucontpakrepairid.c
+                    │   │   │       ├── nucontqueryread.c
+                    │   │   │       ├── nucontreadfuncset.c
+                    │   │   │       ├── nucontrmbcheck.c
+                    │   │   │       ├── nucontrmbforcestop.c
+                    │   │   │       ├── nucontrmbforcestopend.c
+                    │   │   │       ├── nucontrmbmgr.c
+                    │   │   │       ├── nucontrmbmodeset.c
+                    │   │   │       ├── nucontrmbsearchtimeset.c
+                    │   │   │       ├── nucontrmbstart.c
+                    │   │   │       ├── nucontrmbstop.c
+                    │   │   │       ├── nudebconbuf.c
+                    │   │   │       ├── nudebconclear.c
+                    │   │   │       ├── nudebconcputs.c
+                    │   │   │       ├── nudebcondisp.c
+                    │   │   │       ├── nudebcondisp_ex2.c
+                    │   │   │       ├── nudebconprintf.c
+                    │   │   │       ├── nudebconputc.c
+                    │   │   │       ├── nudebconscroll.c
+                    │   │   │       ├── nudebconsole.c
+                    │   │   │       ├── nudebcontextattr.c
+                    │   │   │       ├── nudebcontextcolor.c
+                    │   │   │       ├── nudebcontextpos.c
+                    │   │   │       ├── nudebconwindowpos.c
+                    │   │   │       ├── nudebconwindowset.c
+                    │   │   │       ├── nudebconwindowshow.c
+                    │   │   │       ├── nudebconwindowsize.c
+                    │   │   │       ├── nudebload.c
+                    │   │   │       ├── nudebtaskperfbar0.c
+                    │   │   │       ├── nudebtaskperfbar0_ex2.c
+                    │   │   │       ├── nudebtaskperfbar1.c
+                    │   │   │       ├── nudebtaskperfbar1_ex2.c
+                    │   │   │       ├── nudramstack.c
+                    │   │   │       ├── nueeprommgr.c
+                    │   │   │       ├── nufont.h
+                    │   │   │       ├── nugfxdisplayoff.c
+                    │   │   │       ├── nugfxdisplayon.c
+                    │   │   │       ├── nugfxfuncset.c
+                    │   │   │       ├── nugfxinit.c
+                    │   │   │       ├── nugfxinit_ex2.c
+                    │   │   │       ├── nugfxprenmifuncset.c
+                    │   │   │       ├── nugfxretracewait.c
+                    │   │   │       ├── nugfxsetcfb.c
+                    │   │   │       ├── nugfxswapcfb.c
+                    │   │   │       ├── nugfxswapcfbfuncset.c
+                    │   │   │       ├── nugfxtaskallendwait.c
+                    │   │   │       ├── nugfxtaskendfuncset.c
+                    │   │   │       ├── nugfxtaskmgr.c
+                    │   │   │       ├── nugfxthread.c
+                    │   │   │       ├── nuidlefuncset.c
+                    │   │   │       ├── nupiinit.c
+                    │   │   │       ├── nupiinitddrom.c
+                    │   │   │       ├── nupiinitsram.c
+                    │   │   │       ├── nupireadrom.c
+                    │   │   │       ├── nupireadwritesram.c
+                    │   │   │       ├── nuprenmifuncset.c
+                    │   │   │       ├── nurdpoutput.c
+                    │   │   │       ├── nusched.c
+                    │   │   │       ├── nusicallbackadd.c
+                    │   │   │       ├── nusicallbackremove.c
+                    │   │   │       ├── nusimgr.c
+                    │   │   │       ├── nusisendmesgnw.c
+                    │   │   │       ├── nusys.h
+                    │   │   │       ├── nusys.o
+                    │   │   │       ├── nuvrscleardictionary.c
+                    │   │   │       ├── nuvrscontrolgain.c
+                    │   │   │       ├── nuvrsgetreaddata.c
+                    │   │   │       ├── nuvrsmaskdictionary.c
+                    │   │   │       ├── nuvrsmgr.c
+                    │   │   │       ├── nuvrsopen.c
+                    │   │   │       ├── nuvrssetword.c
+                    │   │   │       ├── nuvrsstartreaddata.c
+                    │   │   │       ├── nuvrsstopreaddata.c
+                    │   │   │       ├── nux.h
+                    │   │   │       ├── nuxdebcondisp.c
+                    │   │   │       ├── nuxdebcondisp_ex2.c
+                    │   │   │       ├── nuxdebtaskperfbar0.c
+                    │   │   │       ├── nuxdebtaskperfbar0_ex2.c
+                    │   │   │       ├── nuxdebtaskperfbar1.c
+                    │   │   │       ├── nuxdebtaskperfbar1_ex2.c
+                    │   │   │       ├── nuxgfxinit.c
+                    │   │   │       ├── nuxgfxinit_ex2.c
+                    │   │   │       ├── nuxgfxsetcfb.c
+                    │   │   │       ├── nuxgfxtaskmgr.c
+                    │   │   │       ├── nuxsched.c
+                    │   │   │       └── nuyieldbuf.c
+                    │   │   ├── niff2nvf
+                    │   │   ├── nvf2bin
+                    │   │   ├── nvfview.N64
+                    │   │   ├── prev
+                    │   │   ├── prev.bat
+                    │   │   ├── scene.nvf
+                    │   │   ├── src/
+                    │   │   │   ├── animmenu.c
+                    │   │   │   ├── bgcolormenu.c
+                    │   │   │   ├── cameramenu.c
+                    │   │   │   ├── defscene.c
+                    │   │   │   ├── fogmenu.c
+                    │   │   │   ├── iconmenu.c
+                    │   │   │   ├── main.c
+                    │   │   │   ├── Makedepend
+                    │   │   │   ├── Makefile.sgi
+                    │   │   │   ├── Makefile.win
+                    │   │   │   ├── menu.c
+                    │   │   │   ├── menu.h
+                    │   │   │   ├── menudef.h
+                    │   │   │   ├── mode.c
+                    │   │   │   ├── mode.h
+                    │   │   │   ├── nusys.h
+                    │   │   │   ├── nvfview
+                    │   │   │   ├── object.c
+                    │   │   │   ├── objectmenu.c
+                    │   │   │   ├── pack.h
+                    │   │   │   ├── rootmenu.c
+                    │   │   │   ├── spec
+                    │   │   │   ├── videomenu.c
+                    │   │   │   ├── viewerinfo.c
+                    │   │   │   └── viewerinfo.h
+                    │   │   └── usage.txt
+                    │   ├── sample/
+                    │   │   ├── 3hedra.niff
+                    │   │   ├── bathroom.niff
+                    │   │   ├── bathroom.txt
+                    │   │   ├── Bridge.niff
+                    │   │   ├── ClusterBird.niff
+                    │   │   ├── dragon.nif
+                    │   │   ├── dragon.txt
+                    │   │   ├── env_animal.niff
+                    │   │   ├── hilight_donut.niff
+                    │   │   ├── kirikobu.niff
+                    │   │   ├── LMS-lod.niff
+                    │   │   ├── numirror/
+                    │   │   │   ├── down.nif
+                    │   │   │   ├── flak_def.nif
+                    │   │   │   ├── kime.nif
+                    │   │   │   ├── pump.nif
+                    │   │   │   ├── shadowGr.nif
+                    │   │   │   └── walk.nif
+                    │   │   ├── OyajiGirl.niff
+                    │   │   ├── readme.txt
+                    │   │   ├── Rings.niff
+                    │   │   └── texanim_star.niff
+                    │   └── user_data/
+                    ├── nustd/
+                    │   ├── include/
+                    │   │   ├── ctype.h
+                    │   │   ├── malloc.h
+                    │   │   ├── math.h
+                    │   │   ├── mathdef.h
+                    │   │   ├── setjmp.h
+                    │   │   ├── stdlib.h
+                    │   │   └── string.h
+                    │   ├── lib/
+                    │   │   ├── libnustd.a
+                    │   │   └── libnustd_d.a
+                    │   ├── README.TXT
+                    │   ├── RELNOTE.TXT
+                    │   └── src/
+                    │       ├── _free.c
+                    │       ├── _malloc.c
+                    │       ├── _malloc.h
+                    │       ├── _malloc_memcheck.c
+                    │       ├── _malloc_memdsp.c
+                    │       ├── abs.c
+                    │       ├── acos.c
+                    │       ├── acosf.c
+                    │       ├── asin.c
+                    │       ├── asinf.c
+                    │       ├── atan.c
+                    │       ├── atan2.c
+                    │       ├── atan2f.c
+                    │       ├── atanf.c
+                    │       ├── atof.c
+                    │       ├── atoi.c
+                    │       ├── atol.c
+                    │       ├── bsearch.c
+                    │       ├── calloc.c
+                    │       ├── ceil.s
+                    │       ├── ceilf.s
+                    │       ├── cos.c
+                    │       ├── cosf.c
+                    │       ├── cosh.c
+                    │       ├── coshf.c
+                    │       ├── ctype.c
+                    │       ├── ctype.h
+                    │       ├── div.c
+                    │       ├── exp.c
+                    │       ├── expf.c
+                    │       ├── fabs.s
+                    │       ├── fabsf.s
+                    │       ├── floor.s
+                    │       ├── floorf.s
+                    │       ├── fmod.c
+                    │       ├── fmodf.c
+                    │       ├── free.c
+                    │       ├── frexp.c
+                    │       ├── frexpf.c
+                    │       ├── hypot.c
+                    │       ├── hypotf.c
+                    │       ├── initheap.c
+                    │       ├── labs.c
+                    │       ├── ldexp.c
+                    │       ├── ldexpf.c
+                    │       ├── ldiv.c
+                    │       ├── log.c
+                    │       ├── log10.c
+                    │       ├── log10f.c
+                    │       ├── logf.c
+                    │       ├── makefile
+                    │       ├── malloc.c
+                    │       ├── malloc.h
+                    │       ├── malloc_memcheck.c
+                    │       ├── malloc_memdsp.c
+                    │       ├── math.h
+                    │       ├── mathdef.h
+                    │       ├── memalign.c
+                    │       ├── memchr.c
+                    │       ├── memcmp.c
+                    │       ├── memcpy.c
+                    │       ├── memmove.c
+                    │       ├── memset.c
+                    │       ├── modf.c
+                    │       ├── modff.c
+                    │       ├── mt_calloc.c
+                    │       ├── mt_free.c
+                    │       ├── mt_malloc.c
+                    │       ├── mt_malloc_memcheck.c
+                    │       ├── mt_malloc_memdsp.c
+                    │       ├── mt_memalign.c
+                    │       ├── mt_qsort.c
+                    │       ├── mt_realloc.c
+                    │       ├── pow.c
+                    │       ├── powf.c
+                    │       ├── qsort.c
+                    │       ├── readme.txt
+                    │       ├── realloc.c
+                    │       ├── setjmp.h
+                    │       ├── setjmp.s
+                    │       ├── sin.c
+                    │       ├── sinf.c
+                    │       ├── sinh.c
+                    │       ├── sinhf.c
+                    │       ├── sqrt.s
+                    │       ├── sqrtf.s
+                    │       ├── srand.c
+                    │       ├── stdlib.h
+                    │       ├── strcat.c
+                    │       ├── strchr.c
+                    │       ├── strcmp.c
+                    │       ├── strcpy.c
+                    │       ├── strcspn.c
+                    │       ├── string.h
+                    │       ├── strlen.c
+                    │       ├── strlwr.c
+                    │       ├── strncat.c
+                    │       ├── strncmp.c
+                    │       ├── strncpy.c
+                    │       ├── strpbrk.c
+                    │       ├── strrchr.c
+                    │       ├── strspn.c
+                    │       ├── strstr.c
+                    │       ├── strtod.c
+                    │       ├── strtok.c
+                    │       ├── strtol.c
+                    │       ├── strtoul.c
+                    │       ├── tan.c
+                    │       ├── tanf.c
+                    │       ├── tanh.c
+                    │       └── tanhf.c
+                    └── nusys/
+                        ├── doc/
+                        │   ├── History
+                        │   ├── InsideNuSystem206.doc
+                        │   ├── InsideNuSystem206.PDF
+                        │   ├── tutorial.doc
+                        │   └── tutorial.PDF
+                        ├── include/
+                        │   ├── ctype.h
+                        │   ├── malloc.h
+                        │   ├── math.h
+                        │   ├── mathdef.h
+                        │   ├── nualsgi.h
+                        │   ├── nualsgi_n.h
+                        │   ├── nualstl.h
+                        │   ├── nualstl_n.h
+                        │   ├── nusys.h
+                        │   ├── setjmp.h
+                        │   ├── stdlib.h
+                        │   └── string.h
+                        ├── lib/
+                        │   ├── libnualsgi.a
+                        │   ├── libnualsgi_d.a
+                        │   ├── libnualsgi_n.a
+                        │   ├── libnualsgi_n_d.a
+                        │   ├── libnualstl.a
+                        │   ├── libnualstl_d.a
+                        │   ├── libnualstl_n.a
+                        │   ├── libnualstl_n_d.a
+                        │   ├── libnusys.a
+                        │   ├── libnusys_d.a
+                        │   ├── nusys.o
+                        │   ├── nusys_d.o
+                        │   ├── nusys_emu.o
+                        │   ├── nusys_emu_d.o
+                        │   ├── nusys_isv.o
+                        │   ├── nusys_isv_d.o
+                        │   ├── nusys_msp.o
+                        │   ├── nusys_msp_d.o
+                        │   ├── nusys_ptn.o
+                        │   ├── nusys_ptn_d.o
+                        │   └── nusys_rom.o
+                        ├── sample/
+                        │   ├── nu0/
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── readme.txt
+                        │   │   ├── spec
+                        │   │   └── stage00.c
+                        │   ├── nu1/
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── readme.txt
+                        │   │   ├── spec
+                        │   │   └── stage00.c
+                        │   ├── nu2/
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── readme.txt
+                        │   │   ├── spec
+                        │   │   ├── stage00.c
+                        │   │   └── stage01.c
+                        │   ├── nu3/
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── midi.sbk
+                        │   │   ├── readme.txt
+                        │   │   ├── se.ctl
+                        │   │   ├── se.tbl
+                        │   │   ├── segment.h
+                        │   │   ├── spec
+                        │   │   ├── stage00.c
+                        │   │   ├── wave.ctl
+                        │   │   └── wave.tbl
+                        │   ├── nu4/
+                        │   │   ├── drumtest.ptr
+                        │   │   ├── drumtest.wbk
+                        │   │   ├── dt_sfx1.bfx
+                        │   │   ├── dt_song1.bin
+                        │   │   ├── dt_song2.bin
+                        │   │   ├── dt_song3.bin
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── readme.txt
+                        │   │   ├── segment.h
+                        │   │   ├── spec
+                        │   │   └── stage00.c
+                        │   ├── nu5/
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── midi.sbk
+                        │   │   ├── readme.txt
+                        │   │   ├── se.ctl
+                        │   │   ├── se.tbl
+                        │   │   ├── segment.h
+                        │   │   ├── spec
+                        │   │   ├── stage00.c
+                        │   │   ├── stage01.c
+                        │   │   ├── wave.ctl
+                        │   │   └── wave.tbl
+                        │   ├── nugfxinit/
+                        │   │   ├── appgfxinit.c
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── readme.txt
+                        │   │   ├── spec
+                        │   │   └── stage00.c
+                        │   ├── nugptest/
+                        │   │   ├── funccheck.c
+                        │   │   ├── graphics.c
+                        │   │   ├── localdef.h
+                        │   │   ├── main.c
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── menu.c
+                        │   │   ├── README.TXT
+                        │   │   └── spec
+                        │   ├── nuhighreso/
+                        │   │   ├── graphics.c
+                        │   │   ├── localdef.h
+                        │   │   ├── main.c
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── picahigh.551
+                        │   │   ├── picalow.551
+                        │   │   ├── README.TXT
+                        │   │   └── spec
+                        │   ├── nulod/
+                        │   │   ├── far_.c
+                        │   │   ├── far_.h
+                        │   │   ├── gfx_dl_buf.c
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── middle_.c
+                        │   │   ├── middle_.h
+                        │   │   ├── near_.c
+                        │   │   ├── near_.h
+                        │   │   ├── readme.txt
+                        │   │   ├── spec
+                        │   │   └── stage00.c
+                        │   ├── numirror/
+                        │   │   ├── Makefile.sgi.64s
+                        │   │   ├── Makefile.sgi.nualsgi
+                        │   │   ├── Makefile.win.64s
+                        │   │   ├── Makefile.win.nualsgi
+                        │   │   ├── Mirror_House_980713/
+                        │   │   │   ├── Data/
+                        │   │   │   │   ├── logo_imgs.c
+                        │   │   │   │   ├── Makefile.sgi
+                        │   │   │   │   ├── Makefile.win
+                        │   │   │   │   ├── om_mem_heap.c
+                        │   │   │   │   ├── opening.c
+                        │   │   │   │   ├── opening_imgs.c
+                        │   │   │   │   ├── sp_select_bg.c
+                        │   │   │   │   └── Texture/
+                        │   │   │   │       ├── opening_bms.h
+                        │   │   │   │       ├── opening_imgs.h
+                        │   │   │   │       ├── sp_selectbg_bms.h
+                        │   │   │   │       └── sp_selectbg_imgs.h
+                        │   │   │   ├── expad.c
+                        │   │   │   ├── gfx.c
+                        │   │   │   ├── Include/
+                        │   │   │   │   ├── cruise.h
+                        │   │   │   │   ├── expad.h
+                        │   │   │   │   ├── gfx.h
+                        │   │   │   │   ├── nd.h
+                        │   │   │   │   ├── om.h
+                        │   │   │   │   ├── om_audio.h
+                        │   │   │   │   ├── om_background.h
+                        │   │   │   │   ├── om_bg.h
+                        │   │   │   │   ├── om_bg_data.h
+                        │   │   │   │   ├── om_bg_def.h
+                        │   │   │   │   ├── om_bg_zoneA.h
+                        │   │   │   │   ├── om_bg_zoneB.h
+                        │   │   │   │   ├── om_bg_zoneC.h
+                        │   │   │   │   ├── om_bg_zoneD.h
+                        │   │   │   │   ├── om_bg_zoneE.h
+                        │   │   │   │   ├── om_camera.h
+                        │   │   │   │   ├── om_common.h
+                        │   │   │   │   ├── om_cornfrake.h
+                        │   │   │   │   ├── om_data.h
+                        │   │   │   │   ├── om_def.h
+                        │   │   │   │   ├── om_info.h
+                        │   │   │   │   ├── om_opening.h
+                        │   │   │   │   ├── om_segment.h
+                        │   │   │   │   ├── om_title.h
+                        │   │   │   │   ├── opening.h
+                        │   │   │   │   ├── pack.h
+                        │   │   │   │   ├── pub.h
+                        │   │   │   │   ├── sample1.h
+                        │   │   │   │   ├── tbmove.h
+                        │   │   │   │   └── trckball.h
+                        │   │   │   ├── Is_debug.c
+                        │   │   │   ├── Lib/
+                        │   │   │   ├── main.c
+                        │   │   │   ├── Makedepend
+                        │   │   │   ├── Makefile.sgi.64s
+                        │   │   │   ├── Makefile.sgi.nualsgi
+                        │   │   │   ├── Makefile.win.64s
+                        │   │   │   ├── Makefile.win.nualsgi
+                        │   │   │   ├── Makefile.win.rom
+                        │   │   │   ├── Nd/
+                        │   │   │   │   ├── Makedepend
+                        │   │   │   │   ├── Makefile.sgi
+                        │   │   │   │   ├── Makefile.win
+                        │   │   │   │   ├── nddisp.c
+                        │   │   │   │   ├── ndeval.c
+                        │   │   │   │   ├── ndman.c
+                        │   │   │   │   ├── ndres.c
+                        │   │   │   │   └── ndstuff.c
+                        │   │   │   ├── om_audio.c
+                        │   │   │   ├── om_bg_entry.c
+                        │   │   │   ├── om_camera.c
+                        │   │   │   ├── om_char_entry.c
+                        │   │   │   ├── om_common.c
+                        │   │   │   ├── om_cornfrake.c
+                        │   │   │   ├── om_eval_draw.c
+                        │   │   │   ├── om_func.c
+                        │   │   │   ├── om_game_main.c
+                        │   │   │   ├── om_game_over.c
+                        │   │   │   ├── om_goal.c
+                        │   │   │   ├── om_mem_heap.c
+                        │   │   │   ├── om_mychar.c
+                        │   │   │   ├── om_rom_data_read.c
+                        │   │   │   ├── om_select_chara.c
+                        │   │   │   ├── om_sprite.c
+                        │   │   │   ├── om_title.c
+                        │   │   │   ├── om_title_param.c
+                        │   │   │   ├── README.txt
+                        │   │   │   ├── Resource_Bg/
+                        │   │   │   │   ├── _a_wall.h
+                        │   │   │   │   ├── _a_wallgroup.c
+                        │   │   │   │   ├── _aa_group.c
+                        │   │   │   │   ├── _aa_group.h
+                        │   │   │   │   ├── _bb_group.c
+                        │   │   │   │   ├── _bb_group.h
+                        │   │   │   │   ├── _cc_group.c
+                        │   │   │   │   ├── _cc_group.h
+                        │   │   │   │   ├── _dd_group.c
+                        │   │   │   │   ├── _dd_group.h
+                        │   │   │   │   ├── _ee_group.c
+                        │   │   │   │   ├── _ee_group.h
+                        │   │   │   │   ├── _map_group.c
+                        │   │   │   │   ├── _map_group.h
+                        │   │   │   │   ├── a_wallgroup.c
+                        │   │   │   │   ├── aa_group.c
+                        │   │   │   │   ├── bb_group.c
+                        │   │   │   │   ├── cc_group.c
+                        │   │   │   │   ├── dd_group.c
+                        │   │   │   │   ├── ee_group.c
+                        │   │   │   │   ├── Makedepend
+                        │   │   │   │   ├── Makefile.sgi
+                        │   │   │   │   ├── Makefile.win
+                        │   │   │   │   ├── map2_coll.c
+                        │   │   │   │   └── map2_group.c
+                        │   │   │   ├── Resource_Char/
+                        │   │   │   │   ├── _corngroup.c
+                        │   │   │   │   ├── _frake_down.c
+                        │   │   │   │   ├── _frake_eat.c
+                        │   │   │   │   ├── _frake_kime.c
+                        │   │   │   │   ├── _frake_run.c
+                        │   │   │   │   ├── _frake_select.c
+                        │   │   │   │   ├── _frake_shadow.c
+                        │   │   │   │   ├── _frake_walk.c
+                        │   │   │   │   ├── _goal.c
+                        │   │   │   │   ├── _pump.c
+                        │   │   │   │   ├── CornGroup.c
+                        │   │   │   │   ├── frake_down.c
+                        │   │   │   │   ├── frake_eat.c
+                        │   │   │   │   ├── frake_kime.c
+                        │   │   │   │   ├── frake_run.c
+                        │   │   │   │   ├── frake_select.c
+                        │   │   │   │   ├── frake_shadow.c
+                        │   │   │   │   ├── frake_walk.c
+                        │   │   │   │   ├── goal.c
+                        │   │   │   │   ├── Makedepend
+                        │   │   │   │   ├── Makefile.sgi
+                        │   │   │   │   ├── Makefile.win
+                        │   │   │   │   └── pump.c
+                        │   │   │   ├── Sgi_Audio_Data/
+                        │   │   │   │   ├── midi.sbk
+                        │   │   │   │   ├── se.ctl
+                        │   │   │   │   ├── se.tbl
+                        │   │   │   │   ├── wave.ctl
+                        │   │   │   │   └── wave.tbl
+                        │   │   │   ├── spec.64s
+                        │   │   │   ├── spec.nualsgi
+                        │   │   │   └── Win_Audio_Data2/
+                        │   │   │       ├── sample1.bfx
+                        │   │   │       ├── sample1.bin
+                        │   │   │       ├── sample1.ptr
+                        │   │   │       ├── sample1.wbk
+                        │   │   │       ├── select.bin
+                        │   │   │       └── title.bin
+                        │   │   ├── README.txt
+                        │   │   └── ReleaseNote.txt
+                        │   ├── nunospak/
+                        │   │   ├── fontbmp.h
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── nupakmenu.c
+                        │   │   ├── nupakmenu.h
+                        │   │   ├── nupakmenuloadfont.c
+                        │   │   ├── pakmenu.h
+                        │   │   ├── readme.txt
+                        │   │   ├── spec
+                        │   │   └── stage00.c
+                        │   ├── nuoverlay/
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── midi.sbk
+                        │   │   ├── readme.txt
+                        │   │   ├── se.ctl
+                        │   │   ├── se.tbl
+                        │   │   ├── segment.h
+                        │   │   ├── spec
+                        │   │   ├── stage00.c
+                        │   │   ├── stage01.c
+                        │   │   ├── wave.ctl
+                        │   │   └── wave.tbl
+                        │   ├── nusnake/
+                        │   │   ├── ani01.h
+                        │   │   ├── ani02.h
+                        │   │   ├── ani03.h
+                        │   │   ├── ani04.h
+                        │   │   ├── ani05.h
+                        │   │   ├── ani06.h
+                        │   │   ├── ani07.h
+                        │   │   ├── ani08.h
+                        │   │   ├── ani09.h
+                        │   │   ├── ani10.h
+                        │   │   ├── ani11.h
+                        │   │   ├── ani12.h
+                        │   │   ├── ani13.h
+                        │   │   ├── ani14.h
+                        │   │   ├── ani15.h
+                        │   │   ├── ani16.h
+                        │   │   ├── font.c
+                        │   │   ├── font.h
+                        │   │   ├── fontimg.h
+                        │   │   ├── gamemain.c
+                        │   │   ├── gameover.c
+                        │   │   ├── gamepakerr.c
+                        │   │   ├── gamepakrwerr.c
+                        │   │   ├── gametitle.c
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── hitchk.c
+                        │   │   ├── kabe.h
+                        │   │   ├── kiyaata1.h
+                        │   │   ├── kiyaata2.h
+                        │   │   ├── kiyaata3.h
+                        │   │   ├── kiyaata4.h
+                        │   │   ├── kiyadou1.h
+                        │   │   ├── kiyadou2.h
+                        │   │   ├── kiyadou3.h
+                        │   │   ├── kiyadou4.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── map.c
+                        │   │   ├── math.c
+                        │   │   ├── math.h
+                        │   │   ├── midi.sbk
+                        │   │   ├── movieimg.c
+                        │   │   ├── para.h
+                        │   │   ├── readme.txt
+                        │   │   ├── saku.h
+                        │   │   ├── se.ctl
+                        │   │   ├── se.tbl
+                        │   │   ├── spec
+                        │   │   ├── tuti.h
+                        │   │   ├── view.c
+                        │   │   ├── wave.ctl
+                        │   │   └── wave.tbl
+                        │   ├── nuxbus/
+                        │   │   ├── appgfxinit.c
+                        │   │   ├── gfxinit.c
+                        │   │   ├── graphic.c
+                        │   │   ├── graphic.h
+                        │   │   ├── main.c
+                        │   │   ├── main.h
+                        │   │   ├── Makefile
+                        │   │   ├── Makefile.dos
+                        │   │   ├── Makefile.irix
+                        │   │   ├── midi.sbk
+                        │   │   ├── readme.txt
+                        │   │   ├── se.ctl
+                        │   │   ├── se.tbl
+                        │   │   ├── segment.h
+                        │   │   ├── spec
+                        │   │   ├── stage00.c
+                        │   │   ├── wave.ctl
+                        │   │   └── wave.tbl
+                        │   └── README.TXT
+                        └── src/
+                            ├── nusys-2.05/
+                            │   ├── Makefile
+                            │   ├── makefile.dos
+                            │   ├── nualsgi/
+                            │   │   ├── libnualsgi/
+                            │   │   ├── libnualsgi_d/
+                            │   │   ├── libnualsgi_n/
+                            │   │   ├── libnualsgi_n_d/
+                            │   │   ├── Makefile
+                            │   │   ├── makefile.dos
+                            │   │   ├── nualsgi.h
+                            │   │   ├── nualsgi_n.h
+                            │   │   ├── nuauconfig.c
+                            │   │   ├── nuaudma.c
+                            │   │   ├── nuauheap.c
+                            │   │   ├── nuauinit.c
+                            │   │   ├── nuauinitex.c
+                            │   │   ├── nuaumgr.c
+                            │   │   ├── nuaumgrex.c
+                            │   │   ├── nuaumgrfuncset.c
+                            │   │   ├── nuaumgrparams.c
+                            │   │   ├── nuauprenmifuncset.c
+                            │   │   ├── nuauprenmiproc.c
+                            │   │   ├── nuauseqplayerbankset.c
+                            │   │   ├── nuauseqplayercontrol.c
+                            │   │   ├── nuauseqplayerfadeout.c
+                            │   │   ├── nuauseqplayerinit.c
+                            │   │   ├── nuauseqplayerplay.c
+                            │   │   ├── nuauseqplayerseqset.c
+                            │   │   ├── nuauseqplayersetno.c
+                            │   │   ├── nuausndplayerbankset.c
+                            │   │   ├── nuausndplayerinit.c
+                            │   │   └── nuausndplayerplay.c
+                            │   ├── nualstl3/
+                            │   │   ├── lib_memory.h
+                            │   │   ├── libnualstl/
+                            │   │   ├── libnualstl_d/
+                            │   │   ├── libnualstl_n/
+                            │   │   ├── libnualstl_n_d/
+                            │   │   ├── Makefile
+                            │   │   ├── nualstl.h
+                            │   │   ├── nualstl_n.h
+                            │   │   ├── nuauprenmifuncset.c
+                            │   │   ├── nuauprenmiproc.c
+                            │   │   ├── nuaustlheap.c
+                            │   │   ├── nuaustlinit.c
+                            │   │   ├── nuaustlmgr.c
+                            │   │   ├── nuaustlptrbankinit.c
+                            │   │   ├── nuaustlptrbankset.c
+                            │   │   ├── nuaustlseqplayerdataset.c
+                            │   │   ├── nuaustlseqplayerinit.c
+                            │   │   ├── nuaustlseqplayerplay.c
+                            │   │   ├── nuaustlsndplayerdataset.c
+                            │   │   ├── nuaustlsndplayerinit.c
+                            │   │   ├── nuaustlsndplayerplay.c
+                            │   │   └── README.TXT
+                            │   └── nusys/
+                            │       ├── History
+                            │       ├── libnusys/
+                            │       ├── libnusys_d/
+                            │       ├── Makefile
+                            │       ├── makefile.dos
+                            │       ├── nuboot.c
+                            │       ├── nucontdataget.c
+                            │       ├── nucontdatagetall.c
+                            │       ├── nucontdatagetex.c
+                            │       ├── nucontdatagetexall.c
+                            │       ├── nucontdatalock.c
+                            │       ├── nucontdataread.c
+                            │       ├── nucontdatareadstart.c
+                            │       ├── nucontdatareadwait.c
+                            │       ├── nucontgbpakcheck.c
+                            │       ├── nucontgbpakfread.c
+                            │       ├── nucontgbpakfwrite.c
+                            │       ├── nucontgbpakgetstatus.c
+                            │       ├── nucontgbpakmgr.c
+                            │       ├── nucontgbpakopen.c
+                            │       ├── nucontgbpakpower.c
+                            │       ├── nucontgbpakreadid.c
+                            │       ├── nucontgbpakreadwrite.c
+                            │       ├── nucontgbpakregwrite.c
+                            │       ├── nucontinit.c
+                            │       ├── nucontmgr.c
+                            │       ├── nucontpakcodeset.c
+                            │       ├── nucontpakfiledelete.c
+                            │       ├── nucontpakfiledeletejis.c
+                            │       ├── nucontpakfilefread.c
+                            │       ├── nucontpakfilefwrite.c
+                            │       ├── nucontpakfilenum.c
+                            │       ├── nucontpakfileopen.c
+                            │       ├── nucontpakfileopenjis.c
+                            │       ├── nucontpakfilereadwrite.c
+                            │       ├── nucontpakfilestate.c
+                            │       ├── nucontpakgetfree.c
+                            │       ├── nucontpakjiston64.c
+                            │       ├── nucontpakmgr.c
+                            │       ├── nucontpakopen.c
+                            │       ├── nucontpakrepairid.c
+                            │       ├── nucontqueryread.c
+                            │       ├── nucontreadfuncset.c
+                            │       ├── nucontrmbcheck.c
+                            │       ├── nucontrmbforcestop.c
+                            │       ├── nucontrmbforcestopend.c
+                            │       ├── nucontrmbmgr.c
+                            │       ├── nucontrmbmodeset.c
+                            │       ├── nucontrmbsearchtimeset.c
+                            │       ├── nucontrmbstart.c
+                            │       ├── nucontrmbstop.c
+                            │       ├── nudebconbuf.c
+                            │       ├── nudebconclear.c
+                            │       ├── nudebconcputs.c
+                            │       ├── nudebcondisp.c
+                            │       ├── nudebcondisp_ex2.c
+                            │       ├── nudebconprintf.c
+                            │       ├── nudebconputc.c
+                            │       ├── nudebconscroll.c
+                            │       ├── nudebconsole.c
+                            │       ├── nudebcontextattr.c
+                            │       ├── nudebcontextcolor.c
+                            │       ├── nudebcontextpos.c
+                            │       ├── nudebconwindowpos.c
+                            │       ├── nudebconwindowset.c
+                            │       ├── nudebconwindowshow.c
+                            │       ├── nudebconwindowsize.c
+                            │       ├── nudebload.c
+                            │       ├── nudebperfmarkset.c
+                            │       ├── nudebtaskperfbar0.c
+                            │       ├── nudebtaskperfbar0_ex2.c
+                            │       ├── nudebtaskperfbar1.c
+                            │       ├── nudebtaskperfbar1_ex2.c
+                            │       ├── nudebtaskperfintervalset.c
+                            │       ├── nudramstack.c
+                            │       ├── nueeprommgr.c
+                            │       ├── nufont.c
+                            │       ├── nugfxdisplayoff.c
+                            │       ├── nugfxdisplayon.c
+                            │       ├── nugfxfuncset.c
+                            │       ├── nugfxinit.c
+                            │       ├── nugfxinit_ex2.c
+                            │       ├── nugfxprenmifuncset.c
+                            │       ├── nugfxretracewait.c
+                            │       ├── nugfxsetcfb.c
+                            │       ├── nugfxswapcfb.c
+                            │       ├── nugfxswapcfbfuncset.c
+                            │       ├── nugfxtaskallendwait.c
+                            │       ├── nugfxtaskendfuncset.c
+                            │       ├── nugfxtaskmgr.c
+                            │       ├── nugfxthread.c
+                            │       ├── nuidlefuncset.c
+                            │       ├── numark.c
+                            │       ├── nupiinit.c
+                            │       ├── nupiinitddrom.c
+                            │       ├── nupiinitsram.c
+                            │       ├── nupireadrom.c
+                            │       ├── nupireadromoverlay.c
+                            │       ├── nupireadwritesram.c
+                            │       ├── nuprenmifuncset.c
+                            │       ├── nurdpoutput.c
+                            │       ├── nusched.c
+                            │       ├── nusicallbackadd.c
+                            │       ├── nusicallbackremove.c
+                            │       ├── nusimgr.c
+                            │       ├── nusisendmesgnw.c
+                            │       ├── nusys.h
+                            │       ├── nuvrscleardictionary.c
+                            │       ├── nuvrscontrolgain.c
+                            │       ├── nuvrsgetreaddata.c
+                            │       ├── nuvrsmaskdictionary.c
+                            │       ├── nuvrsmgr.c
+                            │       ├── nuvrsopen.c
+                            │       ├── nuvrssetword.c
+                            │       ├── nuvrsstartreaddata.c
+                            │       ├── nuvrsstopreaddata.c
+                            │       └── nuyieldbuf.c
+                            └── nusys-2.06/
+                                ├── History
+                                ├── Makefile
+                                ├── Makefile.dos
+                                ├── nualsgi/
+                                │   ├── libnualsgi/
+                                │   ├── libnualsgi_d/
+                                │   ├── libnualsgi_n/
+                                │   ├── libnualsgi_n_d/
+                                │   ├── Makefile
+                                │   ├── makefile.dos
+                                │   ├── nualsgi.h
+                                │   ├── nualsgi_n.h
+                                │   ├── nuauconfig.c
+                                │   ├── nuaudma.c
+                                │   ├── nuauheap.c
+                                │   ├── nuauinit.c
+                                │   ├── nuauinitex.c
+                                │   ├── nuaumgr.c
+                                │   ├── nuaumgrex.c
+                                │   ├── nuaumgrfuncset.c
+                                │   ├── nuaumgrparams.c
+                                │   ├── nuauprenmifuncset.c
+                                │   ├── nuauprenmiproc.c
+                                │   ├── nuauseqplayerbankset.c
+                                │   ├── nuauseqplayercontrol.c
+                                │   ├── nuauseqplayerfadeout.c
+                                │   ├── nuauseqplayerinit.c
+                                │   ├── nuauseqplayerplay.c
+                                │   ├── nuauseqplayerseqset.c
+                                │   ├── nuauseqplayersetno.c
+                                │   ├── nuausndplayerbankset.c
+                                │   ├── nuausndplayerinit.c
+                                │   └── nuausndplayerplay.c
+                                ├── nualstl3/
+                                │   ├── lib_memory.h
+                                │   ├── libnualstl/
+                                │   ├── libnualstl_d/
+                                │   ├── libnualstl_n/
+                                │   ├── libnualstl_n_d/
+                                │   ├── Makefile
+                                │   ├── Makefile.dos
+                                │   ├── nualstl.h
+                                │   ├── nualstl_n.h
+                                │   ├── nuauprenmifuncset.c
+                                │   ├── nuauprenmiproc.c
+                                │   ├── nuaustlheap.c
+                                │   ├── nuaustlinit.c
+                                │   ├── nuaustlmgr.c
+                                │   ├── nuaustlptrbankinit.c
+                                │   ├── nuaustlptrbankset.c
+                                │   ├── nuaustlseqplayerdataset.c
+                                │   ├── nuaustlseqplayerinit.c
+                                │   ├── nuaustlseqplayerplay.c
+                                │   ├── nuaustlsndplayerdataset.c
+                                │   ├── nuaustlsndplayerinit.c
+                                │   ├── nuaustlsndplayerplay.c
+                                │   └── README.TXT
+                                ├── nusys/
+                                │   ├── History
+                                │   ├── libnusys/
+                                │   ├── libnusys_d/
+                                │   ├── Makefile
+                                │   ├── Makefile.dos
+                                │   ├── nuboot.c
+                                │   ├── nuboot_emu.c
+                                │   ├── nuboot_isv.c
+                                │   ├── nuboot_msp.c
+                                │   ├── nuboot_ptn.c
+                                │   ├── nuboot_rom.c
+                                │   ├── nucontdataget.c
+                                │   ├── nucontdatagetall.c
+                                │   ├── nucontdatagetex.c
+                                │   ├── nucontdatagetexall.c
+                                │   ├── nucontdatalock.c
+                                │   ├── nucontdataread.c
+                                │   ├── nucontdatareadstart.c
+                                │   ├── nucontdatareadwait.c
+                                │   ├── nucontgbpakcheck.c
+                                │   ├── nucontgbpakfread.c
+                                │   ├── nucontgbpakfwrite.c
+                                │   ├── nucontgbpakgetstatus.c
+                                │   ├── nucontgbpakmgr.c
+                                │   ├── nucontgbpakopen.c
+                                │   ├── nucontgbpakpower.c
+                                │   ├── nucontgbpakreadid.c
+                                │   ├── nucontgbpakreadwrite.c
+                                │   ├── nucontgbpakregwrite.c
+                                │   ├── nucontinit.c
+                                │   ├── nucontmgr.c
+                                │   ├── nucontpakcodeset.c
+                                │   ├── nucontpakfiledelete.c
+                                │   ├── nucontpakfiledeletejis.c
+                                │   ├── nucontpakfilefread.c
+                                │   ├── nucontpakfilefwrite.c
+                                │   ├── nucontpakfilenum.c
+                                │   ├── nucontpakfileopen.c
+                                │   ├── nucontpakfileopenjis.c
+                                │   ├── nucontpakfilereadwrite.c
+                                │   ├── nucontpakfilestate.c
+                                │   ├── nucontpakgetfree.c
+                                │   ├── nucontpakjiston64.c
+                                │   ├── nucontpakmgr.c
+                                │   ├── nucontpakopen.c
+                                │   ├── nucontpakrepairid.c
+                                │   ├── nucontqueryread.c
+                                │   ├── nucontreadfuncset.c
+                                │   ├── nucontrmbcheck.c
+                                │   ├── nucontrmbforcestop.c
+                                │   ├── nucontrmbforcestopend.c
+                                │   ├── nucontrmbmgr.c
+                                │   ├── nucontrmbmodeset.c
+                                │   ├── nucontrmbsearchtimeset.c
+                                │   ├── nucontrmbstart.c
+                                │   ├── nucontrmbstop.c
+                                │   ├── nudebconbuf.c
+                                │   ├── nudebconclear.c
+                                │   ├── nudebconcputs.c
+                                │   ├── nudebcondisp.c
+                                │   ├── nudebcondisp_ex2.c
+                                │   ├── nudebconprintf.c
+                                │   ├── nudebconputc.c
+                                │   ├── nudebconscroll.c
+                                │   ├── nudebconsole.c
+                                │   ├── nudebcontextattr.c
+                                │   ├── nudebcontextcolor.c
+                                │   ├── nudebcontextpos.c
+                                │   ├── nudebconwindowpos.c
+                                │   ├── nudebconwindowset.c
+                                │   ├── nudebconwindowshow.c
+                                │   ├── nudebconwindowsize.c
+                                │   ├── nudebload.c
+                                │   ├── nudebperfmarkset.c
+                                │   ├── nudebtaskperfbar0.c
+                                │   ├── nudebtaskperfbar0_ex2.c
+                                │   ├── nudebtaskperfbar1.c
+                                │   ├── nudebtaskperfbar1_ex2.c
+                                │   ├── nudebtaskperfintervalset.c
+                                │   ├── nudramstack.c
+                                │   ├── nueeprommgr.c
+                                │   ├── nufont.c
+                                │   ├── nugfxdisplayoff.c
+                                │   ├── nugfxdisplayon.c
+                                │   ├── nugfxfuncset.c
+                                │   ├── nugfxinit.c
+                                │   ├── nugfxinit_ex2.c
+                                │   ├── nugfxprenmifuncset.c
+                                │   ├── nugfxretracewait.c
+                                │   ├── nugfxsetcfb.c
+                                │   ├── nugfxsetucodefifo.c
+                                │   ├── nugfxswapcfb.c
+                                │   ├── nugfxswapcfbfuncset.c
+                                │   ├── nugfxtaskallendwait.c
+                                │   ├── nugfxtaskendfuncset.c
+                                │   ├── nugfxtaskmgr.c
+                                │   ├── nugfxthread.c
+                                │   ├── nuidlefuncset.c
+                                │   ├── numark.c
+                                │   ├── nupiinit.c
+                                │   ├── nupiinitddrom.c
+                                │   ├── nupiinitsram.c
+                                │   ├── nupireadrom.c
+                                │   ├── nupireadromoverlay.c
+                                │   ├── nupireadwritesram.c
+                                │   ├── nuprenmifuncset.c
+                                │   ├── nurdpoutput.c
+                                │   ├── nusched.c
+                                │   ├── nusicallbackadd.c
+                                │   ├── nusicallbackremove.c
+                                │   ├── nusimgr.c
+                                │   ├── nusisendmesgnw.c
+                                │   ├── nusys.h
+                                │   ├── nuvrscleardictionary.c
+                                │   ├── nuvrscontrolgain.c
+                                │   ├── nuvrsgetreaddata.c
+                                │   ├── nuvrsmaskdictionary.c
+                                │   ├── nuvrsmgr.c
+                                │   ├── nuvrsopen.c
+                                │   ├── nuvrssetword.c
+                                │   ├── nuvrsstartreaddata.c
+                                │   ├── nuvrsstopreaddata.c
+                                │   └── nuyieldbuf.c
+                                └── nusys-2.05to2.06.diff

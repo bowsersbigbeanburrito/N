@@ -1,0 +1,3273 @@
+sm64/
+├── .git/
+├── action.o
+├── alien.o
+├── audio/
+│   ├── aspMain.o
+│   ├── audio.o
+│   ├── audio_hb.o
+│   ├── audio_hm.o
+│   ├── audio_hs.o
+│   ├── audio_hw.o
+│   ├── audio_music.h
+│   ├── audioheap.o
+│   ├── main_inc.h
+│   ├── mario.banks.cart
+│   ├── mario.music.cart
+│   └── mario.table.cart
+├── audioerr.s
+├── audioerr.s2
+├── audmain.o
+├── autodemo.o
+├── autodemo.o.credit
+├── backup
+├── backup.o
+├── bgcheck.o
+├── bgcheck.s
+├── bgdecode.o
+├── bgdraw3.o
+├── bgmove.o
+├── buildenv/
+│   ├── libultra_rom.a
+│   └── makemask
+├── callback.o
+├── camera.o
+├── clrmap
+├── clrseq
+├── cnv_func.o
+├── coin.o
+├── collision.o
+├── convszp
+├── convszp_linux
+├── copymask
+├── copyright
+├── course.o
+├── data/
+│   ├── Anime/
+│   │   ├── aaa
+│   │   ├── ascend.c
+│   │   ├── ascend.s
+│   │   ├── backdown.c
+│   │   ├── backdown.s
+│   │   ├── backdownend.c
+│   │   ├── backdownend.s
+│   │   ├── backjump.c
+│   │   ├── backjump.s
+│   │   ├── barclimb.c
+│   │   ├── barclimb.s
+│   │   ├── barhang.c
+│   │   ├── barhang.s
+│   │   ├── barjump.c
+│   │   ├── barjump.s
+│   │   ├── barstanding.c
+│   │   ├── barstanding.s
+│   │   ├── barstandjump.c
+│   │   ├── barstandjump.s
+│   │   ├── barstandstart.c
+│   │   ├── barstandstart.s
+│   │   ├── barwaiting.c
+│   │   ├── barwaiting.s
+│   │   ├── basedata.c
+│   │   ├── basedata.s
+│   │   ├── braking.c
+│   │   ├── braking.s
+│   │   ├── broadjumpend1.c
+│   │   ├── broadjumpend1.s
+│   │   ├── broadjumpend2.c
+│   │   ├── broadjumpend2.s
+│   │   ├── broadjumping1.c
+│   │   ├── broadjumping1.s
+│   │   ├── broadjumping2.c
+│   │   ├── broadjumping2.s
+│   │   ├── cannon.c
+│   │   ├── cannon.s
+│   │   ├── carryjog.c
+│   │   ├── carryjog.s
+│   │   ├── carryrun.c
+│   │   ├── carryrun.s
+│   │   ├── carrywalk.c
+│   │   ├── carrywalk.s
+│   │   ├── coldwaitbgn.c
+│   │   ├── coldwaitbgn.s
+│   │   ├── coldwaitend.c
+│   │   ├── coldwaitend.s
+│   │   ├── coldwaiting.c
+│   │   ├── coldwaiting.s
+│   │   ├── descend.c
+│   │   ├── descend.s
+│   │   ├── ending_byebye.c
+│   │   ├── ending_byebye.s
+│   │   ├── ending_hatwait.c
+│   │   ├── ending_hatwait.s
+│   │   ├── ending_lookdown.c
+│   │   ├── ending_lookdown.s
+│   │   ├── ending_lookup1.c
+│   │   ├── ending_lookup1.s
+│   │   ├── ending_lookup2.c
+│   │   ├── ending_lookup2.s
+│   │   ├── ending_putoff.c
+│   │   ├── ending_putoff.s
+│   │   ├── ending_walkA.c
+│   │   ├── ending_walkA.s
+│   │   ├── ending_walkB.c
+│   │   ├── ending_walkB.s
+│   │   ├── ending_winflyA.c
+│   │   ├── ending_winflyA.s
+│   │   ├── ending_winflyB.c
+│   │   ├── ending_winflyB.s
+│   │   ├── ending_yaaha.c
+│   │   ├── ending_yaaha.s
+│   │   ├── firejumpend.c
+│   │   ├── firejumpend.s
+│   │   ├── firejumping.c
+│   │   ├── firejumping.s
+│   │   ├── flight.c
+│   │   ├── flight.s
+│   │   ├── flying.c
+│   │   ├── flying.s
+│   │   ├── foredown.c
+│   │   ├── foredown.s
+│   │   ├── foredownend.c
+│   │   ├── foredownend.s
+│   │   ├── gasdown.c
+│   │   ├── gasdown.s
+│   │   ├── gaswait.c
+│   │   ├── gaswait.s
+│   │   ├── getdoorkey.c
+│   │   ├── getdoorkey.s
+│   │   ├── giddydown.c
+│   │   ├── giddydown.s
+│   │   ├── hanging.c
+│   │   ├── hanging.s
+│   │   ├── hangjump.c
+│   │   ├── hangjump.s
+│   │   ├── hangroof.c
+│   │   ├── hangroof.s
+│   │   ├── hattaking.c
+│   │   ├── hattaking.s
+│   │   ├── hatwait.c
+│   │   ├── hatwait.s
+│   │   ├── hatwait1.c
+│   │   ├── hatwait1.s
+│   │   ├── hatwait2.c
+│   │   ├── hatwait2.s
+│   │   ├── hatwaitend.c
+│   │   ├── hatwaitend.s
+│   │   ├── headdown.c
+│   │   ├── headdown.s
+│   │   ├── hipattackend.c
+│   │   ├── hipattackend.s
+│   │   ├── hipattackfly.c
+│   │   ├── hipattackfly.s
+│   │   ├── hipattacking.c
+│   │   ├── hipattacking.s
+│   │   ├── hipdown.c
+│   │   ├── hipdown.s
+│   │   ├── holding.c
+│   │   ├── holding.s
+│   │   ├── holdjumpend.c
+│   │   ├── holdjumpend.s
+│   │   ├── holdjumping.c
+│   │   ├── holdjumping.s
+│   │   ├── holdlandend.c
+│   │   ├── holdlandend.s
+│   │   ├── holdlanding.c
+│   │   ├── holdlanding.s
+│   │   ├── holdslipland.c
+│   │   ├── holdslipland.s
+│   │   ├── holdslipping.c
+│   │   ├── holdslipping.s
+│   │   ├── jendboard.c
+│   │   ├── jendboard.s
+│   │   ├── jogging.c
+│   │   ├── jogging.s
+│   │   ├── jumpback.c
+│   │   ├── jumpback.s
+│   │   ├── jumpboard.c
+│   │   ├── jumpboard.s
+│   │   ├── jumpend2.c
+│   │   ├── jumpend2.s
+│   │   ├── jumpfall.c
+│   │   ├── jumpfall.s
+│   │   ├── jumping.c
+│   │   ├── jumping.s
+│   │   ├── jumpkick.c
+│   │   ├── jumpkick.s
+│   │   ├── jumpstep2.c
+│   │   ├── jumpstep2.s
+│   │   ├── jumpstep3.c
+│   │   ├── jumpstep3.s
+│   │   ├── jumpthrow.c
+│   │   ├── jumpthrow.s
+│   │   ├── kickland.c
+│   │   ├── kickland.s
+│   │   ├── landboard.c
+│   │   ├── landboard.s
+│   │   ├── landdown.c
+│   │   ├── landdown.s
+│   │   ├── landing.c
+│   │   ├── landing.s
+│   │   ├── lifted.c
+│   │   ├── lifted.s
+│   │   ├── lifting.c
+│   │   ├── lifting.s
+│   │   ├── loststandup.c
+│   │   ├── loststandup.s
+│   │   ├── mantfly.c
+│   │   ├── mantfly.s
+│   │   ├── moveroofL.c
+│   │   ├── moveroofL.s
+│   │   ├── moveroofR.c
+│   │   ├── moveroofR.s
+│   │   ├── nohatwait.c
+│   │   ├── nohatwait.s
+│   │   ├── Noused/
+│   │   │   ├── chasejog.c
+│   │   │   ├── chasewalk.c
+│   │   │   ├── chasing.c
+│   │   │   ├── climbdown.c
+│   │   │   ├── climbing.c
+│   │   │   ├── climbleft.c
+│   │   │   ├── climbright.c
+│   │   │   ├── floathold.c
+│   │   │   ├── floating.c
+│   │   │   ├── floatmove.c
+│   │   │   ├── floattake.c
+│   │   │   ├── floatthrow.c
+│   │   │   ├── giddywakeup.c
+│   │   │   ├── hatwait1.c
+│   │   │   ├── hatwait2.c
+│   │   │   ├── loglanding.c
+│   │   │   ├── logwait.c
+│   │   │   ├── logwalkL.c
+│   │   │   ├── logwalkR.c
+│   │   │   ├── logwaverL.c
+│   │   │   ├── logwaverR.c
+│   │   │   ├── mainlandend.c
+│   │   │   ├── mantgear.c
+│   │   │   ├── mantlanding.c
+│   │   │   ├── mario_slip_accele.c
+│   │   │   ├── mario_slip_brake.c
+│   │   │   ├── notaking.c
+│   │   │   ├── oshinwalk.c
+│   │   │   ├── pulling.c
+│   │   │   ├── punching.c
+│   │   │   ├── punchpick.c
+│   │   │   ├── slipaccele.c
+│   │   │   ├── slipbrake.c
+│   │   │   ├── slipleft.c
+│   │   │   ├── slipright.c
+│   │   │   ├── squatkickend.c
+│   │   │   ├── squatkicking.c
+│   │   │   ├── squatkickstart.c
+│   │   │   ├── swimcarry.c
+│   │   │   ├── swimchase.c
+│   │   │   ├── swimhold.c
+│   │   │   ├── swimjump.c
+│   │   │   ├── swimsoftdown.c
+│   │   │   ├── swimstop.c
+│   │   │   ├── taking.c
+│   │   │   ├── waterstand.c
+│   │   │   ├── waterwait.c
+│   │   │   └── windemoAold.c
+│   │   ├── opendoor1.c
+│   │   ├── opendoor1.s
+│   │   ├── opendoor2.c
+│   │   ├── opendoor2.s
+│   │   ├── openkeydoor.c
+│   │   ├── openkeydoor.s
+│   │   ├── oshinwait.c
+│   │   ├── oshinwait.s
+│   │   ├── oshinwait1.c
+│   │   ├── oshinwait1.s
+│   │   ├── oshinwait2.c
+│   │   ├── oshinwait2.s
+│   │   ├── oshinwait3.c
+│   │   ├── oshinwait3.s
+│   │   ├── oshinwalk.c
+│   │   ├── oshinwalk.s
+│   │   ├── pitching.c
+│   │   ├── pitching.s
+│   │   ├── powerkick.c
+│   │   ├── powerkick.s
+│   │   ├── punchbase.c
+│   │   ├── punchbase.s
+│   │   ├── punchbase2.c
+│   │   ├── punchbase2.s
+│   │   ├── punchend.c
+│   │   ├── punchend.s
+│   │   ├── punchend2.c
+│   │   ├── punchend2.s
+│   │   ├── punchtake.c
+│   │   ├── punchtake.s
+│   │   ├── pushing.c
+│   │   ├── pushing.s
+│   │   ├── putonboard.c
+│   │   ├── putonboard.s
+│   │   ├── putting.c
+│   │   ├── putting.s
+│   │   ├── rolling.c
+│   │   ├── rolling.s
+│   │   ├── rollingkick.c
+│   │   ├── rollingkick.s
+│   │   ├── running.c
+│   │   ├── running.s
+│   │   ├── safedownB.c
+│   │   ├── safedownB.s
+│   │   ├── safedownF.c
+│   │   ├── safedownF.s
+│   │   ├── sanddown.c
+│   │   ├── sanddown.s
+│   │   ├── sandwait.c
+│   │   ├── sandwait.s
+│   │   ├── sandwalk.c
+│   │   ├── sandwalk.s
+│   │   ├── shockdown.c
+│   │   ├── shockdown.s
+│   │   ├── shocking.c
+│   │   ├── shocking.s
+│   │   ├── shortdownB.c
+│   │   ├── shortdownB.s
+│   │   ├── shortdownF.c
+│   │   ├── shortdownF.s
+│   │   ├── shoulder.c
+│   │   ├── shoulder.s
+│   │   ├── sidewait.c
+│   │   ├── sidewait.s
+│   │   ├── sidewalkL.c
+│   │   ├── sidewalkL.s
+│   │   ├── sidewalkR.c
+│   │   ├── sidewalkR.s
+│   │   ├── sleeping1.c
+│   │   ├── sleeping1.s
+│   │   ├── sleeping2.c
+│   │   ├── sleeping2.s
+│   │   ├── sleeping3.c
+│   │   ├── sleeping3.s
+│   │   ├── sleeping4.c
+│   │   ├── sleeping4.s
+│   │   ├── sleeping5.c
+│   │   ├── sleeping5.s
+│   │   ├── sleeping6.c
+│   │   ├── sleeping6.s
+│   │   ├── sleeping7.c
+│   │   ├── sleeping7.s
+│   │   ├── slidecatch.c
+│   │   ├── slidecatch.s
+│   │   ├── slidedown.c
+│   │   ├── slidedown.s
+│   │   ├── slidestandup.c
+│   │   ├── slidestandup.s
+│   │   ├── slidingkick.c
+│   │   ├── slidingkick.s
+│   │   ├── slidingkickend.c
+│   │   ├── slidingkickend.s
+│   │   ├── slipend.c
+│   │   ├── slipend.s
+│   │   ├── slipland.c
+│   │   ├── slipland.s
+│   │   ├── slipping.c
+│   │   ├── slipping.s
+│   │   ├── softstep.c
+│   │   ├── softstep.s
+│   │   ├── spinend.c
+│   │   ├── spinend.s
+│   │   ├── spinjump.c
+│   │   ├── spinjump.s
+│   │   ├── spinstart.c
+│   │   ├── spinstart.s
+│   │   ├── squatend.c
+│   │   ├── squatend.s
+│   │   ├── squatkickend.c
+│   │   ├── squatkickend.s
+│   │   ├── squatkicking.c
+│   │   ├── squatkicking.s
+│   │   ├── squatkickstart.c
+│   │   ├── squatkickstart.s
+│   │   ├── squatstart.c
+│   │   ├── squatstart.s
+│   │   ├── squatwait.c
+│   │   ├── squatwait.s
+│   │   ├── squatwalk.c
+│   │   ├── squatwalk.s
+│   │   ├── squatwalkend.c
+│   │   ├── squatwalkend.s
+│   │   ├── squatwalkstart.c
+│   │   ├── squatwalkstart.s
+│   │   ├── stardoorA.c
+│   │   ├── stardoorA.s
+│   │   ├── stardoorB.c
+│   │   ├── stardoorB.s
+│   │   ├── swimbackdown.c
+│   │   ├── swimbackdown.s
+│   │   ├── swimcarry.c
+│   │   ├── swimcarry.s
+│   │   ├── swimcarryA1.c
+│   │   ├── swimcarryA1.s
+│   │   ├── swimcarryA2.c
+│   │   ├── swimcarryA2.s
+│   │   ├── swimcarryB.c
+│   │   ├── swimcarryB.s
+│   │   ├── swimcstopA.c
+│   │   ├── swimcstopA.s
+│   │   ├── swimcstopB.c
+│   │   ├── swimcstopB.s
+│   │   ├── swimcwait.c
+│   │   ├── swimcwait.s
+│   │   ├── swimdown1.c
+│   │   ├── swimdown1.s
+│   │   ├── swimdown2.c
+│   │   ├── swimdown2.s
+│   │   ├── swimdownend.c
+│   │   ├── swimdownend.s
+│   │   ├── swimforedown.c
+│   │   ├── swimforedown.s
+│   │   ├── swimhold.c
+│   │   ├── swimhold.s
+│   │   ├── swimjump.c
+│   │   ├── swimjump.s
+│   │   ├── swimlanding.c
+│   │   ├── swimlanding.s
+│   │   ├── swimming1.c
+│   │   ├── swimming1.s
+│   │   ├── swimming2.c
+│   │   ├── swimming2.s
+│   │   ├── swimming3.c
+│   │   ├── swimming3.s
+│   │   ├── swimstop.c
+│   │   ├── swimstop.s
+│   │   ├── swimtakeend.c
+│   │   ├── swimtakeend.s
+│   │   ├── swimtakemiss.c
+│   │   ├── swimtakemiss.s
+│   │   ├── swimtaking.c
+│   │   ├── swimtaking.s
+│   │   ├── swimthrow.c
+│   │   ├── swimthrow.s
+│   │   ├── swimwait.c
+│   │   ├── swimwait.s
+│   │   ├── swimwindemo.c
+│   │   ├── swimwindemo.s
+│   │   ├── swimwinend.c
+│   │   ├── swimwinend.s
+│   │   ├── swingattack.c
+│   │   ├── swingattack.s
+│   │   ├── swingdown.c
+│   │   ├── swingdown.s
+│   │   ├── swingwait.c
+│   │   ├── swingwait.s
+│   │   ├── throwing.c
+│   │   ├── throwing.s
+│   │   ├── tired.c
+│   │   ├── tired.s
+│   │   ├── transfer.c
+│   │   ├── transfer.s
+│   │   ├── turning.c
+│   │   ├── turning.s
+│   │   ├── ujumpend.c
+│   │   ├── ujumpend.s
+│   │   ├── ujumping.c
+│   │   ├── ujumping.s
+│   │   ├── ultrajumpend.c
+│   │   ├── ultrajumpend.s
+│   │   ├── ultrajumping.c
+│   │   ├── ultrajumping.s
+│   │   ├── viewing.c
+│   │   ├── viewing.s
+│   │   ├── waiting1.c
+│   │   ├── waiting1.s
+│   │   ├── waiting2.c
+│   │   ├── waiting2.s
+│   │   ├── waiting3.c
+│   │   ├── waiting3.s
+│   │   ├── waitroofL.c
+│   │   ├── waitroofL.s
+│   │   ├── waitroofR.c
+│   │   ├── waitroofR.s
+│   │   ├── wakeup.c
+│   │   ├── wakeup.s
+│   │   ├── wakeup2.c
+│   │   ├── wakeup2.s
+│   │   ├── walking.c
+│   │   ├── walking.s
+│   │   ├── walljump.c
+│   │   ├── walljump.s
+│   │   ├── waterstand.c
+│   │   ├── waterstand.s
+│   │   ├── waterwait.c
+│   │   ├── waterwait.s
+│   │   ├── windemoA.c
+│   │   ├── windemoA.s
+│   │   ├── windemoend.c
+│   │   ├── windemoend.s
+│   │   ├── wingjumpend.c
+│   │   ├── wingjumpend.s
+│   │   ├── wingjumping.c
+│   │   └── wingjumping.s
+│   ├── anime.s
+│   ├── Basic/
+│   │   ├── alphabet.sou
+│   │   ├── common.sou
+│   │   ├── Font/
+│   │   │   ├── alphabet16b.h
+│   │   │   ├── alphabet16b_ENG.h
+│   │   │   ├── alphabet16b_zh.h
+│   │   │   ├── alphabet4b.h
+│   │   │   ├── alphabet4b_zh.h
+│   │   │   ├── alphabet88.h
+│   │   │   ├── cam_icon.h
+│   │   │   ├── coursename.h
+│   │   │   ├── coursename_ENG.h
+│   │   │   ├── coursename_zh.h
+│   │   │   ├── english.h
+│   │   │   ├── hiragana.h
+│   │   │   ├── katakana.h
+│   │   │   ├── mess_data.h
+│   │   │   ├── mess_data604bak.h
+│   │   │   ├── mess_data_ENG.h
+│   │   │   ├── mess_data_zh.h
+│   │   │   ├── semess_data.h
+│   │   │   ├── star_name.h
+│   │   │   ├── star_name_ENG.h
+│   │   │   └── star_name_zh.h
+│   │   ├── Font_BAK/
+│   │   │   ├── alphabet16b.h
+│   │   │   ├── alphabet88.h
+│   │   │   ├── cam_icon.h
+│   │   │   ├── coursename.h
+│   │   │   ├── english.h
+│   │   │   ├── Font/
+│   │   │   │   ├── alphabet16b.h
+│   │   │   │   ├── alphabet4b.h
+│   │   │   │   ├── alphabet88.h
+│   │   │   │   ├── cam_icon.h
+│   │   │   │   ├── coursename.h
+│   │   │   │   ├── coursename_ENG.h
+│   │   │   │   ├── english.h
+│   │   │   │   ├── hiragana.h
+│   │   │   │   ├── katakana.h
+│   │   │   │   ├── mess_data.h
+│   │   │   │   ├── mess_data_ENG.h
+│   │   │   │   ├── semess_data.h
+│   │   │   │   ├── star_name.h
+│   │   │   │   └── star_name_ENG.h
+│   │   │   ├── hiragana.h
+│   │   │   ├── katakana.h
+│   │   │   ├── mess_data.h
+│   │   │   ├── semess_data.h
+│   │   │   └── star_name.h
+│   │   ├── number.sou
+│   │   ├── tanidata.h
+│   │   └── tanidata.sou
+│   ├── basic.c
+│   ├── buffers.c
+│   ├── contdata.s
+│   ├── depthbuf.c
+│   ├── dynamic.c
+│   ├── fifobuf.c
+│   ├── framebuf.c
+│   ├── glb/
+│   │   └── pathdata.glb
+│   ├── ipathdata.s
+│   ├── ipathfile
+│   ├── ipathfile.s
+│   ├── iwa_path/
+│   │   ├── base
+│   │   ├── bird.s
+│   │   ├── biribiri.s
+│   │   ├── block.s
+│   │   ├── butterfly.s
+│   │   ├── dice.s
+│   │   ├── effect.s
+│   │   ├── ironball.s
+│   │   ├── itemhat.s
+│   │   ├── iwacoin.s
+│   │   ├── kame.s
+│   │   ├── kirai.s
+│   │   ├── kombu.s
+│   │   ├── kuramochi.s
+│   │   ├── manta.s
+│   │   ├── movebg.s
+│   │   ├── movebg_10.s
+│   │   ├── movebg_11.s
+│   │   ├── movebg_12.s
+│   │   ├── movebg_22.s
+│   │   ├── movebg_31.s
+│   │   ├── movebg_36.s
+│   │   ├── movebg_6.s
+│   │   ├── movebg_8.s
+│   │   ├── newbom.s
+│   │   ├── NEWSlift.s
+│   │   ├── numbers.s
+│   │   ├── oneupkinoko.s
+│   │   ├── others.s
+│   │   ├── otos.s
+│   │   ├── rabbit.s
+│   │   ├── ring.s
+│   │   ├── rock.s
+│   │   ├── selectstage.s
+│   │   ├── tatefuda.s
+│   │   ├── treasurebox.s
+│   │   ├── tripstar.s
+│   │   ├── uzumaki.s
+│   │   ├── V_star.s
+│   │   └── yoshi.s
+│   ├── kpathdata.s
+│   ├── npathdata.s
+│   ├── p/
+│   │   ├── pathautodoor.p
+│   │   ├── pathballoon.p
+│   │   ├── pathbar.p
+│   │   ├── pathbigworldobj.p
+│   │   ├── pathbikkuriswitch.p
+│   │   ├── pathbomking.p
+│   │   ├── pathbox.p
+│   │   ├── pathbubble.p
+│   │   ├── pathbubblejet.p
+│   │   ├── pathcannon.p
+│   │   ├── pathcarryboy.p
+│   │   ├── pathcastlebg.p
+│   │   ├── pathcastleobj.p
+│   │   ├── pathcatchkoura.p
+│   │   ├── pathchimney.p
+│   │   ├── pathchiri.p
+│   │   ├── pathclearstar.p
+│   │   ├── pathcoin.p
+│   │   ├── pathcoinspark.p
+│   │   ├── pathcrash.p
+│   │   ├── pathdata.s
+│   │   ├── pathdoor.p
+│   │   ├── pathdosun.p
+│   │   ├── pathdownbar.p
+│   │   ├── pathdungeonfire.p
+│   │   ├── pathdungeonlift.p
+│   │   ├── patheffect.p
+│   │   ├── patheffectbreath.p
+│   │   ├── patheffectburn.p
+│   │   ├── patheffectfall.p
+│   │   ├── patheffectmowan.p
+│   │   ├── patheffectsand.p
+│   │   ├── patheffectsnow.p
+│   │   ├── patheffectwind.p
+│   │   ├── pathelevetor.p
+│   │   ├── pathending.p
+│   │   ├── pathenemyfire.p
+│   │   ├── patheventmonky.p
+│   │   ├── pathextobj.p
+│   │   ├── pathextyougan.p
+│   │   ├── pathfire.p
+│   │   ├── pathfirebar.p
+│   │   ├── pathfirering.p
+│   │   ├── pathfiresmoke.p
+│   │   ├── pathfunsui.p
+│   │   ├── pathfurafura.p
+│   │   ├── pathgoalbar.p
+│   │   ├── pathgrass.p
+│   │   ├── pathguragura.p
+│   │   ├── pathhagetaka.p
+│   │   ├── pathhanapoo.p
+│   │   ├── pathhanswitch.p
+│   │   ├── pathhat.p
+│   │   ├── pathhibiblock.p
+│   │   ├── pathhitmario.p
+│   │   ├── pathhopper.p
+│   │   ├── pathhoriage.p
+│   │   ├── pathhousestar.p
+│   │   ├── pathice.p
+│   │   ├── pathjumpbg.p
+│   │   ├── pathjumpblock.p
+│   │   ├── pathkagoteresa.p
+│   │   ├── pathkakure.p
+│   │   ├── pathkamakura.p
+│   │   ├── pathkame.p
+│   │   ├── pathkatsugi.p
+│   │   ├── pathkey.p
+│   │   ├── pathkiller.p
+│   │   ├── pathkojima.p
+│   │   ├── pathkopa.p
+│   │   ├── pathkopa2bg.p
+│   │   ├── pathkopa3bg.p
+│   │   ├── pathkopafire.p
+│   │   ├── pathloopfish.p
+│   │   ├── pathlooplift.p
+│   │   ├── pathmaincastleobj.p
+│   │   ├── pathmanta.p
+│   │   ├── pathminiteresa.p
+│   │   ├── pathmonky.p
+│   │   ├── pathmotos.p
+│   │   ├── pathmotosman.p
+│   │   ├── pathmotosobj.p
+│   │   ├── pathmovebg.p
+│   │   ├── pathnokoboard.p
+│   │   ├── pathobake.p
+│   │   ├── pathobakecoin.p
+│   │   ├── pathonimasu.p
+│   │   ├── pathpakun.p
+│   │   ├── pathpatch.p
+│   │   ├── pathpazzule.p
+│   │   ├── pathping.p
+│   │   ├── pathpirania.p
+│   │   ├── pathpoollift.p
+│   │   ├── pathpuku.p
+│   │   ├── pathqbox.p
+│   │   ├── pathremovesound.p
+│   │   ├── pathsabakuobj.p
+│   │   ├── pathseastone.p
+│   │   ├── pathsensuikan.p
+│   │   ├── pathshark.p
+│   │   ├── pathshipobj.p
+│   │   ├── pathsmoke.p
+│   │   ├── pathsnoweffect.p
+│   │   ├── pathsplash.p
+│   │   ├── pathstick.p
+│   │   ├── pathswitchblock.p
+│   │   ├── pathswitchcoin.p
+│   │   ├── pathswitchdoor.p
+│   │   ├── pathswitchwater.p
+│   │   ├── pathtatsumaki.p
+│   │   ├── pathteresa.p
+│   │   ├── pathterestage.p
+│   │   ├── pathteretrap.p
+│   │   ├── pathtest.p
+│   │   ├── pathtestball.p
+│   │   ├── pathtestlift.p
+│   │   ├── pathtrap.p
+│   │   ├── pathtree.p
+│   │   ├── pathtwinkle.p
+│   │   ├── pathunbaba.p
+│   │   ├── pathwalker.p
+│   │   ├── pathwallman.p
+│   │   ├── pathwater.p
+│   │   ├── pathwaterdive.p
+│   │   ├── pathwaterdrop.p
+│   │   ├── pathwaterripple.p
+│   │   ├── pathwatersplash.p
+│   │   ├── pathwaterwave.p
+│   │   ├── pathwind.p
+│   │   └── pathyellowball.p
+│   ├── pathdata.glb
+│   ├── pathdata.s
+│   ├── pathfile.s
+│   ├── tanidata.c
+│   ├── tanidata.h
+│   ├── tanidata.szp
+│   ├── textbuf.c
+│   ├── wenemyfiles.c
+│   ├── wpathdata.o
+│   └── wpathdata.s
+├── dataasm
+├── dataasm_linux
+├── debug.o
+├── defmake
+├── door.o
+├── dprint.c
+├── drawfont.c
+├── endingmess.c
+├── face/
+│   ├── codesegment.o
+│   └── datamseg.o
+├── fileselect.c
+├── flkdecode.o
+├── Font_dot.h
+├── game.c
+├── gauge.c
+├── gfxmain.o
+├── glb/
+│   └── pathdata.glb
+├── GNUmakefile
+├── gusheffect.o
+├── headers.h
+├── hierarchy.o
+├── hmsdraw.o
+├── i10n/
+│   ├── assets/
+│   │   ├── alphabet16b_ENG.raw
+│   │   ├── cake.raw
+│   │   ├── color_font_ENG.txt
+│   │   ├── coursename_ENG.txt
+│   │   ├── gameover.raw
+│   │   ├── gameover0.txt
+│   │   ├── gameover0.txt.raw
+│   │   ├── gameover1.txt
+│   │   ├── gameover1.txt.raw
+│   │   ├── gameover2.txt
+│   │   ├── gameover2.txt.raw
+│   │   ├── gameover3.txt
+│   │   ├── gameover3.txt.raw
+│   │   ├── mess_data_ENG.txt
+│   │   ├── message.txt
+│   │   ├── misc_words_ENG.txt
+│   │   ├── nin_logo.raw
+│   │   ├── README
+│   │   ├── selectpict.raw
+│   │   ├── selectpict0.txt
+│   │   ├── selectpict0.txt.raw
+│   │   ├── selectpict1.txt
+│   │   ├── selectpict1.txt.raw
+│   │   ├── star_name_ENG.txt
+│   │   ├── titlebg.raw
+│   │   ├── titlebg1.txt
+│   │   ├── titlebg1.txt.raw
+│   │   ├── titlebg2.txt
+│   │   ├── titlebg2.txt.raw
+│   │   ├── titlebg3.txt
+│   │   ├── titlebg3.txt.raw
+│   │   ├── titlebg4.txt
+│   │   ├── titlebg4.txt.raw
+│   │   ├── worksheet_ique.html
+│   │   └── zh/
+│   │       ├── 16bitColorFontGlyph.raw
+│   │       ├── cake_zh.raw
+│   │       ├── coursename_ENG.h.zh
+│   │       ├── gameover_zh.raw
+│   │       ├── GB_SIMPLIFIED_CHINESE
+│   │       ├── idx.txt
+│   │       ├── iqnin_logo.raw
+│   │       ├── mess_data_ENG.h.zh
+│   │       ├── power1_zh.raw
+│   │       ├── power2_zh.raw
+│   │       ├── selectpict_zh.raw
+│   │       ├── star_name_ENG.h.zh
+│   │       ├── title_model/
+│   │       │   ├── tri0.c
+│   │       │   ├── tri1.c
+│   │       │   ├── vertex0.c
+│   │       │   └── vertex1.c
+│   │       ├── titlebg_zh.raw
+│   │       └── translation.txt
+│   └── tools/
+│       ├── bakecake.py
+│       ├── gen5551.pl
+│       ├── gen5551_rgb.pl
+│       ├── parse5551.pl
+│       ├── README
+│       └── zh/
+│           ├── notes
+│           ├── zh_double_byte.pl
+│           ├── zh_genmap16.pl
+│           └── zh_kanji.pl
+├── ienemy.h
+├── ienemy.o
+├── include/
+│   ├── anime.h
+│   ├── areamap.h
+│   ├── audmain.h
+│   ├── backup.h
+│   ├── basis.h
+│   ├── bgcode.h
+│   ├── bgdraw3.h
+│   ├── callback.h
+│   ├── camera.h
+│   ├── camno.h
+│   ├── collision.h
+│   ├── cource.h
+│   ├── debug.h
+│   ├── defmake
+│   ├── democamera.h
+│   ├── dprint.h
+│   ├── em.h
+│   ├── ending.h
+│   ├── ext/
+│   │   ├── cfile.ext
+│   │   └── pathdata.ext
+│   ├── fontdef.h
+│   ├── funlike.h
+│   ├── game.h
+│   ├── gex.h
+│   ├── gfxmain.h
+│   ├── ground.h
+│   ├── hierarchy.h
+│   ├── iene_header.h
+│   ├── ienemy.h
+│   ├── iwa_select.h
+│   ├── maplang.h
+│   ├── math.h
+│   ├── memory.h
+│   ├── messnum.h
+│   ├── mtrmain.h
+│   ├── pathmacs.h
+│   ├── physics.h
+│   ├── player.h
+│   ├── playerstat.h
+│   ├── project.h
+│   ├── scene.h
+│   ├── scheduler.h
+│   ├── seqlang.h
+│   ├── shade.h
+│   ├── shapedef.h
+│   ├── shapedef.inc
+│   ├── shapename.def
+│   ├── shapename.h
+│   ├── skin.h
+│   ├── sos
+│   ├── stage.h
+│   ├── system.h
+│   ├── tagdecode.h
+│   ├── tagfile.h
+│   ├── tutil.h
+│   ├── water.h
+│   ├── waterext.h
+│   ├── wave.h
+│   ├── weather.h
+│   ├── wenemy.h
+│   ├── wipe.h
+│   ├── yalcs.h
+│   ├── yextern.h
+│   ├── ymacs.h
+│   ├── ystruct.h
+│   └── yvars.h
+├── jumping.o
+├── linklist.o
+├── Makefile
+├── map/
+│   ├── back/
+│   │   ├── bigworld_backscrn.c
+│   │   ├── kuppa3_backscrn.c
+│   │   ├── kuppa_backscrn.c
+│   │   ├── mainmap_backscrn.c
+│   │   ├── motos_backscrn.c
+│   │   ├── mountain_backscrn.c
+│   │   ├── sabaku_backscrn.c
+│   │   ├── snowtower_backscrn.c
+│   │   ├── waterland_backscrn.c
+│   │   └── yokoscrl_backscrn.c
+│   ├── Sboot.s
+│   ├── select/
+│   │   ├── Gselect.c
+│   │   ├── Mselect.c
+│   │   ├── selectShape/
+│   │   │   ├── button.hms
+│   │   │   ├── button.sou
+│   │   │   ├── button2.hms
+│   │   │   ├── button2.sou
+│   │   │   ├── button2_txt.h
+│   │   │   ├── button_txt.h
+│   │   │   ├── copy_of_button.sou
+│   │   │   ├── copy_of_button_txt.h
+│   │   │   ├── cursol.sou
+│   │   │   ├── dummy.flk
+│   │   │   ├── font88_ENG_txt.h
+│   │   │   ├── font88_txt.h
+│   │   │   ├── font88col_txt.h
+│   │   │   ├── selectFont.h
+│   │   │   ├── selectpict.sou
+│   │   │   └── star_name.h
+│   │   └── Sselect.s
+│   ├── Sgame.s
+│   ├── stage1/
+│   │   ├── castle/
+│   │   │   ├── bartest.sou
+│   │   │   ├── castle.flk
+│   │   │   ├── castle_shape.sou
+│   │   │   └── castle_texture.h
+│   │   ├── Gstage1.c
+│   │   ├── Mstage1.c
+│   │   └── Sstage1.s
+│   ├── stage10/
+│   │   ├── Gstage10.c
+│   │   ├── kamakura/
+│   │   │   ├── cx1002.flk
+│   │   │   ├── cx1002.tag
+│   │   │   ├── sf2_kama1_shape.sou
+│   │   │   ├── sf2_kama2_shape.sou
+│   │   │   ├── sf2_kama3_shape.sou
+│   │   │   └── sf2_kama4_shape.sou
+│   │   ├── Mstage10.c
+│   │   ├── Sstage10.s
+│   │   └── yukiyama2/
+│   │       ├── cx1001.flk
+│   │       ├── cx1001.tag
+│   │       ├── sf2_hahen_shape.sou
+│   │       ├── sf2_hip_check.flk
+│   │       ├── sf2_hip_shape.sou
+│   │       ├── sf2_nami_check.flk
+│   │       ├── sf2_nami_shape.sou
+│   │       ├── sf2_p1_shape.sou
+│   │       ├── sf2_p2_shape.sou
+│   │       ├── sf2_p3_shape.sou
+│   │       ├── sf2_p4_shape.sou
+│   │       ├── sf2_p5_shape.sou
+│   │       ├── sf2_p6_shape.sou
+│   │       ├── sf2_shape.sou
+│   │       └── yukiyama2_ext_texture.h
+│   ├── stage11/
+│   │   ├── Gstage11.c
+│   │   ├── Mstage11.c
+│   │   ├── pool/
+│   │   │   ├── cx1101.flk
+│   │   │   ├── cx1101.tag
+│   │   │   ├── cx1102.flk
+│   │   │   ├── cx1102.tag
+│   │   │   ├── po_body01_shape.sou
+│   │   │   ├── po_body02_shape.sou
+│   │   │   ├── po_mobj01_check.flk
+│   │   │   ├── po_mobj01_shape.sou
+│   │   │   ├── po_mobj02_check.flk
+│   │   │   ├── po_mobj02_shape.sou
+│   │   │   ├── po_mobj03_check.flk
+│   │   │   ├── po_mobj03_shape.sou
+│   │   │   ├── po_mobj04_check.flk
+│   │   │   ├── po_mobj04_shape.sou
+│   │   │   ├── po_mobj05_check.flk
+│   │   │   ├── po_mobj05_shape.sou
+│   │   │   ├── po_mobj06_check.flk
+│   │   │   ├── po_mobj06_shape.sou
+│   │   │   ├── po_mobj07_check.flk
+│   │   │   ├── po_mobj07_shape.sou
+│   │   │   ├── po_rgba01_shape.sou
+│   │   │   ├── po_rgba02_shape.sou
+│   │   │   ├── po_seal2_shape.sou
+│   │   │   ├── po_seal_shape.sou
+│   │   │   └── pool_ext_texture.h
+│   │   └── Sstage11.s
+│   ├── stage12/
+│   │   ├── Gstage12.c
+│   │   ├── Mstage12.c
+│   │   ├── Sstage12.s
+│   │   ├── tinbotusen/
+│   │   │   ├── cx1202.flk
+│   │   │   ├── cx1202.tag
+│   │   │   ├── miyafune_alp_shape.sou
+│   │   │   ├── miyafune_shape.sou
+│   │   │   └── miyafune_uo_shape.sou
+│   │   └── water_donjon/
+│   │       ├── cx1201.flk
+│   │       ├── cx1201.tag
+│   │       ├── fune_bl_shape.sou
+│   │       ├── fune_br_shape.sou
+│   │       ├── fune_c_a.flk
+│   │       ├── fune_c_b.flk
+│   │       ├── fune_c_db.flk
+│   │       ├── fune_c_rr.flk
+│   │       ├── fune_fl_shape.sou
+│   │       ├── fune_fr_shape.sou
+│   │       ├── hasira_shape.sou
+│   │       ├── hasiradai_c.flk
+│   │       ├── hasiradai_shape.sou
+│   │       ├── kibako_shape.sou
+│   │       ├── kibako_texture.h
+│   │       ├── kibakocheck.flk
+│   │       ├── tin_a_shape.sou
+│   │       ├── tin_b_shape.sou
+│   │       ├── tin_c_shape.sou
+│   │       ├── tin_d_shape.sou
+│   │       ├── tin_e_shape.sou
+│   │       ├── tin_f_shape.sou
+│   │       ├── tin_futa_c.flk
+│   │       ├── tin_g_shape.sou
+│   │       ├── tin_ita_check.flk
+│   │       ├── tin_ita_shape.sou
+│   │       ├── tin_iwa_c.flk
+│   │       ├── tin_iwa_shape.sou
+│   │       ├── ubboo1.ral
+│   │       ├── ubboo2.ral
+│   │       └── water_donjon_ext_texture.h
+│   ├── stage13/
+│   │   ├── big_world/
+│   │   │   ├── bigkame.ral
+│   │   │   ├── bigworld_ext_texture.h
+│   │   │   ├── bs1_shape.sou
+│   │   │   ├── bs2_shape.sou
+│   │   │   ├── bs3_shape.sou
+│   │   │   ├── bs4_shape.sou
+│   │   │   ├── bs5b_shape.sou
+│   │   │   ├── bs5s_shape.sou
+│   │   │   ├── bs_futa_check.flk
+│   │   │   ├── bs_futa_shape.sou
+│   │   │   ├── bs_naka1_shape.sou
+│   │   │   ├── bs_naka2_shape.sou
+│   │   │   ├── bs_naka3_shape.sou
+│   │   │   ├── bs_naka4_shape.sou
+│   │   │   ├── bs_sima_shape.sou
+│   │   │   ├── cx1301.flk
+│   │   │   ├── cx1301.tag
+│   │   │   ├── cx1302.flk
+│   │   │   ├── cx1302.tag
+│   │   │   ├── cx1303.flk
+│   │   │   └── cx1303.tag
+│   │   ├── Gstage13.c
+│   │   ├── Mstage13.c
+│   │   └── Sstage13.s
+│   ├── stage14/
+│   │   ├── Gstage14.c
+│   │   ├── mecha_room/
+│   │   │   ├── ct_1_shape.sou
+│   │   │   ├── ct_alpha_shape.sou
+│   │   │   ├── ct_clear_shape.sou
+│   │   │   ├── cx1401.flk
+│   │   │   ├── cx1401.tag
+│   │   │   ├── mecha_ext_texture.h
+│   │   │   ├── mecha_obj01_check.flk
+│   │   │   ├── mecha_obj01_shape.sou
+│   │   │   ├── mecha_obj01a_shape.sou
+│   │   │   ├── mecha_obj02_check.flk
+│   │   │   ├── mecha_obj02_shape.sou
+│   │   │   ├── mecha_obj02a_shape.sou
+│   │   │   ├── mecha_obj03_check.flk
+│   │   │   ├── mecha_obj03_shape.sou
+│   │   │   ├── mecha_obj04_l_check.flk
+│   │   │   ├── mecha_obj04_l_shape.sou
+│   │   │   ├── mecha_obj04_s_check.flk
+│   │   │   ├── mecha_obj04_s_shape.sou
+│   │   │   ├── mecha_obj05_check.flk
+│   │   │   ├── mecha_obj05_shape.sou
+│   │   │   ├── mecha_obj06_check.flk
+│   │   │   ├── mecha_obj06_shape.sou
+│   │   │   ├── mecha_obj07_check.flk
+│   │   │   ├── mecha_obj07_shape.sou
+│   │   │   ├── mecha_obj08_a_check.flk
+│   │   │   ├── mecha_obj08_a_shape.sou
+│   │   │   ├── mecha_obj08_b_check.flk
+│   │   │   ├── mecha_obj08_b_shape.sou
+│   │   │   ├── mecha_obj09_check.flk
+│   │   │   ├── mecha_obj09_shape.sou
+│   │   │   ├── mecha_obj10_check.flk
+│   │   │   ├── mecha_obj10_shape.sou
+│   │   │   ├── mecha_obj11_check.flk
+│   │   │   ├── mecha_obj11_shape.sou
+│   │   │   ├── mecha_obj12l_shape.sou
+│   │   │   └── mecha_obj12s_shape.sou
+│   │   ├── Mstage14.c
+│   │   └── Sstage14.s
+│   ├── stage15/
+│   │   ├── fire_bubble2/
+│   │   │   ├── cx1501.flk
+│   │   │   ├── cx1501.tag
+│   │   │   ├── e8_arajin_check.flk
+│   │   │   ├── e8_arajin_shape.sou
+│   │   │   ├── e8_base_shape.sou
+│   │   │   ├── e8_bg01_shape.sou
+│   │   │   ├── e8_bg02_shape.sou
+│   │   │   ├── e8_bg03_shape.sou
+│   │   │   ├── e8_bg04_shape.sou
+│   │   │   ├── e8_bg05_shape.sou
+│   │   │   ├── e8_bg06_shape.sou
+│   │   │   ├── e8_bg07_shape.sou
+│   │   │   ├── e8_bg08_shape.sou
+│   │   │   ├── e8_bg09_shape.sou
+│   │   │   ├── e8_bg10_ana_shape.sou
+│   │   │   ├── e8_bg10_shape.sou
+│   │   │   ├── e8_bg11_shape.sou
+│   │   │   ├── e8_bg12_shape.sou
+│   │   │   ├── e8_bg13_shape.sou
+│   │   │   ├── e8_bg14_shape.sou
+│   │   │   ├── e8_bg15_shape.sou
+│   │   │   ├── e8_bg16_shape.sou
+│   │   │   ├── e8_bg17_shape.sou
+│   │   │   ├── e8_bg18_shape.sou
+│   │   │   ├── e8_bg19_shape.sou
+│   │   │   ├── e8_bg20_shape.sou
+│   │   │   ├── e8_buranko_check.flk
+│   │   │   ├── e8_buranko_shape.sou
+│   │   │   ├── e8_dorifu00_check.flk
+│   │   │   ├── e8_dorifu00_shape.sou
+│   │   │   ├── e8_dorifu01_check.flk
+│   │   │   ├── e8_dorifu01_shape.sou
+│   │   │   ├── e8_dorifu02_check.flk
+│   │   │   ├── e8_dorifu02_shape.sou
+│   │   │   ├── e8_dorifu03_check.flk
+│   │   │   ├── e8_dorifu03_shape.sou
+│   │   │   ├── e8_dorifu04_check.flk
+│   │   │   ├── e8_dorifu04_shape.sou
+│   │   │   ├── e8_guruguru_check.flk
+│   │   │   ├── e8_guruguru_shape.sou
+│   │   │   ├── e8_hane_shape.sou
+│   │   │   ├── e8_kaiten_check.flk
+│   │   │   ├── e8_kaiten_shape.sou
+│   │   │   ├── e8_rifuto01_check.flk
+│   │   │   ├── e8_rifuto01_shape.sou
+│   │   │   ├── e8_rifuto02_check.flk
+│   │   │   ├── e8_rifuto02_shape.sou
+│   │   │   ├── e8_rifuto03_check.flk
+│   │   │   ├── e8_rifuto03_shape.sou
+│   │   │   ├── e8_shiso_check.flk
+│   │   │   ├── e8_shiso_shape.sou
+│   │   │   ├── e8_tikuwa01_shape.sou
+│   │   │   ├── e8_tikuwa02_shape.sou
+│   │   │   ├── e8_tikuwa_check.flk
+│   │   │   ├── e8_yokoshiso_check.flk
+│   │   │   ├── e8_yokoshiso_shape.sou
+│   │   │   ├── fb2_ext_texture.h
+│   │   │   ├── niji_root1.ral
+│   │   │   ├── niji_root2.ral
+│   │   │   ├── niji_root3.ral
+│   │   │   └── niji_root4.ral
+│   │   ├── Gstage15.c
+│   │   ├── Mstage15.c
+│   │   └── Sstage15.s
+│   ├── stage16/
+│   │   ├── Gstage16.c
+│   │   ├── mainmap2/
+│   │   │   ├── cx1601.flk
+│   │   │   ├── cx1601.tag
+│   │   │   ├── main_cannon_shape.sou
+│   │   │   ├── main_carpet_shape.sou
+│   │   │   ├── main_castle_flag.sou
+│   │   │   ├── main_castle_shape.sou
+│   │   │   ├── main_fence_shape.sou
+│   │   │   ├── main_field_shape.sou
+│   │   │   ├── main_net.flk
+│   │   │   ├── main_net2.flk
+│   │   │   ├── main_net2_shape.sou
+│   │   │   ├── main_net_shape.sou
+│   │   │   ├── main_shade_shape.sou
+│   │   │   ├── main_tower_shape.sou
+│   │   │   ├── main_window_shape.sou
+│   │   │   ├── mainmap2_ext_texture.h
+│   │   │   └── peach_mail_shape.sou
+│   │   ├── Mstage16.c
+│   │   └── Sstage16.s
+│   ├── stage17/
+│   │   ├── ext1_yokoscroll/
+│   │   │   ├── cx1701.flk
+│   │   │   ├── cx1701.tag
+│   │   │   ├── e1_base_shape.sou
+│   │   │   ├── e1_bg01_shape.sou
+│   │   │   ├── e1_bg02_shape.sou
+│   │   │   ├── e1_bg03_shape.sou
+│   │   │   ├── e1_bg04_shape.sou
+│   │   │   ├── e1_bg05_shape.sou
+│   │   │   ├── e1_bg06_shape.sou
+│   │   │   ├── e1_bg07_shape.sou
+│   │   │   ├── e1_bg08_shape.sou
+│   │   │   ├── e1_bg09_shape.sou
+│   │   │   ├── e1_bg10_shape.sou
+│   │   │   ├── e1_bg11_shape.sou
+│   │   │   ├── e1_bg12_shape.sou
+│   │   │   ├── e1_bg13_shape.sou
+│   │   │   ├── e1_bg14_shape.sou
+│   │   │   ├── e1_bg15_shape.sou
+│   │   │   ├── e1_deru_check.flk
+│   │   │   ├── e1_deru_shape.sou
+│   │   │   ├── e1_dorifu0_check.flk
+│   │   │   ├── e1_dorifu0_shape.sou
+│   │   │   ├── e1_dorifu1_check.flk
+│   │   │   ├── e1_dorifu1_shape.sou
+│   │   │   ├── e1_dorifu2_check.flk
+│   │   │   ├── e1_dorifu2_shape.sou
+│   │   │   ├── e1_dorifu3_check.flk
+│   │   │   ├── e1_dorifu3_shape.sou
+│   │   │   ├── e1_dorifu4_check.flk
+│   │   │   ├── e1_dorifu4_shape.sou
+│   │   │   ├── e1_kuruma_check.flk
+│   │   │   ├── e1_kuruma_shape.sou
+│   │   │   ├── e1_kurumajiku_check.flk
+│   │   │   ├── e1_kurumajiku_shape.sou
+│   │   │   ├── e1_pika_shape.sou
+│   │   │   ├── e1_shiso_check.flk
+│   │   │   ├── e1_shiso_shape.sou
+│   │   │   ├── e1_ukishima_check.flk
+│   │   │   ├── e1_ukishima_shape.sou
+│   │   │   └── ext1_yokoscroll_ext_texture.h
+│   │   ├── Gstage17.c
+│   │   ├── Mstage17.c
+│   │   └── Sstage17.s
+│   ├── stage18/
+│   │   ├── dummy/
+│   │   │   ├── cx1801.flk
+│   │   │   ├── cx1801.tag
+│   │   │   ├── ext7_ext_texture.h
+│   │   │   ├── hs_1_shape.sou
+│   │   │   ├── hs_alpha_shape.sou
+│   │   │   ├── hs_clear_shape.sou
+│   │   │   ├── hs_gaiheki_shape.sou
+│   │   │   ├── hs_obj_check.flk
+│   │   │   └── hs_obj_shape.sou
+│   │   ├── Gstage18.c
+│   │   ├── Mstage18.c
+│   │   └── Sstage18.s
+│   ├── stage19/
+│   │   ├── ext2_yokoscroll/
+│   │   │   ├── cx1901.flk
+│   │   │   ├── cx1901.tag
+│   │   │   ├── e2_agaru_check.flk
+│   │   │   ├── e2_agaru_shape.sou
+│   │   │   ├── e2_amiyuka_check.flk
+│   │   │   ├── e2_amiyuka_shape.sou
+│   │   │   ├── e2_ana_shape.sou
+│   │   │   ├── e2_bg01_shape.sou
+│   │   │   ├── e2_bg02_shape.sou
+│   │   │   ├── e2_bg03_shape.sou
+│   │   │   ├── e2_bg04_shape.sou
+│   │   │   ├── e2_bg05_shape.sou
+│   │   │   ├── e2_bg06_shape.sou
+│   │   │   ├── e2_bg07_shape.sou
+│   │   │   ├── e2_bg08_shape.sou
+│   │   │   ├── e2_bg09_shape.sou
+│   │   │   ├── e2_bg10_shape.sou
+│   │   │   ├── e2_bg11_shape.sou
+│   │   │   ├── e2_bg12_shape.sou
+│   │   │   ├── e2_bg13_shape.sou
+│   │   │   ├── e2_bg14_shape.sou
+│   │   │   ├── e2_bg15_shape.sou
+│   │   │   ├── e2_bg16_shape.sou
+│   │   │   ├── e2_bg17_shape.sou
+│   │   │   ├── e2_bg18_shape.sou
+│   │   │   ├── e2_bg19_shape.sou
+│   │   │   ├── e2_bou_shape.sou
+│   │   │   ├── e2_gura_check.flk
+│   │   │   ├── e2_gura_shape.sou
+│   │   │   ├── e2_kuzure01_check.flk
+│   │   │   ├── e2_kuzure01_shape.sou
+│   │   │   ├── e2_kuzure02_shape.sou
+│   │   │   ├── e2_nobiru01_shape.sou
+│   │   │   ├── e2_nobiru02_shape.sou
+│   │   │   ├── e2_nobiru_check.flk
+│   │   │   ├── e2_rifuto01_check.flk
+│   │   │   ├── e2_rifuto01_shape.sou
+│   │   │   ├── e2_rifuto02_check.flk
+│   │   │   ├── e2_rifuto02_shape.sou
+│   │   │   ├── e2_susumu_check.flk
+│   │   │   ├── e2_susumu_shape.sou
+│   │   │   ├── e2_ukishima_check.flk
+│   │   │   ├── e2_ukishima_shape.sou
+│   │   │   ├── e2_yokoshiso_check.flk
+│   │   │   ├── e2_yokoshiso_shape.sou
+│   │   │   ├── ext2_yokoscroll_ext_texture.h
+│   │   │   └── yogan_lift.ral
+│   │   ├── Gstage19.c
+│   │   ├── Mstage19.c
+│   │   └── Sstage19.s
+│   ├── stage2/
+│   │   ├── Gstage2.c
+│   │   ├── Mstage2.c
+│   │   ├── Sstage2.s
+│   │   └── test/
+│   │       ├── test.flk
+│   │       ├── test_shape.sou
+│   │       └── test_texture.h
+│   ├── stage20/
+│   │   ├── ext9/
+│   │   │   ├── cx2001.flk
+│   │   │   ├── cx2001.tag
+│   │   │   ├── suisou_ht_shape.sou
+│   │   │   └── suisou_shape.sou
+│   │   ├── Gstage20.c
+│   │   ├── Mstage20.c
+│   │   └── Sstage20.s
+│   ├── stage21/
+│   │   ├── ext3_tatescroll/
+│   │   │   ├── cx2101.flk
+│   │   │   ├── cx2101.tag
+│   │   │   ├── e3_base_shape.sou
+│   │   │   ├── e3_bg01_shape.sou
+│   │   │   ├── e3_bg02_shape.sou
+│   │   │   ├── e3_bg03_shape.sou
+│   │   │   ├── e3_bg04_shape.sou
+│   │   │   ├── e3_bg05_shape.sou
+│   │   │   ├── e3_bg06_shape.sou
+│   │   │   ├── e3_bg07_shape.sou
+│   │   │   ├── e3_bg08_shape.sou
+│   │   │   ├── e3_bg09_shape.sou
+│   │   │   ├── e3_bg10_shape.sou
+│   │   │   ├── e3_bg11_shape.sou
+│   │   │   ├── e3_bg12_shape.sou
+│   │   │   ├── e3_bg13_shape.sou
+│   │   │   ├── e3_bg14_shape.sou
+│   │   │   ├── e3_bg15_shape.sou
+│   │   │   ├── e3_bg16_shape.sou
+│   │   │   ├── e3_bg17_shape.sou
+│   │   │   ├── e3_bg18_shape.sou
+│   │   │   ├── e3_dan0_check.flk
+│   │   │   ├── e3_dan0_shape.sou
+│   │   │   ├── e3_dan1_check.flk
+│   │   │   ├── e3_dan1_shape.sou
+│   │   │   ├── e3_dan2_check.flk
+│   │   │   ├── e3_dan2_shape.sou
+│   │   │   ├── e3_dan3_check.flk
+│   │   │   ├── e3_dan3_shape.sou
+│   │   │   ├── e3_dan4_check.flk
+│   │   │   ├── e3_dan4_shape.sou
+│   │   │   ├── e3_deru01_check.flk
+│   │   │   ├── e3_deru01_shape.sou
+│   │   │   ├── e3_deru02_check.flk
+│   │   │   ├── e3_deru02_shape.sou
+│   │   │   ├── e3_kaitendai_check.flk
+│   │   │   ├── e3_kaitendai_shape.so__ﾁ
+│   │   │   ├── e3_kaitendai_shape.sou
+│   │   │   ├── e3_kuruma_check.flk
+│   │   │   ├── e3_kuruma_shape.sou
+│   │   │   ├── e3_kurumajiku_check.flk
+│   │   │   ├── e3_kurumajiku_shape.sou
+│   │   │   ├── e3_rifuto_check.flk
+│   │   │   ├── e3_rifuto_shape.sou
+│   │   │   ├── e3_shiso_check.flk
+│   │   │   ├── e3_shiso_shape.sou
+│   │   │   ├── e3_yokoshiso_check.flk
+│   │   │   ├── e3_yokoshiso_shape.sou
+│   │   │   └── ext3_heaven_ext_texture.h
+│   │   ├── Gstage21.c
+│   │   ├── Mstage21.c
+│   │   └── Sstage21.s
+│   ├── stage22/
+│   │   ├── Gstage22.c
+│   │   ├── in_valcano/
+│   │   │   ├── cx2202.flk
+│   │   │   ├── cx2202.tag
+│   │   │   ├── fm_battan_check.flk
+│   │   │   ├── fm_battan_shape.sou
+│   │   │   ├── fm_gouraud_shape.sou
+│   │   │   ├── fm_i_alpha_shape.sou
+│   │   │   ├── fm_kakou_shape.sou
+│   │   │   ├── fm_rgba_shape.sou
+│   │   │   ├── fm_shape.sou
+│   │   │   ├── in_valcano_ext_texture.h
+│   │   │   ├── kazan1.ral
+│   │   │   └── kazan2.ral
+│   │   ├── motos/
+│   │   │   ├── cx2201.flk
+│   │   │   ├── cx2201.tag
+│   │   │   ├── mo_body_shape.sou
+│   │   │   ├── mo_kaiten_check.flk
+│   │   │   ├── mo_mobj02_check.flk
+│   │   │   ├── mo_mobj02_shape.sou
+│   │   │   ├── mo_mobj04_check.flk
+│   │   │   ├── mo_mobj04_shape.sou
+│   │   │   ├── mo_plate_shape.sou
+│   │   │   ├── mo_rgba_shape.sou
+│   │   │   ├── motos_bg01.sou
+│   │   │   ├── motos_bg02.sou
+│   │   │   ├── motos_bg03.sou
+│   │   │   ├── motos_bg04.sou
+│   │   │   ├── motos_bg05.sou
+│   │   │   ├── motos_bg06.sou
+│   │   │   ├── motos_bg07.sou
+│   │   │   ├── motos_bg08.sou
+│   │   │   ├── motos_bg09.sou
+│   │   │   ├── motos_bg10.sou
+│   │   │   ├── motos_bg11.sou
+│   │   │   ├── motos_bg12.sou
+│   │   │   ├── motos_light.sou
+│   │   │   ├── motos_obj01.flk
+│   │   │   ├── motos_obj01.sou
+│   │   │   ├── motos_obj03.flk
+│   │   │   ├── motos_obj03.sou
+│   │   │   ├── motos_obj05.flk
+│   │   │   ├── motos_obj05.sou
+│   │   │   ├── motos_obj06.flk
+│   │   │   ├── motos_obj06.sou
+│   │   │   ├── motos_obj07.flk
+│   │   │   ├── motos_obj07.sou
+│   │   │   ├── motos_obj08.flk
+│   │   │   ├── motos_obj08.sou
+│   │   │   ├── motos_obj09.flk
+│   │   │   ├── motos_obj09.sou
+│   │   │   ├── motos_obj10.flk
+│   │   │   ├── motos_obj10.sou
+│   │   │   ├── motos_obj11.flk
+│   │   │   ├── motos_obj11.sou
+│   │   │   ├── motos_obj12.flk
+│   │   │   ├── motos_obj12.sou
+│   │   │   └── motos_texture.h
+│   │   ├── Mstage22.c
+│   │   └── Sstage22.s
+│   ├── stage23/
+│   │   ├── Gstage23.c
+│   │   ├── Mstage23.c
+│   │   ├── Sstage23.s
+│   │   └── waterland/
+│   │       ├── cx2301.flk
+│   │       ├── cx2301.tag
+│   │       ├── cx2302.flk
+│   │       ├── cx2302.tag
+│   │       ├── huta_check.flk
+│   │       ├── sm_check.flk
+│   │       ├── sm_s_shape.sou
+│   │       ├── sm_shape.sou
+│   │       ├── waterland_ext_texture.h
+│   │       ├── wl_a_a_shape.sou
+│   │       ├── wl_a_ht_shape.sou
+│   │       ├── wl_a_shape.sou
+│   │       ├── wl_ap_shape.sou
+│   │       ├── wl_b_a_shape.sou
+│   │       ├── wl_b_ht_shape.sou
+│   │       ├── wl_b_htk_shape.sou
+│   │       ├── wl_b_huta_ht_shape.sou
+│   │       ├── wl_b_huta_shape.sou
+│   │       ├── wl_b_ng_shape.sou
+│   │       ├── wl_b_sango_shape.sou
+│   │       ├── wl_b_shape.sou
+│   │       ├── wl_bo_shape.sou
+│   │       └── wl_bp_shape.sou
+│   ├── stage24/
+│   │   ├── Gstage24.c
+│   │   ├── mountain/
+│   │   │   ├── ca_f_bg01_shape.sou
+│   │   │   ├── ca_f_bg02_shape.sou
+│   │   │   ├── ca_f_bg06_shape.sou
+│   │   │   ├── ca_f_bg08_shape.sou
+│   │   │   ├── ca_f_bg12_o_shape.sou
+│   │   │   ├── ca_f_dossunbar_shape.sou
+│   │   │   ├── ca_f_downbar_shape.sou
+│   │   │   ├── ca_f_rotebar_shape.sou
+│   │   │   ├── ca_mobj14_check.flk
+│   │   │   ├── ca_moveobj01.flk
+│   │   │   ├── ca_moveobj02.flk
+│   │   │   ├── ca_moveobj03.flk
+│   │   │   ├── ca_moveobj04.flk
+│   │   │   ├── ca_n_bg01_shape.sou
+│   │   │   ├── ca_n_bg02_shape.sou
+│   │   │   ├── ca_n_bg03_shape.sou
+│   │   │   ├── ca_n_bg04_shape.sou
+│   │   │   ├── ca_n_bg05_shape.sou
+│   │   │   ├── ca_n_bg06_check.flk
+│   │   │   ├── ca_n_bg06_shape.sou
+│   │   │   ├── ca_n_bg07_check.flk
+│   │   │   ├── ca_n_bg07_shape.sou
+│   │   │   ├── ca_n_bg08_shape.sou
+│   │   │   ├── ca_n_bg10_shape.sou
+│   │   │   ├── ca_n_bg12_o_shape.sou
+│   │   │   ├── ca_n_bg12_t_shape.sou
+│   │   │   ├── ca_n_bg13_shape.sou
+│   │   │   ├── ca_n_bg14_shape.sou
+│   │   │   ├── ca_n_bg15_shape.sou
+│   │   │   ├── ca_n_bg16_shape.sou
+│   │   │   ├── ca_n_body_shape.sou
+│   │   │   ├── ca_n_dodai_shape.sou
+│   │   │   ├── ca_n_dossunbar2_shape.sou
+│   │   │   ├── ca_n_dossunbar_shape.sou
+│   │   │   ├── ca_n_downbar_shape.sou
+│   │   │   ├── ca_n_kabe_shape.sou
+│   │   │   ├── ca_n_lift0_shape.sou
+│   │   │   ├── ca_n_lift1_shape.sou
+│   │   │   ├── ca_n_moveobj01_shape.sou
+│   │   │   ├── ca_n_moveobj02_shape.sou
+│   │   │   ├── ca_n_moveobj03_shape.sou
+│   │   │   ├── ca_n_moveobj04_shape.sou
+│   │   │   ├── ca_n_rotebar_shape.sou
+│   │   │   ├── ca_n_seal_shape.sou
+│   │   │   ├── ca_n_stick_shape.sou
+│   │   │   ├── ca_n_transbar50_shape.sou
+│   │   │   ├── cx2401.flk
+│   │   │   ├── cx2401.tag
+│   │   │   ├── dossun_bar.flk
+│   │   │   ├── dossun_bar2.flk
+│   │   │   ├── down_b.flk
+│   │   │   ├── lift_0_3.flk
+│   │   │   ├── lift_0fan.flk
+│   │   │   ├── mountain_ext_texture.h
+│   │   │   ├── rote_bar.flk
+│   │   │   └── transbar_50.flk
+│   │   ├── Mstage24.c
+│   │   └── Sstage24.s
+│   ├── stage25/
+│   │   ├── ext10/
+│   │   │   ├── cx2501.flk
+│   │   │   ├── ending_shape.sou
+│   │   │   └── ending_texture.h
+│   │   ├── Gstage25.c
+│   │   ├── Mstage25.c
+│   │   └── Sstage25.s
+│   ├── stage26/
+│   │   ├── Gstage26.c
+│   │   ├── Mstage26.c
+│   │   ├── Sstage26.s
+│   │   └── uraniwa/
+│   │       ├── cx2601.flk
+│   │       ├── cx2601.tag
+│   │       ├── main_g_shade_shape.sou
+│   │       ├── main_g_tower_shape.sou
+│   │       ├── main_g_window_shape.sou
+│   │       └── main_garden_shape.sou
+│   ├── stage27/
+│   │   ├── ext4_minislider/
+│   │   │   ├── cx2701.flk
+│   │   │   ├── cx2701.tag
+│   │   │   ├── ext4_minislider_ext_texture.h
+│   │   │   ├── mini_s3_daiza_shape.sou
+│   │   │   ├── mini_s3_gate_shape.sou
+│   │   │   ├── mini_s3_ia_shape.sou
+│   │   │   ├── mini_s3_shape.sou
+│   │   │   ├── mini_s3flat_shape.sou
+│   │   │   ├── mini_s3nonfog_shape.sou
+│   │   │   └── mini_s3uraomote_shape.sou
+│   │   ├── Gstage27.c
+│   │   ├── Mstage27.c
+│   │   └── Sstage27.s
+│   ├── stage28/
+│   │   ├── ext5_in_fall/
+│   │   │   ├── cx2801.flk
+│   │   │   ├── cx2801.tag
+│   │   │   ├── ext5_ext_texture.h
+│   │   │   ├── taki_kage_shape.sou
+│   │   │   ├── taki_metal1_shape.sou
+│   │   │   └── taki_shape.sou
+│   │   ├── Gstage28.c
+│   │   ├── Mstage28.c
+│   │   └── Sstage28.s
+│   ├── stage29/
+│   │   ├── ext6_flying_mario/
+│   │   │   ├── cx2901.flk
+│   │   │   ├── cx2901.tag
+│   │   │   ├── e6_hontai_shape.sou
+│   │   │   ├── e6_kumo_shape.sou
+│   │   │   ├── e6_niji_shape.sou
+│   │   │   ├── e6_shita_shape.sou
+│   │   │   └── ext6_ext_texture.h
+│   │   ├── Gstage29.c
+│   │   ├── Mstage29.c
+│   │   └── Sstage29.s
+│   ├── stage3/
+│   │   ├── donjon/
+│   │   │   ├── donjon.flk
+│   │   │   ├── donjon_shape.sou
+│   │   │   └── donjon_texture.h
+│   │   ├── Gstage3.c
+│   │   ├── Mstage3.c
+│   │   └── Sstage3.s
+│   ├── stage30/
+│   │   ├── Gstage30.c
+│   │   ├── kopa_round/
+│   │   │   ├── cx3001.flk
+│   │   │   ├── kopa1_ext_texture.h
+│   │   │   └── kopa1_map_shape.sou
+│   │   ├── Mstage30.c
+│   │   └── Sstage30.s
+│   ├── stage31/
+│   │   ├── ext8/
+│   │   │   ├── cx3101.flk
+│   │   │   ├── cx3101.tag
+│   │   │   ├── ext8_ext_texture.h
+│   │   │   ├── sky_1_shape.sou
+│   │   │   ├── sky_clear_shape.sou
+│   │   │   └── sky_niji_shape.sou
+│   │   ├── Gstage31.c
+│   │   ├── Mstage31.c
+│   │   └── Sstage31.s
+│   ├── stage32/
+│   │   ├── dummy.flk
+│   │   ├── dummy_shape.sou
+│   │   ├── Gstage32.c
+│   │   ├── itemhat.sou
+│   │   ├── Mstage32.c
+│   │   ├── omurobo.shape
+│   │   ├── shape_test.sou
+│   │   ├── Sstage32.s
+│   │   ├── stage.c
+│   │   ├── stage.dat
+│   │   ├── stageyj/
+│   │   │   ├── testmap1.flk
+│   │   │   ├── testmap1.sou
+│   │   │   ├── testmap10.flk
+│   │   │   ├── testmap10.sou
+│   │   │   ├── testmap1_old.sou
+│   │   │   ├── testmap2.flk
+│   │   │   ├── testmap2.sou
+│   │   │   ├── testmap3.flk
+│   │   │   ├── testmap3.sou
+│   │   │   ├── testmap4.flk
+│   │   │   ├── testmap4.sou
+│   │   │   ├── testmap5.flk
+│   │   │   └── testmap5.sou
+│   │   └── yajima_test.sou
+│   ├── stage33/
+│   │   ├── Gstage33.c
+│   │   ├── kopa_round2/
+│   │   │   ├── cx3301.flk
+│   │   │   ├── kopa2_A.flk
+│   │   │   ├── kopa2_A_shape.sou
+│   │   │   ├── kopa2_B_shape.sou
+│   │   │   └── kopa2_ext_texture.h
+│   │   ├── Mstage33.c
+│   │   └── Sstage33.s
+│   ├── stage34/
+│   │   ├── Gstage34.c
+│   │   ├── kopa_round3/
+│   │   │   ├── cx3401.flk
+│   │   │   ├── kopa3_A.flk
+│   │   │   ├── kopa3_A_shape.sou
+│   │   │   ├── kopa3_B.flk
+│   │   │   ├── kopa3_B_shape.sou
+│   │   │   ├── kopa3_buoy_shape.sou
+│   │   │   ├── kopa3_C.flk
+│   │   │   ├── kopa3_C_shape.sou
+│   │   │   ├── kopa3_D.flk
+│   │   │   ├── kopa3_D_shape.sou
+│   │   │   ├── kopa3_E.flk
+│   │   │   ├── kopa3_E_shape.sou
+│   │   │   ├── kopa3_ext_texture.h
+│   │   │   ├── kopa3_F.flk
+│   │   │   ├── kopa3_F_shape.sou
+│   │   │   ├── kopa3_G.flk
+│   │   │   ├── kopa3_G_shape.sou
+│   │   │   ├── kopa3_H.flk
+│   │   │   ├── kopa3_H_shape.sou
+│   │   │   ├── kopa3_I.flk
+│   │   │   ├── kopa3_I_shape.sou
+│   │   │   ├── kopa3_J.flk
+│   │   │   ├── kopa3_J_shape.sou
+│   │   │   └── kopa3_star_shape.sou
+│   │   ├── Mstage34.c
+│   │   └── Sstage34.s
+│   ├── stage35/
+│   │   ├── dummy.flk
+│   │   ├── dummy_shape.sou
+│   │   ├── Gstage35.c
+│   │   ├── Mstage35.c
+│   │   └── Sstage35.s
+│   ├── stage36/
+│   │   ├── donkey/
+│   │   │   ├── cx3601.flk
+│   │   │   ├── cx3601.tag
+│   │   │   ├── dk_asiba1_a_shape.sou
+│   │   │   ├── dk_asiba1_b_shape.sou
+│   │   │   ├── dk_asiba2_shape.sou
+│   │   │   ├── dk_asiba3_shape.sou
+│   │   │   ├── dk_body_shape.sou
+│   │   │   ├── dk_enoki1_a_shape.sou
+│   │   │   ├── dk_enoki1_b_shape.sou
+│   │   │   ├── dk_enoki2_a_shape.sou
+│   │   │   ├── dk_enoki2_b_shape.sou
+│   │   │   ├── dk_enoki3_a_shape.sou
+│   │   │   ├── dk_enoki3_b_shape.sou
+│   │   │   ├── dk_enoki4_a_shape.sou
+│   │   │   ├── dk_enoki4_b_shape.sou
+│   │   │   ├── dk_fuji_a_shape.sou
+│   │   │   ├── dk_fuji_b_shape.sou
+│   │   │   ├── dk_gururi_shape.sou
+│   │   │   ├── dk_habatobi_shape.sou
+│   │   │   ├── dk_hana1_shape.sou
+│   │   │   ├── dk_hana2_shape.sou
+│   │   │   ├── dk_kago1_shape.sou
+│   │   │   ├── dk_kago2_shape.sou
+│   │   │   ├── dk_kago_check.flk
+│   │   │   ├── dk_kakusi_a_shape.sou
+│   │   │   ├── dk_kakusi_b_shape.sou
+│   │   │   ├── dk_ki_shape.sou
+│   │   │   ├── dk_kozou_shape.sou
+│   │   │   ├── dk_maruta1_shape.sou
+│   │   │   ├── dk_maruta2_shape.sou
+│   │   │   ├── dk_start_shape.sou
+│   │   │   ├── dk_taihou_shape.sou
+│   │   │   ├── dk_top_a_shape.sou
+│   │   │   ├── dk_top_b_shape.sou
+│   │   │   ├── dk_yurayura_shape.sou
+│   │   │   ├── dkwave0_texture.h
+│   │   │   ├── don_ironball.ral
+│   │   │   ├── donkey_ext_texture.h
+│   │   │   ├── donkey_wavedat.sou
+│   │   │   ├── hex64.dat
+│   │   │   ├── maruta_check.flk
+│   │   │   └── maruta_shape.sou
+│   │   ├── Gstage36.c
+│   │   ├── Mstage36.c
+│   │   ├── slider2/
+│   │   │   ├── a_2_geta_shape.sou
+│   │   │   ├── abcda_2_shape.sou
+│   │   │   ├── abcdb_2_shape.sou
+│   │   │   ├── abcdb_ya_shape.sou
+│   │   │   ├── abcdc_2_shape.sou
+│   │   │   ├── b_2_geta_shape.sou
+│   │   │   ├── c_2_geta_shape.sou
+│   │   │   ├── cx3602.flk
+│   │   │   ├── cx3602.tag
+│   │   │   ├── cx3603.flk
+│   │   │   ├── cx3603.tag
+│   │   │   ├── cx3604.flk
+│   │   │   ├── cx3604.tag
+│   │   │   ├── endoor.flk
+│   │   │   ├── endoor.sou
+│   │   │   ├── kazari_1_shape.sou
+│   │   │   ├── kazari_2_shape.sou
+│   │   │   ├── kazari_3_shape.sou
+│   │   │   └── kazari_4_shape.sou
+│   │   └── Sstage36.s
+│   ├── stage37/
+│   │   ├── Gstage37.c
+│   │   ├── map37.flk
+│   │   ├── Mstage37.c
+│   │   └── Sstage37.s
+│   ├── stage38/
+│   │   ├── dummy.flk
+│   │   ├── dummy_shape.sou
+│   │   ├── Gstage38.c
+│   │   ├── Mstage38.c
+│   │   ├── sand.flk
+│   │   ├── sand.sou
+│   │   └── Sstage38.s
+│   ├── stage4/
+│   │   ├── Gstage4.c
+│   │   ├── Mstage4.c
+│   │   ├── Sstage4.s
+│   │   └── teresa/
+│   │       ├── a_trap_check.flk
+│   │       ├── a_trap_shape.sou
+│   │       ├── b_trap_check.flk
+│   │       ├── b_trap_shape.sou
+│   │       ├── cx0401.ara
+│   │       ├── cx0401.flk
+│   │       ├── cx0401.tag
+│   │       ├── d_trap_a_shape.sou
+│   │       ├── d_trap_b_shape.sou
+│   │       ├── d_trap_check.flk
+│   │       ├── f_trap_check.flk
+│   │       ├── f_trap_shape.sou
+│   │       ├── j_trap_check.flk
+│   │       ├── j_trap_shape.sou
+│   │       ├── kanoke_check.flk
+│   │       ├── kanoke_shape.sou
+│   │       ├── kanoke_texture.h
+│   │       ├── l_trap_check.flk
+│   │       ├── l_trap_shape.sou
+│   │       ├── tere_a_a_shape.sou
+│   │       ├── tere_a_ia_shape.sou
+│   │       ├── tere_a_kn_shape.sou
+│   │       ├── tere_a_mr_shape.sou
+│   │       ├── tere_a_s_shape.sou
+│   │       ├── tere_a_shape.sou
+│   │       ├── tere_b_ia_shape.sou
+│   │       ├── tere_b_kn_shape.sou
+│   │       ├── tere_b_mr_shape.sou
+│   │       ├── tere_b_s_shape.sou
+│   │       ├── tere_b_shape.sou
+│   │       ├── tere_c_a_shape.sou
+│   │       ├── tere_c_mr_shape.sou
+│   │       ├── tere_c_s_shape.sou
+│   │       ├── tere_c_shape.sou
+│   │       ├── tere_d_a_shape.sou
+│   │       ├── tere_d_shape.sou
+│   │       ├── tere_e_shape.sou
+│   │       ├── tere_f_cr_shape.sou
+│   │       ├── tere_f_r_shape.sou
+│   │       ├── tere_f_shape.sou
+│   │       ├── tere_g_ia_shape.sou
+│   │       ├── tere_g_shape.sou
+│   │       ├── tere_h_a_shape.sou
+│   │       ├── tere_h_ia_shape.sou
+│   │       ├── tere_h_kn_shape.sou
+│   │       ├── tere_h_shape.sou
+│   │       ├── tere_i_mr_shape.sou
+│   │       ├── tere_i_s_shape.sou
+│   │       ├── tere_i_shape.sou
+│   │       ├── tere_j_a_shape.sou
+│   │       ├── tere_j_shape.sou
+│   │       ├── tere_k_shape.sou
+│   │       ├── tere_l_shape.sou
+│   │       ├── tere_m_a_shape.sou
+│   │       ├── tere_m_ia_shape.sou
+│   │       ├── tere_m_kn_shape.sou
+│   │       ├── tere_m_s_shape.sou
+│   │       ├── tere_m_shape.sou
+│   │       └── teresa_ext_texture.h
+│   ├── stage5/
+│   │   ├── Gstage5.c
+│   │   ├── Mstage5.c
+│   │   ├── Sstage5.s
+│   │   ├── yuki_slider1/
+│   │   │   ├── cx0502.flk
+│   │   │   ├── cx0502.tag
+│   │   │   ├── pengin.ral
+│   │   │   ├── s_s_alpha_shape.sou
+│   │   │   ├── s_s_clear_shape.sou
+│   │   │   ├── s_s_gate_shape.sou
+│   │   │   ├── s_s_ia_shape.sou
+│   │   │   ├── s_s_inout_shape.sou
+│   │   │   ├── s_s_mado_shape.sou
+│   │   │   ├── s_s_shape.sou
+│   │   │   └── yuki_slider1_ext_texture.h
+│   │   └── yukiyama1/
+│   │       ├── cx0501.flk
+│   │       ├── cx0501.tag
+│   │       ├── rift_check.flk
+│   │       ├── rift_shape.sou
+│   │       ├── rift_wa_shape.sou
+│   │       ├── rope_lift.ral
+│   │       ├── snow_eye_shape.sou
+│   │       ├── snow_head_shape.sou
+│   │       ├── snow_rock.sou
+│   │       ├── snowman_head_texture.h
+│   │       ├── st_body_shape.sou
+│   │       ├── st_dai_shape.sou
+│   │       ├── st_ft_shape.sou
+│   │       ├── st_hasira_shape.sou
+│   │       ├── st_ie1a_shape.sou
+│   │       ├── st_ie1b_shape.sou
+│   │       ├── st_ie2a_shape.sou
+│   │       ├── st_ie2b_shape.sou
+│   │       ├── st_ie2c_shape.sou
+│   │       ├── st_kage_shape.sou
+│   │       ├── st_saku_shape.sou
+│   │       ├── st_ura_a_shape.sou
+│   │       ├── st_ura_b_shape.sou
+│   │       ├── st_ura_c_shape.sou
+│   │       ├── st_yuka_shape.sou
+│   │       ├── yuki_goro.ral
+│   │       └── yukiyama1_ext_texture.h
+│   ├── stage6/
+│   │   ├── Gstage6.c
+│   │   ├── Mstage6.c
+│   │   ├── selroom1b/
+│   │   │   ├── rabbit.rail
+│   │   │   ├── sel1b.ara
+│   │   │   ├── sel1b.flk
+│   │   │   ├── sel1b.tag
+│   │   │   ├── sel1b_c2.flk
+│   │   │   ├── sel1b_c3.flk
+│   │   │   ├── selt_b_a_shape.sou
+│   │   │   ├── selt_b_ia_shape.sou
+│   │   │   ├── selt_b_shape.sou
+│   │   │   ├── selt_c_ia_shape.sou
+│   │   │   ├── selt_c_shape.sou
+│   │   │   ├── selt_d_a_shape.sou
+│   │   │   ├── selt_d_shape.sou
+│   │   │   ├── selt_e_a_shape.sou
+│   │   │   ├── selt_e_ht_shape.sou
+│   │   │   ├── selt_e_shape.sou
+│   │   │   ├── selt_f_shape.sou
+│   │   │   ├── selt_sss_c.flk
+│   │   │   └── selt_sss_shape.sou
+│   │   ├── selroom1f/
+│   │   │   ├── auto_door_check.flk
+│   │   │   ├── auto_door_shape.sou
+│   │   │   ├── mipmap_shape.sou
+│   │   │   ├── sel1f.ara
+│   │   │   ├── sel1f.flk
+│   │   │   ├── sel1f.tag
+│   │   │   ├── sel1ftrap_check.flk
+│   │   │   ├── sel_a_a_shape.sou
+│   │   │   ├── sel_a_g_shape.sou
+│   │   │   ├── sel_a_ia_shape.sou
+│   │   │   ├── sel_a_p_shape.sou
+│   │   │   ├── sel_a_s_shape.sou
+│   │   │   ├── sel_a_shape.sou
+│   │   │   ├── sel_b_shape.sou
+│   │   │   ├── sel_c_shape.sou
+│   │   │   ├── sel_c_trap_shape.sou
+│   │   │   ├── sel_d_a_shape.sou
+│   │   │   ├── sel_d_p_shape.sou
+│   │   │   ├── sel_d_shape.sou
+│   │   │   ├── sel_e_a_shape.sou
+│   │   │   ├── sel_e_shape.sou
+│   │   │   ├── sel_f_a_shape.sou
+│   │   │   ├── sel_f_aa_shape.sou
+│   │   │   ├── sel_f_shape.sou
+│   │   │   ├── sel_g_a_shape.sou
+│   │   │   ├── sel_g_an_shape.sou
+│   │   │   ├── sel_g_g_shape.sou
+│   │   │   ├── sel_g_ia_shape.sou
+│   │   │   ├── sel_g_k_shape.sou
+│   │   │   ├── sel_g_shape.sou
+│   │   │   ├── sel_h_a_shape.sou
+│   │   │   ├── sel_h_shape.sou
+│   │   │   └── sel_i_shape.sou
+│   │   ├── selroom2f/
+│   │   │   ├── hari_a_shape.sou
+│   │   │   ├── hari_b_shape.sou
+│   │   │   ├── sel2_a_shape.sou
+│   │   │   ├── sel2_b_a_shape.sou
+│   │   │   ├── sel2_b_s_shape.sou
+│   │   │   ├── sel2_b_shape.sou
+│   │   │   ├── sel2_c_k_shape.sou
+│   │   │   ├── sel2_c_s_shape.sou
+│   │   │   ├── sel2_c_shape.sou
+│   │   │   ├── sel2_d_shape.sou
+│   │   │   ├── sel2_e_a_shape.sou
+│   │   │   ├── sel2_e_furi_shape.sou
+│   │   │   ├── sel2_e_gr_shape.sou
+│   │   │   ├── sel2_e_ia_shape.sou
+│   │   │   ├── sel2_e_shape.sou
+│   │   │   ├── sel2_f_ng_shape.sou
+│   │   │   ├── sel2_f_s_shape.sou
+│   │   │   ├── sel2_f_shape.sou
+│   │   │   ├── sel2f.ara
+│   │   │   ├── sel2f.flk
+│   │   │   └── sel2f.tag
+│   │   ├── seltexture/
+│   │   │   ├── auto_door_texture.h
+│   │   │   ├── mipmap_texture.h
+│   │   │   ├── mirror_texture.h
+│   │   │   ├── sel_ext_texture.h
+│   │   │   ├── seltexdef.h
+│   │   │   ├── wave_texture.h
+│   │   │   └── wavetexture/
+│   │   │       ├── selr_wave00_texture.h
+│   │   │       ├── selr_wave01_texture.h
+│   │   │       ├── selr_wave02_texture.h
+│   │   │       ├── selr_wave03_texture.h
+│   │   │       ├── selr_wave04_texture.h
+│   │   │       ├── selr_wave05_texture.h
+│   │   │       ├── selr_wave06_texture.h
+│   │   │       ├── selr_wave07_texture.h
+│   │   │       ├── selr_wave08_texture.h
+│   │   │       ├── selr_wave09_texture.h
+│   │   │       ├── selr_wave10_texture.h
+│   │   │       ├── selr_wave11_texture.h
+│   │   │       └── selr_wave12_texture.h
+│   │   ├── Sstage6.s
+│   │   └── wavedata/
+│   │       ├── hex64.dat
+│   │       ├── hexRP.dat
+│   │       └── selectroom_wavedat.sou
+│   ├── stage7/
+│   │   ├── Gstage7.c
+│   │   ├── horror_dungeon/
+│   │   │   ├── ana_lift3.ral
+│   │   │   ├── big_rock_shape.sou
+│   │   │   ├── bigrock_texture.h
+│   │   │   ├── cx0701.ara
+│   │   │   ├── cx0701.flk
+│   │   │   ├── cx0701.tag
+│   │   │   ├── envimage_texture.h
+│   │   │   ├── hexRP.dat
+│   │   │   ├── horror_dungeon_ext_texture.h
+│   │   │   ├── kdow_a_a_shape.sou
+│   │   │   ├── kdow_a_ia_shape.sou
+│   │   │   ├── kdow_a_nk_shape.sou
+│   │   │   ├── kdow_a_shape.sou
+│   │   │   ├── kdow_b_a_shape.sou
+│   │   │   ├── kdow_b_ia_shape.sou
+│   │   │   ├── kdow_b_kn2_shape.sou
+│   │   │   ├── kdow_b_kn_shape.sou
+│   │   │   ├── kdow_b_s_shape.sou
+│   │   │   ├── kdow_b_shape.sou
+│   │   │   ├── kdow_c_a_shape.sou
+│   │   │   ├── kdow_c_ht_shape.sou
+│   │   │   ├── kdow_c_ia2_shape.sou
+│   │   │   ├── kdow_c_ia_shape.sou
+│   │   │   ├── kdow_c_kn_shape.sou
+│   │   │   ├── kdow_c_shape.sou
+│   │   │   ├── kdow_d_a_shape.sou
+│   │   │   ├── kdow_d_ht_shape.sou
+│   │   │   ├── kdow_d_ia_shape.sou
+│   │   │   ├── kdow_d_kn_shape.sou
+│   │   │   ├── kdow_d_shape.sou
+│   │   │   ├── kdow_e_a_shape.sou
+│   │   │   ├── kdow_e_shape.sou
+│   │   │   ├── kdow_el_check.flk
+│   │   │   ├── kdow_el_shape.sou
+│   │   │   ├── kdow_f_a_shape.sou
+│   │   │   ├── kdow_f_ia2_shape.sou
+│   │   │   ├── kdow_f_ia_shape.sou
+│   │   │   ├── kdow_f_kn_shape.sou
+│   │   │   ├── kdow_f_shape.sou
+│   │   │   ├── kdow_f_tr_check.flk
+│   │   │   ├── kdow_f_tr_shape.sou
+│   │   │   ├── kdow_g_shape.sou
+│   │   │   ├── kdow_h_ia_shape.sou
+│   │   │   ├── kdow_h_kn_shape.sou
+│   │   │   ├── kdow_h_shape.sou
+│   │   │   ├── NEWSbut_shape.sou
+│   │   │   ├── NEWSbutcheck.flk
+│   │   │   ├── NEWSlift_shape.sou
+│   │   │   ├── NEWSlift_texture.h
+│   │   │   ├── NEWSliftcheck.flk
+│   │   │   ├── rock_pieceA_shape.sou
+│   │   │   ├── rock_pieceB_shape.sou
+│   │   │   └── wdou_wavedat.sou
+│   │   ├── Mstage7.c
+│   │   └── Sstage7.s
+│   ├── stage8/
+│   │   ├── Gstage8.c
+│   │   ├── in_pyramid/
+│   │   │   ├── cx0802.flk
+│   │   │   ├── cx0802.tag
+│   │   │   ├── cx0803.flk
+│   │   │   ├── cx0803.tag
+│   │   │   ├── hand_checkA.flk
+│   │   │   ├── hand_checkB.flk
+│   │   │   ├── hand_checkC.flk
+│   │   │   ├── hand_checkD.flk
+│   │   │   ├── in_pyramid_ext_texture.h
+│   │   │   ├── py_ami_shape.sou
+│   │   │   ├── py_amikege_shape.sou
+│   │   │   ├── py_obj01_ah_shape.sou
+│   │   │   ├── py_obj01_check.flk
+│   │   │   ├── py_obj01_shape.sou
+│   │   │   ├── py_obj02_ah_shape.sou
+│   │   │   ├── py_obj02_check.flk
+│   │   │   ├── py_obj02_shape.sou
+│   │   │   ├── py_obj03_check.flk
+│   │   │   ├── py_obj03_shape.sou
+│   │   │   ├── py_obj04_ah_shape.sou
+│   │   │   ├── py_obj04_check.flk
+│   │   │   ├── py_obj04_shape.sou
+│   │   │   ├── py_shape.sou
+│   │   │   ├── py_sn3_alp_shape.sou
+│   │   │   └── py_sn3_shape.sou
+│   │   ├── Mstage8.c
+│   │   ├── sabaku/
+│   │   │   ├── cx0801.flk
+│   │   │   ├── cx0801.tag
+│   │   │   ├── onimasu.flk
+│   │   │   ├── onimasu.sou
+│   │   │   ├── sa_mobj_01_c.flk
+│   │   │   ├── sa_mobj_01_shape.sou
+│   │   │   ├── sabaku_ext_texture.h
+│   │   │   ├── sabaku_f_shape.sou
+│   │   │   ├── sabaku_g_shape.sou
+│   │   │   ├── sabaku_r_shape.sou
+│   │   │   └── sabaku_shadow_shape.sou
+│   │   ├── sandcone/
+│   │   │   └── sand_cone.sou
+│   │   └── Sstage8.s
+│   ├── stage9/
+│   │   ├── battle_field/
+│   │   │   ├── battle_field_ext_texture.h
+│   │   │   ├── cx0901.flk
+│   │   │   ├── cx0901.tag
+│   │   │   ├── kame_root.ral
+│   │   │   ├── pl_ironball.ral
+│   │   │   ├── pl_ironball2.ral
+│   │   │   ├── pl_moveobj_01_check.flk
+│   │   │   ├── pl_moveobj_01_shape.sou
+│   │   │   ├── pl_moveobj_02_check.flk
+│   │   │   ├── pl_moveobj_02_shape.sou
+│   │   │   ├── pl_moveobj_03_check.flk
+│   │   │   ├── pl_moveobj_03_shape.sou
+│   │   │   ├── plain3_flat_shape.sou
+│   │   │   ├── plain3_gro2_shape.sou
+│   │   │   ├── plain3_gro_shape.sou
+│   │   │   ├── plain3_saku_shape.sou
+│   │   │   ├── plain3_shadow_shape.sou
+│   │   │   └── plain3_shape.sou
+│   │   ├── Gstage9.c
+│   │   ├── Mstage9.c
+│   │   └── Sstage9.s
+│   ├── stage99/
+│   │   ├── castle/
+│   │   │   ├── bartest.sou
+│   │   │   ├── castle.flk
+│   │   │   ├── castle_shape.sou
+│   │   │   └── castle_texture.h
+│   │   ├── Gstage1.s
+│   │   ├── Gstage1.szp
+│   │   ├── Gstage37.c
+│   │   ├── Mstage37.c
+│   │   └── Sstage37.s
+│   ├── tag.cnf
+│   ├── texture/
+│   │   ├── a_lava_texture.c
+│   │   ├── b_house_texture.c
+│   │   ├── c_field_texture.c
+│   │   ├── d_water_texture.c
+│   │   ├── e_mt_texture.c
+│   │   ├── f_snow_mt_texture.c
+│   │   ├── g_cave_texture.c
+│   │   ├── h_mecha_texture.c
+│   │   ├── i_slider_texture.c
+│   │   ├── j_fort_texture.c
+│   │   ├── k_castlein_texture.c
+│   │   ├── l_castleout_texture.c
+│   │   └── texsymbol.h
+│   └── title/
+│       ├── debug_title.c
+│       ├── Mtitle.c
+│       ├── nintendo_logo.c
+│       ├── shapes/
+│       │   ├── mariotitle_texture.h
+│       │   ├── mariotitle_texture_zh.h
+│       │   ├── title_alphabets.sou
+│       │   ├── title_arrow.sou
+│       │   ├── title_cube.sou
+│       │   ├── title_face.sou
+│       │   ├── title_marioA.sou
+│       │   ├── title_marioI.sou
+│       │   ├── title_marioM.sou
+│       │   ├── title_marioO.sou
+│       │   ├── title_marioR.sou
+│       │   ├── title_stagesel.sou
+│       │   ├── title_superE.sou
+│       │   ├── title_superP.sou
+│       │   ├── title_superR.sou
+│       │   ├── title_superS.sou
+│       │   ├── title_superU.sou
+│       │   ├── title_ultraA.sou
+│       │   ├── title_ultraL.sou
+│       │   ├── title_ultraR.sou
+│       │   ├── title_ultraT.sou
+│       │   └── title_ultraU.sou
+│       ├── Stitle.s
+│       ├── title_back.c
+│       └── trademark.h
+├── maplang.o
+├── mask
+├── math.o
+├── mathtbl.o
+├── mathtbl.s
+├── memory.c
+├── Message/
+│   ├── Font_dot.h
+│   ├── message.sou
+│   ├── message_ENG.sou
+│   └── message_zh.sou
+├── message.c
+├── metadata/
+│   ├── isbn.txt
+│   ├── thumb.rgba
+│   ├── title.inta
+│   ├── title_e.txt
+│   └── title_z.txt
+├── mtrmain.c
+├── mvbgdata.o
+├── mydataasm_linux
+├── objhit.o
+├── objsound.o
+├── path.o
+├── pathdata.s
+├── pausemess.c
+├── physics.o
+├── player.o
+├── press
+├── press_linux
+├── running.o
+├── scene.c
+├── selectmess.c
+├── seqlang.o
+├── shade.o
+├── shape/
+│   ├── al
+│   ├── basic_enemy/
+│   │   ├── BCbutton.shape
+│   │   ├── biribiri/
+│   │   │   ├── biri_ereki_shape.sou
+│   │   │   ├── biri_eye_shape.sou
+│   │   │   ├── biri_head_shape.sou
+│   │   │   ├── biri_mouth_shape.sou
+│   │   │   ├── biribiri.shape
+│   │   │   └── biribiri_txt.h
+│   │   ├── bom_futa.shape
+│   │   ├── cannon_base.shape
+│   │   ├── cannon_body.shape
+│   │   ├── carryboy/
+│   │   │   ├── al
+│   │   │   ├── carry_body_shape.sou
+│   │   │   ├── carry_boy.sou
+│   │   │   ├── carry_boy_texture.h
+│   │   │   ├── carry_eye_shape.sou
+│   │   │   ├── carry_foot_shape.sou
+│   │   │   ├── carry_grip_shape.sou
+│   │   │   ├── carry_hairA_shape.sou
+│   │   │   ├── carry_hairB_shape.sou
+│   │   │   ├── carry_Larm_shape.sou
+│   │   │   ├── carry_Lhand_shape.sou
+│   │   │   ├── carry_Rarm_shape.sou
+│   │   │   ├── carry_Rhand_shape.sou
+│   │   │   ├── carryboy.shape
+│   │   │   ├── carryboy_softimage/
+│   │   │   │   ├── carry.softimage
+│   │   │   │   ├── carry.sou
+│   │   │   │   ├── carry.tbl
+│   │   │   │   ├── carry_boy_carry.anm
+│   │   │   │   ├── carry_boy_carry.asc
+│   │   │   │   ├── carry_boy_carry.c
+│   │   │   │   ├── carry_boy_carry.frm
+│   │   │   │   ├── carry_boy_carry_wait.anm
+│   │   │   │   ├── carry_boy_carry_wait.asc
+│   │   │   │   ├── carry_boy_carry_wait.c
+│   │   │   │   ├── carry_boy_carry_wait.frm
+│   │   │   │   ├── carry_boy_help.anm
+│   │   │   │   ├── carry_boy_help.asc
+│   │   │   │   ├── carry_boy_help.c
+│   │   │   │   ├── carry_boy_help.frm
+│   │   │   │   ├── carry_boy_pitch.anm
+│   │   │   │   ├── carry_boy_pitch.asc
+│   │   │   │   ├── carry_boy_pitch.c
+│   │   │   │   ├── carry_boy_pitch.frm
+│   │   │   │   ├── carry_boy_quick_move.anm
+│   │   │   │   ├── carry_boy_quick_move.asc
+│   │   │   │   ├── carry_boy_quick_move.c
+│   │   │   │   ├── carry_boy_quick_move.frm
+│   │   │   │   ├── carry_boy_wait.anm
+│   │   │   │   ├── carry_boy_wait.asc
+│   │   │   │   ├── carry_boy_wait.c
+│   │   │   │   └── carry_boy_wait.frm
+│   │   │   ├── gfx_carry_boy.sou
+│   │   │   └── hms_carry_boy.sou
+│   │   ├── hanbutton.shape
+│   │   ├── hanlift.shape
+│   │   ├── hart.shape
+│   │   ├── heyho.shape
+│   │   ├── hibi_block.shape
+│   │   ├── ironball.shape
+│   │   ├── itembox.shape
+│   │   ├── kuribo/
+│   │   │   ├── kuri_body_shape.sou
+│   │   │   ├── kuri_head_shape.sou
+│   │   │   ├── kuribo.shape
+│   │   │   └── kuribo_texture.h
+│   │   ├── newbomhei/
+│   │   │   ├── bom_body_shape.sou
+│   │   │   ├── bom_eye_shape.sou
+│   │   │   ├── bom_txt.h
+│   │   │   └── newbomhei.shape
+│   │   ├── OLD/
+│   │   │   └── bikkuri.flk
+│   │   ├── pushblock.shape
+│   │   ├── qbox.shape
+│   │   ├── testlift.shape
+│   │   └── xkoura.shape
+│   ├── enemy1_a/
+│   │   ├── ball.shape
+│   │   ├── bird/
+│   │   │   ├── bird.shape
+│   │   │   ├── bird_head_text_unit.sou
+│   │   │   ├── lwing1_text_unit.sou
+│   │   │   ├── lwing2_text_unit.sou
+│   │   │   ├── lwing3_text_unit.sou
+│   │   │   ├── lwing4_text_unit.sou
+│   │   │   ├── rwing1_text_unit.sou
+│   │   │   ├── rwing2_text_unit.sou
+│   │   │   ├── rwing3_text_unit.sou
+│   │   │   └── rwing4_text_unit.sou
+│   │   ├── bird_egg.shape
+│   │   ├── dosun/
+│   │   │   ├── dossun_shape.sou
+│   │   │   ├── dossun_texture.h
+│   │   │   ├── dosun.shape
+│   │   │   ├── gfx_dossun.sou
+│   │   │   └── hms_dossun.sou
+│   │   ├── killer.shape
+│   │   └── omurobo/
+│   │       ├── gfx_omurobo.sou
+│   │       ├── hms_omurobo.sou
+│   │       ├── omu_body_shape.sou
+│   │       ├── omu_ita_shape.sou
+│   │       ├── omu_Larm_shape.sou
+│   │       ├── omu_Rarm_shape.sou
+│   │       ├── omu_tire_shape.sou
+│   │       ├── omu_zenmaihane_shape.sou
+│   │       ├── omurobo.shape
+│   │       ├── omurobo.sou
+│   │       └── omurobo_texture.h
+│   ├── enemy1_b/
+│   │   ├── otos/
+│   │   │   ├── corn_shape.sou
+│   │   │   └── otos.shape
+│   │   └── unbaba.shape
+│   ├── enemy1_c/
+│   │   ├── bom_king/
+│   │   │   ├── bom_king.sou
+│   │   │   ├── bom_king_texture.h
+│   │   │   ├── bomking.shape
+│   │   │   ├── gfx_bom_king.sou
+│   │   │   ├── hms_bom_king.sou
+│   │   │   ├── king_body_shape.sou
+│   │   │   ├── king_crown_shape.sou
+│   │   │   ├── king_eye_shape.sou
+│   │   │   ├── king_hige_shape.sou
+│   │   │   ├── king_Larm_shape.sou
+│   │   │   ├── king_Lfoot_shape.sou
+│   │   │   ├── king_Lhand_shape.sou
+│   │   │   ├── king_Lleg_shape.sou
+│   │   │   ├── king_Rarm_shape.sou
+│   │   │   ├── king_Rfoot_shape.sou
+│   │   │   ├── king_Rhand_shape.sou
+│   │   │   └── king_Rleg_shape.sou
+│   │   └── water_bom.shape
+│   ├── enemy1_d/
+│   │   ├── big_shell/
+│   │   │   ├── big_shell.shape
+│   │   │   ├── gfx_shell.sou
+│   │   │   ├── hms_shell.sou
+│   │   │   ├── shell.sou
+│   │   │   ├── shell_A_shape.sou
+│   │   │   ├── shell_B_shape.sou
+│   │   │   └── shell_texture.h
+│   │   ├── manta/
+│   │   │   ├── gfx_manta.sou
+│   │   │   ├── hms_manta.sou
+│   │   │   ├── manta.shape
+│   │   │   ├── manta_body_shape.sou
+│   │   │   ├── manta_fin_shape.sou
+│   │   │   ├── manta_Lhige_shape.sou
+│   │   │   ├── manta_Lme_shape.sou
+│   │   │   ├── manta_Lwing1_shape.sou
+│   │   │   ├── manta_Lwing2_shape.sou
+│   │   │   ├── manta_Lwing3_shape.sou
+│   │   │   ├── manta_Rhige_shape.sou
+│   │   │   ├── manta_Rme_shape.sou
+│   │   │   ├── manta_Rwing1_shape.sou
+│   │   │   ├── manta_Rwing2_shape.sou
+│   │   │   ├── manta_Rwing3_shape.sou
+│   │   │   └── manta_texture.h
+│   │   ├── shark/
+│   │   │   ├── al
+│   │   │   ├── animed.softimage
+│   │   │   ├── animed.sou
+│   │   │   ├── animed.tbl
+│   │   │   ├── animed_swim.anm
+│   │   │   ├── animed_swim.asc
+│   │   │   ├── animed_swim.c
+│   │   │   ├── animed_swim.frm
+│   │   │   ├── gfx_shark.sou
+│   │   │   ├── hms_shark.sou
+│   │   │   ├── shark.shape
+│   │   │   ├── shark.sou
+│   │   │   ├── shark_texture.h
+│   │   │   ├── shk_body1_shape.sou
+│   │   │   ├── shk_body2_shape.sou
+│   │   │   ├── shk_eye_shape.sou
+│   │   │   ├── shk_ha_shape.sou
+│   │   │   ├── shk_head_shape.sou
+│   │   │   └── shk_tail_shape.sou
+│   │   ├── ubboo/
+│   │   │   ├── gfx_utubo.sou
+│   │   │   ├── hms_utubo.sou
+│   │   │   ├── nn_ago_shape.sou
+│   │   │   ├── nn_body1_shape.sou
+│   │   │   ├── nn_body2_shape.sou
+│   │   │   ├── nn_body3_shape.sou
+│   │   │   ├── nn_body4_shape.sou
+│   │   │   ├── nn_body5_shape.sou
+│   │   │   ├── nn_eye_shape.sou
+│   │   │   ├── nn_ha1_shape.sou
+│   │   │   ├── nn_ha2_shape.sou
+│   │   │   ├── nn_head_shape.sou
+│   │   │   ├── ubboo.anm
+│   │   │   ├── ubboo.shape
+│   │   │   ├── utubo.sou
+│   │   │   └── utubo_texture.h
+│   │   └── w_tornado.shape
+│   ├── enemy1_e/
+│   │   ├── hagetaka/
+│   │   │   ├── gfx_hagetaka.sou
+│   │   │   ├── hagetaka.shape
+│   │   │   ├── hagetaka_texture.h
+│   │   │   ├── hms_hagetaka.sou
+│   │   │   ├── tori_body_shape.sou
+│   │   │   ├── tori_erimaki_shape.sou
+│   │   │   ├── tori_head_shape.sou
+│   │   │   ├── tori_Lfoot_shape.sou
+│   │   │   ├── tori_Lleg_shape.sou
+│   │   │   ├── tori_Lwing1_shape.sou
+│   │   │   ├── tori_Lwing2_shape.sou
+│   │   │   ├── tori_Lwing3_shape.sou
+│   │   │   ├── tori_neck_shape.sou
+│   │   │   ├── tori_Rfoot_shape.sou
+│   │   │   ├── tori_Rleg_shape.sou
+│   │   │   ├── tori_Rwing1_shape.sou
+│   │   │   ├── tori_Rwing2_shape.sou
+│   │   │   ├── tori_Rwing3_shape.sou
+│   │   │   └── tori_tail_shape.sou
+│   │   ├── handman/
+│   │   │   ├── aaa
+│   │   │   ├── fingA_1_shape.sou
+│   │   │   ├── fingA_2_shape.sou
+│   │   │   ├── fingA_3_shape.sou
+│   │   │   ├── fingB_1_shape.sou
+│   │   │   ├── fingB_2_shape.sou
+│   │   │   ├── fingB_3_shape.sou
+│   │   │   ├── gfx_handman.sou
+│   │   │   ├── handA_shape.sou
+│   │   │   ├── handB_eye_shape.sou
+│   │   │   ├── handB_shape.sou
+│   │   │   ├── handman.shape
+│   │   │   ├── handman.shp
+│   │   │   ├── handman.sou
+│   │   │   ├── handman.xxx
+│   │   │   ├── handman_texture.h
+│   │   │   └── hms_handman.sou
+│   │   ├── sanbo.shape
+│   │   └── tornedo.shape
+│   ├── enemy1_f/
+│   │   ├── gfx_hole.shape
+│   │   ├── indy/
+│   │   │   ├── gfx_indy.sou
+│   │   │   ├── hms_indy.sou
+│   │   │   ├── indy.shape
+│   │   │   ├── indy.sou
+│   │   │   ├── indy_body_shape.sou
+│   │   │   ├── indy_head_shape.sou
+│   │   │   ├── indy_Larm_shape.sou
+│   │   │   ├── indy_Lfoot_shape.sou
+│   │   │   ├── indy_Lhand_shape.sou
+│   │   │   ├── indy_Rarm_shape.sou
+│   │   │   ├── indy_Rfoot_shape.sou
+│   │   │   ├── indy_Rhand_shape.sou
+│   │   │   ├── indy_texture.h
+│   │   │   └── indy_tooth_shape.sou
+│   │   ├── kazekozo.shape
+│   │   ├── monky/
+│   │   │   ├── aaa
+│   │   │   ├── cube1_shape.sou
+│   │   │   ├── cube2_shape.sou
+│   │   │   ├── cube3_shape.sou
+│   │   │   ├── gfx_monky.sou
+│   │   │   ├── hms_monky.sou
+│   │   │   ├── monky.shape
+│   │   │   ├── monky.shp
+│   │   │   ├── monky.sou
+│   │   │   ├── monky_body_shape.sou
+│   │   │   ├── monky_head_shape.sou
+│   │   │   ├── monky_Larm1_shape.sou
+│   │   │   ├── monky_Larm2_shape.sou
+│   │   │   ├── monky_Lleg1_shape.sou
+│   │   │   ├── monky_Lleg2_shape.sou
+│   │   │   ├── monky_Rarm1_shape.sou
+│   │   │   ├── monky_Rarm2_shape.sou
+│   │   │   ├── monky_Rleg1_shape.sou
+│   │   │   ├── monky_Rleg2_shape.sou
+│   │   │   ├── monky_texture.h
+│   │   │   └── sos1
+│   │   └── windface.shape
+│   ├── enemy1_g/
+│   │   ├── furafura/
+│   │   │   ├── fura_bira1_shape.sou
+│   │   │   ├── fura_eye_shape.sou
+│   │   │   ├── fura_head_shape.sou
+│   │   │   ├── fura_Lleaf_shape.sou
+│   │   │   ├── fura_mouth_shape.sou
+│   │   │   ├── fura_Rleaf_shape.sou
+│   │   │   ├── furafura.shape
+│   │   │   ├── furafura.sou
+│   │   │   ├── furafura.xxx
+│   │   │   ├── furafura_texture.h
+│   │   │   ├── gfx_furafura.sou
+│   │   │   └── hms_furafura.sou
+│   │   ├── ping/
+│   │   │   ├── ping.shape
+│   │   │   ├── ping_head_shape.sou
+│   │   │   └── ping_texture.h
+│   │   └── snow_man/
+│   │       ├── gfx_snow_man.sou
+│   │       ├── hms_snow_man.sou
+│   │       ├── sman_arm_shape.sou
+│   │       ├── sman_body_shape.sou
+│   │       ├── sman_eye_shape.sou
+│   │       ├── sman_hand_shape.sou
+│   │       ├── sman_head_shape.sou
+│   │       ├── sman_mouth_shape.sou
+│   │       ├── snow_man.shape
+│   │       ├── snow_man.sou
+│   │       └── snow_man_texture.h
+│   ├── enemy1_h/
+│   │   ├── bane.shape
+│   │   └── bikkuri_button.shape
+│   ├── enemy1_i/
+│   │   ├── book/
+│   │   │   ├── book.shape
+│   │   │   ├── book.shp
+│   │   │   ├── book_coverA_shape.sou
+│   │   │   ├── book_coverB_shape.sou
+│   │   │   ├── book_pagesA_shape.sou
+│   │   │   ├── book_pagesB_shape.sou
+│   │   │   ├── book_texture.h
+│   │   │   ├── book_toothA_shape.sou
+│   │   │   ├── book_toothB_shape.sou
+│   │   │   ├── gfx_book.sou
+│   │   │   └── hms_book.sou
+│   │   ├── booklight.shape
+│   │   ├── chair/
+│   │   │   ├── chair.shape
+│   │   │   ├── chair_texture.h
+│   │   │   ├── chairA_shape.sou
+│   │   │   ├── chairB_shape.sou
+│   │   │   ├── chairC_shape.sou
+│   │   │   ├── chairD_shape.sou
+│   │   │   ├── gfx_chair.sou
+│   │   │   └── hms_chair.sou
+│   │   ├── key.shape
+│   │   ├── piano/
+│   │   │   ├── gfx_piano.sou
+│   │   │   ├── hms_piano.sou
+│   │   │   ├── piano.shape
+│   │   │   ├── piano.sou
+│   │   │   ├── piano_body_shape.sou
+│   │   │   ├── piano_texture.h
+│   │   │   └── piano_tooth_shape.sou
+│   │   ├── teresa.shape
+│   │   └── teresakago.shape
+│   ├── enemy1_j/
+│   │   ├── minibird.shape
+│   │   ├── peach/
+│   │   │   ├── p_chest_shape.sou
+│   │   │   ├── p_hair_shape.sou
+│   │   │   ├── p_head_shape.sou
+│   │   │   ├── p_LarmA_shape.sou
+│   │   │   ├── p_LarmB_shape.sou
+│   │   │   ├── p_Learring_shape.sou
+│   │   │   ├── p_Lhand_shape.sou
+│   │   │   ├── p_Lsholder_shape.sou
+│   │   │   ├── p_neck_shape.sou
+│   │   │   ├── p_RarmA_shape.sou
+│   │   │   ├── p_RarmB_shape.sou
+│   │   │   ├── p_Rearring_shape.sou
+│   │   │   ├── p_Rhand_shape.sou
+│   │   │   ├── p_Rsholder_shape.sou
+│   │   │   ├── p_skirt_shape.sou
+│   │   │   ├── p_waist_shape.sou
+│   │   │   ├── peach.shape
+│   │   │   └── peach_texture.h
+│   │   └── yoshi/
+│   │       ├── yos_head_shape.sou
+│   │       ├── yoshi.shape
+│   │       └── yoshi_texture.h
+│   ├── enemy1_k/
+│   │   ├── buku/
+│   │   │   ├── buku.shape
+│   │   │   ├── buku_A_shape.sou
+│   │   │   ├── buku_B_shape.sou
+│   │   │   ├── buku_texture.h
+│   │   │   ├── gfx_buku.sou
+│   │   │   └── hms_buku.sou
+│   │   ├── hanachan.shape
+│   │   ├── jugem/
+│   │   │   ├── j_body_shape.sou
+│   │   │   ├── j_glass_shape.sou
+│   │   │   ├── j_head_shape.sou
+│   │   │   ├── j_Lhand_shape.sou
+│   │   │   ├── j_Rhand_shape.sou
+│   │   │   ├── jugem.shape
+│   │   │   └── jugem_texture.h
+│   │   ├── pipo.shape
+│   │   └── togezo.shape
+│   ├── enemy2_a/
+│   │   ├── blowup.shape
+│   │   ├── firering.shape
+│   │   ├── guide_ball.shape
+│   │   ├── kopa.shape
+│   │   ├── kopakirai.shape
+│   │   └── mowan.shape
+│   ├── enemy2_d/
+│   │   ├── amembow/
+│   │   │   ├── am_body_shape.sou
+│   │   │   ├── am_eye_shape.sou
+│   │   │   ├── am_foot_shape.sou
+│   │   │   ├── am_Lhitomi_shape.sou
+│   │   │   ├── am_Rhitomi_shape.sou
+│   │   │   ├── am_tail_shape.sou
+│   │   │   ├── amembow.shape
+│   │   │   ├── amenbow.sou
+│   │   │   ├── amenbow_texture.h
+│   │   │   ├── gfx_amenbow.sou
+│   │   │   └── hms_amenbow.sou
+│   │   ├── kombu.shape
+│   │   ├── mine.shape
+│   │   ├── pirania/
+│   │   │   ├── gfx_pirania.sou
+│   │   │   ├── hms_pirania.sou
+│   │   │   ├── pira_body_shape.sou
+│   │   │   ├── pira_sebire_shape.sou
+│   │   │   ├── pira_tail_shape.sou
+│   │   │   ├── pirania.shape
+│   │   │   ├── pirania.shp
+│   │   │   ├── pirania.sou
+│   │   │   └── pirania_texture.h
+│   │   ├── puku.shape
+│   │   ├── ring.shape
+│   │   └── treasurebox.shape
+│   ├── enemy2_e/
+│   │   ├── goal_flag/
+│   │   │   ├── animed.softimage
+│   │   │   ├── animed.sou
+│   │   │   ├── animed.tbl
+│   │   │   ├── animed_patapata.anm
+│   │   │   ├── animed_patapata.asc
+│   │   │   ├── animed_patapata.c
+│   │   │   ├── animed_patapata.frm
+│   │   │   ├── cyl9_shape.sou
+│   │   │   ├── face10_shape.sou
+│   │   │   ├── face11_shape.sou
+│   │   │   ├── face7_shape.sou
+│   │   │   ├── face8_shape.sou
+│   │   │   ├── face9_shape.sou
+│   │   │   ├── gfx_goal_flag.sou
+│   │   │   ├── goal_flag.shape
+│   │   │   ├── goalflag_texture.h
+│   │   │   └── hms_goal_flag.sou
+│   │   ├── kui.shape
+│   │   ├── nokonoko/
+│   │   │   ├── noko_body_shape.sou
+│   │   │   ├── noko_foot1_shape.sou
+│   │   │   ├── noko_foot2_shape.sou
+│   │   │   ├── noko_head_shape.sou
+│   │   │   ├── noko_texture.h
+│   │   │   └── nokonoko.shape
+│   │   ├── pakun.shape
+│   │   ├── wallman/
+│   │   │   ├── gfx_ichiro.sou
+│   │   │   ├── hms_ichiro.sou
+│   │   │   ├── ichi_body_shape.sou
+│   │   │   ├── ichi_Larm_shape.sou
+│   │   │   ├── ichi_Lfoot_shape.sou
+│   │   │   ├── ichi_Lhand_shape.sou
+│   │   │   ├── ichi_Rarm_shape.sou
+│   │   │   ├── ichi_Rfoot_shape.sou
+│   │   │   ├── ichi_Rhand_shape.sou
+│   │   │   ├── ichiro.shp
+│   │   │   ├── ichiro.softimage
+│   │   │   ├── ichiro.sou
+│   │   │   ├── ichiro.tbl
+│   │   │   ├── ichiro_falldown.anm
+│   │   │   ├── ichiro_falldown.asc
+│   │   │   ├── ichiro_falldown.c
+│   │   │   ├── ichiro_falldown.frm
+│   │   │   ├── ichiro_texture.h
+│   │   │   ├── ichiro_walk.anm
+│   │   │   ├── ichiro_walk.asc
+│   │   │   ├── ichiro_walk.c
+│   │   │   ├── ichiro_walk.frm
+│   │   │   └── wallman.shape
+│   │   ├── wan_ball.shape
+│   │   └── wanwan/
+│   │       ├── gfx_wanwan.sou
+│   │       ├── hms_wanwan.sou
+│   │       ├── wan_bodyA_shape.sou
+│   │       ├── wan_bodyB_shape.sou
+│   │       ├── wan_eye_shape.sou
+│   │       ├── wan_toothA_shape.sou
+│   │       ├── wan_toothB_shape.sou
+│   │       ├── wanwan.shape
+│   │       ├── wanwan.sou
+│   │       └── wanwan_texture.h
+│   ├── enemy2_f/
+│   │   ├── jugem2/
+│   │   │   ├── j_body_shape.sou
+│   │   │   ├── j_camera_shape.sou
+│   │   │   ├── j_glass_shape.sou
+│   │   │   ├── j_head_shape.sou
+│   │   │   ├── j_Lhand_shape.sou
+│   │   │   ├── j_Rhand_shape.sou
+│   │   │   ├── j_softimage_shape.sou
+│   │   │   ├── jugem2.shape
+│   │   │   └── jugem_texture.h
+│   │   ├── kinopio/
+│   │   │   ├── kino_body_shape.sou
+│   │   │   ├── kino_head_shape.sou
+│   │   │   ├── kino_Lfoot_shape.sou
+│   │   │   ├── kino_Lhand_shape.sou
+│   │   │   ├── kino_Rfoot_shape.sou
+│   │   │   ├── kino_Rhand_shape.sou
+│   │   │   ├── kino_vest_shape.sou
+│   │   │   └── kinopio.shape
+│   │   ├── rabbit/
+│   │   │   ├── gfx_rabbit.sou
+│   │   │   ├── hms_rabbit.sou
+│   │   │   ├── rabbit.shape
+│   │   │   ├── rabbit_texture.h
+│   │   │   ├── rabi_body_shape.sou
+│   │   │   ├── rabi_head_shape.sou
+│   │   │   ├── rabi_LearA_shape.sou
+│   │   │   ├── rabi_LearB_shape.sou
+│   │   │   ├── rabi_LfootA_shape.sou
+│   │   │   ├── rabi_LfootB_shape.sou
+│   │   │   ├── rabi_Lleg_shape.sou
+│   │   │   ├── rabi_RearA_shape.sou
+│   │   │   ├── rabi_RearB_shape.sou
+│   │   │   ├── rabi_RfootA_shape.sou
+│   │   │   ├── rabi_RfootB_shape.sou
+│   │   │   └── rabi_Rleg_shape.sou
+│   │   └── teresa2.shape
+│   ├── enemy2_g/
+│   │   ├── ice_otos.shape
+│   │   └── kuramochi/
+│   │       ├── kura_body_shape.sou
+│   │       ├── kura_face_shape.sou
+│   │       ├── kuramochi.shape
+│   │       └── kuramochi_texture.h
+│   ├── enemy2_h/
+│   │   ├── balloonbody.shape
+│   │   ├── ballooneye.shape
+│   │   ├── bat/
+│   │   │   ├── bat.shape
+│   │   │   ├── bat.sou
+│   │   │   ├── bat_body_shape.sou
+│   │   │   ├── bat_ear_shape.sou
+│   │   │   ├── bat_head_shape.sou
+│   │   │   ├── bat_Lwing_shape.sou
+│   │   │   ├── bat_Rwing_shape.sou
+│   │   │   ├── bat_texture.h
+│   │   │   ├── gfx_bat.sou
+│   │   │   └── hms_bat.sou
+│   │   ├── mucho/
+│   │   │   ├── gfx_mucho.sou
+│   │   │   ├── hms_mucho.sou
+│   │   │   ├── mu_body_shape.sou
+│   │   │   ├── mu_hand_shape.sou
+│   │   │   ├── mu_mask_shape.sou
+│   │   │   ├── mu_mouthA_shape.sou
+│   │   │   ├── mu_mouthB_shape.sou
+│   │   │   ├── mucho.shape
+│   │   │   └── mucho_texture.h
+│   │   ├── nessy/
+│   │   │   ├── nes_body_shape.sou
+│   │   │   ├── nes_eye_shape.sou
+│   │   │   ├── nes_head_shape.sou
+│   │   │   ├── nes_jaw_shape.sou
+│   │   │   ├── nes_Lfoot_shape.sou
+│   │   │   ├── nes_Lhand_shape.sou
+│   │   │   ├── nes_neckA_shape.sou
+│   │   │   ├── nes_neckB_shape.sou
+│   │   │   ├── nes_Rfoot_shape.sou
+│   │   │   ├── nes_Rhand_shape.sou
+│   │   │   ├── nes_tailA_shape.sou
+│   │   │   ├── nes_tailB_shape.sou
+│   │   │   ├── nessy.shape
+│   │   │   └── nessy_texture.h
+│   │   └── walker/
+│   │       ├── al
+│   │       ├── gfx_spider.sou
+│   │       ├── hms_spider.sou
+│   │       ├── spider.shp
+│   │       ├── spider.sou
+│   │       ├── spider_texture.h
+│   │       ├── W_body_shape.sou
+│   │       ├── W_eyebrow_shape.sou
+│   │       ├── W_eyeL_shape.sou
+│   │       ├── W_eyeR_shape.sou
+│   │       ├── W_footA_shape.sou
+│   │       ├── W_legA1_shape.sou
+│   │       ├── W_legA2_shape.sou
+│   │       ├── W_pupilL_shape.sou
+│   │       ├── W_pupilR_shape.sou
+│   │       └── walker.shape
+│   ├── enemyshape
+│   ├── EnemyTest/
+│   │   ├── autodoor.shape
+│   │   ├── hagetaka/
+│   │   │   ├── gfx_hagetaka.sou
+│   │   │   ├── hagetaka.shape
+│   │   │   ├── hagetaka_texture.h
+│   │   │   ├── hms_hagetaka.sou
+│   │   │   ├── tori_body_shape.sou
+│   │   │   ├── tori_erimaki_shape.sou
+│   │   │   ├── tori_head_shape.sou
+│   │   │   ├── tori_Lfoot_shape.sou
+│   │   │   ├── tori_Lleg_shape.sou
+│   │   │   ├── tori_Lwing1_shape.sou
+│   │   │   ├── tori_Lwing2_shape.sou
+│   │   │   ├── tori_Lwing3_shape.sou
+│   │   │   ├── tori_neck_shape.sou
+│   │   │   ├── tori_Rfoot_shape.sou
+│   │   │   ├── tori_Rleg_shape.sou
+│   │   │   ├── tori_Rwing1_shape.sou
+│   │   │   ├── tori_Rwing2_shape.sou
+│   │   │   ├── tori_Rwing3_shape.sou
+│   │   │   └── tori_tail_shape.sou
+│   │   ├── kameboard.shape
+│   │   ├── manta/
+│   │   │   ├── gfx_manta.sou
+│   │   │   ├── hms_manta.sou
+│   │   │   ├── manta.shape
+│   │   │   ├── manta_body_shape.sou
+│   │   │   ├── manta_fin_shape.sou
+│   │   │   ├── manta_Lhige_shape.sou
+│   │   │   ├── manta_Lme_shape.sou
+│   │   │   ├── manta_Lwing1_shape.sou
+│   │   │   ├── manta_Lwing2_shape.sou
+│   │   │   ├── manta_Lwing3_shape.sou
+│   │   │   ├── manta_Rhige_shape.sou
+│   │   │   ├── manta_Rme_shape.sou
+│   │   │   ├── manta_Rwing1_shape.sou
+│   │   │   ├── manta_Rwing2_shape.sou
+│   │   │   ├── manta_Rwing3_shape.sou
+│   │   │   └── manta_texture.h
+│   │   ├── motostest.shape
+│   │   ├── old/
+│   │   │   ├── autodoor.sou
+│   │   │   ├── chair.sou
+│   │   │   ├── cube2.flk
+│   │   │   ├── cube2.sou
+│   │   │   ├── cube3.flk
+│   │   │   ├── cube3.sou
+│   │   │   ├── hana.sou
+│   │   │   ├── hopper.sou
+│   │   │   ├── kameboard.sou
+│   │   │   ├── manta.sou
+│   │   │   ├── manta_old/
+│   │   │   │   ├── gfx_manta.sou
+│   │   │   │   ├── hms_manta.sou
+│   │   │   │   ├── manta_body_shape.sou
+│   │   │   │   ├── manta_Lhige_shape.sou
+│   │   │   │   ├── manta_Lwing1_shape.sou
+│   │   │   │   ├── manta_Lwing2_shape.sou
+│   │   │   │   ├── manta_Lwing3_shape.sou
+│   │   │   │   ├── manta_Rhige_shape.sou
+│   │   │   │   ├── manta_Rwing1_shape.sou
+│   │   │   │   ├── manta_Rwing2_shape.sou
+│   │   │   │   ├── manta_Rwing3_shape.sou
+│   │   │   │   └── manta_texture.h
+│   │   │   ├── motos.sou
+│   │   │   ├── motostest.sou
+│   │   │   ├── nokonoko.sou
+│   │   │   ├── peach.sou
+│   │   │   ├── piano.sou
+│   │   │   ├── plane.flk
+│   │   │   ├── plane.sou
+│   │   │   ├── shape_test.sou
+│   │   │   ├── walker.sou
+│   │   │   └── yoshi.sou
+│   │   ├── sankaku.flk
+│   │   ├── sankaku.sou
+│   │   ├── shape_test.sou
+│   │   ├── shapetest/
+│   │   │   ├── cube.flk
+│   │   │   ├── cube.sou
+│   │   │   ├── cube2.flk
+│   │   │   ├── cube2.sou
+│   │   │   ├── cube3.flk
+│   │   │   ├── cube3.sou
+│   │   │   └── shapetest.shape
+│   │   └── walker.shape
+│   ├── gfx_basic_enemy.c
+│   ├── gfx_enemy1_a.c
+│   ├── gfx_enemy1_b.c
+│   ├── gfx_enemy1_c.c
+│   ├── gfx_enemy1_d.c
+│   ├── gfx_enemy1_e.c
+│   ├── gfx_enemy1_f.c
+│   ├── gfx_enemy1_g.c
+│   ├── gfx_enemy1_h.c
+│   ├── gfx_enemy1_i.c
+│   ├── gfx_enemy1_j.c
+│   ├── gfx_enemy1_k.c
+│   ├── gfx_enemy2_a.c
+│   ├── gfx_enemy2_b.c
+│   ├── gfx_enemy2_b.o
+│   ├── gfx_enemy2_c.c
+│   ├── gfx_enemy2_c.o
+│   ├── gfx_enemy2_d.c
+│   ├── gfx_enemy2_e.c
+│   ├── gfx_enemy2_f.c
+│   ├── gfx_enemy2_g.c
+│   ├── gfx_enemy2_h.c
+│   ├── gfx_enemy2_i.c
+│   ├── gfx_enemy2_i.o
+│   ├── gfx_keep.c
+│   ├── gfx_player.c
+│   ├── gfx_weather.c
+│   ├── hms_basic_enemy.c
+│   ├── hms_enemy1_a.c
+│   ├── hms_enemy1_b.c
+│   ├── hms_enemy1_c.c
+│   ├── hms_enemy1_d.c
+│   ├── hms_enemy1_e.c
+│   ├── hms_enemy1_f.c
+│   ├── hms_enemy1_g.c
+│   ├── hms_enemy1_h.c
+│   ├── hms_enemy1_i.c
+│   ├── hms_enemy1_j.c
+│   ├── hms_enemy1_k.c
+│   ├── hms_enemy2_a.c
+│   ├── hms_enemy2_b.c
+│   ├── hms_enemy2_b.o
+│   ├── hms_enemy2_c.c
+│   ├── hms_enemy2_c.o
+│   ├── hms_enemy2_d.c
+│   ├── hms_enemy2_e.c
+│   ├── hms_enemy2_f.c
+│   ├── hms_enemy2_g.c
+│   ├── hms_enemy2_h.c
+│   ├── hms_enemy2_i.c
+│   ├── hms_keep.c
+│   ├── hms_player.c
+│   ├── keep/
+│   │   ├── attack_effect.shape
+│   │   ├── bombfire.shape
+│   │   ├── butterfly.shape
+│   │   ├── coin.shape
+│   │   ├── dokan.shape
+│   │   ├── door.shape
+│   │   ├── doorkey.shape
+│   │   ├── fireD.shape
+│   │   ├── fish.shape
+│   │   ├── gfx_stone.shape
+│   │   ├── grass.shape
+│   │   ├── hitdatas.shape
+│   │   ├── itemhat.shape
+│   │   ├── Meter/
+│   │   │   └── power_meter.h
+│   │   ├── meter.shape
+│   │   ├── numbers.shape
+│   │   ├── OLD/
+│   │   │   ├── animestar.sou
+│   │   │   ├── bird.hms
+│   │   │   ├── bird.sou
+│   │   │   ├── etc/
+│   │   │   │   ├── ball.hms
+│   │   │   │   ├── ball.sou
+│   │   │   │   ├── balloonbody.hms
+│   │   │   │   ├── balloonbody.sou
+│   │   │   │   ├── ballooneye.hms
+│   │   │   │   ├── ballooneye.sou
+│   │   │   │   ├── bane.hms
+│   │   │   │   ├── bane.sou
+│   │   │   │   ├── bird.hms
+│   │   │   │   ├── bird.sou
+│   │   │   │   ├── bird_egg.hms
+│   │   │   │   ├── bird_egg.sou
+│   │   │   │   ├── bom.hms
+│   │   │   │   ├── bom.sou
+│   │   │   │   ├── bombfire.hms
+│   │   │   │   ├── bombfire.sou
+│   │   │   │   ├── butterfly.hms
+│   │   │   │   ├── butterfly.sou
+│   │   │   │   ├── cannon_base.hms
+│   │   │   │   ├── cannon_base.sou
+│   │   │   │   ├── cannon_body.hms
+│   │   │   │   ├── cannon_body.sou
+│   │   │   │   ├── coin.hms
+│   │   │   │   ├── coin.sou
+│   │   │   │   ├── door.hms
+│   │   │   │   ├── door.sou
+│   │   │   │   ├── dosun.flk
+│   │   │   │   ├── dosun.hms
+│   │   │   │   ├── dosun.sou
+│   │   │   │   ├── dotstar.hms
+│   │   │   │   ├── dotstar.sou
+│   │   │   │   ├── endoor.flk
+│   │   │   │   ├── endoor.hms
+│   │   │   │   ├── endoor.sou
+│   │   │   │   ├── fireA.hms
+│   │   │   │   ├── fireA.sou
+│   │   │   │   ├── fireC.hms
+│   │   │   │   ├── fireC.sou
+│   │   │   │   ├── fireD.hms
+│   │   │   │   ├── fireD.sou
+│   │   │   │   ├── fish.hms
+│   │   │   │   ├── fish.sou
+│   │   │   │   ├── gfx_hole.sou
+│   │   │   │   ├── gfx_stone.sou
+│   │   │   │   ├── grass.hms
+│   │   │   │   ├── grass.sou
+│   │   │   │   ├── key.hms
+│   │   │   │   ├── key.sou
+│   │   │   │   ├── killer.hms
+│   │   │   │   ├── killer.sou
+│   │   │   │   ├── meter.sou
+│   │   │   │   ├── monkey.hms
+│   │   │   │   ├── monkey.sou
+│   │   │   │   ├── nokonoko.hms
+│   │   │   │   ├── nokonoko.sou
+│   │   │   │   ├── otos.sou
+│   │   │   │   ├── pakun.sou
+│   │   │   │   ├── ping.hms
+│   │   │   │   ├── ping.sou
+│   │   │   │   ├── polygon_star.hms
+│   │   │   │   ├── polygon_star.sou
+│   │   │   │   ├── puku.hms
+│   │   │   │   ├── puku.sou
+│   │   │   │   ├── rabbit.hms
+│   │   │   │   ├── rabbit.sou
+│   │   │   │   ├── ring.hms
+│   │   │   │   ├── ring.sou
+│   │   │   │   ├── sand_dust.sou
+│   │   │   │   ├── shark.hms
+│   │   │   │   ├── shark.sou
+│   │   │   │   ├── star.hms
+│   │   │   │   ├── star.sou
+│   │   │   │   ├── star_eye_shape.sou
+│   │   │   │   ├── star_shape.sou
+│   │   │   │   ├── teresa.hms
+│   │   │   │   ├── teresa.sou
+│   │   │   │   ├── testlift.flk
+│   │   │   │   ├── testlift.sou
+│   │   │   │   ├── treasurebox.hms
+│   │   │   │   ├── treasurebox.sou
+│   │   │   │   ├── tree.hms
+│   │   │   │   ├── tree.sou
+│   │   │   │   ├── unbaba.hms
+│   │   │   │   ├── unbaba.sou
+│   │   │   │   ├── wallman.flk
+│   │   │   │   ├── wallman.sou
+│   │   │   │   └── yajima_test.sou
+│   │   │   ├── fireC.shp
+│   │   │   └── unused/
+│   │   │       ├── ana.sou
+│   │   │       ├── B_tree.sou
+│   │   │       ├── box.sou
+│   │   │       ├── cannon_base.flk
+│   │   │       ├── cannon_body.flk
+│   │   │       ├── cube.sou
+│   │   │       ├── dokan.sou
+│   │   │       ├── flag.sou
+│   │   │       ├── key.sou
+│   │   │       ├── m_start1.h
+│   │   │       ├── m_start2.h
+│   │   │       ├── ring_texture.h
+│   │   │       ├── sugitree.sou
+│   │   │       ├── t_box1.sou
+│   │   │       ├── t_box2.sou
+│   │   │       ├── t_boxA.flk
+│   │   │       ├── t_boxB.flk
+│   │   │       └── vanime.sou
+│   │   ├── one_up_kinoko.shape
+│   │   ├── polygon_star.shape
+│   │   ├── sand_dust.shape
+│   │   ├── sankaku.shape
+│   │   ├── shadestar.shape
+│   │   ├── snow_ball.shape
+│   │   ├── tatefuda.shape
+│   │   └── tree.shape
+│   ├── mkshape
+│   ├── mkshape_all
+│   ├── Player/
+│   │   ├── Effect/
+│   │   │   ├── bubble.hms
+│   │   │   ├── bubble.sou
+│   │   │   ├── dust.hms
+│   │   │   ├── dust.sou
+│   │   │   ├── gas_b.hms
+│   │   │   ├── gas_b.sou
+│   │   │   ├── rippleA.hms
+│   │   │   ├── rippleA.sou
+│   │   │   ├── rippleB.hms
+│   │   │   ├── rippleB.sou
+│   │   │   ├── spark.hms
+│   │   │   ├── spark.sou
+│   │   │   ├── star_flash.hms
+│   │   │   ├── star_flash.sou
+│   │   │   ├── watercolumn.hms
+│   │   │   ├── watercolumn.sou
+│   │   │   └── waterdrop.sou
+│   │   ├── gfx_effect.sou
+│   │   ├── gfx_mario.sou
+│   │   ├── hms_effect.sou
+│   │   ├── hms_Hat.c
+│   │   ├── hms_mario.c
+│   │   ├── hms_mario.sou
+│   │   ├── hms_mario_mtl.h
+│   │   ├── hms_mario_nor.h
+│   │   ├── hms_mario_xlu.h
+│   │   ├── hms_mario_xml.h
+│   │   ├── hms_Mmario.c
+│   │   ├── hms_Wing.c
+│   │   ├── Luigi/
+│   │   │   ├── luigi.c
+│   │   │   ├── luigi_far_poly.sou
+│   │   │   ├── luigi_mid_body.sou
+│   │   │   ├── luigi_mid_poly.sou
+│   │   │   ├── luigi_near_body.sou
+│   │   │   ├── luigi_near_head.sou
+│   │   │   ├── luigi_near_poly.sou
+│   │   │   └── luigi_swim_hand.sou
+│   │   ├── Mario/
+│   │   │   ├── mario_far_body.sou
+│   │   │   ├── mario_far_head.sou
+│   │   │   ├── mario_far_nohat.sou
+│   │   │   ├── mario_far_poly.sou
+│   │   │   ├── mario_hat.sou
+│   │   │   ├── mario_hat_hand.sou
+│   │   │   ├── mario_mid_body.sou
+│   │   │   ├── mario_mid_poly.sou
+│   │   │   ├── mario_move_wing.sou
+│   │   │   ├── mario_near_body.sou
+│   │   │   ├── mario_near_head.sou
+│   │   │   ├── mario_near_nohat.sou
+│   │   │   ├── mario_near_poly.sou
+│   │   │   ├── mario_swim_hand.sou
+│   │   │   ├── mario_texture.h
+│   │   │   └── mario_vsign_hand.sou
+│   │   ├── Mario_old/
+│   │   │   ├── mario_far_body.sou
+│   │   │   ├── mario_far_head.sou
+│   │   │   ├── mario_far_poly.sou
+│   │   │   ├── mario_mid_body.sou
+│   │   │   ├── mario_mid_poly.sou
+│   │   │   ├── mario_near_body.sou
+│   │   │   ├── mario_near_head.sou
+│   │   │   ├── mario_near_poly.sou
+│   │   │   ├── mario_swim_hand.sou
+│   │   │   ├── mario_texture.h
+│   │   │   └── mario_vsign_hand.sou
+│   │   └── old/
+│   │       ├── gfx_mario.sou
+│   │       └── hms_mario.sou
+│   ├── sos.make
+│   ├── sos.sos
+│   ├── sos.sos1
+│   ├── sos.sos2
+│   └── Weather/
+│       ├── Snow/
+│       │   ├── flowerA.h
+│       │   ├── gush_txt.h
+│       │   └── maguma_txt.h
+│       └── snowdata.sou
+├── slidec.o
+├── slidec.s
+├── slienc
+├── slienc_linux
+├── sm_logo/
+│   ├── converter/
+│   │   ├── n2u2gfx64
+│   │   └── nin2ultra16
+│   └── multigen/
+│       ├── mario/
+│       │   └── ninten/
+│       │       └── display/
+│       │           ├── nintendo_logo/
+│       │           │   ├── Db.stats
+│       │           │   ├── Makefile
+│       │           │   ├── model.c
+│       │           │   ├── model.h
+│       │           │   ├── napp.h
+│       │           │   ├── nintendo_logo.c
+│       │           │   ├── nintendo_logoApp.c
+│       │           │   ├── nintendo_logoMat.c
+│       │           │   ├── nintendo_logoMatrix.c
+│       │           │   ├── nintendo_logoMorphVtx.c
+│       │           │   ├── nintendo_logoVtx.c
+│       │           │   └── spec.defs
+│       │           └── nintendo_logo.nin
+│       └── newmario/
+│           ├── nin/
+│           │   ├── display/
+│           │   │   └── mario64_logo.nin
+│           │   └── objects/
+│           │       ├── 64mario_title.nin
+│           │       ├── mario64_logo.nin
+│           │       ├── mario64_title/
+│           │       │   ├── m64logo.nin
+│           │       │   └── mario64_logo.nin
+│           │       ├── mario64_title.nin
+│           │       └── mario_title.nin
+│           ├── ninten/
+│           │   ├── display/
+│           │   │   └── mario64_logo/
+│           │   │       ├── Db.stats
+│           │   │       ├── Makefile
+│           │   │       ├── Makefile.defs
+│           │   │       ├── mario64_logo.c
+│           │   │       ├── mario64_logoApp.c
+│           │   │       ├── mario64_logoMat.c
+│           │   │       ├── mario64_logoMatrix.c
+│           │   │       ├── mario64_logoMorphVtx.c
+│           │   │       ├── mario64_logoVtx.c
+│           │   │       ├── model.c
+│           │   │       ├── model.h
+│           │   │       ├── moyaTx.c
+│           │   │       ├── napp.h
+│           │   │       └── spec.defs
+│           │   └── objects/
+│           │       └── mario_title/
+│           │           ├── Db.stats
+│           │           ├── Makefile
+│           │           ├── mario64_logo.c
+│           │           ├── mario64_logoApp.c
+│           │           ├── mario64_logoMat.c
+│           │           ├── mario64_logoMatrix.c
+│           │           ├── mario64_logoMorphVtx.c
+│           │           ├── mario64_logoVtx.c
+│           │           ├── mario_title.c
+│           │           ├── mario_titleApp.c
+│           │           ├── mario_titleMat.c
+│           │           ├── mario_titleMatrix.c
+│           │           ├── mario_titleMorphVtx.c
+│           │           ├── mario_titleVtx.c
+│           │           ├── model.c
+│           │           ├── model.h
+│           │           ├── napp.h
+│           │           └── spec.defs
+│           └── title.col
+├── spec
+├── special.o
+├── star
+├── starselect.c
+├── strategy.o
+├── stratlib.o
+├── swimming.o
+├── system.o
+├── time.o
+├── title.c
+├── titlebg.c
+├── tmp_motor.c
+├── tutil.o
+├── ulib.map
+├── ulib.out
+├── waiting.o
+├── water.o
+├── wave.o
+├── weather.o
+├── wenemy.o
+├── wipe2.o
+└── ydebug.o

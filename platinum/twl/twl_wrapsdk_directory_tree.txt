@@ -1,0 +1,896 @@
+twl_wrapsdk/
+├── .git/
+├── build/
+│   ├── buildsetup/
+│   │   ├── ioreg/
+│   │   │   ├── header_generator_ioreg.pl
+│   │   │   ├── io_register_list.csv
+│   │   │   └── Makefile
+│   │   ├── ioreg_sp/
+│   │   │   ├── header_generator_ioreg_sp.pl
+│   │   │   ├── io_register_list.csv
+│   │   │   └── Makefile
+│   │   └── Makefile
+│   ├── buildtools/
+│   │   ├── @privatedefs
+│   │   ├── _privatedefs
+│   │   ├── commondefs
+│   │   ├── commondefs.emtype.ISD
+│   │   ├── modulerules
+│   │   ├── modulerules.add-ins.twl
+│   │   ├── modulerules.add-ins.twldll
+│   │   ├── modulerules.cctype.CW
+│   │   ├── modulerules.cctype.RVCT
+│   │   └── template/
+│   │       ├── Copyright.Header
+│   │       ├── Function.Header
+│   │       ├── Makefile.BuildSrc
+│   │       ├── Makefile.BuildSrc.ARM7
+│   │       └── Makefile.BuildSubdir
+│   ├── libraries/
+│   │   ├── aes/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── aes_control.c
+│   │   │   │   ├── aes_instruction.c
+│   │   │   │   └── Makefile
+│   │   │   ├── ARM9/
+│   │   │   │   ├── aes_api.c
+│   │   │   │   └── Makefile
+│   │   │   ├── common/
+│   │   │   │   └── aes_swap.c
+│   │   │   └── Makefile
+│   │   ├── camera/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── camera_control.c
+│   │   │   │   ├── camera_i2c.c
+│   │   │   │   ├── camera_i2c_micron.c
+│   │   │   │   ├── camera_i2c_sharp.c
+│   │   │   │   ├── convert_micron.pl
+│   │   │   │   ├── convert_sharp.pl
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── MT9V113-MTM10-3.ini
+│   │   │   │   ├── MT9V113-MTM11.ini
+│   │   │   │   ├── MT9V113-REV1.sdat
+│   │   │   │   ├── VGA_15fps_5fps_x8_CC_FilterKIM_MatrixOn3_PLL_QVGA_23Jul07_1676MHz.dat
+│   │   │   │   ├── VGA_15fps_5fps_x8_CC_FilterKIM_MatrixOn3_PLL_QVGA_23Jul07_1676MHz_Improve.dat
+│   │   │   │   └── VGA_15fps_5fps_x8_CC_FilterKIM_MatrixOn3_PLL_VGA_23Jul07_1676MHz_Improve.dat
+│   │   │   ├── ARM9/
+│   │   │   │   ├── camera.c
+│   │   │   │   ├── camera_api.c
+│   │   │   │   └── Makefile
+│   │   │   └── Makefile
+│   │   ├── cdc/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src/
+│   │   │   │       ├── cdc.c
+│   │   │   │       ├── cdc_api.c
+│   │   │   │       ├── cdc_dsmode_access.c
+│   │   │   │       └── cdc_filter_coefficient.c
+│   │   │   └── Makefile
+│   │   ├── cs/
+│   │   │   ├── @
+│   │   │   ├── ARM7/
+│   │   │   │   └── Makefile
+│   │   │   ├── ARM9/
+│   │   │   │   └── Makefile
+│   │   │   ├── common/
+│   │   │   │   ├── csjistab.c
+│   │   │   │   └── sjis2utf.c
+│   │   │   └── Makefile
+│   │   ├── ctrdg/
+│   │   │   ├── ARM9/
+│   │   │   │   ├── ctrdg_proc.c
+│   │   │   │   └── Makefile
+│   │   │   ├── common/
+│   │   │   │   └── ctrdg.c
+│   │   │   └── Makefile
+│   │   ├── devices/
+│   │   │   ├── Makefile
+│   │   │   └── sdmc/
+│   │   │       ├── @
+│   │   │       ├── ARM7/
+│   │   │       │   ├── drnand.c
+│   │   │       │   ├── drsdmc.c
+│   │   │       │   ├── Makefile
+│   │   │       │   ├── sdif.c
+│   │   │       │   ├── sdif_ip.h
+│   │   │       │   ├── sdif_reg.h
+│   │   │       │   ├── sdmc.c
+│   │   │       │   └── sdmc_config.h
+│   │   │       └── Makefile
+│   │   ├── dsp/
+│   │   │   ├── ARM9/
+│   │   │   │   ├── dsp_if.c
+│   │   │   │   └── Makefile
+│   │   │   └── Makefile
+│   │   ├── el/
+│   │   │   ├── ARM7/
+│   │   │   │   └── Makefile
+│   │   │   ├── ARM9/
+│   │   │   │   └── Makefile
+│   │   │   ├── common/
+│   │   │   │   ├── arch.c
+│   │   │   │   ├── arch.h
+│   │   │   │   ├── el_config.h
+│   │   │   │   ├── elf.c
+│   │   │   │   ├── elf.h
+│   │   │   │   ├── elf_loader.c
+│   │   │   │   ├── elf_loader.h
+│   │   │   │   ├── loader_subset.c
+│   │   │   │   ├── loader_subset.h
+│   │   │   │   └── Makefile
+│   │   │   └── Makefile
+│   │   ├── fatfs/
+│   │   │   ├── @
+│   │   │   ├── ARM7/
+│   │   │   │   ├── apickdsk.c
+│   │   │   │   ├── apicnfig.c
+│   │   │   │   ├── apideltr.c
+│   │   │   │   ├── apienum.c
+│   │   │   │   ├── apifastmv.c
+│   │   │   │   ├── apifilio.c
+│   │   │   │   ├── apifilmv.c
+│   │   │   │   ├── apifrmat.c
+│   │   │   │   ├── apigetwd.c
+│   │   │   │   ├── apigfrst.c
+│   │   │   │   ├── apiinfo.c
+│   │   │   │   ├── apiinit.c
+│   │   │   │   ├── apimkdir.c
+│   │   │   │   ├── apirealt.c
+│   │   │   │   ├── apiregrs.c
+│   │   │   │   ├── apisetwd.c
+│   │   │   │   ├── apistat.c
+│   │   │   │   ├── apiwrite.c
+│   │   │   │   ├── appcmdsh.c
+│   │   │   │   ├── appdemo.c
+│   │   │   │   ├── attach.c
+│   │   │   │   ├── csascii.c
+│   │   │   │   ├── csjis.c
+│   │   │   │   ├── csjistab.c
+│   │   │   │   ├── csstrtab.c
+│   │   │   │   ├── csunicod.c
+│   │   │   │   ├── drdefault.c
+│   │   │   │   ├── drdefault.h
+│   │   │   │   ├── drfile.c
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── portconf.h
+│   │   │   │   ├── portio.c
+│   │   │   │   ├── portkern.c
+│   │   │   │   ├── portmain.c
+│   │   │   │   ├── prapipro.c
+│   │   │   │   ├── prblock.c
+│   │   │   │   ├── prfsapi.c
+│   │   │   │   ├── prfscore.c
+│   │   │   │   ├── prfsnvio.c
+│   │   │   │   ├── prfstest.c
+│   │   │   │   ├── readme.txt
+│   │   │   │   ├── revhst40.txt
+│   │   │   │   ├── rtdevio.c
+│   │   │   │   ├── rtdrobj.c
+│   │   │   │   ├── rtfat16.c
+│   │   │   │   ├── rtfat32.c
+│   │   │   │   ├── rtfatxx.c
+│   │   │   │   ├── rtkernfn.c
+│   │   │   │   ├── rtlowl.c
+│   │   │   │   ├── rtnvfat.c
+│   │   │   │   ├── rttermin.c
+│   │   │   │   ├── rtutbyte.c
+│   │   │   │   ├── rtutil.c
+│   │   │   │   ├── rtvfat.c
+│   │   │   │   ├── winhdisk.c
+│   │   │   │   ├── winmkrom.c
+│   │   │   │   └── winsplsh.c
+│   │   │   └── Makefile
+│   │   ├── i2c/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src/
+│   │   │   │       └── i2c_instruction.c
+│   │   │   └── Makefile
+│   │   ├── init/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── crt0.c
+│   │   │   │   └── Makefile
+│   │   │   ├── ARM9/
+│   │   │   │   ├── crt0.c
+│   │   │   │   └── Makefile
+│   │   │   └── Makefile
+│   │   ├── Makefile
+│   │   ├── mi/
+│   │   │   ├── ARM7/
+│   │   │   │   └── Makefile
+│   │   │   ├── ARM9/
+│   │   │   │   └── Makefile
+│   │   │   ├── common/
+│   │   │   │   ├── mi_dma_patch.c
+│   │   │   │   ├── mi_exDma.c
+│   │   │   │   └── mi_init.c
+│   │   │   └── Makefile
+│   │   ├── mic/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src/
+│   │   │   │       ├── twl_mic_api.c
+│   │   │   │       └── twl_mic_server.c
+│   │   │   ├── ARM9/
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src/
+│   │   │   │       └── twl_mic_api.c
+│   │   │   └── Makefile
+│   │   ├── os/
+│   │   │   ├── ARM7/
+│   │   │   │   └── Makefile
+│   │   │   ├── ARM9/
+│   │   │   │   ├── Makefile
+│   │   │   │   └── os_cache_tag.c
+│   │   │   ├── common/
+│   │   │   │   ├── os_arena.c
+│   │   │   │   ├── os_emulator.c
+│   │   │   │   ├── os_exception.c
+│   │   │   │   ├── os_init.c
+│   │   │   │   ├── os_interrupt.c
+│   │   │   │   ├── os_irqHandler.c
+│   │   │   │   ├── os_irqTable.c
+│   │   │   │   ├── os_printf.c
+│   │   │   │   ├── os_spinLock.c
+│   │   │   │   └── os_system.c
+│   │   │   └── Makefile
+│   │   ├── pxi/
+│   │   │   ├── ARM7/
+│   │   │   │   └── Makefile
+│   │   │   ├── ARM9/
+│   │   │   │   └── Makefile
+│   │   │   ├── common/
+│   │   │   │   └── pxi_intf.c
+│   │   │   └── Makefile
+│   │   ├── sample_dll/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src/
+│   │   │   │       ├── miya.c
+│   │   │   │       ├── miya_object.h
+│   │   │   │       ├── shirait.c
+│   │   │   │       └── shirait_object.h
+│   │   │   └── Makefile
+│   │   ├── snd/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src/
+│   │   │   │       ├── snd_global.c
+│   │   │   │       └── snd_i2s.c
+│   │   │   └── Makefile
+│   │   ├── spi/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── include/
+│   │   │   │   │   ├── nvram_sp.h
+│   │   │   │   │   ├── tp_reg.h
+│   │   │   │   │   └── tp_sp.h
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── mic/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── nvram/
+│   │   │   │   │   └── Makefile
+│   │   │   │   ├── pm/
+│   │   │   │   │   ├── include/
+│   │   │   │   │   │   ├── pm_ds.h
+│   │   │   │   │   │   └── pm_pmic_ex.h
+│   │   │   │   │   ├── Makefile
+│   │   │   │   │   ├── pm_ds.c
+│   │   │   │   │   └── pm_pmic_ex.c
+│   │   │   │   └── tp/
+│   │   │   │       ├── Makefile
+│   │   │   │       └── src/
+│   │   │   │           ├── tp_sp.c
+│   │   │   │           └── twl_tp_sampling.c
+│   │   │   ├── ARM9/
+│   │   │   │   ├── Makefile
+│   │   │   │   └── src/
+│   │   │   │       └── tp.c
+│   │   │   └── Makefile
+│   │   └── vlink/
+│   │       ├── @
+│   │       ├── ARM7/
+│   │       │   └── Makefile
+│   │       ├── ARM9/
+│   │       │   └── Makefile
+│   │       ├── common/
+│   │       │   └── osemu.c
+│   │       └── Makefile
+│   ├── Makefile
+│   └── tests/
+│       ├── aes/
+│       │   ├── aes-1/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── aes-2/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── aes-3/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   └── Makefile
+│       ├── camera/
+│       │   ├── camera-1/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── camera-2/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── camera-3/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── camera-4/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   └── Makefile
+│       ├── dsp/
+│       │   ├── dsp-jtag/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   └── Makefile
+│       ├── el/
+│       │   ├── el-1/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── main.lsf
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       ├── dlltest.h
+│       │   │   │       ├── kernel_cfg.c
+│       │   │   │       ├── sample1.c
+│       │   │   │       ├── sample1.h
+│       │   │   │       └── staticsymlist.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   └── Makefile
+│       ├── fatfs/
+│       │   ├── fatfs_sd/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── main.lsf
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── Makefile
+│       │   │   └── readme.txt
+│       │   ├── Makefile
+│       │   ├── nand_formatter/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── main.lsf
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   └── nand_formatter_kmc/
+│       │       ├── ARM7/
+│       │       │   ├── main.lsf
+│       │       │   ├── Makefile
+│       │       │   └── src/
+│       │       │       └── main.c
+│       │       ├── ARM9/
+│       │       │   ├── Makefile
+│       │       │   └── src/
+│       │       │       └── main.c
+│       │       └── Makefile
+│       ├── Makefile
+│       ├── mcu/
+│       │   ├── Makefile
+│       │   └── mcu-1/
+│       │       ├── ARM7/
+│       │       │   ├── Makefile
+│       │       │   └── src/
+│       │       │       └── main.c
+│       │       ├── ARM9/
+│       │       │   ├── Makefile
+│       │       │   └── src/
+│       │       │       └── main.c
+│       │       └── Makefile
+│       ├── mi/
+│       │   ├── dmaMix-1/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── exDma-1/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   └── Makefile
+│       ├── os/
+│       │   ├── alarm-1/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── debugLED/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── Makefile
+│       │   ├── sleep-1/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── speed-1/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── svc-rsa/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   └── svc-sha1/
+│       │       ├── ARM7/
+│       │       │   ├── Makefile
+│       │       │   └── src/
+│       │       │       └── main.c
+│       │       ├── ARM9/
+│       │       │   ├── Makefile
+│       │       │   └── src/
+│       │       │       └── main.c
+│       │       └── Makefile
+│       ├── snd/
+│       │   ├── capture/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── include/
+│       │   │   │   │   └── fanfare.32.h
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       ├── fanfare.32.c
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   ├── channel/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── include/
+│       │   │   │   │   ├── organ_det.g3.pcm16.h
+│       │   │   │   │   └── wihaho.pcm16.h
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       ├── main.c
+│       │   │   │       ├── organ_det.g3.pcm16.c
+│       │   │   │       └── wihaho.pcm16.c
+│       │   │   └── Makefile
+│       │   ├── Makefile
+│       │   ├── mic-1/
+│       │   │   ├── ARM7/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   ├── ARM9/
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       └── main.c
+│       │   │   └── Makefile
+│       │   └── mic-2/
+│       │       ├── ARM7/
+│       │       │   ├── Makefile
+│       │       │   └── src/
+│       │       │       └── main.c
+│       │       ├── ARM9/
+│       │       │   ├── Makefile
+│       │       │   └── src/
+│       │       │       └── main.c
+│       │       └── Makefile
+│       └── spi/
+│           ├── Makefile
+│           ├── tp-auto-sampling/
+│           │   ├── ARM7/
+│           │   │   ├── Makefile
+│           │   │   └── src/
+│           │   │       └── main.c
+│           │   ├── ARM9/
+│           │   │   ├── Makefile
+│           │   │   └── src/
+│           │   │       └── main.c
+│           │   └── Makefile
+│           ├── tp-auto-sampling-twl-mode/
+│           │   ├── ARM7/
+│           │   │   ├── Makefile
+│           │   │   └── src/
+│           │   │       └── main.c
+│           │   ├── ARM9/
+│           │   │   ├── Makefile
+│           │   │   └── src/
+│           │   │       └── main.c
+│           │   └── Makefile
+│           ├── tp-sampling/
+│           │   ├── ARM7/
+│           │   │   ├── Makefile
+│           │   │   └── src/
+│           │   │       └── main.c
+│           │   ├── ARM9/
+│           │   │   ├── Makefile
+│           │   │   └── src/
+│           │   │       └── main.c
+│           │   └── Makefile
+│           └── tp-sampling-twl-mode/
+│               ├── ARM7/
+│               │   ├── Makefile
+│               │   └── src/
+│               │       └── main.c
+│               ├── ARM9/
+│               │   ├── Makefile
+│               │   └── src/
+│               │       └── main.c
+│               └── Makefile
+├── builder/
+│   ├── _
+│   ├── etc/
+│   │   ├── address/
+│   │   │   ├── nightlybuild.adr
+│   │   │   └── quickbuild.adr
+│   │   ├── build.sh
+│   │   ├── spec.sh
+│   │   └── svnupdate.sh
+│   ├── nightlybuild.bat
+│   ├── projects/
+│   │   ├── nightlybuild.sh
+│   │   ├── quickbuild.sh
+│   │   ├── twl_wrapsdk-sequence.sh
+│   │   └── twl_wrapsdk.sh
+│   ├── quickbuild.bat
+│   ├── sendreport/
+│   │   ├── blatj.exe
+│   │   ├── makeheader.sh
+│   │   ├── makenow.sh
+│   │   ├── sendreport-logfilter.awk
+│   │   ├── sendreport.blatj.sh
+│   │   ├── sendreport.sh
+│   │   ├── smail.exe
+│   │   ├── smail.ini
+│   │   └── tconvlib.dll
+│   └── start.bat
+├── include/
+│   ├── nitro/
+│   │   ├── code16.h
+│   │   ├── code32.h
+│   │   ├── dtcm_begin.h
+│   │   ├── dtcm_end.h
+│   │   ├── hw/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── mmap_global.h
+│   │   │   │   └── mmap_wram.h
+│   │   │   ├── ARM9/
+│   │   │   │   └── mmap_global.h
+│   │   │   └── common/
+│   │   │       ├── armArch.h
+│   │   │       └── mmap_shared.h
+│   │   ├── init/
+│   │   │   └── crt0.h
+│   │   ├── itcm_begin.h
+│   │   ├── itcm_end.h
+│   │   ├── mi/
+│   │   │   └── exMemory.h
+│   │   ├── os/
+│   │   │   └── common/
+│   │   │       ├── interrupt.h
+│   │   │       ├── spinLock.h
+│   │   │       ├── system.h
+│   │   │       └── systemWork.h
+│   │   ├── pxi/
+│   │   │   └── common/
+│   │   │       ├── fifo.h
+│   │   │       └── regname.h
+│   │   └── spi/
+│   │       └── ARM7/
+│   │           └── spi.h
+│   ├── twl/
+│   │   ├── aes/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── control.h
+│   │   │   │   ├── instruction.h
+│   │   │   │   └── transfer.h
+│   │   │   ├── ARM9/
+│   │   │   │   └── aes.h
+│   │   │   └── common/
+│   │   │       ├── assert.h
+│   │   │       ├── fifo.h
+│   │   │       └── swap.h
+│   │   ├── aes.h
+│   │   ├── camera/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── control.h
+│   │   │   │   ├── i2c.h
+│   │   │   │   ├── i2c_micron.h
+│   │   │   │   └── i2c_sharp.h
+│   │   │   ├── ARM9/
+│   │   │   │   ├── camera.h
+│   │   │   │   ├── camera_api.h
+│   │   │   │   └── transfer.h
+│   │   │   └── common/
+│   │   │       ├── fifo.h
+│   │   │       └── types.h
+│   │   ├── camera.h
+│   │   ├── cdc/
+│   │   │   └── ARM7/
+│   │   │       ├── cdc.h
+│   │   │       ├── cdc_api.h
+│   │   │       ├── cdc_dsmode_access.h
+│   │   │       ├── cdc_filter_coefficient.h
+│   │   │       └── cdc_reg.h
+│   │   ├── cdc.h
+│   │   ├── cs/
+│   │   │   └── cs.h
+│   │   ├── devices/
+│   │   │   └── sdmc/
+│   │   │       └── ARM7/
+│   │   │           ├── sdmc.h
+│   │   │           └── sdmc_types.h
+│   │   ├── dsp/
+│   │   │   └── ARM9/
+│   │   │       └── dsp_if.h
+│   │   ├── dsp.h
+│   │   ├── el/
+│   │   │   ├── elf.h
+│   │   │   └── elf_loader.h
+│   │   ├── fatfs/
+│   │   │   └── ARM7/
+│   │   │       ├── attach.h
+│   │   │       ├── csstrtab.h
+│   │   │       ├── drfile.h
+│   │   │       ├── portconf.h
+│   │   │       ├── prfs.h
+│   │   │       ├── rtfs.h
+│   │   │       ├── rtfs_naming_convention.h
+│   │   │       ├── rtfs_target_os.h
+│   │   │       ├── rtfsapi.h
+│   │   │       ├── rtfsconf.h
+│   │   │       └── rtfspro.h
+│   │   ├── i2c/
+│   │   │   └── ARM7/
+│   │   │       └── i2c.h
+│   │   ├── ioreg.h
+│   │   ├── mcu/
+│   │   │   └── ARM7/
+│   │   │       ├── control.h
+│   │   │       ├── i2c.h
+│   │   │       ├── intr.h
+│   │   │       ├── mcu.h
+│   │   │       └── mcu_reg.h
+│   │   ├── mcu.h
+│   │   ├── memorymap.h
+│   │   ├── memorymap_sp.h
+│   │   ├── mi/
+│   │   │   ├── dma_patch.h
+│   │   │   ├── exDma.h
+│   │   │   └── wram_abc.h
+│   │   ├── mi.h
+│   │   ├── mic/
+│   │   │   ├── ARM7/
+│   │   │   │   ├── twl_mic_api.h
+│   │   │   │   └── twl_mic_server.h
+│   │   │   ├── ARM9/
+│   │   │   │   └── twl_mic_api.h
+│   │   │   └── common/
+│   │   │       └── fifo.h
+│   │   ├── mic.h
+│   │   ├── misc.h
+│   │   ├── os/
+│   │   │   ├── ARM7/
+│   │   │   │   └── debugLED.h
+│   │   │   ├── ARM9/
+│   │   │   │   └── cache_tag.h
+│   │   │   └── common/
+│   │   │       ├── emulator.h
+│   │   │       ├── system.h
+│   │   │       └── systemCall.h
+│   │   ├── os.h
+│   │   ├── pm/
+│   │   │   └── common/
+│   │   │       └── pm_reg_ex.h
+│   │   ├── pm.h
+│   │   ├── pxi/
+│   │   │   └── common/
+│   │   │       └── intf.h
+│   │   ├── pxi.h
+│   │   ├── rtfs.h
+│   │   ├── sdmc.h
+│   │   ├── snd/
+│   │   │   └── ARM7/
+│   │   │       └── i2s.h
+│   │   ├── specfiles/
+│   │   │   ├── ARM7-BB.lcf.template
+│   │   │   ├── ARM7-BB.lsf
+│   │   │   ├── ARM7-DSTEG.lcf.template
+│   │   │   ├── ARM7-DSTEG.lsf
+│   │   │   ├── ARM7-TS.lcf.template
+│   │   │   ├── ARM7-TS.lsf
+│   │   │   ├── ARM9-BB.lcf.template
+│   │   │   ├── ARM9-BB.lsf
+│   │   │   ├── ARM9-DSTEG.lcf.template
+│   │   │   ├── ARM9-DSTEG.lsf
+│   │   │   ├── ARM9-TS.lcf.template
+│   │   │   └── ARM9-TS.lsf
+│   │   ├── types.h
+│   │   └── vlink.h
+│   ├── twl.h
+│   └── twl_sp.h
+├── lib/
+│   ├── ARM7-BB/
+│   │   └── etc/
+│   │       └── libsyscall_sp.twl.a
+│   ├── ARM7-TS/
+│   │   └── etc/
+│   │       └── libsyscall_sp.twl.a
+│   ├── ARM9-BB/
+│   │   └── etc/
+│   │       └── libsyscall.twl.a
+│   └── ARM9-TS/
+│       └── etc/
+│           └── libsyscall.twl.a
+├── Makefile
+├── readme-AES.txt
+├── readme.txt
+├── release/
+│   ├── _
+│   └── Makefile_twl.5x
+├── setup
+└── tools/
+    ├── axd/
+    │   ├── ARM7.ses
+    │   ├── ARM9.ses
+    │   ├── multi-ice-twl.cfg
+    │   └── readme.txt
+    ├── bin/
+    │   └── rom_header.template.sbin
+    ├── makelst/
+    │   ├── arch.c
+    │   ├── arch.h
+    │   ├── elf.c
+    │   ├── elf.h
+    │   ├── elf_loader.c
+    │   ├── elf_loader.h
+    │   ├── loader_subset.c
+    │   ├── loader_subset.h
+    │   ├── Makefile
+    │   ├── makelst.c
+    │   ├── makelst.exe
+    │   ├── readme.txt
+    │   ├── searcharg.c
+    │   ├── searcharg.h
+    │   ├── types.h
+    │   └── version.h
+    ├── partner_mlt/
+    │   ├── core0/
+    │   │   ├── JETCTR.CFG
+    │   │   └── JETCTR.JPX
+    │   ├── core1/
+    │   │   ├── JETCTR.CFG
+    │   │   └── JETCTR.JPX
+    │   └── readme.txt
+    ├── prom/
+    │   ├── brom_bb_dev_070508.exo
+    │   ├── brom_dsteg_dev_070508.exo
+    │   ├── readme.txt
+    │   └── sharp-twl-prom_070419.exo
+    └── stripdebug/
+        ├── arch.c
+        ├── arch.h
+        ├── elf.c
+        ├── elf.h
+        ├── elf_loader.c
+        ├── elf_loader.h
+        ├── loader_subset.c
+        ├── loader_subset.h
+        ├── Makefile
+        ├── readme.txt
+        ├── searcharg.c
+        ├── searcharg.h
+        ├── stripdebug.c
+        ├── stripdebug.exe
+        ├── types.h
+        └── version.h

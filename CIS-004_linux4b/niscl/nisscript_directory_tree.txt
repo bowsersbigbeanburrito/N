@@ -1,0 +1,155 @@
+Made with tikatree 0.0.10
+nisscript/
+├── DDSCRIPT/
+│   ├── clear_bank.sh
+│   ├── clear_bankinfo.sh
+│   ├── const_rvth.sh
+│   ├── conv_bankinfo.sh
+│   ├── delete_bankinfo.sh
+│   ├── delete_rvm.sh
+│   ├── diskimage/
+│   │   └── ContentsUpdate.tpm
+│   ├── dump_bankinfo.sh
+│   ├── get_bankerrno.sh
+│   ├── get_bankinfo.sh
+│   ├── get_banklist.sh
+│   ├── get_banksector.sh
+│   ├── get_menusector.sh
+│   ├── get_newbankno.sh
+│   ├── hash_bank.sh
+│   ├── hash_bankinfo.sh
+│   ├── init_cucp.sh
+│   ├── init_menu.sh
+│   ├── init_rvthindex.sh
+│   ├── init_testrom.sh
+│   ├── make_bankinfo.sh
+│   ├── read_bank.sh
+│   ├── read_bankinfo.sh
+│   ├── set_BankErrNum.sh
+│   ├── set_BankErrNumAll.sh
+│   ├── set_bankinfo.sh
+│   ├── set_banklist.sh
+│   ├── tmp.bin
+│   ├── tmp_header/
+│   │   ├── bankinfo-2.csv
+│   │   ├── bankinfo-3.csv
+│   │   ├── bankinfo-4.csv
+│   │   ├── bankinfo-6.csv
+│   │   ├── header-0.bin
+│   │   ├── header-1.bin
+│   │   ├── header-1.Id_19111523.bin
+│   │   └── last_bankno.csv
+│   ├── update_rvm.sh
+│   ├── update_rvm_menu.sh
+│   ├── view_bankinfo.pl
+│   ├── view_banklist.sh
+│   ├── write_bank.sh
+│   ├── write_image.sh
+│   ├── write_index.sh
+│   ├── write_test.sh
+│   └── write_test_.sh
+├── MAINSCRIPT/
+│   ├── clearat.sh
+│   ├── initStatus.sh
+│   ├── initupdateCheck.sh
+│   ├── interfaces_rb
+│   ├── keyword
+│   ├── makeRamDisk.sh
+│   ├── nisInit.sh
+│   ├── reboot.sh
+│   ├── sendNisLog.sh
+│   ├── setNisLog.sh
+│   ├── setUpdate.sh
+│   ├── shutdown.sh
+│   ├── updateCheck.sh
+│   └── watchDog.sh
+├── MOVIE/
+│   ├── changePlayList.sh
+│   ├── makePlayList.sh
+│   ├── mc_download.sh
+│   ├── mcDelete.sh
+│   └── movie_update.sh
+├── ruby/
+│   ├── ageing2.rb
+│   ├── cisdownload.rb
+│   ├── entrypoint2.rb
+│   ├── inetspeedcheck.rb
+│   ├── inetspeedcheck_factory.rb
+│   ├── moviehashcheck.rb
+│   ├── nischeck.rb
+│   ├── pemdownload.rb
+│   ├── rollback_moviestatus.rb
+│   ├── setting2.rb
+│   ├── ship2.rb
+│   ├── test.rb
+│   └── ui.rb
+├── shlib/
+│   └── ContentsLib.sh
+├── SYSTEM/
+│   ├── firmwareUpdate.sh
+│   ├── getHddcondition.sh
+│   ├── getMBTemp.sh
+│   ├── getTemp.sh
+│   ├── getVersion.sh
+│   ├── hosts
+│   └── hosts.sh
+└── trial/
+    ├── ckDmesgHdderr.sh
+    ├── ckErrRmcCtl.sh
+    ├── ckFilelist.sh
+    ├── ckHddFreeSpace.sh
+    ├── ckRCList.sh
+    ├── ckRomVer.sh
+    ├── ckTCUfile.sh
+    ├── const_trial.rb
+    ├── convCU.rb
+    ├── convPBList.rb
+    ├── convRCList.rb
+    ├── data/
+    │   ├── lasttrialcode.csv
+    │   ├── rvtherrcode.csv
+    │   ├── rvthrisserial.csv
+    │   ├── trialstatus.csv
+    │   └── updatemode.csv
+    ├── doAdjustXML.sh
+    ├── doCheckErrorImage.sh
+    ├── doCpNewTCU.sh
+    ├── doDownload.sh
+    ├── doRecovery.sh
+    ├── doRVTHPowerOff.sh
+    ├── doRVTHPowerOn.sh
+    ├── doSetLink.sh
+    ├── doSetRmc.sh
+    ├── doUpdate.sh
+    ├── doUpdate_new.sh
+    ├── doWriteImage.sh
+    ├── doWriteMenu.sh
+    ├── errmsg.csv
+    ├── errmsg.rb
+    ├── getFilelistInfo.sh
+    ├── makeDlList.sh
+    ├── makePBList.rb
+    ├── makeRCList.rb
+    ├── makeTCFiles.sh
+    ├── makeTFList.sh
+    ├── makeTFListAll.sh
+    ├── makeTFListNew.sh
+    ├── makeTrialDelList.sh
+    ├── makeTrialListToday.sh
+    ├── RVTH.csv
+    ├── setBankListLog.sh
+    ├── setCompFlag.sh
+    ├── setErrBankLog.sh
+    ├── setRisLog.pl
+    ├── tc_download.sh
+    ├── testcheck.sh
+    ├── testscript.rb
+    ├── testscript.sh
+    ├── trial_entry.sh
+    ├── trial_filelist.sh
+    ├── trial_initupdate.sh
+    ├── trial_log.sh
+    ├── trial_setfile.sh
+    ├── trial_update.sh
+    ├── trial_version.sh
+    └── watchCat.sh

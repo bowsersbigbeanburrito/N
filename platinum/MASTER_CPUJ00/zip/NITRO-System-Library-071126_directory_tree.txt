@@ -1,0 +1,2445 @@
+NITRO-System-Library-071126/
+└── NitroSystem/
+    ├── build/
+    │   ├── buildtools/
+    │   │   ├── commondefs
+    │   │   ├── commondefs.cctype.CW
+    │   │   ├── commondefs.VC
+    │   │   ├── modulerules
+    │   │   ├── modulerules.VC
+    │   │   └── nnslibdefs
+    │   ├── demos/
+    │   │   ├── fnd/
+    │   │   │   ├── archive/
+    │   │   │   │   ├── data/
+    │   │   │   │   │   └── picture.narc
+    │   │   │   │   ├── include/
+    │   │   │   │   │   ├── nns_util.h
+    │   │   │   │   │   ├── picture.naix
+    │   │   │   │   │   └── sdk_init.h
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       ├── main.c
+    │   │   │   │       ├── nns_util.c
+    │   │   │   │       └── sdk_init.c
+    │   │   │   ├── archive2/
+    │   │   │   │   ├── data/
+    │   │   │   │   │   └── picture_LZ.bin
+    │   │   │   │   ├── include/
+    │   │   │   │   │   ├── nns_util.h
+    │   │   │   │   │   ├── picture.naix
+    │   │   │   │   │   └── sdk_init.h
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       ├── main.c
+    │   │   │   │       ├── nns_util.c
+    │   │   │   │       └── sdk_init.c
+    │   │   │   ├── heap/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       └── main.c
+    │   │   │   └── Makefile
+    │   │   ├── g2d/
+    │   │   │   ├── bg/
+    │   │   │   │   ├── BgEx/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── Character/
+    │   │   │   │   │   │       │   ├── BG_cmp.ncg
+    │   │   │   │   │   │       │   ├── BG_cmp_part.ncg
+    │   │   │   │   │   │       │   ├── BG_normal.ncg
+    │   │   │   │   │   │       │   └── BG_part.ncg
+    │   │   │   │   │   │       ├── ColorPalette/
+    │   │   │   │   │   │       │   ├── BG_cmp.ncl
+    │   │   │   │   │   │       │   ├── BG_cmp_part.ncl
+    │   │   │   │   │   │       │   ├── BG_normal.ncl
+    │   │   │   │   │   │       │   └── BG_part.ncl
+    │   │   │   │   │   │       └── Screen/
+    │   │   │   │   │   │           ├── BG_cmp.nsc
+    │   │   │   │   │   │           ├── BG_cmp_part.nsc
+    │   │   │   │   │   │           ├── BG_normal.nsc
+    │   │   │   │   │   │           └── BG_part.nsc
+    │   │   │   │   │   ├── include/
+    │   │   │   │   │   │   └── loader.h
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       ├── loader.c
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── Makefile
+    │   │   │   │   ├── MinimumBg/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── Character/
+    │   │   │   │   │   │       │   ├── BG1.ncg
+    │   │   │   │   │   │       │   └── BG2.ncg
+    │   │   │   │   │   │       ├── ColorPalette/
+    │   │   │   │   │   │       │   ├── BG1.ncl
+    │   │   │   │   │   │       │   └── BG2.ncl
+    │   │   │   │   │   │       └── Screen/
+    │   │   │   │   │   │           ├── BG1.nsc
+    │   │   │   │   │   │           └── BG2.nsc
+    │   │   │   │   │   ├── include/
+    │   │   │   │   │   │   └── loader.h
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       ├── loader.c
+    │   │   │   │   │       └── main.c
+    │   │   │   │   └── ShareBg/
+    │   │   │   │       ├── data/
+    │   │   │   │       │   └── src/
+    │   │   │   │       │       ├── Character/
+    │   │   │   │       │       │   └── BG.ncg
+    │   │   │   │       │       ├── ColorPalette/
+    │   │   │   │       │       │   └── BG.ncl
+    │   │   │   │       │       └── Screen/
+    │   │   │   │       │           ├── BG.nsc
+    │   │   │   │       │           └── BG2.nsc
+    │   │   │   │       ├── include/
+    │   │   │   │       │   └── loader.h
+    │   │   │   │       ├── Makefile
+    │   │   │   │       └── src/
+    │   │   │   │           ├── loader.c
+    │   │   │   │           └── main.c
+    │   │   │   ├── demolib/
+    │   │   │   │   ├── include/
+    │   │   │   │   │   ├── g2d_demolib/
+    │   │   │   │   │   │   ├── fontData.h
+    │   │   │   │   │   │   ├── loader.h
+    │   │   │   │   │   │   ├── print.h
+    │   │   │   │   │   │   └── system.h
+    │   │   │   │   │   └── g2d_demolib.h
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       ├── fontData.c
+    │   │   │   │       ├── loader.c
+    │   │   │   │       ├── print.c
+    │   │   │   │       └── system.c
+    │   │   │   ├── Makefile
+    │   │   │   ├── samples/
+    │   │   │   │   ├── Cell_Simple/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── Cell_Simple.nce
+    │   │   │   │   │   │       ├── Cell_Simple.ncg
+    │   │   │   │   │   │       └── Cell_Simple.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── CellAnimation/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── CellAnimation.nce
+    │   │   │   │   │   │       ├── CellAnimation.ncg
+    │   │   │   │   │   │       └── CellAnimation.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── Entity/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── Entity.nce
+    │   │   │   │   │   │       ├── Entity.ncg
+    │   │   │   │   │   │       ├── Entity.ncl
+    │   │   │   │   │   │       └── Entity.txt
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── Makefile
+    │   │   │   │   ├── MultiCell_UILayout/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── win_pnl.nce
+    │   │   │   │   │   │       ├── win_pnl.ncg
+    │   │   │   │   │   │       ├── win_pnl.ncl
+    │   │   │   │   │   │       └── win_pnl.nmc
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── MultiCellAnimation/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── MultiCellAnimation.nce
+    │   │   │   │   │   │       ├── MultiCellAnimation.ncg
+    │   │   │   │   │   │       ├── MultiCellAnimation.ncl
+    │   │   │   │   │   │       └── MultiCellAnimation.nmc
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── OamManagerEx/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── OamManagerEx.ncg
+    │   │   │   │   │   │       └── OamManagerEx.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── OamManagerEx2/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── bomb.nce
+    │   │   │   │   │   │       ├── bomb.ncg
+    │   │   │   │   │   │       └── bomb.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── OamManagerEx3/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   ├── Renderer_2LCD.NANR
+    │   │   │   │   │   │   ├── Renderer_2LCD.NCBR
+    │   │   │   │   │   │   ├── Renderer_2LCD.NCER
+    │   │   │   │   │   │   ├── Renderer_2LCD.NCGR
+    │   │   │   │   │   │   ├── Renderer_2LCD.NCLR
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── OamManagerEx.ncg
+    │   │   │   │   │   │       ├── OamManagerEx.ncl
+    │   │   │   │   │   │       ├── Renderer_2LCD.nce
+    │   │   │   │   │   │       ├── Renderer_2LCD.ncg
+    │   │   │   │   │   │       └── Renderer_2LCD.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── OamSoftwareSpriteDraw/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── OamSoftwareSpriteDraw.nce
+    │   │   │   │   │   │       ├── OamSoftwareSpriteDraw.ncg
+    │   │   │   │   │   │       └── OamSoftwareSpriteDraw.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── Renderer_2LCD/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── Renderer_2LCD.nce
+    │   │   │   │   │   │       ├── Renderer_2LCD.ncg
+    │   │   │   │   │   │       └── Renderer_2LCD.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── Renderer_Callback1/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── Rdr_CallBack1.nce
+    │   │   │   │   │   │       ├── Rdr_CallBack1_BG.ncg
+    │   │   │   │   │   │       ├── Rdr_CallBack1_BG.ncl
+    │   │   │   │   │   │       ├── Rdr_CallBack1_BG0.nsc
+    │   │   │   │   │   │       ├── Rdr_CallBack1_BG1.nsc
+    │   │   │   │   │   │       ├── Rdr_CallBack1_OBJ.ncg
+    │   │   │   │   │   │       └── Rdr_CallBack1_OBJ.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── Renderer_Callback2/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── Rdr_CallBack2.nce
+    │   │   │   │   │   │       ├── Rdr_CallBack2.ncg
+    │   │   │   │   │   │       └── Rdr_CallBack2.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── Renderer_CharChange/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── PartialCharCvt.nce
+    │   │   │   │   │   │       ├── PartialCharCvt.ncl
+    │   │   │   │   │   │       ├── PartialCharCvt0.ncg
+    │   │   │   │   │   │       └── PartialCharCvt1.ncg
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── Renderer_PerfCheck/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── MultiCellAnimation.nce
+    │   │   │   │   │   │       ├── MultiCellAnimation.ncg
+    │   │   │   │   │   │       ├── MultiCellAnimation.ncl
+    │   │   │   │   │   │       └── MultiCellAnimation.nmc
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── Renderer_Simple/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── Render_Simple.nce
+    │   │   │   │   │   │       ├── Render_Simple.ncg
+    │   │   │   │   │   │       └── Render_Simple.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── RendererCore/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── RendererCore.nce
+    │   │   │   │   │   │       ├── RendererCore.ncg
+    │   │   │   │   │   │       └── RendererCore.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── RendererCore2/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── RendererCore.nce
+    │   │   │   │   │   │       ├── RendererCore.ncg
+    │   │   │   │   │   │       └── RendererCore.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── SoftwareSprite/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── SoftwareSprite.ncg
+    │   │   │   │   │   │       └── SoftwareSprite.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── SoftwareSprite2/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── SoftwareSprite2.ncg
+    │   │   │   │   │   │       └── SoftwareSprite2.ncl
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   ├── UserExAttribute/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── MultiCellAnimation.nce
+    │   │   │   │   │   │       ├── MultiCellAnimation.ncg
+    │   │   │   │   │   │       ├── MultiCellAnimation.ncl
+    │   │   │   │   │   │       └── MultiCellAnimation.nmc
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       └── main.c
+    │   │   │   │   └── VRamAnimation/
+    │   │   │   │       ├── data/
+    │   │   │   │       │   └── src/
+    │   │   │   │       │       ├── VRamAnimation.nce
+    │   │   │   │       │       ├── VRamAnimation.ncg
+    │   │   │   │       │       └── VRamAnimation.ncl
+    │   │   │   │       ├── Makefile
+    │   │   │   │       └── src/
+    │   │   │   │           └── main.c
+    │   │   │   └── Text/
+    │   │   │       ├── BGAffine/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── BGText/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── CanvasCell/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── CP1252Text/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── data/
+    │   │   │       │   ├── BG.NCGR
+    │   │   │       │   ├── BG.NCLR
+    │   │   │       │   ├── BG.NSCR
+    │   │   │       │   ├── font1252.NFTR
+    │   │   │       │   ├── fontd.NFTR
+    │   │   │       │   ├── fonts.NFTR
+    │   │   │       │   ├── fontu16.NFTR
+    │   │   │       │   ├── fontu8.NFTR
+    │   │   │       │   ├── fontu8_180.NFTR
+    │   │   │       │   ├── fontu8_270.NFTR
+    │   │   │       │   ├── fontu8_90.NFTR
+    │   │   │       │   └── src/
+    │   │   │       │       ├── demo_cp1252.xllt
+    │   │   │       │       ├── demofont.xlor
+    │   │   │       │       ├── demofont2.xlor
+    │   │   │       │       ├── fontm.bmp
+    │   │   │       │       ├── fontp.bmp
+    │   │   │       │       └── Makefile
+    │   │   │       ├── DoubleBuffering/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── DrawLetter/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── DrawLetters/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── DrawTaggedText/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── DrawVertical/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── Makefile
+    │   │   │       ├── MinimumCanvas/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── OBJ1D/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── OBJ2DRect/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── PortraitHW/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── PortraitSW/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── ShiftJISText/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── SimpleFontView/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   ├── font_sample.NFTR
+    │   │   │       │   │   └── fontd.NFTR
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── textdemolib/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   ├── g2d_textdemolib/
+    │   │   │       │   │   │   ├── cmn.h
+    │   │   │       │   │   │   ├── debug_txt.h
+    │   │   │       │   │   │   ├── loader.h
+    │   │   │       │   │   │   ├── txt.h
+    │   │   │       │   │   │   └── wprintf.h
+    │   │   │       │   │   └── g2d_textdemolib.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── cmn.c
+    │   │   │       │       ├── debug_txt.c
+    │   │   │       │       ├── loader.c
+    │   │   │       │       ├── txt.c
+    │   │   │       │       └── wprintf.c
+    │   │   │       ├── UTF16Text/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       └── UTF8Text/
+    │   │   │           ├── Makefile
+    │   │   │           └── src/
+    │   │   │               └── main.c
+    │   │   ├── g3d/
+    │   │   │   ├── demolib/
+    │   │   │   │   ├── include/
+    │   │   │   │   │   ├── g3d_demolib/
+    │   │   │   │   │   │   ├── camera.h
+    │   │   │   │   │   │   ├── font.h
+    │   │   │   │   │   │   ├── graphics.h
+    │   │   │   │   │   │   ├── print.h
+    │   │   │   │   │   │   └── system.h
+    │   │   │   │   │   └── g3d_demolib.h
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       ├── camera.c
+    │   │   │   │       ├── font.c
+    │   │   │   │       ├── graphics.c
+    │   │   │   │       ├── print.c
+    │   │   │   │       └── system.c
+    │   │   │   ├── Makefile
+    │   │   │   └── samples/
+    │   │   │       ├── 1mat1shp/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── cube_n_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── callback1/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── robot_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── callback2/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       ├── human_run_t.imd
+    │   │   │       │   │       ├── robot_t.ica
+    │   │   │       │   │       └── robot_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── callback3/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── callback4/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── callback5/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── robot_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── CameraMtx/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── billboard.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── CustomizeSbcOp/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── billboard.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── DisposeTex/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── Envelope/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── evp_full.imd
+    │   │   │       │   │       ├── evp_wgt.ica
+    │   │   │       │   │       └── evp_wgt.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── EnvMap/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── sphere_env.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── GeComBuffering/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── JointAnm/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── Makefile
+    │   │   │       ├── ManualSetup/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── MatColAnm/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   ├── ima_sample_alpha.nsbma
+    │   │   │       │   │   ├── ima_sample_alpha.nsbmd
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── ima_sample_alpha.ima
+    │   │   │       │   │       ├── ima_sample_alpha.imd
+    │   │   │       │   │       ├── several_material.ima
+    │   │   │       │   │       └── several_material.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── ModifyNsbmd/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── MotionLOD/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── robot_t.ica
+    │   │   │       │   │       └── robot_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── MultiModel/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── cmn_tex_cube1.imd
+    │   │   │       │   │       └── cmn_tex_cube2.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── PartialAnm1/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── PartialAnm2/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── ProjMap/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── sphere_proj.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── RecordJoint/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── brother.imd
+    │   │   │       │   │       └── brother.iva
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── RecordMaterial/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── envelope_simple.ica
+    │   │   │       │   │       └── envelope_simple.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── RecordMtx/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       ├── human_run_t.imd
+    │   │   │       │   │       ├── robot_t.ica
+    │   │   │       │   │       └── robot_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── ScreenUtil/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── SeparateTex/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── ShadowVolume/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── brother.imd
+    │   │   │       │   │       ├── brother.iva
+    │   │   │       │   │       └── shadow.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── SharedMotion/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── fatman.imd
+    │   │   │       │   │       ├── man.ica
+    │   │   │       │   │       └── man.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── simple/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── SlowMotion/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── human_run_t.ica
+    │   │   │       │   │       └── human_run_t.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── TexPatternAnm/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── itp_sample.imd
+    │   │   │       │   │       └── itp_sample.itp
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── TexSRTAnm/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── texture_srt.imd
+    │   │   │       │   │       └── texture_srt.ita
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── Translucent/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       └── priority_check.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── UnbindTex/
+    │   │   │       │   ├── data/
+    │   │   │       │   │   └── src/
+    │   │   │       │   │       ├── TextureBox.imd
+    │   │   │       │   │       └── TextureCube.imd
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       └── VisibilityAnm/
+    │   │   │           ├── data/
+    │   │   │           │   └── src/
+    │   │   │           │       ├── brother.imd
+    │   │   │           │       └── brother.iva
+    │   │   │           ├── Makefile
+    │   │   │           └── src/
+    │   │   │               └── main.c
+    │   │   ├── gfd/
+    │   │   │   ├── demolib/
+    │   │   │   │   ├── include/
+    │   │   │   │   │   ├── gfd_demolib/
+    │   │   │   │   │   │   └── system.h
+    │   │   │   │   │   └── gfd_demolib.h
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       └── system.c
+    │   │   │   ├── Makefile
+    │   │   │   └── samples/
+    │   │   │       ├── Makefile
+    │   │   │       └── VramManager/
+    │   │   │           ├── FramePlttVramMan/
+    │   │   │           │   ├── Makefile
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── FrameTexVramMan/
+    │   │   │           │   ├── Makefile
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           ├── LinkedListTexVramMan/
+    │   │   │           │   ├── Makefile
+    │   │   │           │   └── src/
+    │   │   │           │       └── main.c
+    │   │   │           └── Makefile
+    │   │   ├── IDE/
+    │   │   │   ├── IDE_Archive/
+    │   │   │   │   ├── data/
+    │   │   │   │   │   └── picture.narc
+    │   │   │   │   ├── IDE_Archive.mcp
+    │   │   │   │   ├── include/
+    │   │   │   │   │   ├── nns_util.h
+    │   │   │   │   │   ├── picture.naix
+    │   │   │   │   │   └── sdk_init.h
+    │   │   │   │   ├── Nitro.lcf
+    │   │   │   │   ├── Nitro.lcf.bat
+    │   │   │   │   ├── Nitro.lcf.lsf
+    │   │   │   │   ├── Nitro_TS.h
+    │   │   │   │   ├── Nitro_TS.pch
+    │   │   │   │   ├── Nitro_TS.pch++
+    │   │   │   │   ├── ReadMe.txt
+    │   │   │   │   ├── ROM-TS.rsf
+    │   │   │   │   └── src/
+    │   │   │   │       ├── main.c
+    │   │   │   │       ├── nns_util.c
+    │   │   │   │       └── sdk_init.c
+    │   │   │   ├── IDE_G2dDemoLib/
+    │   │   │   │   ├── bin/
+    │   │   │   │   │   └── ARM9-TS/
+    │   │   │   │   │       ├── Debug/
+    │   │   │   │   │       │   └── dummy.txt
+    │   │   │   │   │       ├── Release/
+    │   │   │   │   │       │   └── dummy.txt
+    │   │   │   │   │       └── Rom/
+    │   │   │   │   │           └── dummy.txt
+    │   │   │   │   ├── IDE_G2dDemoLib.mcp
+    │   │   │   │   ├── include/
+    │   │   │   │   │   ├── g2d_demolib/
+    │   │   │   │   │   │   ├── fontData.h
+    │   │   │   │   │   │   ├── loader.h
+    │   │   │   │   │   │   ├── print.h
+    │   │   │   │   │   │   └── system.h
+    │   │   │   │   │   └── g2d_demolib.h
+    │   │   │   │   ├── ReadMe.txt
+    │   │   │   │   └── src/
+    │   │   │   │       ├── fontData.c
+    │   │   │   │       ├── loader.c
+    │   │   │   │       ├── print.c
+    │   │   │   │       └── system.c
+    │   │   │   ├── IDE_MultiCellAnimation/
+    │   │   │   │   ├── data/
+    │   │   │   │   │   ├── MultiCellAnimation.NANR
+    │   │   │   │   │   ├── MultiCellAnimation.NCBR
+    │   │   │   │   │   ├── MultiCellAnimation.NCER
+    │   │   │   │   │   ├── MultiCellAnimation.NCGR
+    │   │   │   │   │   ├── MultiCellAnimation.NCLR
+    │   │   │   │   │   ├── MultiCellAnimation.NMAR
+    │   │   │   │   │   └── MultiCellAnimation.NMCR
+    │   │   │   │   ├── IDE_MultiCellAnimation.mcp
+    │   │   │   │   ├── Nitro.lcf
+    │   │   │   │   ├── Nitro.lcf.bat
+    │   │   │   │   ├── Nitro.lcf.lsf
+    │   │   │   │   ├── Nitro_TS.h
+    │   │   │   │   ├── Nitro_TS.pch
+    │   │   │   │   ├── Nitro_TS.pch++
+    │   │   │   │   ├── ReadMe.txt
+    │   │   │   │   ├── ROM-TS.rsf
+    │   │   │   │   └── src/
+    │   │   │   │       └── main.c
+    │   │   │   └── Readme-IDE_Project.txt
+    │   │   ├── Makefile
+    │   │   ├── mcs/
+    │   │   │   ├── basic/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   ├── nitro/
+    │   │   │   │   │   ├── data/
+    │   │   │   │   │   │   ├── dog256.chr
+    │   │   │   │   │   │   ├── dog256.pal
+    │   │   │   │   │   │   └── dog256.scn
+    │   │   │   │   │   ├── include/
+    │   │   │   │   │   │   ├── nns_util.h
+    │   │   │   │   │   │   └── sdk_init.h
+    │   │   │   │   │   ├── Makefile
+    │   │   │   │   │   └── src/
+    │   │   │   │   │       ├── main.c
+    │   │   │   │   │       ├── nns_util.c
+    │   │   │   │   │       └── sdk_init.c
+    │   │   │   │   └── win/
+    │   │   │   │       ├── basic.sln
+    │   │   │   │       ├── basic.vcproj
+    │   │   │   │       ├── main.cpp
+    │   │   │   │       ├── Release/
+    │   │   │   │       │   └── basic.exe
+    │   │   │   │       ├── stdafx.cpp
+    │   │   │   │       └── stdafx.h
+    │   │   │   ├── file_io/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── nitro/
+    │   │   │   │       ├── data/
+    │   │   │   │       │   └── test.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       └── src/
+    │   │   │   │           └── main.c
+    │   │   │   └── Makefile
+    │   │   └── snd/
+    │   │       ├── data/
+    │   │       │   ├── sound_data.o
+    │   │       │   ├── sound_data.sadl
+    │   │       │   └── sound_data.sdat
+    │   │       ├── driverInfo/
+    │   │       │   ├── include/
+    │   │       │   │   └── font.h
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       ├── font.c
+    │   │       │       └── main.c
+    │   │       ├── effect/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── Makefile
+    │   │       ├── micThrough/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── moveVolume/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── onMemory/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── outputEffect/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── reverb/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── sampling/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── simple/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── stream/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── stream-2/
+    │   │       │   ├── data/
+    │   │       │   │   ├── sound_data.sadl
+    │   │       │   │   └── sound_data.sdat
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       ├── stream-3/
+    │   │       │   ├── Makefile
+    │   │       │   └── src/
+    │   │       │       └── main.c
+    │   │       └── waveout/
+    │   │           ├── Makefile
+    │   │           └── src/
+    │   │               └── main.c
+    │   ├── libraries/
+    │   │   ├── fnd/
+    │   │   │   ├── include/
+    │   │   │   │   ├── archive_block.h
+    │   │   │   │   └── heapcommoni.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── allocator.c
+    │   │   │       ├── archive.c
+    │   │   │       ├── expheap.c
+    │   │   │       ├── frameheap.c
+    │   │   │       ├── heapcommon.c
+    │   │   │       ├── list.c
+    │   │   │       └── unitheap.c
+    │   │   ├── g2d/
+    │   │   │   ├── include/
+    │   │   │   │   ├── g2d_Internal.h
+    │   │   │   │   ├── g2di_BGManipulator.h
+    │   │   │   │   ├── g2di_BitReader.h
+    │   │   │   │   ├── g2di_CellUtil.h
+    │   │   │   │   ├── g2di_Debug.h
+    │   │   │   │   ├── g2di_Dma.h
+    │   │   │   │   ├── g2di_Mtx32.h
+    │   │   │   │   ├── g2di_OamUtil.h
+    │   │   │   │   ├── g2di_RendererMtxCache.h
+    │   │   │   │   ├── g2di_RendererMtxStack.hpp
+    │   │   │   │   └── g2di_RendererMtxState.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── g2d_Animation.c
+    │   │   │       ├── g2d_CellAnimation.c
+    │   │   │       ├── g2d_CellTransferManager.c
+    │   │   │       ├── g2d_CharCanvas.c
+    │   │   │       ├── g2d_CullingUtility.c
+    │   │   │       ├── g2d_Entity.c
+    │   │   │       ├── g2d_Font.c
+    │   │   │       ├── g2d_Image.c
+    │   │   │       ├── g2d_MultiCellAnimation.c
+    │   │   │       ├── g2d_Node.c
+    │   │   │       ├── g2d_OAM.c
+    │   │   │       ├── g2d_OAMEx.c
+    │   │   │       ├── g2d_OamSoftwareSpriteDraw.c
+    │   │   │       ├── g2d_PaletteTable.c
+    │   │   │       ├── g2d_Renderer.c
+    │   │   │       ├── g2d_RendererCore.c
+    │   │   │       ├── g2d_Screen.c
+    │   │   │       ├── g2d_Softsprite.c
+    │   │   │       ├── g2d_SRTControl.c
+    │   │   │       ├── g2d_TextCanvas.c
+    │   │   │       ├── internal/
+    │   │   │       │   ├── g2di_BGManipulator.c
+    │   │   │       │   ├── g2di_BitReader.c
+    │   │   │       │   ├── g2di_debug.c
+    │   │   │       │   ├── g2di_Mtx32.c
+    │   │   │       │   └── g2di_SplitChar.c
+    │   │   │       └── load/
+    │   │   │           ├── g2d_Load.c
+    │   │   │           ├── g2d_NAN_load.c
+    │   │   │           ├── g2d_NCG_load.c
+    │   │   │           ├── g2d_NCL_load.c
+    │   │   │           ├── g2d_NEN_load.c
+    │   │   │           ├── g2d_NFT_load.c
+    │   │   │           ├── g2d_NMC_load.c
+    │   │   │           ├── g2d_NOB_load.c
+    │   │   │           └── g2d_NSC_load.c
+    │   │   ├── g3d/
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── 1mat1shp.c
+    │   │   │       ├── anm/
+    │   │   │       │   ├── nsbca.c
+    │   │   │       │   ├── nsbma.c
+    │   │   │       │   ├── nsbta.c
+    │   │   │       │   ├── nsbtp.c
+    │   │   │       │   └── nsbva.c
+    │   │   │       ├── anm.c
+    │   │   │       ├── binres/
+    │   │   │       │   ├── res_print.c
+    │   │   │       │   ├── res_print_internal.h
+    │   │   │       │   ├── res_print_nsbca.c
+    │   │   │       │   ├── res_print_nsbma.c
+    │   │   │       │   ├── res_print_nsbta.c
+    │   │   │       │   ├── res_print_nsbtp.c
+    │   │   │       │   ├── res_print_nsbva.c
+    │   │   │       │   ├── res_struct.c
+    │   │   │       │   ├── res_struct_accessor.c
+    │   │   │       │   └── res_struct_accessor_anm.c
+    │   │   │       ├── cgtool/
+    │   │   │       │   ├── 3dsmax.c
+    │   │   │       │   ├── basic.c
+    │   │   │       │   ├── maya.c
+    │   │   │       │   ├── si3d.c
+    │   │   │       │   └── xsi.c
+    │   │   │       ├── cgtool.c
+    │   │   │       ├── gecom.c
+    │   │   │       ├── glbstate.c
+    │   │   │       ├── kernel.c
+    │   │   │       ├── mem.c
+    │   │   │       ├── model.c
+    │   │   │       ├── sbc.c
+    │   │   │       └── util.c
+    │   │   ├── gfd/
+    │   │   │   ├── include/
+    │   │   │   │   └── gfdi_LinkedListVramMan_Common.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── VramManager/
+    │   │   │       │   ├── gfd_FramePlttVramMan.c
+    │   │   │       │   ├── gfd_FrameTexVramMan.c
+    │   │   │       │   ├── gfd_LinkedListPlttVramMan.c
+    │   │   │       │   ├── gfd_LinkedListTexVramMan.c
+    │   │   │       │   ├── gfd_PlttVramMan.c
+    │   │   │       │   ├── gfd_TexVramMan.c
+    │   │   │       │   └── gfdi_LinkedListVramMan_Common.c
+    │   │   │       └── VramTransferMan/
+    │   │   │           └── gfd_VramTransferManager.c
+    │   │   ├── Makefile
+    │   │   ├── mcs/
+    │   │   │   ├── include/
+    │   │   │   │   ├── baseCommoni.h
+    │   │   │   │   ├── basei.h
+    │   │   │   │   ├── fileIOcommoni.h
+    │   │   │   │   └── printi.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── base.c
+    │   │   │       ├── fileIOmain.c
+    │   │   │       ├── print.c
+    │   │   │       └── ringBuffer.c
+    │   │   └── snd/
+    │   │       ├── Makefile
+    │   │       └── src/
+    │   │           ├── capture.c
+    │   │           ├── fader.c
+    │   │           ├── heap.c
+    │   │           ├── main.c
+    │   │           ├── output_effect.c
+    │   │           ├── player.c
+    │   │           ├── resource_mgr.c
+    │   │           ├── seqdata.c
+    │   │           ├── sndarc.c
+    │   │           ├── sndarc_loader.c
+    │   │           ├── sndarc_player.c
+    │   │           ├── sndarc_stream.c
+    │   │           ├── stream.c
+    │   │           └── waveout.c
+    │   └── Makefile
+    ├── docs/
+    │   ├── Foundation/
+    │   │   ├── Allocator.pdf
+    │   │   ├── ArchiveFormat.pdf
+    │   │   ├── ArchiveManager.pdf
+    │   │   ├── Archiver.pdf
+    │   │   ├── Foundation_ReleaseNotes.pdf
+    │   │   └── MemoryManager.pdf
+    │   ├── G2D/
+    │   │   ├── BuildNENR_Manual.pdf
+    │   │   ├── fontcvtr_Manual.pdf
+    │   │   ├── fontcvtrc_Manual.pdf
+    │   │   ├── G2D_Overview.pdf
+    │   │   ├── G2D_ReleaseNotes.pdf
+    │   │   ├── g2dcvtr_Manual.pdf
+    │   │   └── NNS_G2DRuntime-BinaryFormat.pdf
+    │   ├── G3D/
+    │   │   ├── G3D_BinaryFormat.pdf
+    │   │   ├── G3D_Overview.pdf
+    │   │   ├── G3D_ReleaseNotes.pdf
+    │   │   └── g3dcvtr_UsersManual.pdf
+    │   ├── GraphicsFoundation/
+    │   │   ├── GraphicsFoundation_ReleaseNotes.pdf
+    │   │   ├── VramManager.pdf
+    │   │   └── VramTransferManager.pdf
+    │   ├── mcs/
+    │   │   ├── mcs.pdf
+    │   │   ├── mcs_ReleaseNotes.pdf
+    │   │   └── NITRO-ViewerController.pdf
+    │   ├── NitroComposer/
+    │   │   ├── NITRO_Composer_BankDataManual.pdf
+    │   │   ├── NITRO_Composer_Overview.pdf
+    │   │   ├── NITRO_Composer_QuickStartGuide.pdf
+    │   │   ├── NITRO_Composer_ReleaseNotes.pdf
+    │   │   ├── NITRO_Composer_SequenceDataManual.pdf
+    │   │   ├── NITRO_Composer_SoundArchiveManual.pdf
+    │   │   ├── NITRO_Composer_SoundDesignerGuide.pdf
+    │   │   ├── NITRO_Composer_SoundProgrammerGuide.pdf
+    │   │   ├── NITRO_Composer_SoundSystemManual.pdf
+    │   │   └── NITRO_Composer_SoundToolManual.pdf
+    │   ├── NitroPlayer/
+    │   │   ├── NITRO_Player_ReleaseNotes.pdf
+    │   │   └── NITRO_Player_UserManual.pdf
+    │   └── Readme/
+    │       ├── BuildSystem.pdf
+    │       ├── DataFormatRule.pdf
+    │       ├── IDE_BuildGuide.pdf
+    │       └── NITRO-System-Library_ReleaseNotes.pdf
+    ├── include/
+    │   ├── nnsys/
+    │   │   ├── fnd/
+    │   │   │   ├── allocator.h
+    │   │   │   ├── archive.h
+    │   │   │   ├── config.h
+    │   │   │   ├── expheap.h
+    │   │   │   ├── frameheap.h
+    │   │   │   ├── heapcommon.h
+    │   │   │   ├── list.h
+    │   │   │   └── unitheap.h
+    │   │   ├── fnd.h
+    │   │   ├── g2d/
+    │   │   │   ├── fmt/
+    │   │   │   │   ├── g2d_Anim_data.h
+    │   │   │   │   ├── g2d_Cell_data.h
+    │   │   │   │   ├── g2d_Character_data.h
+    │   │   │   │   ├── g2d_Common_data.h
+    │   │   │   │   ├── g2d_Entity_data.h
+    │   │   │   │   ├── g2d_Font_data.h
+    │   │   │   │   ├── g2d_MultiCell_data.h
+    │   │   │   │   ├── g2d_Oam_data.h
+    │   │   │   │   ├── g2d_Screen_data.h
+    │   │   │   │   ├── g2d_SRTControl_data.h
+    │   │   │   │   └── g2d_Vec_data.h
+    │   │   │   ├── g2d_Animation.h
+    │   │   │   ├── g2d_Animation_inline.h
+    │   │   │   ├── g2d_CellAnimation.h
+    │   │   │   ├── g2d_CellTransferManager.h
+    │   │   │   ├── g2d_CharCanvas.h
+    │   │   │   ├── g2d_config.h
+    │   │   │   ├── g2d_CullingUtility.h
+    │   │   │   ├── g2d_Data.h
+    │   │   │   ├── g2d_Entity.h
+    │   │   │   ├── g2d_Font.h
+    │   │   │   ├── g2d_Image.h
+    │   │   │   ├── g2d_Load.h
+    │   │   │   ├── g2d_MultiCellAnimation.h
+    │   │   │   ├── g2d_Node.h
+    │   │   │   ├── g2d_OAM.h
+    │   │   │   ├── g2d_OAM_Types.h
+    │   │   │   ├── g2d_OAMEx.h
+    │   │   │   ├── g2d_OamSoftwareSpriteDraw.h
+    │   │   │   ├── g2d_PaletteTable.h
+    │   │   │   ├── g2d_Renderer.h
+    │   │   │   ├── g2d_RendererCore.h
+    │   │   │   ├── g2d_Screen.h
+    │   │   │   ├── g2d_Softsprite.h
+    │   │   │   ├── g2d_SRTControl.h
+    │   │   │   ├── g2d_TextCanvas.h
+    │   │   │   ├── g2di_AssertUtil.h
+    │   │   │   ├── g2di_Char.h
+    │   │   │   ├── g2di_SplitChar.h
+    │   │   │   └── load/
+    │   │   │       ├── g2d_NAN_load.h
+    │   │   │       ├── g2d_NCE_load.h
+    │   │   │       ├── g2d_NCG_load.h
+    │   │   │       ├── g2d_NCL_load.h
+    │   │   │       ├── g2d_NEN_load.h
+    │   │   │       ├── g2d_NFT_load.h
+    │   │   │       ├── g2d_NMC_load.h
+    │   │   │       └── g2d_NSC_load.h
+    │   │   ├── g2d.h
+    │   │   ├── g3d/
+    │   │   │   ├── 1mat1shp.h
+    │   │   │   ├── anm/
+    │   │   │   │   ├── nsbca.h
+    │   │   │   │   ├── nsbma.h
+    │   │   │   │   ├── nsbta.h
+    │   │   │   │   ├── nsbtp.h
+    │   │   │   │   └── nsbva.h
+    │   │   │   ├── anm.h
+    │   │   │   ├── binres/
+    │   │   │   │   ├── res_print.h
+    │   │   │   │   ├── res_struct.h
+    │   │   │   │   ├── res_struct_accessor.h
+    │   │   │   │   ├── res_struct_accessor_anm.h
+    │   │   │   │   └── res_struct_accessor_inline.h
+    │   │   │   ├── cgtool/
+    │   │   │   │   ├── 3dsmax.h
+    │   │   │   │   ├── basic.h
+    │   │   │   │   ├── maya.h
+    │   │   │   │   ├── si3d.h
+    │   │   │   │   └── xsi.h
+    │   │   │   ├── cgtool.h
+    │   │   │   ├── config.h
+    │   │   │   ├── gecom.h
+    │   │   │   ├── gecom_inline.h
+    │   │   │   ├── glbstate.h
+    │   │   │   ├── glbstate_inline.h
+    │   │   │   ├── kernel.h
+    │   │   │   ├── kernel_inline.h
+    │   │   │   ├── mem.h
+    │   │   │   ├── model.h
+    │   │   │   ├── model_inline.h
+    │   │   │   ├── sbc.h
+    │   │   │   ├── sbc_inline.h
+    │   │   │   ├── util.h
+    │   │   │   └── util_inline.h
+    │   │   ├── g3d.h
+    │   │   ├── gfd/
+    │   │   │   ├── gfd_common.h
+    │   │   │   ├── VramManager/
+    │   │   │   │   ├── gfd_BitArrayPlttVramMan.h
+    │   │   │   │   ├── gfd_BitArrayTexVramMan.h
+    │   │   │   │   ├── gfd_FramePlttVramMan.h
+    │   │   │   │   ├── gfd_FrameTexVramMan.h
+    │   │   │   │   ├── gfd_LinkedListPlttVramMan.h
+    │   │   │   │   ├── gfd_LinkedListTexVramMan.h
+    │   │   │   │   ├── gfd_LinkedListVramMan.h
+    │   │   │   │   ├── gfd_PlttVramMan_Types.h
+    │   │   │   │   ├── gfd_TexVramMan_Types.h
+    │   │   │   │   └── gfd_VramMan.h
+    │   │   │   └── VramTransferMan/
+    │   │   │       └── gfd_VramTransferManager.h
+    │   │   ├── gfd.h
+    │   │   ├── inline.h
+    │   │   ├── mcs/
+    │   │   │   ├── base.h
+    │   │   │   ├── base_win32.h
+    │   │   │   ├── baseCommon.h
+    │   │   │   ├── config.h
+    │   │   │   ├── fileIObase.h
+    │   │   │   ├── fileIOcommon.h
+    │   │   │   ├── print.h
+    │   │   │   └── ringBuffer.h
+    │   │   ├── mcs.h
+    │   │   ├── misc.h
+    │   │   ├── snd/
+    │   │   │   ├── capture.h
+    │   │   │   ├── config.h
+    │   │   │   ├── fader.h
+    │   │   │   ├── heap.h
+    │   │   │   ├── main.h
+    │   │   │   ├── output_effect.h
+    │   │   │   ├── player.h
+    │   │   │   ├── resource_mgr.h
+    │   │   │   ├── seqdata.h
+    │   │   │   ├── sndarc.h
+    │   │   │   ├── sndarc_loader.h
+    │   │   │   ├── sndarc_player.h
+    │   │   │   ├── sndarc_stream.h
+    │   │   │   ├── stream.h
+    │   │   │   └── waveout.h
+    │   │   ├── snd.h
+    │   │   └── version.h
+    │   ├── nnsys.h
+    │   ├── nnsys_prefix.h
+    │   └── nnsys_win32.h
+    ├── lib/
+    │   └── ARM9-TS/
+    │       ├── Debug/
+    │       │   ├── libnnsfnd.a
+    │       │   ├── libnnsfnd.thumb.a
+    │       │   ├── libnnsg2d.a
+    │       │   ├── libnnsg2d.thumb.a
+    │       │   ├── libnnsg3d.a
+    │       │   ├── libnnsg3d.thumb.a
+    │       │   ├── libnnsgfd.a
+    │       │   ├── libnnsgfd.thumb.a
+    │       │   ├── libnnsmcs.a
+    │       │   ├── libnnsmcs.thumb.a
+    │       │   ├── libnnssnd.a
+    │       │   └── libnnssnd.thumb.a
+    │       ├── Release/
+    │       │   ├── libnnsfnd.a
+    │       │   ├── libnnsfnd.thumb.a
+    │       │   ├── libnnsg2d.a
+    │       │   ├── libnnsg2d.thumb.a
+    │       │   ├── libnnsg3d.a
+    │       │   ├── libnnsg3d.thumb.a
+    │       │   ├── libnnsgfd.a
+    │       │   ├── libnnsgfd.thumb.a
+    │       │   ├── libnnsmcs.a
+    │       │   ├── libnnsmcs.thumb.a
+    │       │   ├── libnnssnd.a
+    │       │   └── libnnssnd.thumb.a
+    │       └── Rom/
+    │           ├── libnnsfnd.a
+    │           ├── libnnsfnd.thumb.a
+    │           ├── libnnsg2d.a
+    │           ├── libnnsg2d.thumb.a
+    │           ├── libnnsg3d.a
+    │           ├── libnnsg3d.thumb.a
+    │           ├── libnnsgfd.a
+    │           ├── libnnsgfd.thumb.a
+    │           ├── libnnsmcs.a
+    │           ├── libnnsmcs.thumb.a
+    │           ├── libnnssnd.a
+    │           └── libnnssnd.thumb.a
+    ├── Makefile
+    ├── man/
+    │   └── ja_JP/
+    │       ├── a-z.html
+    │       ├── contents.html
+    │       ├── css/
+    │       │   ├── apilist.css
+    │       │   ├── contents.css
+    │       │   ├── icons.css
+    │       │   ├── main.css
+    │       │   ├── nitro.css
+    │       │   └── titles.css
+    │       ├── demos/
+    │       │   ├── fnd/
+    │       │   │   └── fnddemos.html
+    │       │   ├── g2d/
+    │       │   │   └── g2ddemos.html
+    │       │   ├── g3d/
+    │       │   │   └── g3ddemos.html
+    │       │   ├── gfd/
+    │       │   │   └── gfddemos.html
+    │       │   ├── mcs/
+    │       │   │   └── mcsdemos.html
+    │       │   └── snd/
+    │       │       └── snddemos.html
+    │       ├── fnd/
+    │       │   ├── allocator/
+    │       │   │   ├── NNS_FndAllocFromAllocator.html
+    │       │   │   ├── NNS_FndFreeToAllocator.html
+    │       │   │   ├── NNS_FndInitAllocatorForExpHeap.html
+    │       │   │   ├── NNS_FndInitAllocatorForFrmHeap.html
+    │       │   │   ├── NNS_FndInitAllocatorForSDKHeap.html
+    │       │   │   └── NNS_FndInitAllocatorForUnitHeap.html
+    │       │   ├── archive/
+    │       │   │   ├── NNS_FndGetArchiveFileByIndex.html
+    │       │   │   ├── NNS_FndGetArchiveFileByName.html
+    │       │   │   ├── NNS_FndMountArchive.html
+    │       │   │   ├── NNS_FndOpenArchiveFileByIndex.html
+    │       │   │   └── NNS_FndUnmountArchive.html
+    │       │   ├── expheap/
+    │       │   │   ├── NNS_FndAllocFromExpHeap.html
+    │       │   │   ├── NNS_FndAllocFromExpHeapEx.html
+    │       │   │   ├── NNS_FndCheckExpHeap.html
+    │       │   │   ├── NNS_FndCheckForMBlockExpHeap.html
+    │       │   │   ├── NNS_FndCreateExpHeap.html
+    │       │   │   ├── NNS_FndCreateExpHeapEx.html
+    │       │   │   ├── NNS_FndDestroyExpHeap.html
+    │       │   │   ├── NNS_FndFreeToExpHeap.html
+    │       │   │   ├── NNS_FndGetAllocatableSizeForExpHeap.html
+    │       │   │   ├── NNS_FndGetAllocatableSizeForExpHeapEx.html
+    │       │   │   ├── NNS_FndGetAllocDirForMBlockExpHeap.html
+    │       │   │   ├── NNS_FndGetAllocModeForExpHeap.html
+    │       │   │   ├── NNS_FndGetGroupIDForExpHeap.html
+    │       │   │   ├── NNS_FndGetGroupIDForMBlockExpHeap.html
+    │       │   │   ├── NNS_FndGetSizeForMBlockExpHeap.html
+    │       │   │   ├── NNS_FndGetTotalFreeSizeForExpHeap.html
+    │       │   │   ├── NNS_FndResizeForMBlockExpHeap.html
+    │       │   │   ├── NNS_FndSetAllocModeForExpHeap.html
+    │       │   │   ├── NNS_FndSetGroupIDForExpHeap.html
+    │       │   │   └── NNS_FndVisitAllocatedForExpHeap.html
+    │       │   ├── fnd.html
+    │       │   ├── frameheap/
+    │       │   │   ├── NNS_FndAdjustFrmHeap.html
+    │       │   │   ├── NNS_FndAllocFromFrmHeap.html
+    │       │   │   ├── NNS_FndAllocFromFrmHeapEx.html
+    │       │   │   ├── NNS_FndCreateFrmHeap.html
+    │       │   │   ├── NNS_FndCreateFrmHeapEx.html
+    │       │   │   ├── NNS_FndDestroyFrmHeap.html
+    │       │   │   ├── NNS_FndFreeByStateToFrmHeap.html
+    │       │   │   ├── NNS_FndFreeToFrmHeap.html
+    │       │   │   ├── NNS_FndGetAllocatableSizeForFrmHeap.html
+    │       │   │   ├── NNS_FndGetAllocatableSizeForFrmHeapEx.html
+    │       │   │   ├── NNS_FndRecordStateForFrmHeap.html
+    │       │   │   └── NNS_FndResizeForMBlockFrmHeap.html
+    │       │   ├── heap/
+    │       │   │   ├── NNS_FndDumpHeap.html
+    │       │   │   ├── NNS_FndFindContainHeap.html
+    │       │   │   ├── NNS_FndGetFillValForHeap.html
+    │       │   │   ├── NNS_FndGetHeapEndAddress.html
+    │       │   │   ├── NNS_FndGetHeapStartAddress.html
+    │       │   │   └── NNS_FndSetFillValForHeap.html
+    │       │   ├── list/
+    │       │   │   ├── NNS_FND_INIT_LIST.html
+    │       │   │   ├── NNS_FndAppendListObject.html
+    │       │   │   ├── NNS_FndGetNextListObject.html
+    │       │   │   ├── NNS_FndGetNthListObject.html
+    │       │   │   ├── NNS_FndGetPrevListObject.html
+    │       │   │   ├── NNS_FndInitList.html
+    │       │   │   ├── NNS_FndInsertListObject.html
+    │       │   │   ├── NNS_FndPrependListObject.html
+    │       │   │   └── NNS_FndRemoveListObject.html
+    │       │   ├── list_fnd.html
+    │       │   └── unitheap/
+    │       │       ├── NNS_FndAllocFromUnitHeap.html
+    │       │       ├── NNS_FndCalcHeapSizeForUnitHeap.html
+    │       │       ├── NNS_FndCountFreeBlockForUnitHeap.html
+    │       │       ├── NNS_FndCreateUnitHeap.html
+    │       │       ├── NNS_FndCreateUnitHeapEx.html
+    │       │       ├── NNS_FndDestroyUnitHeap.html
+    │       │       ├── NNS_FndFreeToUnitHeap.html
+    │       │       └── NNS_FndGetMemBlockSizeForUnitHeap.html
+    │       ├── g2d/
+    │       │   ├── Animation/
+    │       │   │   ├── Animation_Overview.html
+    │       │   │   ├── AnimationController_Overview.html
+    │       │   │   ├── AnimPlayType.html
+    │       │   │   ├── AnimType001.gif
+    │       │   │   ├── AnimType002.gif
+    │       │   │   ├── clip_image001.gif
+    │       │   │   ├── clip_image002.gif
+    │       │   │   ├── clip_image0021.gif
+    │       │   │   ├── clip_image0022.gif
+    │       │   │   ├── clip_image0023.gif
+    │       │   │   ├── clip_image0024.gif
+    │       │   │   ├── image2.gif
+    │       │   │   ├── NNS_G2dBindAnimController.html
+    │       │   │   ├── NNS_G2dBindAnimCtrl.html
+    │       │   │   ├── NNS_G2dGetAnimControllerType.html
+    │       │   │   ├── NNS_G2dGetAnimCtrlCurrentAnimSequence.html
+    │       │   │   ├── NNS_G2dGetAnimCtrlCurrentElement.html
+    │       │   │   ├── NNS_G2dGetAnimCtrlCurrentElemIdxVal.html
+    │       │   │   ├── NNS_G2dGetAnimCtrlCurrentFrame.html
+    │       │   │   ├── NNS_G2dGetAnimCtrlCurrentTime.html
+    │       │   │   ├── NNS_G2dGetAnimCtrlNextElement.html
+    │       │   │   ├── NNS_G2dGetAnimCtrlNormalizedTime.html
+    │       │   │   ├── NNS_G2dGetAnimCtrlSpeed.html
+    │       │   │   ├── NNS_G2dGetAnimCtrlType.html
+    │       │   │   ├── NNS_G2dGetAnimSequenceType.html
+    │       │   │   ├── NNS_G2dGetAnimSpeed.html
+    │       │   │   ├── NNS_G2dGetCurrentElement.html
+    │       │   │   ├── NNS_G2dGetNextElement.html
+    │       │   │   ├── NNS_G2dGetNormalizedTime.html
+    │       │   │   ├── NNS_G2dInitAnimCallBackFunctor.html
+    │       │   │   ├── NNS_G2dInitAnimController.html
+    │       │   │   ├── NNS_G2dInitAnimControllerCallBackFunctor.html
+    │       │   │   ├── NNS_G2dInitAnimCtrl.html
+    │       │   │   ├── NNS_G2dInitAnimCtrlCallBackFunctor.html
+    │       │   │   ├── NNS_G2dInitCallBackFunctor.html
+    │       │   │   ├── NNS_G2dIsAnimControllerActive.html
+    │       │   │   ├── NNS_G2dIsAnimCtrlActive.html
+    │       │   │   ├── NNS_G2dResetAnimationState.html
+    │       │   │   ├── NNS_G2dResetAnimCtrlPlayModeOverridden.html
+    │       │   │   ├── NNS_G2dResetAnimCtrlState.html
+    │       │   │   ├── NNS_G2dSetAnimCtrlCallBackFunctor.html
+    │       │   │   ├── NNS_G2dSetAnimCtrlCallBackFunctorAtAnimFrame.html
+    │       │   │   ├── NNS_G2dSetAnimCtrlCurrentFrame.html
+    │       │   │   ├── NNS_G2dSetAnimCtrlCurrentFrameNoResetCurrentTime.html
+    │       │   │   ├── NNS_G2dSetAnimCtrlCurrentTime.html
+    │       │   │   ├── NNS_G2dSetAnimCtrlPlayModeOverridden.html
+    │       │   │   ├── NNS_G2dSetAnimCtrlSpeed.html
+    │       │   │   ├── NNS_G2dSetAnimSpeed.html
+    │       │   │   ├── NNS_G2dSetCallBackFunctor.html
+    │       │   │   ├── NNS_G2dSetCallBackFunctorAtAnimFrame.html
+    │       │   │   ├── NNS_G2dStartAnimController.html
+    │       │   │   ├── NNS_G2dStartAnimCtrl.html
+    │       │   │   ├── NNS_G2dStopAnimController.html
+    │       │   │   ├── NNS_G2dStopAnimCtrl.html
+    │       │   │   ├── NNS_G2dTickAnimController.html
+    │       │   │   └── NNS_G2dTickAnimCtrl.html
+    │       │   ├── Bg/
+    │       │   │   ├── BG_Overview.html
+    │       │   │   ├── LoadScreenRect.png
+    │       │   │   ├── LoadScreenRectInsect.png
+    │       │   │   ├── NNS_G2dBGLoadElementsXXX.html
+    │       │   │   ├── NNS_G2dBGLoadScreenRect.html
+    │       │   │   ├── NNS_G2dBGSetupXXX.html
+    │       │   │   ├── NNS_G2dGetBGAreaOver.html
+    │       │   │   └── NNS_G2dSetBGAreaOver.html
+    │       │   ├── CellAnimation/
+    │       │   │   ├── CellAnimation_Overview.html
+    │       │   │   ├── image.gif
+    │       │   │   ├── NNS_G2dCopyCellAsOamAttr.html
+    │       │   │   ├── NNS_G2dGetCellAnimAnimCtrl.html
+    │       │   │   ├── NNS_G2dGetCellAnimationAnimCtrl.html
+    │       │   │   ├── NNS_G2dGetCellAnimationCurrentCell.html
+    │       │   │   ├── NNS_G2dInitCellAnimation.html
+    │       │   │   ├── NNS_G2dInitCellAnimationVramTransfered.html
+    │       │   │   ├── NNS_G2dInitializeCellAnimation.html
+    │       │   │   ├── NNS_G2dInitializeCellAnimationVramTransfered.html
+    │       │   │   ├── NNS_G2dMakeCellToOams.html
+    │       │   │   ├── NNS_G2dRestartCellAnimation.html
+    │       │   │   ├── NNS_G2dSetCellAnimationCurrentFrame.html
+    │       │   │   ├── NNS_G2dSetCellAnimationSequence.html
+    │       │   │   ├── NNS_G2dSetCellAnimationSequenceNoReset.html
+    │       │   │   ├── NNS_G2dSetCellAnimationSpeed.html
+    │       │   │   ├── NNS_G2dSetCellAnimSpeed.html
+    │       │   │   └── NNS_G2dTickCellAnimation.html
+    │       │   ├── CellTransfer/
+    │       │   │   ├── CellTransfer_Overview.html
+    │       │   │   ├── clip_image002.gif
+    │       │   │   ├── NNS_G2dFreeCellTransferStateHandle.html
+    │       │   │   ├── NNS_G2dGetNewCellTransferStateHandle.html
+    │       │   │   ├── NNS_G2dInitCellTransferStateManager.html
+    │       │   │   ├── NNS_G2dSetCellTransferStateRequested.html
+    │       │   │   └── NNS_G2dUpdateCellTransferStateManager.html
+    │       │   ├── CharCanvas/
+    │       │   │   ├── 2DRect.png
+    │       │   │   ├── BG.png
+    │       │   │   ├── CharCanvas.png
+    │       │   │   ├── CharCanvas_Overview.html
+    │       │   │   ├── DrawChar.png
+    │       │   │   ├── DrawGlyph.png
+    │       │   │   ├── Map256x16.png
+    │       │   │   ├── MapAffine.png
+    │       │   │   ├── MapText.png
+    │       │   │   ├── NNS_G2dArrangeOBJXXX.html
+    │       │   │   ├── NNS_G2dCalcRequiredOBJXXX.html
+    │       │   │   ├── NNS_G2dCharCanvasCalcCellDataSizeXXX.html
+    │       │   │   ├── NNS_G2dCharCanvasClear.html
+    │       │   │   ├── NNS_G2dCharCanvasClearArea.html
+    │       │   │   ├── NNS_G2dCharCanvasDrawChar.html
+    │       │   │   ├── NNS_G2dCharCanvasDrawGlyph.html
+    │       │   │   ├── NNS_G2dCharCanvasInitForBG.html
+    │       │   │   ├── NNS_G2dCharCanvasInitForOBJ1D.html
+    │       │   │   ├── NNS_G2dCharCanvasInitForOBJ2DRect.html
+    │       │   │   ├── NNS_G2dCharCanvasMakeCellXXX.html
+    │       │   │   ├── NNS_G2dMapScrToChar256x16Pltt.html
+    │       │   │   ├── NNS_G2dMapScrToCharAffine.html
+    │       │   │   ├── NNS_G2dMapScrToCharText.html
+    │       │   │   ├── origin.png
+    │       │   │   ├── require_table.css
+    │       │   │   └── RequiredOBJTable.html
+    │       │   ├── Entity/
+    │       │   │   ├── clip_image001.gif
+    │       │   │   ├── Entity_Overview.html
+    │       │   │   ├── NNS_G2dGetEntityAnimCtrl.html
+    │       │   │   ├── NNS_G2dInitEntity.html
+    │       │   │   ├── NNS_G2dInitializeEntity.html
+    │       │   │   ├── NNS_G2dIsEntityPaletteTblEnable.html
+    │       │   │   ├── NNS_G2dIsEntityValid.html
+    │       │   │   ├── NNS_G2dResetEntityPaletteTable.html
+    │       │   │   ├── NNS_G2dSetCurrentAnimation.html
+    │       │   │   ├── NNS_G2dSetEntityCurrentAnimation.html
+    │       │   │   ├── NNS_G2dSetEntityCurrentFrame.html
+    │       │   │   ├── NNS_G2dSetEntityPaletteTable.html
+    │       │   │   ├── NNS_G2dSetEntitySpeed.html
+    │       │   │   └── NNS_G2dTickEntity.html
+    │       │   ├── etc/
+    │       │   │   ├── G2dMod_Data.png
+    │       │   │   ├── g2dmod_draw.png
+    │       │   │   ├── module_data.html
+    │       │   │   └── module_draw.html
+    │       │   ├── Font/
+    │       │   │   ├── cell.png
+    │       │   │   ├── char.png
+    │       │   │   ├── CharSpace.png
+    │       │   │   ├── Font_Overview.html
+    │       │   │   ├── Map.png
+    │       │   │   ├── NNS_G2dFontFindGlyphIndex.html
+    │       │   │   ├── NNS_G2dFontGetAlternateGlyphIndex.html
+    │       │   │   ├── NNS_G2dFontGetBaselinePos.html
+    │       │   │   ├── NNS_G2dFontGetBpp.html
+    │       │   │   ├── NNS_G2dFontGetCellHeight.html
+    │       │   │   ├── NNS_G2dFontGetCellWidth.html
+    │       │   │   ├── NNS_G2dFontGetCharWidth.html
+    │       │   │   ├── NNS_G2dFontGetCharWidthFromIndex.html
+    │       │   │   ├── NNS_G2dFontGetCharWidths.html
+    │       │   │   ├── NNS_G2dFontGetCharWidthsFromIndex.html
+    │       │   │   ├── NNS_G2dFontGetDefaultCharWidths.html
+    │       │   │   ├── NNS_G2dFontGetFlags.html
+    │       │   │   ├── NNS_G2dFontGetGlyph.html
+    │       │   │   ├── NNS_G2dFontGetGlyphFromIndex.html
+    │       │   │   ├── NNS_G2dFontGetGlyphImage.html
+    │       │   │   ├── NNS_G2dFontGetGlyphImageFromIndex.html
+    │       │   │   ├── NNS_G2dFontGetGlyphIndex.html
+    │       │   │   ├── NNS_G2dFontGetHeight.html
+    │       │   │   ├── NNS_G2dFontGetLineFeed.html
+    │       │   │   ├── NNS_G2dFontGetMaxCharWidth.html
+    │       │   │   ├── NNS_G2dFontGetStringWidth.html
+    │       │   │   ├── NNS_G2dFontGetTextHeight.html
+    │       │   │   ├── NNS_G2dFontGetTextRect.html
+    │       │   │   ├── NNS_G2dFontGetTextWidth.html
+    │       │   │   ├── NNS_G2dFontGetType.html
+    │       │   │   ├── NNS_G2dFontGetWidth.html
+    │       │   │   ├── NNS_G2dFontGetWidthFromIndex.html
+    │       │   │   ├── NNS_G2dFontInitAuto.html
+    │       │   │   ├── NNS_G2dFontInitXXX.html
+    │       │   │   ├── NNS_G2dFontSetAlternateChar.html
+    │       │   │   ├── NNS_G2dFontSetAlternateGlyphIndex.html
+    │       │   │   ├── NNS_G2dFontSetDefaultCharWidths.html
+    │       │   │   ├── NNS_G2dFontSetLineFeed.html
+    │       │   │   ├── NNSG2dCharWidths.html
+    │       │   │   ├── NNSG2dGlyph.html
+    │       │   │   └── NNSG2dTextRect.html
+    │       │   ├── g2d.html
+    │       │   ├── Image/
+    │       │   │   ├── clip_image002.gif
+    │       │   │   ├── ImageProxy_Overview.html
+    │       │   │   ├── NNS_G2dGetImageLocation.html
+    │       │   │   ├── NNS_G2dGetImagePaletteLocation.html
+    │       │   │   ├── NNS_G2dInitializeImagePaletteProxy.html
+    │       │   │   ├── NNS_G2dInitializeImageProxy.html
+    │       │   │   ├── NNS_G2dInitImagePaletteProxy.html
+    │       │   │   ├── NNS_G2dInitImageProxy.html
+    │       │   │   ├── NNS_G2dIsImagePaletteReadyToUse.html
+    │       │   │   ├── NNS_G2dIsImageReadyToUse.html
+    │       │   │   ├── NNS_G2dLoadImage1DMapping.html
+    │       │   │   ├── NNS_G2dLoadImage2DMapping.html
+    │       │   │   ├── NNS_G2dLoadImageVramTransfer.html
+    │       │   │   ├── NNS_G2dLoadPalette.html
+    │       │   │   ├── NNS_G2dLoadPaletteEx.html
+    │       │   │   ├── NNS_G2dSetImageExtPaletteFlag.html
+    │       │   │   ├── NNS_G2dSetImageLocation.html
+    │       │   │   └── NNS_G2dSetImagePaletteLocation.html
+    │       │   ├── list_g2d.html
+    │       │   ├── Load/
+    │       │   │   ├── image.gif
+    │       │   │   ├── image3.gif
+    │       │   │   ├── NNS_G2dFindBinaryBlock.html
+    │       │   │   ├── NNS_G2dGetUnpackedXXX.html
+    │       │   │   ├── NNS_G2dIsBinFileValid.html
+    │       │   │   ├── NNS_G2dPrintXXX.html
+    │       │   │   ├── NNS_G2dUnPackXXX.html
+    │       │   │   └── RuntimeBinary_Overview.html
+    │       │   ├── MultiCellAnimation/
+    │       │   │   ├── image.gif
+    │       │   │   ├── image1.gif
+    │       │   │   ├── MultiCellAnimation_Overview.html
+    │       │   │   ├── NNS_G2dGetMCAnimAnimCtrl.html
+    │       │   │   ├── NNS_G2dGetMCBankNumNodesRequired.html
+    │       │   │   ├── NNS_G2dGetMCNumNodesRequired.html
+    │       │   │   ├── NNS_G2dGetMCWorkAreaSize.html
+    │       │   │   ├── NNS_G2dInitializeMCAnimation.html
+    │       │   │   ├── NNS_G2dInitializeMCInstance.html
+    │       │   │   ├── NNS_G2dInitMCAnimation.html
+    │       │   │   ├── NNS_G2dInitMCAnimationInstance.html
+    │       │   │   ├── NNS_G2dInitMCInstance.html
+    │       │   │   ├── NNS_G2dMakeSimpleMultiCellToOams.html
+    │       │   │   ├── NNS_G2dResetMCCellAnimationAll.html
+    │       │   │   ├── NNS_G2dRestartMCAnimation.html
+    │       │   │   ├── NNS_G2dSetAnimSequenceToMCAnimation.html
+    │       │   │   ├── NNS_G2dSetMCAnimationCellAnimFrame.html
+    │       │   │   ├── NNS_G2dSetMCAnimationCurrentFrame.html
+    │       │   │   ├── NNS_G2dSetMCAnimationSpeed.html
+    │       │   │   ├── NNS_G2dSetMCAnimSpeed.html
+    │       │   │   ├── NNS_G2dSetMCDataToMCInstance.html
+    │       │   │   ├── NNS_G2dStartMCCellAnimationAll.html
+    │       │   │   ├── NNS_G2dTickMCAnimation.html
+    │       │   │   ├── NNS_G2dTickMCInstance.html
+    │       │   │   ├── NNS_G2dTraverseMCCellAnims.html
+    │       │   │   └── NNS_G2dTraverseMCNodes.html
+    │       │   ├── Oam/
+    │       │   │   ├── clip_image002.gif
+    │       │   │   ├── NNS_G2dApplyOamManagerToHW.html
+    │       │   │   ├── NNS_G2dApplyOamManagerToHWSprite.html
+    │       │   │   ├── NNS_G2dApplyToHW.html
+    │       │   │   ├── NNS_G2dApplyToHWSoftEmu.html
+    │       │   │   ├── NNS_G2dEntryNewOam.html
+    │       │   │   ├── NNS_G2dEntryNewOamAffine.html
+    │       │   │   ├── NNS_G2dEntryNewOamWithAffineIdx.html
+    │       │   │   ├── NNS_G2dEntryOamAffine.html
+    │       │   │   ├── NNS_G2dEntryOamManagerAffine.html
+    │       │   │   ├── NNS_G2dEntryOamManagerOam.html
+    │       │   │   ├── NNS_G2dEntryOamManagerOamWithAffineIdx.html
+    │       │   │   ├── NNS_G2dGetNewManagerInstance.html
+    │       │   │   ├── NNS_G2dGetNewOamManagerInstance.html
+    │       │   │   ├── NNS_G2dGetNewOamManagerInstanceAsFastTransferMode.html
+    │       │   │   ├── NNS_G2dGetOamAffineCapacity.html
+    │       │   │   ├── NNS_G2dGetOamAttrCapacity.html
+    │       │   │   ├── NNS_G2dGetOamBuffer.html
+    │       │   │   ├── NNS_G2dGetOamManagerAffineCapacity.html
+    │       │   │   ├── NNS_G2dGetOamManagerOamCapacity.html
+    │       │   │   ├── NNS_G2dInitializeOamManager.html
+    │       │   │   ├── NNS_G2dInitManagerInstanceAffine.html
+    │       │   │   ├── NNS_G2dInitOamManagerModule.html
+    │       │   │   ├── NNS_G2dResetBuffer.html
+    │       │   │   ├── NNS_G2dResetOamManagerBuffer.html
+    │       │   │   ├── NNS_G2dSetOamManagerAffine.html
+    │       │   │   ├── NNS_G2dSetOamManagerSpriteZoffsetStep.html
+    │       │   │   └── OAM_Overview.html
+    │       │   ├── OamEx/
+    │       │   │   ├── clip_image001.gif
+    │       │   │   ├── NNS_G2dApplyOamManExToBaseModule.html
+    │       │   │   ├── NNS_G2dApplyToBaseModuleEx.html
+    │       │   │   ├── NNS_G2dEntryNewAffineParamsEx.html
+    │       │   │   ├── NNS_G2dEntryNewOamEx.html
+    │       │   │   ├── NNS_G2dEntryNewOamWithAffineIdxEx.html
+    │       │   │   ├── NNS_G2dEntryOamManExAffine.html
+    │       │   │   ├── NNS_G2dEntryOamManExOam.html
+    │       │   │   ├── NNS_G2dEntryOamManExOamWithAffineIdx.html
+    │       │   │   ├── NNS_G2dGetNewOamInstanceEx.html
+    │       │   │   ├── NNS_G2dGetOamManExInstance.html
+    │       │   │   ├── NNS_G2dInitAffineManagerEx.html
+    │       │   │   ├── NNS_G2dResetOamInstanceEx.html
+    │       │   │   ├── NNS_G2dResetOamManExBuffer.html
+    │       │   │   ├── NNS_G2dSetOamEntryFunctionsEx.html
+    │       │   │   ├── NNS_G2dSetOamManExEntryFunctions.html
+    │       │   │   ├── NNSG2d_SetOamManExDrawOrderType.html
+    │       │   │   ├── NNSG2dOamExEntryFunctions.html
+    │       │   │   └── OAMEx_Overview.html
+    │       │   ├── OamSoftEmu/
+    │       │   │   ├── NNS_G2dDrawOneOam3DDirect.html
+    │       │   │   ├── NNS_G2dDrawOneOam3DDirectUsingParamCacheFast.html
+    │       │   │   ├── NNS_G2dDrawOneOam3DDirectWithPos.html
+    │       │   │   ├── NNS_G2dDrawOneOam3DDirectWithPosAffine.html
+    │       │   │   ├── NNS_G2dDrawOneOam3DDirectXXXFast.html
+    │       │   │   ├── NNS_G2dResetOamSoftEmuUVFlipCorrectFunc.html
+    │       │   │   ├── NNS_G2dSetOamSoftEmuSpriteParamCache.html
+    │       │   │   ├── NNS_G2dSetOamSoftEmuUVFlipCorrectFunc.html
+    │       │   │   └── OAMSoftEmu_Overview.html
+    │       │   ├── Renderer/
+    │       │   │   ├── clip_image002.gif
+    │       │   │   ├── clip_image0021.gif
+    │       │   │   ├── clip_image0022.gif
+    │       │   │   ├── image3.gif
+    │       │   │   ├── NNS_G2dAddRendererTargetSurface.html
+    │       │   │   ├── NNS_G2dAddTargetSurface.html
+    │       │   │   ├── NNS_G2dBeginRendering.html
+    │       │   │   ├── NNS_G2dBeginRenderingEx.html
+    │       │   │   ├── NNS_G2dDrawCell.html
+    │       │   │   ├── NNS_G2dDrawCellAnimation.html
+    │       │   │   ├── NNS_G2dDrawEntity.html
+    │       │   │   ├── NNS_G2dDrawMultiCell.html
+    │       │   │   ├── NNS_G2dDrawMultiCellAnimation.html
+    │       │   │   ├── NNS_G2dDrawNode.html
+    │       │   │   ├── NNS_G2dEndRendering.html
+    │       │   │   ├── NNS_G2dGetRendererAffineOverwriteMode.html
+    │       │   │   ├── NNS_G2dGetRendererOverwriteXXX.html
+    │       │   │   ├── NNS_G2dGetRendererPaletteTbl.html
+    │       │   │   ├── NNS_G2dGetRendererSurfaceActiveFlag.html
+    │       │   │   ├── NNS_G2dInitRenderer.html
+    │       │   │   ├── NNS_G2dInitRenderSurface.html
+    │       │   │   ├── NNS_G2dOptimizeRenderer.html
+    │       │   │   ├── NNS_G2dPopMtx.html
+    │       │   │   ├── NNS_G2dPushMtx.html
+    │       │   │   ├── NNS_G2dResetRendererPaletteTbl.html
+    │       │   │   ├── NNS_G2dRotZ.html
+    │       │   │   ├── NNS_G2dScale.html
+    │       │   │   ├── NNS_G2dSetCurrentImageProxy.html
+    │       │   │   ├── NNS_G2dSetRendererAffineOverwriteMode.html
+    │       │   │   ├── NNS_G2dSetRendererFlipMode.html
+    │       │   │   ├── NNS_G2dSetRendererImageProxy.html
+    │       │   │   ├── NNS_G2dSetRendererOverwriteEnable.html
+    │       │   │   ├── NNS_G2dSetRendererOverwriteXXX.html
+    │       │   │   ├── NNS_G2dSetRendererPaletteTbl.html
+    │       │   │   ├── NNS_G2dSetRendererSpriteZoffset.html
+    │       │   │   ├── NNS_G2dSetRendererSurfaceActiveFlag.html
+    │       │   │   ├── NNS_G2dSetTrans.html
+    │       │   │   ├── NNS_G2dTranslate.html
+    │       │   │   ├── Renderer_MtxState.html
+    │       │   │   └── Renderer_Overview.html
+    │       │   ├── RendererCore/
+    │       │   │   ├── clip_image0021.gif
+    │       │   │   ├── NNS_G2dInitRndCore.html
+    │       │   │   ├── NNS_G2dInitRndCore2DMtxCache.html
+    │       │   │   ├── NNS_G2dInitRndCoreSurface.html
+    │       │   │   ├── NNS_G2dIsRndCoreFlipXXX.html
+    │       │   │   ├── NNS_G2dRndCoreBeginRendering.html
+    │       │   │   ├── NNS_G2dRndCoreDrawCell.html
+    │       │   │   ├── NNS_G2dRndCoreDrawCellClone3D.html
+    │       │   │   ├── NNS_G2dRndCoreDrawCellFast2D.html
+    │       │   │   ├── NNS_G2dRndCoreDrawCellVramTransfer.html
+    │       │   │   ├── NNS_G2dRndCoreEndRendering.html
+    │       │   │   ├── NNS_G2dSetRndCore2DMtxCacheMtxParams.html
+    │       │   │   ├── NNS_G2dSetRndCore3DSoftSpriteZvalue.html
+    │       │   │   ├── NNS_G2dSetRndCoreAffineOverwriteMode.html
+    │       │   │   ├── NNS_G2dSetRndCoreCellCloneSource3D.html
+    │       │   │   ├── NNS_G2dSetRndCoreCurrentMtx2D.html
+    │       │   │   ├── NNS_G2dSetRndCoreCurrentMtx3D.html
+    │       │   │   ├── NNS_G2dSetRndCoreFlipMode.html
+    │       │   │   ├── NNS_G2dSetRndCoreImageProxy.html
+    │       │   │   ├── NNS_G2dSetRndCoreOamRegisterFunc.html
+    │       │   │   ├── NNS_G2dSetRndCoreSurface.html
+    │       │   │   └── RendererCore_Overview.html
+    │       │   ├── SoftwareSprite/
+    │       │   │   ├── image.jpg
+    │       │   │   ├── NNS_G2dDrawSprite.html
+    │       │   │   ├── NNS_G2dDrawSpriteXXX.html
+    │       │   │   ├── NNS_G2dDrawSpriteXXXFast.html
+    │       │   │   ├── NNS_G2dGetDefaultAttr.html
+    │       │   │   ├── NNS_G2dGetSpriteDefaultAttr.html
+    │       │   │   ├── NNS_G2dIsSpriteAttrEnable.html
+    │       │   │   ├── NNS_G2dSetCurrentPolygonID.html
+    │       │   │   ├── NNS_G2dSetDefaultAttr.html
+    │       │   │   ├── NNS_G2dSetSpriteAttrEnable.html
+    │       │   │   ├── NNS_G2dSetSpriteCurrentPolygonID.html
+    │       │   │   ├── NNS_G2dSetSpriteDefaultAttr.html
+    │       │   │   ├── NNS_G2dSetupSoftwareSpriteCamera.html
+    │       │   │   ├── NNS_G2dSetupSoftwareSpriteMaterial.html
+    │       │   │   └── SoftwareSprite_Overview.html
+    │       │   ├── TextCanvas/
+    │       │   │   ├── encoding.png
+    │       │   │   ├── NNS_G2D_UNICODE.html
+    │       │   │   ├── NNS_G2dTextCanvasDrawString.html
+    │       │   │   ├── NNS_G2dTextCanvasDrawTaggedText.html
+    │       │   │   ├── NNS_G2dTextCanvasDrawText.html
+    │       │   │   ├── NNS_G2dTextCanvasDrawTextRect.html
+    │       │   │   ├── NNS_G2dTextCanvasGetCharCanvas.html
+    │       │   │   ├── NNS_G2dTextCanvasGetFont.html
+    │       │   │   ├── NNS_G2dTextCanvasGetHSpace.html
+    │       │   │   ├── NNS_G2dTextCanvasGetStringWidth.html
+    │       │   │   ├── NNS_G2dTextCanvasGetTextHeight.html
+    │       │   │   ├── NNS_G2dTextCanvasGetTextRect.html
+    │       │   │   ├── NNS_G2dTextCanvasGetTextWidth.html
+    │       │   │   ├── NNS_G2dTextCanvasGetVSpace.html
+    │       │   │   ├── NNS_G2dTextCanvasInit.html
+    │       │   │   ├── NNS_G2dTextCanvasSetCharCanvas.html
+    │       │   │   ├── NNS_G2dTextCanvasSetFont.html
+    │       │   │   ├── NNS_G2dTextCanvasSetHSpace.html
+    │       │   │   ├── NNS_G2dTextCanvasSetVSpace.html
+    │       │   │   ├── NNSG2dTagCallback.html
+    │       │   │   ├── NNSG2dTagCallbackInfo.html
+    │       │   │   ├── StringSpace.png
+    │       │   │   ├── TextCanvas.png
+    │       │   │   └── TextCanvas_Overview.html
+    │       │   └── types/
+    │       │       ├── Animation/
+    │       │       │   ├── NNS_G2dCalcAnimSequenceTotalVideoFrames.html
+    │       │       │   ├── NNS_G2dGetAnimSequenceByIdx.html
+    │       │       │   ├── NNS_G2dGetAnimSequenceIndex.html
+    │       │       │   ├── NNS_G2dGetUserExAnimAttrBank.html
+    │       │       │   ├── NNS_G2dGetUserExAnimFrameAttr.html
+    │       │       │   ├── NNS_G2dGetUserExAnimFrmAttrValue.html
+    │       │       │   ├── NNS_G2dGetUserExAnimSeqAttrValue.html
+    │       │       │   └── NNS_G2dGetUserExAnimSequenceAttr.html
+    │       │       ├── Cell/
+    │       │       │   ├── NNS_G2dCellDataBankHasVramTransferData.html
+    │       │       │   ├── NNS_G2dCellHasBR.html
+    │       │       │   ├── NNS_G2dGetCellBoundingRect.html
+    │       │       │   ├── NNS_G2dGetCellBoundingSphereR.html
+    │       │       │   ├── NNS_G2dGetCellDataByIdx.html
+    │       │       │   ├── NNS_G2dGetOAMSize.html
+    │       │       │   ├── NNS_G2dGetSizeReqiredVramTransferCellDataBank.html
+    │       │       │   ├── NNS_G2dGetSizeRequiredVramTransferCellDataBank.html
+    │       │       │   ├── NNS_G2dGetUserExCellAttr.html
+    │       │       │   ├── NNS_G2dGetUserExCellAttrBankFromCellBank.html
+    │       │       │   ├── NNS_G2dGetUserExCellAttrValue.html
+    │       │       │   └── NNS_G2dRepeatXinCellSpace.html
+    │       │       └── MultiCell/
+    │       │           └── NNS_G2dGetUserExCellAttrBankFromMCBank.html
+    │       ├── g3d/
+    │       │   ├── anm/
+    │       │   │   ├── NNS_G3dGetAnmByIdx.html
+    │       │   │   └── NNS_G3dGetAnmByName.html
+    │       │   ├── binres/
+    │       │   │   ├── NNS_G3dGetDataBlockHeaderByIdx.html
+    │       │   │   ├── NNS_G3dGetMat.html
+    │       │   │   ├── NNS_G3dGetMdlByIdx.html
+    │       │   │   ├── NNS_G3dGetMdlByName.html
+    │       │   │   ├── NNS_G3dGetMdlSet.html
+    │       │   │   ├── NNS_G3dGetResDataByName.html
+    │       │   │   ├── NNS_G3dGetResDictIdxByName.html
+    │       │   │   ├── NNS_G3dGetSbc.html
+    │       │   │   ├── NNS_G3dGetShp.html
+    │       │   │   └── NNS_G3dGetTex.html
+    │       │   ├── funcptr/
+    │       │   │   ├── NNS_G3dAnmObjInitFuncArray.html
+    │       │   │   ├── NNS_G3dFuncSbcMatTable.html
+    │       │   │   ├── NNS_G3dFuncSbcShpTable.html
+    │       │   │   ├── NNS_G3dFuncSbcTable.html
+    │       │   │   ├── NNSG3dFuncAnmBlendJnt.html
+    │       │   │   ├── NNSG3dFuncAnmBlendMat.html
+    │       │   │   ├── NNSG3dFuncAnmBlendVis.html
+    │       │   │   ├── NNSG3dFuncAnmJnt.html
+    │       │   │   ├── NNSG3dFuncAnmMat.html
+    │       │   │   ├── NNSG3dFuncAnmVis.html
+    │       │   │   └── NNSG3dSbcCallBackFunc.html
+    │       │   ├── g3d.html
+    │       │   ├── G3DOverview.png
+    │       │   ├── gecom/
+    │       │   │   ├── GeometryCommand.html
+    │       │   │   ├── NNS_G3dGeBufferOP_N.html
+    │       │   │   ├── NNS_G3dGeFlushBuffer.html
+    │       │   │   ├── NNS_G3dGeIsBufferExist.html
+    │       │   │   ├── NNS_G3dGeIsBufferOK.html
+    │       │   │   ├── NNS_G3dGeIsImmOK.html
+    │       │   │   ├── NNS_G3dGeIsSendDLBusy.html
+    │       │   │   ├── NNS_G3dGeReleaseBuffer.html
+    │       │   │   ├── NNS_G3dGeSendDL.html
+    │       │   │   ├── NNS_G3dGeSetBuffer.html
+    │       │   │   └── NNS_G3dGeWaitSendDL.html
+    │       │   ├── glbstate/
+    │       │   │   ├── NNS_G3dGlbFlush.html
+    │       │   │   ├── NNS_G3dGlbFlushAlt.html
+    │       │   │   ├── NNS_G3dGlbFlushVP.html
+    │       │   │   ├── NNS_G3dGlbFrustum.html
+    │       │   │   ├── NNS_G3dGlbFrustumW.html
+    │       │   │   ├── NNS_G3dGlbGetBaseRot.html
+    │       │   │   ├── NNS_G3dGlbGetBaseScale.html
+    │       │   │   ├── NNS_G3dGlbGetBaseTrans.html
+    │       │   │   ├── NNS_G3dGlbGetCameraMtx.html
+    │       │   │   ├── NNS_G3dGlbGetCameraPos.html
+    │       │   │   ├── NNS_G3dGlbGetCameraTarget.html
+    │       │   │   ├── NNS_G3dGlbGetCameraUp.html
+    │       │   │   ├── NNS_G3dGlbGetInvCameraMtx.html
+    │       │   │   ├── NNS_G3dGlbGetInvP.html
+    │       │   │   ├── NNS_G3dGlbGetInvSrtCameraMtx.html
+    │       │   │   ├── NNS_G3dGlbGetInvVP.html
+    │       │   │   ├── NNS_G3dGlbGetInvW.html
+    │       │   │   ├── NNS_G3dGlbGetProjectionMtx.html
+    │       │   │   ├── NNS_G3dGlbGetSrtCameraMtx.html
+    │       │   │   ├── NNS_G3dGlbGetViewPort.html
+    │       │   │   ├── NNS_G3dGlbInit.html
+    │       │   │   ├── NNS_G3dGlbLightColor.html
+    │       │   │   ├── NNS_G3dGlbLightVector.html
+    │       │   │   ├── NNS_G3dGlbLookAt.html
+    │       │   │   ├── NNS_G3dGlbMaterialColorDiffAmb.html
+    │       │   │   ├── NNS_G3dGlbMaterialColorSpecEmi.html
+    │       │   │   ├── NNS_G3dGlbOrtho.html
+    │       │   │   ├── NNS_G3dGlbOrthoW.html
+    │       │   │   ├── NNS_G3dGlbPerspective.html
+    │       │   │   ├── NNS_G3dGlbPerspectiveW.html
+    │       │   │   ├── NNS_G3dGlbPolygonAttr.html
+    │       │   │   ├── NNS_G3dGlbSetBaseRot.html
+    │       │   │   ├── NNS_G3dGlbSetBaseScale.html
+    │       │   │   ├── NNS_G3dGlbSetBaseTrans.html
+    │       │   │   ├── NNS_G3dGlbSetProjectionMtx.html
+    │       │   │   └── NNS_G3dGlbSetViewPort.html
+    │       │   ├── incompatibility041011.html
+    │       │   ├── kernel/
+    │       │   │   ├── NNS_G3dAnmObjCalcSizeRequired.html
+    │       │   │   ├── NNS_G3dAnmObjDisableID.html
+    │       │   │   ├── NNS_G3dAnmObjEnableID.html
+    │       │   │   ├── NNS_G3dAnmObjGetNumFrame.html
+    │       │   │   ├── NNS_G3dAnmObjInit.html
+    │       │   │   ├── NNS_G3dAnmObjSetBlendRatio.html
+    │       │   │   ├── NNS_G3dAnmObjSetFrame.html
+    │       │   │   ├── NNS_G3dBindMdlPltt.html
+    │       │   │   ├── NNS_G3dBindMdlPlttEx.html
+    │       │   │   ├── NNS_G3dBindMdlSet.html
+    │       │   │   ├── NNS_G3dBindMdlTex.html
+    │       │   │   ├── NNS_G3dBindMdlTexEx.html
+    │       │   │   ├── NNS_G3dForceBindMdlPltt.html
+    │       │   │   ├── NNS_G3dForceBindMdlTex.html
+    │       │   │   ├── NNS_G3dPlttGetRequiredSize.html
+    │       │   │   ├── NNS_G3dPlttLoad.html
+    │       │   │   ├── NNS_G3dPlttReleasePlttKey.html
+    │       │   │   ├── NNS_G3dPlttSetPlttKey.html
+    │       │   │   ├── NNS_G3dReleaseMdlPltt.html
+    │       │   │   ├── NNS_G3dReleaseMdlPlttEx.html
+    │       │   │   ├── NNS_G3dReleaseMdlSet.html
+    │       │   │   ├── NNS_G3dReleaseMdlTex.html
+    │       │   │   ├── NNS_G3dReleaseMdlTexEx.html
+    │       │   │   ├── NNS_G3dRenderObjAddAnmObj.html
+    │       │   │   ├── NNS_G3dRenderObjGetResMdl.html
+    │       │   │   ├── NNS_G3dRenderObjInit.html
+    │       │   │   ├── NNS_G3dRenderObjReleaseJntAnmBuffer.html
+    │       │   │   ├── NNS_G3dRenderObjReleaseMatAnmBuffer.html
+    │       │   │   ├── NNS_G3dRenderObjRemoveAnmObj.html
+    │       │   │   ├── NNS_G3dRenderObjResetCallBack.html
+    │       │   │   ├── NNS_G3dRenderObjResetFlag.html
+    │       │   │   ├── NNS_G3dRenderObjSetBlendFuncJnt.html
+    │       │   │   ├── NNS_G3dRenderObjSetBlendFuncMat.html
+    │       │   │   ├── NNS_G3dRenderObjSetBlendFuncVis.html
+    │       │   │   ├── NNS_G3dRenderObjSetCallBack.html
+    │       │   │   ├── NNS_G3dRenderObjSetFlag.html
+    │       │   │   ├── NNS_G3dRenderObjSetInitFunc.html
+    │       │   │   ├── NNS_G3dRenderObjSetJntAnmBuffer.html
+    │       │   │   ├── NNS_G3dRenderObjSetMatAnmBuffer.html
+    │       │   │   ├── NNS_G3dRenderObjSetUserPtr.html
+    │       │   │   ├── NNS_G3dRenderObjSetUserSbc.html
+    │       │   │   ├── NNS_G3dRenderObjTestFlag.html
+    │       │   │   ├── NNS_G3dTex4x4GetRequiredSize.html
+    │       │   │   ├── NNS_G3dTexGetRequiredSize.html
+    │       │   │   ├── NNS_G3dTexLoad.html
+    │       │   │   ├── NNS_G3dTexReleaseTexKey.html
+    │       │   │   └── NNS_G3dTexSetTexKey.html
+    │       │   ├── list_g3d.html
+    │       │   ├── mem/
+    │       │   │   ├── NNS_G3dAllocAnmObj.html
+    │       │   │   ├── NNS_G3dAllocRecBufferJnt.html
+    │       │   │   ├── NNS_G3dAllocRecBufferMat.html
+    │       │   │   ├── NNS_G3dAllocRenderObj.html
+    │       │   │   ├── NNS_G3dFreeAnmObj.html
+    │       │   │   ├── NNS_G3dFreeRecBufferJnt.html
+    │       │   │   ├── NNS_G3dFreeRecBufferMat.html
+    │       │   │   └── NNS_G3dFreeRenderObj.html
+    │       │   ├── model/
+    │       │   │   ├── NNS_G3dMdlGetMdlXXXXX.html
+    │       │   │   ├── NNS_G3dMdlSetMdlXXXXX.html
+    │       │   │   ├── NNS_G3dMdlSetMdlXXXXXAll.html
+    │       │   │   ├── NNS_G3dMdlUseGlbXXXXX.html
+    │       │   │   └── NNS_G3dMdlUseMdlXXXXX.html
+    │       │   ├── sbc/
+    │       │   │   ├── NNS_G3dDraw.html
+    │       │   │   ├── NNS_G3dDraw1Mat1Shp.html
+    │       │   │   ├── NNSG3dRS.html
+    │       │   │   ├── SBC_BB.html
+    │       │   │   ├── SBC_BBY.html
+    │       │   │   ├── SBC_CALLDL.html
+    │       │   │   ├── SBC_ENVMAP.html
+    │       │   │   ├── SBC_MAT.html
+    │       │   │   ├── SBC_MTX.html
+    │       │   │   ├── SBC_NODE.html
+    │       │   │   ├── SBC_NODEDESC.html
+    │       │   │   ├── SBC_NODEMIX.html
+    │       │   │   ├── SBC_NOP.html
+    │       │   │   ├── SBC_POSSCALE.html
+    │       │   │   ├── SBC_PRJMAP.html
+    │       │   │   ├── SBC_RET.html
+    │       │   │   ├── SBC_SHP.html
+    │       │   │   ├── SBCCallback.html
+    │       │   │   └── SBCGlobalVariables.html
+    │       │   ├── struct/
+    │       │   │   ├── NNSG3dAnmObj.html
+    │       │   │   ├── NNSG3dGlb.html
+    │       │   │   ├── NNSG3dJntAnmResult.html
+    │       │   │   ├── NNSG3dMatAnmResult.html
+    │       │   │   ├── NNSG3dRenderObj.html
+    │       │   │   ├── NNSG3dResMdl.html
+    │       │   │   ├── NNSG3dResTex.html
+    │       │   │   └── NNSG3dVisAnmResult.html
+    │       │   └── util/
+    │       │       ├── NNS_G3dGetChildNodeIDList.html
+    │       │       ├── NNS_G3dGetCurrentMtx.html
+    │       │       ├── NNS_G3dGetParentNodeID.html
+    │       │       ├── NNS_G3dGetResultMtx.html
+    │       │       ├── NNS_G3dGetSbcCmdLen.html
+    │       │       ├── NNS_G3dInit.html
+    │       │       ├── NNS_G3dLocalOriginToScrPos.html
+    │       │       ├── NNS_G3dResDefaultRelease.html
+    │       │       ├── NNS_G3dResDefaultSetup.html
+    │       │       ├── NNS_G3dScrPosToWorldLine.html
+    │       │       ├── NNS_G3dSearchSbcCmd.html
+    │       │       ├── NNS_G3dSetResultMtx.html
+    │       │       ├── NNS_G3dWorldPosToScrPos.html
+    │       │       └── ResourceNameMacro.html
+    │       ├── gfd/
+    │       │   ├── FrmPlttVramMan/
+    │       │   │   ├── NNS_GfdAllocFrmPlttVram.html
+    │       │   │   ├── NNS_GfdDumpFrmPlttVramManager.html
+    │       │   │   ├── NNS_GfdDumpFrmPlttVramManagerEx.html
+    │       │   │   ├── NNS_GfdFreeFrmPlttVram.html
+    │       │   │   ├── NNS_GfdGetFrmPlttVramState.html
+    │       │   │   ├── NNS_GfdInitFrmPlttVramManager.html
+    │       │   │   ├── NNS_GfdResetFrmPlttVramState.html
+    │       │   │   └── NNS_GfdSetFrmPlttVramState.html
+    │       │   ├── FrmTexVramMan/
+    │       │   │   ├── NNS_GfdAllocFrmTexVram.html
+    │       │   │   ├── NNS_GfdDumpFrmTexVramManager.html
+    │       │   │   ├── NNS_GfdDumpFrmTexVramManagerEx.html
+    │       │   │   ├── NNS_GfdFreeFrmTexVram.html
+    │       │   │   ├── NNS_GfdGetFrmTexVramState.html
+    │       │   │   ├── NNS_GfdInitFrmTexVramManager.html
+    │       │   │   ├── NNS_GfdResetFrmTexVramState.html
+    │       │   │   └── NNS_GfdSetFrmTexVramState.html
+    │       │   ├── gfd.html
+    │       │   ├── list_gfd.html
+    │       │   ├── LnkPlttVramMan/
+    │       │   │   ├── NNS_GfdAllocLnkPlttVram.html
+    │       │   │   ├── NNS_GfdDumpLnkPlttVramManager.html
+    │       │   │   ├── NNS_GfdDumpLnkPlttVramManagerEx.html
+    │       │   │   ├── NNS_GfdFreeLnkPlttVram.html
+    │       │   │   ├── NNS_GfdGetLnkPlttVramManagerWorkSize.html
+    │       │   │   ├── NNS_GfdInitLnkPlttVramManager.html
+    │       │   │   └── NNS_GfdResetLnkPlttVramState.html
+    │       │   ├── LnkTexVramMan/
+    │       │   │   ├── NNS_GfdAllocLnkTexVram.html
+    │       │   │   ├── NNS_GfdDumpLnkTexVramManager.html
+    │       │   │   ├── NNS_GfdDumpLnkTexVramManagerEx.html
+    │       │   │   ├── NNS_GfdFreeLnkTexVram.html
+    │       │   │   ├── NNS_GfdGetLnkTexVramManagerWorkSize.html
+    │       │   │   ├── NNS_GfdInitLnkTexVramManager.html
+    │       │   │   └── NNS_GfdResetLnkTexVramState.html
+    │       │   ├── PlttVramMan/
+    │       │   │   ├── NNS_GfdAllocPlttVram.html
+    │       │   │   ├── NNS_GfdFreePlttVram.html
+    │       │   │   ├── NNS_GfdGetPlttKeyAddr.html
+    │       │   │   └── NNS_GfdGetPlttKeySize.html
+    │       │   ├── TexVramMan/
+    │       │   │   ├── NNS_GfdAllocTexVram.html
+    │       │   │   ├── NNS_GfdFreeTexVram.html
+    │       │   │   ├── NNS_GfdGetTexKey4x4Flag.html
+    │       │   │   ├── NNS_GfdGetTexKeyAddr.html
+    │       │   │   └── NNS_GfdGetTexKeySize.html
+    │       │   └── VramTransMan/
+    │       │       ├── NNS_GfdClearVramTransferManagerQueue.html
+    │       │       ├── NNS_GfdDoVramTransfer.html
+    │       │       ├── NNS_GfdGetVramTransferTaskTotalSize.html
+    │       │       ├── NNS_GfdInitVramTransferManager.html
+    │       │       └── NNS_GfdRegisterNewVramTransferTask.html
+    │       ├── icons.html
+    │       ├── img/
+    │       │   └── logo-b.gif
+    │       ├── index.html
+    │       ├── main.html
+    │       ├── mcs/
+    │       │   ├── list_mcs.html
+    │       │   ├── mcs.html
+    │       │   ├── nitro/
+    │       │   │   ├── NNS_McsCartridgeInterrupt.html
+    │       │   │   ├── NNS_McsClose.html
+    │       │   │   ├── NNS_McsCloseFile.html
+    │       │   │   ├── NNS_McsCloseFind.html
+    │       │   │   ├── NNS_McsFindFirstFile.html
+    │       │   │   ├── NNS_McsFindNextFile.html
+    │       │   │   ├── NNS_McsGetFileSize.html
+    │       │   │   ├── NNS_McsGetMaxCaps.html
+    │       │   │   ├── NNS_McsGetServerErrorCode.html
+    │       │   │   ├── NNS_McsGetStreamReadableSize.html
+    │       │   │   ├── NNS_McsGetStreamWritableLength.html
+    │       │   │   ├── NNS_McsGetTotalStreamReadableSize.html
+    │       │   │   ├── NNS_McsInit.html
+    │       │   │   ├── NNS_McsInitFileIO.html
+    │       │   │   ├── NNS_McsInitPrint.html
+    │       │   │   ├── NNS_McsIsServerConnect.html
+    │       │   │   ├── NNS_McsOpen.html
+    │       │   │   ├── NNS_McsOpenFile.html
+    │       │   │   ├── NNS_McsPollingIdle.html
+    │       │   │   ├── NNS_McsPrintf.html
+    │       │   │   ├── NNS_McsPutString.html
+    │       │   │   ├── NNS_McsReadFile.html
+    │       │   │   ├── NNS_McsReadStream.html
+    │       │   │   ├── NNS_McsRegisterRecvCallback.html
+    │       │   │   ├── NNS_McsRegisterStreamRecvBuffer.html
+    │       │   │   ├── NNS_McsSeekFile.html
+    │       │   │   ├── NNS_McsUnregisterRecvResource.html
+    │       │   │   ├── NNS_McsVBlankInterrupt.html
+    │       │   │   ├── NNS_McsWriteFile.html
+    │       │   │   └── NNS_McsWriteStream.html
+    │       │   └── win/
+    │       │       ├── NNS_McsOpenStream.html
+    │       │       └── NNS_McsOpenStreamEx.html
+    │       ├── snd/
+    │       │   ├── list_snd.html
+    │       │   ├── NNS_SndAllocAlarm.html
+    │       │   ├── NNS_SndArcGetBankInfo.html
+    │       │   ├── NNS_SndArcGetCount.html
+    │       │   ├── NNS_SndArcGetCurrent.html
+    │       │   ├── NNS_SndArcGetFileAddress.html
+    │       │   ├── NNS_SndArcGetFileID.html
+    │       │   ├── NNS_SndArcGetFileOffset.html
+    │       │   ├── NNS_SndArcGetFileSize.html
+    │       │   ├── NNS_SndArcGetGroupInfo.html
+    │       │   ├── NNS_SndArcGetLoadBlockSize.html
+    │       │   ├── NNS_SndArcGetPlayerInfo.html
+    │       │   ├── NNS_SndArcGetSeqArcInfo.html
+    │       │   ├── NNS_SndArcGetSeqArcParam.html
+    │       │   ├── NNS_SndArcGetSeqArcSeqCount.html
+    │       │   ├── NNS_SndArcGetSeqInfo.html
+    │       │   ├── NNS_SndArcGetSeqParam.html
+    │       │   ├── NNS_SndArcGetStrmInfo.html
+    │       │   ├── NNS_SndArcGetStrmPlayerInfo.html
+    │       │   ├── NNS_SndArcGetSymbol.html
+    │       │   ├── NNS_SndArcGetWaveArcInfo.html
+    │       │   ├── NNS_SndArcInit.html
+    │       │   ├── NNS_SndArcInitOnMemory.html
+    │       │   ├── NNS_SndArcLoadBank.html
+    │       │   ├── NNS_SndArcLoadGroup.html
+    │       │   ├── NNS_SndArcLoadSeq.html
+    │       │   ├── NNS_SndArcLoadSeqArc.html
+    │       │   ├── NNS_SndArcLoadWaveArc.html
+    │       │   ├── NNS_SndArcPlayerSetup.html
+    │       │   ├── NNS_SndArcPlayerStartSeq.html
+    │       │   ├── NNS_SndArcPlayerStartSeqArc.html
+    │       │   ├── NNS_SndArcReadFile.html
+    │       │   ├── NNS_SndArcSetCurrent.html
+    │       │   ├── NNS_SndArcSetFileAddress.html
+    │       │   ├── NNS_SndArcSetLoadBlockSize.html
+    │       │   ├── NNS_SndArcSetup.html
+    │       │   ├── NNS_SndArcStrmAllocChannel.html
+    │       │   ├── NNS_SndArcStrmCreatePrepareThread.html
+    │       │   ├── NNS_SndArcStrmFreeChannel.html
+    │       │   ├── NNS_SndArcStrmGetChannelCount.html
+    │       │   ├── NNS_SndArcStrmGetCurrentPlayingPos.html
+    │       │   ├── NNS_SndArcStrmGetTimeLength.html
+    │       │   ├── NNS_SndArcStrmInit.html
+    │       │   ├── NNS_SndArcStrmIsPrepared.html
+    │       │   ├── NNS_SndArcStrmMoveVolume.html
+    │       │   ├── NNS_SndArcStrmPrepare.html
+    │       │   ├── NNS_SndArcStrmPrepareEx.html
+    │       │   ├── NNS_SndArcStrmPrepareEx2.html
+    │       │   ├── NNS_SndArcStrmSetChannelPan.html
+    │       │   ├── NNS_SndArcStrmSetChannelVolume.html
+    │       │   ├── NNS_SndArcStrmSetupPlayer.html
+    │       │   ├── NNS_SndArcStrmSetVolume.html
+    │       │   ├── NNS_SndArcStrmStart.html
+    │       │   ├── NNS_SndArcStrmStartEx.html
+    │       │   ├── NNS_SndArcStrmStartEx2.html
+    │       │   ├── NNS_SndArcStrmStartPrepared.html
+    │       │   ├── NNS_SndArcStrmStop.html
+    │       │   ├── NNS_SndArcStrmStopAll.html
+    │       │   ├── NNS_SndBeginSleep.html
+    │       │   ├── NNS_SndCaptureChangeOutputEffect.html
+    │       │   ├── NNS_SndCaptureCreateThread.html
+    │       │   ├── NNS_SndCaptureDestroyThread.html
+    │       │   ├── NNS_SndCaptureGetCaptureType.html
+    │       │   ├── NNS_SndCaptureIsActive.html
+    │       │   ├── NNS_SndCaptureSetOutputEffectCallback.html
+    │       │   ├── NNS_SndCaptureSetPostOutputEffectCallback.html
+    │       │   ├── NNS_SndCaptureSetReverbVolume.html
+    │       │   ├── NNS_SndCaptureStartEffect.html
+    │       │   ├── NNS_SndCaptureStartOutputEffect.html
+    │       │   ├── NNS_SndCaptureStartReverb.html
+    │       │   ├── NNS_SndCaptureStartSampling.html
+    │       │   ├── NNS_SndCaptureStopEffect.html
+    │       │   ├── NNS_SndCaptureStopOutputEffect.html
+    │       │   ├── NNS_SndCaptureStopReverb.html
+    │       │   ├── NNS_SndCaptureStopSampling.html
+    │       │   ├── NNS_SndEndSleep.html
+    │       │   ├── NNS_SndFreeAlarm.html
+    │       │   ├── NNS_SndHandleInit.html
+    │       │   ├── NNS_SndHandleIsValid.html
+    │       │   ├── NNS_SndHandleReleaseSeq.html
+    │       │   ├── NNS_SndHeapAlloc.html
+    │       │   ├── NNS_SndHeapClear.html
+    │       │   ├── NNS_SndHeapCreate.html
+    │       │   ├── NNS_SndHeapDestroy.html
+    │       │   ├── NNS_SndHeapGetCurrentLevel.html
+    │       │   ├── NNS_SndHeapGetFreeSize.html
+    │       │   ├── NNS_SndHeapGetSize.html
+    │       │   ├── NNS_SndHeapLoadState.html
+    │       │   ├── NNS_SndHeapSaveState.html
+    │       │   ├── NNS_SndInit.html
+    │       │   ├── NNS_SndLockCapture.html
+    │       │   ├── NNS_SndLockChannel.html
+    │       │   ├── NNS_SndMain.html
+    │       │   ├── NNS_SndPlayerCountPlayingSeq.html
+    │       │   ├── NNS_SndPlayerCreateHeap.html
+    │       │   ├── NNS_SndPlayerGetSeqArcIdx.html
+    │       │   ├── NNS_SndPlayerGetSeqArcNo.html
+    │       │   ├── NNS_SndPlayerGetSeqNo.html
+    │       │   ├── NNS_SndPlayerGetSeqType.html
+    │       │   ├── NNS_SndPlayerGetTick.html
+    │       │   ├── NNS_SndPlayerMoveVolume.html
+    │       │   ├── NNS_SndPlayerPause.html
+    │       │   ├── NNS_SndPlayerReadDriverPlayerInfo.html
+    │       │   ├── NNS_SndPlayerReadDriverTrackInfo.html
+    │       │   ├── NNS_SndPlayerReadGlobalVariable.html
+    │       │   ├── NNS_SndPlayerReadVariable.html
+    │       │   ├── NNS_SndPlayerSetAllocatableChannel.html
+    │       │   ├── NNS_SndPlayerSetChannelPriority.html
+    │       │   ├── NNS_SndPlayerSetInitialVolume.html
+    │       │   ├── NNS_SndPlayerSetPlayableSeqCount.html
+    │       │   ├── NNS_SndPlayerSetPlayerPriority.html
+    │       │   ├── NNS_SndPlayerSetPlayerVolume.html
+    │       │   ├── NNS_SndPlayerSetSeqArcNo.html
+    │       │   ├── NNS_SndPlayerSetSeqNo.html
+    │       │   ├── NNS_SndPlayerSetTempoRatio.html
+    │       │   ├── NNS_SndPlayerSetTrackAllocatableChannel.html
+    │       │   ├── NNS_SndPlayerSetTrackModDepth.html
+    │       │   ├── NNS_SndPlayerSetTrackModSpeed.html
+    │       │   ├── NNS_SndPlayerSetTrackMute.html
+    │       │   ├── NNS_SndPlayerSetTrackPan.html
+    │       │   ├── NNS_SndPlayerSetTrackPanRange.html
+    │       │   ├── NNS_SndPlayerSetTrackPitch.html
+    │       │   ├── NNS_SndPlayerSetTrackVolume.html
+    │       │   ├── NNS_SndPlayerSetVolume.html
+    │       │   ├── NNS_SndPlayerStopSeq.html
+    │       │   ├── NNS_SndPlayerWriteGlobalVariable.html
+    │       │   ├── NNS_SndPlayerWriteVariable.html
+    │       │   ├── NNS_SndReadDriverChannelInfo.html
+    │       │   ├── NNS_SndSetMasterVolume.html
+    │       │   ├── NNS_SndSetMonoFlag.html
+    │       │   ├── NNS_SndStopChannelAll.html
+    │       │   ├── NNS_SndStopSoundAll.html
+    │       │   ├── NNS_SndStrmAllocChannel.html
+    │       │   ├── NNS_SndStrmBeginSleep.html
+    │       │   ├── NNS_SndStrmEndSleep.html
+    │       │   ├── NNS_SndStrmFreeChannel.html
+    │       │   ├── NNS_SndStrmHandleInit.html
+    │       │   ├── NNS_SndStrmHandleIsValid.html
+    │       │   ├── NNS_SndStrmHandleRelease.html
+    │       │   ├── NNS_SndStrmInit.html
+    │       │   ├── NNS_SndStrmSetChannelPan.html
+    │       │   ├── NNS_SndStrmSetChannelVolume.html
+    │       │   ├── NNS_SndStrmSetup.html
+    │       │   ├── NNS_SndStrmSetVolume.html
+    │       │   ├── NNS_SndStrmStart.html
+    │       │   ├── NNS_SndStrmStop.html
+    │       │   ├── NNS_SndUnlockCapture.html
+    │       │   ├── NNS_SndUnlockChannel.html
+    │       │   ├── NNS_SndUpdateDriverInfo.html
+    │       │   ├── NNS_SndWaveOutAllocChannel.html
+    │       │   ├── NNS_SndWaveOutFreeChannel.html
+    │       │   ├── NNS_SndWaveOutIsPlaying.html
+    │       │   ├── NNS_SndWaveOutSetPan.html
+    │       │   ├── NNS_SndWaveOutSetSpeed.html
+    │       │   ├── NNS_SndWaveOutSetVolume.html
+    │       │   ├── NNS_SndWaveOutStart.html
+    │       │   ├── NNS_SndWaveOutStop.html
+    │       │   ├── NNS_SndWaveOutWaitForChannelStop.html
+    │       │   ├── NNSSndArcBankInfo.html
+    │       │   ├── NNSSndArcGroupInfo.html
+    │       │   ├── NNSSndArcGroupItem.html
+    │       │   ├── NNSSndArcPlayerInfo.html
+    │       │   ├── NNSSndArcSeqArcInfo.html
+    │       │   ├── NNSSndArcSeqInfo.html
+    │       │   ├── NNSSndArcStrmCallback.html
+    │       │   ├── NNSSndArcStrmInfo.html
+    │       │   ├── NNSSndArcStrmPlayerInfo.html
+    │       │   ├── NNSSndArcWaveArcInfo.html
+    │       │   ├── NNSSndSeqParam.html
+    │       │   ├── NNSSndStrmCallback.html
+    │       │   └── snd.html
+    │       └── snd_drv/
+    │           ├── SNDChannelInfo.html
+    │           ├── SNDPlayerInfo.html
+    │           └── SNDTrackInfo.html
+    ├── Readme-NitroSystem-071126.txt
+    ├── SourceTreeMap.txt
+    └── tools/
+        ├── nitro/
+        │   └── SoundPlayer/
+        │       ├── components/
+        │       │   ├── ARM7-TS/
+        │       │   │   ├── Debug/
+        │       │   │   │   ├── sub.nef
+        │       │   │   │   ├── sub.sbin
+        │       │   │   │   └── sub_defs.sbin
+        │       │   │   ├── Release/
+        │       │   │   │   ├── sub.nef
+        │       │   │   │   ├── sub.sbin
+        │       │   │   │   └── sub_defs.sbin
+        │       │   │   └── Rom/
+        │       │   │       ├── sub.nef
+        │       │   │       ├── sub.sbin
+        │       │   │       └── sub_defs.sbin
+        │       │   ├── ARM7-TS.thumb/
+        │       │   │   ├── Debug/
+        │       │   │   │   ├── sub.nef
+        │       │   │   │   ├── sub.sbin
+        │       │   │   │   └── sub_defs.sbin
+        │       │   │   ├── Release/
+        │       │   │   │   ├── sub.nef
+        │       │   │   │   ├── sub.sbin
+        │       │   │   │   └── sub_defs.sbin
+        │       │   │   └── Rom/
+        │       │   │       ├── sub.nef
+        │       │   │       ├── sub.sbin
+        │       │   │       └── sub_defs.sbin
+        │       │   ├── ARM9-TS/
+        │       │   │   ├── Debug/
+        │       │   │   │   ├── main.nef
+        │       │   │   │   ├── main.sbin
+        │       │   │   │   └── main_defs.sbin
+        │       │   │   ├── Release/
+        │       │   │   │   ├── main.nef
+        │       │   │   │   ├── main.sbin
+        │       │   │   │   └── main_defs.sbin
+        │       │   │   └── Rom/
+        │       │   │       ├── main.nef
+        │       │   │       ├── main.sbin
+        │       │   │       └── main_defs.sbin
+        │       │   └── ARM9-TS.thumb/
+        │       │       ├── Debug/
+        │       │       │   ├── main.nef
+        │       │       │   ├── main.sbin
+        │       │       │   └── main_defs.sbin
+        │       │       ├── Release/
+        │       │       │   ├── main.nef
+        │       │       │   ├── main.sbin
+        │       │       │   └── main_defs.sbin
+        │       │       └── Rom/
+        │       │           ├── main.nef
+        │       │           ├── main.sbin
+        │       │           └── main_defs.sbin
+        │       ├── data/
+        │       │   ├── aif/
+        │       │   │   ├── bass_pull.e2.aiff
+        │       │   │   ├── bass_slpthm.e2.aiff
+        │       │   │   ├── bassdrum.aiff
+        │       │   │   ├── cabasa.aiff
+        │       │   │   ├── cym_crash.aiff
+        │       │   │   ├── cym_splash.aiff
+        │       │   │   ├── hhcl.fs2.aiff
+        │       │   │   ├── hhop.as2.aiff
+        │       │   │   ├── hhpd.gs2.aiff
+        │       │   │   ├── organ.b4.aiff
+        │       │   │   ├── organ_det.g3.aiff
+        │       │   │   ├── organ_det.g4.aiff
+        │       │   │   ├── piano.g5.aiff
+        │       │   │   ├── piano.g6.aiff
+        │       │   │   ├── press_start01.z.16.c4.aiff
+        │       │   │   ├── press_start01.z.32.c4.aiff
+        │       │   │   ├── press_start01.z.96.c4.aiff
+        │       │   │   ├── snare.aiff
+        │       │   │   ├── starbell.e6.aiff
+        │       │   │   ├── strings.ds5.aiff
+        │       │   │   ├── timbale_h.aiff
+        │       │   │   ├── wihaho.aiff
+        │       │   │   └── yoshi.aiff
+        │       │   ├── bnk/
+        │       │   │   ├── bgm.bnk
+        │       │   │   └── se.bnk
+        │       │   ├── MakeSound.bat
+        │       │   ├── mid/
+        │       │   │   └── kart64_title.mid
+        │       │   ├── mus/
+        │       │   │   └── se.mus
+        │       │   ├── ReMakeSound.bat
+        │       │   ├── sound_data.sarc
+        │       │   └── strm/
+        │       │       ├── fanfare.32.aiff
+        │       │       └── kart_title.32.aiff
+        │       └── SoundPlayer.rsf
+        └── win/
+            ├── bin/
+            │   ├── bankconv.exe
+            │   ├── bg.dll
+            │   ├── BuildNENR.exe
+            │   ├── g2dcvtr.exe
+            │   ├── g3dcvtr.exe
+            │   ├── MakeSoundPlayer.bat
+            │   ├── nnsarc.exe
+            │   ├── seqconv.exe
+            │   ├── smfconv.exe
+            │   ├── sndarc.exe
+            │   ├── strmconv.exe
+            │   ├── wavearc.exe
+            │   ├── waveconv.exe
+            │   └── xerces-c_2_5_0.dll
+            ├── fontcvtr/
+            │   ├── fontcvtr.exe
+            │   ├── fontcvtrc.exe
+            │   ├── xerces-c_2_5_0.dll
+            │   ├── xllt/
+            │   │   ├── letter-list.dtd
+            │   │   └── sample.xllt
+            │   └── xlor/
+            │       ├── cp1252.xlor
+            │       ├── cp949.xlor
+            │       ├── ds_ipl.xlor
+            │       ├── ds_ipl_chinese.xlor
+            │       ├── ds_ipl_korean.xlor
+            │       ├── JIS_X0201_X0208_01.xlor
+            │       ├── JIS_X0201_X0208_012.xlor
+            │       └── letter-order.dtd
+            ├── mcsserver/
+            │   ├── 1041/
+            │   │   └── langRes.dll
+            │   ├── mcsserv.exe
+            │   └── nnsmcs.dll
+            └── NitroPlayer/
+                ├── mcsserv_EMU.lnk
+                ├── mcsserv_EMU_MIDI.lnk
+                ├── mcsserv_UIC.lnk
+                ├── nitro/
+                │   ├── ARM9-TS/
+                │   │   ├── Debug/
+                │   │   │   └── NitroPlayer.srl
+                │   │   └── Release/
+                │   │       └── NitroPlayer.srl
+                │   └── ARM9-TS.thumb/
+                │       ├── Debug/
+                │       │   └── NitroPlayer.srl
+                │       └── Release/
+                │           └── NitroPlayer.srl
+                └── NitroPlayer.exe

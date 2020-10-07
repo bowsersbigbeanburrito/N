@@ -1,0 +1,122 @@
+{
+    "etc\\apache": {
+        "httpd.conf": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'httpd.conf'"
+        }
+    },
+    "mnt\\mis\\www": {
+        "netbootindex.html": {
+            "Content-Encoding": "EUC-JP",
+            "Content-Type": "text/html; charset=EUC-JP",
+            "Content-Type-Hint": "text/html; charset=EUC-JP",
+            "Refresh": "1; URL=./cgi-bin/index.cgi?boot=net",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.html.HtmlParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'netbootindex.html'"
+        },
+        "stbtn.gif": {
+            "Chroma BlackIsZero": "true",
+            "Chroma ColorSpaceType": "RGB",
+            "Chroma NumChannels": "4",
+            "Compression CompressionTypeName": "lzw",
+            "Compression Lossless": "true",
+            "Compression NumProgressiveScans": "1",
+            "Content-Type": "image/gif",
+            "Data SampleFormat": "Index",
+            "Dimension HorizontalPixelOffset": "0",
+            "Dimension ImageOrientation": "Normal",
+            "Dimension VerticalPixelOffset": "0",
+            "GraphicControlExtension": "disposalMethod=none, userInputFlag=false, transparentColorFlag=true, delayTime=10, transparentColorIndex=15",
+            "ImageDescriptor": "imageLeftPosition=0, imageTopPosition=0, imageWidth=69, imageHeight=19, interlaceFlag=false",
+            "Transparency TransparentIndex": "15",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.image.ImageParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "height": "19",
+            "resourceName": "b'stbtn.gif'",
+            "tiff:ImageLength": "19",
+            "tiff:ImageWidth": "69",
+            "width": "69"
+        }
+    },
+    "mnt\\mis\\www\\cgi-bin": {
+        "resetlist.cgi": {
+            "Content-Encoding": "EUC-JP",
+            "Content-Type": "text/x-perl; charset=EUC-JP",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'resetlist.cgi'"
+        },
+        "resetmode.cgi": {
+            "Content-Encoding": "EUC-JP",
+            "Content-Type": "text/x-perl; charset=EUC-JP",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'resetmode.cgi'"
+        },
+        "setmode.cgi": {
+            "Content-Encoding": "EUC-JP",
+            "Content-Type": "text/x-perl; charset=EUC-JP",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'setmode.cgi'"
+        }
+    },
+    "mnt\\mis\\www\\cgi-bin\\Wii": {
+        "index.cgi": {
+            "Content-Encoding": "EUC-JP",
+            "Content-Type": "text/x-perl; charset=EUC-JP",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'index.cgi'"
+        },
+        "menu.cgi": {
+            "Content-Encoding": "EUC-JP",
+            "Content-Type": "text/x-perl; charset=EUC-JP",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'menu.cgi'"
+        }
+    }
+}

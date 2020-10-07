@@ -1,0 +1,110 @@
+agb_bootrom/
+├── agb_bootrom/
+│   ├── .git/
+│   ├── AgbMnTs3_000605.bin
+│   ├── build/
+│   │   ├── AgbInclude/
+│   │   │   ├── Agb.h
+│   │   │   ├── AgbDefine.h
+│   │   │   ├── AgbDefine.s
+│   │   │   ├── AgbDefineArm.s
+│   │   │   ├── AgbMacro.h
+│   │   │   ├── AgbMacro.s
+│   │   │   ├── AgbMacroArm.s
+│   │   │   ├── AgbMemoryMap.h
+│   │   │   ├── AgbMemoryMap.s
+│   │   │   ├── AgbMemoryMapArm.s
+│   │   │   ├── AgbMultiBoot.h
+│   │   │   ├── AgbSound.h
+│   │   │   ├── AgbSystemCall.h
+│   │   │   ├── AgbTypes.h
+│   │   │   └── IsAgbPrint.h
+│   │   ├── AgbLib/
+│   │   │   ├── libagbsyscall.a
+│   │   │   ├── libagbsyscall154.a
+│   │   │   ├── libagbsyscall98r2.a
+│   │   │   ├── libagbsyscall_arm.alf
+│   │   │   ├── libagbsyscall_arm154.alf
+│   │   │   ├── libagbsyscall_arm99r1p2.alf
+│   │   │   ├── libisagbprn.a
+│   │   │   └── libisagbprn_arm.alf
+│   │   ├── AgbLogoData.c
+│   │   ├── AgbMnTs3_000605_Sum.txt
+│   │   ├── AgbMon.apj
+│   │   ├── AgbMon.c
+│   │   ├── AgbMon.h
+│   │   ├── AgbMonData.c
+│   │   ├── AgbMonData.h
+│   │   ├── AgbMonDefine.h
+│   │   ├── AgbMonDefineArm.s
+│   │   ├── AgbMonMacro.h
+│   │   ├── AgbMonSound.h
+│   │   ├── AgbMonSub.h
+│   │   ├── AgbMonSub16.c
+│   │   ├── AgbMonSub32.c
+│   │   ├── AgbMonTypes.h
+│   │   ├── AgbMonUncompFilt16.c
+│   │   ├── AgbMonUncompFilt32.c
+│   │   ├── AgbMPlay.c
+│   │   ├── AgbSound.c
+│   │   ├── AgbSoundAsmArm.s
+│   │   ├── AgbSoundPrv.h
+│   │   ├── AGBデバッガ対応方法.txt
+│   │   ├── AGBモニタ履歴.txt
+│   │   ├── Arm.map
+│   │   ├── ArmDebug.map
+│   │   ├── crt0Arm.s
+│   │   ├── crt0ArmCst.s
+│   │   ├── crt0IncludeArm.s
+│   │   ├── crt0KeyAddr.s
+│   │   ├── crt0SinTable.s
+│   │   ├── crt0subArm.s
+│   │   ├── crt0subArmCommon.s
+│   │   ├── crt0subArmCst.s
+│   │   ├── ds_sine_arm.s
+│   │   ├── ds_startup_arm.s
+│   │   ├── MPlayDefPrvArm.s
+│   │   ├── multi18_Arm.s
+│   │   ├── MusicPlayDefArm.s
+│   │   ├── sd_cancel_arm.s
+│   │   ├── sd_cut_arm.s
+│   │   ├── sd_logo_arm.s
+│   │   ├── sd_ok_arm.s
+│   │   ├── sd_piron_arm.s
+│   │   └── tools/
+│   │       ├── AgbComp/
+│   │       │   ├── AgbComp.bpr
+│   │       │   ├── AgbComp.cpp
+│   │       │   ├── AgbComp.exe
+│   │       │   ├── AgbComp.h
+│   │       │   ├── agbcomp.htm
+│   │       │   └── read_me.txt
+│   │       └── Bmp2Agb/
+│   │           ├── Bmp2Agb.bpr
+│   │           ├── Bmp2Agb.cpp
+│   │           ├── Bmp2Agb.exe
+│   │           ├── Bmp2Agb.h
+│   │           └── bmp2agb.htm
+│   └── doc/
+│       ├── 000209-agbマルチブート状態遷移図.jpg
+│       ├── AGB_ROM内登録データ (秘)_040907.xls
+│       ├── AGB_ROM内登録データ案_040907.xls
+│       ├── AgbStack.txt
+│       ├── AGBシリアルブートマニュアル.doc
+│       ├── AGB－CPUモニタプログラム仕様書_000317.doc
+│       ├── GNUPro-98r2→GNUPro-99r1対応方法.txt
+│       ├── joyboot-a.gif
+│       ├── joyboot-b.gif
+│       └── 拡張モジュール判別手順.txt
+└── cgb_bootrom/
+    ├── .git/
+    ├── AgbCgbMn2_1.com
+    ├── build/
+    │   ├── agb_cgb.dmg
+    │   ├── asmagbcgb.bat
+    │   ├── cgb_es2.dmg
+    │   └── cgbw6def.dmg
+    ├── CgbEs2Mn.com
+    └── doc/
+        ├── CGB－CPUモニタープログラム仕様書_980403.doc
+        └── CGB－CPUモニタープログラム仕様書_980615.doc

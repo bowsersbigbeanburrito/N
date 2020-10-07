@@ -1,0 +1,103 @@
+Made with tikatree 0.0.10
+0376802/
+└── gba_cnc/
+    ├── cnc_puls3/
+    │   ├── AGS/
+    │   │   └── Makefile
+    │   ├── cnc_puls3.gba
+    │   ├── GBA/
+    │   │   └── cnc_puls3.elf
+    │   ├── include/
+    │   │   ├── cnc_puls.h
+    │   │   ├── GBA/
+    │   │   │   └── gba_lib.h
+    │   │   └── MIN/
+    │   │       └── motion.h
+    │   └── source/
+    │       ├── bak/
+    │       │   └── GBA/
+    │       │       └── puls_generator.c
+    │       ├── cnc_puls.c
+    │       ├── GBA/
+    │       │   ├── motion.iwram.c
+    │       │   └── puls_generator.c
+    │       └── motion_test.c
+    ├── cnc_puls4/
+    │   ├── AGS/
+    │   │   └── Makefile
+    │   ├── build/
+    │   │   ├── cnc_puls.d
+    │   │   ├── cnc_puls4.elf.map
+    │   │   ├── flash_write.d
+    │   │   ├── flash_write.iwram.o
+    │   │   ├── GBA/
+    │   │   │   ├── cnc_puls.iwram.o
+    │   │   │   ├── gba_lib.o
+    │   │   │   ├── i2ceeprom.o
+    │   │   │   ├── io.o
+    │   │   │   ├── puls_generator.o
+    │   │   │   └── ui.o
+    │   │   ├── gba_lib.d
+    │   │   ├── i2ceeprom.d
+    │   │   ├── io.d
+    │   │   ├── puls_generator.d
+    │   │   └── ui.d
+    │   ├── cnc_puls4.gba
+    │   ├── GBA/
+    │   │   └── cnc_puls4.elf
+    │   ├── gdbtk.ini
+    │   ├── include/
+    │   │   ├── cnc_puls.h
+    │   │   └── GBA/
+    │   │       └── gba_lib.h
+    │   └── source/
+    │       ├── cnc_puls.iwram.c
+    │       └── puls_generator.c
+    ├── include/
+    │   ├── flash_write.h
+    │   ├── GBA/
+    │   │   ├── gba_lib.h
+    │   │   └── gba_lib_io.h
+    │   ├── i2ceeprom.h
+    │   ├── io.h
+    │   └── ui.h
+    ├── lib/
+    │   ├── flash_write.iwram.c
+    │   ├── GBA/
+    │   │   └── gba_lib.c
+    │   ├── i2ceeprom.c
+    │   ├── io.c
+    │   └── ui.c
+    ├── nintendo/
+    │   └── readme.html
+    └── write_flash/
+        ├── AGS/
+        │   └── Makefile
+        ├── build/
+        │   ├── cnc_puls.bin.o
+        │   ├── cnc_puls_bin.h
+        │   ├── flash_write.d
+        │   ├── flash_write.iwram.o
+        │   ├── GBA/
+        │   │   ├── gba_lib.o
+        │   │   ├── i2ceeprom.o
+        │   │   ├── io.o
+        │   │   ├── test.o
+        │   │   └── ui.o
+        │   ├── gba_lib.d
+        │   ├── i2ceeprom.d
+        │   ├── io.d
+        │   ├── test.d
+        │   ├── ui.d
+        │   └── write_flash_mb.elf.map
+        ├── data/
+        │   └── cnc_puls.bin
+        ├── GBA/
+        │   └── write_flash_mb.elf
+        ├── include/
+        │   ├── cnc_puls_bin.h
+        │   └── flash_write.h
+        ├── source/
+        │   └── CTR/
+        │       └── test.c
+        └── write_flash_mb.gba

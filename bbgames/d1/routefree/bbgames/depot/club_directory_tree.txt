@@ -1,0 +1,418 @@
+club/
+├── .git/
+├── __elfcom.c
+├── aa.h
+├── asciitobinary.pl
+├── attributeData.h
+├── audrenderer.c
+├── audrenderer.h
+├── bbreg.c
+├── bbreg.h
+├── binarytoascii.pl
+├── cfb.c
+├── cg.c
+├── cg.h
+├── chart.doc
+├── checkcard.c
+├── checkcard.h
+├── club
+├── club.c
+├── club.h
+├── club.prop
+├── CMakefile
+├── commondata.h
+├── ConstructPY.py
+├── controller.c
+├── controller.h
+├── dram_stack.c
+├── gb2312font.c
+├── gfx.c
+├── gfx.h
+├── gfxcfb.c
+├── gfxdlists.c
+├── gfxdynamic.c
+├── gfxinit.c
+├── gfxstack.c
+├── gfxyield.c
+├── gfxzbuffer.c
+├── GNUmakefile
+├── gzimg.pl
+├── gzip.h
+├── imgdata.c
+├── infopanel.c
+├── infopanel.h
+├── Makefile
+├── metadata/
+│   └── title.inta
+├── misc.c
+├── misc.h
+├── py.h
+├── pyfont.txt
+├── pyinputFunctionGuide.rtf
+├── refimgdata.h
+├── rom.map
+├── rsp_cfb.c
+├── shenmu.txt
+├── shenyumu.h
+├── sound_bank.h
+├── sound_table.h
+├── sourceimg/
+│   ├── a_helpb.rgb
+│   ├── a_helpt.rgb
+│   ├── addresslabel.rgb
+│   ├── b_helpb.rgb
+│   ├── b_helpdelete.rgb
+│   ├── b_helpreturn.rgb
+│   ├── b_helpt.rgb
+│   ├── bg_errorboard.rgb
+│   ├── bgalphanum.rgb
+│   ├── bgchinese.rgb
+│   ├── birthdaylabel.rgb
+│   ├── bottombar.rgb
+│   ├── boy.rgb
+│   ├── buttom.rgb
+│   ├── club.rgb
+│   ├── clubidframe.rgb
+│   ├── clubidlabel.rgb
+│   ├── clubtitle.rgb
+│   ├── cursor.rgb
+│   ├── d_helpb.rgb
+│   ├── d_helpt.rgb
+│   ├── day.rgb
+│   ├── defocuscursor.rgb
+│   ├── discardh.rgb
+│   ├── discardn.rgb
+│   ├── edit2n.rgb
+│   ├── editn.rgb
+│   ├── errorread.rgb
+│   ├── errorwrite.rgb
+│   ├── femal.rgb
+│   ├── frameh.rgb
+│   ├── framen.rgb
+│   ├── girl.rgb
+│   ├── glyph.rgb
+│   ├── glyph16x16.rgb
+│   ├── l_helpb.rgb
+│   ├── l_helpt.rgb
+│   ├── leftarrow.rgb
+│   ├── luckynumberlabel.rgb
+│   ├── maillabel.rgb
+│   ├── mainbg.rgb
+│   ├── Makefile
+│   ├── male.rgb
+│   ├── month.rgb
+│   ├── namelabel.rgb
+│   ├── okh.rgb
+│   ├── okn.rgb
+│   ├── phonelabel.rgb
+│   ├── r_helpb.rgb
+│   ├── r_helpt.rgb
+│   ├── rd_helpb.rgb
+│   ├── returncursor.rgb
+│   ├── rightarrow.rgb
+│   ├── sex_no.rgb
+│   ├── sex_ok.rgb
+│   ├── sexlabel.rgb
+│   ├── shenmubutton.rgb
+│   ├── shenmubuttonh.rgb
+│   ├── space.rgb
+│   ├── switchChinese.rgb
+│   ├── switchEnglish.rgb
+│   ├── t0.rgb
+│   ├── t1.rgb
+│   ├── t2.rgb
+│   ├── t3.rgb
+│   ├── t4.rgb
+│   ├── t5.rgb
+│   ├── t6.rgb
+│   ├── t7.rgb
+│   ├── t8.rgb
+│   ├── t9.rgb
+│   ├── tch.rgb
+│   ├── tla.rgb
+│   ├── tlb.rgb
+│   ├── tlc.rgb
+│   ├── tld.rgb
+│   ├── tle.rgb
+│   ├── tlf.rgb
+│   ├── tlg.rgb
+│   ├── tlh.rgb
+│   ├── tli.rgb
+│   ├── tlj.rgb
+│   ├── tlk.rgb
+│   ├── tll.rgb
+│   ├── tlm.rgb
+│   ├── tln.rgb
+│   ├── tlo.rgb
+│   ├── tlp.rgb
+│   ├── tlq.rgb
+│   ├── tlr.rgb
+│   ├── tls.rgb
+│   ├── tlt.rgb
+│   ├── tlu.rgb
+│   ├── tlv.rgb
+│   ├── tlw.rgb
+│   ├── tlx.rgb
+│   ├── tly.rgb
+│   ├── tlz.rgb
+│   ├── top.rgb
+│   ├── topbar.rgb
+│   ├── tsh.rgb
+│   ├── tua.rgb
+│   ├── tub.rgb
+│   ├── tuc.rgb
+│   ├── tud.rgb
+│   ├── tue.rgb
+│   ├── tuf.rgb
+│   ├── tug.rgb
+│   ├── tuh.rgb
+│   ├── tui.rgb
+│   ├── tuj.rgb
+│   ├── tuk.rgb
+│   ├── tul.rgb
+│   ├── tum.rgb
+│   ├── tun.rgb
+│   ├── tuo.rgb
+│   ├── tup.rgb
+│   ├── tuq.rgb
+│   ├── tur.rgb
+│   ├── tus.rgb
+│   ├── tut.rgb
+│   ├── tuu.rgb
+│   ├── tuv.rgb
+│   ├── tuw.rgb
+│   ├── tux.rgb
+│   ├── tuy.rgb
+│   ├── tuz.rgb
+│   ├── tya.rgb
+│   ├── tyai.rgb
+│   ├── tyan.rgb
+│   ├── tyang.rgb
+│   ├── tyao.rgb
+│   ├── tye.rgb
+│   ├── tyei.rgb
+│   ├── tyen.rgb
+│   ├── tyeng.rgb
+│   ├── tyi.rgb
+│   ├── tyia.rgb
+│   ├── tyian.rgb
+│   ├── tyiang.rgb
+│   ├── tyiao.rgb
+│   ├── tyie.rgb
+│   ├── tyin.rgb
+│   ├── tying.rgb
+│   ├── tyiong.rgb
+│   ├── tyiu.rgb
+│   ├── tyn.rgb
+│   ├── tyng.rgb
+│   ├── tyo.rgb
+│   ├── tyong.rgb
+│   ├── tyou.rgb
+│   ├── tyu.rgb
+│   ├── tyua.rgb
+│   ├── tyuai.rgb
+│   ├── tyuan.rgb
+│   ├── tyuang.rgb
+│   ├── tyue.rgb
+│   ├── tyui.rgb
+│   ├── tyun.rgb
+│   ├── tyuo.rgb
+│   ├── tyv.rgb
+│   ├── tyve.rgb
+│   ├── tyvn.rgb
+│   ├── tzh.rgb
+│   ├── u_helpb.rgb
+│   ├── u_helpt.rgb
+│   ├── warningbg.rgb
+│   ├── wdrop.rgb
+│   ├── wn.rgb
+│   ├── wsave.rgb
+│   ├── wy.rgb
+│   ├── year.rgb
+│   ├── yunmubutton.rgb
+│   ├── yunmubuttonh.rgb
+│   ├── z_helpb.rgb
+│   └── z_helpt.rgb
+├── spec
+├── static.c
+├── status_zh.c
+├── tex/
+│   ├── a_helpb.tex
+│   ├── a_helpt.tex
+│   ├── addresslabel.tex
+│   ├── b_helpb.tex
+│   ├── b_helpdelete.tex
+│   ├── b_helpreturn.tex
+│   ├── b_helpt.tex
+│   ├── bgalphanum.tex
+│   ├── bgchinese.tex
+│   ├── birthdaylabel.tex
+│   ├── bottombar.tex
+│   ├── boy.tex
+│   ├── buttom.tex
+│   ├── club.tex
+│   ├── clubidframe.tex
+│   ├── clubidlabel.tex
+│   ├── clubtitle.tex
+│   ├── cursor.tex
+│   ├── d_helpb.tex
+│   ├── d_helpt.tex
+│   ├── day.tex
+│   ├── defocuscursor.tex
+│   ├── discardh.tex
+│   ├── discardn.tex
+│   ├── edit2n.tex
+│   ├── editn.tex
+│   ├── errorread.tex
+│   ├── errorwrite.tex
+│   ├── femal.tex
+│   ├── frameh.tex
+│   ├── framen.tex
+│   ├── girl.tex
+│   ├── glyph.tex
+│   ├── glyph16x16.tex
+│   ├── hzk16
+│   ├── l_helpb.tex
+│   ├── l_helpt.tex
+│   ├── leftarrow.tex
+│   ├── mainbg.tex
+│   ├── male.tex
+│   ├── month.tex
+│   ├── namelabel.tex
+│   ├── okh.tex
+│   ├── okn.tex
+│   ├── phonelabel.tex
+│   ├── r_helpb.tex
+│   ├── r_helpt.tex
+│   ├── rd_helpb.tex
+│   ├── returncursor.tex
+│   ├── rightarrow.tex
+│   ├── sex_no.tex
+│   ├── sex_ok.tex
+│   ├── sexlabel.tex
+│   ├── shenmubutton.tex
+│   ├── shenmubuttonh.tex
+│   ├── space.tex
+│   ├── switchChinese.tex
+│   ├── switchEnglish.tex
+│   ├── t0.tex
+│   ├── t1.tex
+│   ├── t2.tex
+│   ├── t3.tex
+│   ├── t4.tex
+│   ├── t5.tex
+│   ├── t6.tex
+│   ├── t7.tex
+│   ├── t8.tex
+│   ├── t9.tex
+│   ├── tch.tex
+│   ├── tla.tex
+│   ├── tlb.tex
+│   ├── tlc.tex
+│   ├── tld.tex
+│   ├── tle.tex
+│   ├── tlf.tex
+│   ├── tlg.tex
+│   ├── tlh.tex
+│   ├── tli.tex
+│   ├── tlj.tex
+│   ├── tlk.tex
+│   ├── tll.tex
+│   ├── tlm.tex
+│   ├── tln.tex
+│   ├── tlo.tex
+│   ├── tlp.tex
+│   ├── tlq.tex
+│   ├── tlr.tex
+│   ├── tls.tex
+│   ├── tlt.tex
+│   ├── tlu.tex
+│   ├── tlv.tex
+│   ├── tlw.tex
+│   ├── tlx.tex
+│   ├── tly.tex
+│   ├── tlz.tex
+│   ├── top.tex
+│   ├── topbar.tex
+│   ├── tsh.tex
+│   ├── tua.tex
+│   ├── tub.tex
+│   ├── tuc.tex
+│   ├── tud.tex
+│   ├── tue.tex
+│   ├── tuf.tex
+│   ├── tug.tex
+│   ├── tuh.tex
+│   ├── tui.tex
+│   ├── tuj.tex
+│   ├── tuk.tex
+│   ├── tul.tex
+│   ├── tum.tex
+│   ├── tun.tex
+│   ├── tuo.tex
+│   ├── tup.tex
+│   ├── tuq.tex
+│   ├── tur.tex
+│   ├── tus.tex
+│   ├── tut.tex
+│   ├── tuu.tex
+│   ├── tuv.tex
+│   ├── tuw.tex
+│   ├── tux.tex
+│   ├── tuy.tex
+│   ├── tuz.tex
+│   ├── tya.tex
+│   ├── tyai.tex
+│   ├── tyan.tex
+│   ├── tyang.tex
+│   ├── tyao.tex
+│   ├── tye.tex
+│   ├── tyei.tex
+│   ├── tyen.tex
+│   ├── tyeng.tex
+│   ├── tyi.tex
+│   ├── tyia.tex
+│   ├── tyian.tex
+│   ├── tyiang.tex
+│   ├── tyiao.tex
+│   ├── tyie.tex
+│   ├── tyin.tex
+│   ├── tying.tex
+│   ├── tyiong.tex
+│   ├── tyiu.tex
+│   ├── tyn.tex
+│   ├── tyng.tex
+│   ├── tyo.tex
+│   ├── tyong.tex
+│   ├── tyou.tex
+│   ├── tyu.tex
+│   ├── tyua.tex
+│   ├── tyuai.tex
+│   ├── tyuan.tex
+│   ├── tyuang.tex
+│   ├── tyue.tex
+│   ├── tyui.tex
+│   ├── tyun.tex
+│   ├── tyuo.tex
+│   ├── tyv.tex
+│   ├── tyve.tex
+│   ├── tyvn.tex
+│   ├── tzh.tex
+│   ├── u_helpb.tex
+│   ├── u_helpt.tex
+│   ├── warningbg.tex
+│   ├── wdrop.tex
+│   ├── wn.tex
+│   ├── wsave.tex
+│   ├── wy.tex
+│   ├── year.tex
+│   ├── yunmubutton.tex
+│   ├── yunmubuttonh.tex
+│   ├── z_helpb.tex
+│   └── z_helpt.tex
+├── tile_rect.h
+├── tile_rectangle.c
+├── tile_rectangle.h
+├── title.inta
+├── unzip.c
+└── yumu.txt

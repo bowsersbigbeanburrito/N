@@ -1,0 +1,1235 @@
+TwlToolsRED/
+├── .git/
+├── build/
+│   └── tools/
+│       ├── A9Ovl_Chk/
+│       │   ├── a9ovlchk.cfg
+│       │   ├── a9ovlchk.dof
+│       │   ├── a9ovlchk.dpr
+│       │   ├── a9ovlchk.exe
+│       │   ├── a9ovlchk.res
+│       │   ├── a9ovlchk.~dpr
+│       │   ├── main.dcu
+│       │   ├── main.ddp
+│       │   ├── main.dfm
+│       │   ├── main.pas
+│       │   ├── main.~ddp
+│       │   ├── main.~dfm
+│       │   └── main.~pas
+│       ├── AccessLogConverter/
+│       │   ├── read_command_text.bat
+│       │   └── read_command_text.pl
+│       ├── BannerForcefulInserter/
+│       │   ├── BannerForcefulInserter.bat
+│       │   ├── default.bnr
+│       │   ├── main.c
+│       │   ├── Makefile
+│       │   ├── Readme.html
+│       │   └── Readme.txt
+│       ├── CardToSD/
+│       │   ├── banner/
+│       │   │   ├── banner_v3.bsf
+│       │   │   ├── icon/
+│       │   │   │   └── gameIcon.bmp
+│       │   │   └── Makefile
+│       │   ├── header/
+│       │   │   └── rom_header_0vna.template.sbin
+│       │   ├── Makefile
+│       │   ├── ROM-TS_nand_alt.rsf
+│       │   └── src/
+│       │       ├── data.c
+│       │       ├── data.h
+│       │       ├── main.c
+│       │       ├── misc_simple.c
+│       │       ├── misc_simple.h
+│       │       ├── NitroGameCardToSD.c
+│       │       └── NitroGameCardToSD.h
+│       ├── DisableDebugFlgChecker/
+│       │   ├── include/
+│       │   │   ├── common.h
+│       │   │   ├── font.h
+│       │   │   └── screen.h
+│       │   ├── main.rsf
+│       │   ├── Makefile
+│       │   └── src/
+│       │       ├── common.c
+│       │       ├── font.c
+│       │       ├── main.c
+│       │       └── screen.c
+│       ├── IllegalRomMaker/
+│       │   ├── main.c
+│       │   └── Makefile
+│       ├── KENJCleaner/
+│       │   ├── banner/
+│       │   │   ├── banner_v3.bsf
+│       │   │   ├── Makefile
+│       │   │   └── myGameIcon.bmp
+│       │   ├── demo.rsf
+│       │   ├── Makefile
+│       │   └── src/
+│       │       ├── KENJCleaner検証項目.txt
+│       │       ├── main.c
+│       │       ├── myChar.c
+│       │       ├── myChar.h
+│       │       ├── myFunc.c
+│       │       ├── myFunc.h
+│       │       └── README.txt
+│       ├── MainMemoryDumper/
+│       │   ├── 040A/
+│       │   │   ├── libsyscall_c.bin
+│       │   │   └── rom_header_040a.template.sbin
+│       │   ├── etc/
+│       │   │   └── banner/
+│       │   │       ├── Makefile
+│       │   │       ├── myGameBanner.bsf
+│       │   │       ├── myGameBanner.TWL.bsf
+│       │   │       ├── myGameIcon.bmp
+│       │   │       └── myGameIcon.TWL.bin
+│       │   ├── include/
+│       │   │   ├── data.h
+│       │   │   ├── misc_simple.h
+│       │   │   ├── mmd_client.h
+│       │   │   ├── mmd_parent.h
+│       │   │   ├── mmdumper.h
+│       │   │   └── wh_config.h
+│       │   ├── Makefile
+│       │   ├── ROM-TS.TWL.rsf
+│       │   └── src/
+│       │       ├── data.c
+│       │       ├── main.c
+│       │       ├── misc_simple.c
+│       │       ├── mmd_client.c
+│       │       ├── mmd_parent.c
+│       │       └── mmdumper.c
+│       ├── MasterEditor/
+│       │   ├── FingerPrinterTWL/
+│       │   │   ├── FingerPrinterTWL/
+│       │   │   │   ├── app.ico
+│       │   │   │   ├── app.rc
+│       │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   ├── fingerprint_console.cpp
+│       │   │   │   ├── fingerprint_util.h
+│       │   │   │   ├── fingerprinter_util.cpp
+│       │   │   │   ├── FingerPrinterTWL.cpp
+│       │   │   │   ├── FingerPrinterTWL.vcproj
+│       │   │   │   ├── FingerPrinterTWL.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   ├── Form1.cpp
+│       │   │   │   ├── Form1.h
+│       │   │   │   ├── Form1.resx
+│       │   │   │   ├── FormAbout.cpp
+│       │   │   │   ├── FormAbout.h
+│       │   │   │   ├── FormAbout.resx
+│       │   │   │   ├── FormCheck.cpp
+│       │   │   │   ├── FormCheck.h
+│       │   │   │   ├── FormCheck.resx
+│       │   │   │   ├── ReadMe.txt
+│       │   │   │   ├── resource.h
+│       │   │   │   ├── stdafx.cpp
+│       │   │   │   └── stdafx.h
+│       │   │   ├── FingerPrinterTWL.ncb
+│       │   │   ├── FingerPrinterTWL.sln
+│       │   │   ├── FingerPrinterTWL.suo
+│       │   │   ├── FingerprinterTWL_ExternalComponents/
+│       │   │   │   ├── cygcrypto-0.9.8.dll
+│       │   │   │   ├── cygwin1.dll
+│       │   │   │   └── maketad.exe
+│       │   │   ├── FingerprintTWLSetup/
+│       │   │   │   └── FingerprintTWLSetup.vdproj
+│       │   │   ├── LICENSE.txt
+│       │   │   └── README.txt
+│       │   ├── MasterEditorTWL/
+│       │   │   ├── banner_bin_to_carray.pl
+│       │   │   ├── banner_csv_to_carray.pl
+│       │   │   ├── company.xml
+│       │   │   ├── Debug/
+│       │   │   │   └── MasterEditorTWL.ilk
+│       │   │   ├── DS-MasterROM_Submission_Sheet_2008_00_J.xls
+│       │   │   ├── DS_fontcodeList_061117_china.csv
+│       │   │   ├── DS_fontcodeList_061117_korea.csv
+│       │   │   ├── DS_fontcodeList_worldwide.bin
+│       │   │   ├── DSミドルウェア一覧_090331.xls
+│       │   │   ├── DSミドルウェア一覧_090331_英語版.xls
+│       │   │   ├── MasterEditorTWL/
+│       │   │   │   ├── app.ico
+│       │   │   │   ├── app.rc
+│       │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   ├── banner_char.h
+│       │   │   │   ├── banner_char_china.cpp
+│       │   │   │   ├── banner_char_korea.cpp
+│       │   │   │   ├── banner_char_worldwide.cpp
+│       │   │   │   ├── common.h
+│       │   │   │   ├── crc_whole.cpp
+│       │   │   │   ├── crc_whole.h
+│       │   │   │   ├── Debug/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── deliverable.cpp
+│       │   │   │   ├── deliverable.h
+│       │   │   │   ├── Form1.en.resx
+│       │   │   │   ├── Form1.h
+│       │   │   │   ├── Form1.ja.resx
+│       │   │   │   ├── Form1.resX
+│       │   │   │   ├── Form1_const.h
+│       │   │   │   ├── Form_constructor.cpp
+│       │   │   │   ├── Form_deliv.cpp
+│       │   │   │   ├── Form_errorlist.cpp
+│       │   │   │   ├── Form_file.cpp
+│       │   │   │   ├── Form_init.cpp
+│       │   │   │   ├── Form_lang.cpp
+│       │   │   │   ├── Form_mwlist.cpp
+│       │   │   │   ├── Form_pctl.cpp
+│       │   │   │   ├── Form_rominfolist.cpp
+│       │   │   │   ├── Form_srl.cpp
+│       │   │   │   ├── Form_tmp.cpp
+│       │   │   │   ├── Form_util.cpp
+│       │   │   │   ├── FormError.cpp
+│       │   │   │   ├── FormError.h
+│       │   │   │   ├── FormError.resx
+│       │   │   │   ├── keys.cpp
+│       │   │   │   ├── keys.h
+│       │   │   │   ├── lang.h
+│       │   │   │   ├── MasterEditorTWL.cpp
+│       │   │   │   ├── MasterEditorTWL.vcproj
+│       │   │   │   ├── MasterEditorTWL.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   ├── message_bank.cpp
+│       │   │   │   ├── message_bank.h
+│       │   │   │   ├── middleware_name_list.h
+│       │   │   │   ├── ReadMe.txt
+│       │   │   │   ├── Release/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── resource.h
+│       │   │   │   ├── split_tad.cpp
+│       │   │   │   ├── split_tad.h
+│       │   │   │   ├── split_tad_util.cpp
+│       │   │   │   ├── split_tad_util.h
+│       │   │   │   ├── srl.cpp
+│       │   │   │   ├── srl.h
+│       │   │   │   ├── srl_const.h
+│       │   │   │   ├── srl_element.h
+│       │   │   │   ├── srl_mrc.cpp
+│       │   │   │   ├── stdafx.cpp
+│       │   │   │   ├── stdafx.h
+│       │   │   │   ├── utility.cpp
+│       │   │   │   └── utility.h
+│       │   │   ├── MasterEditorTWL.ncb
+│       │   │   ├── MasterEditorTWL.resources.dll
+│       │   │   ├── MasterEditorTWL.sln
+│       │   │   ├── MasterEditorTWL.suo
+│       │   │   ├── MasterEditorTWLSetup/
+│       │   │   │   └── MasterEditorTWLSetup.vdproj
+│       │   │   ├── resource/
+│       │   │   │   ├── append_ini.xml
+│       │   │   │   ├── errorlist.xsl
+│       │   │   │   ├── gui_msg_e.xml
+│       │   │   │   ├── gui_msg_j.xml
+│       │   │   │   ├── ini.xml
+│       │   │   │   ├── ini_memo.xml
+│       │   │   │   ├── middleware.xsl
+│       │   │   │   ├── middleware_e.xsl
+│       │   │   │   ├── middleware_name_list.xml
+│       │   │   │   ├── mrc_msg_e.xml
+│       │   │   │   ├── mrc_msg_j.xml
+│       │   │   │   ├── rominfolist.xsl
+│       │   │   │   ├── sheet_template_en.xml
+│       │   │   │   └── sheet_template_jp.xml
+│       │   │   ├── ResourceTransition/
+│       │   │   │   ├── Release/
+│       │   │   │   │   └── ResourceTransition.exe
+│       │   │   │   ├── ResourceTransition/
+│       │   │   │   │   ├── app.ico
+│       │   │   │   │   ├── app.rc
+│       │   │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   │   ├── ReadMe.txt
+│       │   │   │   │   ├── Release/
+│       │   │   │   │   │   └── BuildLog.htm
+│       │   │   │   │   ├── resource.h
+│       │   │   │   │   ├── ResourceTransition.cpp
+│       │   │   │   │   ├── ResourceTransition.vcproj
+│       │   │   │   │   ├── ResourceTransition.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   │   ├── stdafx.cpp
+│       │   │   │   │   └── stdafx.h
+│       │   │   │   ├── ResourceTransition.ncb
+│       │   │   │   ├── ResourceTransition.sln
+│       │   │   │   └── ResourceTransition.suo
+│       │   │   ├── submitversion.xsl
+│       │   │   └── TWL-MasterROM_Submission_Sheet_080729A.xls
+│       │   ├── MasterEditorTWL-1_7/
+│       │   │   ├── banner_bin_to_carray.pl
+│       │   │   ├── banner_csv_to_carray.pl
+│       │   │   ├── DS-MasterROM_Submission_Sheet_2008_00_J.xls
+│       │   │   ├── DS_fontcodeList_061117_china.csv
+│       │   │   ├── DS_fontcodeList_061117_korea.csv
+│       │   │   ├── DS_fontcodeList_worldwide.bin
+│       │   │   ├── DSミドルウェア一覧_090331.xls
+│       │   │   ├── DSミドルウェア一覧_090331_英語版.xls
+│       │   │   ├── MasterEditorTWL/
+│       │   │   │   ├── app.ico
+│       │   │   │   ├── app.rc
+│       │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   ├── banner_char.h
+│       │   │   │   ├── banner_char_china.cpp
+│       │   │   │   ├── banner_char_korea.cpp
+│       │   │   │   ├── banner_char_worldwide.cpp
+│       │   │   │   ├── common.h
+│       │   │   │   ├── crc_whole.cpp
+│       │   │   │   ├── crc_whole.h
+│       │   │   │   ├── deliverable.cpp
+│       │   │   │   ├── deliverable.h
+│       │   │   │   ├── Form1.en.resx
+│       │   │   │   ├── Form1.h
+│       │   │   │   ├── Form1.ja.resx
+│       │   │   │   ├── Form1.resX
+│       │   │   │   ├── Form1_const.h
+│       │   │   │   ├── Form_constructor.cpp
+│       │   │   │   ├── Form_deliv.cpp
+│       │   │   │   ├── Form_errorlist.cpp
+│       │   │   │   ├── Form_file.cpp
+│       │   │   │   ├── Form_init.cpp
+│       │   │   │   ├── Form_lang.cpp
+│       │   │   │   ├── Form_mwlist.cpp
+│       │   │   │   ├── Form_pctl.cpp
+│       │   │   │   ├── Form_rominfolist.cpp
+│       │   │   │   ├── Form_srl.cpp
+│       │   │   │   ├── Form_tmp.cpp
+│       │   │   │   ├── Form_util.cpp
+│       │   │   │   ├── FormError.cpp
+│       │   │   │   ├── FormError.h
+│       │   │   │   ├── FormError.resx
+│       │   │   │   ├── keys.cpp
+│       │   │   │   ├── keys.h
+│       │   │   │   ├── lang.h
+│       │   │   │   ├── MasterEditorTWL.cpp
+│       │   │   │   ├── MasterEditorTWL.vcproj
+│       │   │   │   ├── MasterEditorTWL.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   ├── message_bank.cpp
+│       │   │   │   ├── message_bank.h
+│       │   │   │   ├── middleware_name_list.h
+│       │   │   │   ├── ReadMe.txt
+│       │   │   │   ├── resource.h
+│       │   │   │   ├── split_tad.cpp
+│       │   │   │   ├── split_tad.h
+│       │   │   │   ├── split_tad_util.cpp
+│       │   │   │   ├── split_tad_util.h
+│       │   │   │   ├── srl.cpp
+│       │   │   │   ├── srl.h
+│       │   │   │   ├── srl_const.h
+│       │   │   │   ├── srl_element.h
+│       │   │   │   ├── srl_mrc.cpp
+│       │   │   │   ├── stdafx.cpp
+│       │   │   │   ├── stdafx.h
+│       │   │   │   ├── utility.cpp
+│       │   │   │   └── utility.h
+│       │   │   ├── MasterEditorTWL.ncb
+│       │   │   ├── MasterEditorTWL.resources.dll
+│       │   │   ├── MasterEditorTWL.sln
+│       │   │   ├── MasterEditorTWL.suo
+│       │   │   ├── MasterEditorTWLSetup/
+│       │   │   │   └── MasterEditorTWLSetup.vdproj
+│       │   │   ├── resource/
+│       │   │   │   ├── append_ini.xml
+│       │   │   │   ├── errorlist.xsl
+│       │   │   │   ├── gui_msg_e.xml
+│       │   │   │   ├── gui_msg_j.xml
+│       │   │   │   ├── ini.xml
+│       │   │   │   ├── ini_memo.xml
+│       │   │   │   ├── middleware.xsl
+│       │   │   │   ├── middleware_e.xsl
+│       │   │   │   ├── middleware_name_list.xml
+│       │   │   │   ├── mrc_msg_e.xml
+│       │   │   │   ├── mrc_msg_j.xml
+│       │   │   │   ├── rominfolist.xsl
+│       │   │   │   ├── sheet_template_en.xml
+│       │   │   │   └── sheet_template_jp.xml
+│       │   │   ├── ResourceTransition/
+│       │   │   │   ├── Release/
+│       │   │   │   │   └── ResourceTransition.exe
+│       │   │   │   ├── ResourceTransition/
+│       │   │   │   │   ├── app.ico
+│       │   │   │   │   ├── app.rc
+│       │   │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   │   ├── ReadMe.txt
+│       │   │   │   │   ├── Release/
+│       │   │   │   │   │   └── BuildLog.htm
+│       │   │   │   │   ├── resource.h
+│       │   │   │   │   ├── ResourceTransition.cpp
+│       │   │   │   │   ├── ResourceTransition.vcproj
+│       │   │   │   │   ├── ResourceTransition.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   │   ├── stdafx.cpp
+│       │   │   │   │   └── stdafx.h
+│       │   │   │   ├── ResourceTransition.ncb
+│       │   │   │   ├── ResourceTransition.sln
+│       │   │   │   └── ResourceTransition.suo
+│       │   │   ├── submitversion.xsl
+│       │   │   └── TWL-MasterROM_Submission_Sheet_080729A.xls
+│       │   ├── MasterEditorTWL-1_9-AllExceptChina/
+│       │   │   ├── banner_bin_to_carray.pl
+│       │   │   ├── banner_csv_to_carray.pl
+│       │   │   ├── company.xml
+│       │   │   ├── Debug/
+│       │   │   │   └── MasterEditorTWL.ilk
+│       │   │   ├── DS-MasterROM_Submission_Sheet_2008_00_J.xls
+│       │   │   ├── DS_fontcodeList_061117_china.csv
+│       │   │   ├── DS_fontcodeList_061117_korea.csv
+│       │   │   ├── DS_fontcodeList_worldwide.bin
+│       │   │   ├── DSミドルウェア一覧_090331.xls
+│       │   │   ├── DSミドルウェア一覧_090331_英語版.xls
+│       │   │   ├── MasterEditorTWL/
+│       │   │   │   ├── app.ico
+│       │   │   │   ├── app.rc
+│       │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   ├── banner_char.h
+│       │   │   │   ├── banner_char_china.cpp
+│       │   │   │   ├── banner_char_korea.cpp
+│       │   │   │   ├── banner_char_worldwide.cpp
+│       │   │   │   ├── common.h
+│       │   │   │   ├── crc_whole.cpp
+│       │   │   │   ├── crc_whole.h
+│       │   │   │   ├── Debug/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── deliverable.cpp
+│       │   │   │   ├── deliverable.h
+│       │   │   │   ├── Form1.en.resx
+│       │   │   │   ├── Form1.h
+│       │   │   │   ├── Form1.ja.resx
+│       │   │   │   ├── Form1.resX
+│       │   │   │   ├── Form1_const.h
+│       │   │   │   ├── Form_constructor.cpp
+│       │   │   │   ├── Form_deliv.cpp
+│       │   │   │   ├── Form_errorlist.cpp
+│       │   │   │   ├── Form_file.cpp
+│       │   │   │   ├── Form_init.cpp
+│       │   │   │   ├── Form_lang.cpp
+│       │   │   │   ├── Form_mwlist.cpp
+│       │   │   │   ├── Form_pctl.cpp
+│       │   │   │   ├── Form_rominfolist.cpp
+│       │   │   │   ├── Form_srl.cpp
+│       │   │   │   ├── Form_tmp.cpp
+│       │   │   │   ├── Form_util.cpp
+│       │   │   │   ├── FormError.cpp
+│       │   │   │   ├── FormError.h
+│       │   │   │   ├── FormError.resx
+│       │   │   │   ├── keys.cpp
+│       │   │   │   ├── keys.h
+│       │   │   │   ├── lang.h
+│       │   │   │   ├── MasterEditorTWL.cpp
+│       │   │   │   ├── MasterEditorTWL.vcproj
+│       │   │   │   ├── MasterEditorTWL.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   ├── message_bank.cpp
+│       │   │   │   ├── message_bank.h
+│       │   │   │   ├── middleware_name_list.h
+│       │   │   │   ├── ReadMe.txt
+│       │   │   │   ├── Release/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── resource.h
+│       │   │   │   ├── split_tad.cpp
+│       │   │   │   ├── split_tad.h
+│       │   │   │   ├── split_tad_util.cpp
+│       │   │   │   ├── split_tad_util.h
+│       │   │   │   ├── srl.cpp
+│       │   │   │   ├── srl.h
+│       │   │   │   ├── srl_const.h
+│       │   │   │   ├── srl_element.h
+│       │   │   │   ├── srl_mrc.cpp
+│       │   │   │   ├── stdafx.cpp
+│       │   │   │   ├── stdafx.h
+│       │   │   │   ├── utility.cpp
+│       │   │   │   └── utility.h
+│       │   │   ├── MasterEditorTWL.ncb
+│       │   │   ├── MasterEditorTWL.resources.dll
+│       │   │   ├── MasterEditorTWL.sln
+│       │   │   ├── MasterEditorTWL.suo
+│       │   │   ├── MasterEditorTWLSetup/
+│       │   │   │   └── MasterEditorTWLSetup.vdproj
+│       │   │   ├── resource/
+│       │   │   │   ├── append_ini.xml
+│       │   │   │   ├── errorlist.xsl
+│       │   │   │   ├── gui_msg_e.xml
+│       │   │   │   ├── gui_msg_j.xml
+│       │   │   │   ├── ini.xml
+│       │   │   │   ├── ini_memo.xml
+│       │   │   │   ├── middleware.xsl
+│       │   │   │   ├── middleware_e.xsl
+│       │   │   │   ├── middleware_name_list.xml
+│       │   │   │   ├── mrc_msg_e.xml
+│       │   │   │   ├── mrc_msg_j.xml
+│       │   │   │   ├── rominfolist.xsl
+│       │   │   │   ├── sheet_template_en.xml
+│       │   │   │   └── sheet_template_jp.xml
+│       │   │   ├── ResourceTransition/
+│       │   │   │   ├── Release/
+│       │   │   │   │   └── ResourceTransition.exe
+│       │   │   │   ├── ResourceTransition/
+│       │   │   │   │   ├── app.ico
+│       │   │   │   │   ├── app.rc
+│       │   │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   │   ├── ReadMe.txt
+│       │   │   │   │   ├── Release/
+│       │   │   │   │   │   └── BuildLog.htm
+│       │   │   │   │   ├── resource.h
+│       │   │   │   │   ├── ResourceTransition.cpp
+│       │   │   │   │   ├── ResourceTransition.vcproj
+│       │   │   │   │   ├── ResourceTransition.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   │   ├── stdafx.cpp
+│       │   │   │   │   └── stdafx.h
+│       │   │   │   ├── ResourceTransition.ncb
+│       │   │   │   ├── ResourceTransition.sln
+│       │   │   │   └── ResourceTransition.suo
+│       │   │   ├── submitversion.xsl
+│       │   │   └── TWL-MasterROM_Submission_Sheet_080729A.xls
+│       │   ├── MasterEditorTWL_Common/
+│       │   │   ├── flags/
+│       │   │   │   ├── flags.c
+│       │   │   │   ├── include/
+│       │   │   │   │   └── types.h
+│       │   │   │   ├── lib/
+│       │   │   │   │   └── X86/
+│       │   │   │   │       └── libflags_x86.a
+│       │   │   │   └── Makefile
+│       │   │   ├── launcher/
+│       │   │   │   └── apptype.h
+│       │   │   ├── secure/
+│       │   │   │   └── apptype.h
+│       │   │   ├── system/
+│       │   │   │   └── apptype.h
+│       │   │   └── user/
+│       │   │       └── apptype.h
+│       │   ├── MasterEditorTWL_Launcher/
+│       │   │   └── MasterEditorTWL/
+│       │   │       ├── MasterEditorTWL/
+│       │   │       │   ├── app.ico
+│       │   │       │   ├── app.rc
+│       │   │       │   ├── AssemblyInfo.cpp
+│       │   │       │   ├── Form1.resX
+│       │   │       │   ├── MasterEditorTWL.cpp
+│       │   │       │   ├── MasterEditorTWL.vcproj
+│       │   │       │   ├── MasterEditorTWL.vcproj.RED.nishikawa_takeshi.user
+│       │   │       │   ├── ReadMe.txt
+│       │   │       │   ├── Release/
+│       │   │       │   │   └── BuildLog.htm
+│       │   │       │   ├── resource.h
+│       │   │       │   ├── stdafx.cpp
+│       │   │       │   └── stdafx.h
+│       │   │       ├── MasterEditorTWL.ncb
+│       │   │       ├── MasterEditorTWL.sln
+│       │   │       ├── MasterEditorTWL.suo
+│       │   │       ├── MasterEditorTWLSetup/
+│       │   │       │   └── MasterEditorTWLSetup.vdproj
+│       │   │       └── resource/
+│       │   │           ├── append_ini.xml
+│       │   │           ├── errorlist.xsl
+│       │   │           ├── gui_msg_e.xml
+│       │   │           ├── gui_msg_j.xml
+│       │   │           ├── ini.xml
+│       │   │           ├── ini_memo.xml
+│       │   │           ├── middleware.xsl
+│       │   │           ├── middleware_e.xsl
+│       │   │           ├── middleware_name_list.xml
+│       │   │           ├── mrc_msg_e.xml
+│       │   │           ├── mrc_msg_j.xml
+│       │   │           ├── rominfolist.xsl
+│       │   │           ├── sheet_template_en.xml
+│       │   │           └── sheet_template_jp.xml
+│       │   ├── MasterEditorTWL_Secure/
+│       │   │   └── MasterEditorTWL/
+│       │   │       ├── MasterEditorTWL/
+│       │   │       │   ├── app.ico
+│       │   │       │   ├── app.rc
+│       │   │       │   ├── AssemblyInfo.cpp
+│       │   │       │   ├── Form1.resX
+│       │   │       │   ├── MasterEditorTWL.cpp
+│       │   │       │   ├── MasterEditorTWL.vcproj
+│       │   │       │   ├── MasterEditorTWL.vcproj.RED.nishikawa_takeshi.user
+│       │   │       │   ├── ReadMe.txt
+│       │   │       │   ├── Release/
+│       │   │       │   │   └── BuildLog.htm
+│       │   │       │   ├── resource.h
+│       │   │       │   ├── stdafx.cpp
+│       │   │       │   └── stdafx.h
+│       │   │       ├── MasterEditorTWL.ncb
+│       │   │       ├── MasterEditorTWL.sln
+│       │   │       ├── MasterEditorTWL.suo
+│       │   │       ├── MasterEditorTWLSetup/
+│       │   │       │   └── MasterEditorTWLSetup.vdproj
+│       │   │       └── resource/
+│       │   │           ├── append_ini.xml
+│       │   │           ├── errorlist.xsl
+│       │   │           ├── gui_msg_e.xml
+│       │   │           ├── gui_msg_j.xml
+│       │   │           ├── ini.xml
+│       │   │           ├── ini_memo.xml
+│       │   │           ├── middleware.xsl
+│       │   │           ├── middleware_e.xsl
+│       │   │           ├── middleware_name_list.xml
+│       │   │           ├── mrc_msg_e.xml
+│       │   │           ├── mrc_msg_j.xml
+│       │   │           ├── rominfolist.xsl
+│       │   │           ├── sheet_template_en.xml
+│       │   │           └── sheet_template_jp.xml
+│       │   ├── MasterEditorTWL_System/
+│       │   │   ├── MasterEditorTWL/
+│       │   │   │   ├── MasterEditorTWL/
+│       │   │   │   │   ├── app.ico
+│       │   │   │   │   ├── app.rc
+│       │   │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   │   ├── Form1.resX
+│       │   │   │   │   ├── MasterEditorTWL.cpp
+│       │   │   │   │   ├── MasterEditorTWL.vcproj
+│       │   │   │   │   ├── MasterEditorTWL.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   │   ├── ReadMe.txt
+│       │   │   │   │   ├── Release/
+│       │   │   │   │   │   └── BuildLog.htm
+│       │   │   │   │   ├── resource.h
+│       │   │   │   │   ├── stdafx.cpp
+│       │   │   │   │   └── stdafx.h
+│       │   │   │   ├── MasterEditorTWL.ncb
+│       │   │   │   ├── MasterEditorTWL.sln
+│       │   │   │   ├── MasterEditorTWL.suo
+│       │   │   │   ├── MasterEditorTWLSetup/
+│       │   │   │   │   └── MasterEditorTWLSetup.vdproj
+│       │   │   │   └── resource/
+│       │   │   │       ├── append_ini.xml
+│       │   │   │       ├── errorlist.xsl
+│       │   │   │       ├── gui_msg_e.xml
+│       │   │   │       ├── gui_msg_j.xml
+│       │   │   │       ├── ini.xml
+│       │   │   │       ├── ini_memo.xml
+│       │   │   │       ├── middleware.xsl
+│       │   │   │       ├── middleware_e.xsl
+│       │   │   │       ├── middleware_name_list.xml
+│       │   │   │       ├── mrc_msg_e.xml
+│       │   │   │       ├── mrc_msg_j.xml
+│       │   │   │       ├── rominfolist.xsl
+│       │   │   │       ├── sheet_template_en.xml
+│       │   │   │       └── sheet_template_jp.xml
+│       │   │   └── システム版作成メモ.txt
+│       │   ├── MasterEditorTWLChecker/
+│       │   │   ├── CARD.SRL
+│       │   │   ├── CARD_US.SRL
+│       │   │   ├── checker.bat
+│       │   │   ├── checker_china.bat
+│       │   │   ├── checker_korea.bat
+│       │   │   ├── CHINA_CARD.SRL
+│       │   │   ├── CHINA_NAND.SRL
+│       │   │   ├── config.xml
+│       │   │   ├── Debug/
+│       │   │   │   ├── config.xml
+│       │   │   │   ├── extract_sheet.xsl
+│       │   │   │   └── MasterEditorTWLChecker.ilk
+│       │   │   ├── diff.bat
+│       │   │   ├── ERROR.SRL
+│       │   │   ├── ERROR.TAD
+│       │   │   ├── extract_sheet.xsl
+│       │   │   ├── KOREA_CARD.SRL
+│       │   │   ├── KOREA_NAND.SRL
+│       │   │   ├── MasterEditorTWLChecker/
+│       │   │   │   ├── app.ico
+│       │   │   │   ├── app.rc
+│       │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   ├── check.cpp
+│       │   │   │   ├── check.h
+│       │   │   │   ├── check_rom.cpp
+│       │   │   │   ├── check_sheet.cpp
+│       │   │   │   ├── Debug/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── MasterEditorTWLChecker.cpp
+│       │   │   │   ├── MasterEditorTWLChecker.vcproj
+│       │   │   │   ├── MasterEditorTWLChecker.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   ├── ReadMe.txt
+│       │   │   │   ├── Release/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── resource.h
+│       │   │   │   ├── stdafx.cpp
+│       │   │   │   └── stdafx.h
+│       │   │   ├── MasterEditorTWLChecker.ncb
+│       │   │   ├── MasterEditorTWLChecker.sln
+│       │   │   ├── MasterEditorTWLChecker.suo
+│       │   │   ├── MasterEditorTWLChecker_Setup/
+│       │   │   │   └── MasterEditorTWLChecker_Setup.vdproj
+│       │   │   ├── NAND.TAD
+│       │   │   ├── NAND_NOPRIVATE.SRL
+│       │   │   ├── NAND_US.SRL
+│       │   │   ├── ORG.SRL
+│       │   │   ├── ORG.TAD
+│       │   │   ├── Release/
+│       │   │   │   ├── config.xml
+│       │   │   │   └── extract_sheet.xsl
+│       │   │   ├── rm.bat
+│       │   │   ├── TMP_E.XML
+│       │   │   ├── TMP_ERROR.XML
+│       │   │   ├── TMP_ERROR2.XML
+│       │   │   └── TMP_J.XML
+│       │   ├── RomFilenameDecoderTWL/
+│       │   │   ├── Debug/
+│       │   │   │   └── RomFilenameDecoderTWL.ilk
+│       │   │   ├── RomFilenameDecoderTWL/
+│       │   │   │   ├── app.ico
+│       │   │   │   ├── app.rc
+│       │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   ├── Debug/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── ReadMe.txt
+│       │   │   │   ├── Release/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── resource.h
+│       │   │   │   ├── rfd_context.h
+│       │   │   │   ├── rfd_util.cpp
+│       │   │   │   ├── rfd_util.h
+│       │   │   │   ├── RomFilenameDecoderTWL.cpp
+│       │   │   │   ├── RomFilenameDecoderTWL.vcproj
+│       │   │   │   ├── RomFilenameDecoderTWL.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   ├── stdafx.cpp
+│       │   │   │   └── stdafx.h
+│       │   │   ├── RomFilenameDecoderTWL.ncb
+│       │   │   ├── RomFilenameDecoderTWL.sln
+│       │   │   └── RomFilenameDecoderTWL.suo
+│       │   ├── SheetCheckerTWL/
+│       │   │   ├── Debug/
+│       │   │   │   ├── extract_sheet.xsl
+│       │   │   │   └── SheetCheckerTWL.ilk
+│       │   │   ├── extract_sheet.xsl
+│       │   │   ├── Release/
+│       │   │   │   └── extract_sheet.xsl
+│       │   │   ├── SheetCheckerTWL/
+│       │   │   │   ├── app.ico
+│       │   │   │   ├── app.rc
+│       │   │   │   ├── AssemblyInfo.cpp
+│       │   │   │   ├── crc_whole.cpp
+│       │   │   │   ├── crc_whole.h
+│       │   │   │   ├── Debug/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── Form1.h
+│       │   │   │   ├── Form1.resx
+│       │   │   │   ├── ReadMe.txt
+│       │   │   │   ├── Release/
+│       │   │   │   │   └── BuildLog.htm
+│       │   │   │   ├── resource.h
+│       │   │   │   ├── SheetCheckerTWL.cpp
+│       │   │   │   ├── SheetCheckerTWL.h
+│       │   │   │   ├── SheetCheckerTWL.vcproj
+│       │   │   │   ├── SheetCheckerTWL.vcproj.RED.nishikawa_takeshi.user
+│       │   │   │   ├── SheetCheckerTWL_Utility.cpp
+│       │   │   │   ├── stdafx.cpp
+│       │   │   │   └── stdafx.h
+│       │   │   ├── SheetCheckerTWL.ncb
+│       │   │   ├── SheetCheckerTWL.sln
+│       │   │   └── SheetCheckerTWL.suo
+│       │   └── split_tad_console/
+│       │       ├── Debug/
+│       │       │   └── split_tad_console.ilk
+│       │       ├── split_tad_console/
+│       │       │   ├── app.ico
+│       │       │   ├── app.rc
+│       │       │   ├── AssemblyInfo.cpp
+│       │       │   ├── Debug/
+│       │       │   │   └── BuildLog.htm
+│       │       │   ├── ReadMe.txt
+│       │       │   ├── resource.h
+│       │       │   ├── split_tad_console.cpp
+│       │       │   ├── split_tad_console.vcproj
+│       │       │   ├── split_tad_console.vcproj.RED.nishikawa_takeshi.user
+│       │       │   ├── stdafx.cpp
+│       │       │   └── stdafx.h
+│       │       ├── split_tad_console.ncb
+│       │       ├── split_tad_console.sln
+│       │       └── split_tad_console.suo
+│       ├── Mastering Batch File/
+│       │   ├── backup/
+│       │   │   ├── Mastering.bat_20090511
+│       │   │   ├── コピー (2) ～ Mastering.bat
+│       │   │   └── コピー ～ Mastering.bat
+│       │   ├── bin/
+│       │   │   ├── caution_properties.txt
+│       │   │   ├── comparing.TWL.exe
+│       │   │   ├── cygcrypto-0.9.8.dll
+│       │   │   ├── cygwin1.dll
+│       │   │   ├── maketad.exe
+│       │   │   ├── MasterEditorTWLSetup.msi
+│       │   │   ├── mastering.TWL.exe
+│       │   │   ├── mastering.TWL.ini
+│       │   │   ├── RatingAllFreeTool.exe
+│       │   │   ├── split_tad_console.exe
+│       │   │   └── SrlAnalyzer.TWL.exe
+│       │   ├── changelog.html
+│       │   ├── changelog.txt
+│       │   └── Mastering.bat
+│       ├── MenuSkipFlagTool/
+│       │   ├── check_diff.sh
+│       │   ├── keys.c
+│       │   ├── keys.h
+│       │   ├── main.c
+│       │   ├── make_test_rom.sh
+│       │   └── Makefile
+│       ├── MenuSkipFlagTool_Checker/
+│       │   ├── check_regular.sh
+│       │   ├── main.c
+│       │   ├── Makefile
+│       │   ├── verify_area.c
+│       │   └── verify_area.h
+│       ├── NitroArm7VerChecker/
+│       │   ├── AutoBuild.pl
+│       │   ├── banner/
+│       │   │   ├── banner_v3.bsf
+│       │   │   ├── icon/
+│       │   │   │   └── gameIcon.bmp
+│       │   │   └── Makefile
+│       │   ├── demo.autogen.rsf
+│       │   ├── header/
+│       │   │   └── rom_header_0via.template.sbin
+│       │   ├── include/
+│       │   │   └── revision.h
+│       │   ├── Makefile
+│       │   ├── Readme.txt
+│       │   ├── ROM-TS_nand_alt.rsf
+│       │   ├── ruby/
+│       │   │   ├── data_normal.txt
+│       │   │   ├── data_special.txt
+│       │   │   └── sort.rb
+│       │   └── src/
+│       │       ├── data.c
+│       │       ├── data.h
+│       │       ├── main.c
+│       │       ├── misc_simple.c
+│       │       ├── misc_simple.h
+│       │       ├── NitroArm7VerChecker.c
+│       │       ├── NitroArm7VerChecker.h
+│       │       ├── SdkInfoData_normal.h
+│       │       └── SdkInfoData_special.h
+│       ├── RatingAllFreeTool/
+│       │   ├── main.c
+│       │   └── Makefile
+│       ├── RepairExportSaveData/
+│       │   ├── banner/
+│       │   │   ├── banner_v3.bsf
+│       │   │   ├── icon/
+│       │   │   │   └── gameIcon.bmp
+│       │   │   └── Makefile
+│       │   ├── header/
+│       │   │   └── rom_header_0hga.template.sbin
+│       │   ├── include/
+│       │   │   ├── common.h
+│       │   │   ├── font.h
+│       │   │   ├── RepairExportSaveData.h
+│       │   │   └── screen.h
+│       │   ├── Makefile
+│       │   ├── readme.txt
+│       │   ├── ROM-TS_sys.rsf
+│       │   └── src/
+│       │       ├── common.c
+│       │       ├── font.c
+│       │       ├── main.c
+│       │       ├── RepairExportSaveData.c
+│       │       └── screen.c
+│       ├── sctools/
+│       │   ├── auto_preinst_rom/
+│       │   │   ├── auto_preinst_rom.rsf
+│       │   │   ├── banner/
+│       │   │   │   ├── banner_v3.bsf
+│       │   │   │   ├── icon/
+│       │   │   │   │   ├── gameIcon.bmp
+│       │   │   │   │   └── subIcon.bmp
+│       │   │   │   ├── Makefile
+│       │   │   │   └── sub_banner_v3.bsf
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       └── main.c
+│       │   ├── bin/
+│       │   │   ├── FakeRomHeader.secure.exe
+│       │   │   └── usage.txt
+│       │   ├── common/
+│       │   │   └── src/
+│       │   │       ├── ap_info.h
+│       │   │       ├── ecdl.h
+│       │   │       ├── error_report.c
+│       │   │       ├── error_report.h
+│       │   │       ├── font.c
+│       │   │       ├── font.h
+│       │   │       ├── gfx.c
+│       │   │       ├── gfx.h
+│       │   │       ├── hwi.c
+│       │   │       ├── hwi.h
+│       │   │       ├── key.c
+│       │   │       ├── key.h
+│       │   │       ├── LICENSE_en.txt
+│       │   │       ├── LICENSE_jp.txt
+│       │   │       ├── logprintf.c
+│       │   │       ├── logprintf.h
+│       │   │       ├── menu_version.c
+│       │   │       ├── menu_version.h
+│       │   │       ├── miya_mcu.c
+│       │   │       ├── miya_mcu.h
+│       │   │       ├── mprintf.c
+│       │   │       ├── mprintf.h
+│       │   │       ├── my_aes.c
+│       │   │       ├── my_aes.h
+│       │   │       ├── my_fs_util.c
+│       │   │       ├── my_fs_util.h
+│       │   │       ├── my_keys.c
+│       │   │       ├── my_keys.h
+│       │   │       ├── my_rsa_sign.c
+│       │   │       ├── my_rsa_sign.h
+│       │   │       ├── my_sha.c
+│       │   │       ├── my_sha.h
+│       │   │       ├── my_sign.c
+│       │   │       ├── my_sign.h
+│       │   │       ├── mydata.h
+│       │   │       ├── myfilename.c
+│       │   │       ├── myfilename.h
+│       │   │       ├── myimport.c
+│       │   │       ├── myimport.h
+│       │   │       ├── mynvram.c
+│       │   │       ├── mynvram.h
+│       │   │       ├── mywlan.c
+│       │   │       ├── mywlan.h
+│       │   │       ├── netconnect.c
+│       │   │       ├── netconnect.h
+│       │   │       ├── nssl.h
+│       │   │       ├── nuc.h
+│       │   │       ├── pre_install.c
+│       │   │       ├── pre_install.h
+│       │   │       ├── readme_en.txt
+│       │   │       ├── readme_jp.txt
+│       │   │       ├── sitedefs.c
+│       │   │       ├── sitedefs.h
+│       │   │       ├── stream.c
+│       │   │       ├── stream.h
+│       │   │       ├── string_map_dwc_apinfo_type.inc
+│       │   │       ├── string_map_ec_error.inc
+│       │   │       ├── string_map_ec_op.inc
+│       │   │       ├── string_map_ec_phase.inc
+│       │   │       ├── text.c
+│       │   │       ├── text.h
+│       │   │       ├── wcm_control.c
+│       │   │       └── wcm_control.h
+│       │   ├── copy_dst/
+│       │   │   ├── banner/
+│       │   │   │   ├── banner_v3.bsf
+│       │   │   │   ├── icon/
+│       │   │   │   │   ├── gameIcon.bmp
+│       │   │   │   │   └── subIcon.bmp
+│       │   │   │   ├── Makefile
+│       │   │   │   └── sub_banner_v3.bsf
+│       │   │   ├── copy_dst.rsf
+│       │   │   ├── copy_dst_china.rsf
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       ├── hatamotolib.cpp
+│       │   │       ├── hatamotolib.h
+│       │   │       ├── main.c
+│       │   │       ├── mfiler.c
+│       │   │       ├── mfiler.h
+│       │   │       ├── mynuc.c
+│       │   │       ├── mynuc.h
+│       │   │       ├── ntp.c
+│       │   │       ├── ntp.h
+│       │   │       ├── nuc_error_msg.c
+│       │   │       ├── nuc_error_msg.h
+│       │   │       ├── wifi_cfg.c
+│       │   │       └── wifi_cfg.h
+│       │   ├── copy_org/
+│       │   │   ├── banner/
+│       │   │   │   ├── banner_v3.bsf
+│       │   │   │   ├── icon/
+│       │   │   │   │   ├── gameIcon.bmp
+│       │   │   │   │   └── subIcon.bmp
+│       │   │   │   ├── Makefile
+│       │   │   │   └── sub_banner_v3.bsf
+│       │   │   ├── copy_org.rsf
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       └── main.c
+│       │   ├── cryptopc/
+│       │   │   ├── main.c
+│       │   │   └── Makefile
+│       │   ├── files/
+│       │   │   ├── cursor.wav
+│       │   │   ├── fanfare.32.wav
+│       │   │   ├── ng.wav
+│       │   │   ├── ok.wav
+│       │   │   ├── taddevs/
+│       │   │   │   ├── backupSample.tad
+│       │   │   │   ├── encodeSD.tad
+│       │   │   │   ├── Makefile
+│       │   │   │   └── nandAppSample.tad
+│       │   │   ├── tads/
+│       │   │   │   └── Makefile
+│       │   │   └── wlan_cfg.txt
+│       │   ├── make_tad_table/
+│       │   │   ├── make_tad_table.c
+│       │   │   └── Makefile
+│       │   ├── Makefile
+│       │   ├── makesdtd/
+│       │   │   ├── LICENSE_en.txt
+│       │   │   ├── LICENSE_jp.txt
+│       │   │   ├── listconv.pl
+│       │   │   ├── Makefile
+│       │   │   ├── makesdtd.c
+│       │   │   ├── my_sign.c
+│       │   │   ├── my_sign.h
+│       │   │   └── my_sign_local.h
+│       │   ├── my_armadillo.TWL/
+│       │   │   ├── armadillo.lcf.template
+│       │   │   ├── armadillo.lsf
+│       │   │   ├── armadillo.response.template
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       ├── main.c
+│       │   │       └── overwriteRtc.c
+│       │   └── wifilib/
+│       │       └── ARM9-TS.LTD/
+│       │           ├── Debug/
+│       │           │   ├── libnhttp.nssl.TWL.LTD.a
+│       │           │   ├── libnhttp.nssl.TWL.LTD.thumb.a
+│       │           │   ├── libnssl.TWL.LTD.a
+│       │           │   ├── libnssl.TWL.LTD.thumb.a
+│       │           │   ├── libnuc.TWL.LTD.a
+│       │           │   └── libnuc.TWL.LTD.thumb.a
+│       │           ├── Release/
+│       │           │   ├── libnhttp.nssl.TWL.LTD.a
+│       │           │   ├── libnhttp.nssl.TWL.LTD.thumb.a
+│       │           │   ├── libnssl.TWL.LTD.a
+│       │           │   ├── libnssl.TWL.LTD.thumb.a
+│       │           │   ├── libnuc.TWL.LTD.a
+│       │           │   └── libnuc.TWL.LTD.thumb.a
+│       │           └── Rom/
+│       │               ├── libnhttp.nssl.TWL.LTD.a
+│       │               ├── libnhttp.nssl.TWL.LTD.thumb.a
+│       │               ├── libnssl.TWL.LTD.a
+│       │               ├── libnssl.TWL.LTD.thumb.a
+│       │               ├── libnuc.TWL.LTD.a
+│       │               └── libnuc.TWL.LTD.thumb.a
+│       └── TamperDetectorForSrl/
+│           ├── banner.h
+│           ├── card_hash.cpp
+│           ├── card_hash.h
+│           ├── checker.cpp
+│           ├── checker.h
+│           ├── entry.cpp
+│           ├── entry.h
+│           ├── main.cpp
+│           ├── nitro_romheader.h
+│           ├── Readme.txt
+│           ├── searcharg.cpp
+│           ├── searcharg.h
+│           ├── tamperdetector.exe
+│           ├── twl_format_rom.h
+│           ├── twl_format_rom_certificate.h
+│           └── types.h
+├── docs/
+│   ├── MasterEditorTWL/
+│   │   ├── ChinaKoreaSupport.html
+│   │   ├── ChinaKoreaSupport.txt
+│   │   ├── MasterEditorTWL_1_6_change.txt
+│   │   ├── MasterEditorTWL_1_8_change.txt
+│   │   ├── MasterEditorTWL_Manual-Jp.doc
+│   │   ├── MasterEditorTWL_Manual-Jp.pdf
+│   │   ├── NOAからのGUI要望_ver1_6.doc
+│   │   ├── Readme-1_8A.txt
+│   │   ├── Readme-1_9a.txt
+│   │   ├── Readme.txt
+│   │   ├── Readme_SouceDistribution.txt
+│   │   ├── Readme_システムアプリ版.txt
+│   │   ├── ROMファイル入出力シーケンス.vsd
+│   │   ├── ROMヘッダ変更箇所.xls
+│   │   ├── SDKバージョン自動チェックシーケンス.vsd
+│   │   ├── Shared2ファイルチェックシーケンス.vsd
+│   │   ├── TWL特殊なレーティングの取り扱い.xls
+│   │   ├── エラーチェック項目.xls
+│   │   ├── エラーチェック項目_体験版対応.xls
+│   │   ├── クラス図.jude
+│   │   ├── チェック手順書.doc
+│   │   ├── デバッグ説明会_フィードバック.txt
+│   │   ├── デバッグ項目_リージョンとレーティング.xls
+│   │   ├── デバッグ項目_基本操作.xls
+│   │   ├── デバッグ項目_提出確認書.xls
+│   │   ├── ペアレンタルコントロール情報の入出力仕様.xls
+│   │   ├── ペアレンタルコントロール情報の読み書きシーケンス.vsd
+│   │   ├── マスターエディタGUIメッセージ一覧.xls
+│   │   ├── マスターエディタTWLインストールガイド.doc
+│   │   ├── マスターエディタ設定ファイル解説.txt
+│   │   ├── 仕様変更の要望.xls
+│   │   ├── 仕様概要.ppt
+│   │   ├── 体験版の用途区分.xls
+│   │   ├── 入力可能なアプリの種類.xls
+│   │   ├── 出力ROMチェックツール/
+│   │   │   └── フローチャート.vsd
+│   │   ├── 提出確認書チェッカ/
+│   │   │   ├── CardRomHeaderChecker.srl
+│   │   │   ├── README.txt
+│   │   │   ├── T0CZAEF.SRL
+│   │   │   ├── T0CZAFF.SRL
+│   │   │   ├── 仕様.vsd
+│   │   │   └── 仕様概要.ppt
+│   │   └── 試遊用アプリ対応/
+│   │       ├── trial_mastering_nitro.gif
+│   │       ├── trial_mastering_twl.gif
+│   │       ├── TV会議_ネ開and製技_20090617.html
+│   │       ├── TV会議_ネ開and製技_20090617.txt
+│   │       ├── マスタリング体験版対応_仕様案_20090605.html
+│   │       ├── マスタリング体験版対応_仕様案_20090605.txt
+│   │       └── 試遊台フラグを立てるシーケンス_in_製品技術部.vsd
+│   ├── MenuSkipFlagTool/
+│   │   ├── Readme.html
+│   │   ├── Readme.txt
+│   │   ├── tool_flowchart.gif
+│   │   ├── フラグ立てツール_フローチャート.vsd
+│   │   └── フラグ立て処理検査ツール_フローチャート.vsd
+│   └── RatingAllFreeTool/
+│       └── レーティングFree埋めツール.vsd
+├── tests/
+│   ├── MasterEditorTWL_mrc_roms/
+│   │   ├── illegal_roms/
+│   │   │   ├── banner_nand1.srl
+│   │   │   ├── china_banner_nand1.srl
+│   │   │   ├── digest_nand1.srl
+│   │   │   ├── dwc_nand1.srl
+│   │   │   ├── file_size_card1.srl
+│   │   │   ├── hybrid_cloneboot_nand1.srl
+│   │   │   ├── hybrid_nand1.srl
+│   │   │   ├── hybrid_nand1.tad
+│   │   │   ├── hybrid_nand_50rel.srl
+│   │   │   ├── hybrid_nand_51pr.srl
+│   │   │   ├── korea_banner_nand1.srl
+│   │   │   ├── limited_cloneboot_nand1.srl
+│   │   │   ├── old_encrypt_nand1.srl
+│   │   │   ├── photo_access_nand3.srl
+│   │   │   ├── photo_access_nand4.srl
+│   │   │   ├── photo_access_nand5.srl
+│   │   │   ├── photo_access_nand6.srl
+│   │   │   ├── regular_nand.tad
+│   │   │   ├── regular_sys.tad
+│   │   │   ├── release_build.srl
+│   │   │   ├── syscall_nand1.srl
+│   │   │   ├── touch_try_ds_card01.srl
+│   │   │   └── touch_try_ds_card03.srl
+│   │   ├── original_rom/
+│   │   │   ├── Card/
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── Makefile.128Byte
+│   │   │   │   ├── Makefile.AllExceptChina
+│   │   │   │   ├── Makefile.china
+│   │   │   │   ├── Makefile.default_syscall
+│   │   │   │   ├── Makefile.korea
+│   │   │   │   ├── Makefile.limited
+│   │   │   │   ├── Makefile.tcl
+│   │   │   │   ├── ROM-TS.128Byte.rsf
+│   │   │   │   ├── ROM-TS.AllExceptChina.rsf
+│   │   │   │   ├── ROM-TS.china.rsf
+│   │   │   │   ├── ROM-TS.korea.rsf
+│   │   │   │   └── ROM-TS.rsf
+│   │   │   ├── common/
+│   │   │   │   ├── 0CZA/
+│   │   │   │   │   ├── libsyscall.a
+│   │   │   │   │   └── rom_header_0cza.template.sbin
+│   │   │   │   ├── banner/
+│   │   │   │   │   ├── banner.bsf
+│   │   │   │   │   ├── icon/
+│   │   │   │   │   │   └── gameIcon.bmp
+│   │   │   │   │   └── Makefile
+│   │   │   │   └── src/
+│   │   │   │       ├── main.c
+│   │   │   │       ├── main_china.c
+│   │   │   │       └── main_tcl.c
+│   │   │   ├── Makefile
+│   │   │   ├── Nand/
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── Makefile.china
+│   │   │   │   ├── Makefile.korea
+│   │   │   │   ├── Makefile.syscall
+│   │   │   │   ├── Makefile.tcl
+│   │   │   │   ├── ROM-TS_nand.china.rsf
+│   │   │   │   ├── ROM-TS_nand.korea.rsf
+│   │   │   │   ├── ROM-TS_nand.rsf
+│   │   │   │   └── ROM-TS_nand.tcl.rsf
+│   │   │   └── System/
+│   │   │       ├── Makefile
+│   │   │       └── ROM-TS_nand.rsf
+│   │   ├── work/
+│   │   │   ├── china_card.srl
+│   │   │   ├── china_nand.nand.srl
+│   │   │   ├── FakeRomHeader.user.exe
+│   │   │   ├── IllegalRomMaker.exe
+│   │   │   ├── korea_card.srl
+│   │   │   ├── korea_nand.nand.srl
+│   │   │   ├── make_mrc_rom.sh
+│   │   │   ├── Readme.txt
+│   │   │   ├── regular_card.srl
+│   │   │   ├── regular_card_52rel.srl
+│   │   │   ├── regular_nand.nand.srl
+│   │   │   ├── regular_nand_50rel.srl
+│   │   │   ├── regular_nand_51pr.srl
+│   │   │   ├── regular_nand_52rc.srl
+│   │   │   ├── regular_nand_52rel.srl
+│   │   │   ├── regular_nand_53pr.srl
+│   │   │   ├── regular_sys.nand.srl
+│   │   │   ├── tcl_card.srl
+│   │   │   └── tcl_nand.nand.srl
+│   │   └── デバッグ項目_MRC.xls
+│   └── SimpleFontViewSD/
+│       ├── 030A/
+│       │   ├── libsyscall.a
+│       │   ├── libsyscall_c.bin
+│       │   └── rom_header_030a.template.sbin
+│       ├── banner/
+│       │   ├── icon/
+│       │   │   └── gameIcon.bmp
+│       │   ├── Makefile
+│       │   └── test-utf16_v3.TWL.bsf
+│       ├── data/
+│       │   └── fontd.NFTR
+│       ├── Makefile
+│       ├── readme.txt
+│       ├── ROM-TS_custom.rsf
+│       ├── src/
+│       │   └── main.c
+│       └── textdemolib/
+│           ├── include/
+│           │   ├── g2d_textdemolib/
+│           │   │   ├── cmn.h
+│           │   │   ├── debug_txt.h
+│           │   │   ├── loader.h
+│           │   │   ├── txt.h
+│           │   │   └── wprintf.h
+│           │   └── g2d_textdemolib.h
+│           ├── Makefile
+│           └── src/
+│               ├── cmn.c
+│               ├── debug_txt.c
+│               ├── loader.c
+│               ├── txt.c
+│               └── wprintf.c
+└── tools/
+    └── bin/
+        ├── FingerPrinterTWL_ExternalComponents/
+        │   ├── cygcrypto-0.9.8.dll
+        │   ├── cygwin1.dll
+        │   └── maketad.exe
+        ├── FingerprinterTWLSetup.msi
+        ├── MasterEditorTWL_AllExceptChinaSetup.msi
+        ├── MasterEditorTWL_LauncherSetup.msi
+        ├── MasterEditorTWL_SecureSetup.msi
+        ├── MasterEditorTWL_SystemSetup.msi
+        ├── MasterEditorTWLSetup.msi
+        ├── MasterEditorTWLSetup_en.msi
+        └── Mastering Batch File/
+            ├── backup/
+            │   ├── Mastering.bat_20090511
+            │   ├── âRâsü[ (2) ü` Mastering.bat
+            │   └── âRâsü[ ü` Mastering.bat
+            ├── bin/
+            │   ├── caution_properties.BAK
+            │   ├── caution_properties.txt
+            │   ├── comparing.TWL.exe
+            │   ├── cygcrypto-0.9.8.dll
+            │   ├── cygwin1.dll
+            │   ├── maketad.exe
+            │   ├── MasterEditorTWLSetup.msi
+            │   ├── mastering.TWL.exe
+            │   ├── mastering.TWL.ini
+            │   ├── split_tad_console.exe
+            │   └── SrlAnalyzer.TWL.exe
+            ├── Mastering.bat
+            └── sample/
+                ├── 0CZA.srl
+                ├── 0CZA.tad
+                ├── DSSoundP_1828_JP.tad
+                ├── NTRJ-Secure.srl
+                └── NTRJ.srl

@@ -1,0 +1,156 @@
+NitroMiddleware-libVCT-1_3_1-080401/
+└── libVCT/
+    ├── build/
+    │   ├── buildtools/
+    │   │   ├── commondefs
+    │   │   ├── commondefs.VCT
+    │   │   ├── modulerules
+    │   │   └── modulerules.VCT
+    │   ├── demos/
+    │   │   ├── Makefile
+    │   │   └── VoiceChatDemo/
+    │   │       ├── data/
+    │   │       │   ├── bnk/
+    │   │       │   │   └── se.bnk
+    │   │       │   ├── MakeSound.bat
+    │   │       │   ├── mus/
+    │   │       │   │   └── se.mus
+    │   │       │   ├── ReMakeSound.bat
+    │   │       │   ├── sound_data.o
+    │   │       │   ├── sound_data.sarc
+    │   │       │   └── wav/
+    │   │       │       ├── beep.wav
+    │   │       │       ├── busy.wav
+    │   │       │       ├── noise.wav
+    │   │       │       ├── ringin.wav
+    │   │       │       └── ringout.wav
+    │   │       ├── include/
+    │   │       │   ├── conference.h
+    │   │       │   ├── cost.h
+    │   │       │   ├── debug_menu.h
+    │   │       │   ├── demo_menu.h
+    │   │       │   ├── demo_util.h
+    │   │       │   ├── font.h
+    │   │       │   ├── gamemain.h
+    │   │       │   ├── init.h
+    │   │       │   ├── logon.h
+    │   │       │   ├── main.h
+    │   │       │   ├── mp.h
+    │   │       │   ├── Nitro_TS.h
+    │   │       │   ├── Nitro_TS.pch
+    │   │       │   ├── Nitro_TS.pch++
+    │   │       │   ├── phone.h
+    │   │       │   ├── registerfriend.h
+    │   │       │   ├── screen.h
+    │   │       │   ├── sound.h
+    │   │       │   ├── thread_statistics.h
+    │   │       │   ├── tp_input.h
+    │   │       │   ├── transceiver.h
+    │   │       │   ├── transport.h
+    │   │       │   ├── utility.h
+    │   │       │   ├── vct_menu.h
+    │   │       │   └── wc.h
+    │   │       ├── Makefile
+    │   │       ├── Nitro.lcf
+    │   │       ├── Nitro.lcf.bat
+    │   │       ├── Nitro.lcf.lsf
+    │   │       ├── ROM-TS.rsf
+    │   │       ├── src/
+    │   │       │   ├── conference.cpp
+    │   │       │   ├── cost.c
+    │   │       │   ├── debug_menu.cpp
+    │   │       │   ├── demo_menu.cpp
+    │   │       │   ├── demo_util.cpp
+    │   │       │   ├── font.c
+    │   │       │   ├── gamemain.c
+    │   │       │   ├── init.c
+    │   │       │   ├── logon.c
+    │   │       │   ├── main.c
+    │   │       │   ├── mp.c
+    │   │       │   ├── phone.cpp
+    │   │       │   ├── registerfriend.c
+    │   │       │   ├── screen.c
+    │   │       │   ├── sound.c
+    │   │       │   ├── thread_statistics.c
+    │   │       │   ├── tp_input.c
+    │   │       │   ├── transceiver.cpp
+    │   │       │   ├── transport.c
+    │   │       │   ├── utility.c
+    │   │       │   ├── vct_menu.cpp
+    │   │       │   └── wc.c
+    │   │       └── VoiceChatDemo.mcp
+    │   └── Makefile
+    ├── docs/
+    │   └── TechnicalNotes/
+    │       └── AboutVoiceChat.pdf
+    ├── include/
+    │   └── vct.h
+    ├── lib/
+    │   └── ARM9-TS/
+    │       ├── Debug/
+    │       │   ├── libvct.a
+    │       │   └── libvct.thumb.a
+    │       ├── Release/
+    │       │   ├── libvct.a
+    │       │   └── libvct.thumb.a
+    │       └── Rom/
+    │           ├── libvct.a
+    │           └── libvct.thumb.a
+    ├── man/
+    │   └── ja_JP/
+    │       ├── a-z.html
+    │       ├── changelog.html
+    │       ├── contents.html
+    │       ├── css/
+    │       │   ├── apilist.css
+    │       │   ├── nitro.css
+    │       │   └── titles.css
+    │       ├── icons.html
+    │       ├── index.html
+    │       ├── main.html
+    │       └── vct/
+    │           ├── list_vct.html
+    │           ├── vct.html
+    │           ├── VCT_AddConferenceClient.html
+    │           ├── VCT_Cleanup.html
+    │           ├── VCT_Contact.html
+    │           ├── VCT_CreateSession.html
+    │           ├── VCT_DeleteSession.html
+    │           ├── VCT_EnableEchoCancel.html
+    │           ├── VCT_EnableVAD.html
+    │           ├── VCT_GetAudioInfo.html
+    │           ├── VCT_GetCodec.html
+    │           ├── VCT_GetVADInfo.html
+    │           ├── VCT_HandleData.html
+    │           ├── VCT_Init.html
+    │           ├── VCT_Main.html
+    │           ├── VCT_ReceiveAudio.html
+    │           ├── VCT_Release.html
+    │           ├── VCT_RemoveConferenceClient.html
+    │           ├── VCT_Request.html
+    │           ├── VCT_ResetVAD.html
+    │           ├── VCT_Response.html
+    │           ├── VCT_SendAudio.html
+    │           ├── VCT_SetCodec.html
+    │           ├── VCT_SetReportLevel.html
+    │           ├── VCT_SetTransceiverClients.html
+    │           ├── VCT_SetTransceiverMode.html
+    │           ├── VCT_SetTransceiverServer.html
+    │           ├── VCT_SetTransceiverTimeout.html
+    │           ├── VCT_SetVADReleaseTime.html
+    │           ├── VCT_StartStreaming.html
+    │           ├── VCT_StopStreaming.html
+    │           ├── VCTAudioInfo.html
+    │           ├── VCTCodec.html
+    │           ├── VCTConfig.html
+    │           ├── VCTErrorCode.html
+    │           ├── VCTEvent.html
+    │           ├── VCTEventCallback.html
+    │           ├── VCTMode.html
+    │           ├── VCTReportLevel.html
+    │           ├── VCTRequestCode.html
+    │           ├── VCTResponseCode.html
+    │           ├── VCTSession.html
+    │           ├── VCTState.html
+    │           └── VCTVADInfo.html
+    └── Readme-NitroMiddleware-libVCT-1_3_1-080401.txt

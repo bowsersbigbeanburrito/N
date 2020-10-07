@@ -1,0 +1,45 @@
+tools/
+├── .git/
+├── compress/
+│   ├── Makefile
+│   └── sliutil.c
+├── conversion/
+│   ├── allBut.py
+│   ├── ar2rgba.pl
+│   ├── ascii2raw.py
+│   ├── binaryReplacer
+│   ├── binaryReplacer.c
+│   ├── c2ppm.py
+│   ├── checkForTexture.py
+│   ├── ci_c2ppm.py
+│   ├── convertRGBAToSGI.py
+│   ├── cv.py
+│   ├── doSymbolReplace.sh
+│   ├── extractTextures.py
+│   ├── findAddress.py
+│   ├── fixRGB.pl
+│   ├── font2ppm.py
+│   ├── font2rgba.pl
+│   ├── genMIFFfromRGBA.pl
+│   ├── genPPMfrom1Color.pl
+│   ├── genPPMfromASCIIClut.sh
+│   ├── genPPMfromASCIIRGBA16.sh
+│   ├── genPPMfromClut.pl
+│   ├── genPPMfromRGB.pl
+│   ├── genPPMfromRGBA.pl
+│   ├── genRawFromClut.pl
+│   ├── genRGBAfromASCII16.sh
+│   ├── i82rgba.pl
+│   ├── mergeDotS.py
+│   ├── raw2BWAlpha.pl
+│   ├── raw2tex.pl
+│   ├── rawC2ppm.py
+│   ├── replaceTexture.py
+│   ├── rgb216rgba.pl
+│   ├── rgb2font.pl
+│   ├── rgb2rgba.pl
+│   ├── rgba22B.pl
+│   ├── rgba2i8.pl
+│   ├── rgba2red.pl
+│   └── writeBytes.pl
+└── sync.py

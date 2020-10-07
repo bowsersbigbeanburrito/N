@@ -1,0 +1,1826 @@
+{
+    "boot": {
+        "boot.b-selk": {
+            "Content-Type": "application/octet-stream",
+            "X-Parsed-By": "org.apache.tika.parser.EmptyParser",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'boot.b-selk'"
+        },
+        "bootld.conf.sample": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "application/x-sh; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'bootld.conf.sample'"
+        }
+    },
+    "etc": {
+        "lilo.conf": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'lilo.conf'"
+        }
+    },
+    "etc\\init.d": {
+        "btnctrl": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'btnctrl'"
+        },
+        "wakeonlan": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'wakeonlan'"
+        }
+    },
+    "etc\\rc.boot": {
+        "landisk_setup": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "application/x-sh; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'landisk_setup'"
+        }
+    },
+    "etc\\udev\\rules.d": {
+        "010_landisk.rules": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'010_landisk.rules'"
+        }
+    },
+    "sbin\\AGS": {
+        "lilo": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'lilo'"
+        },
+        "lilo.x86": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "machine:machineType": "x86-32",
+            "resourceName": "b'lilo.x86'"
+        }
+    },
+    "usr\\local\\lib\\landisk-tools\\PWB": {
+        "btn_action.conf": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'btn_action.conf'"
+        }
+    },
+    "usr\\local\\sbin": {
+        "gio2": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'gio2'"
+        },
+        "gio2_load": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "application/x-sh; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'gio2_load'"
+        },
+        "gio2_unload": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "application/x-sh; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'gio2_unload'"
+        },
+        "landisk-tools.setup": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "application/x-sh; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'landisk-tools.setup'"
+        },
+        "ledctrl": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'ledctrl'"
+        },
+        "rtl8139-diag": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'rtl8139-diag'"
+        },
+        "select_btn": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'select_btn'"
+        }
+    },
+    "usr\\local\\sbin\\CTR": {
+        "ethtool": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'ethtool'"
+        }
+    },
+    "usr\\local\\sbin\\PWB": {
+        "btnctrl": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'btnctrl'"
+        }
+    },
+    "usr\\local\\src": {
+        "led_kernel_module.patch": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'led_kernel_module.patch'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools": {
+        "gio2.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'gio2.c'"
+        },
+        "ledctrl.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'ledctrl.c'"
+        },
+        "select_btn.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'select_btn.c'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\PWB": {
+        "btnctrl.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'btnctrl.c'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\AGS": {
+        "sh-lilo-selk-20051110.patch": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'sh-lilo-selk-20051110.patch'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110": {
+        ".cvsignore": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'.cvsignore'"
+        },
+        "boot.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'boot.h'"
+        },
+        "bsect.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'bsect.c'"
+        },
+        "bsect.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'bsect.h'"
+        },
+        "cfg.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'cfg.c'"
+        },
+        "cfg.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'cfg.h'"
+        },
+        "ChangeLog": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'ChangeLog'"
+        },
+        "common.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'common.c'"
+        },
+        "config.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'config.h'"
+        },
+        "defs.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'defs.h'"
+        },
+        "device.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'device.h'"
+        },
+        "first.S": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'first.S'"
+        },
+        "identify.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'identify.c'"
+        },
+        "identify.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'identify.h'"
+        },
+        "map.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'map.h'"
+        },
+        "md-int.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'md-int.h'"
+        },
+        "partition.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'partition.h'"
+        },
+        "README": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'README'"
+        },
+        "string.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/x-csrc; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'string.c'"
+        },
+        "temp.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'temp.c'"
+        },
+        "temp.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "0",
+            "resourceName": "b'temp.h'"
+        },
+        "TODO": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'TODO'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\AGS": {
+        "Makefile": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Makefile'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\ags-": {
+        "lilo.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'lilo.c'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\CVS": {
+        "Entries": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Entries'"
+        },
+        "Repository": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Repository'"
+        },
+        "Root": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Root'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\MIN": {
+        "geometry.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'geometry.c'"
+        },
+        "partition.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'partition.c'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\NDS": {
+        "lilo.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'lilo.h'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\NTR": {
+        "boot.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'boot.c'"
+        },
+        "common.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'common.h'"
+        },
+        "device.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'device.c'"
+        },
+        "geometry.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'geometry.h'"
+        },
+        "map.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'map.c'"
+        },
+        "second.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'second.c'"
+        },
+        "second.lds": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'second.lds'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\precompiled": {
+        "boot.b-selk": {
+            "Content-Type": "application/octet-stream",
+            "X-Parsed-By": "org.apache.tika.parser.EmptyParser",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'boot.b-selk'"
+        },
+        "lilo.conf": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'lilo.conf'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\precompiled\\AGS": {
+        "lilo": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'lilo'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\precompiled\\CVS": {
+        "Entries": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Entries'"
+        },
+        "Repository": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Repository'"
+        },
+        "Root": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Root'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan": {
+        "ethtool_1.7-1.dsc": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'ethtool_1.7-1.dsc'"
+        },
+        "ethtool_1.7-1_sh4.deb": {
+            "Content-Type": [
+                "application/x-archive",
+                "text/plain; charset=ISO-8859-1",
+                "text/plain; charset=ISO-8859-1",
+                "text/plain; charset=ISO-8859-1",
+                "application/x-gtar",
+                "application/gzip",
+                "application/x-executable",
+                "text/troff; charset=ISO-8859-1",
+                "application/gzip",
+                "text/plain; charset=ISO-8859-1",
+                "application/gzip",
+                "text/tsv; charset=ISO-8859-1; delimiter=tab",
+                "application/gzip",
+                "text/plain; charset=ISO-8859-1",
+                "text/plain; charset=ISO-8859-1",
+                "text/plain; charset=ISO-8859-1",
+                "text/plain; charset=ISO-8859-1",
+                "application/gzip",
+                "application/x-gtar",
+                "application/gzip"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.PackageParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.executable.ExecutableParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.PackageParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.pkg.CompressorParser"
+                ]
+            ],
+            "X-TIKA:content_handler": [
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler"
+            ],
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "3",
+                "3",
+                "2",
+                "1",
+                "3",
+                "4",
+                "3",
+                "4",
+                "3",
+                "4",
+                "3",
+                "3",
+                "3",
+                "3",
+                "4",
+                "3",
+                "2",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "19",
+                "1",
+                "1",
+                "1",
+                "3",
+                "4",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "2",
+                "3",
+                "1",
+                "0",
+                "1",
+                "1",
+                "1",
+                "12",
+                "13"
+            ],
+            "resourceName": [
+                "b'ethtool_1.7-1_sh4.deb'",
+                "debian-binary",
+                "./md5sums",
+                "./control",
+                "control.tar",
+                "control.tar.gz",
+                "./usr/sbin/ethtool",
+                "./usr/share/man/man8/ethtool.8",
+                "./usr/share/man/man8/ethtool.8.gz",
+                "./usr/share/doc/ethtool/changelog",
+                "./usr/share/doc/ethtool/changelog.gz",
+                "./usr/share/doc/ethtool/NEWS",
+                "./usr/share/doc/ethtool/NEWS.gz",
+                "./usr/share/doc/ethtool/README",
+                "./usr/share/doc/ethtool/README.Debian",
+                "./usr/share/doc/ethtool/copyright",
+                "./usr/share/doc/ethtool/changelog.Debian",
+                "./usr/share/doc/ethtool/changelog.Debian.gz",
+                "data.tar",
+                "data.tar.gz"
+            ],
+            "Content-Encoding": [
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "ISO-8859-1",
+                "ISO-8859-1"
+            ],
+            "Content-Length": [
+                "4",
+                "525",
+                "229",
+                "596",
+                "65960",
+                "2467",
+                "2814",
+                "815",
+                "127",
+                "166",
+                "185",
+                "149",
+                "34903"
+            ],
+            "Last-Modified": [
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z",
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:27Z",
+                "2006-05-28T15:02:10Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T14:52:40Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T15:02:43Z"
+            ],
+            "Last-Save-Date": [
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z",
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:27Z",
+                "2006-05-28T15:02:10Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T14:52:40Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T15:02:43Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/debian-binary",
+                "/control.tar.gz/control.tar/md5sums",
+                "/control.tar.gz/control.tar/control",
+                "/control.tar.gz/control.tar",
+                "/control.tar.gz",
+                "/data.tar.gz/data.tar/ethtool",
+                "/data.tar.gz/data.tar/ethtool.8.gz/ethtool.8",
+                "/data.tar.gz/data.tar/ethtool.8.gz",
+                "/data.tar.gz/data.tar/changelog.gz/changelog",
+                "/data.tar.gz/data.tar/changelog.gz",
+                "/data.tar.gz/data.tar/NEWS.gz/NEWS",
+                "/data.tar.gz/data.tar/NEWS.gz",
+                "/data.tar.gz/data.tar/README",
+                "/data.tar.gz/data.tar/README.Debian",
+                "/data.tar.gz/data.tar/copyright",
+                "/data.tar.gz/data.tar/changelog.Debian.gz/changelog.Debian",
+                "/data.tar.gz/data.tar/changelog.Debian.gz",
+                "/data.tar.gz/data.tar",
+                "/data.tar.gz"
+            ],
+            "date": [
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z",
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:27Z",
+                "2006-05-28T15:02:10Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T14:52:40Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T15:02:43Z"
+            ],
+            "dcterms:modified": [
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z",
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:27Z",
+                "2006-05-28T15:02:10Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T14:52:40Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T15:02:43Z"
+            ],
+            "embeddedRelationshipId": [
+                "debian-binary",
+                "./md5sums",
+                "./control",
+                "control.tar.gz",
+                "./usr/sbin/ethtool",
+                "./usr/share/man/man8/ethtool.8.gz",
+                "./usr/share/doc/ethtool/changelog.gz",
+                "./usr/share/doc/ethtool/NEWS.gz",
+                "./usr/share/doc/ethtool/README",
+                "./usr/share/doc/ethtool/README.Debian",
+                "./usr/share/doc/ethtool/copyright",
+                "./usr/share/doc/ethtool/changelog.Debian.gz",
+                "data.tar.gz"
+            ],
+            "meta:save-date": [
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z",
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:27Z",
+                "2006-05-28T15:02:10Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T14:52:40Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T15:02:43Z"
+            ],
+            "modified": [
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z",
+                "2006-05-28T15:02:43Z",
+                "2006-05-28T15:02:27Z",
+                "2006-05-28T15:02:10Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-27T09:44:55Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T14:52:40Z",
+                "2006-05-28T14:41:21Z",
+                "2006-05-28T15:02:43Z"
+            ],
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "csv:delimiter": "tab"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool-debian26_sh4.bin\\CTR": {
+        "ethtool": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'ethtool'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7-1.diff\\ris-c": {
+        "ethtool_1.7-1.diff": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'ethtool_1.7-1.diff'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7-1_sh4": {
+        "ethtool_1.7-1_sh4": {
+            "Content-Type": [
+                "application/x-gtar",
+                "text/plain; charset=ISO-8859-1",
+                "text/plain; charset=ISO-8859-1"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.pkg.PackageParser",
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ],
+                [
+                    "org.apache.tika.parser.DefaultParser",
+                    "org.apache.tika.parser.csv.TextAndCSVParser"
+                ]
+            ],
+            "X-TIKA:content_handler": [
+                "ToTextContentHandler",
+                "ToTextContentHandler",
+                "ToTextContentHandler"
+            ],
+            "X-TIKA:embedded_depth": [
+                "0",
+                "1",
+                "1"
+            ],
+            "X-TIKA:parse_time_millis": [
+                "2",
+                "1",
+                "1"
+            ],
+            "resourceName": [
+                "b'ethtool_1.7-1_sh4'",
+                "./md5sums",
+                "./control"
+            ],
+            "Content-Encoding": [
+                "ISO-8859-1",
+                "ISO-8859-1"
+            ],
+            "Content-Length": [
+                "525",
+                "229"
+            ],
+            "Last-Modified": [
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z"
+            ],
+            "Last-Save-Date": [
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z"
+            ],
+            "X-TIKA:embedded_resource_path": [
+                "/md5sums",
+                "/control"
+            ],
+            "date": [
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z"
+            ],
+            "dcterms:modified": [
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z"
+            ],
+            "embeddedRelationshipId": [
+                "./md5sums",
+                "./control"
+            ],
+            "meta:save-date": [
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z"
+            ],
+            "modified": [
+                "2006-05-28T15:02:42Z",
+                "2006-05-28T15:02:41Z"
+            ]
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7-1_sh4\\ethtool_1": {
+        "control": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'control'"
+        },
+        "md5sums": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'md5sums'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig": {
+        "acconfig.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/x-chdr; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'acconfig.h'"
+        },
+        "AUTHORS": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'AUTHORS'"
+        },
+        "ChangeLog": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'ChangeLog'"
+        },
+        "config.cache": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'config.cache'"
+        },
+        "config.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'config.h'"
+        },
+        "config.h.in": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'config.h.in'"
+        },
+        "config.log": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'config.log'"
+        },
+        "configure.in": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'configure.in'"
+        },
+        "de2104x.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'de2104x.c'"
+        },
+        "e100.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'e100.c'"
+        },
+        "ethtool-util.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'ethtool-util.h'"
+        },
+        "ethtool.8": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/troff; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'ethtool.8'"
+        },
+        "install-sh": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "application/x-sh; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'install-sh'"
+        },
+        "missing": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'missing'"
+        },
+        "mkinstalldirs": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'mkinstalldirs'"
+        },
+        "NEWS": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/tsv; charset=ISO-8859-1; delimiter=tab",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "csv:delimiter": "tab",
+            "resourceName": "b'NEWS'"
+        },
+        "README": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'README'"
+        },
+        "realtek.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'realtek.c'"
+        },
+        "stamp-h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'stamp-h'"
+        },
+        "stamp-h.in": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'stamp-h.in'"
+        },
+        "tg3.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/x-csrc; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'tg3.c'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\AGS": {
+        "config.status": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'config.status'"
+        },
+        "configure": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'configure'"
+        },
+        "ethtool.spec": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'ethtool.spec'"
+        },
+        "ethtool.spec.in": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'ethtool.spec.in'"
+        },
+        "INSTALL": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'INSTALL'"
+        },
+        "Makefile": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Makefile'"
+        },
+        "Makefile.am": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Makefile.am'"
+        },
+        "Makefile.in": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'Makefile.in'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\CTR": {
+        "e1000.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'e1000.c'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\MIN": {
+        "natsemi.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'natsemi.c'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\NDS": {
+        "aclocal.m4": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'aclocal.m4'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\TIS": {
+        "ethtool-copy.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'ethtool-copy.h'"
+        },
+        "ethtool.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'ethtool.c'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\WIS": {
+        "COPYING": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'COPYING'"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\rtl8139-diag.bin_and_src\\rtl8139-diag": {
+        "gio.h": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/x-csrc; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'gio.h'"
+        },
+        "rtl8139-diag": {
+            "Content-Type": "application/x-executable",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.executable.ExecutableParser"
+            ],
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "machine:architectureBits": "32",
+            "machine:endian": "Little",
+            "resourceName": "b'rtl8139-diag'"
+        },
+        "rtl8139-diag.c": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "resourceName": "b'rtl8139-diag.c'"
+        }
+    }
+}

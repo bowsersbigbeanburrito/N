@@ -1,0 +1,746 @@
+{
+    "eagle": {
+        "b21188583.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 93; columnNumber: 3; Element type \"path\" must be followed by either attribute specifications, \">\" or \"/>\".\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'b21188583.svg'"
+        }
+    },
+    "GCN": {
+        "b21198407.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 141; columnNumber: 3; Element type \"a:midPointStop\" must be followed by either attribute specifications, \">\" or \"/>\".\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'b21198407.svg'"
+        }
+    },
+    "min-": {
+        "b21189167.svg": {
+            "Author": "Sergio Luiz Araujo Silva",
+            "Content-Type": "image/svg+xml",
+            "Creation-Date": "october 2005",
+            "Keywords": [
+                "digital",
+                "imformation",
+                "computer",
+                "pc"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 130; columnNumber: 34; XML document structures must start and end within the same entity.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.skipChar(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "creator": "Sergio Luiz Araujo Silva",
+            "dc:creator": "Sergio Luiz Araujo Silva",
+            "dc:description": "Um desenho que fiz a partir de uma foto capturada da internet",
+            "dc:format": "image/svg+xml",
+            "dc:language": "en",
+            "dc:publisher": "Open Clip Art Library",
+            "dc:rights": "Sergio Luiz Araujo Silva",
+            "dc:subject": [
+                "digital",
+                "imformation",
+                "computer",
+                "pc"
+            ],
+            "dc:title": "Sergio Luiz Araujo Silva",
+            "dcterms:created": "october 2005",
+            "description": "Um desenho que fiz a partir de uma foto capturada da internet",
+            "format": "image/svg+xml",
+            "language": "en",
+            "meta:author": "Sergio Luiz Araujo Silva",
+            "meta:creation-date": "october 2005",
+            "meta:keyword": [
+                "digital",
+                "imformation",
+                "computer",
+                "pc"
+            ],
+            "publisher": "Open Clip Art Library",
+            "resourceName": "b'b21189167.svg'",
+            "rights": "Sergio Luiz Araujo Silva",
+            "subject": [
+                "digital",
+                "imformation",
+                "computer",
+                "pc"
+            ],
+            "title": "Sergio Luiz Araujo Silva"
+        }
+    },
+    "nus-": {
+        "b5918351.svg": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "6",
+            "resourceName": "b'b5918351.svg'"
+        },
+        "b5918479.svg": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "3",
+            "resourceName": "b'b5918479.svg'"
+        },
+        "b5919191.svg": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'b5919191.svg'"
+        },
+        "b5920151.svg": {
+            "Content-Encoding": "ISO-8859-1",
+            "Content-Type": "text/plain; charset=ISO-8859-1",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.csv.TextAndCSVParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "resourceName": "b'b5920151.svg'"
+        }
+    },
+    "oxy-": {
+        "f5919303.svg": {
+            "Author": "Josef Vybíral",
+            "Content-Type": "image/svg+xml",
+            "Creation-Date": "16.02.2007",
+            "Keywords": [
+                "network",
+                "proxy"
+            ],
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "contributor": "Jakub Steiner",
+            "creator": "Josef Vybíral",
+            "dc:contributor": "Jakub Steiner",
+            "dc:creator": "Josef Vybíral",
+            "dc:format": "image/svg+xml",
+            "dc:rights": "Josef Vybíral",
+            "dc:subject": [
+                "network",
+                "proxy"
+            ],
+            "dc:title": "Jakub Steiner",
+            "dcterms:created": "16.02.2007",
+            "format": "image/svg+xml",
+            "meta:author": "Josef Vybíral",
+            "meta:creation-date": "16.02.2007",
+            "meta:keyword": [
+                "network",
+                "proxy"
+            ],
+            "resourceName": "b'f5919303.svg'",
+            "rights": "Josef Vybíral",
+            "subject": [
+                "network",
+                "proxy"
+            ],
+            "title": "Jakub Steiner"
+        }
+    },
+    "wii": {
+        "b5131455.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 1338; columnNumber: 45; Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.apache.xerces.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.impl.io.UTF8Reader.invalidByte(Unknown Source)\r\n\tat org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanLiteral(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.scanAttributeValue(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanAttribute(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)\r\n\t... 56 more\r\n",
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'b5131455.svg'"
+        },
+        "f2556119.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f2556119.svg'"
+        },
+        "f3334207.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f3334207.svg'"
+        },
+        "f3334487.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f3334487.svg'"
+        },
+        "f3338599.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f3338599.svg'"
+        },
+        "f3338687.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f3338687.svg'"
+        },
+        "f3339175.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f3339175.svg'"
+        },
+        "f5130751.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f5130751.svg'"
+        },
+        "f5130791.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f5130791.svg'"
+        },
+        "f5132799.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f5132799.svg'"
+        },
+        "f5132855.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f5132855.svg'"
+        },
+        "f5132943.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f5132943.svg'"
+        },
+        "f5917303.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f5917303.svg'"
+        },
+        "f5917319.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f5917319.svg'"
+        },
+        "f5917335.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f5917335.svg'"
+        },
+        "f5917367.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f5917367.svg'"
+        }
+    },
+    "WIS": {
+        "f4656295.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4656295.svg'"
+        },
+        "f4656311.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4656311.svg'"
+        },
+        "f4656335.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4656335.svg'"
+        },
+        "f4656367.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4656367.svg'"
+        },
+        "f4656383.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4656383.svg'"
+        },
+        "f4656415.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4656415.svg'"
+        },
+        "f4657007.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657007.svg'"
+        },
+        "f4657031.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657031.svg'"
+        },
+        "f4657055.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657055.svg'"
+        },
+        "f4657071.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657071.svg'"
+        },
+        "f4657087.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657087.svg'"
+        },
+        "f4657111.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657111.svg'"
+        },
+        "f4657135.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657135.svg'"
+        },
+        "f4657151.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657151.svg'"
+        },
+        "f4657175.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657175.svg'"
+        },
+        "f4657207.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657207.svg'"
+        },
+        "f4657247.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657247.svg'"
+        },
+        "f4657287.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657287.svg'"
+        },
+        "f4657327.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657327.svg'"
+        },
+        "f4657367.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657367.svg'"
+        },
+        "f4657383.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657383.svg'"
+        },
+        "f4657415.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657415.svg'"
+        },
+        "f4657447.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "1",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657447.svg'"
+        },
+        "f4657487.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657487.svg'"
+        },
+        "f4657527.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657527.svg'"
+        },
+        "f4657567.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:content_handler": "ToTextContentHandler",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "2",
+            "dc:format": "image/svg+xml",
+            "format": "image/svg+xml",
+            "resourceName": "b'f4657567.svg'"
+        }
+    },
+    "WUP": {
+        "b1764343.svg": {
+            "Content-Type": "image/svg+xml",
+            "X-Parsed-By": [
+                "org.apache.tika.parser.DefaultParser",
+                "org.apache.tika.parser.xml.DcXMLParser"
+            ],
+            "X-TIKA:EXCEPTION:runtime": "org.xml.sax.SAXParseException; lineNumber: 150; columnNumber: 31374; Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)\r\n\tat org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.XMLParser.parse(Unknown Source)\r\n\tat org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)\r\n\tat org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)\r\n\tat javax.xml.parsers.SAXParser.parse(Unknown Source)\r\n\tat org.apache.tika.utils.XMLReaderUtils.parseSAX(XMLReaderUtils.java:491)\r\n\tat org.apache.tika.parser.xml.XMLParser.parse(XMLParser.java:75)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:280)\r\n\tat org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:143)\r\n\tat org.apache.tika.parser.RecursiveParserWrapper.parse(RecursiveParserWrapper.java:233)\r\n\tat org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:409)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.parseMetadata(RecursiveMetadataResource.java:147)\r\n\tat org.apache.tika.server.resource.RecursiveMetadataResource.getMetadata(RecursiveMetadataResource.java:123)\r\n\tat sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)\r\n\tat org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201)\r\n\tat org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)\r\n\tat org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)\r\n\tat org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)\r\n\tat org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)\r\n\tat org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)\r\n\tat org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1297)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)\r\n\tat org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1212)\r\n\tat org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)\r\n\tat org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)\r\n\tat org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)\r\n\tat org.eclipse.jetty.server.Server.handle(Server.java:500)\r\n\tat org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)\r\n\tat org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)\r\n\tat org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)\r\n\tat org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:270)\r\n\tat org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)\r\n\tat org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)\r\n\tat org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)\r\n\tat org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)\r\n\tat org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:388)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)\r\n\tat org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: org.apache.xerces.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.\r\n\tat org.apache.xerces.impl.io.UTF8Reader.invalidByte(Unknown Source)\r\n\tat org.apache.xerces.impl.io.UTF8Reader.read(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLEntityScanner.scanLiteral(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLScanner.scanAttributeValue(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanAttribute(Unknown Source)\r\n\tat org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)\r\n\t... 56 more\r\n",
+            "X-TIKA:embedded_depth": "0",
+            "X-TIKA:parse_time_millis": "3",
+            "resourceName": "b'b1764343.svg'"
+        }
+    }
+}

@@ -1,0 +1,327 @@
+NSIS/
+├── .svn/
+├── iQueNC安装程序和update程序的管理.doc
+└── NetCard0524/
+    ├── bak/
+    │   ├── ChangeRegisterSecurity.exe
+    │   ├── ecp.cfg
+    │   ├── ecp.exe
+    │   ├── FreeImage.dll
+    │   ├── iQueService.exe
+    │   ├── iQueShell.exe
+    │   ├── iQueViewer.dll
+    │   ├── mfc80aaaaa.dll
+    │   ├── msvcp71.dll
+    │   ├── msvcr80.dll
+    │   ├── ncproxy.exe
+    │   ├── pthreadVC2.dll
+    │   ├── tomp3.exe
+    │   ├── upnpLib.dll
+    │   ├── usbproxy.exe
+    │   └── winprog.exe
+    ├── BeginUpdate.exe
+    ├── BMP/
+    │   ├── head1.BMP
+    │   ├── head2.BMP
+    │   ├── install.ico
+    │   ├── left1.BMP
+    │   ├── left2.BMP
+    │   ├── Thumbs.db
+    │   └── uninstall.ico
+    ├── ChangeRegisterSecurity.exe
+    ├── data/
+    │   ├── cache/
+    │   │   └── 00020001/
+    │   │       ├── 00080020/
+    │   │       │   └── met
+    │   │       ├── 00080021/
+    │   │       │   └── met
+    │   │       ├── 00080022/
+    │   │       │   └── met
+    │   │       ├── 00080023/
+    │   │       │   └── met
+    │   │       └── 00080024/
+    │   │           └── met
+    │   └── logs/
+    │       ├── error-060523.log
+    │       └── error-060524.log
+    ├── document/
+    │   ├── NetCard PC端软件升级程序打包说明.doc
+    │   └── NetCard PC端软件安装程序打包说明.doc
+    ├── ecp.cfg
+    ├── ecp.exe
+    ├── FreeImage.dll
+    ├── iQueService.exe
+    ├── iQueService.exeold
+    ├── iQueShell.exe
+    ├── iQueViewer.dll
+    ├── iQue聚乐部管理软件.exe
+    ├── libvng.dll
+    ├── license-en.txt
+    ├── license-zh.txt
+    ├── Microsoft.VC80.CRT.manifest
+    ├── Microsoft.VC80.DebugCRT.manifest
+    ├── msvcm80.dll
+    ├── msvcp71.dll
+    ├── msvcp80.dll
+    ├── msvcr71.dll
+    ├── msvcr80.dll
+    ├── ncproxy.exe
+    ├── ncskin/
+    │   ├── 0bk_part2.dat
+    │   ├── bk_part0.dat
+    │   ├── bk_part1.dat
+    │   ├── bk_part10.dat
+    │   ├── bk_part2.dat
+    │   ├── bk_part3.dat
+    │   ├── bk_part4.dat
+    │   ├── bk_part6.dat
+    │   ├── bk_part7.dat
+    │   ├── bk_part8.dat
+    │   ├── bk_part9.dat
+    │   ├── bk_part9.datblack
+    │   ├── red/
+    │   │   ├── bk_part0.bmp
+    │   │   ├── bk_part1.bmp
+    │   │   ├── bk_part10.bmp
+    │   │   ├── bk_part2.bmp
+    │   │   ├── bk_part3.bmp
+    │   │   ├── bk_part4.bmp
+    │   │   ├── bk_part6.bmp
+    │   │   ├── bk_part8.bmp
+    │   │   ├── bk_part9.bmp
+    │   │   ├── book_h.bmp
+    │   │   ├── book_n.bmp
+    │   │   ├── book_on.bmp
+    │   │   ├── bot_left.bmp
+    │   │   ├── btback_d.bmp
+    │   │   ├── btback_g.bmp
+    │   │   ├── btback_h.bmp
+    │   │   ├── btback_n.bmp
+    │   │   ├── btclose_d.bmp
+    │   │   ├── btclose_h.bmp
+    │   │   ├── btclose_n.bmp
+    │   │   ├── btdel_d.bmp
+    │   │   ├── btdel_h.bmp
+    │   │   ├── btdel_n.bmp
+    │   │   ├── btmin_d.bmp
+    │   │   ├── btmin_h.bmp
+    │   │   ├── btmin_n.bmp
+    │   │   ├── btmut_c.bmp
+    │   │   ├── btmut_o.bmp
+    │   │   ├── btnewdir_d.bmp
+    │   │   ├── btnewdir_h.bmp
+    │   │   ├── btnewdir_n.bmp
+    │   │   ├── btnext_d.bmp
+    │   │   ├── btnext_g.bmp
+    │   │   ├── btnext_h.bmp
+    │   │   ├── btnext_n.bmp
+    │   │   ├── btplay_d.bmp
+    │   │   ├── btplay_g.bmp
+    │   │   ├── btplay_h.bmp
+    │   │   ├── btplay_n.bmp
+    │   │   ├── btrefresh_d.bmp
+    │   │   ├── btrefresh_h.bmp
+    │   │   ├── btrefresh_n.bmp
+    │   │   ├── btstop_d.bmp
+    │   │   ├── btstop_h.bmp
+    │   │   ├── btstop_n.bmp
+    │   │   ├── freespace_bk.bmp
+    │   │   ├── header_split.bmp
+    │   │   ├── header_tt.bmp
+    │   │   ├── jlb.ico
+    │   │   ├── music_h.bmp
+    │   │   ├── music_n.bmp
+    │   │   ├── music_on.bmp
+    │   │   ├── nc.ico
+    │   │   ├── ncsys.ico
+    │   │   ├── new.bmp
+    │   │   ├── pgs_back.bmp
+    │   │   ├── pgs_fore.bmp
+    │   │   ├── pic_h.bmp
+    │   │   ├── pic_n.bmp
+    │   │   ├── pic_on.bmp
+    │   │   ├── skin.ini
+    │   │   ├── Thumbs.db
+    │   │   ├── top_mid2.bmp
+    │   │   ├── vol_sld.bmp
+    │   │   └── vol_tub.bmp
+    │   └── Thumbs.db
+    ├── Nsis脚本备份/
+    │   ├── finalNsiIquenc_NCInstall.nsi
+    │   ├── finalNsiIquenc_NCInstall060821.nsi
+    │   ├── finalNsiIquenc_NCInstall20071010.nsi
+    │   ├── header.bmp
+    │   ├── iqNcProxy-update.nsi
+    │   ├── iQueNetCardSetup071113.exe
+    │   ├── iQue聚乐部update.nsi
+    │   ├── Update.exe
+    │   ├── update48.ico
+    │   └── 安装程序往注册表写了什么？.doc
+    ├── pki_data/
+    │   ├── ca_bpki.cert
+    │   ├── ca_bpki.rsa
+    │   ├── cert_bpki.sys
+    │   ├── common_bpki.aesKey
+    │   ├── cp_bpki.cert
+    │   ├── cp_bpki.rsa
+    │   ├── dev_bpki.eccPvtKey
+    │   ├── dev_nc_bpki.cert
+    │   ├── ms_bpki.cert
+    │   ├── ms_bpki.eccPvtKey
+    │   ├── pccert_bpki.sys
+    │   ├── xs_bpki.cert
+    │   ├── xs_bpki.eccPubKey
+    │   ├── xs_bpki.eccPvtKey
+    │   └── xs_bpki.rsa
+    ├── root.pem
+    ├── rvkcmd.exe
+    ├── SERVER
+    ├── sktp.exe
+    ├── tomp3.exe
+    ├── Update.exe
+    ├── usb_driver/
+    │   ├── iquenc.inf
+    │   └── iquenc.sys
+    ├── usbproxy.exe
+    ├── VERSION
+    ├── VERSION.bak
+    ├── vnproxy.exe
+    ├── 升级压缩包/
+    │   ├── createZipPacket.bat
+    │   ├── createZipPacket.bat.bak
+    │   ├── dirlog.txt
+    │   ├── EC/
+    │   │   ├── root.pem
+    │   │   ├── sktp.exe
+    │   │   └── VERSION
+    │   ├── iQueNetCardSetup.exe
+    │   ├── NCClient/
+    │   │   ├── iQue聚乐部管理软件.exe
+    │   │   ├── ncskin/
+    │   │   │   ├── 0bk_part2.dat
+    │   │   │   ├── bk_part0.dat
+    │   │   │   ├── bk_part1.dat
+    │   │   │   ├── bk_part10.dat
+    │   │   │   ├── bk_part2.dat
+    │   │   │   ├── bk_part3.dat
+    │   │   │   ├── bk_part4.dat
+    │   │   │   ├── bk_part6.dat
+    │   │   │   ├── bk_part7.dat
+    │   │   │   ├── bk_part8.dat
+    │   │   │   ├── bk_part9.dat
+    │   │   │   └── bk_part9.datblack
+    │   │   └── VERSION
+    │   ├── NCDriver/
+    │   │   ├── iquenc.inf
+    │   │   ├── iquenc.sys
+    │   │   └── VERSION
+    │   ├── NCProxy/
+    │   │   ├── Microsoft.VC80.DebugCRT.manifest
+    │   │   ├── msvcm80d.dll
+    │   │   ├── msvcp71.dll
+    │   │   ├── msvcp80d.dll
+    │   │   ├── msvcr71.dll
+    │   │   ├── msvcr80d.dll
+    │   │   ├── VERSION
+    │   │   └── vnproxy.exe
+    │   ├── NCService/
+    │   │   ├── iQueService.exe
+    │   │   ├── iQueShell.exe
+    │   │   ├── rvkcmd.exe
+    │   │   ├── usbproxy.exe
+    │   │   └── VERSION
+    │   ├── NCShell/
+    │   │   ├── FreeImage.dll
+    │   │   ├── iQueViewer.dll
+    │   │   ├── license-en.txt
+    │   │   ├── license-zh.txt
+    │   │   ├── pki_data/
+    │   │   │   ├── ca_bpki.cert
+    │   │   │   ├── ca_bpki.rsa
+    │   │   │   ├── cert_bpki.sys
+    │   │   │   ├── common_bpki.aesKey
+    │   │   │   ├── cp_bpki.cert
+    │   │   │   ├── cp_bpki.rsa
+    │   │   │   ├── dev_bpki.eccPvtKey
+    │   │   │   ├── dev_nc_bpki.cert
+    │   │   │   ├── ms_bpki.cert
+    │   │   │   ├── ms_bpki.eccPvtKey
+    │   │   │   ├── pccert_bpki.sys
+    │   │   │   ├── xs_bpki.cert
+    │   │   │   ├── xs_bpki.eccPubKey
+    │   │   │   ├── xs_bpki.eccPvtKey
+    │   │   │   └── xs_bpki.rsa
+    │   │   ├── tomp3.exe
+    │   │   └── VERSION
+    │   ├── NCUpdate/
+    │   │   ├── BeginUpdate.exe
+    │   │   ├── update.exe
+    │   │   └── VERSION
+    │   ├── temp/
+    │   │   ├── EC/
+    │   │   │   ├── ecp.cfg
+    │   │   │   ├── ecp.exe
+    │   │   │   └── VERSION
+    │   │   ├── NCClient/
+    │   │   │   ├── iQue聚乐部管理软件.exe
+    │   │   │   ├── ncskin/
+    │   │   │   │   ├── bk_part0.dat
+    │   │   │   │   ├── bk_part1.dat
+    │   │   │   │   ├── bk_part10.dat
+    │   │   │   │   ├── bk_part2.dat
+    │   │   │   │   ├── bk_part3.dat
+    │   │   │   │   ├── bk_part4.dat
+    │   │   │   │   ├── bk_part6.dat
+    │   │   │   │   ├── bk_part7.dat
+    │   │   │   │   ├── bk_part8.dat
+    │   │   │   │   └── bk_part9.dat
+    │   │   │   └── VERSION
+    │   │   ├── NCDriver/
+    │   │   │   ├── iquenc.inf
+    │   │   │   ├── iquenc.sys
+    │   │   │   └── VERSION
+    │   │   ├── NCProxy/
+    │   │   │   ├── msvcp71.dll
+    │   │   │   ├── msvcr71.dll
+    │   │   │   ├── ncproxy.exe
+    │   │   │   └── VERSION
+    │   │   ├── NCService/
+    │   │   │   ├── iQueService.exe
+    │   │   │   ├── iQueShell.exe
+    │   │   │   ├── rvkcmd.exe
+    │   │   │   ├── usbproxy.exe
+    │   │   │   └── VERSION
+    │   │   ├── NCShell/
+    │   │   │   ├── FreeImage.dll
+    │   │   │   ├── iQueViewer.dll
+    │   │   │   ├── license-en.txt
+    │   │   │   ├── license-zh.txt
+    │   │   │   ├── pki_data/
+    │   │   │   │   ├── ca_bpki.cert
+    │   │   │   │   ├── ca_bpki.rsa
+    │   │   │   │   ├── cert_bpki.sys
+    │   │   │   │   ├── common_bpki.aesKey
+    │   │   │   │   ├── cp_bpki.cert
+    │   │   │   │   ├── cp_bpki.rsa
+    │   │   │   │   ├── dev_bpki.eccPvtKey
+    │   │   │   │   ├── dev_nc_bpki.cert
+    │   │   │   │   ├── ms_bpki.cert
+    │   │   │   │   ├── ms_bpki.eccPvtKey
+    │   │   │   │   ├── pccert_bpki.sys
+    │   │   │   │   ├── xs_bpki.cert
+    │   │   │   │   ├── xs_bpki.eccPubKey
+    │   │   │   │   ├── xs_bpki.eccPvtKey
+    │   │   │   │   └── xs_bpki.rsa
+    │   │   │   ├── tomp3.exe
+    │   │   │   └── VERSION
+    │   │   └── NCUpdate/
+    │   │       ├── BeginUpdate.exe
+    │   │       ├── update.exe
+    │   │       └── VERSION
+    │   └── 升级压缩包.rar
+    └── 可能没用的文件先放这里/
+        ├── msvcr80.dll
+        ├── pthreadVC2.dll
+        ├── SetEnvVar.bat
+        └── upnpLib.dll

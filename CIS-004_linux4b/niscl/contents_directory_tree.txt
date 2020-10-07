@@ -1,0 +1,101 @@
+Made with tikatree 0.0.10
+contents/
+├── movie/
+│   ├── factory.mpg
+│   ├── movie_contents.csv
+│   ├── ms/
+│   │   ├── .playlist.swp
+│   │   ├── ms_1006.csv
+│   │   ├── ms_1007.csv
+│   │   ├── ms_1008.csv
+│   │   ├── ms_1009.csv
+│   │   ├── playlist
+│   │   └── playlist~1/
+│   │       ├── playlist/
+│   │       │   ├── cis/
+│   │       │   │   ├── authorized_keys
+│   │       │   │   ├── cis/
+│   │       │   │   │   ├── binary/
+│   │       │   │   │   │   └── startupmplayer
+│   │       │   │   │   ├── scripts/
+│   │       │   │   │   │   ├── cisconfig.sh
+│   │       │   │   │   │   ├── cismode.rb
+│   │       │   │   │   │   ├── cisui.rb
+│   │       │   │   │   │   ├── clientinfo.rb
+│   │       │   │   │   │   ├── clientstatus.rb
+│   │       │   │   │   │   ├── confconv.sh
+│   │       │   │   │   │   ├── contentsparse.rb
+│   │       │   │   │   │   ├── contentsupdate.rb
+│   │       │   │   │   │   ├── createlist.rb
+│   │       │   │   │   │   ├── devcheck.sh
+│   │       │   │   │   │   ├── devinit.sh
+│   │       │   │   │   │   ├── download.rb
+│   │       │   │   │   │   ├── entrypoint2.rb
+│   │       │   │   │   │   ├── entrypoint2.sh
+│   │       │   │   │   │   ├── getIP.sh
+│   │       │   │   │   │   ├── infosparse.rb
+│   │       │   │   │   │   ├── initnlcdvol.sh
+│   │       │   │   │   │   ├── lib.rb
+│   │       │   │   │   │   ├── loDownload.sh
+│   │       │   │   │   │   ├── mainte_devicecheck.rb
+│   │       │   │   │   │   ├── mainte_modeselect.rb
+│   │       │   │   │   │   ├── mainte_netcheck.rb
+│   │       │   │   │   │   ├── maintemode.rb
+│   │       │   │   │   │   ├── margeLog.sh
+│   │       │   │   │   │   ├── pdate.rb
+│   │       │   │   │   │   ├── pop.rb
+│   │       │   │   │   │   ├── quit_mplayer.sh
+│   │       │   │   │   │   ├── reboot.sh
+│   │       │   │   │   │   ├── regularupdate.rb
+│   │       │   │   │   │   ├── setDate.sh
+│   │       │   │   │   │   ├── setnlcdvol.sh
+│   │       │   │   │   │   ├── setpermission.sh
+│   │       │   │   │   │   ├── shutdown.sh
+│   │       │   │   │   │   ├── startx.sh
+│   │       │   │   │   │   ├── sysupdate.sh
+│   │       │   │   │   │   ├── update.rb
+│   │       │   │   │   │   ├── usbUpdate.sh
+│   │       │   │   │   │   ├── watchDog.sh
+│   │       │   │   │   │   └── wiDownload.sh
+│   │       │   │   │   ├── setting/
+│   │       │   │   │   │   ├── cisuiconfig.rb.station
+│   │       │   │   │   │   ├── cisuiconfig.rb.trial
+│   │       │   │   │   │   ├── initCis_base.sh
+│   │       │   │   │   │   ├── initCis_station.sh
+│   │       │   │   │   │   ├── initCis_trial.sh
+│   │       │   │   │   │   ├── operaprefs.ini.station
+│   │       │   │   │   │   ├── operaprefs.ini.trial
+│   │       │   │   │   │   ├── xinitrc.1st
+│   │       │   │   │   │   ├── xinitrc.base
+│   │       │   │   │   │   ├── xinitrc.station
+│   │       │   │   │   │   ├── xinitrc.trial
+│   │       │   │   │   │   └── xorg.conf.trial
+│   │       │   │   │   └── www/
+│   │       │   │   │       ├── cgi-bin/
+│   │       │   │   │       │   └── menu.cgi
+│   │       │   │   │       ├── dummy.html
+│   │       │   │   │       ├── html/
+│   │       │   │   │       │   ├── img/
+│   │       │   │   │       │   │   └── header.png
+│   │       │   │   │       │   ├── index.html
+│   │       │   │   │       │   └── js/
+│   │       │   │   │       │       └── nin.js
+│   │       │   │   │       ├── keyconv
+│   │       │   │   │       └── mplayer.sh
+│   │       │   │   ├── cisinstall.rb
+│   │       │   │   ├── ssh_host_dsa_key.pub
+│   │       │   │   ├── ssh_host_key.pub
+│   │       │   │   └── ssh_host_rsa_key.pub
+│   │       │   ├── systemScript_imd.sh
+│   │       │   └── systemScript_imd_usb.sh
+│   │       └── playlist.out
+│   └── sample.mpg
+└── system/
+    ├── cert/
+    │   ├── CIS01761.00.pem
+    │   └── CIS01761_rsa
+    └── linuxconf/
+        ├── ifcfg-eth0.dhcp
+        ├── ifcfg-eth0.rdd
+        ├── ifcfg-eth0.ship
+        └── Xclients.ship

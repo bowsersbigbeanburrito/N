@@ -1,0 +1,832 @@
+{
+    "libVCT": {
+        "Readme-NitroMiddleware-libVCT-1_3_1-080401.txt": {
+            "modified": "2008-04-01 10:47:30",
+            "size": "3.92KB",
+            "md5": "b30ceeca5ff5d0325967c73a96a47925",
+            "sha256": "374f4978fb6bb6ac21b3ed1302d90f746218eaecdbff07b6bcf34735651a21fb"
+        }
+    },
+    "libVCT\\build": {
+        "Makefile": {
+            "modified": "2006-03-08 10:01:40",
+            "size": "0.93KB",
+            "md5": "57c0c21d94e1805c9a57b96f10991aae",
+            "sha256": "2666f65e32f764997a14ac8b3c670fd20026534aef740519f6ef5e6e54b2b7f2"
+        }
+    },
+    "libVCT\\build\\buildtools": {
+        "commondefs": {
+            "modified": "2006-03-16 16:29:16",
+            "size": "1.14KB",
+            "md5": "9c69504754572f6152deff220927b33c",
+            "sha256": "5cedf530a57018ad27af4104295d3e34bdd923fa654d505596ba2c24c36c2972"
+        },
+        "commondefs.VCT": {
+            "modified": "2006-04-14 12:07:08",
+            "size": "1.98KB",
+            "md5": "04cff26ff532c29804aa735d7d863172",
+            "sha256": "25479a838aa3163ced49a47cda14b04f8da50a9a89e5cad2c0607b265f324034"
+        },
+        "modulerules": {
+            "modified": "2006-03-16 16:29:16",
+            "size": "0.77KB",
+            "md5": "8ed4962274cc21b369f344f0b1825051",
+            "sha256": "2444f7343069bdda44b1023088733fd9e8eca3b05157b32e506c362cfa143f80"
+        },
+        "modulerules.VCT": {
+            "modified": "2006-03-08 10:01:40",
+            "size": "0.65KB",
+            "md5": "0a5ea9df1d814a79807a4f6494aa06e7",
+            "sha256": "56f2bc0d3e06b1301491bab6337df4f10651775cc2dce8514807bced4d370fb1"
+        }
+    },
+    "libVCT\\build\\demos": {
+        "Makefile": {
+            "modified": "2006-08-29 14:17:00",
+            "size": "0.92KB",
+            "md5": "223c5bd8476953cbda4844231a6a13c1",
+            "sha256": "f2d5ad75768de35bb60d3f1370ee9078f9e81880f5dec746f8c3e83f9f86ac47"
+        }
+    },
+    "libVCT\\build\\demos\\VoiceChatDemo": {
+        "Makefile": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "1.9KB",
+            "md5": "79315342ae0151f590a3d0cc12c02bd5",
+            "sha256": "81cfafee73b5d3318897203dc12a15a05edf2722c1f19d2f17360b7d716aae65"
+        },
+        "Nitro.lcf": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "14.12KB",
+            "md5": "91aaa0360c6962719fcf8ab11b40237b",
+            "sha256": "e967b4a56071cfd5aa20c5f9de89bfa5bb7259189853d6a0b45d2548108d25f1"
+        },
+        "Nitro.lcf.bat": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "0.27KB",
+            "md5": "052294d299b7f3aaeb2ecb2b35bedc4d",
+            "sha256": "43a3aecee0f20e622d0971e50ee27c22991483e0b135aa00ca127d3d07d9faf4"
+        },
+        "Nitro.lcf.lsf": {
+            "modified": "2006-07-27 10:29:26",
+            "size": "0.34KB",
+            "md5": "4f93c8a964cf35edcfdee17cbcdd8a01",
+            "sha256": "e95d00cbcd8516333a0529b6734eaa0016a863f5c68af66ba59204206c3834ad"
+        },
+        "ROM-TS.rsf": {
+            "modified": "2005-11-17 19:13:56",
+            "size": "2.6KB",
+            "md5": "39fe07f534d8371b94092de72f1e2b98",
+            "sha256": "ee35b16afeda9ec05b54ec3158525b97e16b78c00d4a2a3e872ccee20c536739"
+        },
+        "VoiceChatDemo.mcp": {
+            "modified": "2008-02-04 10:02:14",
+            "size": "168.18KB",
+            "md5": "a662294dea7d92203ffa9f61bb622106",
+            "sha256": "67b5991bf95ad390c4882695aaafc5e987c52641629842966077a6b480d53ef8"
+        }
+    },
+    "libVCT\\build\\demos\\VoiceChatDemo\\data": {
+        "MakeSound.bat": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "0.54KB",
+            "md5": "753a0d03b96daa2d002fedebc6d8210f",
+            "sha256": "842235913d4ede383cb8cb961c0f1d28b525c3682a949fd15267b2c66907ae39"
+        },
+        "ReMakeSound.bat": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "0.54KB",
+            "md5": "89028735df67f78cdd5c84aa83061e08",
+            "sha256": "3dabc9ebbc89410414e973ecf13e0b92126c94942b8a818fd9639583c473a7b9"
+        },
+        "sound_data.o": {
+            "modified": "2008-02-02 11:24:36",
+            "size": "23.78KB",
+            "md5": "21a7e744a4ac57f91e52256bcf5b0012",
+            "sha256": "39ee55dcbb15b58638acefbc5a6e87d28ac60f24ddab106fc99d8d414f8f4377"
+        },
+        "sound_data.sarc": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "0.52KB",
+            "md5": "034cb8a0bfa2e13bc0aae64e2de4cf57",
+            "sha256": "f72683fb556ea289a528073211285f6c464820075444480c8feaab52a53a472f"
+        }
+    },
+    "libVCT\\build\\demos\\VoiceChatDemo\\data\\bnk": {
+        "se.bnk": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "0.41KB",
+            "md5": "a8e61216d492be5ef54d38bd118bd566",
+            "sha256": "0f0c741fcbe0bd24e731c75cc20e02bf659c99b8eea7975a5905980e2426ad40"
+        }
+    },
+    "libVCT\\build\\demos\\VoiceChatDemo\\data\\mus": {
+        "se.mus": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "0.89KB",
+            "md5": "bb3a6890742924926a54e43ac30b04b8",
+            "sha256": "297cbaa21b2a508fa2a4f8637b3af26c15087c919eb840ab3cff8db7fdd6b486"
+        }
+    },
+    "libVCT\\build\\demos\\VoiceChatDemo\\data\\wav": {
+        "beep.wav": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "3.17KB",
+            "md5": "2416d5c765e864c7796906eb9cfa0dea",
+            "sha256": "216dc98cf20a064baebf32f19b5023b6c86a2f4accd018f9f6af31c772cf70b1"
+        },
+        "busy.wav": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "8.79KB",
+            "md5": "7e9a59d7350048d85352e719012cf0bb",
+            "sha256": "6bbdd9d8aae0b10a5506372953b6249445e280fd23e988f84a7edd977c34625e"
+        },
+        "noise.wav": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "3.66KB",
+            "md5": "61b33bedc7b6e4a584c9f9adb2add365",
+            "sha256": "d81b9982f0352637ac227554c0aa7defd9e061cd90c58173079558a38a9c4913"
+        },
+        "ringin.wav": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "27.6KB",
+            "md5": "28d3a383d91f8b5cbfae644ce3523c38",
+            "sha256": "071a1d7a2ab14bacf8c8af2d0c779f68c9e20889e1612f94c0b6ab051c3133e6"
+        },
+        "ringout.wav": {
+            "modified": "2008-02-01 18:09:00",
+            "size": "46.87KB",
+            "md5": "7701c5b7739af745b20ee88d79d01cf3",
+            "sha256": "baf710d9fbe33b95fb159fb08bb161ec18dee999da4dc9a7cb93c2387c96acbf"
+        }
+    },
+    "libVCT\\build\\demos\\VoiceChatDemo\\include": {
+        "conference.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.44KB",
+            "md5": "0b7ac894d23eea1bd7e043c564875535",
+            "sha256": "8d69702cb6d3228577fda9286ecda350852f21081ced67d8a420211fa0caa06f"
+        },
+        "cost.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.27KB",
+            "md5": "5629f23503b1263c54cb2d87c870bcbf",
+            "sha256": "b8a5763dfe870b3ae438b639a062f3033e651e664ffa253cfc50125c365dadc8"
+        },
+        "debug_menu.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.55KB",
+            "md5": "e6ff44516086505dec732f2c3b9ce788",
+            "sha256": "ab5f987b436474b89cf391b6a34d098286ef62c0658fc39df10671fd79c9416d"
+        },
+        "demo_menu.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "1.14KB",
+            "md5": "c3903e3355a475a53428c779dfe51386",
+            "sha256": "bd58b7d1e930b5c52a308b8c4004c21d5bafd02be8574b56086a8d123df07745"
+        },
+        "demo_util.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "1.33KB",
+            "md5": "a037f37f3ff510a63a1d6c00adf6634d",
+            "sha256": "0340e8106af4a39f26f3eb3dc8dd50ee5adf000e42a4e1668f55e74ccde51d92"
+        },
+        "font.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.41KB",
+            "md5": "44dde98477993a9339addeeb8b51696b",
+            "sha256": "23ed190031e000c7f5591533909234aca3ce5bdfe39dbb823b15f3d5d4d721e4"
+        },
+        "gamemain.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.34KB",
+            "md5": "163a7df389720327c135031f1aa9943c",
+            "sha256": "d7fda2b6bed60a7d3449eab624cb64706f569a702d6d82bebf67c799fc456574"
+        },
+        "init.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.26KB",
+            "md5": "45df0bf107e5f4a33c43075886cb790e",
+            "sha256": "24fb568b235a51e475d9972a48aa524192434df63c41aec1254f2ca70908c36c"
+        },
+        "logon.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.37KB",
+            "md5": "00e9a63735731838d7c00af900468509",
+            "sha256": "5820d8341ac53d0a3ef648bcc28ce04a5633ab89b52ea2cf97544440b86d411b"
+        },
+        "main.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "4.82KB",
+            "md5": "7ee2d402ae2b4e7aac8899fe8264d7f3",
+            "sha256": "884af8f15c61c6ddae6eeaaa4ec38353047f190eaaf3061b8cf39c07f1bd7ac2"
+        },
+        "mp.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.34KB",
+            "md5": "94290fb866ee16f07a2361c2267f34c4",
+            "sha256": "e60d20a4f1a701f11cec5e47f18c672eeed6fc04367007f58d3272027819435f"
+        },
+        "Nitro_TS.h": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "1.14KB",
+            "md5": "1c7fec5808cc41a449b6806f34defa54",
+            "sha256": "9682a537da4b1e352510b9cef142e69a2b501912a9e82a8c5664d7a954723cb2"
+        },
+        "Nitro_TS.pch": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "0.42KB",
+            "md5": "80188ee407996d9bc2849536be40c5d7",
+            "sha256": "18262b1dfc8cfd8ad3b7b84a9b728e6a0b26f634f5c52e7ca4ac5dfe21c8d371"
+        },
+        "Nitro_TS.pch++": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.43KB",
+            "md5": "5a51132d64727eaf36e13d3803fc0bff",
+            "sha256": "8487a9fc0097de7d378e4982353a0923471589e0275388aaa60c2f0f69bd967e"
+        },
+        "phone.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.51KB",
+            "md5": "ab885cc85ae5219cb290a3e97b589afc",
+            "sha256": "a088d6d63bd8809fa60d8e9b2c7ec18b42ba9aa64c460f50abb6277b663901d7"
+        },
+        "registerfriend.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.79KB",
+            "md5": "903b878e5d66a40587e19fbc590fb993",
+            "sha256": "2e9dc4a7c59a523b450afe0566830e43762d3e750d98569f7fa4e025f1dfba67"
+        },
+        "screen.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.96KB",
+            "md5": "9a07d1989bd4c507114a0ad0548be606",
+            "sha256": "54add8a6410c71a929d9a379dcfe8b4a4097342c5ff53e95903d8f4fd7604c7a"
+        },
+        "sound.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.47KB",
+            "md5": "977346ed205fdf93bc8e52d2c3e88841",
+            "sha256": "fa72acd136f4e51a8947b7c1b4a4e7dccbcea2710c2296b80f9dee666e6f68f5"
+        },
+        "thread_statistics.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.28KB",
+            "md5": "52c78d549e9651a91612c92b25225445",
+            "sha256": "d773acdbf85abe33d0e4c7c94ea32d113a571c115d9dc2da05fcacbb23158e06"
+        },
+        "tp_input.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.35KB",
+            "md5": "ccea576c8f3d48f471c07bdd223f92b7",
+            "sha256": "cea18fb61738c94428493c2784377d3fe949e39d1441e7446e50c42b8db45a02"
+        },
+        "transceiver.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.45KB",
+            "md5": "1a8a22bc74333cc4f5b09d4bb8fbe88e",
+            "sha256": "3dd0d0b07c35a3fb649d59bf31f0e94094fc586e030dd0237d9c5afb5e4d2870"
+        },
+        "transport.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "0.44KB",
+            "md5": "05d5ca99224f4122c0863de8533790d6",
+            "sha256": "98c665d28a068fc67295bc28039a8b4461ef8418ca3b83af863455b6831342ef"
+        },
+        "utility.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "1.39KB",
+            "md5": "0f806c75e693e34553a4caa943641061",
+            "sha256": "6ca1f48d320446dd73bf4f909685bcc341422f2900e49a72295ec887e8e097a1"
+        },
+        "vct_menu.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "1.06KB",
+            "md5": "7ad79f259f4b0de331afdfe0147f3403",
+            "sha256": "d09df9d123b4454728cab76f28155da31f82360a89b8e9e79ba32c789233e3a5"
+        },
+        "wc.h": {
+            "modified": "2008-04-01 10:47:28",
+            "size": "3.68KB",
+            "md5": "cc93efd5ea3bebc8e5a064e7368c8b5a",
+            "sha256": "8364f9a73b19e552cd1b5e8b69a6fe5c8baa2f7e3de2467f5b3851b376c0593b"
+        }
+    },
+    "libVCT\\build\\demos\\VoiceChatDemo\\src": {
+        "conference.cpp": {
+            "modified": "2008-04-01 10:47:24",
+            "size": "9.36KB",
+            "md5": "92df66d93e6dfb17aa1cd55aed311378",
+            "sha256": "8a4fff491e9efe8b2077f1e663b8cc742708939369bb16b96c49f1f5feea2443"
+        },
+        "cost.c": {
+            "modified": "2008-04-01 10:47:24",
+            "size": "0.38KB",
+            "md5": "3e5243c1fc9cc078e8274d41dbcf5260",
+            "sha256": "d0b268bfe606a4c698f404948b7fbb8466e0085234d2a2f27799a3cf04eec1ac"
+        },
+        "debug_menu.cpp": {
+            "modified": "2008-04-01 10:47:24",
+            "size": "1.01KB",
+            "md5": "381973f10c8dd4ff800f69b654e38e1c",
+            "sha256": "f114a2d8e1fdcabb45113f52906c94d14c36bc406c7c0e11547c32fc3408874b"
+        },
+        "demo_menu.cpp": {
+            "modified": "2008-04-01 10:47:24",
+            "size": "5.9KB",
+            "md5": "e75a91bcd61250806c07bb89e9247f17",
+            "sha256": "511c0ab7883dd17b7c82a3a29bc870851fcb145b0883a976b7789ad0a0581b0c"
+        },
+        "demo_util.cpp": {
+            "modified": "2008-04-01 10:47:24",
+            "size": "5.84KB",
+            "md5": "d6113556296ea5f05cb56db5169491c3",
+            "sha256": "fbfc43c6c6c81da85770f75047df9b79925ac9860d7ec3371fe5aefdcc6325b5"
+        },
+        "font.c": {
+            "modified": "2008-04-01 10:47:24",
+            "size": "33.15KB",
+            "md5": "960807446f6dad70aa0e5257c50a5c62",
+            "sha256": "0e03e7c0d1440f334ff37b5360238e8c13fbf42043c0bf4c9f50dd6cbc801973"
+        },
+        "gamemain.c": {
+            "modified": "2008-04-01 10:47:24",
+            "size": "11.52KB",
+            "md5": "ecc4cb4eb0e39c5d5e21b8b9b51245a1",
+            "sha256": "2c3498239c09cc5f4f43ae45e57084419aed9eeecdd9be10c42b0806ec7a754b"
+        },
+        "init.c": {
+            "modified": "2008-04-01 10:47:24",
+            "size": "1.4KB",
+            "md5": "b5f47f9bc4fbecdb84ca3a89e9b5378c",
+            "sha256": "dc028018cef7bdf7ca06f54cc4ea4b3cfea659abeba0352344ad1636d4e986d8"
+        },
+        "logon.c": {
+            "modified": "2008-04-01 10:47:24",
+            "size": "24.14KB",
+            "md5": "e097138a39d7ddad66ac983c0e9d8235",
+            "sha256": "8ad9bb1956383f4cb1308b7cb5174516ae4a634bda7110f8a5f361b1722c5f03"
+        },
+        "main.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "19.89KB",
+            "md5": "1960e526e96bea4037b2985bed8c6051",
+            "sha256": "96ca2b02a5ae4f2989c983a0ed3b8bb2ed00d22056eba81d98def8882d41c8a6"
+        },
+        "mp.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "8.46KB",
+            "md5": "b2332422c6482102235f89c613a2143c",
+            "sha256": "aea88e694fa025ccf5e8ea058e295c57530e1a55fa49131a9ce51d040a8f0315"
+        },
+        "phone.cpp": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "11.91KB",
+            "md5": "94f248d27e7b956eefff2f91f1fb4c79",
+            "sha256": "1f23c8fabbe18d754a5ccc087ef744bf0b5c903c744e6673099cb2125845d62b"
+        },
+        "registerfriend.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "12.04KB",
+            "md5": "412e9346b86b19fecaa396a2cec7d517",
+            "sha256": "9f87907abbce8f4849184634d8d3585415d3f6e6b7342f657faa3cd4a02f030f"
+        },
+        "screen.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "3.0KB",
+            "md5": "a61be9345cb0e368d1c59b25b809e143",
+            "sha256": "9932df73e87120de21a0970d8290291bc0a8d7c05addced014ddba09243a60c4"
+        },
+        "sound.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "8.84KB",
+            "md5": "b5da569e05e9123cd082b93f23c73ac0",
+            "sha256": "cbf3e2d5c06d634d271803c76e86baf6ade01588c52cff84ead44fa86ab1e8e6"
+        },
+        "thread_statistics.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "1.73KB",
+            "md5": "6dc704cfdf1f308beed6e7093a330fd6",
+            "sha256": "b699d9cc310b09d289a6717b67472fc0cbbf9410198e32e8d844c33fa81b2acb"
+        },
+        "tp_input.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "1.71KB",
+            "md5": "04b8fde540ecdc31d8b5db65c585f2c0",
+            "sha256": "219b19ba879cbb882bd0468bd3f59b339f8eaff57c9dbc38d4ed86239590adcf"
+        },
+        "transceiver.cpp": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "11.56KB",
+            "md5": "3554c1ab2da04eb1d3a55ca8c6d88b91",
+            "sha256": "7698338090272d1ca9572374ef5e791ee22d43eb7e4b6050459f1677d1da969c"
+        },
+        "transport.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "5.97KB",
+            "md5": "e3664183027c0fc308dc3fc508274b7e",
+            "sha256": "092d3739d663bbf9ad8d96db6c316d26b66765c3e63501fb49ac285179c15a2c"
+        },
+        "utility.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "3.78KB",
+            "md5": "7707eb75952d826f7f7726ffc719b8fa",
+            "sha256": "1d3c249bdc10c73724ac8c12d0d728576096278b69d14737e8c3fdd324d38f40"
+        },
+        "vct_menu.cpp": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "2.57KB",
+            "md5": "5dec4591cef3bb10fcfca8ce1cf929de",
+            "sha256": "14179c16e86a1c2bac0368565c2e94582eb4f7a9072243ec13b9d9bbbb631b85"
+        },
+        "wc.c": {
+            "modified": "2008-04-01 10:47:26",
+            "size": "53.83KB",
+            "md5": "bd9c0796164479dc97a924f071248764",
+            "sha256": "592c478ad97dece6e8d0d4ed7fb10147ac96ebf140225bd71a5209854cce345a"
+        }
+    },
+    "libVCT\\docs\\TechnicalNotes": {
+        "AboutVoiceChat.pdf": {
+            "modified": "2008-04-01 10:07:52",
+            "size": "378.01KB",
+            "md5": "c1f8a40c451d9dd80d608040a9956f44",
+            "sha256": "99127dcaa6ada00217183db901c2df750dcc9c090bdf4f75f6fabf38526a8cb9"
+        }
+    },
+    "libVCT\\include": {
+        "vct.h": {
+            "modified": "2006-08-29 14:17:44",
+            "size": "18.24KB",
+            "md5": "d8b126e62034c267eae9bb6120391263",
+            "sha256": "2cf22c2ca2663f57352f649be85d8ca974aa88fc118af9b0492e9ec40cf23f24"
+        }
+    },
+    "libVCT\\lib\\ARM9-TS\\Debug": {
+        "libvct.a": {
+            "modified": "2008-04-01 10:47:16",
+            "size": "316.09KB",
+            "md5": "129bf2e163387bd17bc844253bad3b4b",
+            "sha256": "eb11a47f9e5beb67c6f6104071c660c040917b2cc6df4f523dbf99f5cf59244a"
+        },
+        "libvct.thumb.a": {
+            "modified": "2008-04-01 10:47:20",
+            "size": "304.74KB",
+            "md5": "a5c4625a2e7b4814ffa8d4ae918c2895",
+            "sha256": "88cdbeda7112201efcc336bec9d007827e6ff31a7917c0a79728a0f6b5e41e1b"
+        }
+    },
+    "libVCT\\lib\\ARM9-TS\\Release": {
+        "libvct.a": {
+            "modified": "2008-04-01 10:47:06",
+            "size": "256.86KB",
+            "md5": "07543dd652f007ac4228726a3de353e0",
+            "sha256": "3c9630fc36510bc68d4aeff4751d03c21e294ca6073fedaf415fd65bd919b44d"
+        },
+        "libvct.thumb.a": {
+            "modified": "2008-04-01 10:47:10",
+            "size": "251.08KB",
+            "md5": "866da9c64d5f6a829b207eacc7827c07",
+            "sha256": "2bfa729024e6a41c214aab211d579ec5ce13126451fe40f9519e48a7e0c51a52"
+        }
+    },
+    "libVCT\\lib\\ARM9-TS\\Rom": {
+        "libvct.a": {
+            "modified": "2008-04-01 10:46:56",
+            "size": "242.96KB",
+            "md5": "f383de98ca01ffb921422f7cf9c2cb95",
+            "sha256": "c0caa6eba62e8e8089bc62adafe996f0013d101df3fb37612a8d8a9ba2512893"
+        },
+        "libvct.thumb.a": {
+            "modified": "2008-04-01 10:47:02",
+            "size": "237.7KB",
+            "md5": "68693f1d428dc6e8dc83073be7c9166f",
+            "sha256": "d3b745c802cc2fdb770bcbcf1d88fd823d0d3389971ccfa14fdf737115e3bf3f"
+        }
+    },
+    "libVCT\\man\\ja_JP": {
+        "a-z.html": {
+            "modified": "2006-09-19 11:19:14",
+            "size": "5.09KB",
+            "md5": "8c6e0ba70ea7154dc0560d77f8698f0e",
+            "sha256": "82970f5b187e8fa149ceee2c69744c4c848338e20a054ce4557c2a6785188a53"
+        },
+        "changelog.html": {
+            "modified": "2008-04-01 10:07:52",
+            "size": "12.92KB",
+            "md5": "168949bb2215fd3ab435923d3b556a30",
+            "sha256": "99b86fe62f81e57c74ca9ab7a55c77c0d56c713f3a33f81bae1a83f637d614b5"
+        },
+        "contents.html": {
+            "modified": "2006-08-30 15:33:46",
+            "size": "1.33KB",
+            "md5": "d6177d984e3d9e0239d19fad36566403",
+            "sha256": "a0289127205a61473d1424f2ec97593bc4f87b8fe1e88a3e3b001108bab9848b"
+        },
+        "icons.html": {
+            "modified": "2006-01-27 14:06:10",
+            "size": "0.83KB",
+            "md5": "91a9662350b60357e05965ef78c11b1b",
+            "sha256": "7d4c56e621e3a7ef8ed087053cb38685d740b14d6cef3fed836ef360d4965877"
+        },
+        "index.html": {
+            "modified": "2006-01-27 14:06:10",
+            "size": "0.82KB",
+            "md5": "70e4ec947d59f6c9bd0e424bb60b5e24",
+            "sha256": "73888b172c75a35eb1c67c03029e6798b2f79cb5cf471b5e96a037fe913de042"
+        },
+        "main.html": {
+            "modified": "2008-04-01 10:07:52",
+            "size": "3.41KB",
+            "md5": "c72b4f55e122af3ea849b4681fa08544",
+            "sha256": "034bf36b63be64bc9bcec3c0c68d0ba8d242dd0e7215bf7288297acd08329f35"
+        }
+    },
+    "libVCT\\man\\ja_JP\\css": {
+        "apilist.css": {
+            "modified": "2006-01-25 11:58:10",
+            "size": "1.27KB",
+            "md5": "00052ac8b3b375c13f1a43e4db1cd476",
+            "sha256": "3757e9d4e8a39e3c09f6d03cab2610cc35d34ed59f0de5bb1fb5ea2020c53c26"
+        },
+        "nitro.css": {
+            "modified": "2006-01-25 11:58:10",
+            "size": "2.15KB",
+            "md5": "4fe79e87ce2f5953f0c5355affc90aad",
+            "sha256": "9c7f526f13bd6c08947934f163b3e0d2c680470cbffb16d7fd90ed8c77747c8c"
+        },
+        "titles.css": {
+            "modified": "2006-01-25 11:58:10",
+            "size": "2.17KB",
+            "md5": "ebf1cb6ab97d31a46183c53a2da3e84d",
+            "sha256": "147e907403effee101b7fb6b87abc58d7613b78071f48b8212e62d1ba40dc165"
+        }
+    },
+    "libVCT\\man\\ja_JP\\vct": {
+        "list_vct.html": {
+            "modified": "2006-09-19 11:19:14",
+            "size": "8.04KB",
+            "md5": "a7f2d061273a3e93a41abef121e8995e",
+            "sha256": "f531cdab8008d4c80609711fce3233a4dc75428c533e78dc0de3aef8666eb91f"
+        },
+        "vct.html": {
+            "modified": "2006-09-19 11:19:14",
+            "size": "2.89KB",
+            "md5": "511f6faf86df81de9288d3bac894221c",
+            "sha256": "d494100197348ab97525d26790ae8c68b38e145db87927324382b6036cb1cedf"
+        },
+        "VCTAudioInfo.html": {
+            "modified": "2006-03-22 12:41:58",
+            "size": "2.4KB",
+            "md5": "2576584bfc4ac466175a1749bc5e24e9",
+            "sha256": "ca6d8c55381719046aea2c7f26fddc8fcdce354398226d1984cf22dfdbe34a1c"
+        },
+        "VCTCodec.html": {
+            "modified": "2006-04-12 15:23:30",
+            "size": "1.84KB",
+            "md5": "34cc514c800bfce8db6cfed3cf60c101",
+            "sha256": "acca496560ad28d538f6a850605c34c1c029cea0bbc61518eb6287c0a4a54a88"
+        },
+        "VCTConfig.html": {
+            "modified": "2007-11-29 17:22:30",
+            "size": "3.9KB",
+            "md5": "a2727dbba7dad49dfaa9ef2bfa3cd9c5",
+            "sha256": "094281f22179cd6af109a3968faeeaf2b1101fb159912ab9b836e6fe88da1cfd"
+        },
+        "VCTErrorCode.html": {
+            "modified": "2006-04-17 12:09:56",
+            "size": "1.97KB",
+            "md5": "7ae0ac3d3e69af5c75a158b106c15554",
+            "sha256": "aefc3a6f24fe02762c949ec96c5a34ba89d11f2f7cc99363232300ba0abbc04e"
+        },
+        "VCTEvent.html": {
+            "modified": "2006-03-22 12:41:58",
+            "size": "2.83KB",
+            "md5": "79a538ab27feb4d911b2e1b903fe8543",
+            "sha256": "1c709bdbb4034fd01aa8cad925c40b9ebbe923e8cf72dd4f6e11f2feae826ff9"
+        },
+        "VCTEventCallback.html": {
+            "modified": "2006-03-22 12:41:58",
+            "size": "1.74KB",
+            "md5": "41b6ca5d79b0de7539ba23e3dd5bc173",
+            "sha256": "709961b1a8fad90420763921036d7a63b8f909ca3c075029c4e606f5cd014891"
+        },
+        "VCTMode.html": {
+            "modified": "2006-03-28 12:44:50",
+            "size": "1.39KB",
+            "md5": "5d7b10369eb976c6db58069c7979def5",
+            "sha256": "5ee1d4e2ec6b6198861831847404fba9bd28e0698a74775bac9ce5f0d9df5618"
+        },
+        "VCTReportLevel.html": {
+            "modified": "2006-09-19 11:19:14",
+            "size": "1.19KB",
+            "md5": "ef73f645c7c72f9cabba19adcdf7538e",
+            "sha256": "a1a95a1e9295c121ef6a81945e4a834b4522b71f8448c9df9e87a44fa70569ea"
+        },
+        "VCTRequestCode.html": {
+            "modified": "2006-03-22 12:41:58",
+            "size": "1.75KB",
+            "md5": "b8093083c19df896670b000caaa34c58",
+            "sha256": "ba9e9a92559d87088deb6ceefe4258448f9934224329f9b6f4bccb625853b3f9"
+        },
+        "VCTResponseCode.html": {
+            "modified": "2006-03-22 12:41:58",
+            "size": "2.0KB",
+            "md5": "e4ac2dd2fc441ae7382d30e1207fcdd7",
+            "sha256": "956126b3f5c6e35a21827291dcaf02121276f8617630d204eac339388ebbd172"
+        },
+        "VCTSession.html": {
+            "modified": "2006-03-22 12:41:58",
+            "size": "2.31KB",
+            "md5": "f550a6d00bd3ea3192aee807bedcc67a",
+            "sha256": "1d4ea808c583d93a332807973cf29b2aa4fbd59724ddd8dd27acaf23903ce677"
+        },
+        "VCTState.html": {
+            "modified": "2006-04-14 16:11:26",
+            "size": "1.75KB",
+            "md5": "fba443efe7f6516be4df71dffa5b24d5",
+            "sha256": "fe09bddbf7b14319c7e9f23151014b8390a0a7d5ca6691c7e71f6e8adadf7621"
+        },
+        "VCTVADInfo.html": {
+            "modified": "2006-05-01 15:37:40",
+            "size": "1.87KB",
+            "md5": "4e0951dd359c1fcc8edab60f520e305a",
+            "sha256": "ed4068aad5d1e976fe9e404201bc099d36e4b84974254330b89945ab6347ee86"
+        },
+        "VCT_AddConferenceClient.html": {
+            "modified": "2006-07-27 10:29:26",
+            "size": "1.95KB",
+            "md5": "4b41c2d5082c76062ad54569da389b1d",
+            "sha256": "42e5f70cd5397af7bad3e69c37664fa478445dee1eb659d98aec466309fa145e"
+        },
+        "VCT_Cleanup.html": {
+            "modified": "2006-04-17 12:09:56",
+            "size": "0.88KB",
+            "md5": "0d75d01af25086e3cf7de1934696b6bf",
+            "sha256": "b454b39d358970d024ce48836a8382457b961529fd63c50b94926f79e0540537"
+        },
+        "VCT_Contact.html": {
+            "modified": "2006-04-17 12:09:56",
+            "size": "2.15KB",
+            "md5": "3febff8c1c61dc8b0f50411641b4f7e1",
+            "sha256": "2ba1122c2c4c7707f072691ebc0dfe65aef95fa437b28eca7461dcb4fc2b74c5"
+        },
+        "VCT_CreateSession.html": {
+            "modified": "2006-04-17 12:09:56",
+            "size": "1.35KB",
+            "md5": "18310c5910a9657ff420e8512bc7206e",
+            "sha256": "7a0fddf4181c0dbbb33064bded0d914e93c892a0365a685ec6f8f8600493b26a"
+        },
+        "VCT_DeleteSession.html": {
+            "modified": "2006-04-17 12:09:56",
+            "size": "1.31KB",
+            "md5": "98cd52b7b77bad0cd6fce18d98ad4522",
+            "sha256": "4cfdfc8f1b8b75e42fdec27c02df1d2332cca6b534e82b3e8e29878d6929c668"
+        },
+        "VCT_EnableEchoCancel.html": {
+            "modified": "2006-08-30 15:33:46",
+            "size": "1.44KB",
+            "md5": "6fd947877576dea50823c8d7be405def",
+            "sha256": "73588f7b3e6df7dddba6eaa99bef5aa70722e0391b1d20f142fc6b6382f3b1d1"
+        },
+        "VCT_EnableVAD.html": {
+            "modified": "2006-08-30 15:33:46",
+            "size": "1.27KB",
+            "md5": "2755fea343681b704562ad7b18a7d048",
+            "sha256": "765e91ff1975ebe2948843f6167fd16e7faaa37254c52829e244ce85beee2efd"
+        },
+        "VCT_GetAudioInfo.html": {
+            "modified": "2006-01-27 14:06:10",
+            "size": "1.37KB",
+            "md5": "fa159f9f7d1f155499e21bbb95acff41",
+            "sha256": "4fc6abe4f078eaba9b0479860eb275bf19c76b96d598d45f179e8250274f1756"
+        },
+        "VCT_GetCodec.html": {
+            "modified": "2006-01-27 14:06:10",
+            "size": "0.86KB",
+            "md5": "e491c4804fbc49a6eba98d1b0583cff4",
+            "sha256": "80d5048aeeba72764c32f2104fc2439fa7a2488e805558d2453623c28bef0836"
+        },
+        "VCT_GetVADInfo.html": {
+            "modified": "2006-04-26 11:41:38",
+            "size": "1.14KB",
+            "md5": "324d9cd44471fea95c0d08af9e29f241",
+            "sha256": "38b9014280e7f5e3f92a09fd82b701c1db78bf61c4f6b46ae6608531b1edaa45"
+        },
+        "VCT_HandleData.html": {
+            "modified": "2006-01-27 14:06:10",
+            "size": "2.17KB",
+            "md5": "c202bc02f62b683560dbf4620a0dc51b",
+            "sha256": "1f704966c5b8497e9c1aec2f06f06bfa7bccaa39f21ef3cd4969360078a4e12c"
+        },
+        "VCT_Init.html": {
+            "modified": "2006-04-17 12:09:56",
+            "size": "1.56KB",
+            "md5": "f8077b3cbeeaa7d627601aab043ddd8a",
+            "sha256": "0b51d74ecb706e8fd4699ebc8b2dd696acc1b99c2adfa0970413a46d640e3d9d"
+        },
+        "VCT_Main.html": {
+            "modified": "2007-01-15 18:41:58",
+            "size": "1.33KB",
+            "md5": "af9eb26461f1f08c0c275707e8aeaec8",
+            "sha256": "c94b420bb0c14ee7cee3c6b48d84332cbc3b56832ad01b1a5947d074662ec523"
+        },
+        "VCT_ReceiveAudio.html": {
+            "modified": "2006-10-10 15:05:34",
+            "size": "3.41KB",
+            "md5": "38e28e52d88471d79f79479613fa010c",
+            "sha256": "b3b761067be1ba783bc5ea5a904fdda2c4b2f46861e500b5b1a5ed301c112967"
+        },
+        "VCT_Release.html": {
+            "modified": "2006-07-27 10:29:26",
+            "size": "2.0KB",
+            "md5": "585a4515a68948af3b4b434ac4311118",
+            "sha256": "ff608a92a8295f6cdcb9d5d8ae4b8e230012657d97f442df9f1e5a87ea6b66e9"
+        },
+        "VCT_RemoveConferenceClient.html": {
+            "modified": "2006-11-10 10:59:44",
+            "size": "1.25KB",
+            "md5": "2357ebca8d49b90b23d665b70b5605a9",
+            "sha256": "3cb4905cb06ba1810f670aed07d56b1c2eaf3edceef06bd87aa36a9353c383e6"
+        },
+        "VCT_Request.html": {
+            "modified": "2006-04-17 12:09:56",
+            "size": "1.63KB",
+            "md5": "54432509c8672c084bfe9f42e392442c",
+            "sha256": "7c9bb2a1ebdfc93eccf55eb626ef14946ca8a49d06ff533dc71aca8409546cbe"
+        },
+        "VCT_ResetVAD.html": {
+            "modified": "2006-04-26 11:41:38",
+            "size": "0.81KB",
+            "md5": "61859e785387737a33479a14ebf40521",
+            "sha256": "71ccbb5a24c35fc1400f26df210250a3583ec0c9c8997b4efd641faf7ba49487"
+        },
+        "VCT_Response.html": {
+            "modified": "2006-04-17 12:09:56",
+            "size": "1.41KB",
+            "md5": "a66af933a9325d40583ce2644b50e86b",
+            "sha256": "3d39aaa713b016d2e5c5728b792684122bcac0c2fe53190ce7210167568ded50"
+        },
+        "VCT_SendAudio.html": {
+            "modified": "2006-08-30 15:33:46",
+            "size": "3.01KB",
+            "md5": "2f48993d993dbb3f115476133dcc24e5",
+            "sha256": "f8da599c6acb2cba4440034a0f931fc32651f21b9e7acf8ef7daca2fbc7c7ee6"
+        },
+        "VCT_SetCodec.html": {
+            "modified": "2006-04-12 15:23:30",
+            "size": "1.43KB",
+            "md5": "4cf58a7f8456d071a4903c3643e2d0a1",
+            "sha256": "1e3a2bba327425fb98d2459b32ba0cb34201c06efeb38b39c0ae21b6370dde86"
+        },
+        "VCT_SetReportLevel.html": {
+            "modified": "2006-09-19 11:19:14",
+            "size": "1.61KB",
+            "md5": "b4bbdafac82a1604761767f349850311",
+            "sha256": "3a49a2de39287caf81428f4c29346fb93155b22c14ee015878f5b46b751e7e39"
+        },
+        "VCT_SetTransceiverClients.html": {
+            "modified": "2006-08-30 15:33:46",
+            "size": "2.29KB",
+            "md5": "7d741c2ee136b1f130650783a7e5a1c3",
+            "sha256": "009ca26b4249ed37919c88afdf580ec491d5e0591191f94c686e42174e9f2b06"
+        },
+        "VCT_SetTransceiverMode.html": {
+            "modified": "2006-01-27 14:06:10",
+            "size": "1.21KB",
+            "md5": "4ef07d680a5fef71f80c6d39139e09dd",
+            "sha256": "47b1297c8780f6ed569717799a8da72333d6c718a4bd9926149748c93958d215"
+        },
+        "VCT_SetTransceiverServer.html": {
+            "modified": "2006-04-17 12:09:56",
+            "size": "1.34KB",
+            "md5": "e68c8f58c87fc24ebec7b5a708b464a2",
+            "sha256": "14ef21e5a95e81d6751a32be1c7db49b16dcd3fb9249ad9d63f11d42b2b1421b"
+        },
+        "VCT_SetTransceiverTimeout.html": {
+            "modified": "2006-01-27 14:06:10",
+            "size": "1.15KB",
+            "md5": "b024b1610199bf2ccd10d7714ade9557",
+            "sha256": "c6da88f804ad942693761d866228fcace41b2f45e459e191e8fc7e38cd3d15ee"
+        },
+        "VCT_SetVADReleaseTime.html": {
+            "modified": "2006-05-01 15:37:40",
+            "size": "1.41KB",
+            "md5": "44cb933fa10d292094065aae0a773814",
+            "sha256": "11a02e6af5ca8b6264c9dfdd8793166b9aafe7627cb1a1caf02bcf40f5a11d72"
+        },
+        "VCT_StartStreaming.html": {
+            "modified": "2006-01-27 14:06:10",
+            "size": "1.38KB",
+            "md5": "ccdd7cbf661d3c1f96040973456aeda4",
+            "sha256": "ca84b3fa5f66dc89727c4295fcd98fddb15728cf65811d4823d6023b8f5b75b9"
+        },
+        "VCT_StopStreaming.html": {
+            "modified": "2006-01-27 14:06:10",
+            "size": "1.05KB",
+            "md5": "840ecfba2338bbc713e3daf10a3a553c",
+            "sha256": "37ec6af5a5c53f4583b5ac951477f087380a732fca11728c5ec698cfc2978529"
+        }
+    }
+}

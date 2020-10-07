@@ -1,0 +1,1287 @@
+Made with tikatree 0.0.10
+f427329383_org/
+├── org/
+│   ├── apache/
+│   │   ├── bcel/
+│   │   │   └── verifier/
+│   │   │       ├── structurals/
+│   │   │       │   ├── Pass3bVerifier.class
+│   │   │       │   ├── Subroutine.class
+│   │   │       │   ├── Subroutines$SubroutineImpl.class
+│   │   │       │   ├── Subroutines.class
+│   │   │       │   └── UninitializedObjectType.class
+│   │   │       ├── TransitiveHull.class
+│   │   │       ├── VerificationResult.class
+│   │   │       ├── Verifier.class
+│   │   │       ├── VerifierAppFrame$1.class
+│   │   │       ├── VerifierAppFrame$2.class
+│   │   │       ├── VerifierAppFrame$3.class
+│   │   │       ├── VerifierAppFrame$4.class
+│   │   │       ├── VerifierAppFrame$5.class
+│   │   │       ├── VerifierAppFrame$6.class
+│   │   │       ├── VerifierAppFrame.class
+│   │   │       ├── VerifierFactory.class
+│   │   │       ├── VerifierFactoryListModel.class
+│   │   │       ├── VerifierFactoryObserver.class
+│   │   │       ├── VerifyDialog$1.class
+│   │   │       ├── VerifyDialog$IvjEventHandler.class
+│   │   │       └── VerifyDialog.class
+│   │   ├── regexp/
+│   │   │   ├── CharacterArrayCharacterIterator.class
+│   │   │   ├── CharacterIterator.class
+│   │   │   ├── NTR/
+│   │   │   │   └── RE.class
+│   │   │   ├── ReaderCharacterIterator.class
+│   │   │   ├── recompile.class
+│   │   │   ├── RECompiler$RERange.class
+│   │   │   ├── RECompiler.class
+│   │   │   ├── REDebugCompiler.class
+│   │   │   ├── REDemo$1.class
+│   │   │   ├── REDemo.class
+│   │   │   ├── REProgram.class
+│   │   │   ├── RESyntaxException.class
+│   │   │   ├── RETest.class
+│   │   │   ├── REUtil.class
+│   │   │   ├── StreamCharacterIterator.class
+│   │   │   └── StringCharacterIterator.class
+│   │   ├── xalan/
+│   │   │   ├── client/
+│   │   │   │   ├── XSLTProcessorApplet$TrustedAgent.class
+│   │   │   │   └── XSLTProcessorApplet.class
+│   │   │   ├── extensions/
+│   │   │   │   ├── ExpressionContext.class
+│   │   │   │   ├── ExpressionVisitor.class
+│   │   │   │   ├── ExtensionHandler.class
+│   │   │   │   ├── ExtensionHandlerExsltFunction.class
+│   │   │   │   ├── ExtensionHandlerGeneral.class
+│   │   │   │   ├── ExtensionHandlerJava.class
+│   │   │   │   ├── ExtensionHandlerJavaClass.class
+│   │   │   │   ├── ExtensionHandlerJavaPackage.class
+│   │   │   │   ├── ExtensionNamespacesManager.class
+│   │   │   │   ├── ExtensionNamespaceSupport.class
+│   │   │   │   ├── ExtensionsTable.class
+│   │   │   │   ├── MethodResolver$ConversionInfo.class
+│   │   │   │   ├── MethodResolver.class
+│   │   │   │   ├── ObjectFactory$ConfigurationError.class
+│   │   │   │   ├── ObjectFactory.class
+│   │   │   │   ├── SecuritySupport.class
+│   │   │   │   ├── SecuritySupport12$1.class
+│   │   │   │   ├── SecuritySupport12$2.class
+│   │   │   │   ├── SecuritySupport12$3.class
+│   │   │   │   ├── SecuritySupport12$4.class
+│   │   │   │   ├── SecuritySupport12$5.class
+│   │   │   │   ├── SecuritySupport12$6.class
+│   │   │   │   ├── SecuritySupport12$7.class
+│   │   │   │   ├── SecuritySupport12$8.class
+│   │   │   │   ├── SecuritySupport12.class
+│   │   │   │   └── XSLProcessorContext.class
+│   │   │   ├── lib/
+│   │   │   │   ├── ExsltBase.class
+│   │   │   │   ├── ExsltCommon.class
+│   │   │   │   ├── ExsltDatetime.class
+│   │   │   │   ├── ExsltDynamic.class
+│   │   │   │   ├── ExsltMath.class
+│   │   │   │   ├── ExsltSets.class
+│   │   │   │   ├── ExsltStrings$DocumentHolder.class
+│   │   │   │   ├── ExsltStrings.class
+│   │   │   │   ├── Extensions$DocumentHolder.class
+│   │   │   │   ├── Extensions.class
+│   │   │   │   ├── NodeInfo.class
+│   │   │   │   ├── ObjectFactory$ConfigurationError.class
+│   │   │   │   ├── ObjectFactory.class
+│   │   │   │   ├── PipeDocument.class
+│   │   │   │   ├── Redirect.class
+│   │   │   │   ├── SecuritySupport.class
+│   │   │   │   ├── SecuritySupport12$1.class
+│   │   │   │   ├── SecuritySupport12$2.class
+│   │   │   │   ├── SecuritySupport12$3.class
+│   │   │   │   ├── SecuritySupport12$4.class
+│   │   │   │   ├── SecuritySupport12$5.class
+│   │   │   │   ├── SecuritySupport12$6.class
+│   │   │   │   ├── SecuritySupport12$7.class
+│   │   │   │   ├── SecuritySupport12$8.class
+│   │   │   │   ├── SecuritySupport12.class
+│   │   │   │   └── sql/
+│   │   │   │       ├── ConnectionPool.class
+│   │   │   │       ├── ConnectionPoolManager.class
+│   │   │   │       ├── DefaultConnectionPool.class
+│   │   │   │       ├── DTMDocument$CharacterNodeHandler.class
+│   │   │   │       ├── DTMDocument.class
+│   │   │   │       ├── ObjectArray$_ObjectArray.class
+│   │   │   │       ├── ObjectArray.class
+│   │   │   │       ├── ObjectFactory$ConfigurationError.class
+│   │   │   │       ├── ObjectFactory.class
+│   │   │   │       ├── PooledConnection.class
+│   │   │   │       ├── QueryParameter.class
+│   │   │   │       ├── SecuritySupport.class
+│   │   │   │       ├── SecuritySupport12$1.class
+│   │   │   │       ├── SecuritySupport12$2.class
+│   │   │   │       ├── SecuritySupport12$3.class
+│   │   │   │       ├── SecuritySupport12$4.class
+│   │   │   │       ├── SecuritySupport12$5.class
+│   │   │   │       ├── SecuritySupport12$6.class
+│   │   │   │       ├── SecuritySupport12$7.class
+│   │   │   │       ├── SecuritySupport12$8.class
+│   │   │   │       ├── SecuritySupport12.class
+│   │   │   │       ├── SQLDocument.class
+│   │   │   │       ├── SQLErrorDocument.class
+│   │   │   │       ├── SQLQueryParser.class
+│   │   │   │       └── XConnection.class
+│   │   │   ├── processor/
+│   │   │   │   ├── nus-/
+│   │   │   │   │   └── XSLTSchema.class
+│   │   │   │   ├── ProcessorAttributeSet.class
+│   │   │   │   ├── ProcessorCharacters.class
+│   │   │   │   ├── ProcessorDecimalFormat.class
+│   │   │   │   ├── ProcessorExsltFuncResult.class
+│   │   │   │   ├── ProcessorExsltFunction.class
+│   │   │   │   ├── ProcessorGlobalParamDecl.class
+│   │   │   │   ├── ProcessorGlobalVariableDecl.class
+│   │   │   │   ├── ProcessorImport.class
+│   │   │   │   ├── ProcessorInclude.class
+│   │   │   │   ├── ProcessorKey.class
+│   │   │   │   ├── ProcessorLRE.class
+│   │   │   │   ├── ProcessorNamespaceAlias.class
+│   │   │   │   ├── ProcessorOutputElem.class
+│   │   │   │   ├── ProcessorPreserveSpace.class
+│   │   │   │   ├── ProcessorStripSpace.class
+│   │   │   │   ├── ProcessorStylesheetDoc.class
+│   │   │   │   ├── ProcessorStylesheetElement.class
+│   │   │   │   ├── ProcessorTemplate.class
+│   │   │   │   ├── ProcessorTemplateElem.class
+│   │   │   │   ├── ProcessorText.class
+│   │   │   │   ├── ProcessorUnknown.class
+│   │   │   │   ├── StylesheetHandler.class
+│   │   │   │   ├── TransformerFactoryImpl.class
+│   │   │   │   ├── WhitespaceInfoPaths.class
+│   │   │   │   ├── XSLProcessorVersion.class
+│   │   │   │   ├── XSLTAttributeDef.class
+│   │   │   │   ├── XSLTElementDef.class
+│   │   │   │   └── XSLTElementProcessor.class
+│   │   │   ├── res/
+│   │   │   │   ├── WIS/
+│   │   │   │   │   ├── XSLTErrorResources.class
+│   │   │   │   │   ├── XSLTErrorResources_ca.class
+│   │   │   │   │   ├── XSLTErrorResources_cs.class
+│   │   │   │   │   ├── XSLTErrorResources_de.class
+│   │   │   │   │   ├── XSLTErrorResources_es.class
+│   │   │   │   │   ├── XSLTErrorResources_fr.class
+│   │   │   │   │   ├── XSLTErrorResources_hu.class
+│   │   │   │   │   ├── XSLTErrorResources_it.class
+│   │   │   │   │   ├── XSLTErrorResources_ja.class
+│   │   │   │   │   ├── XSLTErrorResources_ko.class
+│   │   │   │   │   ├── XSLTErrorResources_pl.class
+│   │   │   │   │   ├── XSLTErrorResources_pt_BR.class
+│   │   │   │   │   ├── XSLTErrorResources_ru.class
+│   │   │   │   │   ├── XSLTErrorResources_sk.class
+│   │   │   │   │   ├── XSLTErrorResources_sv.class
+│   │   │   │   │   ├── XSLTErrorResources_tr.class
+│   │   │   │   │   ├── XSLTErrorResources_zh_CN.class
+│   │   │   │   │   └── XSLTErrorResources_zh_TW.class
+│   │   │   │   ├── XSLMessages.class
+│   │   │   │   ├── XSLTErrorResources_en.class
+│   │   │   │   └── XSLTInfo.properties
+│   │   │   ├── serialize/
+│   │   │   │   ├── DOMSerializer.class
+│   │   │   │   ├── Serializer.class
+│   │   │   │   ├── SerializerFactory$DOMSerializerWrapper.class
+│   │   │   │   ├── SerializerFactory$SerializerWrapper.class
+│   │   │   │   ├── SerializerFactory.class
+│   │   │   │   └── SerializerUtils.class
+│   │   │   ├── templates/
+│   │   │   │   ├── AbsPathChecker.class
+│   │   │   │   ├── AVT.class
+│   │   │   │   ├── AVTPart.class
+│   │   │   │   ├── AVTPartSimple.class
+│   │   │   │   ├── AVTPartXPath.class
+│   │   │   │   ├── DecimalFormatProperties.class
+│   │   │   │   ├── ElemApplyImport.class
+│   │   │   │   ├── ElemApplyTemplates.class
+│   │   │   │   ├── ElemAttribute.class
+│   │   │   │   ├── ElemAttributeSet.class
+│   │   │   │   ├── ElemCallTemplate.class
+│   │   │   │   ├── ElemChoose.class
+│   │   │   │   ├── ElemComment.class
+│   │   │   │   ├── ElemCopy.class
+│   │   │   │   ├── ElemCopyOf.class
+│   │   │   │   ├── ElemElement.class
+│   │   │   │   ├── ElemEmpty.class
+│   │   │   │   ├── ElemExsltFuncResult.class
+│   │   │   │   ├── ElemExsltFunction.class
+│   │   │   │   ├── ElemExtensionCall.class
+│   │   │   │   ├── ElemExtensionDecl.class
+│   │   │   │   ├── ElemExtensionScript.class
+│   │   │   │   ├── ElemFallback.class
+│   │   │   │   ├── ElemForEach.class
+│   │   │   │   ├── ElemIf.class
+│   │   │   │   ├── ElemLiteralResult.class
+│   │   │   │   ├── ElemNumber$MyPrefixResolver.class
+│   │   │   │   ├── ElemNumber$NumberFormatStringTokenizer.class
+│   │   │   │   ├── ElemNumber.class
+│   │   │   │   ├── ElemOtherwise.class
+│   │   │   │   ├── ElemParam.class
+│   │   │   │   ├── ElemPI.class
+│   │   │   │   ├── ElemSort.class
+│   │   │   │   ├── ElemTemplate.class
+│   │   │   │   ├── ElemTemplateElement.class
+│   │   │   │   ├── ElemText.class
+│   │   │   │   ├── ElemTextLiteral.class
+│   │   │   │   ├── ElemUnknown.class
+│   │   │   │   ├── ElemUse.class
+│   │   │   │   ├── ElemValueOf.class
+│   │   │   │   ├── ElemVariable.class
+│   │   │   │   ├── ElemVariablePsuedo.class
+│   │   │   │   ├── ElemWhen.class
+│   │   │   │   ├── ElemWithParam.class
+│   │   │   │   ├── FuncDocument.class
+│   │   │   │   ├── FuncFormatNumb.class
+│   │   │   │   ├── FuncKey.class
+│   │   │   │   ├── KeyDeclaration.class
+│   │   │   │   ├── MIN/
+│   │   │   │   │   ├── ElemMessage.class
+│   │   │   │   │   └── RedundentExprEliminator.class
+│   │   │   │   ├── NamespaceAlias.class
+│   │   │   │   ├── nus-/
+│   │   │   │   │   └── Constants.class
+│   │   │   │   ├── OutputProperties.class
+│   │   │   │   ├── RedundentExprEliminator$MultistepExprHolder.class
+│   │   │   │   ├── Stylesheet.class
+│   │   │   │   ├── StylesheetComposed.class
+│   │   │   │   ├── StylesheetRoot$ComposeState.class
+│   │   │   │   ├── StylesheetRoot.class
+│   │   │   │   ├── TemplateList$1.class
+│   │   │   │   ├── TemplateList$TemplateWalker.class
+│   │   │   │   ├── TemplateList.class
+│   │   │   │   ├── TemplateSubPatternAssociation.class
+│   │   │   │   ├── VarNameCollector.class
+│   │   │   │   ├── WhiteSpaceInfo.class
+│   │   │   │   ├── XMLNSDecl.class
+│   │   │   │   ├── XSLTVisitable.class
+│   │   │   │   ├── XSLTVisitor.class
+│   │   │   │   ├── XUnresolvedVariable.class
+│   │   │   │   └── XUnresolvedVariableSimple.class
+│   │   │   ├── trace/
+│   │   │   │   ├── EndSelectionEvent.class
+│   │   │   │   ├── ExtensionEvent.class
+│   │   │   │   ├── GenerateEvent.class
+│   │   │   │   ├── PrintTraceListener.class
+│   │   │   │   ├── SelectionEvent.class
+│   │   │   │   ├── TraceListener.class
+│   │   │   │   ├── TraceListenerEx.class
+│   │   │   │   ├── TraceListenerEx2.class
+│   │   │   │   ├── TraceListenerEx3.class
+│   │   │   │   ├── TraceManager.class
+│   │   │   │   └── TracerEvent.class
+│   │   │   ├── transformer/
+│   │   │   │   ├── ClonerToResultTree.class
+│   │   │   │   ├── Counter.class
+│   │   │   │   ├── CountersTable.class
+│   │   │   │   ├── DecimalToRoman.class
+│   │   │   │   ├── KeyIterator.class
+│   │   │   │   ├── KeyManager.class
+│   │   │   │   ├── KeyRefIterator.class
+│   │   │   │   ├── KeyTable$1.class
+│   │   │   │   ├── KeyTable.class
+│   │   │   │   ├── MsgMgr.class
+│   │   │   │   ├── NodeSorter$NodeCompareElem.class
+│   │   │   │   ├── NodeSorter.class
+│   │   │   │   ├── NodeSortKey.class
+│   │   │   │   ├── NumeratorFormatter$NumberFormatStringTokenizer.class
+│   │   │   │   ├── NumeratorFormatter.class
+│   │   │   │   ├── QueuedEvents.class
+│   │   │   │   ├── ResultNameSpace.class
+│   │   │   │   ├── SerializerSwitcher.class
+│   │   │   │   ├── StackGuard.class
+│   │   │   │   ├── TransformerClient.class
+│   │   │   │   ├── TransformerHandlerImpl.class
+│   │   │   │   ├── TransformerIdentityImpl.class
+│   │   │   │   ├── TransformerImpl.class
+│   │   │   │   ├── TransformSnapshot.class
+│   │   │   │   ├── TransformSnapshotImpl.class
+│   │   │   │   ├── TransformState.class
+│   │   │   │   ├── TrAXFilter.class
+│   │   │   │   ├── TreeWalker2Result.class
+│   │   │   │   ├── XalanProperties.class
+│   │   │   │   ├── XalanTransformState.class
+│   │   │   │   └── XSLInfiniteLoopException.class
+│   │   │   ├── Version.class
+│   │   │   ├── xslt/
+│   │   │   │   ├── EnvironmentCheck.class
+│   │   │   │   ├── ObjectFactory$ConfigurationError.class
+│   │   │   │   ├── ObjectFactory.class
+│   │   │   │   ├── Process.class
+│   │   │   │   ├── SecuritySupport.class
+│   │   │   │   ├── SecuritySupport12$1.class
+│   │   │   │   ├── SecuritySupport12$2.class
+│   │   │   │   ├── SecuritySupport12$3.class
+│   │   │   │   ├── SecuritySupport12$4.class
+│   │   │   │   ├── SecuritySupport12$5.class
+│   │   │   │   ├── SecuritySupport12$6.class
+│   │   │   │   ├── SecuritySupport12$7.class
+│   │   │   │   ├── SecuritySupport12$8.class
+│   │   │   │   └── SecuritySupport12.class
+│   │   │   └── xsltc/
+│   │   │       ├── cmdline/
+│   │   │       │   ├── getopt/
+│   │   │       │   │   ├── GetOpt$Option.class
+│   │   │       │   │   ├── GetOpt$OptionMatcher.class
+│   │   │       │   │   ├── GetOpt.class
+│   │   │       │   │   ├── GetOptsException.class
+│   │   │       │   │   ├── IllegalArgumentException.class
+│   │   │       │   │   └── MissingOptArgException.class
+│   │   │       │   ├── MIN/
+│   │   │       │   │   └── Compile.class
+│   │   │       │   ├── ObjectFactory$ConfigurationError.class
+│   │   │       │   ├── ObjectFactory.class
+│   │   │       │   ├── SecuritySupport.class
+│   │   │       │   ├── SecuritySupport12$1.class
+│   │   │       │   ├── SecuritySupport12$2.class
+│   │   │       │   ├── SecuritySupport12$3.class
+│   │   │       │   ├── SecuritySupport12$4.class
+│   │   │       │   ├── SecuritySupport12$5.class
+│   │   │       │   ├── SecuritySupport12$6.class
+│   │   │       │   ├── SecuritySupport12$7.class
+│   │   │       │   ├── SecuritySupport12$8.class
+│   │   │       │   ├── SecuritySupport12.class
+│   │   │       │   └── Transform.class
+│   │   │       ├── CollatorFactory.class
+│   │   │       ├── compiler/
+│   │   │       │   ├── AbsoluteLocationPath.class
+│   │   │       │   ├── AlternativePattern.class
+│   │   │       │   ├── ApplyImports.class
+│   │   │       │   ├── ApplyTemplates.class
+│   │   │       │   ├── ArgumentList.class
+│   │   │       │   ├── Attribute.class
+│   │   │       │   ├── AttributeSet.class
+│   │   │       │   ├── AttributeValue.class
+│   │   │       │   ├── AttributeValueTemplate.class
+│   │   │       │   ├── BooleanCall.class
+│   │   │       │   ├── BooleanExpr.class
+│   │   │       │   ├── CallTemplate.class
+│   │   │       │   ├── CastCall.class
+│   │   │       │   ├── CastExpr.class
+│   │   │       │   ├── CeilingCall.class
+│   │   │       │   ├── Closure.class
+│   │   │       │   ├── Comment.class
+│   │   │       │   ├── CompilerException.class
+│   │   │       │   ├── ConcatCall.class
+│   │   │       │   ├── Constants.class
+│   │   │       │   ├── ContainsCall.class
+│   │   │       │   ├── Copy.class
+│   │   │       │   ├── CopyOf.class
+│   │   │       │   ├── CUP$XPathParser$actions.class
+│   │   │       │   ├── CurrentCall.class
+│   │   │       │   ├── DocumentCall.class
+│   │   │       │   ├── DOL/
+│   │   │       │   │   └── sym.class
+│   │   │       │   ├── ElementAvailableCall.class
+│   │   │       │   ├── EqualityExpr.class
+│   │   │       │   ├── Expression.class
+│   │   │       │   ├── Fallback.class
+│   │   │       │   ├── FilteredAbsoluteLocationPath.class
+│   │   │       │   ├── FilterExpr.class
+│   │   │       │   ├── FloorCall.class
+│   │   │       │   ├── FlowList.class
+│   │   │       │   ├── FormatNumberCall.class
+│   │   │       │   ├── FunctionAvailableCall.class
+│   │   │       │   ├── FunctionCall$JavaType.class
+│   │   │       │   ├── FunctionCall.class
+│   │   │       │   ├── GenerateIdCall.class
+│   │   │       │   ├── IdPattern.class
+│   │   │       │   ├── If.class
+│   │   │       │   ├── IllegalCharException.class
+│   │   │       │   ├── Import.class
+│   │   │       │   ├── Include.class
+│   │   │       │   ├── Instruction.class
+│   │   │       │   ├── IntExpr.class
+│   │   │       │   ├── KeyCall.class
+│   │   │       │   ├── KeyPattern.class
+│   │   │       │   ├── LangCall.class
+│   │   │       │   ├── LastCall.class
+│   │   │       │   ├── LiteralAttribute.class
+│   │   │       │   ├── LiteralElement.class
+│   │   │       │   ├── LiteralExpr.class
+│   │   │       │   ├── LocalNameCall.class
+│   │   │       │   ├── LocationPathPattern.class
+│   │   │       │   ├── LogicalExpr.class
+│   │   │       │   ├── NameBase.class
+│   │   │       │   ├── NameCall.class
+│   │   │       │   ├── NamespaceAlias.class
+│   │   │       │   ├── NamespaceUriCall.class
+│   │   │       │   ├── NodeTest.class
+│   │   │       │   ├── NotCall.class
+│   │   │       │   ├── NumberCall.class
+│   │   │       │   ├── NUS/
+│   │   │       │   │   └── BinOpExpr.class
+│   │   │       │   ├── nus-/
+│   │   │       │   │   ├── DecimalFormatting.class
+│   │   │       │   │   └── Parser.class
+│   │   │       │   ├── ObjectFactory$ConfigurationError.class
+│   │   │       │   ├── ObjectFactory.class
+│   │   │       │   ├── Output.class
+│   │   │       │   ├── Param.class
+│   │   │       │   ├── ParameterRef.class
+│   │   │       │   ├── Pattern.class
+│   │   │       │   ├── PositionCall.class
+│   │   │       │   ├── Predicate.class
+│   │   │       │   ├── ProcessingInstruction.class
+│   │   │       │   ├── QName.class
+│   │   │       │   ├── RealExpr.class
+│   │   │       │   ├── RelationalExpr.class
+│   │   │       │   ├── RelativeLocationPath.class
+│   │   │       │   ├── RelativePathPattern.class
+│   │   │       │   ├── RoundCall.class
+│   │   │       │   ├── SecuritySupport.class
+│   │   │       │   ├── SecuritySupport12$1.class
+│   │   │       │   ├── SecuritySupport12$2.class
+│   │   │       │   ├── SecuritySupport12$3.class
+│   │   │       │   ├── SecuritySupport12$4.class
+│   │   │       │   ├── SecuritySupport12$5.class
+│   │   │       │   ├── SecuritySupport12$6.class
+│   │   │       │   ├── SecuritySupport12$7.class
+│   │   │       │   ├── SecuritySupport12$8.class
+│   │   │       │   ├── SecuritySupport12.class
+│   │   │       │   ├── SimpleAttributeValue.class
+│   │   │       │   ├── Sort.class
+│   │   │       │   ├── SourceLoader.class
+│   │   │       │   ├── StartsWithCall.class
+│   │   │       │   ├── Step.class
+│   │   │       │   ├── StringCall.class
+│   │   │       │   ├── StringLengthCall.class
+│   │   │       │   ├── Stylesheet.class
+│   │   │       │   ├── SymbolTable.class
+│   │   │       │   ├── Template.class
+│   │   │       │   ├── TestSeq.class
+│   │   │       │   ├── TopLevelElement.class
+│   │   │       │   ├── TransletOutput.class
+│   │   │       │   ├── UnaryOpExpr.class
+│   │   │       │   ├── UnparsedEntityUriCall.class
+│   │   │       │   ├── UnresolvedRef.class
+│   │   │       │   ├── UnsupportedElement.class
+│   │   │       │   ├── UseAttributeSets.class
+│   │   │       │   ├── util/
+│   │   │       │   │   ├── AttributeSetMethodGenerator.class
+│   │   │       │   │   ├── ClassGenerator.class
+│   │   │       │   │   ├── CompareGenerator.class
+│   │   │       │   │   ├── FilterGenerator.class
+│   │   │       │   │   ├── MatchGenerator.class
+│   │   │       │   │   ├── MethodGenerator.class
+│   │   │       │   │   ├── MethodType.class
+│   │   │       │   │   ├── MultiHashtable.class
+│   │   │       │   │   ├── NamedMethodGenerator.class
+│   │   │       │   │   ├── NodeCounterGenerator.class
+│   │   │       │   │   ├── NodeSortRecordFactGenerator.class
+│   │   │       │   │   ├── NodeSortRecordGenerator.class
+│   │   │       │   │   ├── NumberType.class
+│   │   │       │   │   ├── ObjectFactory$ConfigurationError.class
+│   │   │       │   │   ├── ObjectFactory.class
+│   │   │       │   │   ├── ObjectType.class
+│   │   │       │   │   ├── RealType.class
+│   │   │       │   │   ├── ReferenceType.class
+│   │   │       │   │   ├── ResultTreeType.class
+│   │   │       │   │   ├── RtMethodGenerator.class
+│   │   │       │   │   ├── SecuritySupport.class
+│   │   │       │   │   ├── SecuritySupport12$1.class
+│   │   │       │   │   ├── SecuritySupport12$2.class
+│   │   │       │   │   ├── SecuritySupport12$3.class
+│   │   │       │   │   ├── SecuritySupport12$4.class
+│   │   │       │   │   ├── SecuritySupport12$5.class
+│   │   │       │   │   ├── SecuritySupport12$6.class
+│   │   │       │   │   ├── SecuritySupport12$7.class
+│   │   │       │   │   ├── SecuritySupport12$8.class
+│   │   │       │   │   ├── SecuritySupport12.class
+│   │   │       │   │   ├── SlotAllocator.class
+│   │   │       │   │   ├── StringStack.class
+│   │   │       │   │   ├── StringType.class
+│   │   │       │   │   ├── TestGenerator.class
+│   │   │       │   │   ├── Type.class
+│   │   │       │   │   ├── TypeCheckError.class
+│   │   │       │   │   ├── Util.class
+│   │   │       │   │   ├── VoidType.class
+│   │   │       │   │   ├── WAP/
+│   │   │       │   │   │   ├── BooleanType.class
+│   │   │       │   │   │   ├── IntType.class
+│   │   │       │   │   │   ├── NodeSetType.class
+│   │   │       │   │   │   └── NodeType.class
+│   │   │       │   │   └── WIS/
+│   │   │       │   │       ├── ErrorMessages.class
+│   │   │       │   │       ├── ErrorMessages_ca.class
+│   │   │       │   │       ├── ErrorMessages_cs.class
+│   │   │       │   │       ├── ErrorMessages_de.class
+│   │   │       │   │       ├── ErrorMessages_es.class
+│   │   │       │   │       ├── ErrorMessages_fr.class
+│   │   │       │   │       ├── ErrorMessages_hu.class
+│   │   │       │   │       ├── ErrorMessages_it.class
+│   │   │       │   │       ├── ErrorMessages_ja.class
+│   │   │       │   │       ├── ErrorMessages_ko.class
+│   │   │       │   │       ├── ErrorMessages_no.class
+│   │   │       │   │       ├── ErrorMessages_pl.class
+│   │   │       │   │       ├── ErrorMessages_pt_BR.class
+│   │   │       │   │       ├── ErrorMessages_ru.class
+│   │   │       │   │       ├── ErrorMessages_sk.class
+│   │   │       │   │       ├── ErrorMessages_tr.class
+│   │   │       │   │       ├── ErrorMessages_zh_CN.class
+│   │   │       │   │       ├── ErrorMessages_zh_TW.class
+│   │   │       │   │       └── ErrorMsg.class
+│   │   │       │   ├── Variable.class
+│   │   │       │   ├── VariableRef.class
+│   │   │       │   ├── VariableRefBase.class
+│   │   │       │   ├── WAP/
+│   │   │       │   │   ├── AbsolutePathPattern.class
+│   │   │       │   │   ├── AncestorPattern.class
+│   │   │       │   │   ├── FilterParentPath.class
+│   │   │       │   │   ├── ForEach.class
+│   │   │       │   │   ├── IdKeyPattern.class
+│   │   │       │   │   ├── Key.class
+│   │   │       │   │   ├── Message.class
+│   │   │       │   │   ├── Mode.class
+│   │   │       │   │   ├── Number.class
+│   │   │       │   │   ├── ParentLocationPath.class
+│   │   │       │   │   ├── ParentPattern.class
+│   │   │       │   │   ├── ProcessingInstructionPattern.class
+│   │   │       │   │   ├── StepPattern.class
+│   │   │       │   │   ├── SyntaxTreeNode.class
+│   │   │       │   │   ├── Text.class
+│   │   │       │   │   ├── UnionPathExpr.class
+│   │   │       │   │   ├── ValueOf.class
+│   │   │       │   │   └── VariableBase.class
+│   │   │       │   ├── When.class
+│   │   │       │   ├── Whitespace$WhitespaceRule.class
+│   │   │       │   ├── Whitespace.class
+│   │   │       │   ├── WIS/
+│   │   │       │   │   ├── Choose.class
+│   │   │       │   │   └── Otherwise.class
+│   │   │       │   ├── WithParam.class
+│   │   │       │   ├── XPathLexer.class
+│   │   │       │   ├── XPathParser.class
+│   │   │       │   ├── XslAttribute.class
+│   │   │       │   ├── XslElement.class
+│   │   │       │   └── XSLTC.class
+│   │   │       ├── dom/
+│   │   │       │   ├── AbsoluteIterator.class
+│   │   │       │   ├── AdaptiveResultTreeImpl.class
+│   │   │       │   ├── AnyNodeCounter$DefaultAnyNodeCounter.class
+│   │   │       │   ├── AnyNodeCounter.class
+│   │   │       │   ├── Axis.class
+│   │   │       │   ├── BitArray.class
+│   │   │       │   ├── CachedNodeListIterator.class
+│   │   │       │   ├── ClonedNodeListIterator.class
+│   │   │       │   ├── CollatorFactoryBase.class
+│   │   │       │   ├── CurrentNodeListFilter.class
+│   │   │       │   ├── CurrentNodeListIterator.class
+│   │   │       │   ├── DocumentCache$CachedDocument.class
+│   │   │       │   ├── DocumentCache.class
+│   │   │       │   ├── DOMAdapter.class
+│   │   │       │   ├── DOMBuilder.class
+│   │   │       │   ├── DOMWSFilter.class
+│   │   │       │   ├── DupFilterIterator.class
+│   │   │       │   ├── EmptyFilter.class
+│   │   │       │   ├── ExtendedSAX.class
+│   │   │       │   ├── Filter.class
+│   │   │       │   ├── FilteredStepIterator.class
+│   │   │       │   ├── FilterIterator.class
+│   │   │       │   ├── ForwardPositionIterator.class
+│   │   │       │   ├── KeyIndex.class
+│   │   │       │   ├── LoadDocument.class
+│   │   │       │   ├── MatchingIterator.class
+│   │   │       │   ├── MultiDOM$AxisIterator.class
+│   │   │       │   ├── MultiDOM$NodeValueIterator.class
+│   │   │       │   ├── MultiDOM.class
+│   │   │       │   ├── MultipleNodeCounter$DefaultMultipleNodeCounter.class
+│   │   │       │   ├── MultipleNodeCounter.class
+│   │   │       │   ├── NodeCounter.class
+│   │   │       │   ├── NodeIteratorBase.class
+│   │   │       │   ├── NodeSortRecord.class
+│   │   │       │   ├── NodeSortRecordFactory.class
+│   │   │       │   ├── NthIterator.class
+│   │   │       │   ├── ObjectFactory$ConfigurationError.class
+│   │   │       │   ├── ObjectFactory.class
+│   │   │       │   ├── SAXImpl$NamespaceAttributeIterator.class
+│   │   │       │   ├── SAXImpl$NamespaceChildrenIterator.class
+│   │   │       │   ├── SAXImpl$NamespaceWildcardIterator.class
+│   │   │       │   ├── SAXImpl$NodeValueIterator.class
+│   │   │       │   ├── SAXImpl$TypedNamespaceIterator.class
+│   │   │       │   ├── SAXImpl.class
+│   │   │       │   ├── SecuritySupport.class
+│   │   │       │   ├── SecuritySupport12$1.class
+│   │   │       │   ├── SecuritySupport12$2.class
+│   │   │       │   ├── SecuritySupport12$3.class
+│   │   │       │   ├── SecuritySupport12$4.class
+│   │   │       │   ├── SecuritySupport12$5.class
+│   │   │       │   ├── SecuritySupport12$6.class
+│   │   │       │   ├── SecuritySupport12$7.class
+│   │   │       │   ├── SecuritySupport12$8.class
+│   │   │       │   ├── SecuritySupport12.class
+│   │   │       │   ├── SimpleResultTreeImpl$1.class
+│   │   │       │   ├── SimpleResultTreeImpl$SimpleIterator.class
+│   │   │       │   ├── SimpleResultTreeImpl$SingletonIterator.class
+│   │   │       │   ├── SimpleResultTreeImpl.class
+│   │   │       │   ├── SingleNodeCounter$DefaultSingleNodeCounter.class
+│   │   │       │   ├── SingleNodeCounter.class
+│   │   │       │   ├── SingletonIterator.class
+│   │   │       │   ├── SortingIterator.class
+│   │   │       │   ├── SortSettings.class
+│   │   │       │   ├── StepIterator.class
+│   │   │       │   ├── StripWhitespaceFilter.class
+│   │   │       │   ├── UnionIterator$LookAheadIterator.class
+│   │   │       │   ├── UnionIterator.class
+│   │   │       │   └── XSLTCDTMManager.class
+│   │   │       ├── DOM.class
+│   │   │       ├── DOMCache.class
+│   │   │       ├── DOMEnhancedForDTM.class
+│   │   │       ├── MIN/
+│   │   │       │   └── ProcessorVersion.class
+│   │   │       ├── NodeIterator.class
+│   │   │       ├── runtime/
+│   │   │       │   ├── AbstractTranslet.class
+│   │   │       │   ├── AttributeList.class
+│   │   │       │   ├── Attributes.class
+│   │   │       │   ├── BasisLibrary$1.class
+│   │   │       │   ├── BasisLibrary.class
+│   │   │       │   ├── CallFunction.class
+│   │   │       │   ├── Constants.class
+│   │   │       │   ├── ErrorMessages.class
+│   │   │       │   ├── ErrorMessages_ca.class
+│   │   │       │   ├── ErrorMessages_cs.class
+│   │   │       │   ├── ErrorMessages_de.class
+│   │   │       │   ├── ErrorMessages_es.class
+│   │   │       │   ├── ErrorMessages_fr.class
+│   │   │       │   ├── ErrorMessages_hu.class
+│   │   │       │   ├── ErrorMessages_it.class
+│   │   │       │   ├── ErrorMessages_ja.class
+│   │   │       │   ├── ErrorMessages_ko.class
+│   │   │       │   ├── ErrorMessages_no.class
+│   │   │       │   ├── ErrorMessages_pl.class
+│   │   │       │   ├── ErrorMessages_pt_BR.class
+│   │   │       │   ├── ErrorMessages_ru.class
+│   │   │       │   ├── ErrorMessages_sk.class
+│   │   │       │   ├── ErrorMessages_tr.class
+│   │   │       │   ├── ErrorMessages_zh_CN.class
+│   │   │       │   ├── ErrorMessages_zh_TW.class
+│   │   │       │   ├── Hashtable$HashtableEnumerator.class
+│   │   │       │   ├── Hashtable.class
+│   │   │       │   ├── HashtableEntry.class
+│   │   │       │   ├── MessageHandler.class
+│   │   │       │   ├── Node.class
+│   │   │       │   ├── ObjectFactory$ConfigurationError.class
+│   │   │       │   ├── ObjectFactory.class
+│   │   │       │   ├── Operators.class
+│   │   │       │   ├── output/
+│   │   │       │   │   ├── OutputBuffer.class
+│   │   │       │   │   ├── StringOutputBuffer.class
+│   │   │       │   │   ├── TransletOutputHandlerFactory.class
+│   │   │       │   │   └── WriterOutputBuffer.class
+│   │   │       │   ├── Parameter.class
+│   │   │       │   ├── SecuritySupport.class
+│   │   │       │   ├── SecuritySupport12$1.class
+│   │   │       │   ├── SecuritySupport12$2.class
+│   │   │       │   ├── SecuritySupport12$3.class
+│   │   │       │   ├── SecuritySupport12$4.class
+│   │   │       │   ├── SecuritySupport12$5.class
+│   │   │       │   ├── SecuritySupport12$6.class
+│   │   │       │   ├── SecuritySupport12$7.class
+│   │   │       │   ├── SecuritySupport12$8.class
+│   │   │       │   ├── SecuritySupport12.class
+│   │   │       │   └── StringValueHandler.class
+│   │   │       ├── StripFilter.class
+│   │   │       ├── Translet.class
+│   │   │       ├── TransletException.class
+│   │   │       ├── trax/
+│   │   │       │   ├── DOM2SAX.class
+│   │   │       │   ├── DOM2TO.class
+│   │   │       │   ├── ObjectFactory$ConfigurationError.class
+│   │   │       │   ├── ObjectFactory.class
+│   │   │       │   ├── OutputSettings.class
+│   │   │       │   ├── SAX2DOM.class
+│   │   │       │   ├── SecuritySupport.class
+│   │   │       │   ├── SecuritySupport12$1.class
+│   │   │       │   ├── SecuritySupport12$2.class
+│   │   │       │   ├── SecuritySupport12$3.class
+│   │   │       │   ├── SecuritySupport12$4.class
+│   │   │       │   ├── SecuritySupport12$5.class
+│   │   │       │   ├── SecuritySupport12$6.class
+│   │   │       │   ├── SecuritySupport12$7.class
+│   │   │       │   ├── SecuritySupport12$8.class
+│   │   │       │   ├── SecuritySupport12.class
+│   │   │       │   ├── SmartTransformerFactoryImpl.class
+│   │   │       │   ├── TemplatesHandlerImpl.class
+│   │   │       │   ├── TemplatesImpl$1.class
+│   │   │       │   ├── TemplatesImpl$TransletClassLoader.class
+│   │   │       │   ├── TemplatesImpl.class
+│   │   │       │   ├── TransformerFactoryImpl$1.class
+│   │   │       │   ├── TransformerFactoryImpl$PIParamWrapper.class
+│   │   │       │   ├── TransformerFactoryImpl.class
+│   │   │       │   ├── TransformerHandlerImpl.class
+│   │   │       │   ├── TransformerImpl$MessageHandler.class
+│   │   │       │   ├── TransformerImpl.class
+│   │   │       │   ├── TrAXFilter.class
+│   │   │       │   ├── Util.class
+│   │   │       │   └── XSLTCSource.class
+│   │   │       └── util/
+│   │   │           └── IntegerArray.class
+│   │   ├── xml/
+│   │   │   ├── dtm/
+│   │   │   │   ├── Axis.class
+│   │   │   │   ├── DTM.class
+│   │   │   │   ├── DTMAxisIterator.class
+│   │   │   │   ├── DTMAxisTraverser.class
+│   │   │   │   ├── DTMConfigurationException.class
+│   │   │   │   ├── DTMDOMException.class
+│   │   │   │   ├── DTMException.class
+│   │   │   │   ├── DTMFilter.class
+│   │   │   │   ├── DTMIterator.class
+│   │   │   │   ├── DTMManager.class
+│   │   │   │   ├── DTMWSFilter.class
+│   │   │   │   ├── ObjectFactory$ConfigurationError.class
+│   │   │   │   ├── ObjectFactory.class
+│   │   │   │   ├── ref/
+│   │   │   │   │   ├── ChunkedIntArray$ChunksVector.class
+│   │   │   │   │   ├── ChunkedIntArray.class
+│   │   │   │   │   ├── CoroutineManager.class
+│   │   │   │   │   ├── CoroutineParser.class
+│   │   │   │   │   ├── CustomStringPool.class
+│   │   │   │   │   ├── dom2dtm/
+│   │   │   │   │   │   ├── DOM2DTM$CharacterNodeHandler.class
+│   │   │   │   │   │   ├── DOM2DTM.class
+│   │   │   │   │   │   └── DOM2DTMdefaultNamespaceDeclarationNode.class
+│   │   │   │   │   ├── DTMAxisIteratorBase.class
+│   │   │   │   │   ├── DTMAxisIterNodeList.class
+│   │   │   │   │   ├── DTMChildIterNodeList.class
+│   │   │   │   │   ├── DTMDefaultBase.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$AncestorIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$AttributeIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$ChildrenIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$DescendantIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$FollowingIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$FollowingSiblingIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$InternalAxisIteratorBase.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$NamespaceAttributeIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$NamespaceChildrenIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$NamespaceIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$NthDescendantIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$ParentIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$PrecedingIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$PrecedingSiblingIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$RootIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$SingletonIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedAncestorIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedAttributeIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedChildrenIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedDescendantIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedFollowingIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedFollowingSiblingIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedNamespaceIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedPrecedingIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedPrecedingSiblingIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedRootIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators$TypedSingletonIterator.class
+│   │   │   │   │   ├── DTMDefaultBaseIterators.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$1.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$AllFromNodeTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$AllFromRootTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$AncestorOrSelfTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$AncestorTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$AttributeTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$ChildTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$DescendantFromRootTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$DescendantOrSelfFromRootTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$DescendantOrSelfTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$DescendantTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$FollowingSiblingTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$FollowingTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$IndexedDTMAxisTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$NamespaceDeclsTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$NamespaceTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$ParentTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$PrecedingAndAncestorTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$PrecedingSiblingTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$PrecedingTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$RootTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers$SelfTraverser.class
+│   │   │   │   │   ├── DTMDefaultBaseTraversers.class
+│   │   │   │   │   ├── DTMDocumentImpl.class
+│   │   │   │   │   ├── DTMManagerDefault.class
+│   │   │   │   │   ├── DTMNamedNodeMap$DTMException.class
+│   │   │   │   │   ├── DTMNamedNodeMap.class
+│   │   │   │   │   ├── DTMNodeIterator.class
+│   │   │   │   │   ├── DTMNodeList.class
+│   │   │   │   │   ├── DTMNodeListBase.class
+│   │   │   │   │   ├── DTMNodeProxy$DTMNodeProxyImplementation.class
+│   │   │   │   │   ├── DTMNodeProxy.class
+│   │   │   │   │   ├── DTMSafeStringPool.class
+│   │   │   │   │   ├── DTMStringPool.class
+│   │   │   │   │   ├── DTMTreeWalker.class
+│   │   │   │   │   ├── EmptyIterator.class
+│   │   │   │   │   ├── ExpandedNameTable$HashEntry.class
+│   │   │   │   │   ├── ExpandedNameTable.class
+│   │   │   │   │   ├── ExtendedType.class
+│   │   │   │   │   ├── IncrementalSAXSource.class
+│   │   │   │   │   ├── IncrementalSAXSource_Filter$StopException.class
+│   │   │   │   │   ├── IncrementalSAXSource_Filter.class
+│   │   │   │   │   ├── IncrementalSAXSource_Xerces.class
+│   │   │   │   │   ├── NodeLocator.class
+│   │   │   │   │   ├── ObjectFactory$ConfigurationError.class
+│   │   │   │   │   ├── ObjectFactory.class
+│   │   │   │   │   ├── sax2dtm/
+│   │   │   │   │   │   ├── SAX2DTM.class
+│   │   │   │   │   │   ├── SAX2DTM2$AncestorIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$AttributeIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$ChildrenIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$DescendantIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$FollowingIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$FollowingSiblingIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$ParentIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$PrecedingIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$PrecedingSiblingIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedAncestorIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedAttributeIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedChildrenIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedDescendantIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedFollowingIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedFollowingSiblingIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedPrecedingIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedPrecedingSiblingIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedRootIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2$TypedSingletonIterator.class
+│   │   │   │   │   │   ├── SAX2DTM2.class
+│   │   │   │   │   │   └── SAX2RTFDTM.class
+│   │   │   │   │   ├── SecuritySupport.class
+│   │   │   │   │   ├── SecuritySupport12$1.class
+│   │   │   │   │   ├── SecuritySupport12$2.class
+│   │   │   │   │   ├── SecuritySupport12$3.class
+│   │   │   │   │   ├── SecuritySupport12$4.class
+│   │   │   │   │   ├── SecuritySupport12$5.class
+│   │   │   │   │   ├── SecuritySupport12$6.class
+│   │   │   │   │   ├── SecuritySupport12$7.class
+│   │   │   │   │   ├── SecuritySupport12$8.class
+│   │   │   │   │   └── SecuritySupport12.class
+│   │   │   │   ├── SecuritySupport.class
+│   │   │   │   ├── SecuritySupport12$1.class
+│   │   │   │   ├── SecuritySupport12$2.class
+│   │   │   │   ├── SecuritySupport12$3.class
+│   │   │   │   ├── SecuritySupport12$4.class
+│   │   │   │   ├── SecuritySupport12$5.class
+│   │   │   │   ├── SecuritySupport12$6.class
+│   │   │   │   ├── SecuritySupport12$7.class
+│   │   │   │   ├── SecuritySupport12$8.class
+│   │   │   │   └── SecuritySupport12.class
+│   │   │   ├── res/
+│   │   │   │   ├── MIN/
+│   │   │   │   │   ├── XMLErrorResources.class
+│   │   │   │   │   ├── XMLErrorResources_ca.class
+│   │   │   │   │   ├── XMLErrorResources_cs.class
+│   │   │   │   │   ├── XMLErrorResources_de.class
+│   │   │   │   │   ├── XMLErrorResources_es.class
+│   │   │   │   │   ├── XMLErrorResources_fr.class
+│   │   │   │   │   ├── XMLErrorResources_hu.class
+│   │   │   │   │   ├── XMLErrorResources_it.class
+│   │   │   │   │   ├── XMLErrorResources_ja.class
+│   │   │   │   │   ├── XMLErrorResources_ko.class
+│   │   │   │   │   ├── XMLErrorResources_pl.class
+│   │   │   │   │   ├── XMLErrorResources_pt_BR.class
+│   │   │   │   │   ├── XMLErrorResources_ru.class
+│   │   │   │   │   ├── XMLErrorResources_sk.class
+│   │   │   │   │   ├── XMLErrorResources_sv.class
+│   │   │   │   │   ├── XMLErrorResources_tr.class
+│   │   │   │   │   ├── XMLErrorResources_zh_CN.class
+│   │   │   │   │   └── XMLErrorResources_zh_TW.class
+│   │   │   │   ├── XMLErrorResources_en.class
+│   │   │   │   └── XMLMessages.class
+│   │   │   ├── serializer/
+│   │   │   │   ├── AttributesImplSerializer.class
+│   │   │   │   ├── CharInfo.class
+│   │   │   │   ├── CTR/
+│   │   │   │   │   └── ElemDesc.class
+│   │   │   │   ├── DOMSerializer.class
+│   │   │   │   ├── ElemContext.class
+│   │   │   │   ├── EmptySerializer.class
+│   │   │   │   ├── EncodingInfo.class
+│   │   │   │   ├── Encodings$1.class
+│   │   │   │   ├── Encodings.class
+│   │   │   │   ├── Encodings.properties
+│   │   │   │   ├── ExtendedContentHandler.class
+│   │   │   │   ├── ExtendedLexicalHandler.class
+│   │   │   │   ├── HTMLEntities.properties
+│   │   │   │   ├── Method.class
+│   │   │   │   ├── NamespaceMappings.class
+│   │   │   │   ├── NTR/
+│   │   │   │   │   └── OutputPropertiesFactory.class
+│   │   │   │   ├── ObjectFactory$ConfigurationError.class
+│   │   │   │   ├── ObjectFactory.class
+│   │   │   │   ├── output_html.properties
+│   │   │   │   ├── output_text.properties
+│   │   │   │   ├── output_unknown.properties
+│   │   │   │   ├── output_xml.properties
+│   │   │   │   ├── OutputPropertiesFactory$1.class
+│   │   │   │   ├── OutputPropertyUtils.class
+│   │   │   │   ├── SecuritySupport.class
+│   │   │   │   ├── SecuritySupport12$1.class
+│   │   │   │   ├── SecuritySupport12$2.class
+│   │   │   │   ├── SecuritySupport12$3.class
+│   │   │   │   ├── SecuritySupport12$4.class
+│   │   │   │   ├── SecuritySupport12$5.class
+│   │   │   │   ├── SecuritySupport12$6.class
+│   │   │   │   ├── SecuritySupport12$7.class
+│   │   │   │   ├── SecuritySupport12$8.class
+│   │   │   │   ├── SecuritySupport12.class
+│   │   │   │   ├── SerializationHandler.class
+│   │   │   │   ├── Serializer.class
+│   │   │   │   ├── SerializerBase.class
+│   │   │   │   ├── SerializerConstants.class
+│   │   │   │   ├── SerializerFactory.class
+│   │   │   │   ├── SerializerTrace.class
+│   │   │   │   ├── SerializerTraceWriter.class
+│   │   │   │   ├── ToHTMLSAXHandler.class
+│   │   │   │   ├── ToHTMLStream.class
+│   │   │   │   ├── ToSAXHandler.class
+│   │   │   │   ├── ToStream$WritertoStringBuffer.class
+│   │   │   │   ├── ToStream.class
+│   │   │   │   ├── ToTextSAXHandler.class
+│   │   │   │   ├── ToTextStream.class
+│   │   │   │   ├── ToUnknownStream.class
+│   │   │   │   ├── ToXMLSAXHandler.class
+│   │   │   │   ├── ToXMLStream.class
+│   │   │   │   ├── TransformStateSetter.class
+│   │   │   │   ├── Utils$CacheHolder.class
+│   │   │   │   ├── Utils.class
+│   │   │   │   ├── WriterToASCI.class
+│   │   │   │   ├── WriterToUTF8Buffered.class
+│   │   │   │   ├── XMLEntities.properties
+│   │   │   │   └── XSLOutputAttributes.class
+│   │   │   └── utils/
+│   │   │       ├── AttList.class
+│   │   │       ├── BoolStack.class
+│   │   │       ├── CharKey.class
+│   │   │       ├── Constants.class
+│   │   │       ├── Context2.class
+│   │   │       ├── CTR/
+│   │   │       │   └── ElemDesc.class
+│   │   │       ├── DefaultErrorHandler.class
+│   │   │       ├── DOM2Helper.class
+│   │   │       ├── DOMBuilder.class
+│   │   │       ├── DOMHelper.class
+│   │   │       ├── DOMOrder.class
+│   │   │       ├── FastStringBuffer.class
+│   │   │       ├── Hashtree2Node.class
+│   │   │       ├── IntStack.class
+│   │   │       ├── IntVector.class
+│   │   │       ├── ListingErrorHandler.class
+│   │   │       ├── LocaleUtility.class
+│   │   │       ├── MutableAttrListImpl.class
+│   │   │       ├── NameSpace.class
+│   │   │       ├── NamespaceSupport2.class
+│   │   │       ├── NodeConsumer.class
+│   │   │       ├── NodeVector.class
+│   │   │       ├── NSInfo.class
+│   │   │       ├── ObjectFactory$ConfigurationError.class
+│   │   │       ├── ObjectFactory.class
+│   │   │       ├── ObjectPool.class
+│   │   │       ├── ObjectStack.class
+│   │   │       ├── ObjectVector.class
+│   │   │       ├── PrefixForUriEnumerator.class
+│   │   │       ├── PrefixResolver.class
+│   │   │       ├── PrefixResolverDefault.class
+│   │   │       ├── QName.class
+│   │   │       ├── RawCharacterHandler.class
+│   │   │       ├── res/
+│   │   │       │   ├── XResourceBundle.class
+│   │   │       │   ├── XResourceBundleBase.class
+│   │   │       │   ├── XResources_cy.class
+│   │   │       │   ├── XResources_de.class
+│   │   │       │   ├── XResources_el.class
+│   │   │       │   ├── XResources_en.class
+│   │   │       │   ├── XResources_es.class
+│   │   │       │   ├── XResources_fr.class
+│   │   │       │   ├── XResources_he.class
+│   │   │       │   ├── XResources_hy.class
+│   │   │       │   ├── XResources_it.class
+│   │   │       │   ├── XResources_ja_JP_A.class
+│   │   │       │   ├── XResources_ja_JP_HA.class
+│   │   │       │   ├── XResources_ja_JP_HI.class
+│   │   │       │   ├── XResources_ja_JP_I.class
+│   │   │       │   ├── XResources_ka.class
+│   │   │       │   ├── XResources_ko.class
+│   │   │       │   ├── XResources_sv.class
+│   │   │       │   ├── XResources_zh_CN.class
+│   │   │       │   └── XResources_zh_TW.class
+│   │   │       ├── SAXSourceLocator.class
+│   │   │       ├── SecuritySupport.class
+│   │   │       ├── SecuritySupport12$1.class
+│   │   │       ├── SecuritySupport12$2.class
+│   │   │       ├── SecuritySupport12$3.class
+│   │   │       ├── SecuritySupport12$4.class
+│   │   │       ├── SecuritySupport12$5.class
+│   │   │       ├── SecuritySupport12$6.class
+│   │   │       ├── SecuritySupport12$7.class
+│   │   │       ├── SecuritySupport12$8.class
+│   │   │       ├── SecuritySupport12.class
+│   │   │       ├── SerializableLocatorImpl.class
+│   │   │       ├── StopParseException.class
+│   │   │       ├── StringBufferPool.class
+│   │   │       ├── StringComparable.class
+│   │   │       ├── StringToIntTable.class
+│   │   │       ├── StringToStringTable.class
+│   │   │       ├── StringToStringTableVector.class
+│   │   │       ├── StringVector.class
+│   │   │       ├── StylesheetPIHandler.class
+│   │   │       ├── SuballocatedByteVector.class
+│   │   │       ├── SuballocatedIntVector.class
+│   │   │       ├── SystemIDResolver.class
+│   │   │       ├── ThreadControllerWrapper$ThreadController.class
+│   │   │       ├── ThreadControllerWrapper.class
+│   │   │       ├── TreeWalker.class
+│   │   │       ├── Trie$Node.class
+│   │   │       ├── Trie.class
+│   │   │       ├── UnImplNode.class
+│   │   │       ├── URI$MalformedURIException.class
+│   │   │       ├── URI.class
+│   │   │       ├── WrappedRuntimeException.class
+│   │   │       ├── WrongParserException.class
+│   │   │       ├── XMLChar.class
+│   │   │       ├── XMLCharacterRecognizer.class
+│   │   │       ├── XMLReaderManager.class
+│   │   │       ├── XMLString.class
+│   │   │       ├── XMLStringDefault.class
+│   │   │       ├── XMLStringFactory.class
+│   │   │       └── XMLStringFactoryDefault.class
+│   │   └── xpath/
+│   │       ├── Arg.class
+│   │       ├── axes/
+│   │       │   ├── AttributeIterator.class
+│   │       │   ├── AxesWalker.class
+│   │       │   ├── BasicTestIterator.class
+│   │       │   ├── ChildIterator.class
+│   │       │   ├── ChildTestIterator.class
+│   │       │   ├── ContextNodeList.class
+│   │       │   ├── DescendantIterator.class
+│   │       │   ├── FilterExprIterator$filterExprOwner.class
+│   │       │   ├── FilterExprIterator.class
+│   │       │   ├── FilterExprIteratorSimple$filterExprOwner.class
+│   │       │   ├── FilterExprIteratorSimple.class
+│   │       │   ├── FilterExprWalker$filterExprOwner.class
+│   │       │   ├── FilterExprWalker.class
+│   │       │   ├── HasPositionalPredChecker.class
+│   │       │   ├── IteratorPool.class
+│   │       │   ├── LocPathIterator.class
+│   │       │   ├── MatchPatternIterator.class
+│   │       │   ├── NodeSequence.class
+│   │       │   ├── OneStepIterator.class
+│   │       │   ├── OneStepIteratorForward.class
+│   │       │   ├── PathComponent.class
+│   │       │   ├── PredicatedNodeTest$PredOwner.class
+│   │       │   ├── PredicatedNodeTest.class
+│   │       │   ├── ReverseAxesWalker.class
+│   │       │   ├── RTFIterator.class
+│   │       │   ├── SelfIteratorNoPredicate.class
+│   │       │   ├── SubContextList.class
+│   │       │   ├── UnionChildIterator.class
+│   │       │   ├── UnionPathIterator$iterOwner.class
+│   │       │   ├── UnionPathIterator.class
+│   │       │   ├── WalkerFactory.class
+│   │       │   ├── WalkingIterator.class
+│   │       │   └── WalkingIteratorSorted.class
+│   │       ├── CachedXPathAPI.class
+│   │       ├── compiler/
+│   │       │   ├── Compiler.class
+│   │       │   ├── FuncLoader.class
+│   │       │   ├── FunctionTable.class
+│   │       │   ├── Keywords.class
+│   │       │   ├── Lexer.class
+│   │       │   ├── NUS/
+│   │       │   │   └── OpCodes.class
+│   │       │   ├── ObjectFactory$ConfigurationError.class
+│   │       │   ├── ObjectFactory.class
+│   │       │   ├── OpMap.class
+│   │       │   ├── OpMapVector.class
+│   │       │   ├── PsuedoNames.class
+│   │       │   ├── SecuritySupport.class
+│   │       │   ├── SecuritySupport12$1.class
+│   │       │   ├── SecuritySupport12$2.class
+│   │       │   ├── SecuritySupport12$3.class
+│   │       │   ├── SecuritySupport12$4.class
+│   │       │   ├── SecuritySupport12$5.class
+│   │       │   ├── SecuritySupport12$6.class
+│   │       │   ├── SecuritySupport12$7.class
+│   │       │   ├── SecuritySupport12$8.class
+│   │       │   ├── SecuritySupport12.class
+│   │       │   ├── XPathDumper.class
+│   │       │   └── XPathParser.class
+│   │       ├── domapi/
+│   │       │   ├── XPathEvaluatorImpl$DummyPrefixResolver.class
+│   │       │   ├── XPathEvaluatorImpl.class
+│   │       │   ├── XPathExpressionImpl.class
+│   │       │   ├── XPathNamespaceImpl.class
+│   │       │   ├── XPathNSResolverImpl.class
+│   │       │   └── XPathResultImpl.class
+│   │       ├── Expression.class
+│   │       ├── ExpressionNode.class
+│   │       ├── ExpressionOwner.class
+│   │       ├── ExtensionsProvider.class
+│   │       ├── FoundIndex.class
+│   │       ├── functions/
+│   │       │   ├── FuncBoolean.class
+│   │       │   ├── FuncCeiling.class
+│   │       │   ├── FuncConcat.class
+│   │       │   ├── FuncContains.class
+│   │       │   ├── FuncCount.class
+│   │       │   ├── FuncCurrent.class
+│   │       │   ├── FuncDoclocation.class
+│   │       │   ├── FuncExtElementAvailable.class
+│   │       │   ├── FuncExtFunction$ArgExtOwner.class
+│   │       │   ├── FuncExtFunction.class
+│   │       │   ├── FuncExtFunctionAvailable.class
+│   │       │   ├── FuncFalse.class
+│   │       │   ├── FuncFloor.class
+│   │       │   ├── FuncGenerateId.class
+│   │       │   ├── FuncId.class
+│   │       │   ├── FuncLang.class
+│   │       │   ├── FuncLast.class
+│   │       │   ├── FuncLocalPart.class
+│   │       │   ├── FuncNamespace.class
+│   │       │   ├── FuncNormalizeSpace.class
+│   │       │   ├── FuncNot.class
+│   │       │   ├── FuncNumber.class
+│   │       │   ├── FuncPosition.class
+│   │       │   ├── FuncQname.class
+│   │       │   ├── FuncRound.class
+│   │       │   ├── FuncStartsWith.class
+│   │       │   ├── FuncString.class
+│   │       │   ├── FuncStringLength.class
+│   │       │   ├── FuncSubstring.class
+│   │       │   ├── FuncSubstringAfter.class
+│   │       │   ├── FuncSubstringBefore.class
+│   │       │   ├── FuncSum.class
+│   │       │   ├── FuncSystemProperty.class
+│   │       │   ├── Function.class
+│   │       │   ├── Function2Args$Arg1Owner.class
+│   │       │   ├── Function2Args.class
+│   │       │   ├── Function3Args$Arg2Owner.class
+│   │       │   ├── Function3Args.class
+│   │       │   ├── FunctionDef1Arg.class
+│   │       │   ├── FunctionMultiArgs$ArgMultiOwner.class
+│   │       │   ├── FunctionMultiArgs.class
+│   │       │   ├── FunctionOneArg.class
+│   │       │   ├── FuncTranslate.class
+│   │       │   ├── FuncTrue.class
+│   │       │   ├── FuncUnparsedEntityURI.class
+│   │       │   ├── ObjectFactory$ConfigurationError.class
+│   │       │   ├── ObjectFactory.class
+│   │       │   ├── SecuritySupport.class
+│   │       │   ├── SecuritySupport12$1.class
+│   │       │   ├── SecuritySupport12$2.class
+│   │       │   ├── SecuritySupport12$3.class
+│   │       │   ├── SecuritySupport12$4.class
+│   │       │   ├── SecuritySupport12$5.class
+│   │       │   ├── SecuritySupport12$6.class
+│   │       │   ├── SecuritySupport12$7.class
+│   │       │   ├── SecuritySupport12$8.class
+│   │       │   ├── SecuritySupport12.class
+│   │       │   └── WrongNumberArgsException.class
+│   │       ├── NodeSet.class
+│   │       ├── NodeSetDTM.class
+│   │       ├── objects/
+│   │       │   ├── AGS/
+│   │       │   │   └── XRTreeFragSelectWrapper.class
+│   │       │   ├── Comparator.class
+│   │       │   ├── EqualComparator.class
+│   │       │   ├── GreaterThanComparator.class
+│   │       │   ├── GreaterThanOrEqualComparator.class
+│   │       │   ├── LessThanComparator.class
+│   │       │   ├── LessThanOrEqualComparator.class
+│   │       │   ├── NotEqualComparator.class
+│   │       │   ├── XBoolean.class
+│   │       │   ├── XBooleanStatic.class
+│   │       │   ├── XMLStringFactoryImpl.class
+│   │       │   ├── XNodeSet.class
+│   │       │   ├── XNodeSetForDOM.class
+│   │       │   ├── XNull.class
+│   │       │   ├── XNumber.class
+│   │       │   ├── XObject.class
+│   │       │   ├── XObjectFactory.class
+│   │       │   ├── XRTreeFrag.class
+│   │       │   ├── XString.class
+│   │       │   ├── XStringForChars.class
+│   │       │   └── XStringForFSB.class
+│   │       ├── operations/
+│   │       │   ├── And.class
+│   │       │   ├── Bool.class
+│   │       │   ├── Div.class
+│   │       │   ├── Equals.class
+│   │       │   ├── Gt.class
+│   │       │   ├── Gte.class
+│   │       │   ├── Lt.class
+│   │       │   ├── Lte.class
+│   │       │   ├── Minus.class
+│   │       │   ├── Mod.class
+│   │       │   ├── Mult.class
+│   │       │   ├── Neg.class
+│   │       │   ├── NotEquals.class
+│   │       │   ├── Number.class
+│   │       │   ├── Operation$LeftExprOwner.class
+│   │       │   ├── Operation.class
+│   │       │   ├── Or.class
+│   │       │   ├── Plus.class
+│   │       │   ├── Quo.class
+│   │       │   ├── String.class
+│   │       │   ├── UnaryOperation.class
+│   │       │   ├── Variable.class
+│   │       │   └── VariableSafeAbsRef.class
+│   │       ├── patterns/
+│   │       │   ├── ContextMatchStepPattern.class
+│   │       │   ├── FunctionPattern$FunctionOwner.class
+│   │       │   ├── FunctionPattern.class
+│   │       │   ├── NodeTest.class
+│   │       │   ├── NodeTestFilter.class
+│   │       │   ├── StepPattern$PredOwner.class
+│   │       │   ├── StepPattern.class
+│   │       │   ├── UnionPattern$UnionPathPartOwner.class
+│   │       │   └── UnionPattern.class
+│   │       ├── res/
+│   │       │   ├── AGS/
+│   │       │   │   ├── XPATHErrorResources.class
+│   │       │   │   ├── XPATHErrorResources_ca.class
+│   │       │   │   ├── XPATHErrorResources_cs.class
+│   │       │   │   ├── XPATHErrorResources_de.class
+│   │       │   │   ├── XPATHErrorResources_es.class
+│   │       │   │   ├── XPATHErrorResources_fr.class
+│   │       │   │   ├── XPATHErrorResources_hu.class
+│   │       │   │   ├── XPATHErrorResources_it.class
+│   │       │   │   ├── XPATHErrorResources_ja.class
+│   │       │   │   ├── XPATHErrorResources_ko.class
+│   │       │   │   ├── XPATHErrorResources_pl.class
+│   │       │   │   ├── XPATHErrorResources_pt_BR.class
+│   │       │   │   ├── XPATHErrorResources_ru.class
+│   │       │   │   ├── XPATHErrorResources_sk.class
+│   │       │   │   ├── XPATHErrorResources_sv.class
+│   │       │   │   ├── XPATHErrorResources_tr.class
+│   │       │   │   ├── XPATHErrorResources_zh_CN.class
+│   │       │   │   └── XPATHErrorResources_zh_TW.class
+│   │       │   ├── XPATHErrorResources_en.class
+│   │       │   └── XPATHMessages.class
+│   │       ├── SourceTree.class
+│   │       ├── SourceTreeManager.class
+│   │       ├── VariableStack.class
+│   │       ├── WhitespaceStrippingElementMatcher.class
+│   │       ├── XPath.class
+│   │       ├── XPathAPI.class
+│   │       ├── XPathContext$XPathExpressionContext.class
+│   │       ├── XPathContext.class
+│   │       ├── XPathException.class
+│   │       ├── XPathFactory.class
+│   │       ├── XPathProcessorException.class
+│   │       ├── XPathVisitable.class
+│   │       └── XPathVisitor.class
+│   └── w3c/
+│       └── dom/
+│           └── xpath/
+│               ├── XPathEvaluator.class
+│               ├── XPathException.class
+│               ├── XPathExpression.class
+│               ├── XPathNamespace.class
+│               ├── XPathNSResolver.class
+│               └── XPathResult.class
+├── regexp.README.txt
+├── runtime.LICENSE.txt
+├── runtime.README.txt
+└── WIS/
+    └── regexp.LICENSE.txt

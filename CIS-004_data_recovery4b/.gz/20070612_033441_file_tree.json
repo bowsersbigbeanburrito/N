@@ -1,0 +1,754 @@
+{
+    "boot": {
+        "boot.b-selk": {
+            "modified": "2007-05-13 06:39:13",
+            "size": "3.13KB",
+            "md5": "0b5a1b32cbb755f73ad5506527c995a9",
+            "sha256": "eb93e75c400010acff78efbab3ee6b0a5629c433ffc299a019d1d1789933d45f"
+        },
+        "bootld.conf.sample": {
+            "modified": "2007-06-12 03:28:26",
+            "size": "1.14KB",
+            "md5": "62ee66261729e56f4c59d861c97094ba",
+            "sha256": "04f5e2978304accf1db027a4b18695941c05e5e0e538795e88823f59012530e5"
+        }
+    },
+    "etc": {
+        "lilo.conf": {
+            "modified": "2007-06-12 03:27:41",
+            "size": "0.33KB",
+            "md5": "066e8daae83d97d7acb9c73c057eb4ad",
+            "sha256": "84f63bb6e624582380c22e6df5c5e8e519fdd571ad327a35cb54e8010308e629"
+        }
+    },
+    "etc\\init.d": {
+        "btnctrl": {
+            "modified": "2007-05-13 06:42:30",
+            "size": "0.42KB",
+            "md5": "0c706109ef43e8d34142f616d27b1aa1",
+            "sha256": "a8cc83ac08b9dbb691ca19d22f497a470536eacd0eb3d9aca3ff17fb5bc8693a"
+        },
+        "wakeonlan": {
+            "modified": "2007-05-15 08:14:49",
+            "size": "1.03KB",
+            "md5": "52f0d87bb023e6f0ea36f92de959d978",
+            "sha256": "621228b37340eb572828c836d58f767593f6c732b417e080dfc0cb08ba97d7e4"
+        }
+    },
+    "etc\\rc.boot": {
+        "landisk_setup": {
+            "modified": "2007-06-12 03:18:50",
+            "size": "0.72KB",
+            "md5": "9fbfb3a88b56e3d58e1543046764d661",
+            "sha256": "2d701fad818a88c3f66d4af99277c57bde1a0f1df9468d9194c9b2ff42827b97"
+        }
+    },
+    "etc\\udev\\rules.d": {
+        "010_landisk.rules": {
+            "modified": "2007-06-12 03:26:18",
+            "size": "0.11KB",
+            "md5": "37865484d959884740f197ec94d04979",
+            "sha256": "a5d0d1389bc4046ee8e7faf835aeecf34c9275c767fa39223c4ed462b294b3ec"
+        }
+    },
+    "sbin\\AGS": {
+        "lilo": {
+            "modified": "2007-05-13 06:39:13",
+            "size": "517.64KB",
+            "md5": "2345fdc088ab29fa805e8ae080d33785",
+            "sha256": "e96d450af6cb531de424b7ea50096ec77698cc0151daeaf8a41bb97cc959caaf"
+        },
+        "lilo.x86": {
+            "modified": "2007-05-13 06:39:13",
+            "size": "57.48KB",
+            "md5": "c79b24c48136b48329ff71ee29737bcf",
+            "sha256": "dc21a9c9e9f42e2234dbef3d70609fda4445d175d69195e1ccf59511f20158ad"
+        }
+    },
+    "usr\\local\\lib\\landisk-tools\\PWB": {
+        "btn_action.conf": {
+            "modified": "2007-05-13 06:39:13",
+            "size": "0.19KB",
+            "md5": "82b00dafb048cde3ea60c03e5958fed8",
+            "sha256": "19c0dea9aca7a7423a5b7e526ff1f4600726eaaf088a5f2b6ddf93fc4a197765"
+        }
+    },
+    "usr\\local\\sbin": {
+        "gio2": {
+            "modified": "2007-05-13 06:39:13",
+            "size": "5.02KB",
+            "md5": "08b2cf91ed2b090c86aa7002dcfe9948",
+            "sha256": "bb69c1c3963ebc937c57f844bbdd2707934348a74b4665f030a7929287f0bbba"
+        },
+        "gio2_load": {
+            "modified": "2007-05-14 05:36:05",
+            "size": "0.32KB",
+            "md5": "431a94df5719d5a410959af5d1e7bf70",
+            "sha256": "ed63df36ab46af7b8b18db30e95ed58fbad7c2312fd1ccacf656bb028c130a4b"
+        },
+        "gio2_unload": {
+            "modified": "2007-05-13 06:39:13",
+            "size": "0.03KB",
+            "md5": "6649bb23066e2a75f987284ab6c54903",
+            "sha256": "7f13451836ddeefde920ee74d96b0012c070f7b0c7c419e62b8c6d523b214bbf"
+        },
+        "landisk-tools.setup": {
+            "modified": "2007-05-15 08:11:40",
+            "size": "0.59KB",
+            "md5": "5e8e5c25a0950b5c8f9f7526cf652488",
+            "sha256": "c651e067ca6d953855e1943989d31c99c94f35adeb9f19ee08b2acf88fcf79d2"
+        },
+        "ledctrl": {
+            "modified": "2007-06-12 03:22:39",
+            "size": "9.83KB",
+            "md5": "73e46c362eeb0b1a07420a8fc7d7ca29",
+            "sha256": "c40c13d78d41cfc2377744d51fadf80fba35be133137c079807bc27567960c62"
+        },
+        "rtl8139-diag": {
+            "modified": "2007-06-12 03:23:24",
+            "size": "23.21KB",
+            "md5": "654cf4c12dd517861b14546de97af67c",
+            "sha256": "726a2287a1a9e407ef8b17e72fa4eb97a735582156c473d5ef0b460dbd1cb804"
+        },
+        "select_btn": {
+            "modified": "2007-06-12 03:21:44",
+            "size": "4.57KB",
+            "md5": "f11ae327b272edcb24e0d0165bdc7952",
+            "sha256": "a4339f89ec1f62e93673927143cdaddbc0a0d0b0758db1472c7d82ad12b3a17c"
+        }
+    },
+    "usr\\local\\sbin\\CTR": {
+        "ethtool": {
+            "modified": "2007-06-12 03:23:09",
+            "size": "65.2KB",
+            "md5": "6a5947c983adfb0379e8f2fa51457645",
+            "sha256": "4d95aeab07d02351747e12480064df995687a8c65de172b9aa1016fb6bfb9340"
+        }
+    },
+    "usr\\local\\sbin\\PWB": {
+        "btnctrl": {
+            "modified": "2007-06-12 03:22:45",
+            "size": "7.12KB",
+            "md5": "3a4c7b39fa5a243da8ddea2bd22b2b29",
+            "sha256": "c60523ce945fa92816182166c5915138176c45023a737149f15ef3ccd557a8b7"
+        }
+    },
+    "usr\\local\\src": {
+        "led_kernel_module.patch": {
+            "modified": "2007-05-13 06:39:13",
+            "size": "15.89KB",
+            "md5": "b8dbcd7d823124ed5c6303f7b4811751",
+            "sha256": "f8eeb3191b9029fd4151f4f14e74c4df99296c94ac11852c130953a82d62c187"
+        }
+    },
+    "usr\\local\\src\\landisk-tools": {
+        "gio2.c": {
+            "modified": "2007-05-13 06:39:13",
+            "size": "2.36KB",
+            "md5": "f349197485082d933ec85060bfe21790",
+            "sha256": "33cd3529b454af7ac514274303947336f03ebfd72f87346be37c0794f3e90e34"
+        },
+        "ledctrl.c": {
+            "modified": "2007-05-13 22:36:02",
+            "size": "11.44KB",
+            "md5": "895a3aed959f02d9df41104ff6900cde",
+            "sha256": "141b5a1689addd48e19d66727ac4d5494e9e0332cedd6a64b708b46fe438d902"
+        },
+        "select_btn.c": {
+            "modified": "2007-06-12 03:21:58",
+            "size": "1.51KB",
+            "md5": "83409fadae324ec3587f996ab154c615",
+            "sha256": "be86000ea3404b40ab1280f8619f7701258099a21e890042283ae1aeceb9dcf4"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\PWB": {
+        "btnctrl.c": {
+            "modified": "2007-05-14 04:51:59",
+            "size": "6.58KB",
+            "md5": "0bdaf967a0607088f0e94452a522abb5",
+            "sha256": "57c4edd8bd912a41ca74951983cf2bf309cb69a1590b22613ee5cf23b0dd59e9"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\AGS": {
+        "sh-lilo-selk-20051110.patch": {
+            "modified": "2005-11-09 06:33:49",
+            "size": "3.64KB",
+            "md5": "b3719155c6c8986e643081ed7d30580b",
+            "sha256": "862cd164b331340d731dd37e7cf01e947865afa59cab8269b2f040deca51d545"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110": {
+        ".cvsignore": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "0.03KB",
+            "md5": "6ae175cdd86b9e95395ae56b3bfef02d",
+            "sha256": "6e9149b6d234414f680f9ac928ec3dc4bb7aecce663bf1334d25ac5db304f266"
+        },
+        "boot.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "0.85KB",
+            "md5": "e4484d74bdb461db15d6c8c367ec7903",
+            "sha256": "fc14df1f9b07192ea77b963689b6b997b29ebc6c33a621436d09190b44edcb01"
+        },
+        "bsect.c": {
+            "modified": "2004-04-07 08:19:11",
+            "size": "17.86KB",
+            "md5": "7b00e640da0b718b42e26266b9bf8c87",
+            "sha256": "a70024bb47bb8a2f4de24e65a4d33f1369d67df0e0568cedb62b83a046426e8b"
+        },
+        "bsect.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "1.57KB",
+            "md5": "d47196c3f1b990cfc52accfa2a601067",
+            "sha256": "8134e9548ba1a33ac2676e07c95f6b944b01c84b3d3e5b490b60c4afbaf7c036"
+        },
+        "cfg.c": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "12.26KB",
+            "md5": "04339488d66494ef4dd7d2e551e8df44",
+            "sha256": "a0f9fc9b30ba1c5b7dffb62e0d1e6e8fe87ffb6e9b0550388eef6b95b9cb0a87"
+        },
+        "cfg.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "1.73KB",
+            "md5": "b0ac5a7ecbab3861a65c96e6f1709682",
+            "sha256": "61c52847e192ddf7d1194c4dbd7097e72770ddadf90e2746265f2fa873295cb6"
+        },
+        "ChangeLog": {
+            "modified": "2001-01-25 18:01:32",
+            "size": "1.97KB",
+            "md5": "2a98b25f81a8dff9e1ddbfe13be1d903",
+            "sha256": "9e91659c2b4929eaab065ba2ab5dcb90d1e36ed4e52445c8a57869450f0d2c80"
+        },
+        "common.c": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "2.19KB",
+            "md5": "a9a3964e40ef504ffb2721d1feb74d3a",
+            "sha256": "55d8301d56bc985b110eb2d3c65271bf7f56a038d8da8e4833997f0d1e040416"
+        },
+        "config.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "1.55KB",
+            "md5": "490f5b23fc230a80d1cf6aa664ddfbf7",
+            "sha256": "f45bf4079de87f44c2248b22d73935122eb29e704e2b18b60ae9ca5d3f491a5b"
+        },
+        "defs.h": {
+            "modified": "2000-11-25 20:15:44",
+            "size": "0.11KB",
+            "md5": "1192d0e34533ba352e4b7d88b307a1ca",
+            "sha256": "29d0fd5cffe7482216b6c36f3ef8e445997eddb75d51e703727e2ae8f5885e2c"
+        },
+        "device.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "0.8KB",
+            "md5": "8cbf92d725a2503b89584291eb91e7b6",
+            "sha256": "d7f5321cf23b158c868b25bfd6b388010c383a4ed3ece53adeb7d3365be19272"
+        },
+        "first.S": {
+            "modified": "2004-04-05 07:56:05",
+            "size": "5.05KB",
+            "md5": "9f54c7fa75376649b82fccd690ddb127",
+            "sha256": "7bfc683f889ff57fe578b9be88564c5ea622faa0eddd23d88ad98fdb9ba36d05"
+        },
+        "identify.c": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "1.33KB",
+            "md5": "25492221db02e98b5cb85a90d32c296e",
+            "sha256": "6f87c4cf1e1980e7da0cf324dc7b5ad84db0f9a9ba9af579372b12649db0bc9d"
+        },
+        "identify.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "0.58KB",
+            "md5": "6d2ffba88db53ba403d0088d5dc98abc",
+            "sha256": "0eb3721bddd0e440cce804af1aa8c7f1a9b8808b59ab9fc3edc672587cbe81f0"
+        },
+        "map.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "1.54KB",
+            "md5": "ba92bc66b38589a2c45fb04f320dfcfd",
+            "sha256": "473b2f94cfa802ae595c1ea4dc651dcaada141deef6d7b49d93607d7a943b1bd"
+        },
+        "md-int.h": {
+            "modified": "2004-04-07 08:26:18",
+            "size": "8.55KB",
+            "md5": "99f1ee6fd43580ace44e928188a4e43b",
+            "sha256": "fa30d3ccff19a4b0e20085f8a7ece773a47003b2a0fc80c42ce68bcfc8028b08"
+        },
+        "partition.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "0.5KB",
+            "md5": "3be79caa112decf0d5e4a0b290d9b38b",
+            "sha256": "58b9e338234f8efa33c5ff5e4ec51d50a7b1e127936bd900429f014acbcee0dc"
+        },
+        "README": {
+            "modified": "2000-08-19 03:14:46",
+            "size": "1.46KB",
+            "md5": "c109750aa9e49171e8682ea43316510d",
+            "sha256": "03aae2a883de1adf7f042959a5112e0956de31dcecca859262a6f660ddb13058"
+        },
+        "string.c": {
+            "modified": "2000-07-20 04:38:25",
+            "size": "0.36KB",
+            "md5": "fe2561bf53a73076039f2acee7e63436",
+            "sha256": "5b830f4e2ce3238b8e4c68bf730d665b3dac6012ed11516a972e1c8d0e4966ac"
+        },
+        "temp.c": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "1.07KB",
+            "md5": "b1ac963ea531af073193019c47b19f25",
+            "sha256": "b9a17927ec975995f11f24357eb0e053ccdf62fcc5fcc829306cdc0943ebb294"
+        },
+        "temp.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "0.39KB",
+            "md5": "7cd2b21d16424e55e3c3f184dff41de3",
+            "sha256": "93a5bb27c0f2f2b292aeea5551847808c2f44310585845ddc160c22f343efb44"
+        },
+        "TODO": {
+            "modified": "2000-07-23 05:53:55",
+            "size": "0.12KB",
+            "md5": "2e1aa778f713f3868be852bce802b5f0",
+            "sha256": "623d29d49a490b8ac42f321003fc04237998416e5254896a71ea5e36f0a1343c"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\AGS": {
+        "Makefile": {
+            "modified": "2005-11-09 05:03:38",
+            "size": "3.65KB",
+            "md5": "bc1ed42f5365afae29c93613feed2bbb",
+            "sha256": "f76e02431ebcfb666a659c89da1d27eec89749890b35df06900f3554dc07e922"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\ags-": {
+        "lilo.c": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "16.34KB",
+            "md5": "a55dd664cd29aa221e1fa9fa413b3897",
+            "sha256": "2462ea67d956dc3f834191c564ecf0839b0ff7f4cd1372377c6ee8d69b3b27bb"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\CVS": {
+        "Entries": {
+            "modified": "2004-04-07 08:27:27",
+            "size": "1.37KB",
+            "md5": "8fba67a11b04286364a67a2088aa085b",
+            "sha256": "a5ce1538f98dc7a89daad9bc32d092b1c9d90979cca8386732bf9a9562cb7602"
+        },
+        "Repository": {
+            "modified": "2004-04-04 18:25:42",
+            "size": "0.0KB",
+            "md5": "055d036386838bb2a73164dcd435d8dd",
+            "sha256": "e3d00dbdf42748b30214bab9262acb31fb0d8c2b00bd5fd2f0262d4f48f6c8d1"
+        },
+        "Root": {
+            "modified": "2004-04-04 18:25:42",
+            "size": "0.04KB",
+            "md5": "9dbf207e86ca2d3dae6a1c84df713bb0",
+            "sha256": "33448d932dfb979276d4e0a18d1ada2769b908363f6729df4a2051366b4c264f"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\MIN": {
+        "geometry.c": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "17.0KB",
+            "md5": "2bedaa5d7270a116e94723391d13f72a",
+            "sha256": "581b517db11a81455012deac24792cf5a4e9c4e7526ba5a55e9b6995ae49666b"
+        },
+        "partition.c": {
+            "modified": "2004-04-04 18:50:06",
+            "size": "10.12KB",
+            "md5": "72bcde6376a62ba850f0bee565b0eab7",
+            "sha256": "a3e3c048c1f663e799644eba319586fc6a97e27b46fb5b51fe3c3925668b137c"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\NDS": {
+        "lilo.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "7.52KB",
+            "md5": "3191c423f30dc73124c84ce5a56748d6",
+            "sha256": "6991df0f20c63082d06594588aa44240934aef5e9562fa8222f008e6772ce22d"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\NTR": {
+        "boot.c": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "7.49KB",
+            "md5": "0b85ab31d0d45671fa01e482776fa9b5",
+            "sha256": "28ea5486bcd4d308dc4fa923c82b67f8ab5dd505429b54e6839ba0683912ab6e"
+        },
+        "common.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "4.38KB",
+            "md5": "c983a8575104198afeb1f787a3475590",
+            "sha256": "392ac7acf02f05ee51a0352496ea4447d9a4ea201dc27a03fe8fbebf7147f245"
+        },
+        "device.c": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "4.57KB",
+            "md5": "182f622c017c1a9d978c88906e6f2b3c",
+            "sha256": "1490222c83a94f6b2429f50ef17fa80a56def3ccddeeb01c40410cd4a572f42b"
+        },
+        "geometry.h": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "2.3KB",
+            "md5": "14cababd9c7f5b35ecfb2d2d79e03c12",
+            "sha256": "9f16139f27566bb803b0d03be27de2f29ef2f76b4f3782b73af79dda83820821"
+        },
+        "map.c": {
+            "modified": "2000-12-24 20:58:51",
+            "size": "7.41KB",
+            "md5": "2a25d60cc0ce4a55481de972ac8f11b5",
+            "sha256": "ecd4992328ffc3ad9ad879f8ffff38ba0d60f7a2edc453d9d1ecc4d4cd404c1a"
+        },
+        "second.c": {
+            "modified": "2005-11-09 06:28:57",
+            "size": "13.33KB",
+            "md5": "a87d3bae4d4b3c2878577b79e10ed43a",
+            "sha256": "b3be6c3deb9b24f694b6dd251274dc232a3e452fb8f068ff2d8d5f76811c2e43"
+        },
+        "second.lds": {
+            "modified": "2000-11-25 05:59:35",
+            "size": "5.74KB",
+            "md5": "ea719080cd06f8ec87f2bd19738d10f7",
+            "sha256": "a38098765fc9e3d39cffb3df2d2863a70a129a9cc26de40439cbeeab44a639ff"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\precompiled": {
+        "boot.b-selk": {
+            "modified": "2005-11-09 06:31:59",
+            "size": "3.13KB",
+            "md5": "0b5a1b32cbb755f73ad5506527c995a9",
+            "sha256": "eb93e75c400010acff78efbab3ee6b0a5629c433ffc299a019d1d1789933d45f"
+        },
+        "lilo.conf": {
+            "modified": "2005-11-09 05:52:14",
+            "size": "0.33KB",
+            "md5": "f1e3729cbb3233f5f019919e98fa342a",
+            "sha256": "ee173ebf0518601af7a27e24bd760c3db7eeaf8cdaa3dd077ce053bb58620222"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\precompiled\\AGS": {
+        "lilo": {
+            "modified": "2005-11-09 06:31:52",
+            "size": "517.64KB",
+            "md5": "2345fdc088ab29fa805e8ae080d33785",
+            "sha256": "e96d450af6cb531de424b7ea50096ec77698cc0151daeaf8a41bb97cc959caaf"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\sh-lilo-selk\\sh-lilo-selk-20051110\\precompiled\\CVS": {
+        "Entries": {
+            "modified": "2004-04-04 18:25:54",
+            "size": "0.04KB",
+            "md5": "3878d4b5c4ceeaeb5ee437aaac837fb7",
+            "sha256": "ed0af52222dc87aa5836f18a36c1f66dc9581d2cff95c7ab54c03cff6b39d212"
+        },
+        "Repository": {
+            "modified": "2004-04-04 18:25:54",
+            "size": "0.02KB",
+            "md5": "99ed112c4b258e4f4d88a691e607304c",
+            "sha256": "875912962172e0bbab295f9aa7fff726f025faea16f61b4a8bb4609ced0af161"
+        },
+        "Root": {
+            "modified": "2004-04-04 18:25:54",
+            "size": "0.04KB",
+            "md5": "9dbf207e86ca2d3dae6a1c84df713bb0",
+            "sha256": "33448d932dfb979276d4e0a18d1ada2769b908363f6729df4a2051366b4c264f"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan": {
+        "ethtool_1.7-1.dsc": {
+            "modified": "2007-05-14 04:01:30",
+            "size": "0.32KB",
+            "md5": "cac6d1f51b5ef22981ad6214adbd046d",
+            "sha256": "215f062eafbea353f94673d2bf40e28358c3e040340b7d7792616758fe60b552"
+        },
+        "ethtool_1.7-1_sh4.deb": {
+            "modified": "2007-05-14 04:01:19",
+            "size": "34.86KB",
+            "md5": "dbb60433133303100199e68ca5c9bda6",
+            "sha256": "54ef35bbd22f41e25f931d15d15ad3e30ed45dcd40f3171f9911f64f998beea2"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool-debian26_sh4.bin\\CTR": {
+        "ethtool": {
+            "modified": "2006-05-28 08:02:04",
+            "size": "110.02KB",
+            "md5": "32f40a4ec4d9e12c37d8c716a97e4557",
+            "sha256": "d36cf1657b218787d54b99897b4e58511ef1d58d8590205647795b2b1faecb21"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7-1.diff\\ris-c": {
+        "ethtool_1.7-1.diff": {
+            "modified": "2006-05-28 08:00:10",
+            "size": "102.57KB",
+            "md5": "9952884fa0aec956b9be5310225af73a",
+            "sha256": "aff0f52d2c353ee7e7670930e5ac210c425c5479790ead242341bfc2608b52b3"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7-1_sh4": {
+        "ethtool_1.7-1_sh4": {
+            "modified": "2007-05-14 04:01:19",
+            "size": "10.0KB",
+            "md5": "35092e2d06419148574441035b621c10",
+            "sha256": "88b63c33ee37198ebf99686cd023bdd0aa3a3029437673deaf166a4b60978010"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7-1_sh4\\ethtool_1": {
+        "control": {
+            "modified": "2006-05-28 08:02:41",
+            "size": "0.22KB",
+            "md5": "130cb9fa4bfc5e913df5dd8aa1c8635b",
+            "sha256": "58b1a41cb66ab72b815485b6511b0028bcb999693090b72f3919e53807b8f916"
+        },
+        "md5sums": {
+            "modified": "2006-05-28 08:02:42",
+            "size": "0.51KB",
+            "md5": "9269388c67a6cd338a022f0f649485fb",
+            "sha256": "1f816595fe13d506f29777a636284b76e43ba04e5e6ff0f3514e409c698e4822"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig": {
+        "acconfig.h": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.14KB",
+            "md5": "5da77cb9d3095e065c3863177f932ef6",
+            "sha256": "fea037c0ffebfbc6eb56aedde534c28f938e2e1adce06e14c11da99661a35cd5"
+        },
+        "AUTHORS": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.25KB",
+            "md5": "23292b639ecb0939a53c9ed0349994f5",
+            "sha256": "f7507929a8e5e65642c7f08b2b0cdf9605d2dccaadef650a1b5a0ece106d0a55"
+        },
+        "ChangeLog": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "8.08KB",
+            "md5": "bf97d7cef7fdd009ead7365a828611c6",
+            "sha256": "d541ed31e6d1af7e2fc982a666c154972ca84616b20fbd91c0f472c171738197"
+        },
+        "config.cache": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "1.35KB",
+            "md5": "9985affe928e81985fb6844d7b683320",
+            "sha256": "754d745e9e4ff36617d40113e26a55f6fcd19bbd7432f9de5838ce4a228b5086"
+        },
+        "config.h": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.67KB",
+            "md5": "11a44972efdf1c0e4282a3ef366cd94f",
+            "sha256": "edd3950b6390dbce615c8a0392f3297be0e1938e73205d907bf2d021d3fa889e"
+        },
+        "config.h.in": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.56KB",
+            "md5": "24c51b997c5b901d7b542dc197fdb377",
+            "sha256": "e259cf988daadf321e73fea0a8e4a6b6ee1ae275fb0f2d5af200e8c14cfb817d"
+        },
+        "config.log": {
+            "modified": "2006-05-27 02:57:56",
+            "size": "1.09KB",
+            "md5": "9166fc0f2e9bdc831cf0b8a58be0e374",
+            "sha256": "9fd6aba1e5cc0a0d4be4ad8ba1e76722c7e600af597ef2a81728edbb6caf2247"
+        },
+        "configure.in": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.46KB",
+            "md5": "37a7afcdb13d9b0fcd94cd32fd87760c",
+            "sha256": "ee04322f2d31e040ed7686fb175b20e6711e67c85c6232d02e436e210727e0d1"
+        },
+        "de2104x.c": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "18.03KB",
+            "md5": "72ae6448dda1c1119a656102050312b7",
+            "sha256": "33a108f1b22f1310122daf7b053a88bb0c26dfc089c2a4ddd12789ca0872f044"
+        },
+        "e100.c": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "6.03KB",
+            "md5": "e2de754533d2c334abf8b87b55565e05",
+            "sha256": "c0de3e32bf3c094689b3311abbf226296cf73d140a2425f765116d10dc8b847a"
+        },
+        "ethtool-util.h": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "1.2KB",
+            "md5": "ed7bc28699105df10abc88da4021339e",
+            "sha256": "3c0bd3df3e83909e0fbed124c6ca82d2381b8cf72c73bf05fe4cb9faba3bcc7c"
+        },
+        "ethtool.8": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "7.03KB",
+            "md5": "358ad2fbf47fe45d6d5bf3901f5b20bf",
+            "sha256": "216e097845d1c10bb8498f966b80351fb67dfcdac95162b2fc5097066144abbd"
+        },
+        "install-sh": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "5.47KB",
+            "md5": "5afe8eb5573965dfb58378e4e46f3813",
+            "sha256": "810eb763e74ce800e5e90b8b2500137c45cedc05411f05da36a147d37cc1e20d"
+        },
+        "missing": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "6.33KB",
+            "md5": "c7c7b3bade5a4ebc86c1077a6e2fbb1e",
+            "sha256": "347f47012f8e486ba3daaffa317a4b2fd9029468cb21c0859a4cfaa41ae58365"
+        },
+        "mkinstalldirs": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.71KB",
+            "md5": "d69600ffc4dd42fc930f4494b93f97ed",
+            "sha256": "208dfecf8a8761b964838808394c09ca887e23421df370ff65dec7773b2f345c"
+        },
+        "NEWS": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "1.71KB",
+            "md5": "f9c91afad13e2e7fa0c026f53effccff",
+            "sha256": "6c0c3d77fe5deb4679bdcf0788b677dfbfbf869b13a2a05e2d3d9685d6324db2"
+        },
+        "README": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.12KB",
+            "md5": "3c8a36b0eb263e2ee9e8e6d334cb09bc",
+            "sha256": "21120994fe7bd62ad04cef7ff32a0920acc8d34c201d698064df5f1f49c6e2fe"
+        },
+        "realtek.c": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "13.4KB",
+            "md5": "94f114c5bfc598350b7fd85c0344f50c",
+            "sha256": "ac00e8e891eb2348547aea6f0ed645de5c50de494d43061145fd46779926edf0"
+        },
+        "stamp-h": {
+            "modified": "2006-05-27 02:57:58",
+            "size": "0.01KB",
+            "md5": "1ded054093de910d9786c62bc4fe8cc6",
+            "sha256": "2cd8ec3de6a07e1fd39676100db57ba62372e820c19812fee55899f65746e192"
+        },
+        "stamp-h.in": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.01KB",
+            "md5": "1ded054093de910d9786c62bc4fe8cc6",
+            "sha256": "2cd8ec3de6a07e1fd39676100db57ba62372e820c19812fee55899f65746e192"
+        },
+        "tg3.c": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.48KB",
+            "md5": "6235ade3b1867790d81c5174a35fc8d6",
+            "sha256": "559630d9a5c97de06b7c07ca6c09e91075dea9ce87c09876befa8330d3d08106"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\AGS": {
+        "config.status": {
+            "modified": "2006-05-27 02:57:57",
+            "size": "8.46KB",
+            "md5": "3e867b0d7f0696916698d96b935f28d0",
+            "sha256": "3b4b907a2e851474fa2d0df183749388cde30ae0800f9c17b3781d68c5df7ed2"
+        },
+        "configure": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "53.18KB",
+            "md5": "3f2e5e10448cf1c18d4e581bdc6dba2c",
+            "sha256": "c4b5a76c5a46acc665b92502f19d23ea87a84c1c3f0a913f357cac536b161713"
+        },
+        "ethtool.spec": {
+            "modified": "2006-05-27 02:57:58",
+            "size": "0.8KB",
+            "md5": "7d2c8a47fa1deeecc7eea530d35d6c61",
+            "sha256": "8d6871b73db6de7c9b36c1b43e1297f12077577537310445d7a8d83716644b1e"
+        },
+        "ethtool.spec.in": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.81KB",
+            "md5": "124712d968a5fd1ad47a11c9e2dd5c56",
+            "sha256": "a05ada6e7755052d545046c76f6075e7c1070e0da673891e146b7d5a27e1ed47"
+        },
+        "INSTALL": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "7.65KB",
+            "md5": "0d6be33865b76025c20b48bcac87adb7",
+            "sha256": "b426b30c0bd033d2d5314ff44ca9f91d1e18be720aad759e769dd9caa74df916"
+        },
+        "Makefile": {
+            "modified": "2006-05-27 02:57:58",
+            "size": "12.12KB",
+            "md5": "834a3ca05b716bb2f2855a0225dc07d9",
+            "sha256": "1b5d6e49aa84e889fdc528ae91bed48904967a9e674d5ec9d6d6e84930ae4605"
+        },
+        "Makefile.am": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "0.46KB",
+            "md5": "9540e271a6e2a8bdf6978636097ea045",
+            "sha256": "86a7f8f3632d1f70c35509513f9a471de6ffc5fcdc2243dbcffb07f3934f4a3a"
+        },
+        "Makefile.in": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "11.87KB",
+            "md5": "f401b3d958d4387bc3c42c12b94b64bd",
+            "sha256": "7f5cba732a6978f9c160a192d335071cdf8001dc96b1cfeb2872cc58de4856b9"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\CTR": {
+        "e1000.c": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "14.72KB",
+            "md5": "a6deb45c56e72dbebbf49d70dd14f2a7",
+            "sha256": "758ecad669a1c8e1726a8452fb19e3707dbf598445abef31124864c4c1bbf6fd"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\MIN": {
+        "natsemi.c": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "33.6KB",
+            "md5": "3bf31719410a8e9c6084f663904e0db6",
+            "sha256": "957aabb607fc81d67d2caf7396c2ab3cbb815394a710e7922172ffcc3f7db776"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\NDS": {
+        "aclocal.m4": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "5.57KB",
+            "md5": "ee3409e005eabf53c995874c644c0af0",
+            "sha256": "b41967bc5411ce0de5d76949ae99eba4f023ff1587ce738198788e6e649143f8"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\TIS": {
+        "ethtool-copy.h": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "11.46KB",
+            "md5": "1257290de23ca403fad6fbc2577ccc8d",
+            "sha256": "7f85fcc3e9440bd66c89ee826406446b79bf081574e4c58a095afaf0986d080b"
+        },
+        "ethtool.c": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "43.59KB",
+            "md5": "6e2106737f230e1cf61043390c546293",
+            "sha256": "adcd50bfeeee705155d65aab74367b3ccd3899670cc8b75d2458d6ccbb3f9c79"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\ethtool_1.7.orig\\ethtool-1.7.orig\\WIS": {
+        "COPYING": {
+            "modified": "2006-05-27 02:44:55",
+            "size": "17.57KB",
+            "md5": "94d55d512a9ba36caa9b7df079bae19f",
+            "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+        }
+    },
+    "usr\\local\\src\\landisk-tools\\wakeonlan\\wakeonlan\\rtl8139-diag.bin_and_src\\rtl8139-diag": {
+        "gio.h": {
+            "modified": "2006-05-27 02:44:47",
+            "size": "1.17KB",
+            "md5": "856b1f63f70ea795e4eaf7a101ae2bb9",
+            "sha256": "0245e99ea2dd1e7d744e465bb29598a84386bc28d8b7fa04d4529885cdd58af4"
+        },
+        "rtl8139-diag": {
+            "modified": "2006-05-27 02:55:48",
+            "size": "29.71KB",
+            "md5": "02a2581eaeda6052622faf0fc8830180",
+            "sha256": "0ac232117dc6f43ae4ce6544ca0b0ca34addba9d693fe97f8c54733f1340f0b2"
+        },
+        "rtl8139-diag.c": {
+            "modified": "2006-05-27 02:54:28",
+            "size": "41.94KB",
+            "md5": "54fc37a74ed240290564a451bab091e2",
+            "sha256": "e9e39efc2aa099faa51315ffd274eb503cbc18295c368fc2870ada2980a7e7e0"
+        }
+    }
+}

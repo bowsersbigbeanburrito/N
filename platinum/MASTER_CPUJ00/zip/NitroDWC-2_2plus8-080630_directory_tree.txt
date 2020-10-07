@@ -1,0 +1,781 @@
+NitroDWC-2_2plus8-080630/
+└── NitroDWC/
+    ├── build/
+    │   ├── buildtools/
+    │   │   ├── commondefs
+    │   │   ├── commondefs.dwc
+    │   │   ├── modulerules
+    │   │   └── modulerules.dwc
+    │   ├── demos/
+    │   │   ├── dbs/
+    │   │   │   ├── include/
+    │   │   │   │   ├── dbs.h
+    │   │   │   │   ├── dbs_console.h
+    │   │   │   │   ├── dbs_demo.h
+    │   │   │   │   ├── dbs_print.h
+    │   │   │   │   └── dbs_print_data.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── dbs_console.c
+    │   │   │       ├── dbs_demo.c
+    │   │   │       └── dbs_print.c
+    │   │   ├── dwc_anybody_match_sample/
+    │   │   │   ├── dwc_anybody_match_sample.lsf
+    │   │   │   ├── dwc_anybody_match_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── font.h
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   ├── screen.h
+    │   │   │   │   ├── userdata.h
+    │   │   │   │   └── utility.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── font.c
+    │   │   │       ├── init.c
+    │   │   │       ├── main.c
+    │   │   │       ├── screen.c
+    │   │   │       ├── userdata.c
+    │   │   │       └── utility.c
+    │   │   ├── dwc_connect_inet_sample/
+    │   │   │   ├── dwc_connect_inet_sample.lsf
+    │   │   │   ├── dwc_connect_inet_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   └── utility.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── init.c
+    │   │   │       ├── main.c
+    │   │   │       └── utility.c
+    │   │   ├── dwc_eval_callback_sample/
+    │   │   │   ├── dwc_eval_callback_sample.lsf
+    │   │   │   ├── dwc_eval_callback_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── font.h
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   ├── screen.h
+    │   │   │   │   ├── userdata.h
+    │   │   │   │   └── utility.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── font.c
+    │   │   │       ├── init.c
+    │   │   │       ├── main.c
+    │   │   │       ├── screen.c
+    │   │   │       ├── userdata.c
+    │   │   │       └── utility.c
+    │   │   ├── dwc_friend_match_sample/
+    │   │   │   ├── dwc_friend_match_sample.lsf
+    │   │   │   ├── dwc_friend_match_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── font.h
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   ├── screen.h
+    │   │   │   │   ├── userdata.h
+    │   │   │   │   └── utility.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── font.c
+    │   │   │       ├── init.c
+    │   │   │       ├── main.c
+    │   │   │       ├── screen.c
+    │   │   │       ├── userdata.c
+    │   │   │       └── utility.c
+    │   │   ├── dwc_frienddata_sample/
+    │   │   │   ├── dwc_frienddata_sample.lsf
+    │   │   │   ├── dwc_frienddata_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── font.h
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   ├── screen.h
+    │   │   │   │   ├── userdata.h
+    │   │   │   │   └── utility.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── font.c
+    │   │   │       ├── init.c
+    │   │   │       ├── main.c
+    │   │   │       ├── screen.c
+    │   │   │       ├── userdata.c
+    │   │   │       └── utility.c
+    │   │   ├── dwc_naslogin_sample/
+    │   │   │   ├── dwc_naslogin_sample.lsf
+    │   │   │   ├── dwc_naslogin_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── init.h
+    │   │   │   │   └── main.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── init.c
+    │   │   │       └── main.c
+    │   │   ├── dwc_nd_sample/
+    │   │   │   ├── dwc_nd_sample.lsf
+    │   │   │   ├── dwc_nd_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── init.h
+    │   │   │   │   └── main.h
+    │   │   │   ├── Makefile
+    │   │   │   ├── readme.txt
+    │   │   │   └── src/
+    │   │   │       ├── init.c
+    │   │   │       └── main.c
+    │   │   ├── dwc_prof_sample/
+    │   │   │   ├── dwc_prof_sample.lsf
+    │   │   │   ├── dwc_prof_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   └── init.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── init.c
+    │   │   │       └── main.c
+    │   │   ├── dwc_sample/
+    │   │   │   ├── dwc_sample.lsf
+    │   │   │   ├── dwc_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   └── utility.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── init.c
+    │   │   │       ├── main.c
+    │   │   │       └── utility.c
+    │   │   ├── dwc_sc_match_sample/
+    │   │   │   ├── dwc_sc_match_sample.lsf
+    │   │   │   ├── dwc_sc_match_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── font.h
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   ├── screen.h
+    │   │   │   │   ├── userdata.h
+    │   │   │   │   └── utility.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── font.c
+    │   │   │       ├── init.c
+    │   │   │       ├── main.c
+    │   │   │       ├── screen.c
+    │   │   │       ├── userdata.c
+    │   │   │       └── utility.c
+    │   │   ├── dwc_userdata_sample/
+    │   │   │   ├── dwc_userdata_sample.lsf
+    │   │   │   ├── dwc_userdata_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── font.h
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   ├── mp.h
+    │   │   │   │   ├── screen.h
+    │   │   │   │   ├── userdata.h
+    │   │   │   │   ├── utility.h
+    │   │   │   │   └── wc.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── font.c
+    │   │   │       ├── init.c
+    │   │   │       ├── main.c
+    │   │   │       ├── mp.c
+    │   │   │       ├── screen.c
+    │   │   │       ├── userdata.c
+    │   │   │       ├── utility.c
+    │   │   │       └── wc.c
+    │   │   ├── friend_match/
+    │   │   │   ├── friend_match.lsf
+    │   │   │   ├── friend_match.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── font.h
+    │   │   │   │   ├── gamemain.h
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── logon.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   ├── mp.h
+    │   │   │   │   ├── registerfriend.h
+    │   │   │   │   ├── screen.h
+    │   │   │   │   ├── tp_input.h
+    │   │   │   │   ├── transport.h
+    │   │   │   │   ├── utility.h
+    │   │   │   │   └── wc.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── font.c
+    │   │   │       ├── gamemain.c
+    │   │   │       ├── init.c
+    │   │   │       ├── logon.c
+    │   │   │       ├── main.c
+    │   │   │       ├── mp.c
+    │   │   │       ├── registerfriend.c
+    │   │   │       ├── screen.c
+    │   │   │       ├── tp_input.c
+    │   │   │       ├── transport.c
+    │   │   │       ├── utility.c
+    │   │   │       └── wc.c
+    │   │   ├── ghttp_sample/
+    │   │   │   ├── ghttp_sample.lsf
+    │   │   │   ├── ghttp_sample.rsf
+    │   │   │   ├── include/
+    │   │   │   │   ├── init.h
+    │   │   │   │   ├── main.h
+    │   │   │   │   └── utility.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── init.c
+    │   │   │       ├── main.c
+    │   │   │       └── utility.c
+    │   │   ├── Makefile
+    │   │   └── rank_sample/
+    │   │       ├── include/
+    │   │       │   ├── init.h
+    │   │       │   ├── main.h
+    │   │       │   └── utility.h
+    │   │       ├── Makefile
+    │   │       ├── rank_sample.lsf
+    │   │       ├── rank_sample.rsf
+    │   │       └── src/
+    │   │           ├── init.c
+    │   │           ├── main.c
+    │   │           └── utility.c
+    │   ├── libraries/
+    │   │   ├── account/
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── dwc_account.c
+    │   │   │       ├── dwc_init.c
+    │   │   │       └── dwc_report.c
+    │   │   ├── base/
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── dwc_common.c
+    │   │   │       ├── dwc_connectinet.c
+    │   │   │       ├── dwc_error.c
+    │   │   │       ├── dwc_friend.c
+    │   │   │       ├── dwc_ghttp.c
+    │   │   │       ├── dwc_login.c
+    │   │   │       ├── dwc_main.c
+    │   │   │       ├── dwc_match.c
+    │   │   │       ├── dwc_memfunc.c
+    │   │   │       ├── dwc_nasfunc.c
+    │   │   │       ├── dwc_nd.c
+    │   │   │       ├── dwc_ranking.c
+    │   │   │       └── dwc_transport.c
+    │   │   └── Makefile
+    │   └── Makefile
+    ├── data/
+    │   └── Wi-Fi_icons/
+    │       ├── bmp/
+    │       │   ├── Wi-Fi_on.bmp
+    │       │   ├── Wi-Fi_strength_level_black.bmp
+    │       │   └── Wi-Fi_strength_level_white.bmp
+    │       └── nc_data/
+    │           ├── Wi-Fi_on/
+    │           │   ├── Character/
+    │           │   │   └── Wi-Fi_on.ncg
+    │           │   ├── ColorPalette/
+    │           │   │   └── Wi-Fi_on.ncl
+    │           │   └── workset.ini
+    │           ├── Wi-Fi_strength_level_black/
+    │           │   ├── Character/
+    │           │   │   └── Wi-Fi_strength_level_black.ncg
+    │           │   ├── ColorPalette/
+    │           │   │   └── Wi-Fi_strength_level_black.ncl
+    │           │   └── workset.ini
+    │           └── Wi-Fi_strength_level_white/
+    │               ├── Character/
+    │               │   └── Wi-Fi_strength_level_white.ncg
+    │               ├── ColorPalette/
+    │               │   └── Wi-Fi_strength_level_white.ncl
+    │               └── workset.ini
+    ├── docs/
+    │   ├── Nintendo_WiFi_Connection_NITRO-DWC_ProgrammingManual.pdf
+    │   ├── Nintendo_WiFi_Connection_NITRO-DWC_ProgrammingManual_Download.pdf
+    │   └── Nintendo_WiFi_Connection_NITRO-DWC_ProgrammingManual_Ranking.pdf
+    ├── file/
+    │   └── dwc/
+    │       └── utility.bin
+    ├── include/
+    │   ├── ac/
+    │   │   └── dwc_ac.h
+    │   ├── auth/
+    │   │   ├── dwc_auth.h
+    │   │   ├── dwc_http.h
+    │   │   ├── dwc_netcheck.h
+    │   │   ├── dwc_prof.h
+    │   │   ├── dwc_svl.h
+    │   │   ├── util_alloc.h
+    │   │   └── util_base64.h
+    │   ├── base/
+    │   │   ├── dwc_account.h
+    │   │   ├── dwc_base_gamespy.h
+    │   │   ├── dwc_common.h
+    │   │   ├── dwc_connectinet.h
+    │   │   ├── dwc_core.h
+    │   │   ├── dwc_error.h
+    │   │   ├── dwc_friend.h
+    │   │   ├── dwc_ghttp.h
+    │   │   ├── dwc_init.h
+    │   │   ├── dwc_login.h
+    │   │   ├── dwc_main.h
+    │   │   ├── dwc_match.h
+    │   │   ├── dwc_memfunc.h
+    │   │   ├── dwc_nasfunc.h
+    │   │   ├── dwc_nd.h
+    │   │   ├── dwc_ranking.h
+    │   │   ├── dwc_report.h
+    │   │   └── dwc_transport.h
+    │   ├── bm/
+    │   │   ├── dwc_bm_init.h
+    │   │   └── util_wifiidtool.h
+    │   ├── dwc.h
+    │   ├── dwc_version.h
+    │   ├── gs/
+    │   │   ├── available.h
+    │   │   ├── chat/
+    │   │   │   ├── chat.h
+    │   │   │   ├── chatASCII.h
+    │   │   │   ├── chatCallbacks.h
+    │   │   │   ├── chatChannel.h
+    │   │   │   ├── chatCrypt.h
+    │   │   │   ├── chatHandlers.h
+    │   │   │   ├── chatMain.h
+    │   │   │   └── chatSocket.h
+    │   │   ├── core.h
+    │   │   ├── darray.h
+    │   │   ├── dummy_auth.h
+    │   │   ├── ghttp/
+    │   │   │   ├── ghttp.h
+    │   │   │   ├── ghttpASCII.h
+    │   │   │   ├── ghttpBuffer.h
+    │   │   │   ├── ghttpCallbacks.h
+    │   │   │   ├── ghttpCommon.h
+    │   │   │   ├── ghttpConnection.h
+    │   │   │   ├── ghttpEncryption.h
+    │   │   │   ├── ghttpMain.h
+    │   │   │   ├── ghttpPost.h
+    │   │   │   └── ghttpProcess.h
+    │   │   ├── gp/
+    │   │   │   ├── gp.h
+    │   │   │   ├── gpi.h
+    │   │   │   ├── gpiBuddy.h
+    │   │   │   ├── gpiBuffer.h
+    │   │   │   ├── gpiCallback.h
+    │   │   │   ├── gpiConnect.h
+    │   │   │   ├── gpiInfo.h
+    │   │   │   ├── gpiOperation.h
+    │   │   │   ├── gpiPeer.h
+    │   │   │   ├── gpiProfile.h
+    │   │   │   ├── gpiSearch.h
+    │   │   │   ├── gpiTransfer.h
+    │   │   │   ├── gpiUnique.h
+    │   │   │   └── gpiUtility.h
+    │   │   ├── gs_version_0.01
+    │   │   ├── gsiDebug.h
+    │   │   ├── gsiMemory.h
+    │   │   ├── gstats/
+    │   │   │   ├── gbucket.h
+    │   │   │   ├── gpersist.h
+    │   │   │   └── gstats.h
+    │   │   ├── gt2/
+    │   │   │   ├── gt2.h
+    │   │   │   ├── gt2Auth.h
+    │   │   │   ├── gt2Buffer.h
+    │   │   │   ├── gt2Callback.h
+    │   │   │   ├── gt2Connection.h
+    │   │   │   ├── gt2Encode.h
+    │   │   │   ├── gt2Filter.h
+    │   │   │   ├── gt2Main.h
+    │   │   │   ├── gt2Message.h
+    │   │   │   ├── gt2Socket.h
+    │   │   │   └── gt2Utility.h
+    │   │   ├── hashtable.h
+    │   │   ├── md5.h
+    │   │   ├── natneg/
+    │   │   │   ├── natneg.h
+    │   │   │   └── nninternal.h
+    │   │   ├── nonport.h
+    │   │   ├── qr2/
+    │   │   │   ├── qr2.h
+    │   │   │   └── qr2regkeys.h
+    │   │   ├── serverbrowsing/
+    │   │   │   ├── sb_ascii.h
+    │   │   │   ├── sb_crypt.h
+    │   │   │   ├── sb_internal.h
+    │   │   │   └── sb_serverbrowsing.h
+    │   │   ├── soap.h
+    │   │   └── stringutil.h
+    │   ├── nd/
+    │   │   └── DWCi_Nd.h
+    │   ├── nhttp/
+    │   │   └── NHTTP.h
+    │   ├── ranking/
+    │   │   └── dwc_ranksession.h
+    │   └── util/
+    │       └── dwc_utility.h
+    ├── lib/
+    │   ├── ARM9-TS/
+    │   │   ├── Debug/
+    │   │   │   ├── libdwcac.a
+    │   │   │   ├── libdwcac.thumb.a
+    │   │   │   ├── libdwcaccount.a
+    │   │   │   ├── libdwcaccount.thumb.a
+    │   │   │   ├── libdwcauth.a
+    │   │   │   ├── libdwcauth.thumb.a
+    │   │   │   ├── libdwcbase.a
+    │   │   │   ├── libdwcbase.thumb.a
+    │   │   │   ├── libdwcbm.a
+    │   │   │   ├── libdwcbm.thumb.a
+    │   │   │   ├── libdwcnd.a
+    │   │   │   ├── libdwcnd.thumb.a
+    │   │   │   ├── libdwcnhttp.a
+    │   │   │   ├── libdwcnhttp.thumb.a
+    │   │   │   ├── libdwcranking.a
+    │   │   │   ├── libdwcranking.thumb.a
+    │   │   │   ├── libdwcutil.a
+    │   │   │   └── libdwcutil.thumb.a
+    │   │   ├── Release/
+    │   │   │   ├── libdwcac.a
+    │   │   │   ├── libdwcac.thumb.a
+    │   │   │   ├── libdwcaccount.a
+    │   │   │   ├── libdwcaccount.thumb.a
+    │   │   │   ├── libdwcauth.a
+    │   │   │   ├── libdwcauth.thumb.a
+    │   │   │   ├── libdwcbase.a
+    │   │   │   ├── libdwcbase.thumb.a
+    │   │   │   ├── libdwcbm.a
+    │   │   │   ├── libdwcbm.thumb.a
+    │   │   │   ├── libdwcnd.a
+    │   │   │   ├── libdwcnd.thumb.a
+    │   │   │   ├── libdwcnhttp.a
+    │   │   │   ├── libdwcnhttp.thumb.a
+    │   │   │   ├── libdwcranking.a
+    │   │   │   ├── libdwcranking.thumb.a
+    │   │   │   ├── libdwcutil.a
+    │   │   │   └── libdwcutil.thumb.a
+    │   │   └── Rom/
+    │   │       ├── libdwcac.a
+    │   │       ├── libdwcac.thumb.a
+    │   │       ├── libdwcaccount.a
+    │   │       ├── libdwcaccount.thumb.a
+    │   │       ├── libdwcauth.a
+    │   │       ├── libdwcauth.thumb.a
+    │   │       ├── libdwcbase.a
+    │   │       ├── libdwcbase.thumb.a
+    │   │       ├── libdwcbm.a
+    │   │       ├── libdwcbm.thumb.a
+    │   │       ├── libdwcnd.a
+    │   │       ├── libdwcnd.thumb.a
+    │   │       ├── libdwcnhttp.a
+    │   │       ├── libdwcnhttp.thumb.a
+    │   │       ├── libdwcranking.a
+    │   │       ├── libdwcranking.thumb.a
+    │   │       ├── libdwcutil.a
+    │   │       └── libdwcutil.thumb.a
+    │   └── gamespy/
+    │       └── ARM9-TS/
+    │           ├── Debug/
+    │           │   ├── libdwcgschat.a
+    │           │   ├── libdwcgschat.thumb.a
+    │           │   ├── libdwcgscommon.a
+    │           │   ├── libdwcgscommon.thumb.a
+    │           │   ├── libdwcgsghttp.a
+    │           │   ├── libdwcgsghttp.thumb.a
+    │           │   ├── libdwcgsgp.a
+    │           │   ├── libdwcgsgp.thumb.a
+    │           │   ├── libdwcgsgstats.a
+    │           │   ├── libdwcgsgstats.thumb.a
+    │           │   ├── libdwcgsgt2.a
+    │           │   ├── libdwcgsgt2.thumb.a
+    │           │   ├── libdwcgsnatneg.a
+    │           │   ├── libdwcgsnatneg.thumb.a
+    │           │   ├── libdwcgspinger.a
+    │           │   ├── libdwcgspinger.thumb.a
+    │           │   ├── libdwcgspt.a
+    │           │   ├── libdwcgspt.thumb.a
+    │           │   ├── libdwcgsqr2.a
+    │           │   ├── libdwcgsqr2.thumb.a
+    │           │   ├── libdwcgsserverbrowsing.a
+    │           │   └── libdwcgsserverbrowsing.thumb.a
+    │           ├── Release/
+    │           │   ├── libdwcgschat.a
+    │           │   ├── libdwcgschat.thumb.a
+    │           │   ├── libdwcgscommon.a
+    │           │   ├── libdwcgscommon.thumb.a
+    │           │   ├── libdwcgsghttp.a
+    │           │   ├── libdwcgsghttp.thumb.a
+    │           │   ├── libdwcgsgp.a
+    │           │   ├── libdwcgsgp.thumb.a
+    │           │   ├── libdwcgsgstats.a
+    │           │   ├── libdwcgsgstats.thumb.a
+    │           │   ├── libdwcgsgt2.a
+    │           │   ├── libdwcgsgt2.thumb.a
+    │           │   ├── libdwcgsnatneg.a
+    │           │   ├── libdwcgsnatneg.thumb.a
+    │           │   ├── libdwcgspinger.a
+    │           │   ├── libdwcgspinger.thumb.a
+    │           │   ├── libdwcgspt.a
+    │           │   ├── libdwcgspt.thumb.a
+    │           │   ├── libdwcgsqr2.a
+    │           │   ├── libdwcgsqr2.thumb.a
+    │           │   ├── libdwcgsserverbrowsing.a
+    │           │   └── libdwcgsserverbrowsing.thumb.a
+    │           └── Rom/
+    │               ├── libdwcgschat.a
+    │               ├── libdwcgschat.thumb.a
+    │               ├── libdwcgscommon.a
+    │               ├── libdwcgscommon.thumb.a
+    │               ├── libdwcgsghttp.a
+    │               ├── libdwcgsghttp.thumb.a
+    │               ├── libdwcgsgp.a
+    │               ├── libdwcgsgp.thumb.a
+    │               ├── libdwcgsgstats.a
+    │               ├── libdwcgsgstats.thumb.a
+    │               ├── libdwcgsgt2.a
+    │               ├── libdwcgsgt2.thumb.a
+    │               ├── libdwcgsnatneg.a
+    │               ├── libdwcgsnatneg.thumb.a
+    │               ├── libdwcgspinger.a
+    │               ├── libdwcgspinger.thumb.a
+    │               ├── libdwcgspt.a
+    │               ├── libdwcgspt.thumb.a
+    │               ├── libdwcgsqr2.a
+    │               ├── libdwcgsqr2.thumb.a
+    │               ├── libdwcgsserverbrowsing.a
+    │               └── libdwcgsserverbrowsing.thumb.a
+    ├── Makefile
+    ├── man/
+    │   └── ja_JP/
+    │       ├── alphabet.html
+    │       ├── alphabet_index.html
+    │       ├── changelog.html
+    │       ├── changelog_old.txt
+    │       ├── contents.html
+    │       ├── css/
+    │       │   ├── apilist.css
+    │       │   ├── function.css
+    │       │   ├── nitro.css
+    │       │   └── titles.css
+    │       ├── dwc/
+    │       │   ├── a-z.html
+    │       │   ├── base/
+    │       │   │   ├── DWC_AddCommonKeyValueString.html
+    │       │   │   ├── DWC_AddMatchKey.html
+    │       │   │   ├── DWC_Alloc.html
+    │       │   │   ├── DWC_Base64Decode.html
+    │       │   │   ├── DWC_Base64Encode.html
+    │       │   │   ├── DWC_CancelGHTTPRequest.html
+    │       │   │   ├── DWC_CancelMatching.html
+    │       │   │   ├── DWC_CancelMatchingAsync.html
+    │       │   │   ├── DWC_CanChangeFriendList.html
+    │       │   │   ├── DWC_CheckDirtyFlag.html
+    │       │   │   ├── DWC_CheckFriendKey.html
+    │       │   │   ├── DWC_CheckHasProfile.html
+    │       │   │   ├── DWC_CheckInet.html
+    │       │   │   ├── DWC_CheckProfanityAsync.html
+    │       │   │   ├── DWC_CheckProfanityProcess.html
+    │       │   │   ├── DWC_CheckUserData.html
+    │       │   │   ├── DWC_CheckValidConsole.html
+    │       │   │   ├── DWC_CleanupInet.html
+    │       │   │   ├── DWC_CleanupInetAsync.html
+    │       │   │   ├── DWC_ClearBuddyFlagFriendData.html
+    │       │   │   ├── DWC_ClearDirtyFlag.html
+    │       │   │   ├── DWC_ClearError.html
+    │       │   │   ├── DWC_ClearMOSCConnectBlock.html
+    │       │   │   ├── DWC_CloseAllConnectionsHard.html
+    │       │   │   ├── DWC_CloseConnectionHard.html
+    │       │   │   ├── DWC_CloseConnectionHardBitmap.html
+    │       │   │   ├── DWC_CloseConnectionsAsync.html
+    │       │   │   ├── DWC_ConnectInetAsync.html
+    │       │   │   ├── DWC_ConnectToAnybodyAsync.html
+    │       │   │   ├── DWC_ConnectToFriendsAsync.html
+    │       │   │   ├── DWC_ConnectToGameServerAsync.html
+    │       │   │   ├── DWC_Constant_Number.html
+    │       │   │   ├── DWC_CreateExchangeToken.html
+    │       │   │   ├── DWC_CreateFriendKey.html
+    │       │   │   ├── DWC_CreateFriendKeyToken.html
+    │       │   │   ├── DWC_CreateUserData.html
+    │       │   │   ├── DWC_Debug_DWCInitError.html
+    │       │   │   ├── DWC_DebugConnectInetAsync.html
+    │       │   │   ├── DWC_DeleteBuddyFriendData.html
+    │       │   │   ├── DWC_Free.html
+    │       │   │   ├── DWC_FriendKeyToString.html
+    │       │   │   ├── DWC_GetAIDBitmap.html
+    │       │   │   ├── DWC_GetAIDList.html
+    │       │   │   ├── DWC_GetApInfo.html
+    │       │   │   ├── DWC_GetAuthenticatedUserId.html
+    │       │   │   ├── DWC_GetCommonValueString.html
+    │       │   │   ├── DWC_GetDateTime.html
+    │       │   │   ├── DWC_GetFriendDataType.html
+    │       │   │   ├── DWC_GetFriendKey.html
+    │       │   │   ├── DWC_GetFriendStatus.html
+    │       │   │   ├── DWC_GetFriendStatusData.html
+    │       │   │   ├── DWC_GetFriendStatusDataSC.html
+    │       │   │   ├── DWC_GetFriendStatusSC.html
+    │       │   │   ├── DWC_GetGHTTPData.html
+    │       │   │   ├── DWC_GetGHTTPDataEx.html
+    │       │   │   ├── DWC_GetGHTTPDataEx2.html
+    │       │   │   ├── DWC_GetGHTTPState.html
+    │       │   │   ├── DWC_GetGsProfileId.html
+    │       │   │   ├── DWC_GetInetStatus.html
+    │       │   │   ├── DWC_GetIngamesnCheckResult.html
+    │       │   │   ├── DWC_GetLastError.html
+    │       │   │   ├── DWC_GetLastMatchingType.html
+    │       │   │   ├── DWC_GetLinkLevel.html
+    │       │   │   ├── DWC_GetMatch_Value.html
+    │       │   │   ├── DWC_GetMatchingOption.html
+    │       │   │   ├── DWC_GetMatchingState.html
+    │       │   │   ├── DWC_GetMOMinCompState.html
+    │       │   │   ├── DWC_GetMOSCConnectBlockState.html
+    │       │   │   ├── DWC_GetMyAID.html
+    │       │   │   ├── DWC_GetNumConnectionHost.html
+    │       │   │   ├── DWC_GetNumFriend.html
+    │       │   │   ├── DWC_GetOwnStatusData.html
+    │       │   │   ├── DWC_GetOwnStatusString.html
+    │       │   │   ├── DWC_GetState.html
+    │       │   │   ├── DWC_GetUdpPacketDropNum.html
+    │       │   │   ├── DWC_GHTTP_Constant_Number.html
+    │       │   │   ├── DWC_GHTTPNewPost.html
+    │       │   │   ├── DWC_GHTTPPostAddFileFromMemory.html
+    │       │   │   ├── DWC_GHTTPPostAddString.html
+    │       │   │   ├── DWC_Init.html
+    │       │   │   ├── DWC_InitFriendsMatch.html
+    │       │   │   ├── DWC_InitGHTTP.html
+    │       │   │   ├── DWC_InitInet.html
+    │       │   │   ├── DWC_IsBuddyFriendData.html
+    │       │   │   ├── DWC_IsEqualFriendData.html
+    │       │   │   ├── DWC_IsSendableReliable.html
+    │       │   │   ├── DWC_IsValidAID.html
+    │       │   │   ├── DWC_IsValidCancelMatching.html
+    │       │   │   ├── DWC_IsValidFriendData.html
+    │       │   │   ├── DWC_LoadOthersDataAsync.html
+    │       │   │   ├── DWC_LoadOwnDataAsync.html
+    │       │   │   ├── DWC_LoadOwnPrivateDataAsync.html
+    │       │   │   ├── DWC_LoadOwnPublicDataAsync.html
+    │       │   │   ├── DWC_LoginAsync.html
+    │       │   │   ├── DWC_LoginToStorageServerAsync.html
+    │       │   │   ├── DWC_LogoutFromStorageServer.html
+    │       │   │   ├── DWC_NASLoginAbort.html
+    │       │   │   ├── DWC_NASLoginAsync.html
+    │       │   │   ├── DWC_NASLoginProcess.html
+    │       │   │   ├── DWC_NdCancelAsync.html
+    │       │   │   ├── DWC_NdCleanupAsync.html
+    │       │   │   ├── DWC_NdGetFileAsync.html
+    │       │   │   ├── DWC_NdGetFileListAsync.html
+    │       │   │   ├── DWC_NdGetFileListNumAsync.html
+    │       │   │   ├── DWC_NdGetProgress.html
+    │       │   │   ├── DWC_NdInitAsync.html
+    │       │   │   ├── DWC_NdSetAttr.html
+    │       │   │   ├── DWC_Ping.html
+    │       │   │   ├── DWC_PostGHTTPData.html
+    │       │   │   ├── DWC_ProcessFriendsMatch.html
+    │       │   │   ├── DWC_ProcessGHTTP.html
+    │       │   │   ├── DWC_ProcessInet.html
+    │       │   │   ├── DWC_Realloc.html
+    │       │   │   ├── DWC_RegisterMatchingStatus.html
+    │       │   │   ├── DWC_ReportFriendData.html
+    │       │   │   ├── DWC_ReportUserData.html
+    │       │   │   ├── DWC_Rnk_Constant_Number.html
+    │       │   │   ├── DWC_RnkCancelProcess.html
+    │       │   │   ├── DWC_RnkGetScoreAsync.html
+    │       │   │   ├── DWC_RnkGetState.html
+    │       │   │   ├── DWC_RnkInitialize.html
+    │       │   │   ├── DWC_RnkProcess.html
+    │       │   │   ├── DWC_RnkPutScoreAsync.html
+    │       │   │   ├── DWC_RnkResGetOrder.html
+    │       │   │   ├── DWC_RnkResGetRow.html
+    │       │   │   ├── DWC_RnkResGetRowCount.html
+    │       │   │   ├── DWC_RnkResGetTotal.html
+    │       │   │   ├── DWC_RnkShutdown.html
+    │       │   │   ├── DWC_SavePrivateDataAsync.html
+    │       │   │   ├── DWC_SavePublicDataAsync.html
+    │       │   │   ├── DWC_SendReliable.html
+    │       │   │   ├── DWC_SendReliableBitmap.html
+    │       │   │   ├── DWC_SendUnreliable.html
+    │       │   │   ├── DWC_SendUnreliableBitmap.html
+    │       │   │   ├── DWC_SetAuthServer.html
+    │       │   │   ├── DWC_SetBuddyFriendCallback.html
+    │       │   │   ├── DWC_SetCommonKeyValueString.html
+    │       │   │   ├── DWC_SetConnectApType.html
+    │       │   │   ├── DWC_SetConnectionClosedCallback.html
+    │       │   │   ├── DWC_SetFriendStatusCallback.html
+    │       │   │   ├── DWC_SetGsProfileId.html
+    │       │   │   ├── DWC_SetMatchingOption.html
+    │       │   │   ├── DWC_SetMemFunc.html
+    │       │   │   ├── DWC_SetOwnStatusData.html
+    │       │   │   ├── DWC_SetOwnStatusString.html
+    │       │   │   ├── DWC_SetRecvBuffer.html
+    │       │   │   ├── DWC_SetRecvDelay.html
+    │       │   │   ├── DWC_SetRecvDrop.html
+    │       │   │   ├── DWC_SetRecvTimeoutTime.html
+    │       │   │   ├── DWC_SetReportLevel.html
+    │       │   │   ├── DWC_SetSendDelay.html
+    │       │   │   ├── DWC_SetSendDrop.html
+    │       │   │   ├── DWC_SetSendSplitMax.html
+    │       │   │   ├── DWC_SetStorageServerCallback.html
+    │       │   │   ├── DWC_SetupGameServer.html
+    │       │   │   ├── DWC_SetupGameServerAsync.html
+    │       │   │   ├── DWC_SetUserPingCallback.html
+    │       │   │   ├── DWC_SetUserRecvCallback.html
+    │       │   │   ├── DWC_SetUserRecvTimeoutCallback.html
+    │       │   │   ├── DWC_SetUserSendCallback.html
+    │       │   │   ├── DWC_ShutdownFriendsMatch.html
+    │       │   │   ├── DWC_ShutdownGHTTP.html
+    │       │   │   ├── DWC_StartUtility.html
+    │       │   │   ├── DWC_StopSCMatchingAsync.html
+    │       │   │   ├── DWC_StringToFriendKey.html
+    │       │   │   ├── DWC_TestInetAsync.html
+    │       │   │   ├── DWC_TestInetProcess.html
+    │       │   │   ├── DWC_UpdateConnection.html
+    │       │   │   ├── DWC_UpdateServersAsync.html
+    │       │   │   ├── DWCApInfo.html
+    │       │   │   ├── DWCBuddyFriendCallback.html
+    │       │   │   ├── DWCConnectionClosedCallback.html
+    │       │   │   ├── DWCDeleteFriendListCallback.html
+    │       │   │   ├── DWCEvalPlayerCallback.html
+    │       │   │   ├── DWCFriendData.html
+    │       │   │   ├── DWCFriendStatusCallback.html
+    │       │   │   ├── DWCGHTTPCompletedCallback.html
+    │       │   │   ├── DWCGHTTPProgressCallback.html
+    │       │   │   ├── DWCLoadFromServerCallback.html
+    │       │   │   ├── DWCLoginCallback.html
+    │       │   │   ├── DWCMatchedCallback.html
+    │       │   │   ├── DWCMatchedSCCallback.html
+    │       │   │   ├── DWCMatchOptMinComplete.html
+    │       │   │   ├── DWCNasLoginState.html
+    │       │   │   ├── DWCNdCallback.html
+    │       │   │   ├── DWCNdCallbackReason.html
+    │       │   │   ├── DWCNdCleanupCallback.html
+    │       │   │   ├── DWCNdError.html
+    │       │   │   ├── DWCNdFileInfo.html
+    │       │   │   ├── DWCNewClientCallback.html
+    │       │   │   ├── DWCRnkData.html
+    │       │   │   ├── DWCRnkError.html
+    │       │   │   ├── DWCRnkGetMode.html
+    │       │   │   ├── DWCRnkGetParam.html
+    │       │   │   ├── DWCRnkRegion.html
+    │       │   │   ├── DWCRnkState.html
+    │       │   │   ├── DWCSaveToServerCallback.html
+    │       │   │   ├── DWCStopSCCallback.html
+    │       │   │   ├── DWCStorageLoginCallback.html
+    │       │   │   ├── DWCUpdateServersCallback.html
+    │       │   │   ├── DWCUserData.html
+    │       │   │   ├── DWCUserPingCallback.html
+    │       │   │   ├── DWCUserRecvCallback.html
+    │       │   │   ├── DWCUserRecvTimeoutCallback.html
+    │       │   │   ├── DWCUserSendCallback.html
+    │       │   │   └── FriendsMatch.html
+    │       │   ├── dwc.html
+    │       │   ├── functions.html
+    │       │   └── list_dwc.html
+    │       ├── icons.html
+    │       ├── index.html
+    │       └── main.html
+    ├── Readme-NitroDWC-2_2plus8-080630.txt
+    └── tools/
+        └── ranking/
+            ├── admin_setting.txt
+            ├── DWCRankingAdmin.exe
+            └── DWCRankingAdmin.exe.config
