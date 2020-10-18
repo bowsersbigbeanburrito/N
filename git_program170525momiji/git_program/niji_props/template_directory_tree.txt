@@ -1,0 +1,127 @@
+template/
+├── ItemTemplates/
+│   ├── HowToInstallForVisualStudio2013.txt
+│   ├── niji_header/
+│   │   ├── __TemplateIcon.ico
+│   │   ├── MyTemplate.vstemplate
+│   │   └── niji_header.h
+│   ├── niji_source/
+│   │   ├── __TemplateIcon.ico
+│   │   ├── MyTemplate.vstemplate
+│   │   └── niji_source.cpp
+│   └── vcprojectitems/
+│       ├── Code/
+│       │   ├── addmc++componentclass.vsz
+│       │   ├── code.vsdir
+│       │   ├── deffile.vsz
+│       │   ├── idlfile.ico
+│       │   ├── idlfile.idl
+│       │   └── installer.vsz
+│       ├── Data/
+│       │   ├── addxmlschema.vsz
+│       │   ├── data.vsdir
+│       │   └── script.sql
+│       ├── hfile.h
+│       ├── newc++file.cpp
+│       ├── niji/
+│       │   ├── file/
+│       │   │   ├── niji_header.h
+│       │   │   └── niji_source.cpp
+│       │   ├── niji.vsdir
+│       │   ├── niji_header.vstemplate
+│       │   └── niji_source.vstemplate
+│       ├── PropertySheets/
+│       │   ├── propertysheets.ico
+│       │   ├── propertysheets.vsdir
+│       │   └── propertysheets.vsz
+│       ├── Resource/
+│       │   ├── bitmap.bmp
+│       │   ├── cursor.cur
+│       │   ├── icon.ico
+│       │   ├── newresx.resx
+│       │   ├── rcfile.vsz
+│       │   ├── resource.vsdir
+│       │   ├── restempl.rct
+│       │   └── rgsfile.rgs
+│       ├── Test/
+│       │   ├── codeex.vsdir
+│       │   ├── cppunittestfile.vsz
+│       │   └── CPPUnitTestProjectItems.vsdir
+│       ├── UI/
+│       │   ├── addmc++usercontrol.vsz
+│       │   ├── addmc++winform.vsz
+│       │   ├── ribbon.mfcribbon-ms
+│       │   ├── ui.vsdir
+│       │   └── uimfc.vsdir
+│       ├── Utility/
+│       │   ├── app.config
+│       │   ├── ClassDiagram.cd
+│       │   ├── RuleSet.ruleset
+│       │   ├── text.txt
+│       │   └── VCUtilityItems.vsdir
+│       ├── VCProjectItems.vsdir
+│       └── Web/
+│           ├── NewHtmlPage.htm
+│           ├── newstylesheet.css
+│           ├── newxmlpage.xml
+│           ├── VCWebItems.vsdir
+│           └── xsltfile.xslt
+└── ProjectTemplates/
+    ├── gf_template_gflib2/
+    │   ├── __TemplateIcon.ico
+    │   ├── gf_template_gflib2.vcxproj
+    │   ├── gf_template_gflib2.vcxproj.filters
+    │   ├── INCLUDE/
+    │   │   └── gfl2_template.h
+    │   ├── MyTemplate.vstemplate
+    │   └── SOURCE/
+    │       └── gfl2_template.cpp
+    ├── gf_template_gflib2_app/
+    │   ├── __TemplateIcon.ico
+    │   ├── gf_template_gflib2_app.link.props
+    │   ├── gf_template_gflib2_app.props
+    │   ├── gf_template_gflib2_app.rsf
+    │   ├── gf_template_gflib2_app.vcxproj
+    │   ├── gf_template_gflib2_app.vcxproj.filters
+    │   ├── main.cpp
+    │   └── MyTemplate.vstemplate
+    ├── gf_template_test/
+    │   ├── __TemplateIcon.ico
+    │   ├── gf_template_test.rsf
+    │   ├── gf_template_test.vcxproj
+    │   ├── gf_template_test.vcxproj.filters
+    │   ├── MyTemplate.vstemplate
+    │   ├── romfiles/
+    │   │   └── dummy.txt
+    │   └── source/
+    │       ├── Main.cpp
+    │       └── Sample_test.cpp
+    ├── niji_template_lib/
+    │   ├── __TemplateIcon.ico
+    │   ├── INCLUDE/
+    │   │   └── NijiTemplateLib.h
+    │   ├── MyTemplate.vstemplate
+    │   ├── niji_template_lib.vcxproj
+    │   ├── niji_template_lib.vcxproj.filters
+    │   └── SOURCE/
+    │       └── NijiTemplateLib.cpp
+    ├── niji_template_ro/
+    │   ├── __TemplateIcon.ico
+    │   ├── INCLUDE/
+    │   │   └── NijiTemplateRo.h
+    │   ├── MyTemplate.vstemplate
+    │   ├── niji_template_ro.vcxproj
+    │   ├── niji_template_ro.vcxproj.filters
+    │   └── SOURCE/
+    │       └── NijiTemplateRo.cpp
+    └── niji_template_roapp/
+        ├── __TemplateIcon.ico
+        ├── main.cpp
+        ├── MyTemplate.vstemplate
+        ├── niji_template_roapp.link.props
+        ├── niji_template_roapp.props
+        ├── niji_template_roapp.rsf
+        ├── niji_template_roapp.vcxproj
+        ├── niji_template_roapp.vcxproj.filters
+        └── ROMFILES/
+            └── template.txt
