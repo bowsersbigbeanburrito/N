@@ -1,0 +1,1351 @@
+20051215_CW_GCN_3.0_Alpha3/
+└── CW_GCN_3.0_Alpha3/
+    ├── (Helper Apps)/
+    │   ├── cvs.exe
+    │   └── cwspawn.exe
+    ├── (Project Updates)/
+    │   └── LanguageParserFiles/
+    │       └── GCN_Parser_Defaults.xml
+    ├── bin/
+    │   ├── ASINTPPC.dll
+    │   ├── CmdIDE.exe
+    │   ├── codewarrior.tlb
+    │   ├── CoPs.exe
+    │   ├── CWComUtil.exe
+    │   ├── CWComUtil.tlb
+    │   ├── GCClientPrefs.txt
+    │   ├── GCServerPrefs.txt
+    │   ├── IDE.exe
+    │   ├── IDE_MFC42cw.dll
+    │   ├── IDE_MFC60cw.dll
+    │   ├── IDE_MSL_DLL80_x86.dll
+    │   ├── IDE_MSL_DLL90_x86.dll
+    │   ├── IDENewDialog.dll
+    │   ├── InstallHelperKeys.exe
+    │   ├── jvmdb.dll
+    │   ├── lmgr326b.dll
+    │   ├── lmgr8c.dll
+    │   ├── MSL_All-DLL80_x86.dll
+    │   ├── MWCore5_0.dll
+    │   ├── MWCPClient.dll
+    │   ├── MWCRTL60.DLL
+    │   ├── MWRADUtils.dll
+    │   ├── Mwregsvr.exe
+    │   ├── MWRegSvrWinApp.exe
+    │   ├── PluginLib.dll
+    │   ├── PluginLib2.dll
+    │   ├── PluginLib3.dll
+    │   ├── PluginLib4.dll
+    │   ├── PluginLib5.dll
+    │   ├── PluginLib6.dll
+    │   ├── Plugins/
+    │   │   ├── com/
+    │   │   │   ├── CommandWindow.dll
+    │   │   │   ├── CPPCodeCompletion.dll
+    │   │   │   ├── ExternalBuildWizard.dll
+    │   │   │   ├── LoadSaveFill_Dolphin.dll
+    │   │   │   ├── LogPoint.dll
+    │   │   │   ├── MWActivate.dll
+    │   │   │   ├── ObjectInspector.dll
+    │   │   │   ├── PausePoint.dll
+    │   │   │   ├── ScriptPoint.dll
+    │   │   │   ├── SkipPoint.dll
+    │   │   │   ├── SoundPoint.dll
+    │   │   │   ├── TraceDataStorage.dll
+    │   │   │   ├── TracePointOff.dll
+    │   │   │   ├── TracePointOn.dll
+    │   │   │   └── VariableFormatter.dll
+    │   │   ├── Compiler/
+    │   │   │   ├── gcn_asm_adapter.dll
+    │   │   │   ├── gcn_cc_adapter.dll
+    │   │   │   ├── GCN_Lib_importer.dll
+    │   │   │   ├── ppc_eabi.dll
+    │   │   │   ├── ppc_eabi_asm.dll
+    │   │   │   └── ppc_eabi_libimporter.dll
+    │   │   ├── Debugger/
+    │   │   │   ├── DisassemblerPPC.dll
+    │   │   │   ├── Dwarf2Symbolics.DLL
+    │   │   │   ├── DwarfSymbolics.DLL
+    │   │   │   ├── EPPCPlugin.DLL
+    │   │   │   ├── EPPCRTOS_Dolphin.DLL
+    │   │   │   ├── MWBBAWin32.dll
+    │   │   │   └── MWEXI2Win32.dll
+    │   │   ├── Editor/
+    │   │   │   └── cpp_no_char_const
+    │   │   ├── Linker/
+    │   │   │   ├── BatchRunnerPostLinker.dll
+    │   │   │   ├── BatchRunnerPreLinker.DLL
+    │   │   │   ├── ExternalBuildLinker.dll
+    │   │   │   ├── gcn_linker_adapter.dll
+    │   │   │   └── ppc_eabi_linker.dll
+    │   │   ├── Preference Panel/
+    │   │   │   ├── PBatchRunnerPostLinker.dll
+    │   │   │   ├── PBatchRunnerPreLinker.dll
+    │   │   │   ├── PDebugEPPCExcept.dll
+    │   │   │   ├── PDolphinTarget.dll
+    │   │   │   ├── PDolphinTargetGlobal.dll
+    │   │   │   ├── PExternalBuild.dll
+    │   │   │   ├── PFrontEndC.dll
+    │   │   │   ├── PGCN_CL_Data.dll
+    │   │   │   ├── PGCN_RConn.dll
+    │   │   │   ├── pMWCVS.dll
+    │   │   │   ├── pmwSourceSafe.dll
+    │   │   │   ├── PPreprocessorC.dll
+    │   │   │   ├── prfEABIasm.dll
+    │   │   │   ├── prfEABIcodegen.dll
+    │   │   │   ├── prfEABIdisasm.dll
+    │   │   │   ├── prfEABIglbopt.dll
+    │   │   │   ├── prfEABIlinker.dll
+    │   │   │   ├── prfEABIproject.dll
+    │   │   │   └── PWarningC.dll
+    │   │   ├── support/
+    │   │   │   ├── comm/
+    │   │   │   │   ├── MWCPDolphin.dll
+    │   │   │   │   └── MWCPTDev.dll
+    │   │   │   ├── CommandWindow/
+    │   │   │   │   ├── cmds/
+    │   │   │   │   │   ├── cmdwin.ca
+    │   │   │   │   │   ├── cmdwin.caln
+    │   │   │   │   │   ├── cmdwin.ep
+    │   │   │   │   │   ├── cmdwin.eppc
+    │   │   │   │   │   └── cmdwin.fl
+    │   │   │   │   ├── CmdwinInit.tcl
+    │   │   │   │   └── CmdwinInit.xml
+    │   │   │   ├── CPlusSourceGen.dll
+    │   │   │   ├── DefaultEvents.dat
+    │   │   │   ├── DefaultLocations/
+    │   │   │   │   └── GCNDefaultLocation.xml
+    │   │   │   ├── DeferredProps.dat
+    │   │   │   ├── EPPC_Default_Project.xml
+    │   │   │   ├── ExcludedProps.dat
+    │   │   │   ├── fixe_default.mcp
+    │   │   │   ├── Games/
+    │   │   │   │   └── Common/
+    │   │   │   │       ├── GCClientPrefs.dll
+    │   │   │   │       └── GCServerPrefs.dll
+    │   │   │   ├── MWActivate.xml
+    │   │   │   ├── MWComBase.dll
+    │   │   │   ├── MWComHelpers.DLL
+    │   │   │   ├── MWRadModel.dll
+    │   │   │   ├── NamedPropValues.dat
+    │   │   │   ├── Products/
+    │   │   │   │   └── CW_Gamecube.xml
+    │   │   │   ├── Registers/
+    │   │   │   │   └── EPPC/
+    │   │   │   │       ├── CR.xml
+    │   │   │   │       ├── DABR.xml
+    │   │   │   │       ├── DBAT0L.xml
+    │   │   │   │       ├── DBAT0U.xml
+    │   │   │   │       ├── DBAT1L.xml
+    │   │   │   │       ├── DBAT1U.xml
+    │   │   │   │       ├── DBAT2L.xml
+    │   │   │   │       ├── DBAT2U.xml
+    │   │   │   │       ├── DBAT3L.xml
+    │   │   │   │       ├── DBAT3U.xml
+    │   │   │   │       ├── DefaultLayout_PowerPCBig.xml
+    │   │   │   │       ├── EAR.xml
+    │   │   │   │       ├── Gekko/
+    │   │   │   │       │   ├── DMAL.xml
+    │   │   │   │       │   ├── DMAU.xml
+    │   │   │   │       │   ├── FP0PS0.xml
+    │   │   │   │       │   ├── FP0PS1.xml
+    │   │   │   │       │   ├── FP10PS0.xml
+    │   │   │   │       │   ├── FP10PS1.xml
+    │   │   │   │       │   ├── FP11PS0.xml
+    │   │   │   │       │   ├── FP11PS1.xml
+    │   │   │   │       │   ├── FP12PS0.xml
+    │   │   │   │       │   ├── FP12PS1.xml
+    │   │   │   │       │   ├── FP13PS0.xml
+    │   │   │   │       │   ├── FP13PS1.xml
+    │   │   │   │       │   ├── FP14PS0.xml
+    │   │   │   │       │   ├── FP14PS1.xml
+    │   │   │   │       │   ├── FP15PS0.xml
+    │   │   │   │       │   ├── FP15PS1.xml
+    │   │   │   │       │   ├── FP16PS0.xml
+    │   │   │   │       │   ├── FP16PS1.xml
+    │   │   │   │       │   ├── FP17PS0.xml
+    │   │   │   │       │   ├── FP17PS1.xml
+    │   │   │   │       │   ├── FP18PS0.xml
+    │   │   │   │       │   ├── FP18PS1.xml
+    │   │   │   │       │   ├── FP19PS0.xml
+    │   │   │   │       │   ├── FP19PS1.xml
+    │   │   │   │       │   ├── FP1PS0.xml
+    │   │   │   │       │   ├── FP1PS1.xml
+    │   │   │   │       │   ├── FP20PS0.xml
+    │   │   │   │       │   ├── FP20PS1.xml
+    │   │   │   │       │   ├── FP21PS0.xml
+    │   │   │   │       │   ├── FP21PS1.xml
+    │   │   │   │       │   ├── FP22PS0.xml
+    │   │   │   │       │   ├── FP22PS1.xml
+    │   │   │   │       │   ├── FP23PS0.xml
+    │   │   │   │       │   ├── FP23PS1.xml
+    │   │   │   │       │   ├── FP24PS0.xml
+    │   │   │   │       │   ├── FP24PS1.xml
+    │   │   │   │       │   ├── FP25PS0.xml
+    │   │   │   │       │   ├── FP25PS1.xml
+    │   │   │   │       │   ├── FP26PS0.xml
+    │   │   │   │       │   ├── FP26PS1.xml
+    │   │   │   │       │   ├── FP27PS0.xml
+    │   │   │   │       │   ├── FP27PS1.xml
+    │   │   │   │       │   ├── FP28PS0.xml
+    │   │   │   │       │   ├── FP28PS1.xml
+    │   │   │   │       │   ├── FP29PS0.xml
+    │   │   │   │       │   ├── FP29PS1.xml
+    │   │   │   │       │   ├── FP2PS0.xml
+    │   │   │   │       │   ├── FP2PS1.xml
+    │   │   │   │       │   ├── FP30PS0.xml
+    │   │   │   │       │   ├── FP30PS1.xml
+    │   │   │   │       │   ├── FP31PS0.xml
+    │   │   │   │       │   ├── FP31PS1.xml
+    │   │   │   │       │   ├── FP3PS0.xml
+    │   │   │   │       │   ├── FP3PS1.xml
+    │   │   │   │       │   ├── FP4PS0.xml
+    │   │   │   │       │   ├── FP4PS1.xml
+    │   │   │   │       │   ├── FP5PS0.xml
+    │   │   │   │       │   ├── FP5PS1.xml
+    │   │   │   │       │   ├── FP6PS0.xml
+    │   │   │   │       │   ├── FP6PS1.xml
+    │   │   │   │       │   ├── FP7PS0.xml
+    │   │   │   │       │   ├── FP7PS1.xml
+    │   │   │   │       │   ├── FP8PS0.xml
+    │   │   │   │       │   ├── FP8PS1.xml
+    │   │   │   │       │   ├── FP9PS0.xml
+    │   │   │   │       │   ├── FP9PS1.xml
+    │   │   │   │       │   ├── gqr0.xml
+    │   │   │   │       │   ├── gqr1.xml
+    │   │   │   │       │   ├── gqr2.xml
+    │   │   │   │       │   ├── gqr3.xml
+    │   │   │   │       │   ├── gqr4.xml
+    │   │   │   │       │   ├── gqr5.xml
+    │   │   │   │       │   ├── gqr6.xml
+    │   │   │   │       │   ├── GQR7.xml
+    │   │   │   │       │   ├── HID2.xml
+    │   │   │   │       │   ├── HIDG.xml
+    │   │   │   │       │   ├── L2CR.xml
+    │   │   │   │       │   └── WPAR.xml
+    │   │   │   │       ├── Generic/
+    │   │   │   │       │   ├── CR.xml
+    │   │   │   │       │   ├── CTR.xml
+    │   │   │   │       │   ├── DAR.xml
+    │   │   │   │       │   ├── DEC.xml
+    │   │   │   │       │   ├── DSISR.xml
+    │   │   │   │       │   ├── FPSCR.xml
+    │   │   │   │       │   ├── LR.xml
+    │   │   │   │       │   ├── MSR.xml
+    │   │   │   │       │   ├── PC.xml
+    │   │   │   │       │   ├── PVR.xml
+    │   │   │   │       │   ├── R0.xml
+    │   │   │   │       │   ├── R1.xml
+    │   │   │   │       │   ├── R10.xml
+    │   │   │   │       │   ├── R11.xml
+    │   │   │   │       │   ├── R12.xml
+    │   │   │   │       │   ├── R13.xml
+    │   │   │   │       │   ├── R14.xml
+    │   │   │   │       │   ├── R15.xml
+    │   │   │   │       │   ├── R16.xml
+    │   │   │   │       │   ├── R17.xml
+    │   │   │   │       │   ├── R18.xml
+    │   │   │   │       │   ├── R19.xml
+    │   │   │   │       │   ├── R2.xml
+    │   │   │   │       │   ├── R20.xml
+    │   │   │   │       │   ├── R21.xml
+    │   │   │   │       │   ├── R22.xml
+    │   │   │   │       │   ├── R23.xml
+    │   │   │   │       │   ├── R24.xml
+    │   │   │   │       │   ├── R25.xml
+    │   │   │   │       │   ├── R26.xml
+    │   │   │   │       │   ├── R27.xml
+    │   │   │   │       │   ├── R28.xml
+    │   │   │   │       │   ├── R29.xml
+    │   │   │   │       │   ├── R3.xml
+    │   │   │   │       │   ├── R30.xml
+    │   │   │   │       │   ├── R31.xml
+    │   │   │   │       │   ├── R4.xml
+    │   │   │   │       │   ├── R5.xml
+    │   │   │   │       │   ├── R6.xml
+    │   │   │   │       │   ├── R7.xml
+    │   │   │   │       │   ├── R8.xml
+    │   │   │   │       │   ├── R9.xml
+    │   │   │   │       │   ├── SP.xml
+    │   │   │   │       │   ├── SPRG0.xml
+    │   │   │   │       │   ├── SPRG1.xml
+    │   │   │   │       │   ├── SPRG2.xml
+    │   │   │   │       │   ├── SPRG3.xml
+    │   │   │   │       │   ├── SRR0.xml
+    │   │   │   │       │   ├── SRR1.xml
+    │   │   │   │       │   ├── TBL.xml
+    │   │   │   │       │   ├── TBU.xml
+    │   │   │   │       │   └── XER.xml
+    │   │   │   │       ├── HID0.xml
+    │   │   │   │       ├── HID1.xml
+    │   │   │   │       ├── IABR.xml
+    │   │   │   │       ├── IBAT0L.xml
+    │   │   │   │       ├── IBAT0U.xml
+    │   │   │   │       ├── IBAT1L.xml
+    │   │   │   │       ├── IBAT1U.xml
+    │   │   │   │       ├── IBAT2L.xml
+    │   │   │   │       ├── IBAT2U.xml
+    │   │   │   │       ├── IBAT3L.xml
+    │   │   │   │       ├── IBAT3U.xml
+    │   │   │   │       ├── ICTC.xml
+    │   │   │   │       ├── L2CR.xml
+    │   │   │   │       ├── MMCR0.xml
+    │   │   │   │       ├── MMCR1.xml
+    │   │   │   │       ├── MSR.xml
+    │   │   │   │       ├── opcode.xml
+    │   │   │   │       ├── PIR.xml
+    │   │   │   │       ├── PMC1.xml
+    │   │   │   │       ├── PMC2.xml
+    │   │   │   │       ├── PMC3.xml
+    │   │   │   │       ├── PMC4.xml
+    │   │   │   │       ├── SDA.xml
+    │   │   │   │       ├── SDR1.xml
+    │   │   │   │       ├── SIA.xml
+    │   │   │   │       ├── spec.xml
+    │   │   │   │       ├── SR0.xml
+    │   │   │   │       ├── SR1.xml
+    │   │   │   │       ├── SR10.xml
+    │   │   │   │       ├── SR11.xml
+    │   │   │   │       ├── SR12.xml
+    │   │   │   │       ├── SR13.xml
+    │   │   │   │       ├── SR14.xml
+    │   │   │   │       ├── SR15.xml
+    │   │   │   │       ├── SR2.xml
+    │   │   │   │       ├── SR3.xml
+    │   │   │   │       ├── SR4.xml
+    │   │   │   │       ├── SR5.xml
+    │   │   │   │       ├── SR6.xml
+    │   │   │   │       ├── SR7.xml
+    │   │   │   │       ├── SR8.xml
+    │   │   │   │       ├── SR9.xml
+    │   │   │   │       ├── THRM1.xml
+    │   │   │   │       ├── THRM2.xml
+    │   │   │   │       ├── THRM3.xml
+    │   │   │   │       ├── UMMCR0.xml
+    │   │   │   │       ├── UMMCR1.xml
+    │   │   │   │       ├── UPMC1.xml
+    │   │   │   │       ├── UPMC2.xml
+    │   │   │   │       ├── UPMC3.xml
+    │   │   │   │       ├── UPMC4.xml
+    │   │   │   │       ├── USDA.xml
+    │   │   │   │       └── USIA.xml
+    │   │   │   ├── rules.gcc.dat
+    │   │   │   ├── rules.vcc.dat
+    │   │   │   ├── Schemas/
+    │   │   │   │   ├── Breakpoints.xsd
+    │   │   │   │   └── BreakpointTemplates.xsd
+    │   │   │   ├── TextOutputPatterns/
+    │   │   │   │   └── MWCCOutputPatterns.cwtopat
+    │   │   │   ├── Use_Global_Debug_Settings.xml
+    │   │   │   └── VariableFormats/
+    │   │   │       ├── MSL Formats.xml
+    │   │   │       └── Windows_Formats.xml
+    │   │   └── Version Control/
+    │   │       ├── mwcvs.dll
+    │   │       └── mwSourceSafe.dll
+    │   ├── regservers.bat
+    │   ├── regservers.bat.bak
+    │   ├── resource/
+    │   │   ├── CPlusResources.dll
+    │   │   ├── ExternalBuildResources.dll
+    │   │   ├── IDEAuxiliaryResources.dll
+    │   │   ├── IDEResources.dll
+    │   │   └── MakefileResources.dll
+    │   ├── RunHelper.exe
+    │   ├── SHW32.DLL
+    │   ├── SrvrPrefs.txt
+    │   ├── sunvmhub.dll
+    │   ├── tcl83.dll
+    │   └── xerces-2_2_0.dll
+    ├── Examples/
+    │   ├── CWComUtil - COM/
+    │   │   ├── Bitmap/
+    │   │   │   ├── blue.bmp
+    │   │   │   ├── green.bmp
+    │   │   │   └── red.bmp
+    │   │   ├── Color_Bitmap/
+    │   │   │   ├── bmp.c
+    │   │   │   ├── bmp.h
+    │   │   │   ├── Color_Bitmap.mcp
+    │   │   │   ├── main.c
+    │   │   │   └── viewer.c
+    │   │   └── CWComUtilClient_Console/
+    │   │       ├── ColorBitmap.elf
+    │   │       ├── COM_Worker.cpp
+    │   │       ├── COM_Worker.h
+    │   │       ├── ComUtilClient.cpp
+    │   │       ├── CW_COM_SUPPORT/
+    │   │       │   ├── BSTRObject.cpp
+    │   │       │   └── BSTRObject.h
+    │   │       ├── CWComUtil_API/
+    │   │       │   ├── CWComUtil.h
+    │   │       │   └── CWComUtil_i.c
+    │   │       ├── CWComUtilClient.exe
+    │   │       ├── CWComUtilClient.mcp
+    │   │       └── readme.txt
+    │   ├── GAMECUBE SDK - DDH/
+    │   │   ├── CompletedTutorial/
+    │   │   │   ├── CompletedTutorial.mcp
+    │   │   │   └── main.c
+    │   │   ├── DLLTest/
+    │   │   │   ├── a.cpp
+    │   │   │   ├── a.h
+    │   │   │   ├── b.cpp
+    │   │   │   ├── b.h
+    │   │   │   ├── Copy_Files.bat
+    │   │   │   ├── copy_rel.txt
+    │   │   │   ├── copy_str.txt
+    │   │   │   ├── Create_Info.bat
+    │   │   │   ├── dlltest.mcp
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── path.txt
+    │   │   │   ├── static.c
+    │   │   │   └── static.lcf
+    │   │   ├── NewDeleteOverload/
+    │   │   │   ├── MyNewDelete.cpp
+    │   │   │   ├── NewDeleteOverload.cpp
+    │   │   │   └── NewDeleteOverload.mcp
+    │   │   ├── OrphanedElf/
+    │   │   │   └── VerifySetup.elf
+    │   │   ├── RMSDemo1/
+    │   │   │   ├── audio.cpp
+    │   │   │   ├── audio.h
+    │   │   │   ├── graphics.cpp
+    │   │   │   ├── graphics.h
+    │   │   │   ├── graphics2.cpp
+    │   │   │   ├── level1.cpp
+    │   │   │   ├── level2.cpp
+    │   │   │   ├── level3.cpp
+    │   │   │   ├── main.cpp
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── REL_Setup.cpp
+    │   │   │   ├── REL_Setup.h
+    │   │   │   └── RMSDemo1.mcp
+    │   │   ├── Tutorial/
+    │   │   │   └── main.c
+    │   │   ├── VectorTest/
+    │   │   │   ├── gector.h
+    │   │   │   ├── main.cpp
+    │   │   │   └── Vector.mcp
+    │   │   └── VerifySetup/
+    │   │       ├── main.c
+    │   │       └── VerifySetup.mcp
+    │   ├── GAMECUBE SDK - GDEV/
+    │   │   ├── CompletedTutorial/
+    │   │   │   ├── CompletedTutorial.mcp
+    │   │   │   └── main.c
+    │   │   ├── DLLTest/
+    │   │   │   ├── a.cpp
+    │   │   │   ├── a.h
+    │   │   │   ├── b.cpp
+    │   │   │   ├── b.h
+    │   │   │   ├── Copy_Files.bat
+    │   │   │   ├── dlltest.mcp
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── static.c
+    │   │   │   └── static.lcf
+    │   │   ├── NewDeleteOverload/
+    │   │   │   ├── MyNewDelete.cpp
+    │   │   │   ├── NewDeleteOverload.cpp
+    │   │   │   └── NewDeleteOverload.mcp
+    │   │   ├── OrphanedElf/
+    │   │   │   └── VerifySetup.elf
+    │   │   ├── RMSDemo1/
+    │   │   │   ├── audio.cpp
+    │   │   │   ├── audio.h
+    │   │   │   ├── graphics.cpp
+    │   │   │   ├── graphics.h
+    │   │   │   ├── graphics2.cpp
+    │   │   │   ├── level1.cpp
+    │   │   │   ├── level2.cpp
+    │   │   │   ├── level3.cpp
+    │   │   │   ├── main.cpp
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── REL_Setup.cpp
+    │   │   │   ├── REL_Setup.h
+    │   │   │   └── RMSDemo1.mcp
+    │   │   ├── Tutorial/
+    │   │   │   └── main.c
+    │   │   ├── VectorTest/
+    │   │   │   ├── gector.h
+    │   │   │   ├── main.cpp
+    │   │   │   └── Vector.mcp
+    │   │   └── VerifySetup/
+    │   │       ├── main.c
+    │   │       └── VerifySetup.mcp
+    │   ├── GAMECUBE SDK - TDEV/
+    │   │   ├── CompletedTutorial/
+    │   │   │   ├── CompletedTutorial.mcp
+    │   │   │   └── main.c
+    │   │   ├── DLLTest/
+    │   │   │   ├── a.cpp
+    │   │   │   ├── a.h
+    │   │   │   ├── b.cpp
+    │   │   │   ├── b.h
+    │   │   │   ├── dlltest.mcp
+    │   │   │   ├── mwHostIO.c
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── static.c
+    │   │   │   └── static.lcf
+    │   │   ├── NewDeleteOverload/
+    │   │   │   ├── MyNewDelete.cpp
+    │   │   │   ├── NewDeleteOverload.cpp
+    │   │   │   └── NewDeleteOverload.mcp
+    │   │   ├── OrphanedElf/
+    │   │   │   └── VerifySetup.elf
+    │   │   ├── RMSDemo1/
+    │   │   │   ├── audio.cpp
+    │   │   │   ├── audio.h
+    │   │   │   ├── graphics.cpp
+    │   │   │   ├── graphics.h
+    │   │   │   ├── graphics2.cpp
+    │   │   │   ├── level1.cpp
+    │   │   │   ├── level2.cpp
+    │   │   │   ├── level3.cpp
+    │   │   │   ├── main.cpp
+    │   │   │   ├── mwHostIO.c
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── REL_Setup.cpp
+    │   │   │   ├── REL_Setup.h
+    │   │   │   └── RMSDemo1.mcp
+    │   │   ├── Tutorial/
+    │   │   │   └── main.c
+    │   │   ├── VectorTest/
+    │   │   │   ├── gector.h
+    │   │   │   ├── main.cpp
+    │   │   │   └── Vector.mcp
+    │   │   └── VerifySetup/
+    │   │       ├── main.c
+    │   │       └── VerifySetup.mcp
+    │   └── GAMECUBE_CATS/
+    │       ├── DDH_CATS_Example/
+    │       │   ├── DDH_CATS.mcp
+    │       │   └── main.c
+    │       ├── GDEV_CATS_Example/
+    │       │   ├── GDEV_CATS.mcp
+    │       │   └── main.c
+    │       └── readme.txt
+    ├── Help/
+    │   ├── _index.chm
+    │   ├── Assembler_Reference.chm
+    │   ├── Build_Tools_Reference_Common.chm
+    │   ├── Codewarrior_Help.chm
+    │   ├── ComUtil_GameCube.chm
+    │   ├── Error_Reference.chm
+    │   ├── IDE_5.7_Automation_Guide.chm
+    │   ├── IDE_5.7_User_Guide.chm
+    │   ├── MSL_C++_Reference.chm
+    │   ├── MSL_C_Reference.chm
+    │   ├── mwCVS_Plug-in_User_Guide.chm
+    │   ├── PDF/
+    │   │   ├── Assembler_Reference.pdf
+    │   │   ├── BuildToolsRef_common.pdf
+    │   │   ├── ComUtil_GameCube.pdf
+    │   │   ├── IDE_5.7_Automation_Guide.pdf
+    │   │   ├── IDE_5.7_Users_Guide.pdf
+    │   │   ├── MSL_C++_Reference.pdf
+    │   │   ├── MSL_C_Reference.pdf
+    │   │   ├── mwCVS_Plug-in_User_Guide.pdf
+    │   │   └── Targeting_GameCube.pdf
+    │   ├── release_notes_GAMECUBE.chm
+    │   ├── Targeting_Nintendo_GAMECUBE.chm
+    │   └── Tcl83_Manual.chm
+    ├── license.dat
+    ├── Other Metrowerks Tools/
+    │   └── Bootapp/
+    │       ├── BBAConfig.elf
+    │       ├── BBAConfig.str
+    │       └── Loader.rel
+    ├── PowerPC_EABI_Support/
+    │   ├── DLL_Support/
+    │   │   └── Dynamic Library Notes.txt
+    │   ├── Documentation/
+    │   │   └── README.txt
+    │   ├── Include/
+    │   │   └── Prefix/
+    │   │       ├── GCN_Compiler_Macros.h
+    │   │       ├── HW2_Debug_Prefix.h
+    │   │       ├── HW2_Release_Prefix.h
+    │   │       ├── MW_Rel_Module_Support.h
+    │   │       └── rel_support.h
+    │   ├── LibGCN/
+    │   │   └── libGCN.mcp
+    │   ├── MetroTRK/
+    │   │   ├── DolphinTrkInit.h
+    │   │   ├── TRK_GCN_Stub.a
+    │   │   ├── TRK_Minnow_Dolphin.a
+    │   │   ├── TRK_MINNOW_DOLPHIN_CATS.a
+    │   │   └── trk_udp_server.a
+    │   ├── MSL/
+    │   │   ├── GAMECUBE_Build_All_Libs.mcp
+    │   │   ├── MSL_C/
+    │   │   │   ├── MSL_Common/
+    │   │   │   │   ├── Include/
+    │   │   │   │   │   ├── abort_exit.h
+    │   │   │   │   │   ├── ansi_files.h
+    │   │   │   │   │   ├── ansi_fp.h
+    │   │   │   │   │   ├── ansi_parms.h
+    │   │   │   │   │   ├── arith.h
+    │   │   │   │   │   ├── assert.h
+    │   │   │   │   │   ├── assert_api.h
+    │   │   │   │   │   ├── buffer_io.h
+    │   │   │   │   │   ├── cassert
+    │   │   │   │   │   ├── cctype
+    │   │   │   │   │   ├── cerrno
+    │   │   │   │   │   ├── cfloat
+    │   │   │   │   │   ├── char_io.h
+    │   │   │   │   │   ├── cinttypes
+    │   │   │   │   │   ├── ciso646
+    │   │   │   │   │   ├── climits
+    │   │   │   │   │   ├── clocale
+    │   │   │   │   │   ├── cmath
+    │   │   │   │   │   ├── complex.h
+    │   │   │   │   │   ├── console_io.h
+    │   │   │   │   │   ├── critical_regions.h
+    │   │   │   │   │   ├── critical_regions.pthreads.h
+    │   │   │   │   │   ├── csetjmp
+    │   │   │   │   │   ├── csignal
+    │   │   │   │   │   ├── cstdarg
+    │   │   │   │   │   ├── cstddef
+    │   │   │   │   │   ├── cstdint
+    │   │   │   │   │   ├── cstdio
+    │   │   │   │   │   ├── cstdlib
+    │   │   │   │   │   ├── cstring
+    │   │   │   │   │   ├── ctime
+    │   │   │   │   │   ├── ctype.h
+    │   │   │   │   │   ├── ctype_api.h
+    │   │   │   │   │   ├── cwchar
+    │   │   │   │   │   ├── cwctype
+    │   │   │   │   │   ├── dirent.h
+    │   │   │   │   │   ├── div_t.h
+    │   │   │   │   │   ├── eof.h
+    │   │   │   │   │   ├── errno.h
+    │   │   │   │   │   ├── extras.h
+    │   │   │   │   │   ├── extras_io.h
+    │   │   │   │   │   ├── extras_malloc.h
+    │   │   │   │   │   ├── extras_stdlib.h
+    │   │   │   │   │   ├── extras_string.h
+    │   │   │   │   │   ├── extras_time.h
+    │   │   │   │   │   ├── extras_wchar.h
+    │   │   │   │   │   ├── fcntl.h
+    │   │   │   │   │   ├── fenv.h
+    │   │   │   │   │   ├── file_io.h
+    │   │   │   │   │   ├── file_struc.h
+    │   │   │   │   │   ├── float.h
+    │   │   │   │   │   ├── inttypes.h
+    │   │   │   │   │   ├── iso646.h
+    │   │   │   │   │   ├── lconv.h
+    │   │   │   │   │   ├── limits.h
+    │   │   │   │   │   ├── locale.h
+    │   │   │   │   │   ├── locale_api.h
+    │   │   │   │   │   ├── math.h
+    │   │   │   │   │   ├── math_api.h
+    │   │   │   │   │   ├── math_config.h
+    │   │   │   │   │   ├── math_integral.h
+    │   │   │   │   │   ├── mbstring.h
+    │   │   │   │   │   ├── mem_funcs.h
+    │   │   │   │   │   ├── misc_io.h
+    │   │   │   │   │   ├── msl_c_version.h
+    │   │   │   │   │   ├── msl_cpp_std_ctype.h
+    │   │   │   │   │   ├── msl_cpp_std_inttypes.h
+    │   │   │   │   │   ├── msl_cpp_std_locale.h
+    │   │   │   │   │   ├── msl_cpp_std_math.h
+    │   │   │   │   │   ├── msl_cpp_std_setjmp.h
+    │   │   │   │   │   ├── msl_cpp_std_signal.h
+    │   │   │   │   │   ├── msl_cpp_std_stdarg.h
+    │   │   │   │   │   ├── msl_cpp_std_stddef.h
+    │   │   │   │   │   ├── msl_cpp_std_stdint.h
+    │   │   │   │   │   ├── msl_cpp_std_stdio.h
+    │   │   │   │   │   ├── msl_cpp_std_stdlib.h
+    │   │   │   │   │   ├── msl_cpp_std_string.h
+    │   │   │   │   │   ├── msl_cpp_std_time.h
+    │   │   │   │   │   ├── msl_cpp_std_wchar.h
+    │   │   │   │   │   ├── msl_cpp_std_wctype.h
+    │   │   │   │   │   ├── msl_rsize_t.h
+    │   │   │   │   │   ├── msl_secure.h
+    │   │   │   │   │   ├── msl_secure_error.h
+    │   │   │   │   │   ├── msl_t.h
+    │   │   │   │   │   ├── msl_thread_local_data.h
+    │   │   │   │   │   ├── mslGlobals.h
+    │   │   │   │   │   ├── null.h
+    │   │   │   │   │   ├── os_enum.h
+    │   │   │   │   │   ├── pool_alloc.h
+    │   │   │   │   │   ├── setjmp.h
+    │   │   │   │   │   ├── signal.h
+    │   │   │   │   │   ├── size_t.h
+    │   │   │   │   │   ├── stdarg.h
+    │   │   │   │   │   ├── stdbool.h
+    │   │   │   │   │   ├── stddef.h
+    │   │   │   │   │   ├── stdint.h
+    │   │   │   │   │   ├── stdio.h
+    │   │   │   │   │   ├── stdio.posix.h
+    │   │   │   │   │   ├── stdio_api.h
+    │   │   │   │   │   ├── stdlib.h
+    │   │   │   │   │   ├── string.h
+    │   │   │   │   │   ├── string_api.h
+    │   │   │   │   │   ├── strtold.h
+    │   │   │   │   │   ├── strtoul.h
+    │   │   │   │   │   ├── sys/
+    │   │   │   │   │   │   ├── stat.h
+    │   │   │   │   │   │   └── timeb.h
+    │   │   │   │   │   ├── tgmath.h
+    │   │   │   │   │   ├── thread_local_data_pthreads.h
+    │   │   │   │   │   ├── time.h
+    │   │   │   │   │   ├── time_api.h
+    │   │   │   │   │   ├── unistd.h
+    │   │   │   │   │   ├── unistd_api.h
+    │   │   │   │   │   ├── unix.h
+    │   │   │   │   │   ├── utime.h
+    │   │   │   │   │   ├── va_list.h
+    │   │   │   │   │   ├── wchar.h
+    │   │   │   │   │   ├── wchar_io.h
+    │   │   │   │   │   ├── wchar_t.h
+    │   │   │   │   │   ├── wcstold.h
+    │   │   │   │   │   ├── wcstoul.h
+    │   │   │   │   │   ├── wctrans.h
+    │   │   │   │   │   ├── wctype.h
+    │   │   │   │   │   ├── wctype_api.h
+    │   │   │   │   │   ├── weof.h
+    │   │   │   │   │   ├── wmem.h
+    │   │   │   │   │   ├── wprintf.h
+    │   │   │   │   │   ├── wscanf.h
+    │   │   │   │   │   ├── wstdio.h
+    │   │   │   │   │   ├── wstring.h
+    │   │   │   │   │   └── wtime.h
+    │   │   │   │   └── Src/
+    │   │   │   │       ├── alloc.c
+    │   │   │   │       ├── ansi_files.c
+    │   │   │   │       ├── arith.c
+    │   │   │   │       ├── assert.c
+    │   │   │   │       ├── bsearch.c
+    │   │   │   │       ├── buffer_io.c
+    │   │   │   │       ├── char_io.c
+    │   │   │   │       ├── critical_regions_pthreads.c
+    │   │   │   │       ├── ctype.c
+    │   │   │   │       ├── direct_io.c
+    │   │   │   │       ├── errno.c
+    │   │   │   │       ├── extras.c
+    │   │   │   │       ├── file_io.c
+    │   │   │   │       ├── file_pos.c
+    │   │   │   │       ├── float.c
+    │   │   │   │       ├── locale.c
+    │   │   │   │       ├── math.c
+    │   │   │   │       ├── math_api.c
+    │   │   │   │       ├── math_double.c
+    │   │   │   │       ├── math_float.c
+    │   │   │   │       ├── math_fma.c
+    │   │   │   │       ├── math_longdouble.c
+    │   │   │   │       ├── mbstring.c
+    │   │   │   │       ├── mem.c
+    │   │   │   │       ├── mem_funcs.c
+    │   │   │   │       ├── misc_io.c
+    │   │   │   │       ├── old_posix.c
+    │   │   │   │       ├── pool_alloc.c
+    │   │   │   │       ├── printf.c
+    │   │   │   │       ├── qsort.c
+    │   │   │   │       ├── rand.c
+    │   │   │   │       ├── scanf.c
+    │   │   │   │       ├── secure_error.c
+    │   │   │   │       ├── signal.c
+    │   │   │   │       ├── stat.c
+    │   │   │   │       ├── stdio_posix.c
+    │   │   │   │       ├── string.c
+    │   │   │   │       ├── strtold.c
+    │   │   │   │       ├── strtoul.c
+    │   │   │   │       ├── thread_local_data_pthreads.c
+    │   │   │   │       ├── time.c
+    │   │   │   │       ├── wchar_io.c
+    │   │   │   │       ├── wcstold.c
+    │   │   │   │       ├── wcstoul.c
+    │   │   │   │       ├── wctrans.c
+    │   │   │   │       ├── wctype.c
+    │   │   │   │       ├── wfile_io.c
+    │   │   │   │       ├── wmem.c
+    │   │   │   │       ├── wprintf.c
+    │   │   │   │       ├── wscanf.c
+    │   │   │   │       ├── wstring.c
+    │   │   │   │       └── wtime.c
+    │   │   │   ├── MSL_Common_Embedded/
+    │   │   │   │   ├── Include/
+    │   │   │   │   │   └── UART.h
+    │   │   │   │   ├── Math/
+    │   │   │   │   │   ├── Double_precision/
+    │   │   │   │   │   │   ├── e_acos.c
+    │   │   │   │   │   │   ├── e_acosh.c
+    │   │   │   │   │   │   ├── e_asin.c
+    │   │   │   │   │   │   ├── e_atan2.c
+    │   │   │   │   │   │   ├── e_atanh.c
+    │   │   │   │   │   │   ├── e_cosh.c
+    │   │   │   │   │   │   ├── e_exp.c
+    │   │   │   │   │   │   ├── e_fmod.c
+    │   │   │   │   │   │   ├── e_gamma.c
+    │   │   │   │   │   │   ├── e_gamma_r.c
+    │   │   │   │   │   │   ├── e_hypot.c
+    │   │   │   │   │   │   ├── e_lgamma.c
+    │   │   │   │   │   │   ├── e_lgamma_r.c
+    │   │   │   │   │   │   ├── e_log.c
+    │   │   │   │   │   │   ├── e_log10.c
+    │   │   │   │   │   │   ├── e_pow.c
+    │   │   │   │   │   │   ├── e_rem_pio2.c
+    │   │   │   │   │   │   ├── e_remainder.c
+    │   │   │   │   │   │   ├── e_sinh.c
+    │   │   │   │   │   │   ├── e_sqrt.c
+    │   │   │   │   │   │   ├── fminmaxdim.c
+    │   │   │   │   │   │   ├── k_cos.c
+    │   │   │   │   │   │   ├── k_rem_pio2.c
+    │   │   │   │   │   │   ├── k_sin.c
+    │   │   │   │   │   │   ├── k_standard.c
+    │   │   │   │   │   │   ├── k_tan.c
+    │   │   │   │   │   │   ├── s_asinh.c
+    │   │   │   │   │   │   ├── s_atan.c
+    │   │   │   │   │   │   ├── s_cbrt.c
+    │   │   │   │   │   │   ├── s_ceil.c
+    │   │   │   │   │   │   ├── s_copysign.c
+    │   │   │   │   │   │   ├── s_cos.c
+    │   │   │   │   │   │   ├── s_erf.c
+    │   │   │   │   │   │   ├── s_expm1.c
+    │   │   │   │   │   │   ├── s_fabs.c
+    │   │   │   │   │   │   ├── s_floor.c
+    │   │   │   │   │   │   ├── s_frexp.c
+    │   │   │   │   │   │   ├── s_ilogb.c
+    │   │   │   │   │   │   ├── s_ldexp.c
+    │   │   │   │   │   │   ├── s_lib_version.c
+    │   │   │   │   │   │   ├── s_log1p.c
+    │   │   │   │   │   │   ├── s_logb.c
+    │   │   │   │   │   │   ├── s_matherr.c
+    │   │   │   │   │   │   ├── s_modf.c
+    │   │   │   │   │   │   ├── s_nextafter.c
+    │   │   │   │   │   │   ├── s_rint.c
+    │   │   │   │   │   │   ├── s_signgam.c
+    │   │   │   │   │   │   ├── s_sin.c
+    │   │   │   │   │   │   ├── s_tan.c
+    │   │   │   │   │   │   ├── s_tanh.c
+    │   │   │   │   │   │   ├── w_acos.c
+    │   │   │   │   │   │   ├── w_acosh.c
+    │   │   │   │   │   │   ├── w_asin.c
+    │   │   │   │   │   │   ├── w_atan2.c
+    │   │   │   │   │   │   ├── w_atanh.c
+    │   │   │   │   │   │   ├── w_cosh.c
+    │   │   │   │   │   │   ├── w_exp.c
+    │   │   │   │   │   │   ├── w_fmod.c
+    │   │   │   │   │   │   ├── w_gamma.c
+    │   │   │   │   │   │   ├── w_gamma_r.c
+    │   │   │   │   │   │   ├── w_hypot.c
+    │   │   │   │   │   │   ├── w_lgamma.c
+    │   │   │   │   │   │   ├── w_lgamma_r.c
+    │   │   │   │   │   │   ├── w_log.c
+    │   │   │   │   │   │   ├── w_log10.c
+    │   │   │   │   │   │   ├── w_pow.c
+    │   │   │   │   │   │   ├── w_remainder.c
+    │   │   │   │   │   │   ├── w_sinh.c
+    │   │   │   │   │   │   └── w_sqrt.c
+    │   │   │   │   │   └── Include/
+    │   │   │   │   │       └── fdlibm.h
+    │   │   │   │   └── Src/
+    │   │   │   │       ├── ansi_fp.c
+    │   │   │   │       ├── ansi_fp.log
+    │   │   │   │       ├── math_sun.c
+    │   │   │   │       └── uart_console_io.c
+    │   │   │   └── PPC_EABI/
+    │   │   │       ├── Include/
+    │   │   │       │   ├── ansi_prefix.PPCEABI.bare.c.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.bare.c.SZ.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.bare.cache.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.bare.cache.SZ.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.bare.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.bare.rom.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.bare.rom.SZ.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.bare.SZ.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.Gamecube.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.stub.c.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.stub.h
+    │   │   │       │   ├── ansi_prefix.PPCEABI.stub.rom.h
+    │   │   │       │   ├── cmath_gcn.h
+    │   │   │       │   ├── critical_regions.gamecube.h
+    │   │   │       │   ├── dtrigf.h
+    │   │   │       │   ├── fdlibm.PPCEABI.c.h
+    │   │   │       │   ├── fdlibm.PPCEABI.h
+    │   │   │       │   ├── fdlibm.PPCEABI.SZ.h
+    │   │   │       │   ├── fdlibm_Gamecube.prefix.h
+    │   │   │       │   ├── math_integral_gcn.h
+    │   │   │       │   ├── math_ppc.h
+    │   │   │       │   ├── math_ppc_inlines.h
+    │   │   │       │   ├── MSL_GCN_Prefix.h
+    │   │   │       │   ├── prefix.compressed.h
+    │   │   │       │   ├── PREFIX_EPPC_STUB.h
+    │   │   │       │   ├── prefix_SUPP_TRK_EPPC.c.h
+    │   │   │       │   ├── prefix_SUPP_TRK_EPPC.h
+    │   │   │       │   ├── setjmp.EPPC.h
+    │   │   │       │   ├── stdarg.EPPC.h
+    │   │   │       │   ├── time.dolphin.h
+    │   │   │       │   ├── time.PPCEABI.h
+    │   │   │       │   └── uart_console_config.h
+    │   │   │       ├── Lib/
+    │   │   │       │   ├── fdlibm.PPCEABI.H.a
+    │   │   │       │   └── MSL_C.PPCEABI.bare.H.a
+    │   │   │       ├── Project/
+    │   │   │       │   ├── fdlibm.E500.mcp
+    │   │   │       │   ├── fdlibm.PPCEABI.Gamecube.mcp
+    │   │   │       │   ├── fdlibm.PPCEABI.mcp
+    │   │   │       │   ├── MSL_C.E500.bare.mcp
+    │   │   │       │   ├── MSL_C.PPCEABI.bare.mcp
+    │   │   │       │   ├── MSL_C.PPCEABI.bare.old2.mcp
+    │   │   │       │   ├── MSL_C.PPCEABI.Gamecube.mcp
+    │   │   │       │   ├── MSL_C.PPCEABI.Gamecube.old2.mcp
+    │   │   │       │   ├── MSL_C.PPCEABI.stub.mcp
+    │   │   │       │   └── MSL_SUPP_EPPC.mcp
+    │   │   │       ├── SRC/
+    │   │   │       │   ├── abort_exit_ppc_eabi.c
+    │   │   │       │   ├── abort_exit_ppc_eabi.log
+    │   │   │       │   ├── assert.gcn.c
+    │   │   │       │   ├── assert.gcn.log
+    │   │   │       │   ├── critical_regions.gamecube.c
+    │   │   │       │   ├── critical_regions.gamecube.log
+    │   │   │       │   ├── critical_regions.ppc_eabi.c
+    │   │   │       │   ├── e500_spe_pim.c
+    │   │   │       │   ├── fenv.ppc.c
+    │   │   │       │   ├── fenv.ppc.log
+    │   │   │       │   ├── file_io.stub.c
+    │   │   │       │   ├── math_inlines.c
+    │   │   │       │   ├── math_ppc.c
+    │   │   │       │   ├── pool_alloc.stub.c
+    │   │   │       │   ├── small_string.c
+    │   │   │       │   ├── sysenv.GCN.c
+    │   │   │       │   ├── sysenv.GCN.log
+    │   │   │       │   ├── sysenv.ppceabi.c
+    │   │   │       │   ├── time.dolphin.c
+    │   │   │       │   ├── time.dolphin.log
+    │   │   │       │   ├── time.stub.c
+    │   │   │       │   ├── uart_console_io_gcn.c
+    │   │   │       │   ├── uart_console_io_gcn.log
+    │   │   │       │   └── vec_memcpy.c
+    │   │   │       └── Technical_Notes/
+    │   │   │           └── Porting MSL to Embedded OS.txt
+    │   │   ├── MSL_C++/
+    │   │   │   ├── MSL_Common/
+    │   │   │   │   ├── Include/
+    │   │   │   │   │   ├── algorithm
+    │   │   │   │   │   ├── algorithm.h
+    │   │   │   │   │   ├── array
+    │   │   │   │   │   ├── bind
+    │   │   │   │   │   ├── bitset
+    │   │   │   │   │   ├── bitset.h
+    │   │   │   │   │   ├── bitvector
+    │   │   │   │   │   ├── cdeque
+    │   │   │   │   │   ├── cdeque.h
+    │   │   │   │   │   ├── codecvt
+    │   │   │   │   │   ├── codecvt_byname
+    │   │   │   │   │   ├── codecvt_ext
+    │   │   │   │   │   ├── collate
+    │   │   │   │   │   ├── complex
+    │   │   │   │   │   ├── ctype
+    │   │   │   │   │   ├── ctype_byname
+    │   │   │   │   │   ├── deque
+    │   │   │   │   │   ├── deque.h
+    │   │   │   │   │   ├── exception
+    │   │   │   │   │   ├── exception.h
+    │   │   │   │   │   ├── fstream
+    │   │   │   │   │   ├── fstream.h
+    │   │   │   │   │   ├── functional
+    │   │   │   │   │   ├── functional.h
+    │   │   │   │   │   ├── functional_ext
+    │   │   │   │   │   ├── functional_ext.h
+    │   │   │   │   │   ├── hash_fun
+    │   │   │   │   │   ├── hash_fun.h
+    │   │   │   │   │   ├── hash_map
+    │   │   │   │   │   ├── hash_map.h
+    │   │   │   │   │   ├── hash_set
+    │   │   │   │   │   ├── hash_set.h
+    │   │   │   │   │   ├── hash_table
+    │   │   │   │   │   ├── iomanip
+    │   │   │   │   │   ├── iomanip.h
+    │   │   │   │   │   ├── ios
+    │   │   │   │   │   ├── ios.h
+    │   │   │   │   │   ├── iosfwd
+    │   │   │   │   │   ├── iosfwd.h
+    │   │   │   │   │   ├── iostream
+    │   │   │   │   │   ├── iostream.h
+    │   │   │   │   │   ├── istream
+    │   │   │   │   │   ├── istream.h
+    │   │   │   │   │   ├── iterator
+    │   │   │   │   │   ├── iterator.h
+    │   │   │   │   │   ├── limits
+    │   │   │   │   │   ├── list
+    │   │   │   │   │   ├── list.h
+    │   │   │   │   │   ├── locale
+    │   │   │   │   │   ├── localeimp
+    │   │   │   │   │   ├── map
+    │   │   │   │   │   ├── map.h
+    │   │   │   │   │   ├── memory
+    │   │   │   │   │   ├── messagefacet
+    │   │   │   │   │   ├── moneyfacet
+    │   │   │   │   │   ├── msl_bufferedbuf
+    │   │   │   │   │   ├── msl_c_filebuf
+    │   │   │   │   │   ├── msl_condition
+    │   │   │   │   │   ├── msl_consolebuf
+    │   │   │   │   │   ├── msl_int_limits
+    │   │   │   │   │   ├── msl_mutex
+    │   │   │   │   │   ├── msl_posixbuf
+    │   │   │   │   │   ├── msl_smart_pointers
+    │   │   │   │   │   ├── msl_thread
+    │   │   │   │   │   ├── msl_time
+    │   │   │   │   │   ├── msl_utility
+    │   │   │   │   │   ├── mslconfig
+    │   │   │   │   │   ├── mslconfig_gcc
+    │   │   │   │   │   ├── MSLstring.h
+    │   │   │   │   │   ├── new
+    │   │   │   │   │   ├── new.h
+    │   │   │   │   │   ├── niostream
+    │   │   │   │   │   ├── numeric
+    │   │   │   │   │   ├── numeric.h
+    │   │   │   │   │   ├── numfacet
+    │   │   │   │   │   ├── numpunct_byname
+    │   │   │   │   │   ├── ostream
+    │   │   │   │   │   ├── ostream.h
+    │   │   │   │   │   ├── queue
+    │   │   │   │   │   ├── queue.h
+    │   │   │   │   │   ├── RefCountedPtrArray.h
+    │   │   │   │   │   ├── set
+    │   │   │   │   │   ├── set.h
+    │   │   │   │   │   ├── slist
+    │   │   │   │   │   ├── slist.h
+    │   │   │   │   │   ├── sstream
+    │   │   │   │   │   ├── sstream.h
+    │   │   │   │   │   ├── stack
+    │   │   │   │   │   ├── stack.h
+    │   │   │   │   │   ├── stdexcept
+    │   │   │   │   │   ├── stdexcept.h
+    │   │   │   │   │   ├── streambuf
+    │   │   │   │   │   ├── streambuf.h
+    │   │   │   │   │   ├── string
+    │   │   │   │   │   ├── stringfwd
+    │   │   │   │   │   ├── stringfwd.h
+    │   │   │   │   │   ├── strstream
+    │   │   │   │   │   ├── strstream.h
+    │   │   │   │   │   ├── timefacet
+    │   │   │   │   │   ├── tree
+    │   │   │   │   │   ├── tuple
+    │   │   │   │   │   ├── tupleio
+    │   │   │   │   │   ├── typeinfo
+    │   │   │   │   │   ├── typeinfo.h
+    │   │   │   │   │   ├── utility
+    │   │   │   │   │   ├── utility.h
+    │   │   │   │   │   ├── valarray
+    │   │   │   │   │   ├── valarray.h
+    │   │   │   │   │   ├── vector
+    │   │   │   │   │   ├── vector.h
+    │   │   │   │   │   └── wiostream
+    │   │   │   │   └── Src/
+    │   │   │   │       ├── complex.cpp
+    │   │   │   │       ├── complex.log
+    │   │   │   │       ├── float.cpp
+    │   │   │   │       ├── ios.cpp
+    │   │   │   │       ├── ios.log
+    │   │   │   │       ├── iostream.cpp
+    │   │   │   │       ├── iostream.log
+    │   │   │   │       ├── locale.cpp
+    │   │   │   │       ├── locale.log
+    │   │   │   │       ├── msl_condition.cpp
+    │   │   │   │       ├── msl_mutex.cpp
+    │   │   │   │       ├── msl_thread.cpp
+    │   │   │   │       ├── msl_time.cpp
+    │   │   │   │       ├── MSLstring.cpp
+    │   │   │   │       ├── MSLstring.log
+    │   │   │   │       ├── strstream.cpp
+    │   │   │   │       └── strstream.log
+    │   │   │   ├── MSL_Precompiled_Headers/
+    │   │   │   │   └── Src/
+    │   │   │   │       ├── MSLHeaders++.cp
+    │   │   │   │       └── MSLHeaders++.h
+    │   │   │   └── PPC_EABI/
+    │   │   │       ├── Include/
+    │   │   │       │   ├── mslconfig_EPPC
+    │   │   │       │   └── mslconfig_GCN
+    │   │   │       ├── Lib/
+    │   │   │       │   └── MSL_C++.PPCEABI.bare.H.a
+    │   │   │       ├── Project/
+    │   │   │       │   ├── MSL_C++.E500.bare.mcp
+    │   │   │       │   ├── MSL_C++.E500.Headers.mcp
+    │   │   │       │   ├── MSL_C++.EPPC.Headers.mcp
+    │   │   │       │   ├── MSL_C++.GameCube.bare.mcp
+    │   │   │       │   ├── MSL_C++.GameCube.Headers.mcp
+    │   │   │       │   └── MSL_C++.PPCEABI.bare.mcp
+    │   │   │       └── Src/
+    │   │   │           ├── MSL.EPPC.Headers.A.LE.pch++
+    │   │   │           ├── MSL.EPPC.Headers.A.pch++
+    │   │   │           ├── MSL.EPPC.Headers.E.pch++
+    │   │   │           ├── MSL.EPPC.Headers.H.LE.pch++
+    │   │   │           ├── MSL.EPPC.Headers.H.pch++
+    │   │   │           ├── MSL.EPPC.Headers.N.LE.pch++
+    │   │   │           ├── MSL.EPPC.Headers.N.pch++
+    │   │   │           ├── MSL.EPPC.Headers.S.LE.pch++
+    │   │   │           ├── MSL.EPPC.Headers.S.pch++
+    │   │   │           ├── MSL.EPPC.Headers.SZ.E.pch++
+    │   │   │           ├── MSL.EPPC.Headers.SZ.S.pch++
+    │   │   │           ├── MSL.EPPC.Headers.Z5.pch++
+    │   │   │           ├── MSL.EPPC.Headers.Z650.pch++
+    │   │   │           └── MSLHeaders.EPPC.H.mch
+    │   │   ├── MSL_Extras/
+    │   │   │   ├── MSL_Common/
+    │   │   │   │   ├── Include/
+    │   │   │   │   │   ├── dirent.h
+    │   │   │   │   │   ├── extras.h
+    │   │   │   │   │   ├── extras_io.h
+    │   │   │   │   │   ├── extras_malloc.h
+    │   │   │   │   │   ├── extras_stdlib.h
+    │   │   │   │   │   ├── extras_string.h
+    │   │   │   │   │   ├── extras_time.h
+    │   │   │   │   │   ├── extras_wchar.h
+    │   │   │   │   │   ├── fcntl.h
+    │   │   │   │   │   ├── sys/
+    │   │   │   │   │   │   ├── stat.h
+    │   │   │   │   │   │   ├── timeb.h
+    │   │   │   │   │   │   └── utsname.h
+    │   │   │   │   │   ├── unistd.h
+    │   │   │   │   │   ├── unistd_api.h
+    │   │   │   │   │   ├── unix.h
+    │   │   │   │   │   └── utime.h
+    │   │   │   │   └── Src/
+    │   │   │   │       ├── extras.c
+    │   │   │   │       ├── old_posix.c
+    │   │   │   │       ├── stat.c
+    │   │   │   │       └── stdio_posix.c
+    │   │   │   └── MSL_Gamecube/
+    │   │   │       ├── Lib/
+    │   │   │       │   ├── MSL_Extras.PPCEABI.bare.H.a
+    │   │   │       │   └── MSL_Extras.PPCEABI.bare.H.a.bak
+    │   │   │       └── Project/
+    │   │   │           └── MSL_Extras.Gamecube.mcp
+    │   │   └── MSL_Release_Notes/
+    │   │       ├── BuildLibraries Release Note.txt
+    │   │       ├── MSL C Release Notes.txt
+    │   │       └── MSL C++ Release Notes.txt
+    │   └── Runtime/
+    │       ├── Inc/
+    │       │   ├── __mem.h
+    │       │   ├── __ppc_eabi_init.h
+    │       │   ├── __ppc_eabi_linker.h
+    │       │   ├── __ppc_eabi_linker.i
+    │       │   ├── alloca.h
+    │       │   ├── Gecko__jmp_buf.h
+    │       │   ├── Gecko_ExceptionPPC.h
+    │       │   ├── MWCPlusLib.h
+    │       │   ├── MWMemory.h
+    │       │   └── NMWException.h
+    │       ├── Include/
+    │       │   ├── __jmp_buf.h
+    │       │   ├── __mem.h
+    │       │   ├── __ppc_eabi_init.h
+    │       │   ├── __ppc_eabi_linker.h
+    │       │   ├── __ppc_eabi_linker.i
+    │       │   ├── alloca.h
+    │       │   ├── altivec.h
+    │       │   ├── ExceptionPPC.h
+    │       │   ├── Gecko__jmp_buf.h
+    │       │   ├── Gecko_ExceptionPPC.h
+    │       │   ├── MWCPlusLib.h
+    │       │   ├── MWMemory.h
+    │       │   ├── NMWException.h
+    │       │   └── spe.h
+    │       ├── Lib/
+    │       │   └── Runtime.PPCEABI.H.a
+    │       ├── Project/
+    │       │   ├── gecko_runtime_win32.prefix
+    │       │   └── Runtime.PPCEABI.Gamecube.mcp
+    │       └── Src/
+    │           ├── __init_cpp_exceptions.cpp
+    │           ├── __mem.c
+    │           ├── __va_arg.c
+    │           ├── CPlusLibPPC.cp
+    │           ├── GCN_mem_alloc.c
+    │           ├── Gecko_ExceptionPPC.cp
+    │           ├── Gecko_setjmp.c
+    │           ├── global_destructor_chain.c
+    │           ├── MWRTTI.cp
+    │           ├── New.cp
+    │           ├── NewMore.cp
+    │           ├── NMWException.cp
+    │           ├── ptmf.c
+    │           ├── runtime.c
+    │           └── sfpe.PPCEABI.a
+    ├── PowerPC_EABI_Tools/
+    │   └── Command_Line_Tools/
+    │       ├── CLT_EABI_PPC_Tools_Notes.txt
+    │       ├── CLT_Usage_Notes.txt
+    │       ├── Command_Line_Tool_Notes.txt
+    │       ├── license.dat
+    │       ├── lmgr326b.dll
+    │       ├── lmgr8c.dll
+    │       ├── main.c
+    │       ├── mwasmeppc.exe
+    │       ├── mwasmeppc.txt
+    │       ├── mwcceppc.exe
+    │       ├── mwcceppc.txt
+    │       ├── mwldeppc.exe
+    │       └── mwldeppc.txt
+    ├── Release_Notes/
+    │   ├── GAMECUBE/
+    │   │   ├── Compiler_Notes/
+    │   │   │   ├── CL Adapters Release Notes.txt
+    │   │   │   ├── CLT_Driver_ChangeLog.txt
+    │   │   │   ├── CLT_EABI_PPC_Tools_Notes.txt
+    │   │   │   ├── CLT_Usage_Notes.txt
+    │   │   │   ├── Command_Line_Tool_Notes.txt
+    │   │   │   ├── CW C-C++ Notes 4.x.txt
+    │   │   │   └── CW Nintendo PPC Notes.txt
+    │   │   ├── CW_GAMECUBE_Release_Notes.txt
+    │   │   ├── CWComUtil_Notes/
+    │   │   │   └── Release_Notes.txt
+    │   │   ├── Debugger_Notes/
+    │   │   │   ├── BootApp Release Notes.txt
+    │   │   │   └── VariableFormatter_Notes.txt
+    │   │   ├── FAQ Changing DDH to GDEV.doc
+    │   │   ├── IDE_Notes/
+    │   │   │   ├── CW_IDE_Windows_command_line.txt
+    │   │   │   ├── IDE_release_notes.txt
+    │   │   │   └── IDE_release_notes_Win.txt
+    │   │   ├── Other_Notes/
+    │   │   │   └── CW GAMECUBE FAQ.txt
+    │   │   └── Version_Control_Notes/
+    │   │       ├── CVS_GPL.txt
+    │   │       ├── mwcvs_win_release_notes.txt
+    │   │       └── mwSourceSafe_Release_Notes.txt
+    │   ├── Licenses/
+    │   │   ├── fsl-eula-TEXT.txt
+    │   │   └── License_Install.txt
+    │   └── PowerPC_EABI/
+    │       └── CW_Tools/
+    │           └── Compiler_Notes/
+    │               ├── CW C-C++ Notes 3.x.txt
+    │               ├── CW C-C++ Notes 4.x.txt
+    │               └── CW Embedded PPC Notes 4.0.x.txt
+    ├── Stationery/
+    │   ├── GAMECUBE_ALL_04-20-2004/
+    │   │   ├── Command Line C/
+    │   │   │   ├── C.mcp
+    │   │   │   └── main.c
+    │   │   ├── Command Line C With REL Module/
+    │   │   │   ├── c.mcp
+    │   │   │   ├── main.c
+    │   │   │   ├── module1.c
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── REL_Setup.c
+    │   │   │   └── REL_Setup.h
+    │   │   ├── Command Line C++/
+    │   │   │   ├── C++.mcp
+    │   │   │   └── main.cpp
+    │   │   ├── Command Line C++ With REL Module/
+    │   │   │   ├── c++.mcp
+    │   │   │   ├── main.cpp
+    │   │   │   ├── module1.cpp
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── REL_Setup.cpp
+    │   │   │   └── REL_Setup.h
+    │   │   ├── Plugin C/
+    │   │   │   ├── C.mcp
+    │   │   │   └── main.c
+    │   │   └── Plugin C++/
+    │   │       ├── C++.mcp
+    │   │       └── main.cpp
+    │   ├── GAMECUBE_DDH_04-20-2004/
+    │   │   ├── Command Line C/
+    │   │   │   ├── c.mcp
+    │   │   │   └── main.c
+    │   │   ├── Command Line C With REL Module/
+    │   │   │   ├── c.mcp
+    │   │   │   ├── main.c
+    │   │   │   ├── module1.c
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── REL_Setup.c
+    │   │   │   └── REL_Setup.h
+    │   │   ├── Command Line C++/
+    │   │   │   ├── c++.mcp
+    │   │   │   └── main.cpp
+    │   │   ├── Command Line C++ With REL Module/
+    │   │   │   ├── c++.mcp
+    │   │   │   ├── main.cpp
+    │   │   │   ├── module1.cpp
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── REL_Setup.cpp
+    │   │   │   └── REL_Setup.h
+    │   │   ├── Plugin C/
+    │   │   │   ├── c.mcp
+    │   │   │   └── main.c
+    │   │   └── Plugin C++/
+    │   │       ├── c++.mcp
+    │   │       └── main.cpp
+    │   ├── GAMECUBE_GDEV_04-20-2004/
+    │   │   ├── Command Line C/
+    │   │   │   ├── c.mcp
+    │   │   │   └── main.c
+    │   │   ├── Command Line C With REL Module/
+    │   │   │   ├── c.mcp
+    │   │   │   ├── main.c
+    │   │   │   ├── module1.c
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── REL_Setup.c
+    │   │   │   └── REL_Setup.h
+    │   │   ├── Command Line C++/
+    │   │   │   ├── c++.mcp
+    │   │   │   └── main.cpp
+    │   │   ├── Command Line C++ With REL Module/
+    │   │   │   ├── c++.mcp
+    │   │   │   ├── main.cpp
+    │   │   │   ├── module1.cpp
+    │   │   │   ├── partial.lcf
+    │   │   │   ├── REL_Setup.cpp
+    │   │   │   └── REL_Setup.h
+    │   │   ├── Plugin C/
+    │   │   │   ├── c.mcp
+    │   │   │   └── main.c
+    │   │   └── Plugin C++/
+    │   │       ├── c++.mcp
+    │   │       └── main.cpp
+    │   └── GAMECUBE_TDEV_04-20-2004/
+    │       ├── Command Line C/
+    │       │   ├── c.mcp
+    │       │   └── main.c
+    │       ├── Command Line C With REL Module/
+    │       │   ├── c.mcp
+    │       │   ├── main.c
+    │       │   ├── module1.c
+    │       │   ├── partial.lcf
+    │       │   ├── REL_Setup.c
+    │       │   └── REL_Setup.h
+    │       ├── Command Line C++/
+    │       │   ├── c++.mcp
+    │       │   └── main.cpp
+    │       ├── Command Line C++ With REL Module/
+    │       │   ├── c++.mcp
+    │       │   ├── main.cpp
+    │       │   ├── module1.cpp
+    │       │   ├── partial.lcf
+    │       │   ├── REL_Setup.cpp
+    │       │   └── REL_Setup.h
+    │       ├── Plugin C/
+    │       │   ├── C.mcp
+    │       │   └── main.c
+    │       └── Plugin C++/
+    │           ├── C++.mcp
+    │           └── main.cpp
+    └── Templates/
+        └── CPlus_Templates/
+            ├── ClassDecl.mtl
+            ├── ClassHeaderFile.mtl
+            ├── ClassSource.mtl
+            ├── ClassSourceFile.mtl
+            ├── ConstructorInitializer.mtl
+            ├── DataMemberDecl.mtl
+            ├── DataMemberDef.mtl
+            ├── HeaderFileBottom.mtl
+            ├── HeaderFileTop.mtl
+            ├── HeaderIncludeList.mtl
+            ├── HeaderNamespaceList.mtl
+            ├── MethodDecl.mtl
+            ├── MethodDef.mtl
+            ├── NewSourceFile.mtl
+            ├── SourceFileBottom.mtl
+            ├── SourceFileTop.mtl
+            ├── SourceIncludeList.mtl
+            ├── SourceNamespaceList.mtl
+            └── TopFileComment.mtl
