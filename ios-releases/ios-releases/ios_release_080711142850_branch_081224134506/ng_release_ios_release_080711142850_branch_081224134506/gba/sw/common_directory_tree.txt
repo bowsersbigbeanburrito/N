@@ -1,0 +1,3531 @@
+common/
+├── apps/
+│   ├── common/
+│   │   ├── apputils.c
+│   │   ├── apputils.h
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── Make.common
+│   │   └── Makefile
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Repository
+│   │   ├── Root
+│   │   └── Tag
+│   ├── fsmon/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── fscmd.c
+│   │   ├── fscmd.h
+│   │   ├── fsmon.c
+│   │   └── Make.common
+│   ├── Makefile
+│   ├── p2p/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── Makefile
+│   │   └── vnproxy/
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       ├── Make.common
+│   │       ├── Makefile
+│   │       ├── vnmux.c
+│   │       ├── vnmux.h
+│   │       ├── vnp_cmd.c
+│   │       ├── vnp_rpc.c
+│   │       ├── vnp_rpc.h
+│   │       ├── vnproxy.c
+│   │       └── vnproxy.h
+│   └── sktp/
+│       ├── CVS/
+│       │   ├── Entries
+│       │   ├── Repository
+│       │   ├── Root
+│       │   └── Tag
+│       ├── Make.common
+│       ├── Makefile
+│       ├── sktp.cpp
+│       ├── sktp.h
+│       ├── sktp_conf.cpp
+│       ├── sktp_i.h
+│       ├── sktp_main.cpp
+│       ├── sktp_rpc.cpp
+│       ├── sktp_rpc.h
+│       └── sktp_stl.h
+├── CVS/
+│   ├── Entries
+│   ├── Repository
+│   ├── Root
+│   └── Tag
+├── include/
+│   ├── .cvsignore
+│   ├── boot.h
+│   ├── cryptcalls
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Repository
+│   │   ├── Root
+│   │   └── Tag
+│   ├── elf.h
+│   ├── es_int.h
+│   ├── estypes.h
+│   ├── flash.h
+│   ├── fs.h
+│   ├── ios.py
+│   ├── iosc.h
+│   ├── iosccert.h
+│   ├── iosctypes.h
+│   ├── iosnvm.h
+│   ├── Makefile
+│   ├── modversion.h
+│   ├── root.h
+│   └── types.h
+├── lib/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Repository
+│   │   ├── Root
+│   │   └── Tag
+│   ├── ec/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── ec_acceptGiftTitle.cpp
+│   │   ├── ec_acceptGiftTitle.h
+│   │   ├── ec_alloc.h
+│   │   ├── ec_api.cpp
+│   │   ├── ec_asyncOp.cpp
+│   │   ├── ec_asyncOp.h
+│   │   ├── ec_base64.cpp
+│   │   ├── ec_base64.h
+│   │   ├── ec_buyPoints.cpp
+│   │   ├── ec_buyPoints.h
+│   │   ├── ec_bw.h
+│   │   ├── ec_checkReg.cpp
+│   │   ├── ec_checkReg.h
+│   │   ├── ec_chkDevStat.cpp
+│   │   ├── ec_chkDevStat.h
+│   │   ├── ec_chkDownload.h
+│   │   ├── ec_chkDownload_bw.cpp
+│   │   ├── ec_comm.h
+│   │   ├── ec_common.h
+│   │   ├── ec_config.h
+│   │   ├── ec_confirmKeyPair.cpp
+│   │   ├── ec_confirmKeyPair.h
+│   │   ├── ec_connect.cpp
+│   │   ├── ec_connect.h
+│   │   ├── ec_content.cpp
+│   │   ├── ec_content.h
+│   │   ├── ec_csup.cpp
+│   │   ├── ec_csup.h
+│   │   ├── ec_deleteContents.cpp
+│   │   ├── ec_deleteTicket.cpp
+│   │   ├── ec_deleteTicket.h
+│   │   ├── ec_dk.cpp
+│   │   ├── ec_downloadContents.cpp
+│   │   ├── ec_downloadContents.h
+│   │   ├── ec_esEsp.h
+│   │   ├── ec_file.h
+│   │   ├── ec_file_bw.cpp
+│   │   ├── ec_generateKeyPair.cpp
+│   │   ├── ec_generateKeyPair.h
+│   │   ├── ec_getContentsResReq.cpp
+│   │   ├── ec_getContentsResReq.h
+│   │   ├── ec_getPoints.cpp
+│   │   ├── ec_getPoints.h
+│   │   ├── ec_getTicketEnvelope.cpp
+│   │   ├── ec_getTicketEnvelope.h
+│   │   ├── ec_getTitle.cpp
+│   │   ├── ec_getTitle.h
+│   │   ├── ec_getTitleResReq.cpp
+│   │   ├── ec_getTitleResReq.h
+│   │   ├── ec_giftTitle.cpp
+│   │   ├── ec_giftTitle.h
+│   │   ├── ec_http.cpp
+│   │   ├── ec_http.h
+│   │   ├── ec_http_bw.cpp
+│   │   ├── ec_http_t.cpp
+│   │   ├── ec_js.cpp
+│   │   ├── ec_js.h
+│   │   ├── ec_launch.cpp
+│   │   ├── ec_list.cpp
+│   │   ├── ec_list.h
+│   │   ├── ec_listContentSets.cpp
+│   │   ├── ec_listContentSets.h
+│   │   ├── ec_listECardItems.cpp
+│   │   ├── ec_listECardItems.h
+│   │   ├── ec_listPointsPricings.cpp
+│   │   ├── ec_listPointsPricings.h
+│   │   ├── ec_listServiceItems.cpp
+│   │   ├── ec_listServiceItems.h
+│   │   ├── ec_listSubscriptionPricings.cpp
+│   │   ├── ec_listSubscriptionPricings.h
+│   │   ├── ec_listTitleContents.cpp
+│   │   ├── ec_listTitleContents.h
+│   │   ├── ec_listTitles.cpp
+│   │   ├── ec_listTitles.h
+│   │   ├── ec_log.h
+│   │   ├── ec_logbuf.cpp
+│   │   ├── ec_logbuf.h
+│   │   ├── ec_md5.cpp
+│   │   ├── ec_md5.h
+│   │   ├── ec_md5_global.h
+│   │   ├── ec_md5c.c
+│   │   ├── ec_md5c.h
+│   │   ├── ec_mem.cpp
+│   │   ├── ec_mem.h
+│   │   ├── ec_misc.cpp
+│   │   ├── ec_nhttpRename.h
+│   │   ├── ec_porting.h
+│   │   ├── ec_purchaseTitle.cpp
+│   │   ├── ec_purchaseTitle.h
+│   │   ├── ec_register.cpp
+│   │   ├── ec_register.h
+│   │   ├── ec_registerApi.cpp
+│   │   ├── ec_shop.cpp
+│   │   ├── ec_shoplog.h
+│   │   ├── ec_shoplog_bw.cpp
+│   │   ├── ec_soap.cpp
+│   │   ├── ec_soap.h
+│   │   ├── ec_stl.h
+│   │   ├── ec_string.cpp
+│   │   ├── ec_string.h
+│   │   ├── ec_subscribe.cpp
+│   │   ├── ec_subscribe.h
+│   │   ├── ec_syncTickets.cpp
+│   │   ├── ec_syncTickets.h
+│   │   ├── ec_syncTicketsApi.cpp
+│   │   ├── ec_sysconfig.h
+│   │   ├── ec_sysconfig_bw.cpp
+│   │   ├── ec_test.cpp
+│   │   ├── ec_test.h
+│   │   ├── ec_ticketedPurchase.h
+│   │   ├── ec_tmd.h
+│   │   ├── ec_updateStatus.cpp
+│   │   ├── ec_updateStatus.h
+│   │   ├── ec_wshop.cpp
+│   │   ├── include/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── ec.h
+│   │   │   ├── ec_apip.h
+│   │   │   ├── ecbase.h
+│   │   │   ├── ecestypes.h
+│   │   │   ├── ecx.h
+│   │   │   └── ecxtypes.h
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── shim/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── ec_rm.h
+│   │   │   └── ec_shim.c
+│   │   ├── ssl_socket.cpp
+│   │   └── ssl_socket.h
+│   ├── es/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── es.c
+│   │   ├── es.h
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   └── test/
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       ├── es_apitest.c
+│   │       ├── es_ck2test.c
+│   │       ├── es_swupdate.c
+│   │       ├── nc_apitest.c
+│   │       ├── rom1.rom
+│   │       ├── rom2.rom
+│   │       ├── rom3.rom
+│   │       └── rom4.rom
+│   ├── fs/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── fs.c
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   └── test/
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       ├── fs_apitest.c
+│   │       ├── fs_overwrite.c
+│   │       ├── fs_perf.c
+│   │       ├── fs_stress.c
+│   │       ├── Make.common
+│   │       └── README
+│   ├── ioscrypto/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   └── ioscrypto.c
+│   ├── ioslibc/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── ioslibc.h
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── other/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   └── get_cmdline.c
+│   │   ├── stdio/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── fclose.c
+│   │   │   ├── flen.c
+│   │   │   ├── fopen.c
+│   │   │   ├── fread.c
+│   │   │   ├── fseek.c
+│   │   │   ├── fwrite.c
+│   │   │   ├── getchar.c
+│   │   │   ├── gets.c
+│   │   │   ├── printf.c
+│   │   │   ├── printf.h
+│   │   │   ├── putchar.c
+│   │   │   ├── puts.c
+│   │   │   ├── rename.c
+│   │   │   ├── scanf.c
+│   │   │   ├── snprintf.c
+│   │   │   ├── time.c
+│   │   │   ├── tmpnam.c
+│   │   │   └── unlink.c
+│   │   └── string/
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       ├── isspace.c
+│   │       ├── isxdigit.c
+│   │       ├── memcmp.c
+│   │       ├── memcpy.c
+│   │       ├── memmove.c
+│   │       ├── memset.c
+│   │       ├── strchr.c
+│   │       ├── strncat.c
+│   │       ├── strncmp.c
+│   │       ├── strncpy.c
+│   │       ├── strnlen.c
+│   │       ├── strrchr.c
+│   │       ├── strstr.c
+│   │       ├── strtoul.c
+│   │       └── strtoull.c
+│   ├── libbsl/
+│   │   ├── bsl.c
+│   │   ├── bsl.h
+│   │   ├── bslutils.c
+│   │   ├── bslutils.h
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── keyglobals.c
+│   │   ├── keystore.c
+│   │   ├── keystore.h
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── prng.c
+│   │   ├── test/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── keytest.c
+│   │   │   ├── Makefile
+│   │   │   ├── skctest.c
+│   │   │   └── verifytest.c
+│   │   └── x86/
+│   │       ├── .bsl.d
+│   │       ├── .bslutils.d
+│   │       ├── .keyglobals.d
+│   │       ├── .keystore.d
+│   │       ├── .prng.d
+│   │       ├── bsl.o
+│   │       ├── bslutils.o
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       ├── keyglobals.o
+│   │       ├── keystore.o
+│   │       ├── libbsl.a
+│   │       ├── Makefile
+│   │       └── prng.o
+│   ├── libcsl/
+│   │   ├── aes.c
+│   │   ├── aes.h
+│   │   ├── aes_api.c
+│   │   ├── aes_api.h
+│   │   ├── aes_imp.c
+│   │   ├── aes_imp.h
+│   │   ├── algorithms.c
+│   │   ├── algorithms.h
+│   │   ├── convecc.c
+│   │   ├── conversions.h
+│   │   ├── convrsa.c
+│   │   ├── csl.h
+│   │   ├── cslaes.c
+│   │   ├── cslecc.c
+│   │   ├── cslhmac.c
+│   │   ├── cslrsa.c
+│   │   ├── cslsha.c
+│   │   ├── cslsha.h
+│   │   ├── csltypes.h
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── elliptic_math.c
+│   │   ├── elliptic_math.h
+│   │   ├── integer_math.c
+│   │   ├── integer_math.c.README
+│   │   ├── integer_math.h
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── poly_math.c
+│   │   ├── poly_math.c.README
+│   │   ├── poly_math.h
+│   │   ├── sha1.c
+│   │   ├── sha1.h
+│   │   ├── ssltest/
+│   │   │   ├── convtest.c
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── ecctest.c
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── sslrsa.c
+│   │   │   └── test_utils.c
+│   │   ├── test/
+│   │   │   ├── aestest.c
+│   │   │   ├── convtest.c
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── ecc-dhtest.c
+│   │   │   ├── ecc-kmodeq.c
+│   │   │   ├── ecctest.c
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── rsatest.c
+│   │   │   ├── shahmactest.c
+│   │   │   ├── sslrsa.c
+│   │   │   ├── test_utils.c
+│   │   │   ├── test_utils.h
+│   │   │   ├── tik-hack.c
+│   │   │   ├── tmd-hack.c
+│   │   │   └── x86/
+│   │   │       ├── CVS/
+│   │   │       │   ├── Entries
+│   │   │       │   ├── Repository
+│   │   │       │   ├── Root
+│   │   │       │   └── Tag
+│   │   │       └── Makefile
+│   │   └── x86/
+│   │       ├── .aes.d
+│   │       ├── .aes_api.d
+│   │       ├── .aes_imp.d
+│   │       ├── .algorithms.d
+│   │       ├── .convecc.d
+│   │       ├── .convrsa.d
+│   │       ├── .cslecc.d
+│   │       ├── .elliptic_math.d
+│   │       ├── .integer_math.d
+│   │       ├── .poly_math.d
+│   │       ├── .sha1.d
+│   │       ├── aes.o
+│   │       ├── aes_api.o
+│   │       ├── aes_imp.o
+│   │       ├── algorithms.o
+│   │       ├── convecc.o
+│   │       ├── convrsa.o
+│   │       ├── cslecc.o
+│   │       ├── cslrsa.o
+│   │       ├── cslrsa_dev.o
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       ├── elliptic_math.o
+│   │       ├── integer_math.o
+│   │       ├── libcsl.a
+│   │       ├── libcsl_dev.a
+│   │       ├── Makefile
+│   │       ├── poly_math.o
+│   │       └── sha1.o
+│   ├── Makefile
+│   ├── nhttp/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── d_def.h
+│   │   ├── d_nhttp.c
+│   │   ├── d_nhttp_common.c
+│   │   ├── d_nhttp_common.h
+│   │   ├── d_nhttp_private.c
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── nhttp.h
+│   │   ├── NHTTP_bgnend.c
+│   │   ├── NHTTP_bgnend.h
+│   │   ├── NHTTP_control.c
+│   │   ├── NHTTP_control.h
+│   │   ├── NHTTP_list.c
+│   │   ├── NHTTP_list.h
+│   │   ├── NHTTP_recvbuf.c
+│   │   ├── NHTTP_recvbuf.h
+│   │   ├── NHTTP_request.c
+│   │   ├── NHTTP_request.h
+│   │   ├── NHTTP_response.c
+│   │   ├── NHTTP_response.h
+│   │   ├── NHTTP_thread.c
+│   │   ├── NHTTP_thread.h
+│   │   ├── NHTTPlib_int.h
+│   │   └── NHTTPlib_int_socket.h
+│   ├── nup/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── nup.c
+│   │   ├── nup.h
+│   │   ├── nup_cache.c
+│   │   ├── nup_cache.h
+│   │   ├── nup_download.c
+│   │   ├── nup_download.h
+│   │   ├── nup_http.h
+│   │   ├── nup_init.h
+│   │   ├── nup_log.c
+│   │   ├── nup_log.h
+│   │   ├── nup_mem.c
+│   │   ├── nup_mem.h
+│   │   ├── nup_op.c
+│   │   ├── nup_op.h
+│   │   ├── nup_soap.c
+│   │   ├── nup_soap.h
+│   │   ├── nup_stdlib.c
+│   │   ├── nup_stdlib.h
+│   │   ├── nup_system.c
+│   │   ├── nup_system.h
+│   │   └── shim/
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       ├── Make.common
+│   │       ├── Makefile
+│   │       ├── nup_rm.h
+│   │       └── nup_shim.c
+│   ├── p2p/
+│   │   ├── api/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── Make.api_cfiles
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── p2p_api.c
+│   │   │   ├── p2p_api_no_rm.c
+│   │   │   ├── p2p_evd.c
+│   │   │   ├── p2p_gev.c
+│   │   │   ├── p2p_i.h
+│   │   │   ├── p2p_jr.c
+│   │   │   ├── p2p_misc.c
+│   │   │   ├── p2p_msg.c
+│   │   │   ├── p2p_net.c
+│   │   │   ├── p2p_nr.c
+│   │   │   ├── p2p_plat.h
+│   │   │   ├── p2p_rpc.c
+│   │   │   ├── p2p_server.h
+│   │   │   ├── p2p_server_rpc.h
+│   │   │   ├── p2p_to.c
+│   │   │   └── p2p_vnev.c
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── modules/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── p2p_matchmaking_fastgroup.c
+│   │   │   ├── p2p_matchmaking_fastgroup.h
+│   │   │   ├── p2p_matchmaking_random.c
+│   │   │   ├── p2p_matchmaking_random.h
+│   │   │   ├── p2p_matchmaking_whitepage.c
+│   │   │   ├── p2p_matchmaking_whitepage.h
+│   │   │   ├── p2p_matchmaking_whitepage_vnid.c
+│   │   │   └── p2p_matchmaking_whitepage_vnid.h
+│   │   ├── p2p.c
+│   │   ├── p2p.h
+│   │   ├── p2p_errors.h
+│   │   ├── p2p_impl.h
+│   │   ├── p2p_ios.h
+│   │   ├── p2p_priv.h
+│   │   ├── p2p_priv_t.h
+│   │   ├── p2p_rm.h
+│   │   ├── p2p_s.c
+│   │   ├── README
+│   │   ├── services/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── p2p_gballoc.c
+│   │   │   ├── p2p_services.h
+│   │   │   ├── p2p_services_deprecated.h
+│   │   │   ├── p2p_services_priv.h
+│   │   │   ├── p2p_services_user.c
+│   │   │   ├── p2p_svcs_i.c
+│   │   │   ├── p2p_svcs_i.h
+│   │   │   ├── p2p_svcs_misc.c
+│   │   │   ├── p2p_svcs_no_rm.c
+│   │   │   ├── vna_errmsg.c
+│   │   │   └── vna_misc.h
+│   │   ├── share/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── p2p_serialization.c
+│   │   │   ├── p2p_serialization.h
+│   │   │   ├── shr_getopt.c
+│   │   │   ├── shr_getopt.h
+│   │   │   ├── shr_lib.h
+│   │   │   ├── shr_mem.c
+│   │   │   ├── shr_mem.h
+│   │   │   ├── shr_plat.h
+│   │   │   ├── shr_strlen.c
+│   │   │   ├── shr_strnlen.c
+│   │   │   ├── shr_th.h
+│   │   │   ├── shr_time.h
+│   │   │   ├── shr_trace.c
+│   │   │   ├── shr_trace.h
+│   │   │   ├── shr_trace_i.h
+│   │   │   └── shr_types.h
+│   │   ├── shr/
+│   │   │   ├── bcc_assert.h
+│   │   │   ├── bcc_common.h
+│   │   │   ├── bcc_read_write_lock.h
+│   │   │   ├── bcc_safe_conversion.h
+│   │   │   ├── bcc_serialization.c
+│   │   │   ├── bcc_serialization.h
+│   │   │   ├── bcc_strings.c
+│   │   │   ├── bcc_strings.h
+│   │   │   ├── bcc_types.h
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── p2p_serialization.c
+│   │   │   ├── p2p_serialization.h
+│   │   │   ├── plat_read_write_lock.c
+│   │   │   ├── shr_getopt.c
+│   │   │   ├── shr_getopt.h
+│   │   │   ├── shr_lib.h
+│   │   │   ├── shr_mem.c
+│   │   │   ├── shr_mem.h
+│   │   │   ├── shr_plat.h
+│   │   │   ├── shr_queue.c
+│   │   │   ├── shr_queue.h
+│   │   │   ├── shr_rm.h
+│   │   │   ├── shr_shim.c
+│   │   │   ├── shr_shim.h
+│   │   │   ├── shr_strlen.c
+│   │   │   ├── shr_strnlen.c
+│   │   │   ├── shr_syslog.c
+│   │   │   ├── shr_syslog.h
+│   │   │   ├── shr_th.h
+│   │   │   ├── shr_time.h
+│   │   │   ├── shr_trace.c
+│   │   │   ├── shr_trace.h
+│   │   │   ├── shr_trace_i.h
+│   │   │   └── shr_types.h
+│   │   ├── test/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── echoping/
+│   │   │   │   ├── config.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── echo.c
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── ping.c
+│   │   │   │   └── porting.h
+│   │   │   ├── events/
+│   │   │   │   ├── buddyStatus.c
+│   │   │   │   ├── common.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── getVNEvent.c
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   └── userEvent.c
+│   │   │   ├── fastGroup/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   └── TestFastGroup.c
+│   │   │   ├── fieldDiagnostic/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── fd_p2p_init.h
+│   │   │   │   ├── fd_peer_compat.h
+│   │   │   │   ├── fd_peer_compat_host.c
+│   │   │   │   ├── fd_peer_compat_host.h
+│   │   │   │   ├── fd_peer_compat_host_i.h
+│   │   │   │   ├── fd_peer_compat_join.c
+│   │   │   │   ├── fd_peer_compat_join.h
+│   │   │   │   ├── fd_peer_compat_join_i.h
+│   │   │   │   ├── field_diagnostic.h
+│   │   │   │   ├── field_diagnostic_main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   └── test_porting.h
+│   │   │   ├── framework/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── p2p_nts_config.h
+│   │   │   │   ├── p2p_test_cases.h
+│   │   │   │   ├── p2p_test_environment.c
+│   │   │   │   ├── p2p_test_environment.h
+│   │   │   │   ├── p2p_test_framework.h
+│   │   │   │   ├── p2p_test_invariant.c
+│   │   │   │   ├── p2p_test_invariant.h
+│   │   │   │   ├── p2p_test_porting.h
+│   │   │   │   ├── p2p_test_print.c
+│   │   │   │   ├── p2p_test_print.h
+│   │   │   │   ├── p2p_test_setup.c
+│   │   │   │   ├── p2p_test_setup.h
+│   │   │   │   └── README
+│   │   │   ├── gameExpire/
+│   │   │   │   ├── config.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   └── TestGameExpire.c
+│   │   │   ├── gameStatus/
+│   │   │   │   ├── config.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   └── TestGameStatus.c
+│   │   │   ├── loopback/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── loopback.c
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   └── porting.h
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── mergePartition/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   └── TestMergePartition.c
+│   │   │   ├── message/
+│   │   │   │   ├── config.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   └── TestMessage.c
+│   │   │   ├── migratePartition/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   └── TestMigratePartition.c
+│   │   │   ├── natTest/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── natTest.c
+│   │   │   │   ├── natTest.h
+│   │   │   │   ├── natTest_serialization.c
+│   │   │   │   ├── natTest_server.c
+│   │   │   │   └── porting.h
+│   │   │   ├── ndev/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── ndevSerialCpp/
+│   │   │   │   │   ├── .cproject
+│   │   │   │   │   ├── .externalToolBuilders/
+│   │   │   │   │   │   └── DisplayContext.launch
+│   │   │   │   │   ├── .project
+│   │   │   │   │   ├── launchDiscAll.bat
+│   │   │   │   │   ├── makeCygwin/
+│   │   │   │   │   │   ├── makefile
+│   │   │   │   │   │   ├── ndevSerial.exe
+│   │   │   │   │   │   ├── sources.mk
+│   │   │   │   │   │   └── src/
+│   │   │   │   │   │       ├── ndevSerial.d
+│   │   │   │   │   │       ├── ndevSerial.o
+│   │   │   │   │   │       └── subdir.mk
+│   │   │   │   │   ├── oldMakefile
+│   │   │   │   │   └── src/
+│   │   │   │   │       └── ndevSerial.cpp
+│   │   │   │   └── ndevTestRunner/
+│   │   │   │       ├── .classpath
+│   │   │   │       ├── .project
+│   │   │   │       ├── bin/
+│   │   │   │       └── src/
+│   │   │   │           └── com/
+│   │   │   │               └── broadon/
+│   │   │   │                   └── test/
+│   │   │   │                       └── util/
+│   │   │   │                           ├── JCLUtils.java
+│   │   │   │                           ├── NDEVTestRunner.java
+│   │   │   │                           ├── ProcessTerminationGuard.java
+│   │   │   │                           ├── ProcessWrapper.java
+│   │   │   │                           └── StreamReader.java
+│   │   │   ├── ntsClient/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── ntsClient.h
+│   │   │   │   └── ping.c
+│   │   │   ├── p2p_testcfg.h
+│   │   │   ├── randomMatch/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   └── TestRandomMatch.c
+│   │   │   ├── router/
+│   │   │   │   ├── client.c
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   └── server.c
+│   │   │   ├── rpc/
+│   │   │   │   ├── config.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── echo.c
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── ping.c
+│   │   │   │   └── porting.h
+│   │   │   ├── rtping/
+│   │   │   │   ├── config.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── echo.c
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── ping.c
+│   │   │   │   └── porting.h
+│   │   │   ├── sanity/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── porting.h
+│   │   │   │   └── sanity.c
+│   │   │   ├── scalability/
+│   │   │   │   ├── common.c
+│   │   │   │   ├── common.h
+│   │   │   │   ├── cus.c
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── fastgroup.c
+│   │   │   │   ├── getopt.c
+│   │   │   │   ├── getopt.h
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── randomsearch.c
+│   │   │   │   ├── vntrinetwork.cpp
+│   │   │   │   ├── voip.c
+│   │   │   │   └── whitepage.c
+│   │   │   ├── score/
+│   │   │   │   ├── config.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── TestScoreClient.c
+│   │   │   │   └── TestScoreServer.c
+│   │   │   ├── searchUser/
+│   │   │   │   ├── common.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   └── testFindGuid.c
+│   │   │   ├── speed/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── echo.c
+│   │   │   │   ├── main.c
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── porting.h
+│   │   │   │   └── speed.c
+│   │   │   ├── stats/
+│   │   │   │   ├── client.c
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── host.c
+│   │   │   │   └── Make.common
+│   │   │   ├── user/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── TestUser.c
+│   │   │   │   └── user_config.h
+│   │   │   ├── vn_ts_echoping/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── info.txt
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── ts_config.h
+│   │   │   │   ├── ts_echo.c
+│   │   │   │   ├── ts_main.c
+│   │   │   │   ├── ts_ping.c
+│   │   │   │   └── ts_porting.h
+│   │   │   └── whitepage/
+│   │   │       ├── common.h
+│   │   │       ├── CVS/
+│   │   │       │   ├── Entries
+│   │   │       │   ├── Repository
+│   │   │       │   ├── Root
+│   │   │       │   └── Tag
+│   │   │       ├── Make.common
+│   │   │       └── testWhitePage.c
+│   │   ├── vn/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── p2pi_vn_error.defs
+│   │   │   ├── shim/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   └── vnshim.c
+│   │   │   ├── test/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── Make.common
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── uproxy.c
+│   │   │   │   ├── vncctest.sh
+│   │   │   │   ├── vnclient.c
+│   │   │   │   ├── vncmd.c
+│   │   │   │   ├── vnconfig.c
+│   │   │   │   ├── vnmatchsr.pl
+│   │   │   │   ├── vnreadpkts.c
+│   │   │   │   ├── vnruntest.sh
+│   │   │   │   ├── vnsctest.sh
+│   │   │   │   ├── vnserver.c
+│   │   │   │   ├── vnsimple.c
+│   │   │   │   ├── vntcommon.c
+│   │   │   │   ├── vntest.c
+│   │   │   │   ├── vntest.h
+│   │   │   │   ├── vntest1.prop
+│   │   │   │   ├── vntest1.sh
+│   │   │   │   ├── vntest2.sh
+│   │   │   │   ├── vntest3.sh
+│   │   │   │   ├── vntest3a.prop
+│   │   │   │   ├── vntest3b.prop
+│   │   │   │   ├── vntest4.sh
+│   │   │   │   ├── vntestcore.c
+│   │   │   │   ├── vntestpkt.c
+│   │   │   │   ├── vnteststats.c
+│   │   │   │   └── vntevents.c
+│   │   │   ├── vn.h
+│   │   │   ├── vnapi.c
+│   │   │   ├── vnapi_common.c
+│   │   │   ├── vnapi_debug.h
+│   │   │   ├── vnapi_wrapper.h
+│   │   │   ├── vncert.c
+│   │   │   ├── vncert.h
+│   │   │   ├── vnctrlmsg.h
+│   │   │   ├── vndebug.c
+│   │   │   ├── vndebug.h
+│   │   │   ├── vndevices.c
+│   │   │   ├── vndevices.h
+│   │   │   ├── vndisp.c
+│   │   │   ├── vnevents.c
+│   │   │   ├── vnevents.h
+│   │   │   ├── vnfirewall.c
+│   │   │   ├── vnfirewall.h
+│   │   │   ├── vnfragment.c
+│   │   │   ├── vnguid.c
+│   │   │   ├── vnhash.c
+│   │   │   ├── vnhash.h
+│   │   │   ├── vnhs.c
+│   │   │   ├── vnhs.h
+│   │   │   ├── vnlist.c
+│   │   │   ├── vnlist.h
+│   │   │   ├── vnlocal.h
+│   │   │   ├── vnlocaltypes.h
+│   │   │   ├── vnlog.c
+│   │   │   ├── vnmhp.c
+│   │   │   ├── vnmsg.c
+│   │   │   ├── vnmsg.h
+│   │   │   ├── vnnat.c
+│   │   │   ├── vnnat.h
+│   │   │   ├── vnnet.c
+│   │   │   ├── vnnet.h
+│   │   │   ├── vnnetcore.c
+│   │   │   ├── vnnetcore.h
+│   │   │   ├── vnnetif.c
+│   │   │   ├── vnnetif.h
+│   │   │   ├── vnnetif_socket.c
+│   │   │   ├── vnnetmsg.c
+│   │   │   ├── vnport.c
+│   │   │   ├── vnqm.c
+│   │   │   ├── vnretrans.c
+│   │   │   ├── vnrm.h
+│   │   │   ├── vnrt.c
+│   │   │   ├── vnrt.h
+│   │   │   ├── vnrtable.c
+│   │   │   ├── vnrtable.h
+│   │   │   ├── vnsec.c
+│   │   │   ├── vnsec.h
+│   │   │   ├── vnsocket.c
+│   │   │   ├── vnsocket.h
+│   │   │   ├── vnsys.h
+│   │   │   ├── vntime.c
+│   │   │   ├── vntimer.c
+│   │   │   ├── vntimer.h
+│   │   │   ├── vntypes.h
+│   │   │   └── vnutil.c
+│   │   ├── voice/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── g726.cpp
+│   │   │   ├── g726.h
+│   │   │   ├── libvoice.c
+│   │   │   ├── Make.common
+│   │   │   ├── Makefile
+│   │   │   ├── platform.h
+│   │   │   ├── rm.c
+│   │   │   ├── test/
+│   │   │   │   ├── codec/
+│   │   │   │   │   ├── codec.sln
+│   │   │   │   │   ├── codec.vcproj
+│   │   │   │   │   ├── CVS/
+│   │   │   │   │   │   ├── Entries
+│   │   │   │   │   │   ├── Repository
+│   │   │   │   │   │   ├── Root
+│   │   │   │   │   │   └── Tag
+│   │   │   │   │   ├── decode.cpp
+│   │   │   │   │   ├── decode.vcproj
+│   │   │   │   │   ├── encode.cpp
+│   │   │   │   │   └── ReadMe.txt
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   └── ITUg726/
+│   │   │   │       ├── compress.c
+│   │   │   │       ├── CVS/
+│   │   │   │       │   ├── Entries
+│   │   │   │       │   ├── Repository
+│   │   │   │       │   ├── Root
+│   │   │   │       │   └── Tag
+│   │   │   │       ├── cvt_h_b.c
+│   │   │   │       ├── expand.c
+│   │   │   │       ├── g726.c
+│   │   │   │       ├── g726.h
+│   │   │   │       ├── g726.rme
+│   │   │   │       ├── g726demo.c
+│   │   │   │       ├── Makefile
+│   │   │   │       ├── makefile.unx
+│   │   │   │       ├── readme.txt
+│   │   │   │       ├── ugstdemo.h
+│   │   │   │       └── vbr-g726.c
+│   │   │   ├── voice_int.h
+│   │   │   └── voice_rm.h
+│   │   └── voice.c
+│   ├── sktp/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── sktp_api.c
+│   │   ├── sktp_api.h
+│   │   ├── sktp_common.h
+│   │   ├── sktp_rpc.c
+│   │   └── sktp_rpc.h
+│   ├── socp/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── socp.h
+│   │   └── socp_rm.h
+│   └── testutils/
+│       ├── CVS/
+│       │   ├── Entries
+│       │   ├── Repository
+│       │   ├── Root
+│       │   └── Tag
+│       ├── Make.common
+│       ├── Makefile
+│       ├── testutils.h
+│       └── utils.c
+├── Makefile
+├── os/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Repository
+│   │   ├── Root
+│   │   └── Tag
+│   ├── ec/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── ec_cmds.c
+│   │   ├── ec_common.h
+│   │   ├── ec_rm.c
+│   │   └── Make.common
+│   ├── es/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── es_boot.c
+│   │   ├── es_boot.h
+│   │   ├── es_cert.c
+│   │   ├── es_cert.h
+│   │   ├── es_list.c
+│   │   ├── es_list.h
+│   │   ├── es_mgr.c
+│   │   ├── es_ticket.c
+│   │   ├── es_ticket.h
+│   │   ├── es_title.c
+│   │   ├── es_title.h
+│   │   ├── es_utils.c
+│   │   ├── es_utils.h
+│   │   └── Make.common
+│   ├── fs/
+│   │   ├── boot2_ops.c
+│   │   ├── boot2_ops.h
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── fl_ops.c
+│   │   ├── fl_ops.h
+│   │   ├── fl_utils.h
+│   │   ├── fs_block.c
+│   │   ├── fs_block.h
+│   │   ├── fs_fat.c
+│   │   ├── fs_fat.h
+│   │   ├── fs_mgr.c
+│   │   ├── fs_ops.c
+│   │   ├── fs_ops.h
+│   │   ├── fs_utils.h
+│   │   ├── Make.common
+│   │   ├── Makefile
+│   │   ├── README
+│   │   └── test/
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       ├── fs_coproc.c
+│   │       ├── fs_regr.c
+│   │       ├── Make.common
+│   │       ├── README
+│   │       ├── trylock.h
+│   │       └── trylock.s
+│   ├── Makefile
+│   ├── p2p/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── Make.common
+│   │   ├── p2p_rm.c
+│   │   ├── shr_rm.c
+│   │   └── vnrm.c
+│   └── tests/
+│       ├── CVS/
+│       │   ├── Entries
+│       │   ├── Repository
+│       │   ├── Root
+│       │   └── Tag
+│       ├── iosc/
+│       │   ├── certtest.c
+│       │   ├── common.h
+│       │   ├── crypto.c
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── eccreftest.c
+│       │   ├── eepromtest.c
+│       │   ├── getdevicecert.c
+│       │   ├── handletest.c
+│       │   ├── hashperf.c
+│       │   ├── hashtest.c
+│       │   ├── hmactest.c
+│       │   ├── keygentest.c
+│       │   ├── Make.common
+│       │   ├── Makefile
+│       │   ├── memchecktest.c
+│       │   ├── ownerstest.c
+│       │   ├── prottest.c
+│       │   ├── randtest.c
+│       │   ├── rngtest.c
+│       │   ├── rsavertest.c
+│       │   ├── signvertest.c
+│       │   ├── testcommon.h
+│       │   └── versiontest.c
+│       └── Makefile
+├── sdks/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Repository
+│   │   ├── Root
+│   │   └── Tag
+│   └── p2p/
+│       ├── core/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── doc/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── P2PCore.dox
+│       │   │   ├── P2PImpl.dox
+│       │   │   └── References.h
+│       │   ├── impl_common/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── p2pi.c
+│       │   │   ├── p2pi.h
+│       │   │   ├── p2pi_api_event.defs
+│       │   │   ├── p2pi_channel_types.h
+│       │   │   ├── p2pi_channels.c
+│       │   │   ├── p2pi_diagnostics.c
+│       │   │   ├── p2pi_diagnostics.defs
+│       │   │   ├── p2pi_dispatcher_thread.c
+│       │   │   ├── p2pi_dispatcher_thread.h
+│       │   │   ├── p2pi_event_types.h
+│       │   │   ├── p2pi_event_waiters.c
+│       │   │   ├── p2pi_events_p2p.c
+│       │   │   ├── p2pi_events_vnli.c
+│       │   │   ├── p2pi_hash.c
+│       │   │   ├── p2pi_hash.h
+│       │   │   ├── p2pi_instances.c
+│       │   │   ├── p2pi_instances.h
+│       │   │   ├── p2pi_mem.c
+│       │   │   ├── p2pi_misc.c
+│       │   │   ├── p2pi_misc.h
+│       │   │   ├── p2pi_msg.h
+│       │   │   ├── p2pi_msg_recv.c
+│       │   │   ├── p2pi_msg_send.c
+│       │   │   ├── p2pi_peer_types.h
+│       │   │   ├── p2pi_peers.c
+│       │   │   ├── p2pi_platform.h
+│       │   │   ├── p2pi_serialization.c
+│       │   │   ├── p2pi_serialization.h
+│       │   │   ├── p2pi_state.h
+│       │   │   ├── p2pi_svc_framework.c
+│       │   │   ├── p2pi_svc_framework.h
+│       │   │   ├── p2pi_svc_requests.c
+│       │   │   ├── p2pi_threads.c
+│       │   │   ├── p2pi_threads.h
+│       │   │   ├── p2pi_timeout.c
+│       │   │   ├── p2pi_vn.c
+│       │   │   ├── p2pi_vn.h
+│       │   │   ├── p2pi_vn_types.h
+│       │   │   ├── p2pi_voice.c
+│       │   │   ├── p2pi_waiter_types.h
+│       │   │   └── p2pu_core_serialization.c
+│       │   ├── impl_server/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── p2pi_server.c
+│       │   │   └── p2pi_server.h
+│       │   ├── include/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── p2p.h
+│       │   │   ├── p2p_errors.h
+│       │   │   └── p2p_types.h
+│       │   ├── include_ex/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── p2p_error.defs
+│       │   │   ├── p2p_ex.h
+│       │   │   ├── p2p_utils.h
+│       │   │   ├── p2pi_mem.h
+│       │   │   └── p2pu_core_serialization.h
+│       │   ├── include_server/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── ~p2p_server.h
+│       │   │   └── ~p2p_server_rpc.h
+│       │   ├── platform_bw/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── p2p_platform.h
+│       │   │   └── Makefile
+│       │   ├── platform_linux/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── p2p_platform.h
+│       │   │   └── Makefile
+│       │   ├── platform_rvl/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── include/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       └── p2p_platform.h
+│       │   └── platform_win32/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       └── include/
+│       │           ├── CVS/
+│       │           │   ├── Entries
+│       │           │   ├── Repository
+│       │           │   ├── Root
+│       │           │   └── Tag
+│       │           └── p2p_platform.h
+│       ├── CVS/
+│       │   ├── Entries
+│       │   ├── Repository
+│       │   ├── Root
+│       │   └── Tag
+│       ├── demos/
+│       │   ├── common/
+│       │   │   ├── commondefs.demos.mk
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── demos_common.mk
+│       │   │   ├── include_rvl/
+│       │   │   │   ├── __platformGraphicsTypes.h
+│       │   │   │   ├── __platformTypes.h
+│       │   │   │   ├── __PlatformUserInput.hpp
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── demo_system.h
+│       │   │   │   ├── platform_core.h
+│       │   │   │   ├── SystemAudioInterface.hpp
+│       │   │   │   ├── SystemMic.hpp
+│       │   │   │   ├── SystemTimer.hpp
+│       │   │   │   └── Threads.hpp
+│       │   │   ├── Makefile381.mk
+│       │   │   ├── modulerules.demos.mk
+│       │   │   ├── README.txt
+│       │   │   ├── rvl_p2p_sdk_defs.mk
+│       │   │   └── src_rvl/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── PlatformUserInput.cpp
+│       │   │       ├── SystemAudioInterface.cpp
+│       │   │       ├── SystemAudioMixer.cpp
+│       │   │       ├── SystemGraphics.cpp
+│       │   │       ├── SystemGraphicsUtils.cpp
+│       │   │       ├── SystemMic.cpp
+│       │   │       ├── SystemShutdownManagement.c
+│       │   │       └── SystemSockets.cpp
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── examples/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       └── p2p_examples.c
+│       │   ├── imported_libs/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── platform_bw/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── rvl_sd_card/
+│       │   │       │   ├── CVS/
+│       │   │       │   │   ├── Entries
+│       │   │       │   │   ├── Repository
+│       │   │       │   │   ├── Root
+│       │   │       │   │   └── Tag
+│       │   │       │   ├── include/
+│       │   │       │   │   ├── CVS/
+│       │   │       │   │   │   ├── Entries
+│       │   │       │   │   │   ├── Repository
+│       │   │       │   │   │   ├── Root
+│       │   │       │   │   │   └── Tag
+│       │   │       │   │   └── revolution/
+│       │   │       │   │       ├── CVS/
+│       │   │       │   │       │   ├── Entries
+│       │   │       │   │       │   ├── Repository
+│       │   │       │   │       │   ├── Root
+│       │   │       │   │       │   └── Tag
+│       │   │       │   │       ├── fa/
+│       │   │       │   │       │   ├── CVS/
+│       │   │       │   │       │   │   ├── Entries
+│       │   │       │   │       │   │   ├── Repository
+│       │   │       │   │       │   │   ├── Root
+│       │   │       │   │       │   │   └── Tag
+│       │   │       │   │       │   ├── fa_api.h
+│       │   │       │   │       │   ├── fa_api_async.h
+│       │   │       │   │       │   └── fa_types.h
+│       │   │       │   │       └── fa.h
+│       │   │       │   └── lib/
+│       │   │       │       ├── CVS/
+│       │   │       │       │   ├── Entries
+│       │   │       │       │   ├── Repository
+│       │   │       │       │   ├── Root
+│       │   │       │       │   └── Tag
+│       │   │       │       └── RVL/
+│       │   │       │           ├── CVS/
+│       │   │       │           │   ├── Entries
+│       │   │       │           │   ├── Repository
+│       │   │       │           │   ├── Root
+│       │   │       │           │   └── Tag
+│       │   │       │           ├── fa.a
+│       │   │       │           ├── faD.a
+│       │   │       │           ├── sdi.a
+│       │   │       │           ├── sdiD.a
+│       │   │       │           ├── usbcmn.a
+│       │   │       │           └── usbcmnD.a
+│       │   │       ├── tmccjpeg/
+│       │   │       │   ├── CVS/
+│       │   │       │   │   ├── Entries
+│       │   │       │   │   ├── Repository
+│       │   │       │   │   ├── Root
+│       │   │       │   │   └── Tag
+│       │   │       │   ├── include/
+│       │   │       │   │   ├── CVS/
+│       │   │       │   │   │   ├── Entries
+│       │   │       │   │   │   ├── Repository
+│       │   │       │   │   │   ├── Root
+│       │   │       │   │   │   └── Tag
+│       │   │       │   │   └── revolution/
+│       │   │       │   │       ├── CVS/
+│       │   │       │   │       │   ├── Entries
+│       │   │       │   │       │   ├── Repository
+│       │   │       │   │       │   ├── Root
+│       │   │       │   │       │   └── Tag
+│       │   │       │   │       └── tmcc_jpeg.h
+│       │   │       │   └── lib/
+│       │   │       │       ├── CVS/
+│       │   │       │       │   ├── Entries
+│       │   │       │       │   ├── Repository
+│       │   │       │       │   ├── Root
+│       │   │       │       │   └── Tag
+│       │   │       │       └── RVL/
+│       │   │       │           ├── CVS/
+│       │   │       │           │   ├── Entries
+│       │   │       │           │   ├── Repository
+│       │   │       │           │   ├── Root
+│       │   │       │           │   └── Tag
+│       │   │       │           └── tmccjpeg.a
+│       │   │       └── usbmic-0.85/
+│       │   │           ├── CVS/
+│       │   │           │   ├── Entries
+│       │   │           │   ├── Repository
+│       │   │           │   ├── Root
+│       │   │           │   └── Tag
+│       │   │           ├── include/
+│       │   │           │   ├── CVS/
+│       │   │           │   │   ├── Entries
+│       │   │           │   │   ├── Repository
+│       │   │           │   │   ├── Root
+│       │   │           │   │   └── Tag
+│       │   │           │   └── usbmic.h
+│       │   │           └── lib/
+│       │   │               ├── CVS/
+│       │   │               │   ├── Entries
+│       │   │               │   ├── Repository
+│       │   │               │   ├── Root
+│       │   │               │   └── Tag
+│       │   │               └── RVL/
+│       │   │                   ├── CVS/
+│       │   │                   │   ├── Entries
+│       │   │                   │   ├── Repository
+│       │   │                   │   ├── Root
+│       │   │                   │   └── Tag
+│       │   │                   ├── usbmic.a
+│       │   │                   └── usbmicD.a
+│       │   ├── lib/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── AbstractScreen.hpp
+│       │   │   │   ├── AppDebugMenu.hpp
+│       │   │   │   ├── basic_serialization.h
+│       │   │   │   ├── BEGIN_EXTERNAL_HEADERS.h
+│       │   │   │   ├── common.hpp
+│       │   │   │   ├── CommonDebugMenu.hpp
+│       │   │   │   ├── commonDefines.h
+│       │   │   │   ├── CppSerialization.hpp
+│       │   │   │   ├── CppUtils.hpp
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── DataStructFixedCapSortedList.hpp
+│       │   │   │   ├── END_EXTERNAL_HEADERS.h
+│       │   │   │   ├── misc.h
+│       │   │   │   ├── moreMath.h
+│       │   │   │   ├── moreSafeConversion.h
+│       │   │   │   ├── numericConstants.h
+│       │   │   │   ├── primitiveTypes.h
+│       │   │   │   ├── safeConversion.h
+│       │   │   │   ├── SystemAudioMixer.hpp
+│       │   │   │   ├── SystemGraphics.hpp
+│       │   │   │   ├── SystemGraphicsUtils.hpp
+│       │   │   │   ├── SystemInput.hpp
+│       │   │   │   ├── SystemLogging.hpp
+│       │   │   │   ├── SystemP2PAndServices.hpp
+│       │   │   │   ├── SystemP2PSerialization.hpp
+│       │   │   │   ├── SystemP2PUtils.hpp
+│       │   │   │   ├── SystemShutdownManagement.h
+│       │   │   │   ├── SystemSockets.hpp
+│       │   │   │   └── SystemVoice.hpp
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── include/
+│       │   │   │   │   ├── __platformGraphicsTypes.h
+│       │   │   │   │   ├── __platformTypes.h
+│       │   │   │   │   ├── __PlatformUserInput.hpp
+│       │   │   │   │   ├── CVS/
+│       │   │   │   │   │   ├── Entries
+│       │   │   │   │   │   ├── Repository
+│       │   │   │   │   │   ├── Root
+│       │   │   │   │   │   └── Tag
+│       │   │   │   │   ├── demo_system.h
+│       │   │   │   │   ├── platform_core.h
+│       │   │   │   │   ├── SystemAudioInterface.hpp
+│       │   │   │   │   ├── SystemMic.hpp
+│       │   │   │   │   ├── SystemTimer.hpp
+│       │   │   │   │   └── Threads.hpp
+│       │   │   │   ├── Makefile
+│       │   │   │   ├── PlatformUserInput.cpp
+│       │   │   │   ├── src/
+│       │   │   │   │   ├── CVS/
+│       │   │   │   │   │   ├── Entries
+│       │   │   │   │   │   ├── Repository
+│       │   │   │   │   │   ├── Root
+│       │   │   │   │   │   └── Tag
+│       │   │   │   │   ├── PlatformUserInput.cpp
+│       │   │   │   │   ├── SystemAudioInterface.cpp
+│       │   │   │   │   ├── SystemAudioMixer.cpp
+│       │   │   │   │   ├── SystemGraphics.cpp
+│       │   │   │   │   ├── SystemGraphicsUtils.cpp
+│       │   │   │   │   ├── SystemMic.cpp
+│       │   │   │   │   └── SystemSockets.cpp
+│       │   │   │   ├── SystemAudioInterface.cpp
+│       │   │   │   ├── SystemAudioMixer.cpp
+│       │   │   │   ├── SystemGraphics.cpp
+│       │   │   │   ├── SystemGraphicsUtils.cpp
+│       │   │   │   ├── SystemMic.cpp
+│       │   │   │   ├── SystemShutdownManagement.c
+│       │   │   │   └── SystemSockets.cpp
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── include/
+│       │   │   │   │   ├── __platformTypes.h
+│       │   │   │   │   ├── CVS/
+│       │   │   │   │   │   ├── Entries
+│       │   │   │   │   │   ├── Repository
+│       │   │   │   │   │   ├── Root
+│       │   │   │   │   │   └── Tag
+│       │   │   │   │   └── platform_core.h
+│       │   │   │   ├── Makefile
+│       │   │   │   ├── platform_misc.cpp
+│       │   │   │   └── src/
+│       │   │   │       ├── CVS/
+│       │   │   │       │   ├── Entries
+│       │   │   │       │   ├── Repository
+│       │   │   │       │   ├── Root
+│       │   │   │       │   └── Tag
+│       │   │   │       └── platform_misc.cpp
+│       │   │   ├── platform_win32/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── include/
+│       │   │   │   │   ├── __platformtypes.h
+│       │   │   │   │   ├── CVS/
+│       │   │   │   │   │   ├── Entries
+│       │   │   │   │   │   ├── Repository
+│       │   │   │   │   │   ├── Root
+│       │   │   │   │   │   └── Tag
+│       │   │   │   │   ├── platform_core.h
+│       │   │   │   │   ├── SystemAudioInterface.hpp
+│       │   │   │   │   ├── SystemTimer.hpp
+│       │   │   │   │   └── Threads.hpp
+│       │   │   │   ├── platform_misc.cpp
+│       │   │   │   └── PlatformSockets.cpp
+│       │   │   └── src/
+│       │   │       ├── AbstractScreen.cpp
+│       │   │       ├── AppDebugMenu.cpp
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── moreMath.cpp
+│       │   │       ├── SystemLogging.cpp
+│       │   │       └── SystemVoice.cpp
+│       │   ├── make/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── p2p_demo_defs.mk
+│       │   │   ├── p2p_demo_rules.mk
+│       │   │   └── p2p_template.ddf
+│       │   ├── Makefile381.mk
+│       │   ├── p2pMatchmaking/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── common.hpp
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── getopt.hpp
+│       │   │   │   ├── guest.hpp
+│       │   │   │   ├── host.hpp
+│       │   │   │   ├── io.hpp
+│       │   │   │   ├── main.hpp
+│       │   │   │   ├── matchmaking.hpp
+│       │   │   │   └── memmgmt.hpp
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── ApplicationInput.cpp
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       ├── ApplicationInput.cpp
+│       │   │   │       └── CVS/
+│       │   │   │           ├── Entries
+│       │   │   │           ├── Repository
+│       │   │   │           ├── Root
+│       │   │   │           └── Tag
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   └── src/
+│       │   │       ├── ApplicationInput.hpp
+│       │   │       ├── common.cpp
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── guest.cpp
+│       │   │       ├── host.cpp
+│       │   │       ├── main.cpp
+│       │   │       ├── matchmaking.cpp
+│       │   │       ├── MatchmakingImpl.hpp
+│       │   │       └── p2psetup.cpp
+│       │   ├── p2pPlaza/
+│       │   │   ├── .cvsignore
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── makefile
+│       │   │   ├── Makefile381.mk
+│       │   │   ├── p2pPlazaBanner.met
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── bw_ApplicationInput.cpp
+│       │   │   │   ├── bw_AppStateSDCardFiles.cpp
+│       │   │   │   ├── bw_Main.cpp
+│       │   │   │   ├── bw_PlazaShare.cpp
+│       │   │   │   ├── bw_ScreenInputText.cpp
+│       │   │   │   ├── bw_ScreenSharePic.cpp
+│       │   │   │   ├── bw_SystemPersistData.cpp
+│       │   │   │   ├── bw_SystemSDCard.cpp
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── src/
+│       │   │   │       ├── bw_ApplicationInput.cpp
+│       │   │   │       ├── bw_AppStateSDCardFiles.cpp
+│       │   │   │       ├── bw_Main.cpp
+│       │   │   │       ├── bw_PlazaShare.cpp
+│       │   │   │       ├── bw_ScreenInputText.cpp
+│       │   │   │       ├── bw_ScreenSharePic.cpp
+│       │   │   │       ├── bw_SystemPersistData.cpp
+│       │   │   │       ├── bw_SystemSDCard.cpp
+│       │   │   │       └── CVS/
+│       │   │   │           ├── Entries
+│       │   │   │           ├── Repository
+│       │   │   │           ├── Root
+│       │   │   │           └── Tag
+│       │   │   ├── platform_win32/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── include/
+│       │   │   │   │   ├── common.h
+│       │   │   │   │   ├── CVS/
+│       │   │   │   │   │   ├── Entries
+│       │   │   │   │   │   ├── Repository
+│       │   │   │   │   │   ├── Root
+│       │   │   │   │   │   └── Tag
+│       │   │   │   │   └── sound.h
+│       │   │   │   └── src/
+│       │   │   │       ├── chatbot.cpp
+│       │   │   │       ├── chathost.cpp
+│       │   │   │       ├── common.cpp
+│       │   │   │       ├── CVS/
+│       │   │   │       │   ├── Entries
+│       │   │   │       │   ├── Repository
+│       │   │   │       │   ├── Root
+│       │   │   │       │   └── Tag
+│       │   │   │       ├── loopback.cpp
+│       │   │   │       ├── plazabot.cpp
+│       │   │   │       ├── plazabrowser.cpp
+│       │   │   │       ├── plazaserver.cpp
+│       │   │   │       └── sound.cpp
+│       │   │   ├── src/
+│       │   │   │   ├── 000README.txt
+│       │   │   │   ├── ApplicationCommonUI.cpp
+│       │   │   │   ├── AppStateDebug.cpp
+│       │   │   │   ├── AppStateMisc.cpp
+│       │   │   │   ├── AppStateP2P.cpp
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── headers/
+│       │   │   │   │   ├── ApplicationCommonUI.hpp
+│       │   │   │   │   ├── ApplicationInput.hpp
+│       │   │   │   │   ├── AppState_.hpp
+│       │   │   │   │   ├── AppStateAudio.hpp
+│       │   │   │   │   ├── AppStateDebug.hpp
+│       │   │   │   │   ├── AppStateP2P.hpp
+│       │   │   │   │   ├── AppStateSDCardFiles.hpp
+│       │   │   │   │   ├── CVS/
+│       │   │   │   │   │   ├── Entries
+│       │   │   │   │   │   ├── Repository
+│       │   │   │   │   │   ├── Root
+│       │   │   │   │   │   └── Tag
+│       │   │   │   │   ├── MainAppPlaza.hpp
+│       │   │   │   │   ├── MainAppPlazaScreens.hpp
+│       │   │   │   │   ├── P2PPlazaClient.hpp
+│       │   │   │   │   ├── P2PPlazaClientTypes.hpp
+│       │   │   │   │   ├── P2PPlazaCommon.hpp
+│       │   │   │   │   ├── P2PPlazaCommonImpl.hpp
+│       │   │   │   │   ├── P2PPlazaCommonUtils.hpp
+│       │   │   │   │   ├── P2PPlazaServer.hpp
+│       │   │   │   │   ├── P2PVector.hpp
+│       │   │   │   │   ├── p2pWrapper.h
+│       │   │   │   │   ├── PlazaClient.hpp
+│       │   │   │   │   ├── PlazaClientTypes.hpp
+│       │   │   │   │   ├── PlazaCommon.hpp
+│       │   │   │   │   ├── PlazaCommonImpl.hpp
+│       │   │   │   │   ├── PlazaCommonUtils.hpp
+│       │   │   │   │   ├── PlazaLocation.hpp
+│       │   │   │   │   ├── PlazaServer.hpp
+│       │   │   │   │   ├── PlazaVector.hpp
+│       │   │   │   │   ├── PlazaVisitor.hpp
+│       │   │   │   │   ├── projectCommonHeader.h
+│       │   │   │   │   ├── ScreenConnectedMenu.hpp
+│       │   │   │   │   ├── ScreenConnectToServer.hpp
+│       │   │   │   │   ├── ScreenInputGuid.hpp
+│       │   │   │   │   ├── ScreenInputText.hpp
+│       │   │   │   │   ├── ScreenMainMenu.hpp
+│       │   │   │   │   ├── ScreenPlazaView.hpp
+│       │   │   │   │   ├── ScreenSelectGuid.hpp
+│       │   │   │   │   ├── ScreenSelectSDFile.hpp
+│       │   │   │   │   ├── ScreenSelectServer.hpp
+│       │   │   │   │   ├── ScreenShare.hpp
+│       │   │   │   │   ├── ScreenSharePic.hpp
+│       │   │   │   │   ├── SystemPersistData.hpp
+│       │   │   │   │   └── SystemSDCard.hpp
+│       │   │   │   ├── MainAppPlaza.cpp
+│       │   │   │   ├── MainAppPlazaScreens.cpp
+│       │   │   │   ├── P2PPlazaClient.cpp
+│       │   │   │   ├── P2PPlazaClient_Messages.cpp
+│       │   │   │   ├── P2PPlazaClientTypes.cpp
+│       │   │   │   ├── P2PPlazaCommon.cpp
+│       │   │   │   ├── P2PPlazaCommonImpl.cpp
+│       │   │   │   ├── P2PPlazaCommonUtils.cpp
+│       │   │   │   ├── P2PPlazaServer.cpp
+│       │   │   │   ├── ScreenConnectedMenu.cpp
+│       │   │   │   ├── ScreenConnectToServer.cpp
+│       │   │   │   ├── ScreenInputText.cpp
+│       │   │   │   ├── ScreenMainMenu.cpp
+│       │   │   │   ├── ScreenPlazaView.cpp
+│       │   │   │   ├── ScreenSelectGuid.cpp
+│       │   │   │   ├── ScreenSelectSDFile.cpp
+│       │   │   │   ├── ScreenSelectServer.cpp
+│       │   │   │   ├── ScreenShare.cpp
+│       │   │   │   └── theory_of_operation.txt
+│       │   │   ├── src_rvl/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── rvl_ApplicationInput.cpp
+│       │   │   │   ├── rvl_AppStateSDCardFiles.cpp
+│       │   │   │   ├── rvl_Main.cpp
+│       │   │   │   ├── rvl_PlazaShare.cpp
+│       │   │   │   ├── rvl_ScreenInputText.cpp
+│       │   │   │   ├── rvl_ScreenSharePic.cpp
+│       │   │   │   ├── rvl_SystemPersistData.cpp
+│       │   │   │   └── rvl_SystemSDCard.cpp
+│       │   │   └── TODO.txt
+│       │   ├── p2pRegisterBuddies/
+│       │   │   ├── buddies.txt
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── main.hpp
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       └── main.cpp
+│       │   ├── platform_any/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── p2p_demos.mk
+│       │   ├── platform_bw/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── Makefile
+│       │   ├── platform_linux/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── Makefile
+│       │   ├── platform_win32/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── libPlazaWin.vcproj
+│       │   │   ├── matchmaking.vsprops
+│       │   │   ├── P2PAppCommon.vsprops
+│       │   │   ├── P2PAppDebug.vsprops
+│       │   │   ├── P2PAppRelease.vsprops
+│       │   │   ├── p2pMatchmaking.vcproj
+│       │   │   ├── p2pMatchmaking_copy2.vcproj
+│       │   │   ├── p2pMatchmaking_copy3.vcproj
+│       │   │   ├── p2pPlaza.sln
+│       │   │   ├── p2pRegisterBuddies.vcproj
+│       │   │   ├── plazabot.vcproj
+│       │   │   ├── plazabrowser.vcproj
+│       │   │   └── plazaserver.vcproj
+│       │   ├── root.mk
+│       │   ├── voiceConference/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── src/
+│       │   │       ├── conference_logic/
+│       │   │       │   ├── ApplicationInput.cpp
+│       │   │       │   ├── ApplicationInput.hpp
+│       │   │       │   ├── CVS/
+│       │   │       │   │   ├── Entries
+│       │   │       │   │   ├── Repository
+│       │   │       │   │   ├── Root
+│       │   │       │   │   └── Tag
+│       │   │       │   ├── projectCommonHeader.h
+│       │   │       │   ├── SystemAudio.cpp
+│       │   │       │   ├── SystemAudio.hpp
+│       │   │       │   ├── SystemMicOld.cpp
+│       │   │       │   ├── SystemMicOld.hpp
+│       │   │       │   ├── SystemP2P.cpp
+│       │   │       │   ├── SystemP2P.hpp
+│       │   │       │   ├── SystemPersistData.cpp
+│       │   │       │   ├── SystemPersistData.hpp
+│       │   │       │   ├── VoipCore.cpp
+│       │   │       │   └── VoipCore.hpp
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── MainAppVoip.cpp
+│       │   │       ├── MainAppVoip.hpp
+│       │   │       └── screen_display/
+│       │   │           ├── ApplicationCommonUI.cpp
+│       │   │           ├── ApplicationCommonUI.hpp
+│       │   │           ├── ApplicationInput.hpp
+│       │   │           ├── CVS/
+│       │   │           │   ├── Entries
+│       │   │           │   ├── Repository
+│       │   │           │   ├── Root
+│       │   │           │   └── Tag
+│       │   │           ├── MainAppVoipScreens.hpp
+│       │   │           ├── ScreenConnectedAsClient.cpp
+│       │   │           ├── ScreenConnectedAsClient.hpp
+│       │   │           ├── ScreenConnectedMenu.cpp
+│       │   │           ├── ScreenConnectedMenu.hpp
+│       │   │           ├── ScreenConnectToServer.cpp
+│       │   │           ├── ScreenConnectToServer.hpp
+│       │   │           ├── ScreenHostMenu.cpp
+│       │   │           ├── ScreenHostMenu.hpp
+│       │   │           ├── ScreenInputGuid.hpp
+│       │   │           ├── ScreenInputText.cpp
+│       │   │           ├── ScreenInputText.hpp
+│       │   │           ├── ScreenMainMenu.cpp
+│       │   │           ├── ScreenMainMenu.hpp
+│       │   │           ├── ScreenSelectGuid.cpp
+│       │   │           ├── ScreenSelectGuid.hpp
+│       │   │           ├── ScreenSelectServer.cpp
+│       │   │           ├── ScreenSelectServer.hpp
+│       │   │           ├── ScreenWaitingForCall.cpp
+│       │   │           ├── ScreenWaitingForCall.hpp
+│       │   │           ├── SystemAudio.cpp
+│       │   │           ├── SystemAudio.hpp
+│       │   │           ├── SystemMicOld.cpp
+│       │   │           ├── SystemMicOld.hpp
+│       │   │           ├── SystemP2P.cpp
+│       │   │           ├── SystemP2P.hpp
+│       │   │           ├── SystemPersistData.cpp
+│       │   │           └── SystemPersistData.hpp
+│       │   └── voiceOverIP/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── dir_to_be_determined/
+│       │       │   ├── ApplicationInput.cpp
+│       │       │   ├── ApplicationInput.hpp
+│       │       │   ├── CVS/
+│       │       │   │   ├── Entries
+│       │       │   │   ├── Repository
+│       │       │   │   ├── Root
+│       │       │   │   └── Tag
+│       │       │   ├── projectCommonHeader.h
+│       │       │   ├── SystemAudio.cpp
+│       │       │   ├── SystemAudio.hpp
+│       │       │   ├── SystemMicOld.cpp
+│       │       │   ├── SystemMicOld.hpp
+│       │       │   ├── SystemP2P.cpp
+│       │       │   ├── SystemP2P.hpp
+│       │       │   ├── SystemPersistData.cpp
+│       │       │   ├── SystemPersistData.hpp
+│       │       │   ├── VoipCore.cpp
+│       │       │   └── VoipCore.hpp
+│       │       ├── MainAppVoip.cpp
+│       │       ├── MainAppVoip.hpp
+│       │       └── screen_display/
+│       │           ├── ApplicationCommonUI.cpp
+│       │           ├── ApplicationCommonUI.hpp
+│       │           ├── ApplicationInput.hpp
+│       │           ├── CVS/
+│       │           │   ├── Entries
+│       │           │   ├── Repository
+│       │           │   ├── Root
+│       │           │   └── Tag
+│       │           ├── MainAppVoipScreens.hpp
+│       │           ├── projectCommonHeader.h
+│       │           ├── ScreenConnectedAsClient.cpp
+│       │           ├── ScreenConnectedAsClient.hpp
+│       │           ├── ScreenConnectedMenu.cpp
+│       │           ├── ScreenConnectedMenu.hpp
+│       │           ├── ScreenConnectToServer.cpp
+│       │           ├── ScreenConnectToServer.hpp
+│       │           ├── ScreenHostMenu.cpp
+│       │           ├── ScreenHostMenu.hpp
+│       │           ├── ScreenInputGuid.hpp
+│       │           ├── ScreenInputText.cpp
+│       │           ├── ScreenInputText.hpp
+│       │           ├── ScreenMainMenu.cpp
+│       │           ├── ScreenMainMenu.hpp
+│       │           ├── ScreenSelectGuid.cpp
+│       │           ├── ScreenSelectGuid.hpp
+│       │           ├── ScreenSelectServer.cpp
+│       │           ├── ScreenSelectServer.hpp
+│       │           ├── ScreenWaitingForCall.cpp
+│       │           ├── ScreenWaitingForCall.hpp
+│       │           ├── SystemAudio.cpp
+│       │           ├── SystemAudio.hpp
+│       │           ├── SystemMicOld.cpp
+│       │           ├── SystemMicOld.hpp
+│       │           ├── SystemP2P.cpp
+│       │           ├── SystemP2P.hpp
+│       │           ├── SystemPersistData.cpp
+│       │           └── SystemPersistData.hpp
+│       ├── doxygen/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── doxy_fragments/
+│       │   │   ├── common.doxy
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── generate_html.doxy
+│       │   │   ├── generate_latex.doxy
+│       │   │   ├── P2P.doxy
+│       │   │   ├── P2P_Core_API.aliases.doxy
+│       │   │   ├── P2P_Core_API.doxy
+│       │   │   ├── P2P_Core_API.files.doxy
+│       │   │   ├── P2P_Services_API.doxy
+│       │   │   ├── P2P_Services_API.files.doxy
+│       │   │   └── P2P_Services_only.aliases.doxy
+│       │   ├── doxygen.exe
+│       │   ├── Makefile
+│       │   ├── P2P_Complete_API_html.doxyfile
+│       │   ├── P2P_Complete_Impl_html.doxyfile
+│       │   ├── P2P_Core_API_html.doxyfile
+│       │   ├── P2P_Core_API_latex.doxyfile
+│       │   ├── P2P_Services_API_html.doxyfile
+│       │   ├── P2P_Services_API_latex.doxyfile
+│       │   ├── README
+│       │   └── styles/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── html_only/
+│       │       │   ├── custom.css
+│       │       │   ├── CVS/
+│       │       │   │   ├── Entries
+│       │       │   │   ├── Repository
+│       │       │   │   ├── Root
+│       │       │   │   └── Tag
+│       │       │   ├── footer.html
+│       │       │   └── header.html
+│       │       └── latex_only/
+│       │           ├── CVS/
+│       │           │   ├── Entries
+│       │           │   ├── Repository
+│       │           │   ├── Root
+│       │           │   └── Tag
+│       │           ├── doxygen.sty
+│       │           ├── p2p_core_hdr.tex
+│       │           └── p2p_services_hdr.tex
+│       ├── make/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── p2p_defs.mk
+│       │   ├── p2p_rules.mk
+│       │   ├── p2p_shared_defs.mk
+│       │   ├── p2p_shared_rules.mk
+│       │   └── platform_win32/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── inVcEnv.cmd
+│       │       ├── setVcEnv.cmd
+│       │       └── WIN32defs.mk
+│       ├── platform_bw/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── install_p2p_fw.sh
+│       │   └── Makefile
+│       ├── platform_linux/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── Makefile
+│       │   └── README.txt
+│       ├── platform_rvl/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── Makefile
+│       │   └── README.txt
+│       ├── platform_win32/
+│       │   ├── .cvsignore
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── lib_p2p_core.vcproj
+│       │   ├── lib_p2p_services.vcproj
+│       │   ├── lib_shr.vcproj
+│       │   ├── lib_vn.vcproj
+│       │   ├── lib_voice.vcproj
+│       │   ├── Makefile
+│       │   └── P2P_all.sln
+│       ├── projects/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   └── eclipse/
+│       │       ├── client_sw/
+│       │       │   ├── .cproject
+│       │       │   ├── .project
+│       │       │   ├── .settings/
+│       │       │   │   ├── CVS/
+│       │       │   │   │   ├── Entries
+│       │       │   │   │   ├── Repository
+│       │       │   │   │   ├── Root
+│       │       │   │   │   └── Tag
+│       │       │   │   ├── de.loskutov.anyedit.AnyEditTools.prefs
+│       │       │   │   └── org.eclipse.cdt.core.prefs
+│       │       │   ├── CVS/
+│       │       │   │   ├── Entries
+│       │       │   │   ├── Repository
+│       │       │   │   ├── Root
+│       │       │   │   └── Tag
+│       │       │   └── makefile
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── infra/
+│       │       │   ├── .cproject
+│       │       │   ├── .project
+│       │       │   ├── CVS/
+│       │       │   │   ├── Entries
+│       │       │   │   ├── Repository
+│       │       │   │   ├── Root
+│       │       │   │   └── Tag
+│       │       │   └── makefile
+│       │       ├── P2P_build_BW/
+│       │       │   ├── .cproject
+│       │       │   ├── .project
+│       │       │   ├── .settings/
+│       │       │   │   ├── CVS/
+│       │       │   │   │   ├── Entries
+│       │       │   │   │   ├── Repository
+│       │       │   │   │   ├── Root
+│       │       │   │   │   └── Tag
+│       │       │   │   └── org.eclipse.cdt.core.prefs
+│       │       │   └── CVS/
+│       │       │       ├── Entries
+│       │       │       ├── Repository
+│       │       │       ├── Root
+│       │       │       └── Tag
+│       │       ├── P2P_build_Linux/
+│       │       │   ├── .cproject
+│       │       │   ├── .project
+│       │       │   └── CVS/
+│       │       │       ├── Entries
+│       │       │       ├── Repository
+│       │       │       ├── Root
+│       │       │       └── Tag
+│       │       ├── P2P_build_rvl_IOP/
+│       │       │   ├── .cproject
+│       │       │   ├── .project
+│       │       │   └── CVS/
+│       │       │       ├── Entries
+│       │       │       ├── Repository
+│       │       │       ├── Root
+│       │       │       └── Tag
+│       │       ├── P2P_build_server_Linux/
+│       │       │   ├── .cproject
+│       │       │   ├── .project
+│       │       │   └── CVS/
+│       │       │       ├── Entries
+│       │       │       ├── Repository
+│       │       │       ├── Root
+│       │       │       └── Tag
+│       │       └── P2P_build_win32/
+│       │           ├── .cproject
+│       │           ├── .project
+│       │           └── CVS/
+│       │               ├── Entries
+│       │               ├── Repository
+│       │               ├── Root
+│       │               └── Tag
+│       ├── rm/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── include/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── shr_rm.h
+│       │   │   ├── vn_rm.h
+│       │   │   └── voice_rm.h
+│       │   ├── platform_rvl/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── rm_plat.h
+│       │   │   └── Makefile
+│       │   └── src/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── p2p_rm.c
+│       │       ├── p2p_rm.h
+│       │       ├── shr_rm.c
+│       │       ├── vn_rm.c
+│       │       └── voice_rm.c
+│       ├── server/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── platform_linux/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── Makefile
+│       │   └── platform_win32/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       └── SimpleP2PServer.vcproj
+│       ├── services/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── doc/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── P2PServices.dox
+│       │   ├── include/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── p2p_services.h
+│       │   ├── include_ex/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── p2p_services_ex.h
+│       │   │   ├── p2p_services_private.h
+│       │   │   ├── p2p_services_request_types.h
+│       │   │   └── p2p_services_serialization.h
+│       │   ├── platform_bw/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── Makefile
+│       │   ├── platform_linux/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── Makefile
+│       │   └── src/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── p2p_matchmaking_fastgroup.c
+│       │       ├── p2p_matchmaking_random.c
+│       │       ├── p2p_matchmaking_whitepages.c
+│       │       ├── p2p_services_matchmaking.c
+│       │       ├── p2p_services_private.c
+│       │       ├── p2p_services_serialization.c
+│       │       └── p2p_services_user.c
+│       ├── shim/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── platform_bw/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── private/
+│       │   │   │       ├── CVS/
+│       │   │   │       │   ├── Entries
+│       │   │   │       │   ├── Repository
+│       │   │   │       │   ├── Root
+│       │   │   │       │   └── Tag
+│       │   │   │       ├── ioserrno.h
+│       │   │   │       ├── iosresclt.h
+│       │   │   │       ├── iosrestypes.h
+│       │   │   │       ├── iostypes.h
+│       │   │   │       └── memory.h
+│       │   │   └── Makefile
+│       │   └── src/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── shim.c
+│       │       ├── shim.h
+│       │       ├── shr_shim.c
+│       │       ├── vn_shim.c
+│       │       └── voice_shim.c
+│       ├── shr/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── include/
+│       │   │   ├── bcc_assert.h
+│       │   │   ├── bcc_common.h
+│       │   │   ├── bcc_mem_heap.h
+│       │   │   ├── bcc_read_write_lock.h
+│       │   │   ├── bcc_safe_conversion.h
+│       │   │   ├── bcc_serialization.h
+│       │   │   ├── bcc_strings.h
+│       │   │   ├── bcc_types.h
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── shr_getopt.h
+│       │   │   ├── shr_lib.h
+│       │   │   ├── shr_mem.h
+│       │   │   ├── shr_plat.h
+│       │   │   ├── shr_queue.h
+│       │   │   ├── shr_rm.h
+│       │   │   ├── shr_syslog.h
+│       │   │   ├── shr_th.h
+│       │   │   ├── shr_time.h
+│       │   │   ├── shr_trace.h
+│       │   │   └── shr_types.h
+│       │   ├── platform_bw/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── shr_plat_bw.h
+│       │   │   │   ├── shr_th_bw.h
+│       │   │   │   └── shr_time_bw.h
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── shr_mem_bw.c
+│       │   │       ├── shr_plat_bw.c
+│       │   │       ├── shr_th_bw.c
+│       │   │       └── shr_time_bw.c
+│       │   ├── platform_linux/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── shr_plat_linux.h
+│       │   │   │   └── shr_th_linux.h
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── shr_mem_linux.c
+│       │   │       ├── shr_plat_linux.c
+│       │   │       └── shr_th_linux.c
+│       │   ├── platform_rvl/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── __shr_plat.h
+│       │   │   │   ├── __shr_th.h
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── shr_plat_wii.h
+│       │   │   │   └── shr_th_wii.h
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── shr_mem_rvl.c
+│       │   │       ├── shr_plat_wii.c
+│       │   │       └── shr_th_wii.c
+│       │   ├── platform_win32/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── __shr_plat.h
+│       │   │   │   ├── __shr_th.h
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── shr_plat_win32.h
+│       │   │   │   └── shr_th_win32.h
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── shr_mem_win32.c
+│       │   │       ├── shr_plat_win32.c
+│       │   │       ├── shr_th_win32.c
+│       │   │       └── shr_win32_i.h
+│       │   └── src/
+│       │       ├── bcc_mem_heap.c
+│       │       ├── bcc_serialization.c
+│       │       ├── bcc_strings.c
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── plat_read_write_lock.c
+│       │       ├── shr_getopt.c
+│       │       ├── shr_no_trace.c
+│       │       ├── shr_queue.c
+│       │       ├── shr_strlen.c
+│       │       ├── shr_strnlen.c
+│       │       ├── shr_syslog.c
+│       │       ├── shr_trace.c
+│       │       └── shr_trace_i.h
+│       ├── tests/
+│       │   ├── buddyMatch/
+│       │   │   ├── buddyMatch.c
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── platform_linux/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       └── Makefile
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── echoClient/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── echoClient.c
+│       │   │   └── platform_linux/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       └── Makefile
+│       │   ├── echoServer/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── echoServer.c
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── echoServer.h
+│       │   │   └── platform_linux/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       └── Makefile
+│       │   ├── example_tour/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── p2p_example_tour.c
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   └── README.txt
+│       │   ├── fastMatch/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── fastMatch.c
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   └── platform_linux/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       └── Makefile
+│       │   ├── lib/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── matchTestSubr.h
+│       │   │   │   └── p2p_test_lib.h
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── Makefile
+│       │   │   │   └── p2p_test_platform.c
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── Makefile
+│       │   │   │   └── p2p_test_platform.c
+│       │   │   ├── platform_win32/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── p2p_test_platform.c
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── getopt.c
+│       │   │       ├── matchTestSubr.c
+│       │   │       ├── p2p_test_main.c
+│       │   │       ├── p2p_test_subr.c
+│       │   │       └── unistd.h
+│       │   ├── make/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── p2p_template.ddf
+│       │   │   ├── p2p_test_defs.mk
+│       │   │   └── p2p_test_rules.mk
+│       │   ├── natTest/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── func.sh
+│       │   │   ├── id_test_key.pem
+│       │   │   ├── launchEchoClient.sh
+│       │   │   ├── launchEchoServer.sh
+│       │   │   ├── Makefile
+│       │   │   ├── natTest1.sh
+│       │   │   ├── stopEchoServer.sh
+│       │   │   └── vgssh
+│       │   ├── platform_any/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── p2p_tests.mk
+│       │   ├── platform_bw/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── Makefile
+│       │   ├── platform_linux/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── Makefile
+│       │   ├── platform_win32/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── lib_p2p_test.vcproj
+│       │   │   ├── P2PExampleTour.vcproj
+│       │   │   ├── P2PShrTest.vcproj
+│       │   │   ├── P2PTestEchoClient.vcproj
+│       │   │   ├── P2PTestEchoServer.vcproj
+│       │   │   ├── P2PTestServer.vcproj
+│       │   │   ├── P2PTestVoiceClient.vcproj
+│       │   │   ├── P2PTestVoiceServer.vcproj
+│       │   │   ├── P2PUser.vcproj
+│       │   │   ├── testDebugProps.vsprops
+│       │   │   └── testReleaseProps.vsprops
+│       │   ├── randomMatch/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   └── randomMatch.c
+│       │   ├── rpcTest/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   └── rpcTest.c
+│       │   ├── sanity/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   └── sanity.c
+│       │   ├── shrTest/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   └── shrTest.c
+│       │   ├── test_server/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── p2p_setup_server.c
+│       │   │   └── platform_linux/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       └── Makefile
+│       │   ├── user/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Makefile
+│       │   │   ├── UserTest.c
+│       │   │   └── UserTestConfig.h
+│       │   ├── vntest/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── vntest.h
+│       │   │   ├── make/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── Make.common
+│       │   │   ├── platform_linux/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       ├── CVS/
+│       │   │   │       │   ├── Entries
+│       │   │   │       │   ├── Repository
+│       │   │   │       │   ├── Root
+│       │   │   │       │   └── Tag
+│       │   │   │       ├── vncctest.sh
+│       │   │   │       ├── vnmatchsr.pl
+│       │   │   │       ├── vnruntest.sh
+│       │   │   │       ├── vnsctest.sh
+│       │   │   │       ├── vntest1.prop
+│       │   │   │       ├── vntest1.sh
+│       │   │   │       ├── vntest2.sh
+│       │   │   │       ├── vntest3.sh
+│       │   │   │       ├── vntest3a.prop
+│       │   │   │       ├── vntest3b.prop
+│       │   │   │       └── vntest4.sh
+│       │   │   ├── platform_rvl/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── Makefile
+│       │   │   │   └── src/
+│       │   │   │       ├── CVS/
+│       │   │   │       │   ├── Entries
+│       │   │   │       │   ├── Repository
+│       │   │   │       │   ├── Root
+│       │   │   │       │   └── Tag
+│       │   │   │       └── vntwii.c
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── uproxy.c
+│       │   │       ├── vnclient.c
+│       │   │       ├── vncmd.c
+│       │   │       ├── vnconfig.c
+│       │   │       ├── vnreadpkts.c
+│       │   │       ├── vnserver.c
+│       │   │       ├── vnsimple.c
+│       │   │       ├── vntcommon.c
+│       │   │       ├── vntest.c
+│       │   │       ├── vntestcore.c
+│       │   │       ├── vntestpkt.c
+│       │   │       ├── vnteststats.c
+│       │   │       └── vntevents.c
+│       │   ├── voice/
+│       │   │   ├── client/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── voiceClient.cpp
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── platform_bw/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── src/
+│       │   │   │       ├── aiwrapper.cpp
+│       │   │   │       ├── CVS/
+│       │   │   │       │   ├── Entries
+│       │   │   │       │   ├── Repository
+│       │   │   │       │   ├── Root
+│       │   │   │       │   └── Tag
+│       │   │   │       └── voip.cpp
+│       │   │   ├── platform_win32/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── include/
+│       │   │   │   │   ├── common.h
+│       │   │   │   │   ├── CVS/
+│       │   │   │   │   │   ├── Entries
+│       │   │   │   │   │   ├── Repository
+│       │   │   │   │   │   ├── Root
+│       │   │   │   │   │   └── Tag
+│       │   │   │   │   └── sound.h
+│       │   │   │   └── loopback.vcproj
+│       │   │   ├── raw_audio/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── PlazaBot_anonymous.raw
+│       │   │   │   ├── RadioBot_1.raw
+│       │   │   │   ├── RadioBot_2.raw
+│       │   │   │   ├── RadioBot_3.raw
+│       │   │   │   ├── RadioBot_4.raw
+│       │   │   │   └── RadioBot_5.raw
+│       │   │   └── server/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── voiceServer.c
+│       │   │       └── voiceServer.h
+│       │   ├── voiceClient/
+│       │   │   ├── audio/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── PlazaBot_anonymous.raw
+│       │   │   │   ├── RadioBot_1.raw
+│       │   │   │   ├── RadioBot_2.raw
+│       │   │   │   ├── RadioBot_3.raw
+│       │   │   │   ├── RadioBot_4.raw
+│       │   │   │   └── RadioBot_5.raw
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── voiceClient.c
+│       │   │   └── voiceClient.cpp
+│       │   └── voiceServer/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── sound.cpp
+│       │       ├── sound.h
+│       │       ├── voiceServer.c
+│       │       └── voiceServer.h
+│       ├── vn/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Repository
+│       │   │   ├── Root
+│       │   │   └── Tag
+│       │   ├── include/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── vn.h
+│       │   │   ├── vn_error.defs
+│       │   │   ├── vnapi_debug.h
+│       │   │   ├── vnevents.h
+│       │   │   └── vntypes.h
+│       │   ├── platform_linux/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   └── vnlinux.h
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       └── vnlinux.c
+│       │   ├── platform_rvl/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   ├── Root
+│       │   │   │   │   └── Tag
+│       │   │   │   ├── vnwii.h
+│       │   │   │   └── vnwiisocket.h
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── vnsvc.c
+│       │   │       ├── vnwii.c
+│       │   │       └── vnwiisocket.c
+│       │   ├── platform_win32/
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Repository
+│       │   │   │   ├── Root
+│       │   │   │   └── Tag
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Repository
+│       │   │       │   ├── Root
+│       │   │       │   └── Tag
+│       │   │       ├── vnwin32.c
+│       │   │       └── vnwin32.h
+│       │   └── src/
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Repository
+│       │       │   ├── Root
+│       │       │   └── Tag
+│       │       ├── vnapi.c
+│       │       ├── vnapi_common.c
+│       │       ├── vnapi_debug.c
+│       │       ├── vnapi_wrapper.h
+│       │       ├── vncert.c
+│       │       ├── vncert.h
+│       │       ├── vnctrlmsg.h
+│       │       ├── vndebug.c
+│       │       ├── vndebug.h
+│       │       ├── vndevices.c
+│       │       ├── vndevices.h
+│       │       ├── vndisp.c
+│       │       ├── vnevents.c
+│       │       ├── vnfirewall.c
+│       │       ├── vnfirewall.h
+│       │       ├── vnfragment.c
+│       │       ├── vnguid.c
+│       │       ├── vnhash.c
+│       │       ├── vnhash.h
+│       │       ├── vnhs.c
+│       │       ├── vnhs.h
+│       │       ├── vnlist.c
+│       │       ├── vnlist.h
+│       │       ├── vnlocal.h
+│       │       ├── vnlocaltypes.h
+│       │       ├── vnlog.c
+│       │       ├── vnmhp.c
+│       │       ├── vnmsg.c
+│       │       ├── vnmsg.h
+│       │       ├── vnnat.c
+│       │       ├── vnnat.h
+│       │       ├── vnnet.c
+│       │       ├── vnnet.h
+│       │       ├── vnnetcore.c
+│       │       ├── vnnetcore.h
+│       │       ├── vnnetif.c
+│       │       ├── vnnetif.h
+│       │       ├── vnnetif_socket.c
+│       │       ├── vnnetmsg.c
+│       │       ├── vnport.c
+│       │       ├── vnqm.c
+│       │       ├── vnretrans.c
+│       │       ├── vnrt.c
+│       │       ├── vnrt.h
+│       │       ├── vnrtable.c
+│       │       ├── vnrtable.h
+│       │       ├── vnsec.c
+│       │       ├── vnsec.h
+│       │       ├── vnsocket.c
+│       │       ├── vnsocket.h
+│       │       ├── vnsys.h
+│       │       ├── vntime.c
+│       │       ├── vntimer.c
+│       │       ├── vntimer.h
+│       │       └── vnutil.c
+│       └── voice/
+│           ├── CVS/
+│           │   ├── Entries
+│           │   ├── Repository
+│           │   ├── Root
+│           │   └── Tag
+│           ├── include/
+│           │   ├── CVS/
+│           │   │   ├── Entries
+│           │   │   ├── Repository
+│           │   │   ├── Root
+│           │   │   └── Tag
+│           │   └── p2pi_voice.h
+│           ├── platform_bw/
+│           │   ├── CVS/
+│           │   │   ├── Entries
+│           │   │   ├── Repository
+│           │   │   ├── Root
+│           │   │   └── Tag
+│           │   └── README.txt
+│           ├── platform_ds/
+│           │   ├── CVS/
+│           │   │   ├── Entries
+│           │   │   ├── Repository
+│           │   │   ├── Root
+│           │   │   └── Tag
+│           │   └── src/
+│           │       ├── CVS/
+│           │       │   ├── Entries
+│           │       │   ├── Repository
+│           │       │   ├── Root
+│           │       │   └── Tag
+│           │       ├── platform.c
+│           │       └── platform_limits.h
+│           ├── platform_linux/
+│           │   ├── CVS/
+│           │   │   ├── Entries
+│           │   │   ├── Repository
+│           │   │   ├── Root
+│           │   │   └── Tag
+│           │   ├── Makefile
+│           │   └── src/
+│           │       ├── CVS/
+│           │       │   ├── Entries
+│           │       │   ├── Repository
+│           │       │   ├── Root
+│           │       │   └── Tag
+│           │       ├── platform.c
+│           │       └── platform_limits.h
+│           ├── platform_rvl/
+│           │   ├── CVS/
+│           │   │   ├── Entries
+│           │   │   ├── Repository
+│           │   │   ├── Root
+│           │   │   └── Tag
+│           │   ├── Makefile
+│           │   └── src/
+│           │       ├── CVS/
+│           │       │   ├── Entries
+│           │       │   ├── Repository
+│           │       │   ├── Root
+│           │       │   └── Tag
+│           │       ├── platform.c
+│           │       └── platform_limits.h
+│           ├── platform_win32/
+│           │   ├── CVS/
+│           │   │   ├── Entries
+│           │   │   ├── Repository
+│           │   │   ├── Root
+│           │   │   └── Tag
+│           │   └── src/
+│           │       ├── CVS/
+│           │       │   ├── Entries
+│           │       │   ├── Repository
+│           │       │   ├── Root
+│           │       │   └── Tag
+│           │       ├── platform.cpp
+│           │       └── platform_limits.h
+│           └── src/
+│               ├── CVS/
+│               │   ├── Entries
+│               │   ├── Repository
+│               │   ├── Root
+│               │   └── Tag
+│               ├── g726.cpp
+│               ├── g726.h
+│               ├── libvoice.c
+│               ├── platform.h
+│               └── voice_int.h
+└── tests/
+    ├── CVS/
+    │   ├── Entries
+    │   ├── Repository
+    │   ├── Root
+    │   └── Tag
+    ├── ec/
+    │   ├── CVS/
+    │   │   ├── Entries
+    │   │   ├── Repository
+    │   │   ├── Root
+    │   │   └── Tag
+    │   ├── ectest.c
+    │   ├── ectest.h
+    │   ├── ectest_gifting.c
+    │   ├── ectest_parentalControl.c
+    │   ├── ectest_purchasePoints.c
+    │   ├── ectest_purchaseTitle.c
+    │   ├── ectest_registration.c
+    │   ├── ectest_utils.c
+    │   ├── ectest_utils.h
+    │   └── Make.common
+    ├── Makefile
+    ├── nhttp/
+    │   ├── CVS/
+    │   │   ├── Entries
+    │   │   ├── Repository
+    │   │   ├── Root
+    │   │   └── Tag
+    │   ├── Make.common
+    │   ├── nhttp_test.c
+    │   └── nhttp_test.h
+    └── nup/
+        ├── CVS/
+        │   ├── Entries
+        │   ├── Repository
+        │   ├── Root
+        │   └── Tag
+        ├── Make.common
+        ├── nup_test.c
+        └── nup_test.h

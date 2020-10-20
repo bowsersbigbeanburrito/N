@@ -1,0 +1,312 @@
+devroot/
+├── CVS/
+│   ├── Entries
+│   ├── Repository
+│   ├── Root
+│   └── Tag
+├── include/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Repository
+│   │   ├── Root
+│   │   └── Tag
+│   └── make/
+│       ├── commondefs
+│       ├── commonrules
+│       ├── CVS/
+│       │   ├── Entries
+│       │   ├── Repository
+│       │   ├── Root
+│       │   └── Tag
+│       ├── DSdefs
+│       ├── GBAdefs
+│       ├── Linux32RH5defs
+│       ├── Linux64RH5defs
+│       ├── LinuxRHEL5defs
+│       ├── NGaddrs
+│       ├── NGaddrs_8M
+│       ├── NGaddrs_debug
+│       ├── NGaddrs_debug_8M
+│       ├── NGdefs
+│       ├── SCaddrs
+│       ├── SCboot
+│       ├── SCdefs
+│       ├── SDKdefs
+│       ├── TWLdefs
+│       ├── WIN32defs
+│       └── X86defs
+├── ios/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Repository
+│   │   ├── Root
+│   │   └── Tag
+│   └── ndev/
+│       ├── .cvsignore
+│       ├── CVS/
+│       │   ├── Entries
+│       │   ├── Repository
+│       │   ├── Root
+│       │   └── Tag
+│       ├── Makefile
+│       ├── README
+│       └── set_p2p_firmware.sh
+├── Makefile
+├── platform_bw/
+│   ├── common_rules.mk
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Repository
+│   │   ├── Root
+│   │   └── Tag
+│   ├── Makefile
+│   ├── projects/
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   └── eclipse/
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       └── RVL_SDK_Mgd/
+│   │           ├── .cproject
+│   │           ├── .project
+│   │           ├── cproject settings readme.txt
+│   │           ├── CVS/
+│   │           │   ├── Entries
+│   │           │   ├── Repository
+│   │           │   ├── Root
+│   │           │   └── Tag
+│   │           └── makefile
+│   └── RVLDWC-commondefs.cctype.CW3
+└── tools/
+    ├── all-newlib.sh
+    ├── arm-elf.dat
+    ├── build-arm.sh
+    ├── bw/
+    │   ├── .cvsignore
+    │   ├── common_rules.mk
+    │   ├── CVS/
+    │   │   ├── Entries
+    │   │   ├── Repository
+    │   │   ├── Root
+    │   │   └── Tag
+    │   ├── ecdk-3.5.0-2008100816.mk
+    │   ├── ecdk-3.5.0.mk
+    │   ├── ecdk_current.mk
+    │   ├── ecdk_pre-release4.mk
+    │   ├── ecdk_pre-release5.mk
+    │   ├── ecdk_pre-release6.mk
+    │   ├── ecdk_pre-release7.mk
+    │   ├── ecdk_pre-release8.mk
+    │   ├── ecdk_pre-release8_1.mk
+    │   ├── ecshop.mk
+    │   ├── ectool.mk
+    │   ├── Makefile
+    │   ├── nintendoware.mk
+    │   ├── README
+    │   ├── rvl_sdk.mk
+    │   ├── rvl_sdk.sh
+    │   └── wiishopping.mk
+    ├── config.guess
+    ├── crosstool-newlib.sh
+    ├── CVS/
+    │   ├── Entries
+    │   ├── Repository
+    │   ├── Root
+    │   └── Tag
+    ├── ds/
+    │   ├── common_rules.mk
+    │   ├── CVS/
+    │   │   ├── Entries
+    │   │   ├── Repository
+    │   │   ├── Root
+    │   │   └── Tag
+    │   └── Makefile
+    ├── gcc-3.4.3-newlib-1.13.0.dat
+    ├── gdb.sh
+    ├── getandpatch-newlib.sh
+    ├── Makefile
+    ├── ndevCommonUtils/
+    │   ├── .project
+    │   ├── appLaunchersInteractive/
+    │   │   ├── _common.bat
+    │   │   ├── CVS/
+    │   │   │   ├── Entries
+    │   │   │   ├── Repository
+    │   │   │   ├── Root
+    │   │   │   └── Tag
+    │   │   ├── ncd.bat
+    │   │   ├── nwc24init.bat
+    │   │   └── sysmenu.bat
+    │   ├── CVS/
+    │   │   ├── Entries
+    │   │   ├── Repository
+    │   │   ├── Root
+    │   │   └── Tag
+    │   ├── eclipseLaunchConfigs/
+    │   │   ├── buildLibrariesBW.launch
+    │   │   ├── CVS/
+    │   │   │   ├── Entries
+    │   │   │   ├── Repository
+    │   │   │   ├── Root
+    │   │   │   └── Tag
+    │   │   ├── cygwin.launch
+    │   │   ├── explorer.launch
+    │   │   ├── gnome-term.launch
+    │   │   ├── hourlyBuild NewVOIP.launch
+    │   │   ├── hourlyBuild P2PPlaza.launch
+    │   │   ├── launchDiscRevoEx.launch
+    │   │   ├── launchDiscRevoExAll.launch
+    │   │   ├── launchDiscRVL_SDK.launch
+    │   │   ├── launchP2PPlazaAll.launch
+    │   │   ├── launchVoipNew.launch
+    │   │   ├── launchVoipNewAll.launch
+    │   │   ├── Refresh All.launch
+    │   │   └── shutdownODEM.launch
+    │   ├── eclipsePreferences/
+    │   │   ├── CVS/
+    │   │   │   ├── Entries
+    │   │   │   ├── Repository
+    │   │   │   ├── Root
+    │   │   │   └── Tag
+    │   │   ├── cvsRepositories.epf
+    │   │   ├── dictionary.txt
+    │   │   └── steveoPrefsAll.epf
+    │   ├── eclipseProjects/
+    │   │   ├── CVS/
+    │   │   │   ├── Entries
+    │   │   │   ├── Repository
+    │   │   │   ├── Root
+    │   │   │   └── Tag
+    │   │   ├── P2PNewWin32/
+    │   │   │   ├── .cproject
+    │   │   │   ├── .project
+    │   │   │   └── CVS/
+    │   │   │       ├── Entries
+    │   │   │       ├── Repository
+    │   │   │       ├── Root
+    │   │   │       └── Tag
+    │   │   ├── P2PPlazaBW/
+    │   │   │   ├── .cproject
+    │   │   │   ├── .project
+    │   │   │   └── CVS/
+    │   │   │       ├── Entries
+    │   │   │       ├── Repository
+    │   │   │       ├── Root
+    │   │   │       └── Tag
+    │   │   └── TWL_SDK_reference/
+    │   │       ├── .cproject
+    │   │       ├── .project
+    │   │       ├── CVS/
+    │   │       │   ├── Entries
+    │   │       │   ├── Repository
+    │   │       │   ├── Root
+    │   │       │   └── Tag
+    │   │       └── makefile
+    │   ├── environments/
+    │   │   ├── CVS/
+    │   │   │   ├── Entries
+    │   │   │   ├── Repository
+    │   │   │   ├── Root
+    │   │   │   └── Tag
+    │   │   ├── CW_RVL DEV1.lnk
+    │   │   ├── CW_RVL DEV2.lnk
+    │   │   ├── CygTerm (PuTTY).lnk
+    │   │   ├── cygterm DEV1.lnk
+    │   │   ├── cygterm DEV2.lnk
+    │   │   ├── Eclipse DEV1.lnk
+    │   │   ├── Eclipse DEV2.lnk
+    │   │   ├── Radix DEV1.lnk
+    │   │   ├── Radix DEV2.lnk
+    │   │   └── scripts/
+    │   │       ├── CVS/
+    │   │       │   ├── Entries
+    │   │       │   ├── Repository
+    │   │       │   ├── Root
+    │   │       │   └── Tag
+    │   │       ├── CWRVL_DEV1.bat
+    │   │       ├── CWRVL_DEV2.bat
+    │   │       ├── DEV1_env.bat
+    │   │       ├── DEV2_env.bat
+    │   │       ├── DEV_env_common.bat
+    │   │       ├── Eclipse_DEV1.bat
+    │   │       ├── Eclipse_DEV2.bat
+    │   │       ├── Radix_DEV1.bat
+    │   │       └── Radix_DEV2.bat
+    │   ├── launch/
+    │   │   ├── buildLibraries.sh
+    │   │   ├── commonLaunch.bat
+    │   │   ├── CVS/
+    │   │   │   ├── Entries
+    │   │   │   ├── Repository
+    │   │   │   ├── Root
+    │   │   │   └── Tag
+    │   │   ├── hourlyBuild.sh
+    │   │   ├── launchDisc.bat
+    │   │   ├── launchDisc.sh
+    │   │   ├── shutdownODEM.bat
+    │   │   ├── shutdownODEM.sh
+    │   │   └── shutdownODEM_All.bat.lnk
+    │   └── windowsExplorer/
+    │       ├── CVS/
+    │       │   ├── Entries
+    │       │   ├── Repository
+    │       │   ├── Root
+    │       │   └── Tag
+    │       ├── Cygwin.lnk
+    │       ├── cygwinhere.reg
+    │       ├── ndrun.reg
+    │       ├── newCmdHere.reg
+    │       ├── newCmdHereREADME.txt
+    │       ├── PuttyCygHere.lnk
+    │       ├── puttyCygwinHere.reg
+    │       ├── RVLEnvHere.reg
+    │       └── RVLEnvHereREADME.txt
+    ├── patches/
+    │   ├── binutils-2.15/
+    │   │   ├── binutils-2.15-psignal.patch
+    │   │   ├── binutils-2.15-solaris-qsort.patch
+    │   │   ├── binutils-2.15-vmx.patch
+    │   │   ├── binutils-arm-undef-imm.patch
+    │   │   ├── binutils-skip-comments.patch
+    │   │   ├── cross-gprof.patch
+    │   │   ├── CVS/
+    │   │   │   ├── Entries
+    │   │   │   ├── Repository
+    │   │   │   ├── Root
+    │   │   │   └── Tag
+    │   │   ├── gccpr15247-fix.patch
+    │   │   └── s390-invalid-insn-format.patch
+    │   ├── binutils-2.16.1/
+    │   │   ├── arm-pic.patch
+    │   │   └── CVS/
+    │   │       ├── Entries
+    │   │       ├── Repository
+    │   │       ├── Root
+    │   │       └── Tag
+    │   ├── CVS/
+    │   │   ├── Entries
+    │   │   ├── Repository
+    │   │   ├── Root
+    │   │   └── Tag
+    │   └── gcc-3.4.3/
+    │       ├── arm-interwork.patch
+    │       ├── armv5-interwork.patch
+    │       ├── CVS/
+    │       │   ├── Entries
+    │       │   ├── Repository
+    │       │   ├── Root
+    │       │   └── Tag
+    │       ├── fix-fixincl.patch
+    │       ├── gcc-3.4.0-arm-bigendian.patch
+    │       ├── gcc-3.4.0-arm-lib1asm.patch
+    │       ├── gcc-3.4.0-arm-nolibfloat.patch
+    │       ├── pr15068-fix.patch
+    │       ├── pr16201-fix.patch
+    │       └── pr18508-fix.patch
+    └── testhello.sh

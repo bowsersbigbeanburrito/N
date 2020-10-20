@@ -1,0 +1,607 @@
+sc_root/
+├── RVL_128/
+│   ├── doc/
+│   └── usr/
+│       ├── bin/
+│       │   ├── ds/
+│       │   ├── gba/
+│       │   ├── ppc/
+│       │   ├── rvl/
+│       │   │   ├── cryptotest.elf
+│       │   │   ├── eepromtest.elf
+│       │   │   ├── es.elf
+│       │   │   ├── es_apitest.elf
+│       │   │   ├── es_swupdate.elf
+│       │   │   ├── fs.elf
+│       │   │   ├── fs_apitest.elf
+│       │   │   ├── fs_coproc.elf
+│       │   │   ├── fs_nocrypto.elf
+│       │   │   ├── fs_perf.elf
+│       │   │   ├── fs_regr.elf
+│       │   │   ├── fs_stress.elf
+│       │   │   ├── fsmon.elf
+│       │   │   ├── hashperf.elf
+│       │   │   ├── memcheckestest.elf
+│       │   │   ├── ownerstest.elf
+│       │   │   └── versiontest.elf
+│       │   ├── sc/
+│       │   │   ├── aud.elf
+│       │   │   ├── boot0.bin
+│       │   │   ├── boot0.guc
+│       │   │   ├── boot0.hex
+│       │   │   ├── boot1.aes
+│       │   │   ├── es.elf
+│       │   │   ├── fs.elf
+│       │   │   ├── sk.elf
+│       │   │   └── usb.elf
+│       │   ├── win32/
+│       │   └── x86/
+│       │       ├── aes_decode
+│       │       ├── aes_encode
+│       │       ├── arm-elf-merge
+│       │       ├── ascii2bin.py
+│       │       ├── bin2c.py
+│       │       ├── bin2ihex.py
+│       │       ├── boothash
+│       │       ├── bwf2wad.py
+│       │       ├── cert
+│       │       ├── dumpfat
+│       │       ├── flashify.py
+│       │       ├── gba.py
+│       │       ├── genhashes
+│       │       ├── hex2bin.pl
+│       │       ├── pem
+│       │       ├── publish.py
+│       │       ├── publishWad.py
+│       │       ├── sce
+│       │       ├── ticket
+│       │       ├── ticketIRD
+│       │       ├── tmd
+│       │       ├── tmdIRD
+│       │       ├── unpublish
+│       │       ├── unpublish.py
+│       │       ├── unpublishWad.py
+│       │       └── wad2bwf.py
+│       ├── etc/
+│       │   └── pki_data/
+│       │       ├── ca_bpki.cert
+│       │       ├── ca_bpki.rsa
+│       │       ├── ca_dpki.cert
+│       │       ├── ca_ppki.cert
+│       │       ├── ca_tpki.cert
+│       │       ├── ca_tpki.rsa
+│       │       ├── cert_bpki.sys
+│       │       ├── cert_dpki.sys
+│       │       ├── cert_ppki.sys
+│       │       ├── cert_tpki.sys
+│       │       ├── common_bpki.aesKey
+│       │       ├── common_dpki.aesKey
+│       │       ├── common_tpki.aesKey
+│       │       ├── cp_bpki.cert
+│       │       ├── cp_bpki.rsa
+│       │       ├── cp_dpki.cert
+│       │       ├── cp_dpki.rsa
+│       │       ├── cp_ppki.cert
+│       │       ├── cp_tpki.cert
+│       │       ├── cp_tpki.rsa
+│       │       ├── dev_bpki.eccPvtKey
+│       │       ├── dev_dpki.eccPvtKey
+│       │       ├── dev_nc_bpki.cert
+│       │       ├── dev_nc_tpki.cert
+│       │       ├── dev_ng_bpki.cert
+│       │       ├── dev_ng_dpki.cert
+│       │       ├── dev_ng_ppki.cert
+│       │       ├── dev_ng_tpki.cert
+│       │       ├── dev_tpki.eccPvtKey
+│       │       ├── ms_bpki.cert
+│       │       ├── ms_bpki.eccPvtKey
+│       │       ├── ms_dpki.cert
+│       │       ├── ms_ppki.cert
+│       │       ├── ms_tpki.cert
+│       │       ├── ms_tpki.eccPvtKey
+│       │       ├── op_bpki.cert
+│       │       ├── pccert_bpki.sys
+│       │       ├── root_tpki.cert
+│       │       ├── root_tpki.rsa
+│       │       ├── xs_bpki.cert
+│       │       ├── xs_bpki.eccPubKey
+│       │       ├── xs_bpki.eccPvtKey
+│       │       ├── xs_bpki.rsa
+│       │       ├── xs_dpki.cert
+│       │       ├── xs_dpki.eccPubKey
+│       │       ├── xs_dpki.eccPvtKey
+│       │       ├── xs_dpki.rsa
+│       │       ├── xs_ppki.cert
+│       │       ├── xs_tpki.cert
+│       │       ├── xs_tpki.eccPubKey
+│       │       ├── xs_tpki.eccPvtKey
+│       │       └── xs_tpki.rsa
+│       ├── include/
+│       │   ├── aes.h
+│       │   ├── aes_api.h
+│       │   ├── aes_imp.h
+│       │   ├── apputils.h
+│       │   ├── boot.h
+│       │   ├── boot2_ops.h
+│       │   ├── bsl.h
+│       │   ├── bslutils.h
+│       │   ├── cryptcalls
+│       │   ├── csl.h
+│       │   ├── csltypes.h
+│       │   ├── ds/
+│       │   ├── es.h
+│       │   ├── es_int.h
+│       │   ├── estypes.h
+│       │   ├── fl_ops.h
+│       │   ├── fl_utils.h
+│       │   ├── flash.h
+│       │   ├── fs.h
+│       │   ├── fs_block.h
+│       │   ├── fs_fat.h
+│       │   ├── fs_ops.h
+│       │   ├── fs_utils.h
+│       │   ├── gba/
+│       │   │   └── scrpc.h
+│       │   ├── iosc.h
+│       │   ├── iosccert.h
+│       │   ├── iosctypes.h
+│       │   ├── ioslibc.h
+│       │   ├── iosnvm.h
+│       │   ├── keystore.h
+│       │   ├── make/
+│       │   │   ├── commondefs
+│       │   │   ├── commonrules
+│       │   │   ├── DSdefs
+│       │   │   ├── GBAdefs
+│       │   │   ├── NGaddrs
+│       │   │   ├── NGaddrs_debug
+│       │   │   ├── NGdefs
+│       │   │   ├── SCaddrs
+│       │   │   ├── SCboot
+│       │   │   ├── SCdefs
+│       │   │   └── X86defs
+│       │   ├── ppc/
+│       │   ├── root.h
+│       │   ├── rsautil.h
+│       │   ├── rvl/
+│       │   │   ├── addr_map.h
+│       │   │   ├── ahb_fdl_defs.h
+│       │   │   ├── arm.h
+│       │   │   ├── asm.h
+│       │   │   ├── diag/
+│       │   │   │   ├── aes.h
+│       │   │   │   ├── aes_api.h
+│       │   │   │   ├── aes_hal.h
+│       │   │   │   ├── aes_imp.h
+│       │   │   │   ├── aes_sha_sw.h
+│       │   │   │   ├── aes_sw.h
+│       │   │   │   ├── aes_test.h
+│       │   │   │   ├── diag.h
+│       │   │   │   ├── getopt.h
+│       │   │   │   ├── int.h
+│       │   │   │   ├── iop_utils.h
+│       │   │   │   ├── mmu.h
+│       │   │   │   ├── proto.h
+│       │   │   │   ├── sha1.h
+│       │   │   │   ├── sha_hal.h
+│       │   │   │   ├── sha_sw.h
+│       │   │   │   ├── sha_test.h
+│       │   │   │   └── trace.h
+│       │   │   ├── dol.h
+│       │   │   ├── dvd_hw.h
+│       │   │   ├── elf.h
+│       │   │   ├── hw.h
+│       │   │   ├── io_reg.h
+│       │   │   ├── iop.h
+│       │   │   ├── ios.h
+│       │   │   ├── iosiobuf.h
+│       │   │   ├── iosresource.h
+│       │   │   ├── iostypes.h
+│       │   │   ├── iosusb.h
+│       │   │   ├── iosusbtypes.h
+│       │   │   ├── lomem.h
+│       │   │   ├── mem_reg.h
+│       │   │   ├── memmap.h
+│       │   │   ├── mmu.h
+│       │   │   ├── nvram.h
+│       │   │   ├── priority.h
+│       │   │   ├── rpc.h
+│       │   │   ├── sd_api.h
+│       │   │   ├── sdi.h
+│       │   │   ├── sdio_api.h
+│       │   │   ├── semihost.h
+│       │   │   ├── swi.h
+│       │   │   ├── sys.h
+│       │   │   ├── syscalls
+│       │   │   ├── trace.h
+│       │   │   ├── types.h
+│       │   │   └── vio.h
+│       │   ├── sc/
+│       │   │   ├── addr_map.h
+│       │   │   ├── arm.h
+│       │   │   ├── asm.h
+│       │   │   ├── aud.h
+│       │   │   ├── audbuf.h
+│       │   │   ├── elf.h
+│       │   │   ├── ios.h
+│       │   │   ├── iostypes.h
+│       │   │   ├── memmap.h
+│       │   │   ├── nvram.h
+│       │   │   ├── priority.h
+│       │   │   ├── rtc.h
+│       │   │   ├── sc.h
+│       │   │   ├── semihost.h
+│       │   │   ├── semihost_usb.h
+│       │   │   ├── swi.h
+│       │   │   ├── syscalls
+│       │   │   ├── usb.h
+│       │   │   ├── vio.h
+│       │   │   ├── vsofts_mp3.h
+│       │   │   ├── vsofts_types.h
+│       │   │   └── wa.h
+│       │   ├── sha1.h
+│       │   ├── types.h
+│       │   └── x86/
+│       │       ├── addr_map.h
+│       │       └── esl.h
+│       ├── lib/
+│       │   ├── ds/
+│       │   ├── gba/
+│       │   │   └── libvio_usb.a
+│       │   ├── ppc/
+│       │   ├── rvl/
+│       │   │   ├── crt0.o
+│       │   │   ├── crt0_noOS.o
+│       │   │   ├── ddr.link
+│       │   │   ├── libapputils.a
+│       │   │   ├── libboot2.a
+│       │   │   ├── libbsl.a
+│       │   │   ├── libcsl.a
+│       │   │   ├── libcsl_dev.a
+│       │   │   ├── libes.a
+│       │   │   ├── libintes.a
+│       │   │   ├── libintflash.a
+│       │   │   ├── libintfs.a
+│       │   │   ├── libios.a
+│       │   │   ├── libiosc.a
+│       │   │   ├── libioslibc.a
+│       │   │   ├── libisfs.a
+│       │   │   ├── sdram.link
+│       │   │   └── stdalone.link
+│       │   ├── sc/
+│       │   │   ├── crt0.o
+│       │   │   ├── da.link
+│       │   │   ├── libaudbuf.a
+│       │   │   ├── libboot2.a
+│       │   │   ├── libbsl.a
+│       │   │   ├── libcsl.a
+│       │   │   ├── libcsl_dev.a
+│       │   │   ├── libes.a
+│       │   │   ├── libintflash.a
+│       │   │   ├── libintfs.a
+│       │   │   ├── libios.a
+│       │   │   ├── libiosc.a
+│       │   │   ├── libioslibc.a
+│       │   │   ├── libisfs.a
+│       │   │   ├── librtc.a
+│       │   │   ├── libvio.a
+│       │   │   ├── libvio_usb.a
+│       │   │   ├── libwa.a
+│       │   │   ├── sdram.link
+│       │   │   └── vsmp3lib.a
+│       │   ├── win32/
+│       │   │   └── libcsl.lib
+│       │   └── x86/
+│       │       ├── libbsl.a
+│       │       ├── libcsl.a
+│       │       ├── libcsl_dev.a
+│       │       ├── libesl.a
+│       │       ├── libnvm.a
+│       │       └── librsautil.a
+│       └── src/
+│           ├── gba/
+│           ├── nc/
+│           └── rvl/
+└── RVL_64/
+    ├── doc/
+    └── usr/
+        ├── bin/
+        │   ├── ds/
+        │   ├── gba/
+        │   ├── ppc/
+        │   ├── rvl/
+        │   │   ├── cryptotest.elf
+        │   │   ├── eepromtest.elf
+        │   │   ├── es.elf
+        │   │   ├── es_apitest.elf
+        │   │   ├── es_swupdate.elf
+        │   │   ├── fs.elf
+        │   │   ├── fs_apitest.elf
+        │   │   ├── fs_coproc.elf
+        │   │   ├── fs_nocrypto.elf
+        │   │   ├── fs_perf.elf
+        │   │   ├── fs_regr.elf
+        │   │   ├── fs_stress.elf
+        │   │   ├── fsmon.elf
+        │   │   ├── hashperf.elf
+        │   │   ├── memcheckestest.elf
+        │   │   ├── ownerstest.elf
+        │   │   └── versiontest.elf
+        │   ├── sc/
+        │   │   ├── aud.elf
+        │   │   ├── boot0.bin
+        │   │   ├── boot0.guc
+        │   │   ├── boot0.hex
+        │   │   ├── boot1.aes
+        │   │   ├── es.elf
+        │   │   ├── fs.elf
+        │   │   ├── sk.elf
+        │   │   └── usb.elf
+        │   ├── win32/
+        │   └── x86/
+        │       ├── aes_decode
+        │       ├── aes_encode
+        │       ├── arm-elf-merge
+        │       ├── ascii2bin.py
+        │       ├── bin2c.py
+        │       ├── bin2ihex.py
+        │       ├── boothash
+        │       ├── bwf2wad.py
+        │       ├── cert
+        │       ├── dumpfat
+        │       ├── flashify.py
+        │       ├── gba.py
+        │       ├── genhashes
+        │       ├── hex2bin.pl
+        │       ├── pem
+        │       ├── publish.py
+        │       ├── publishWad.py
+        │       ├── sce
+        │       ├── ticket
+        │       ├── ticketIRD
+        │       ├── tmd
+        │       ├── tmdIRD
+        │       ├── unpublish
+        │       ├── unpublish.py
+        │       ├── unpublishWad.py
+        │       └── wad2bwf.py
+        ├── etc/
+        │   └── pki_data/
+        │       ├── ca_bpki.cert
+        │       ├── ca_bpki.rsa
+        │       ├── ca_dpki.cert
+        │       ├── ca_ppki.cert
+        │       ├── ca_tpki.cert
+        │       ├── ca_tpki.rsa
+        │       ├── cert_bpki.sys
+        │       ├── cert_dpki.sys
+        │       ├── cert_ppki.sys
+        │       ├── cert_tpki.sys
+        │       ├── common_bpki.aesKey
+        │       ├── common_dpki.aesKey
+        │       ├── common_tpki.aesKey
+        │       ├── cp_bpki.cert
+        │       ├── cp_bpki.rsa
+        │       ├── cp_dpki.cert
+        │       ├── cp_dpki.rsa
+        │       ├── cp_ppki.cert
+        │       ├── cp_tpki.cert
+        │       ├── cp_tpki.rsa
+        │       ├── dev_bpki.eccPvtKey
+        │       ├── dev_dpki.eccPvtKey
+        │       ├── dev_nc_bpki.cert
+        │       ├── dev_nc_tpki.cert
+        │       ├── dev_ng_bpki.cert
+        │       ├── dev_ng_dpki.cert
+        │       ├── dev_ng_ppki.cert
+        │       ├── dev_ng_tpki.cert
+        │       ├── dev_tpki.eccPvtKey
+        │       ├── ms_bpki.cert
+        │       ├── ms_bpki.eccPvtKey
+        │       ├── ms_dpki.cert
+        │       ├── ms_ppki.cert
+        │       ├── ms_tpki.cert
+        │       ├── ms_tpki.eccPvtKey
+        │       ├── op_bpki.cert
+        │       ├── pccert_bpki.sys
+        │       ├── root_tpki.cert
+        │       ├── root_tpki.rsa
+        │       ├── xs_bpki.cert
+        │       ├── xs_bpki.eccPubKey
+        │       ├── xs_bpki.eccPvtKey
+        │       ├── xs_bpki.rsa
+        │       ├── xs_dpki.cert
+        │       ├── xs_dpki.eccPubKey
+        │       ├── xs_dpki.eccPvtKey
+        │       ├── xs_dpki.rsa
+        │       ├── xs_ppki.cert
+        │       ├── xs_tpki.cert
+        │       ├── xs_tpki.eccPubKey
+        │       ├── xs_tpki.eccPvtKey
+        │       └── xs_tpki.rsa
+        ├── include/
+        │   ├── aes.h
+        │   ├── aes_api.h
+        │   ├── aes_imp.h
+        │   ├── apputils.h
+        │   ├── boot.h
+        │   ├── boot2_ops.h
+        │   ├── bsl.h
+        │   ├── bslutils.h
+        │   ├── cryptcalls
+        │   ├── csl.h
+        │   ├── csltypes.h
+        │   ├── ds/
+        │   ├── es.h
+        │   ├── es_int.h
+        │   ├── estypes.h
+        │   ├── fl_ops.h
+        │   ├── fl_utils.h
+        │   ├── flash.h
+        │   ├── fs.h
+        │   ├── fs_block.h
+        │   ├── fs_fat.h
+        │   ├── fs_ops.h
+        │   ├── fs_utils.h
+        │   ├── gba/
+        │   │   └── scrpc.h
+        │   ├── iosc.h
+        │   ├── iosccert.h
+        │   ├── iosctypes.h
+        │   ├── ioslibc.h
+        │   ├── iosnvm.h
+        │   ├── keystore.h
+        │   ├── make/
+        │   │   ├── commondefs
+        │   │   ├── commonrules
+        │   │   ├── DSdefs
+        │   │   ├── GBAdefs
+        │   │   ├── NGaddrs
+        │   │   ├── NGaddrs_debug
+        │   │   ├── NGdefs
+        │   │   ├── SCaddrs
+        │   │   ├── SCboot
+        │   │   ├── SCdefs
+        │   │   └── X86defs
+        │   ├── ppc/
+        │   ├── root.h
+        │   ├── rsautil.h
+        │   ├── rvl/
+        │   │   ├── addr_map.h
+        │   │   ├── ahb_fdl_defs.h
+        │   │   ├── arm.h
+        │   │   ├── asm.h
+        │   │   ├── diag/
+        │   │   │   ├── aes.h
+        │   │   │   ├── aes_api.h
+        │   │   │   ├── aes_hal.h
+        │   │   │   ├── aes_imp.h
+        │   │   │   ├── aes_sha_sw.h
+        │   │   │   ├── aes_sw.h
+        │   │   │   ├── aes_test.h
+        │   │   │   ├── diag.h
+        │   │   │   ├── getopt.h
+        │   │   │   ├── int.h
+        │   │   │   ├── iop_utils.h
+        │   │   │   ├── mmu.h
+        │   │   │   ├── proto.h
+        │   │   │   ├── sha1.h
+        │   │   │   ├── sha_hal.h
+        │   │   │   ├── sha_sw.h
+        │   │   │   ├── sha_test.h
+        │   │   │   └── trace.h
+        │   │   ├── dol.h
+        │   │   ├── dvd_hw.h
+        │   │   ├── elf.h
+        │   │   ├── hw.h
+        │   │   ├── io_reg.h
+        │   │   ├── iop.h
+        │   │   ├── ios.h
+        │   │   ├── iosiobuf.h
+        │   │   ├── iosresource.h
+        │   │   ├── iostypes.h
+        │   │   ├── iosusb.h
+        │   │   ├── iosusbtypes.h
+        │   │   ├── lomem.h
+        │   │   ├── mem_reg.h
+        │   │   ├── memmap.h
+        │   │   ├── mmu.h
+        │   │   ├── nvram.h
+        │   │   ├── priority.h
+        │   │   ├── rpc.h
+        │   │   ├── sd_api.h
+        │   │   ├── sdi.h
+        │   │   ├── sdio_api.h
+        │   │   ├── semihost.h
+        │   │   ├── swi.h
+        │   │   ├── sys.h
+        │   │   ├── syscalls
+        │   │   ├── trace.h
+        │   │   ├── types.h
+        │   │   └── vio.h
+        │   ├── sc/
+        │   │   ├── addr_map.h
+        │   │   ├── arm.h
+        │   │   ├── asm.h
+        │   │   ├── aud.h
+        │   │   ├── audbuf.h
+        │   │   ├── elf.h
+        │   │   ├── ios.h
+        │   │   ├── iostypes.h
+        │   │   ├── memmap.h
+        │   │   ├── nvram.h
+        │   │   ├── priority.h
+        │   │   ├── rtc.h
+        │   │   ├── sc.h
+        │   │   ├── semihost.h
+        │   │   ├── semihost_usb.h
+        │   │   ├── swi.h
+        │   │   ├── syscalls
+        │   │   ├── usb.h
+        │   │   ├── vio.h
+        │   │   ├── vsofts_mp3.h
+        │   │   ├── vsofts_types.h
+        │   │   └── wa.h
+        │   ├── sha1.h
+        │   ├── types.h
+        │   └── x86/
+        │       ├── addr_map.h
+        │       └── esl.h
+        ├── lib/
+        │   ├── ds/
+        │   ├── gba/
+        │   │   └── libvio_usb.a
+        │   ├── ppc/
+        │   ├── rvl/
+        │   │   ├── crt0.o
+        │   │   ├── crt0_noOS.o
+        │   │   ├── ddr.link
+        │   │   ├── libapputils.a
+        │   │   ├── libboot2.a
+        │   │   ├── libbsl.a
+        │   │   ├── libcsl.a
+        │   │   ├── libcsl_dev.a
+        │   │   ├── libes.a
+        │   │   ├── libintes.a
+        │   │   ├── libintflash.a
+        │   │   ├── libintfs.a
+        │   │   ├── libios.a
+        │   │   ├── libiosc.a
+        │   │   ├── libioslibc.a
+        │   │   ├── libisfs.a
+        │   │   ├── sdram.link
+        │   │   └── stdalone.link
+        │   ├── sc/
+        │   │   ├── crt0.o
+        │   │   ├── da.link
+        │   │   ├── libaudbuf.a
+        │   │   ├── libboot2.a
+        │   │   ├── libbsl.a
+        │   │   ├── libcsl.a
+        │   │   ├── libcsl_dev.a
+        │   │   ├── libes.a
+        │   │   ├── libintflash.a
+        │   │   ├── libintfs.a
+        │   │   ├── libios.a
+        │   │   ├── libiosc.a
+        │   │   ├── libioslibc.a
+        │   │   ├── libisfs.a
+        │   │   ├── librtc.a
+        │   │   ├── libvio.a
+        │   │   ├── libvio_usb.a
+        │   │   ├── libwa.a
+        │   │   ├── sdram.link
+        │   │   └── vsmp3lib.a
+        │   ├── win32/
+        │   │   └── libcsl.lib
+        │   └── x86/
+        │       ├── libbsl.a
+        │       ├── libcsl.a
+        │       ├── libcsl_dev.a
+        │       ├── libesl.a
+        │       ├── libnvm.a
+        │       └── librsautil.a
+        └── src/
+            ├── gba/
+            ├── nc/
+            └── rvl/

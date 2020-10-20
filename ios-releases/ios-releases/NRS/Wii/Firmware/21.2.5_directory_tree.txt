@@ -1,0 +1,302 @@
+21.2.5/
+├── .svn/
+│   ├── entries
+│   ├── format
+│   ├── prop-base/
+│   │   └── FirmwareFinal.21.2.5.zip.svn-base
+│   ├── props/
+│   ├── text-base/
+│   │   ├── autobuild.sh.svn-base
+│   │   ├── config.21.2.5.svn-base
+│   │   ├── FirmwareFinal.21.2.5.zip.svn-base
+│   │   └── makefile.21.2.5.svn-base
+│   └── tmp/
+│       ├── prop-base/
+│       ├── props/
+│       └── text-base/
+├── autobuild.sh
+├── config.21.2.5
+├── Firmware/
+│   ├── 21.x.x/
+│   │   ├── local_config
+│   │   └── makefile
+│   ├── merge.sh
+│   └── x86/
+│       ├── bin/
+│       │   ├── arm-elf-merge.exe
+│       │   ├── bi2.bin
+│       │   ├── bmerge.exe
+│       │   ├── cacert.clip.bin
+│       │   ├── clcert.clip.bin
+│       │   ├── createOSImage.py
+│       │   ├── dat/
+│       │   ├── makedol.exe
+│       │   ├── makemaster
+│       │   ├── makervm.dll
+│       │   ├── makervm.exe
+│       │   ├── makeRVTR.exe
+│       │   ├── pki_data/
+│       │   │   ├── arcade/
+│       │   │   │   ├── arcgen_ca.cert
+│       │   │   │   ├── arcgen_xs.cert
+│       │   │   │   ├── arcgen_xs.pubKey
+│       │   │   │   ├── arcgen_xs.pvtKey
+│       │   │   │   ├── arcgen_xs.rsa
+│       │   │   │   ├── capcom_ca.cert
+│       │   │   │   ├── capcom_xs.cert
+│       │   │   │   ├── capcom_xs.pubKey
+│       │   │   │   ├── capcom_xs.pvtKey
+│       │   │   │   ├── capcom_xs.rsa
+│       │   │   │   ├── konami_ca.cert
+│       │   │   │   ├── konami_xs.cert
+│       │   │   │   ├── konami_xs.pubKey
+│       │   │   │   ├── konami_xs.pvtKey
+│       │   │   │   ├── konami_xs.rsa
+│       │   │   │   ├── namco_ca.cert
+│       │   │   │   ├── namco_xs.cert
+│       │   │   │   ├── namco_xs.pubKey
+│       │   │   │   ├── namco_xs.pvtKey
+│       │   │   │   ├── namco_xs.rsa
+│       │   │   │   ├── sega_ca.cert
+│       │   │   │   ├── sega_xs.cert
+│       │   │   │   ├── sega_xs.pubKey
+│       │   │   │   ├── sega_xs.pvtKey
+│       │   │   │   ├── sega_xs.rsa
+│       │   │   │   ├── taito_ca.cert
+│       │   │   │   ├── taito_xs.cert
+│       │   │   │   ├── taito_xs.pubKey
+│       │   │   │   ├── taito_xs.pvtKey
+│       │   │   │   └── taito_xs.rsa
+│       │   │   ├── ca_dpki.cert
+│       │   │   ├── ca_ppki.cert
+│       │   │   ├── cacp_dpki.cert
+│       │   │   ├── caxs_dpki.cert
+│       │   │   ├── cert_dpki.sys
+│       │   │   ├── cert_ppki.sys
+│       │   │   ├── common_dpki.aesKey
+│       │   │   ├── cp_dpki.cert
+│       │   │   ├── cp_dpki.rsa
+│       │   │   ├── cp_ppki.cert
+│       │   │   ├── dev_dpki.eccPvtKey
+│       │   │   ├── dev_ng_dpki.cert
+│       │   │   ├── ms_dpki.cert
+│       │   │   ├── xs_dpki.cert
+│       │   │   ├── xs_dpki.eccPubKey
+│       │   │   ├── xs_dpki.eccPvtKey
+│       │   │   ├── xs_dpki.rsa
+│       │   │   └── xs_ppki.cert
+│       │   ├── publishWad.py
+│       │   ├── rmprint
+│       │   ├── rvl.9.bin
+│       │   ├── rvl.bin
+│       │   ├── rvl_devel_partitionIRD.exe
+│       │   ├── setcountrycode
+│       │   ├── setsmem2size
+│       │   ├── ticket.exe
+│       │   ├── ticketIRD.exe
+│       │   ├── tickleBI2.exe
+│       │   ├── tickleBI3.exe
+│       │   ├── tmd.exe
+│       │   └── tmdIRD.exe
+│       ├── FW_BIN_SDK_3_1-2008-02-15
+│       └── FW_BIN_SDK_3_1_2008-02-15
+├── FirmwareFinal.21.2.5/
+│   └── Firmware/
+│       ├── 21.x.x/
+│       │   ├── local_config
+│       │   ├── makefile
+│       │   ├── rvl-128/
+│       │   │   ├── bin/
+│       │   │   │   ├── firmware.128.21.2.5.nossl.txt
+│       │   │   │   ├── firmware.128.21.2.5.nossl.wad
+│       │   │   │   ├── firmware.128.21.2.5.txt
+│       │   │   │   └── firmware.128.21.2.5.wad
+│       │   │   ├── di_boot.elf
+│       │   │   ├── di_boot_prod.elf
+│       │   │   ├── es.elf
+│       │   │   ├── fs.elf
+│       │   │   ├── ios_real.elf
+│       │   │   ├── kd.elf
+│       │   │   ├── loader.bin
+│       │   │   ├── make/
+│       │   │   │   └── NGaddrs_debug
+│       │   │   ├── nandboot.dol
+│       │   │   ├── ncd.elf
+│       │   │   ├── ohci0.elf
+│       │   │   ├── ohci1.elf
+│       │   │   ├── sdi.elf
+│       │   │   ├── so.elf
+│       │   │   ├── ssl.elf
+│       │   │   ├── stm.elf
+│       │   │   ├── usbeth.elf
+│       │   │   ├── wd.elf
+│       │   │   └── wldrvr.elf
+│       │   └── rvl-64/
+│       │       ├── bin/
+│       │       │   ├── firmware.64.21.2.5.nossl.txt
+│       │       │   ├── firmware.64.21.2.5.nossl.wad
+│       │       │   ├── firmware.64.21.2.5.txt
+│       │       │   ├── firmware.64.21.2.5.wad
+│       │       │   ├── firmware.RVL.21.2.5.nossl.txt
+│       │       │   ├── firmware.RVL.21.2.5.nossl.wad
+│       │       │   ├── firmware.RVL.21.2.5.txt
+│       │       │   └── firmware.RVL.21.2.5.wad
+│       │       ├── di_boot.elf
+│       │       ├── di_boot_prod.elf
+│       │       ├── es.elf
+│       │       ├── fs.elf
+│       │       ├── ios_prod.elf
+│       │       ├── ios_real.elf
+│       │       ├── kd.elf
+│       │       ├── loader.bin
+│       │       ├── make/
+│       │       │   └── NGaddrs
+│       │       ├── nandboot.dol
+│       │       ├── ncd.elf
+│       │       ├── ohci0.elf
+│       │       ├── ohci1.elf
+│       │       ├── sdi.elf
+│       │       ├── so.elf
+│       │       ├── ssl.elf
+│       │       ├── stm.elf
+│       │       ├── usbeth.elf
+│       │       ├── wd.elf
+│       │       └── wldrvr.elf
+│       ├── merge.sh
+│       └── x86/
+│           ├── bin/
+│           │   ├── arm-elf-merge.exe
+│           │   ├── bi2.bin
+│           │   ├── bmerge.exe
+│           │   ├── cacert.clip.bin
+│           │   ├── clcert.clip.bin
+│           │   ├── createOSImage.py
+│           │   ├── dat/
+│           │   ├── makedol.exe
+│           │   ├── makemaster
+│           │   ├── makervm.dll
+│           │   ├── makervm.exe
+│           │   ├── makeRVTR.exe
+│           │   ├── pki_data/
+│           │   │   ├── arcade/
+│           │   │   │   ├── arcgen_ca.cert
+│           │   │   │   ├── arcgen_xs.cert
+│           │   │   │   ├── arcgen_xs.pubKey
+│           │   │   │   ├── arcgen_xs.pvtKey
+│           │   │   │   ├── arcgen_xs.rsa
+│           │   │   │   ├── capcom_ca.cert
+│           │   │   │   ├── capcom_xs.cert
+│           │   │   │   ├── capcom_xs.pubKey
+│           │   │   │   ├── capcom_xs.pvtKey
+│           │   │   │   ├── capcom_xs.rsa
+│           │   │   │   ├── konami_ca.cert
+│           │   │   │   ├── konami_xs.cert
+│           │   │   │   ├── konami_xs.pubKey
+│           │   │   │   ├── konami_xs.pvtKey
+│           │   │   │   ├── konami_xs.rsa
+│           │   │   │   ├── namco_ca.cert
+│           │   │   │   ├── namco_xs.cert
+│           │   │   │   ├── namco_xs.pubKey
+│           │   │   │   ├── namco_xs.pvtKey
+│           │   │   │   ├── namco_xs.rsa
+│           │   │   │   ├── sega_ca.cert
+│           │   │   │   ├── sega_xs.cert
+│           │   │   │   ├── sega_xs.pubKey
+│           │   │   │   ├── sega_xs.pvtKey
+│           │   │   │   ├── sega_xs.rsa
+│           │   │   │   ├── taito_ca.cert
+│           │   │   │   ├── taito_xs.cert
+│           │   │   │   ├── taito_xs.pubKey
+│           │   │   │   ├── taito_xs.pvtKey
+│           │   │   │   └── taito_xs.rsa
+│           │   │   ├── ca_dpki.cert
+│           │   │   ├── ca_ppki.cert
+│           │   │   ├── cacp_dpki.cert
+│           │   │   ├── caxs_dpki.cert
+│           │   │   ├── cert_dpki.sys
+│           │   │   ├── cert_ppki.sys
+│           │   │   ├── common_dpki.aesKey
+│           │   │   ├── cp_dpki.cert
+│           │   │   ├── cp_dpki.rsa
+│           │   │   ├── cp_ppki.cert
+│           │   │   ├── dev_dpki.eccPvtKey
+│           │   │   ├── dev_ng_dpki.cert
+│           │   │   ├── ms_dpki.cert
+│           │   │   ├── xs_dpki.cert
+│           │   │   ├── xs_dpki.eccPubKey
+│           │   │   ├── xs_dpki.eccPvtKey
+│           │   │   ├── xs_dpki.rsa
+│           │   │   └── xs_ppki.cert
+│           │   ├── publishWad.py
+│           │   ├── rmprint
+│           │   ├── rvl.9.bin
+│           │   ├── rvl.bin
+│           │   ├── rvl_devel_partitionIRD.exe
+│           │   ├── setcountrycode
+│           │   ├── setsmem2size
+│           │   ├── ticket.exe
+│           │   ├── ticketIRD.exe
+│           │   ├── tickleBI2.exe
+│           │   ├── tickleBI3.exe
+│           │   ├── tmd.exe
+│           │   └── tmdIRD.exe
+│           ├── FW_BIN_SDK_3_1-2008-02-15
+│           └── FW_BIN_SDK_3_1_2008-02-15
+├── makefile.21.2.5
+├── rvl-128/
+│   ├── bin/
+│   │   ├── firmware.128.21.2.5.nossl.txt
+│   │   ├── firmware.128.21.2.5.nossl.wad
+│   │   ├── firmware.128.21.2.5.txt
+│   │   └── firmware.128.21.2.5.wad
+│   ├── di_boot.elf
+│   ├── di_boot_prod.elf
+│   ├── es.elf
+│   ├── fs.elf
+│   ├── ios_real.elf
+│   ├── kd.elf
+│   ├── loader.bin
+│   ├── make/
+│   │   └── NGaddrs_debug
+│   ├── nandboot.dol
+│   ├── ncd.elf
+│   ├── ohci0.elf
+│   ├── ohci1.elf
+│   ├── sdi.elf
+│   ├── so.elf
+│   ├── ssl.elf
+│   ├── stm.elf
+│   ├── usbeth.elf
+│   ├── wd.elf
+│   └── wldrvr.elf
+└── rvl-64/
+    ├── bin/
+    │   ├── firmware.64.21.2.5.nossl.txt
+    │   ├── firmware.64.21.2.5.nossl.wad
+    │   ├── firmware.64.21.2.5.txt
+    │   ├── firmware.64.21.2.5.wad
+    │   ├── firmware.RVL.21.2.5.nossl.txt
+    │   ├── firmware.RVL.21.2.5.nossl.wad
+    │   ├── firmware.RVL.21.2.5.txt
+    │   └── firmware.RVL.21.2.5.wad
+    ├── di_boot.elf
+    ├── di_boot_prod.elf
+    ├── es.elf
+    ├── fs.elf
+    ├── ios_prod.elf
+    ├── ios_real.elf
+    ├── kd.elf
+    ├── loader.bin
+    ├── make/
+    │   └── NGaddrs
+    ├── nandboot.dol
+    ├── ncd.elf
+    ├── ohci0.elf
+    ├── ohci1.elf
+    ├── sdi.elf
+    ├── so.elf
+    ├── ssl.elf
+    ├── stm.elf
+    ├── usbeth.elf
+    ├── wd.elf
+    └── wldrvr.elf

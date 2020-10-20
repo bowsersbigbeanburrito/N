@@ -1,0 +1,2013 @@
+apps/
+├── CVS/
+│   ├── Entries
+│   ├── Repository
+│   ├── Root
+│   └── Tag
+└── nintendo/
+    ├── CVS/
+    │   ├── Entries
+    │   ├── Repository
+    │   ├── Root
+    │   └── Tag
+    ├── demos/
+    │   ├── CVS/
+    │   │   ├── Entries
+    │   │   ├── Repository
+    │   │   ├── Root
+    │   │   └── Tag
+    │   ├── dolphin/
+    │   │   ├── bg.c
+    │   │   ├── bg.h
+    │   │   ├── bg_parts/
+    │   │   │   ├── CVS/
+    │   │   │   │   ├── Entries
+    │   │   │   │   ├── Repository
+    │   │   │   │   ├── Root
+    │   │   │   │   └── Tag
+    │   │   │   ├── light4.bmp
+    │   │   │   ├── light4.c
+    │   │   │   ├── sango1024x256.bmp
+    │   │   │   ├── sango1024x256.c
+    │   │   │   ├── sora.bmp
+    │   │   │   ├── sora.c
+    │   │   │   ├── umi_ab_256x512.bmp
+    │   │   │   ├── umi_ab_256x512.c
+    │   │   │   ├── umiA_.bmp
+    │   │   │   ├── umia_.c
+    │   │   │   ├── wave2nd1.bmp
+    │   │   │   ├── wave2nd1.c
+    │   │   │   ├── wave2nd2.bmp
+    │   │   │   ├── wave2nd2.c
+    │   │   │   ├── wave2nd3.bmp
+    │   │   │   └── wave2nd3.c
+    │   │   ├── crt0.s
+    │   │   ├── CVS/
+    │   │   │   ├── Entries
+    │   │   │   ├── Repository
+    │   │   │   ├── Root
+    │   │   │   └── Tag
+    │   │   ├── doc/
+    │   │   │   ├── CVS/
+    │   │   │   │   ├── Entries
+    │   │   │   │   ├── Repository
+    │   │   │   │   ├── Root
+    │   │   │   │   └── Tag
+    │   │   │   └── DemoProgramDolphin.doc
+    │   │   ├── dolphin_readme.txt
+    │   │   ├── enemy.c
+    │   │   ├── enemy.h
+    │   │   ├── enemy_dat.c
+    │   │   ├── game_dat.c
+    │   │   ├── Gasdepend
+    │   │   ├── gdbrc
+    │   │   ├── hitcheck.c
+    │   │   ├── hitcheck.h
+    │   │   ├── img/
+    │   │   │   ├── awa.bmp
+    │   │   │   ├── CVS/
+    │   │   │   │   ├── Entries
+    │   │   │   │   ├── Repository
+    │   │   │   │   ├── Root
+    │   │   │   │   └── Tag
+    │   │   │   ├── Oumgai/
+    │   │   │   │   ├── CVS/
+    │   │   │   │   │   ├── Entries
+    │   │   │   │   │   ├── Repository
+    │   │   │   │   │   ├── Root
+    │   │   │   │   │   └── Tag
+    │   │   │   │   ├── O_fukiya/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   └── O_fukiya000.bmp
+    │   │   │   │   ├── O_kihon/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   ├── O_kihon001.bmp
+    │   │   │   │   │   ├── O_kihon002.bmp
+    │   │   │   │   │   ├── O_kihon003.bmp
+    │   │   │   │   │   ├── O_kihon004.bmp
+    │   │   │   │   │   ├── O_kihon005.bmp
+    │   │   │   │   │   ├── O_kihon006.bmp
+    │   │   │   │   │   ├── O_kihon007.bmp
+    │   │   │   │   │   ├── O_kihon008.bmp
+    │   │   │   │   │   ├── O_kihon009.bmp
+    │   │   │   │   │   └── O_kihon010.bmp
+    │   │   │   │   ├── O_kougeki/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   ├── O_kougeki000.bmp
+    │   │   │   │   │   ├── O_kougeki001.bmp
+    │   │   │   │   │   ├── O_kougeki002.bmp
+    │   │   │   │   │   ├── O_kougeki003.bmp
+    │   │   │   │   │   ├── O_kougeki004.bmp
+    │   │   │   │   │   ├── O_kougeki005.bmp
+    │   │   │   │   │   ├── O_kougeki006.bmp
+    │   │   │   │   │   ├── O_kougeki007.bmp
+    │   │   │   │   │   ├── O_kougeki008.bmp
+    │   │   │   │   │   ├── O_kougeki009.bmp
+    │   │   │   │   │   ├── O_kougeki010.bmp
+    │   │   │   │   │   ├── O_kougeki011.bmp
+    │   │   │   │   │   ├── O_kougeki012.bmp
+    │   │   │   │   │   ├── O_kougeki013.bmp
+    │   │   │   │   │   ├── O_kougeki014.bmp
+    │   │   │   │   │   ├── O_kougeki015.bmp
+    │   │   │   │   │   ├── O_kougeki016.bmp
+    │   │   │   │   │   ├── O_kougeki017.bmp
+    │   │   │   │   │   ├── O_kougeki018.bmp
+    │   │   │   │   │   ├── O_kougeki019.bmp
+    │   │   │   │   │   └── O_kougeki020.bmp
+    │   │   │   │   └── O_yarare/
+    │   │   │   │       ├── CVS/
+    │   │   │   │       │   ├── Entries
+    │   │   │   │       │   ├── Repository
+    │   │   │   │       │   ├── Root
+    │   │   │   │       │   └── Tag
+    │   │   │   │       ├── O_yarare000.bmp
+    │   │   │   │       ├── O_yarare001.bmp
+    │   │   │   │       ├── O_yarare002.bmp
+    │   │   │   │       ├── O_yarare003.bmp
+    │   │   │   │       ├── O_yarare004.bmp
+    │   │   │   │       ├── O_yarare005.bmp
+    │   │   │   │       ├── O_yarare006.bmp
+    │   │   │   │       ├── O_yarare007.bmp
+    │   │   │   │       ├── O_yarare008.bmp
+    │   │   │   │       ├── O_yarare009.bmp
+    │   │   │   │       ├── O_yarare010.bmp
+    │   │   │   │       ├── O_yarare011.bmp
+    │   │   │   │       ├── O_yarare012.bmp
+    │   │   │   │       ├── O_yarare013.bmp
+    │   │   │   │       ├── O_yarare014.bmp
+    │   │   │   │       ├── O_yarare015.bmp
+    │   │   │   │       ├── O_yarare016.bmp
+    │   │   │   │       ├── O_yarare017.bmp
+    │   │   │   │       ├── O_yarare018.bmp
+    │   │   │   │       ├── O_yarare019.bmp
+    │   │   │   │       └── O_yarare020.bmp
+    │   │   │   ├── Ricky/
+    │   │   │   │   ├── CVS/
+    │   │   │   │   │   ├── Entries
+    │   │   │   │   │   ├── Repository
+    │   │   │   │   │   ├── Root
+    │   │   │   │   │   └── Tag
+    │   │   │   │   ├── R_attack/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   ├── R_attack1.bmp
+    │   │   │   │   │   ├── R_attack2.bmp
+    │   │   │   │   │   ├── R_attack3.bmp
+    │   │   │   │   │   ├── R_attack4.bmp
+    │   │   │   │   │   ├── R_attack5.bmp
+    │   │   │   │   │   ├── R_attack6.bmp
+    │   │   │   │   │   └── R_attack7.bmp
+    │   │   │   │   ├── R_down/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   ├── R_down0.bmp
+    │   │   │   │   │   ├── R_down1.bmp
+    │   │   │   │   │   ├── R_down2.bmp
+    │   │   │   │   │   ├── R_down3.bmp
+    │   │   │   │   │   ├── R_down4.bmp
+    │   │   │   │   │   ├── R_down5.bmp
+    │   │   │   │   │   ├── R_down6.bmp
+    │   │   │   │   │   ├── R_down7.bmp
+    │   │   │   │   │   └── R_down8.bmp
+    │   │   │   │   ├── R_go_down/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   ├── R_go_down0.bmp
+    │   │   │   │   │   ├── R_go_down1.bmp
+    │   │   │   │   │   ├── R_go_down2.bmp
+    │   │   │   │   │   ├── R_go_down3.bmp
+    │   │   │   │   │   ├── R_go_down4.bmp
+    │   │   │   │   │   ├── R_go_down5.bmp
+    │   │   │   │   │   ├── R_go_down6.bmp
+    │   │   │   │   │   └── R_go_down7.bmp
+    │   │   │   │   ├── R_go_up/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   ├── R_go_up0.bmp
+    │   │   │   │   │   ├── R_go_up1.bmp
+    │   │   │   │   │   ├── R_go_up2.bmp
+    │   │   │   │   │   ├── R_go_up3.bmp
+    │   │   │   │   │   ├── R_go_up4.bmp
+    │   │   │   │   │   ├── R_go_up5.bmp
+    │   │   │   │   │   ├── R_go_up6.bmp
+    │   │   │   │   │   └── R_go_up7.bmp
+    │   │   │   │   ├── R_jump/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   ├── R_jump0.bmp
+    │   │   │   │   │   ├── R_jump1.bmp
+    │   │   │   │   │   ├── R_jump10.bmp
+    │   │   │   │   │   ├── R_jump2.bmp
+    │   │   │   │   │   ├── R_jump3.bmp
+    │   │   │   │   │   ├── R_jump4.bmp
+    │   │   │   │   │   ├── R_jump5.bmp
+    │   │   │   │   │   ├── R_jump6.bmp
+    │   │   │   │   │   ├── R_jump7.bmp
+    │   │   │   │   │   ├── R_jump8.bmp
+    │   │   │   │   │   └── R_jump9.bmp
+    │   │   │   │   ├── R_kihon/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   ├── R_kihon0.bmp
+    │   │   │   │   │   ├── R_kihon1.bmp
+    │   │   │   │   │   ├── R_kihon2.bmp
+    │   │   │   │   │   ├── R_kihon3.bmp
+    │   │   │   │   │   ├── R_kihon4.bmp
+    │   │   │   │   │   ├── R_kihon5.bmp
+    │   │   │   │   │   ├── R_kihon6.bmp
+    │   │   │   │   │   └── R_kihon7.bmp
+    │   │   │   │   ├── R_up/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   ├── R_up0.bmp
+    │   │   │   │   │   ├── R_up1.bmp
+    │   │   │   │   │   ├── R_up2.bmp
+    │   │   │   │   │   ├── R_up3.bmp
+    │   │   │   │   │   ├── R_up4.bmp
+    │   │   │   │   │   ├── R_up5.bmp
+    │   │   │   │   │   ├── R_up6.bmp
+    │   │   │   │   │   ├── R_up7.bmp
+    │   │   │   │   │   └── R_up8.bmp
+    │   │   │   │   ├── resource/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   ├── Root
+    │   │   │   │   │   │   └── Tag
+    │   │   │   │   │   └── R_jump_mo.gif
+    │   │   │   │   └── small/
+    │   │   │   │       ├── CVS/
+    │   │   │   │       │   ├── Entries
+    │   │   │   │       │   ├── Repository
+    │   │   │   │       │   ├── Root
+    │   │   │   │       │   └── Tag
+    │   │   │   │       ├── r_small0.bmp
+    │   │   │   │       ├── r_small1.bmp
+    │   │   │   │       ├── r_small2.bmp
+    │   │   │   │       ├── r_small3.bmp
+    │   │   │   │       ├── r_small4.bmp
+    │   │   │   │       ├── r_small5.bmp
+    │   │   │   │       ├── r_small6.bmp
+    │   │   │   │       └── r_small7.bmp
+    │   │   │   ├── ring_32_64_left.bmp
+    │   │   │   └── ring_32_64_right.bmp
+    │   │   ├── main.c
+    │   │   ├── main.h
+    │   │   ├── Makefile
+    │   │   ├── obj/
+    │   │   │   ├── awa.c
+    │   │   │   ├── CVS/
+    │   │   │   │   ├── Entries
+    │   │   │   │   ├── Repository
+    │   │   │   │   ├── Root
+    │   │   │   │   └── Tag
+    │   │   │   ├── o_fukiya000.c
+    │   │   │   ├── o_kihon001.c
+    │   │   │   ├── o_kihon002.c
+    │   │   │   ├── o_kihon003.c
+    │   │   │   ├── o_kihon004.c
+    │   │   │   ├── o_kihon005.c
+    │   │   │   ├── o_kihon006.c
+    │   │   │   ├── o_kihon007.c
+    │   │   │   ├── o_kihon008.c
+    │   │   │   ├── o_kihon009.c
+    │   │   │   ├── o_kihon010.c
+    │   │   │   ├── o_kougeki000.c
+    │   │   │   ├── o_kougeki001.c
+    │   │   │   ├── o_kougeki002.c
+    │   │   │   ├── o_kougeki003.c
+    │   │   │   ├── o_kougeki004.c
+    │   │   │   ├── o_kougeki005.c
+    │   │   │   ├── o_kougeki006.c
+    │   │   │   ├── o_kougeki007.c
+    │   │   │   ├── o_kougeki008.c
+    │   │   │   ├── o_kougeki009.c
+    │   │   │   ├── o_kougeki010.c
+    │   │   │   ├── o_kougeki011.c
+    │   │   │   ├── o_kougeki012.c
+    │   │   │   ├── o_kougeki013.c
+    │   │   │   ├── o_kougeki014.c
+    │   │   │   ├── o_kougeki015.c
+    │   │   │   ├── o_kougeki016.c
+    │   │   │   ├── o_kougeki017.c
+    │   │   │   ├── o_kougeki018.c
+    │   │   │   ├── o_kougeki019.c
+    │   │   │   ├── o_kougeki020.c
+    │   │   │   ├── o_yarare000.c
+    │   │   │   ├── o_yarare001.c
+    │   │   │   ├── o_yarare002.c
+    │   │   │   ├── o_yarare003.c
+    │   │   │   ├── o_yarare004.c
+    │   │   │   ├── o_yarare005.c
+    │   │   │   ├── o_yarare006.c
+    │   │   │   ├── o_yarare007.c
+    │   │   │   ├── o_yarare008.c
+    │   │   │   ├── o_yarare009.c
+    │   │   │   ├── o_yarare010.c
+    │   │   │   ├── o_yarare011.c
+    │   │   │   ├── o_yarare012.c
+    │   │   │   ├── o_yarare013.c
+    │   │   │   ├── o_yarare014.c
+    │   │   │   ├── o_yarare015.c
+    │   │   │   ├── o_yarare016.c
+    │   │   │   ├── o_yarare017.c
+    │   │   │   ├── o_yarare018.c
+    │   │   │   ├── o_yarare019.c
+    │   │   │   ├── o_yarare020.c
+    │   │   │   ├── r_attack1.c
+    │   │   │   ├── r_attack2.c
+    │   │   │   ├── r_attack3.c
+    │   │   │   ├── r_attack4.c
+    │   │   │   ├── r_attack5.c
+    │   │   │   ├── r_attack6.c
+    │   │   │   ├── r_attack7.c
+    │   │   │   ├── r_down0.c
+    │   │   │   ├── r_down1.c
+    │   │   │   ├── r_down2.c
+    │   │   │   ├── r_down3.c
+    │   │   │   ├── r_down4.c
+    │   │   │   ├── r_down5.c
+    │   │   │   ├── r_down6.c
+    │   │   │   ├── r_down7.c
+    │   │   │   ├── r_down8.c
+    │   │   │   ├── r_go_down0.c
+    │   │   │   ├── r_go_down1.c
+    │   │   │   ├── r_go_down2.c
+    │   │   │   ├── r_go_down3.c
+    │   │   │   ├── r_go_down4.c
+    │   │   │   ├── r_go_down5.c
+    │   │   │   ├── r_go_down6.c
+    │   │   │   ├── r_go_down7.c
+    │   │   │   ├── r_go_up0.c
+    │   │   │   ├── r_go_up1.c
+    │   │   │   ├── r_go_up2.c
+    │   │   │   ├── r_go_up3.c
+    │   │   │   ├── r_go_up4.c
+    │   │   │   ├── r_go_up5.c
+    │   │   │   ├── r_go_up6.c
+    │   │   │   ├── r_go_up7.c
+    │   │   │   ├── r_jump0.c
+    │   │   │   ├── r_jump1.c
+    │   │   │   ├── r_jump10.c
+    │   │   │   ├── r_jump2.c
+    │   │   │   ├── r_jump3.c
+    │   │   │   ├── r_jump4.c
+    │   │   │   ├── r_jump5.c
+    │   │   │   ├── r_jump6.c
+    │   │   │   ├── r_jump7.c
+    │   │   │   ├── r_jump8.c
+    │   │   │   ├── r_jump9.c
+    │   │   │   ├── r_kihon0.c
+    │   │   │   ├── r_kihon1.c
+    │   │   │   ├── r_kihon2.c
+    │   │   │   ├── r_kihon3.c
+    │   │   │   ├── r_kihon4.c
+    │   │   │   ├── r_kihon5.c
+    │   │   │   ├── r_kihon6.c
+    │   │   │   ├── r_kihon7.c
+    │   │   │   ├── r_up0.c
+    │   │   │   ├── r_up1.c
+    │   │   │   ├── r_up2.c
+    │   │   │   ├── r_up3.c
+    │   │   │   ├── r_up4.c
+    │   │   │   ├── r_up5.c
+    │   │   │   ├── r_up6.c
+    │   │   │   ├── r_up7.c
+    │   │   │   ├── r_up8.c
+    │   │   │   ├── ring_32_64_left.c
+    │   │   │   └── ring_32_64_right.c
+    │   │   ├── player.c
+    │   │   ├── player.h
+    │   │   ├── player_dat.c
+    │   │   ├── ring.c
+    │   │   ├── ring.h
+    │   │   ├── rom_header.s
+    │   │   └── scrpc/
+    │   │       ├── CVS/
+    │   │       │   ├── Entries
+    │   │       │   ├── Repository
+    │   │       │   ├── Root
+    │   │       │   └── Tag
+    │   │       ├── dolphinrpc.c
+    │   │       ├── dolphinrpc.h
+    │   │       ├── dolphinrpc.sln
+    │   │       └── dolphinrpc.vcproj
+    │   └── yoshi/
+    │       ├── bg_proc.c
+    │       ├── bmp/
+    │       │   ├── CVS/
+    │       │   │   ├── Entries
+    │       │   │   ├── Repository
+    │       │   │   ├── Root
+    │       │   │   └── Tag
+    │       │   ├── islebmp/
+    │       │   │   ├── bmpfiles
+    │       │   │   ├── CVS/
+    │       │   │   │   ├── Entries
+    │       │   │   │   ├── Repository
+    │       │   │   │   ├── Root
+    │       │   │   │   └── Tag
+    │       │   │   ├── libislebmp.a
+    │       │   │   ├── Makefile
+    │       │   │   ├── yoshi_island_990907_0_1.bmp
+    │       │   │   ├── yoshi_island_990907_0_1.o
+    │       │   │   ├── yoshi_island_990907_0_10.bmp
+    │       │   │   ├── yoshi_island_990907_0_10.o
+    │       │   │   ├── yoshi_island_990907_0_11.bmp
+    │       │   │   ├── yoshi_island_990907_0_11.o
+    │       │   │   ├── yoshi_island_990907_0_12.bmp
+    │       │   │   ├── yoshi_island_990907_0_12.o
+    │       │   │   ├── yoshi_island_990907_0_13.bmp
+    │       │   │   ├── yoshi_island_990907_0_13.o
+    │       │   │   ├── yoshi_island_990907_0_14.bmp
+    │       │   │   ├── yoshi_island_990907_0_14.o
+    │       │   │   ├── yoshi_island_990907_0_15.bmp
+    │       │   │   ├── yoshi_island_990907_0_15.o
+    │       │   │   ├── yoshi_island_990907_0_16.bmp
+    │       │   │   ├── yoshi_island_990907_0_16.o
+    │       │   │   ├── yoshi_island_990907_0_17.bmp
+    │       │   │   ├── yoshi_island_990907_0_17.o
+    │       │   │   ├── yoshi_island_990907_0_18.bmp
+    │       │   │   ├── yoshi_island_990907_0_18.o
+    │       │   │   ├── yoshi_island_990907_0_19.bmp
+    │       │   │   ├── yoshi_island_990907_0_19.o
+    │       │   │   ├── yoshi_island_990907_0_2.bmp
+    │       │   │   ├── yoshi_island_990907_0_2.o
+    │       │   │   ├── yoshi_island_990907_0_20.bmp
+    │       │   │   ├── yoshi_island_990907_0_20.o
+    │       │   │   ├── yoshi_island_990907_0_21.bmp
+    │       │   │   ├── yoshi_island_990907_0_21.o
+    │       │   │   ├── yoshi_island_990907_0_22.bmp
+    │       │   │   ├── yoshi_island_990907_0_22.o
+    │       │   │   ├── yoshi_island_990907_0_23.bmp
+    │       │   │   ├── yoshi_island_990907_0_23.o
+    │       │   │   ├── yoshi_island_990907_0_24.bmp
+    │       │   │   ├── yoshi_island_990907_0_24.o
+    │       │   │   ├── yoshi_island_990907_0_25.bmp
+    │       │   │   ├── yoshi_island_990907_0_25.o
+    │       │   │   ├── yoshi_island_990907_0_26.bmp
+    │       │   │   ├── yoshi_island_990907_0_26.o
+    │       │   │   ├── yoshi_island_990907_0_27.bmp
+    │       │   │   ├── yoshi_island_990907_0_27.o
+    │       │   │   ├── yoshi_island_990907_0_28.bmp
+    │       │   │   ├── yoshi_island_990907_0_28.o
+    │       │   │   ├── yoshi_island_990907_0_29.bmp
+    │       │   │   ├── yoshi_island_990907_0_29.o
+    │       │   │   ├── yoshi_island_990907_0_3.bmp
+    │       │   │   ├── yoshi_island_990907_0_3.o
+    │       │   │   ├── yoshi_island_990907_0_30.bmp
+    │       │   │   ├── yoshi_island_990907_0_30.o
+    │       │   │   ├── yoshi_island_990907_0_31.bmp
+    │       │   │   ├── yoshi_island_990907_0_31.o
+    │       │   │   ├── yoshi_island_990907_0_32.bmp
+    │       │   │   ├── yoshi_island_990907_0_32.o
+    │       │   │   ├── yoshi_island_990907_0_33.bmp
+    │       │   │   ├── yoshi_island_990907_0_33.o
+    │       │   │   ├── yoshi_island_990907_0_34.bmp
+    │       │   │   ├── yoshi_island_990907_0_34.o
+    │       │   │   ├── yoshi_island_990907_0_35.bmp
+    │       │   │   ├── yoshi_island_990907_0_35.o
+    │       │   │   ├── yoshi_island_990907_0_36.bmp
+    │       │   │   ├── yoshi_island_990907_0_36.o
+    │       │   │   ├── yoshi_island_990907_0_37.bmp
+    │       │   │   ├── yoshi_island_990907_0_37.o
+    │       │   │   ├── yoshi_island_990907_0_38.bmp
+    │       │   │   ├── yoshi_island_990907_0_38.o
+    │       │   │   ├── yoshi_island_990907_0_39.bmp
+    │       │   │   ├── yoshi_island_990907_0_39.o
+    │       │   │   ├── yoshi_island_990907_0_4.bmp
+    │       │   │   ├── yoshi_island_990907_0_4.o
+    │       │   │   ├── yoshi_island_990907_0_40.bmp
+    │       │   │   ├── yoshi_island_990907_0_40.o
+    │       │   │   ├── yoshi_island_990907_0_41.bmp
+    │       │   │   ├── yoshi_island_990907_0_41.o
+    │       │   │   ├── yoshi_island_990907_0_42.bmp
+    │       │   │   ├── yoshi_island_990907_0_42.o
+    │       │   │   ├── yoshi_island_990907_0_43.bmp
+    │       │   │   ├── yoshi_island_990907_0_43.o
+    │       │   │   ├── yoshi_island_990907_0_44.bmp
+    │       │   │   ├── yoshi_island_990907_0_44.o
+    │       │   │   ├── yoshi_island_990907_0_45.bmp
+    │       │   │   ├── yoshi_island_990907_0_45.o
+    │       │   │   ├── yoshi_island_990907_0_46.bmp
+    │       │   │   ├── yoshi_island_990907_0_46.o
+    │       │   │   ├── yoshi_island_990907_0_47.bmp
+    │       │   │   ├── yoshi_island_990907_0_47.o
+    │       │   │   ├── yoshi_island_990907_0_48.bmp
+    │       │   │   ├── yoshi_island_990907_0_48.o
+    │       │   │   ├── yoshi_island_990907_0_49.bmp
+    │       │   │   ├── yoshi_island_990907_0_49.o
+    │       │   │   ├── yoshi_island_990907_0_5.bmp
+    │       │   │   ├── yoshi_island_990907_0_5.o
+    │       │   │   ├── yoshi_island_990907_0_50.bmp
+    │       │   │   ├── yoshi_island_990907_0_50.o
+    │       │   │   ├── yoshi_island_990907_0_51.bmp
+    │       │   │   ├── yoshi_island_990907_0_51.o
+    │       │   │   ├── yoshi_island_990907_0_52.bmp
+    │       │   │   ├── yoshi_island_990907_0_52.o
+    │       │   │   ├── yoshi_island_990907_0_53.bmp
+    │       │   │   ├── yoshi_island_990907_0_53.o
+    │       │   │   ├── yoshi_island_990907_0_54.bmp
+    │       │   │   ├── yoshi_island_990907_0_54.o
+    │       │   │   ├── yoshi_island_990907_0_55.bmp
+    │       │   │   ├── yoshi_island_990907_0_55.o
+    │       │   │   ├── yoshi_island_990907_0_56.bmp
+    │       │   │   ├── yoshi_island_990907_0_56.o
+    │       │   │   ├── yoshi_island_990907_0_57.bmp
+    │       │   │   ├── yoshi_island_990907_0_57.o
+    │       │   │   ├── yoshi_island_990907_0_58.bmp
+    │       │   │   ├── yoshi_island_990907_0_58.o
+    │       │   │   ├── yoshi_island_990907_0_59.bmp
+    │       │   │   ├── yoshi_island_990907_0_59.o
+    │       │   │   ├── yoshi_island_990907_0_6.bmp
+    │       │   │   ├── yoshi_island_990907_0_6.o
+    │       │   │   ├── yoshi_island_990907_0_60.bmp
+    │       │   │   ├── yoshi_island_990907_0_60.o
+    │       │   │   ├── yoshi_island_990907_0_7.bmp
+    │       │   │   ├── yoshi_island_990907_0_7.o
+    │       │   │   ├── yoshi_island_990907_0_8.bmp
+    │       │   │   ├── yoshi_island_990907_0_8.o
+    │       │   │   ├── yoshi_island_990907_0_9.bmp
+    │       │   │   └── yoshi_island_990907_0_9.o
+    │       │   ├── menubmp/
+    │       │   │   ├── CVS/
+    │       │   │   │   ├── Entries
+    │       │   │   │   ├── Repository
+    │       │   │   │   ├── Root
+    │       │   │   │   └── Tag
+    │       │   │   ├── grade.bmp
+    │       │   │   ├── grade.o
+    │       │   │   ├── kumo.bmp
+    │       │   │   ├── kumo.o
+    │       │   │   ├── libmenubmp.a
+    │       │   │   ├── Makefile
+    │       │   │   ├── umi64.bmp
+    │       │   │   └── umi64.o
+    │       │   ├── yosbgbmp/
+    │       │   │   ├── bg1.bmp
+    │       │   │   ├── bg1.c
+    │       │   │   ├── bg1.o
+    │       │   │   ├── bg1.plb
+    │       │   │   ├── bg2.bmp
+    │       │   │   ├── bg2.c
+    │       │   │   ├── bg2.o
+    │       │   │   ├── bg2_5.bmp
+    │       │   │   ├── bg3.bmp
+    │       │   │   ├── bg3.c
+    │       │   │   ├── bg3.o
+    │       │   │   ├── CVS/
+    │       │   │   │   ├── Entries
+    │       │   │   │   ├── Repository
+    │       │   │   │   ├── Root
+    │       │   │   │   └── Tag
+    │       │   │   ├── libyosbgbmp.a
+    │       │   │   ├── Makefile
+    │       │   │   └── tmp.bmp
+    │       │   └── yosbmp/
+    │       │       ├── balloon.bmp
+    │       │       ├── balloon.o
+    │       │       ├── balloon01.bmp
+    │       │       ├── balloon01.o
+    │       │       ├── balloon02.bmp
+    │       │       ├── balloon02.o
+    │       │       ├── balloon03.bmp
+    │       │       ├── balloon03.o
+    │       │       ├── balloon04.bmp
+    │       │       ├── balloon04.o
+    │       │       ├── balloon05.bmp
+    │       │       ├── balloon05.o
+    │       │       ├── balloon06.bmp
+    │       │       ├── balloon06.o
+    │       │       ├── balloon07.bmp
+    │       │       ├── balloon07.o
+    │       │       ├── balloon08.bmp
+    │       │       ├── balloon08.o
+    │       │       ├── balloon09.bmp
+    │       │       ├── balloon09.o
+    │       │       ├── balloon10.bmp
+    │       │       ├── balloon10.o
+    │       │       ├── balloon11.bmp
+    │       │       ├── balloon11.o
+    │       │       ├── balloon12.bmp
+    │       │       ├── balloon12.o
+    │       │       ├── balloon13.bmp
+    │       │       ├── balloon13.o
+    │       │       ├── batabata1.bmp
+    │       │       ├── batabata1.o
+    │       │       ├── batabata2.bmp
+    │       │       ├── batabata2.o
+    │       │       ├── batabata3.bmp
+    │       │       ├── batabata3.o
+    │       │       ├── batabata4.bmp
+    │       │       ├── batabata4.o
+    │       │       ├── batabata5.bmp
+    │       │       ├── batabata5.o
+    │       │       ├── batabata6.bmp
+    │       │       ├── batabata6.o
+    │       │       ├── batabata7.bmp
+    │       │       ├── batabata7.o
+    │       │       ├── batabata8.bmp
+    │       │       ├── batabata8.o
+    │       │       ├── bmpfiles
+    │       │       ├── bomb_1.bmp
+    │       │       ├── bomb_1.o
+    │       │       ├── bomb_2.bmp
+    │       │       ├── bomb_2.o
+    │       │       ├── bomb_3.bmp
+    │       │       ├── bomb_3.o
+    │       │       ├── bomb_4.bmp
+    │       │       ├── bomb_4.o
+    │       │       ├── bomb_5.bmp
+    │       │       ├── bomb_5.o
+    │       │       ├── casle1.bmp
+    │       │       ├── casle1.o
+    │       │       ├── casle1p.bmp
+    │       │       ├── casle1p.o
+    │       │       ├── casle3.bmp
+    │       │       ├── casle3.o
+    │       │       ├── casle3p.bmp
+    │       │       ├── casle3p.o
+    │       │       ├── casle4.bmp
+    │       │       ├── casle4.o
+    │       │       ├── casle4p.bmp
+    │       │       ├── casle4p.o
+    │       │       ├── casle5.bmp
+    │       │       ├── casle5.o
+    │       │       ├── casle5p.bmp
+    │       │       ├── casle5p.o
+    │       │       ├── casle6.bmp
+    │       │       ├── casle6.o
+    │       │       ├── casle6p.bmp
+    │       │       ├── casle6p.o
+    │       │       ├── casle7.bmp
+    │       │       ├── casle7.o
+    │       │       ├── casle7p.bmp
+    │       │       ├── casle7p.o
+    │       │       ├── castle.psd
+    │       │       ├── CCCC_A.bmp
+    │       │       ├── CCCC_A.imb
+    │       │       ├── CCCC_A.o
+    │       │       ├── CCCC_B.bmp
+    │       │       ├── CCCC_B.imb
+    │       │       ├── CCCC_B.o
+    │       │       ├── CCCC_C.bmp
+    │       │       ├── CCCC_C.imb
+    │       │       ├── CCCC_C.o
+    │       │       ├── CVS/
+    │       │       │   ├── Entries
+    │       │       │   ├── Repository
+    │       │       │   ├── Root
+    │       │       │   └── Tag
+    │       │       ├── DDDD_A.bmp
+    │       │       ├── DDDD_A.imb
+    │       │       ├── DDDD_A.o
+    │       │       ├── DDDD_B.bmp
+    │       │       ├── DDDD_B.imb
+    │       │       ├── DDDD_B.o
+    │       │       ├── DDDD_C.bmp
+    │       │       ├── DDDD_C.imb
+    │       │       ├── DDDD_C.o
+    │       │       ├── dokan.bmp
+    │       │       ├── dokan.o
+    │       │       ├── egg.bmp
+    │       │       ├── egg.o
+    │       │       ├── hana.bmp
+    │       │       ├── hana.o
+    │       │       ├── HANABIRA1.bmp
+    │       │       ├── HANABIRA1.imb
+    │       │       ├── HANABIRA1.o
+    │       │       ├── HANABIRA2.bmp
+    │       │       ├── HANABIRA2.imb
+    │       │       ├── HANABIRA2.o
+    │       │       ├── HANABIRA3.bmp
+    │       │       ├── HANABIRA3.imb
+    │       │       ├── HANABIRA3.o
+    │       │       ├── HANABIRAn_1.bmp
+    │       │       ├── HANABIRAn_1.imb
+    │       │       ├── HANABIRAn_1.o
+    │       │       ├── HANABIRAn_2.bmp
+    │       │       ├── HANABIRAn_2.imb
+    │       │       ├── HANABIRAn_2.o
+    │       │       ├── HANABIRAn_3.bmp
+    │       │       ├── HANABIRAn_3.imb
+    │       │       ├── HANABIRAn_3.o
+    │       │       ├── HANABIRAy_1.bmp
+    │       │       ├── HANABIRAy_1.imb
+    │       │       ├── HANABIRAy_1.o
+    │       │       ├── HANABIRAy_2.bmp
+    │       │       ├── HANABIRAy_2.imb
+    │       │       ├── HANABIRAy_2.o
+    │       │       ├── HANABIRAy_3.bmp
+    │       │       ├── HANABIRAy_3.imb
+    │       │       ├── HANABIRAy_3.o
+    │       │       ├── HEIHO929_001.bmp
+    │       │       ├── HEIHO929_001.imb
+    │       │       ├── HEIHO929_001.o
+    │       │       ├── HEIHO929_001_b.bmp
+    │       │       ├── HEIHO929_001_b.imb
+    │       │       ├── HEIHO929_001_b.o
+    │       │       ├── HEIHO929_001_g.bmp
+    │       │       ├── HEIHO929_001_g.imb
+    │       │       ├── HEIHO929_001_g.o
+    │       │       ├── HEIHO929_001_y.bmp
+    │       │       ├── HEIHO929_001_y.imb
+    │       │       ├── HEIHO929_001_y.o
+    │       │       ├── HEIHO929_003.bmp
+    │       │       ├── HEIHO929_003.imb
+    │       │       ├── HEIHO929_003.o
+    │       │       ├── HEIHO929_003_b.bmp
+    │       │       ├── HEIHO929_003_b.imb
+    │       │       ├── HEIHO929_003_b.o
+    │       │       ├── HEIHO929_003_g.bmp
+    │       │       ├── HEIHO929_003_g.imb
+    │       │       ├── HEIHO929_003_g.o
+    │       │       ├── HEIHO929_003_y.bmp
+    │       │       ├── HEIHO929_003_y.imb
+    │       │       ├── HEIHO929_003_y.o
+    │       │       ├── HEIHO929_005.bmp
+    │       │       ├── HEIHO929_005.imb
+    │       │       ├── HEIHO929_005.o
+    │       │       ├── HEIHO929_005_b.bmp
+    │       │       ├── HEIHO929_005_b.imb
+    │       │       ├── HEIHO929_005_b.o
+    │       │       ├── HEIHO929_005_g.bmp
+    │       │       ├── HEIHO929_005_g.imb
+    │       │       ├── HEIHO929_005_g.o
+    │       │       ├── HEIHO929_005_y.bmp
+    │       │       ├── HEIHO929_005_y.imb
+    │       │       ├── HEIHO929_005_y.o
+    │       │       ├── HEIHO929_007.bmp
+    │       │       ├── HEIHO929_007.imb
+    │       │       ├── HEIHO929_007.o
+    │       │       ├── HEIHO929_007_b.bmp
+    │       │       ├── HEIHO929_007_b.imb
+    │       │       ├── HEIHO929_007_b.o
+    │       │       ├── HEIHO929_007_g.bmp
+    │       │       ├── HEIHO929_007_g.imb
+    │       │       ├── HEIHO929_007_g.o
+    │       │       ├── HEIHO929_007_y.bmp
+    │       │       ├── HEIHO929_007_y.imb
+    │       │       ├── HEIHO929_007_y.o
+    │       │       ├── HEIHO929_009.bmp
+    │       │       ├── HEIHO929_009.imb
+    │       │       ├── HEIHO929_009.o
+    │       │       ├── HEIHO929_009_b.bmp
+    │       │       ├── HEIHO929_009_b.imb
+    │       │       ├── HEIHO929_009_b.o
+    │       │       ├── HEIHO929_009_g.bmp
+    │       │       ├── HEIHO929_009_g.imb
+    │       │       ├── HEIHO929_009_g.o
+    │       │       ├── HEIHO929_009_y.bmp
+    │       │       ├── HEIHO929_009_y.imb
+    │       │       ├── HEIHO929_009_y.o
+    │       │       ├── HEIHO929_011.bmp
+    │       │       ├── HEIHO929_011.imb
+    │       │       ├── HEIHO929_011.o
+    │       │       ├── HEIHO929_011_b.bmp
+    │       │       ├── HEIHO929_011_b.imb
+    │       │       ├── HEIHO929_011_b.o
+    │       │       ├── HEIHO929_011_g.bmp
+    │       │       ├── HEIHO929_011_g.imb
+    │       │       ├── HEIHO929_011_g.o
+    │       │       ├── HEIHO929_011_y.bmp
+    │       │       ├── HEIHO929_011_y.imb
+    │       │       ├── HEIHO929_011_y.o
+    │       │       ├── HEIHO929_013.bmp
+    │       │       ├── HEIHO929_013.imb
+    │       │       ├── HEIHO929_013.o
+    │       │       ├── HEIHO929_013_b.bmp
+    │       │       ├── HEIHO929_013_b.imb
+    │       │       ├── HEIHO929_013_b.o
+    │       │       ├── HEIHO929_013_g.bmp
+    │       │       ├── HEIHO929_013_g.imb
+    │       │       ├── HEIHO929_013_g.o
+    │       │       ├── HEIHO929_013_y.bmp
+    │       │       ├── HEIHO929_013_y.imb
+    │       │       ├── HEIHO929_013_y.o
+    │       │       ├── HEIHO929_015.bmp
+    │       │       ├── HEIHO929_015.imb
+    │       │       ├── HEIHO929_015.o
+    │       │       ├── HEIHO929_015_b.bmp
+    │       │       ├── HEIHO929_015_b.imb
+    │       │       ├── HEIHO929_015_b.o
+    │       │       ├── HEIHO929_015_g.bmp
+    │       │       ├── HEIHO929_015_g.imb
+    │       │       ├── HEIHO929_015_g.o
+    │       │       ├── HEIHO929_015_y.bmp
+    │       │       ├── HEIHO929_015_y.imb
+    │       │       ├── HEIHO929_015_y.o
+    │       │       ├── HEIHO_l_001.bmp
+    │       │       ├── HEIHO_l_001.imb
+    │       │       ├── HEIHO_l_001.o
+    │       │       ├── HEIHO_l_003.bmp
+    │       │       ├── HEIHO_l_003.imb
+    │       │       ├── HEIHO_l_003.o
+    │       │       ├── HEIHO_l_005.bmp
+    │       │       ├── HEIHO_l_005.imb
+    │       │       ├── HEIHO_l_005.o
+    │       │       ├── HEIHO_l_007.bmp
+    │       │       ├── HEIHO_l_007.imb
+    │       │       ├── HEIHO_l_007.o
+    │       │       ├── HEIHO_l_009.bmp
+    │       │       ├── HEIHO_l_009.imb
+    │       │       ├── HEIHO_l_009.o
+    │       │       ├── HEIHO_l_011.bmp
+    │       │       ├── HEIHO_l_011.imb
+    │       │       ├── HEIHO_l_011.o
+    │       │       ├── HEIHO_l_013.bmp
+    │       │       ├── HEIHO_l_013.imb
+    │       │       ├── HEIHO_l_013.o
+    │       │       ├── HEIHO_l_015.bmp
+    │       │       ├── HEIHO_l_015.imb
+    │       │       ├── HEIHO_l_015.o
+    │       │       ├── HEIHO_l_turn_002.bmp
+    │       │       ├── HEIHO_l_turn_002.imb
+    │       │       ├── HEIHO_l_turn_002.o
+    │       │       ├── HEIHO_l_turn_003.bmp
+    │       │       ├── HEIHO_l_turn_003.imb
+    │       │       ├── HEIHO_l_turn_003.o
+    │       │       ├── HEIHO_normal_walk_turn_002.bmp
+    │       │       ├── HEIHO_normal_walk_turn_002.imb
+    │       │       ├── HEIHO_normal_walk_turn_002.o
+    │       │       ├── HEIHO_normal_walk_turn_002_b.bmp
+    │       │       ├── HEIHO_normal_walk_turn_002_b.imb
+    │       │       ├── HEIHO_normal_walk_turn_002_b.o
+    │       │       ├── HEIHO_normal_walk_turn_002_g.bmp
+    │       │       ├── HEIHO_normal_walk_turn_002_g.imb
+    │       │       ├── HEIHO_normal_walk_turn_002_g.o
+    │       │       ├── HEIHO_normal_walk_turn_002_y.bmp
+    │       │       ├── HEIHO_normal_walk_turn_002_y.imb
+    │       │       ├── HEIHO_normal_walk_turn_002_y.o
+    │       │       ├── HEIHO_normal_walk_turn_003.bmp
+    │       │       ├── HEIHO_normal_walk_turn_003.imb
+    │       │       ├── HEIHO_normal_walk_turn_003.o
+    │       │       ├── HEIHO_normal_walk_turn_003_b.bmp
+    │       │       ├── HEIHO_normal_walk_turn_003_b.imb
+    │       │       ├── HEIHO_normal_walk_turn_003_b.o
+    │       │       ├── HEIHO_normal_walk_turn_003_g.bmp
+    │       │       ├── HEIHO_normal_walk_turn_003_g.imb
+    │       │       ├── HEIHO_normal_walk_turn_003_g.o
+    │       │       ├── HEIHO_normal_walk_turn_003_y.bmp
+    │       │       ├── HEIHO_normal_walk_turn_003_y.imb
+    │       │       ├── HEIHO_normal_walk_turn_003_y.o
+    │       │       ├── hosi1.bmp
+    │       │       ├── hosi1.o
+    │       │       ├── hosi2.bmp
+    │       │       ├── hosi2.o
+    │       │       ├── hosi3.bmp
+    │       │       ├── hosi3.o
+    │       │       ├── hosi4.bmp
+    │       │       ├── hosi4.o
+    │       │       ├── hosi5.bmp
+    │       │       ├── hosi5.o
+    │       │       ├── hosi6.bmp
+    │       │       ├── hosi6.o
+    │       │       ├── hosi7.bmp
+    │       │       ├── hosi7.o
+    │       │       ├── hosi8.bmp
+    │       │       ├── hosi8.o
+    │       │       ├── kage0.bmp
+    │       │       ├── kage0.o
+    │       │       ├── kagel.bmp
+    │       │       ├── kagel.o
+    │       │       ├── killer_l1.bmp
+    │       │       ├── killer_l1.o
+    │       │       ├── killer_l2.bmp
+    │       │       ├── killer_l2.o
+    │       │       ├── killer_l3.bmp
+    │       │       ├── killer_l3.o
+    │       │       ├── killer_lA.bmp
+    │       │       ├── killer_lA.o
+    │       │       ├── killer_lAA.bmp
+    │       │       ├── killer_lAA.o
+    │       │       ├── killer_lB.bmp
+    │       │       ├── killer_lB.o
+    │       │       ├── killer_lC.bmp
+    │       │       ├── killer_lC.o
+    │       │       ├── killer_lD.bmp
+    │       │       ├── killer_lD.o
+    │       │       ├── killer_lE.bmp
+    │       │       ├── killer_lE.o
+    │       │       ├── killer_s1.bmp
+    │       │       ├── killer_s1.o
+    │       │       ├── killer_s2.bmp
+    │       │       ├── killer_s2.o
+    │       │       ├── killer_s3.bmp
+    │       │       ├── killer_s3.o
+    │       │       ├── killer_sA.bmp
+    │       │       ├── killer_sA.o
+    │       │       ├── killer_sAA.bmp
+    │       │       ├── killer_sAA.o
+    │       │       ├── killer_sB.bmp
+    │       │       ├── killer_sB.o
+    │       │       ├── killer_sC.bmp
+    │       │       ├── killer_sC.o
+    │       │       ├── killer_sD.bmp
+    │       │       ├── killer_sD.o
+    │       │       ├── killer_sE.bmp
+    │       │       ├── killer_sE.o
+    │       │       ├── kokamek_a.bmp
+    │       │       ├── kokamek_a.o
+    │       │       ├── kokamek_c.bmp
+    │       │       ├── kokamek_c.o
+    │       │       ├── kokamek_d.bmp
+    │       │       ├── kokamek_d.o
+    │       │       ├── kokamek_e.bmp
+    │       │       ├── kokamek_e.o
+    │       │       ├── koumori.bmp
+    │       │       ├── koumori.o
+    │       │       ├── kuki.bmp
+    │       │       ├── kuki.o
+    │       │       ├── kumo_nuki_l.bmp
+    │       │       ├── kumo_nuki_l.o
+    │       │       ├── kumo_nuki_r.bmp
+    │       │       ├── kumo_nuki_r.o
+    │       │       ├── kururi1.bmp
+    │       │       ├── kururi1.o
+    │       │       ├── kururi2.bmp
+    │       │       ├── kururi2.o
+    │       │       ├── kururi3.bmp
+    │       │       ├── kururi3.o
+    │       │       ├── kururi4.bmp
+    │       │       ├── kururi4.o
+    │       │       ├── kururi5.bmp
+    │       │       ├── kururi5.o
+    │       │       ├── kururi6.bmp
+    │       │       ├── kururi6.o
+    │       │       ├── kururi7.bmp
+    │       │       ├── kururi7.o
+    │       │       ├── kururi8.bmp
+    │       │       ├── kururi8.o
+    │       │       ├── libyosbmp.a
+    │       │       ├── Makefile
+    │       │       ├── mBOX1.bmp
+    │       │       ├── mBOX1.o
+    │       │       ├── mBOX2.bmp
+    │       │       ├── mBOX2.o
+    │       │       ├── NNNN_A.bmp
+    │       │       ├── NNNN_A.imb
+    │       │       ├── NNNN_A.o
+    │       │       ├── NNNN_B.bmp
+    │       │       ├── NNNN_B.o
+    │       │       ├── NNNN_C.bmp
+    │       │       ├── NNNN_C.o
+    │       │       ├── omori5t.bmp
+    │       │       ├── omori5t.o
+    │       │       ├── PS_hey1.bmp
+    │       │       ├── PS_hey1.o
+    │       │       ├── PS_hey2.bmp
+    │       │       ├── PS_hey2.o
+    │       │       ├── PS_hey3.bmp
+    │       │       ├── PS_hey3.o
+    │       │       ├── PS_hey4.bmp
+    │       │       ├── PS_hey4.o
+    │       │       ├── PS_hey5.bmp
+    │       │       ├── PS_hey5.o
+    │       │       ├── PS_hey6.bmp
+    │       │       ├── PS_hey6.o
+    │       │       ├── PS_hey7.bmp
+    │       │       ├── PS_hey7.o
+    │       │       ├── PS_hey8.bmp
+    │       │       ├── PS_hey8.o
+    │       │       ├── PS_jump1.bmp
+    │       │       ├── PS_jump1.o
+    │       │       ├── PS_jump2.bmp
+    │       │       ├── PS_jump2.o
+    │       │       ├── PS_jump3.bmp
+    │       │       ├── PS_jump3.o
+    │       │       ├── PS_jump4.bmp
+    │       │       ├── PS_jump4.o
+    │       │       ├── PS_jump5.bmp
+    │       │       ├── PS_jump5.o
+    │       │       ├── PS_jump6.bmp
+    │       │       ├── PS_jump6.o
+    │       │       ├── PS_jump7.bmp
+    │       │       ├── PS_jump7.o
+    │       │       ├── PS_jump8.bmp
+    │       │       ├── PS_jump8.o
+    │       │       ├── PS_kihon_M.bmp
+    │       │       ├── PS_kihon_M.o
+    │       │       ├── PS_kihon_Y.bmp
+    │       │       ├── PS_kihon_Y.o
+    │       │       ├── PS_kyoro_B.bmp
+    │       │       ├── PS_kyoro_B.o
+    │       │       ├── PS_kyoro_B10.bmp
+    │       │       ├── PS_kyoro_B10.o
+    │       │       ├── PS_kyoro_B11.bmp
+    │       │       ├── PS_kyoro_B11.o
+    │       │       ├── PS_kyoro_B2.bmp
+    │       │       ├── PS_kyoro_B2.o
+    │       │       ├── PS_kyoro_B3.bmp
+    │       │       ├── PS_kyoro_B3.o
+    │       │       ├── PS_kyoro_B4.bmp
+    │       │       ├── PS_kyoro_B4.o
+    │       │       ├── PS_kyoro_B5.bmp
+    │       │       ├── PS_kyoro_B5.o
+    │       │       ├── PS_kyoro_B6.bmp
+    │       │       ├── PS_kyoro_B6.o
+    │       │       ├── PS_kyoro_B7.bmp
+    │       │       ├── PS_kyoro_B7.o
+    │       │       ├── PS_kyoro_B8.bmp
+    │       │       ├── PS_kyoro_B8.o
+    │       │       ├── PS_kyoro_B9.bmp
+    │       │       ├── PS_kyoro_B9.o
+    │       │       ├── PS_kyoro_M10.bmp
+    │       │       ├── PS_kyoro_M10.o
+    │       │       ├── PS_kyoro_M11.bmp
+    │       │       ├── PS_kyoro_M11.o
+    │       │       ├── PS_kyoro_M2.bmp
+    │       │       ├── PS_kyoro_M2.o
+    │       │       ├── PS_kyoro_M3.bmp
+    │       │       ├── PS_kyoro_M3.o
+    │       │       ├── PS_kyoro_M4.bmp
+    │       │       ├── PS_kyoro_M4.o
+    │       │       ├── PS_kyoro_M5.bmp
+    │       │       ├── PS_kyoro_M5.o
+    │       │       ├── PS_kyoro_M6.bmp
+    │       │       ├── PS_kyoro_M6.o
+    │       │       ├── PS_kyoro_M7.bmp
+    │       │       ├── PS_kyoro_M7.o
+    │       │       ├── PS_kyoro_M8.bmp
+    │       │       ├── PS_kyoro_M8.o
+    │       │       ├── PS_kyoro_M9.bmp
+    │       │       ├── PS_kyoro_M9.o
+    │       │       ├── PS_kyoro_Y10.bmp
+    │       │       ├── PS_kyoro_Y10.o
+    │       │       ├── PS_kyoro_Y11.bmp
+    │       │       ├── PS_kyoro_Y11.o
+    │       │       ├── PS_kyoro_Y2.bmp
+    │       │       ├── PS_kyoro_Y2.o
+    │       │       ├── PS_kyoro_Y3.bmp
+    │       │       ├── PS_kyoro_Y3.o
+    │       │       ├── PS_kyoro_Y4.bmp
+    │       │       ├── PS_kyoro_Y4.o
+    │       │       ├── PS_kyoro_Y5.bmp
+    │       │       ├── PS_kyoro_Y5.o
+    │       │       ├── PS_kyoro_Y6.bmp
+    │       │       ├── PS_kyoro_Y6.o
+    │       │       ├── PS_kyoro_Y7.bmp
+    │       │       ├── PS_kyoro_Y7.o
+    │       │       ├── PS_kyoro_Y8.bmp
+    │       │       ├── PS_kyoro_Y8.o
+    │       │       ├── PS_kyoro_Y9.bmp
+    │       │       ├── PS_kyoro_Y9.o
+    │       │       ├── PS_kyoro_YR10.bmp
+    │       │       ├── PS_kyoro_YR10.o
+    │       │       ├── PS_kyoro_YR11.bmp
+    │       │       ├── PS_kyoro_YR11.o
+    │       │       ├── PS_kyoro_YR2.bmp
+    │       │       ├── PS_kyoro_YR2.o
+    │       │       ├── PS_kyoro_YR3.bmp
+    │       │       ├── PS_kyoro_YR3.o
+    │       │       ├── PS_kyoro_YR4.bmp
+    │       │       ├── PS_kyoro_YR4.o
+    │       │       ├── PS_kyoro_YR5.bmp
+    │       │       ├── PS_kyoro_YR5.o
+    │       │       ├── PS_kyoro_YR6.bmp
+    │       │       ├── PS_kyoro_YR6.o
+    │       │       ├── PS_kyoro_YR7.bmp
+    │       │       ├── PS_kyoro_YR7.o
+    │       │       ├── PS_kyoro_YR8.bmp
+    │       │       ├── PS_kyoro_YR8.o
+    │       │       ├── PS_kyoro_YR9.bmp
+    │       │       ├── PS_kyoro_YR9.o
+    │       │       ├── PS_MEPACHI_B2.bmp
+    │       │       ├── PS_MEPACHI_B2.o
+    │       │       ├── PS_MEPACHI_B3.bmp
+    │       │       ├── PS_MEPACHI_B3.o
+    │       │       ├── PS_MEPACHI_B4.bmp
+    │       │       ├── PS_MEPACHI_B4.o
+    │       │       ├── PS_MEPACHI_B5.bmp
+    │       │       ├── PS_MEPACHI_B5.o
+    │       │       ├── PS_MEPACHI_B6.bmp
+    │       │       ├── PS_MEPACHI_B6.o
+    │       │       ├── PS_MEPACHI_M2.bmp
+    │       │       ├── PS_MEPACHI_M2.o
+    │       │       ├── PS_MEPACHI_M3.bmp
+    │       │       ├── PS_MEPACHI_M3.o
+    │       │       ├── PS_MEPACHI_M4.bmp
+    │       │       ├── PS_MEPACHI_M4.o
+    │       │       ├── PS_MEPACHI_M5.bmp
+    │       │       ├── PS_MEPACHI_M5.o
+    │       │       ├── PS_MEPACHI_M6.bmp
+    │       │       ├── PS_MEPACHI_M6.o
+    │       │       ├── PS_MEPACHI_Y2.bmp
+    │       │       ├── PS_MEPACHI_Y2.o
+    │       │       ├── PS_MEPACHI_Y3.bmp
+    │       │       ├── PS_MEPACHI_Y3.o
+    │       │       ├── PS_MEPACHI_Y4.bmp
+    │       │       ├── PS_MEPACHI_Y4.o
+    │       │       ├── PS_MEPACHI_Y5.bmp
+    │       │       ├── PS_MEPACHI_Y5.o
+    │       │       ├── PS_MEPACHI_Y6.bmp
+    │       │       ├── PS_MEPACHI_Y6.o
+    │       │       ├── PS_turn1.bmp
+    │       │       ├── PS_turn1.o
+    │       │       ├── PS_turn2.bmp
+    │       │       ├── PS_turn2.o
+    │       │       ├── PS_turn3.bmp
+    │       │       ├── PS_turn3.o
+    │       │       ├── PS_turn4.bmp
+    │       │       ├── PS_turn4.o
+    │       │       ├── PS_turn5.bmp
+    │       │       ├── PS_turn5.o
+    │       │       ├── PS_turn6.bmp
+    │       │       ├── PS_turn6.o
+    │       │       ├── PS_turn7.bmp
+    │       │       ├── PS_turn7.o
+    │       │       ├── PS_turn_back1.bmp
+    │       │       ├── PS_turn_back1.o
+    │       │       ├── PS_turn_back2.bmp
+    │       │       ├── PS_turn_back2.o
+    │       │       ├── PS_turn_back3.bmp
+    │       │       ├── PS_turn_back3.o
+    │       │       ├── PS_turn_back4.bmp
+    │       │       ├── PS_turn_back4.o
+    │       │       ├── PS_turn_back5.bmp
+    │       │       ├── PS_turn_back5.o
+    │       │       ├── PS_turn_back6.bmp
+    │       │       ├── PS_turn_back6.o
+    │       │       ├── PS_turn_back7.bmp
+    │       │       ├── PS_turn_back7.o
+    │       │       ├── PS_turn_L1.bmp
+    │       │       ├── PS_turn_L1.o
+    │       │       ├── PS_turn_L2.bmp
+    │       │       ├── PS_turn_L2.o
+    │       │       ├── PS_turn_L3.bmp
+    │       │       ├── PS_turn_L3.o
+    │       │       ├── PS_turn_L4.bmp
+    │       │       ├── PS_turn_L4.o
+    │       │       ├── PS_turn_L5.bmp
+    │       │       ├── PS_turn_L5.o
+    │       │       ├── PS_turn_L6.bmp
+    │       │       ├── PS_turn_L6.o
+    │       │       ├── PS_turn_L7.bmp
+    │       │       ├── PS_turn_L7.o
+    │       │       ├── PS_turn_mae1.bmp
+    │       │       ├── PS_turn_mae1.o
+    │       │       ├── PS_turn_mae2.bmp
+    │       │       ├── PS_turn_mae2.o
+    │       │       ├── PS_turn_mae3.bmp
+    │       │       ├── PS_turn_mae3.o
+    │       │       ├── PS_turn_mae4.bmp
+    │       │       ├── PS_turn_mae4.o
+    │       │       ├── PS_turn_mae5.bmp
+    │       │       ├── PS_turn_mae5.o
+    │       │       ├── PS_turn_mae6.bmp
+    │       │       ├── PS_turn_mae6.o
+    │       │       ├── PS_turn_mae7.bmp
+    │       │       ├── PS_turn_mae7.o
+    │       │       ├── PS_U_turn1.bmp
+    │       │       ├── PS_U_turn1.o
+    │       │       ├── PS_U_turn2.bmp
+    │       │       ├── PS_U_turn2.o
+    │       │       ├── PS_U_turn3.bmp
+    │       │       ├── PS_U_turn3.o
+    │       │       ├── PS_U_turn4.bmp
+    │       │       ├── PS_U_turn4.o
+    │       │       ├── PS_U_turn5.bmp
+    │       │       ├── PS_U_turn5.o
+    │       │       ├── PS_U_turn6.bmp
+    │       │       ├── PS_U_turn6.o
+    │       │       ├── PS_U_turn7.bmp
+    │       │       ├── PS_U_turn7.o
+    │       │       ├── PS_U_turn8.bmp
+    │       │       ├── PS_U_turn8.o
+    │       │       ├── PS_walk_B1.bmp
+    │       │       ├── PS_walk_B1.o
+    │       │       ├── PS_walk_B10.bmp
+    │       │       ├── PS_walk_B10.o
+    │       │       ├── PS_walk_B11.bmp
+    │       │       ├── PS_walk_B11.o
+    │       │       ├── PS_walk_B12.bmp
+    │       │       ├── PS_walk_B12.o
+    │       │       ├── PS_walk_B13.bmp
+    │       │       ├── PS_walk_B13.o
+    │       │       ├── PS_walk_B14.bmp
+    │       │       ├── PS_walk_B14.o
+    │       │       ├── PS_walk_B15.bmp
+    │       │       ├── PS_walk_B15.o
+    │       │       ├── PS_walk_B16.bmp
+    │       │       ├── PS_walk_B16.o
+    │       │       ├── PS_walk_B2.bmp
+    │       │       ├── PS_walk_B2.o
+    │       │       ├── PS_walk_B3.bmp
+    │       │       ├── PS_walk_B3.o
+    │       │       ├── PS_walk_B4.bmp
+    │       │       ├── PS_walk_B4.o
+    │       │       ├── PS_walk_B5.bmp
+    │       │       ├── PS_walk_B5.o
+    │       │       ├── PS_walk_B6.bmp
+    │       │       ├── PS_walk_B6.o
+    │       │       ├── PS_walk_B7.bmp
+    │       │       ├── PS_walk_B7.o
+    │       │       ├── PS_walk_B8.bmp
+    │       │       ├── PS_walk_B8.o
+    │       │       ├── PS_walk_B9.bmp
+    │       │       ├── PS_walk_B9.o
+    │       │       ├── PS_walk_M1.bmp
+    │       │       ├── PS_walk_M1.o
+    │       │       ├── PS_walk_M10.bmp
+    │       │       ├── PS_walk_M10.o
+    │       │       ├── PS_walk_M11.bmp
+    │       │       ├── PS_walk_M11.o
+    │       │       ├── PS_walk_M12.bmp
+    │       │       ├── PS_walk_M12.o
+    │       │       ├── PS_walk_M13.bmp
+    │       │       ├── PS_walk_M13.o
+    │       │       ├── PS_walk_M14.bmp
+    │       │       ├── PS_walk_M14.o
+    │       │       ├── PS_walk_M15.bmp
+    │       │       ├── PS_walk_M15.o
+    │       │       ├── PS_walk_M16.bmp
+    │       │       ├── PS_walk_M16.o
+    │       │       ├── PS_walk_M2.bmp
+    │       │       ├── PS_walk_M2.o
+    │       │       ├── PS_walk_M3.bmp
+    │       │       ├── PS_walk_M3.o
+    │       │       ├── PS_walk_M4.bmp
+    │       │       ├── PS_walk_M4.o
+    │       │       ├── PS_walk_M5.bmp
+    │       │       ├── PS_walk_M5.o
+    │       │       ├── PS_walk_M6.bmp
+    │       │       ├── PS_walk_M6.o
+    │       │       ├── PS_walk_M7.bmp
+    │       │       ├── PS_walk_M7.o
+    │       │       ├── PS_walk_M8.bmp
+    │       │       ├── PS_walk_M8.o
+    │       │       ├── PS_walk_M9.bmp
+    │       │       ├── PS_walk_M9.o
+    │       │       ├── PS_walk_Y1.bmp
+    │       │       ├── PS_walk_Y1.o
+    │       │       ├── PS_walk_Y10.bmp
+    │       │       ├── PS_walk_Y10.o
+    │       │       ├── PS_walk_Y11.bmp
+    │       │       ├── PS_walk_Y11.o
+    │       │       ├── PS_walk_Y12.bmp
+    │       │       ├── PS_walk_Y12.o
+    │       │       ├── PS_walk_Y13.bmp
+    │       │       ├── PS_walk_Y13.o
+    │       │       ├── PS_walk_Y14.bmp
+    │       │       ├── PS_walk_Y14.o
+    │       │       ├── PS_walk_Y15.bmp
+    │       │       ├── PS_walk_Y15.o
+    │       │       ├── PS_walk_Y16.bmp
+    │       │       ├── PS_walk_Y16.o
+    │       │       ├── PS_walk_Y2.bmp
+    │       │       ├── PS_walk_Y2.o
+    │       │       ├── PS_walk_Y3.bmp
+    │       │       ├── PS_walk_Y3.o
+    │       │       ├── PS_walk_Y4.bmp
+    │       │       ├── PS_walk_Y4.o
+    │       │       ├── PS_walk_Y5.bmp
+    │       │       ├── PS_walk_Y5.o
+    │       │       ├── PS_walk_Y6.bmp
+    │       │       ├── PS_walk_Y6.o
+    │       │       ├── PS_walk_Y7.bmp
+    │       │       ├── PS_walk_Y7.o
+    │       │       ├── PS_walk_Y8.bmp
+    │       │       ├── PS_walk_Y8.o
+    │       │       ├── PS_walk_Y9.bmp
+    │       │       ├── PS_walk_Y9.o
+    │       │       ├── sPPPP_A.bmp
+    │       │       ├── sPPPP_A.o
+    │       │       ├── sPPPP_B.bmp
+    │       │       ├── sPPPP_B.o
+    │       │       ├── sPPPP_C.bmp
+    │       │       ├── sPPPP_C.o
+    │       │       ├── SSSS_A.bmp
+    │       │       ├── SSSS_A.o
+    │       │       ├── SSSS_B.bmp
+    │       │       ├── SSSS_B.o
+    │       │       ├── SSSS_C.bmp
+    │       │       ├── SSSS_C.o
+    │       │       ├── toge.bmp
+    │       │       └── toge.o
+    │       ├── crt0.s
+    │       ├── CVS/
+    │       │   ├── Entries
+    │       │   ├── Repository
+    │       │   ├── Root
+    │       │   └── Tag
+    │       ├── etc_bmp.h
+    │       ├── Gasdepend
+    │       ├── gdbrc
+    │       ├── isle_bmp.h
+    │       ├── ldscript.x
+    │       ├── Makefile
+    │       ├── menu.c
+    │       ├── menu_bmp.h
+    │       ├── menu_dat.c
+    │       ├── menu_dat.h
+    │       ├── oam_proc.c
+    │       ├── oam_proc.h
+    │       ├── Readme.txt
+    │       ├── reverbpatch.o
+    │       ├── rom_header.s
+    │       ├── sound/
+    │       │   ├── bm_atri.o
+    │       │   ├── c_gaonn.o
+    │       │   ├── CVS/
+    │       │   │   ├── Entries
+    │       │   │   ├── Repository
+    │       │   │   ├── Root
+    │       │   │   └── Tag
+    │       │   ├── e_derup.o
+    │       │   ├── e_onpp1.o
+    │       │   ├── e_torup.o
+    │       │   ├── ht_atar.o
+    │       │   ├── ht_ware.o
+    │       │   ├── i_b_sx.o
+    │       │   ├── i_bell.o
+    │       │   ├── i_bscl.o
+    │       │   ├── i_drm1.o
+    │       │   ├── i_drm2.o
+    │       │   ├── i_elsn.o
+    │       │   ├── i_mari.o
+    │       │   ├── i_strg.o
+    │       │   ├── i_timp.o
+    │       │   ├── i_vb_t.o
+    │       │   ├── i_vibe.o
+    │       │   ├── ki_sid2.o
+    │       │   ├── km_ukuu.o
+    │       │   ├── m4aLib.h
+    │       │   ├── m4aLib.o
+    │       │   ├── m5t_dsin.o
+    │       │   ├── mc_gaonn.o
+    │       │   ├── me_derup.o
+    │       │   ├── me_onpp1.o
+    │       │   ├── me_onpp2.o
+    │       │   ├── me_onpp3.o
+    │       │   ├── me_torup.o
+    │       │   ├── mh_kaitn.o
+    │       │   ├── mht_apir.o
+    │       │   ├── mht_atar.o
+    │       │   ├── mht_ware.o
+    │       │   ├── mki_sid1.o
+    │       │   ├── mki_sid2.o
+    │       │   ├── mkm_ukuu.o
+    │       │   ├── mm_1game.o
+    │       │   ├── mm_gover.o
+    │       │   ├── mm_title.o
+    │       │   ├── mov_arra.o
+    │       │   ├── mtg_raka.o
+    │       │   ├── mtp_stat.o
+    │       │   ├── my_dmgn1.o
+    │       │   ├── my_dmgn2.o
+    │       │   ├── my_dwnau.o
+    │       │   ├── my_hipha.o
+    │       │   ├── my_hipkr.o
+    │       │   ├── my_jmpfm.o
+    │       │   ├── my_jmph1.o
+    │       │   ├── my_jmpst.o
+    │       │   ├── my_jmpy1.o
+    │       │   ├── my_pakon.o
+    │       │   ├── my_stph1.o
+    │       │   ├── my_stpn1.o
+    │       │   ├── my_tont1.o
+    │       │   ├── my_tont2.o
+    │       │   ├── my_upup.o
+    │       │   ├── ov_arra.o
+    │       │   ├── ov_basa.o
+    │       │   ├── ov_hkob.o
+    │       │   ├── ov_konn.o
+    │       │   ├── ov_shaa.o
+    │       │   ├── ov_sir2.o
+    │       │   ├── SoundDat.o
+    │       │   ├── Soundfiles
+    │       │   ├── t5_dsin.o
+    │       │   ├── t5_undr.o
+    │       │   ├── tg_raka.o
+    │       │   ├── y_dmgn1.o
+    │       │   ├── y_dmgn2.o
+    │       │   ├── y_dwnau.o
+    │       │   ├── y_hipha.o
+    │       │   ├── y_hipkr.o
+    │       │   ├── y_jmpfm.o
+    │       │   ├── y_jmph1.o
+    │       │   ├── y_jmpst.o
+    │       │   ├── y_jmpy1.o
+    │       │   ├── y_pakon.o
+    │       │   ├── y_runtn.o
+    │       │   ├── y_stph1.o
+    │       │   ├── y_stpn1.o
+    │       │   ├── y_stpqu.o
+    │       │   ├── y_tont1.o
+    │       │   ├── y_tont2.o
+    │       │   ├── y_upup.o
+    │       │   └── y_ywiha.o
+    │       ├── soundpatch.o
+    │       ├── yos_anm.c
+    │       ├── yos_anm.h
+    │       ├── yos_bmp.h
+    │       ├── yos_game.c
+    │       ├── yos_game.ext
+    │       ├── yos_game.h
+    │       ├── yos_game_dat.c
+    │       ├── yos_game_dat.h
+    │       ├── yos_game_mov.c
+    │       ├── yos_game_mov.h
+    │       ├── yos_game_pr.c
+    │       ├── yos_game_pr.h
+    │       ├── yos_game_sub.c
+    │       ├── yos_game_sub.h
+    │       ├── yos_main.c
+    │       ├── yos_main.ext
+    │       ├── yos_main.h
+    │       ├── yos_main_dat.c
+    │       ├── yos_main_dat.h
+    │       ├── yos_sound.h
+    │       └── yos_type.h
+    └── samples/
+        ├── blib_sample/
+        │   ├── blib_sample.sav
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── DacsTest.c
+        │   ├── Data.c
+        │   ├── dummy.c
+        │   ├── EepromTest.c
+        │   ├── FlashTest.c
+        │   ├── Gasdepend
+        │   ├── gdbrc
+        │   ├── isdwdcmd.dat
+        │   ├── isdwdsym.dat
+        │   ├── Main.c
+        │   ├── Main.h
+        │   ├── Makefile
+        │   ├── MemDump.c
+        │   ├── mylib/
+        │   │   ├── bg.h
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── isdwdcmd.dat
+        │   │   ├── isdwdsym.dat
+        │   │   ├── libmyfunc.a
+        │   │   ├── mylib.h
+        │   │   ├── myTypes.h
+        │   │   ├── obj.h
+        │   │   └── stdSub.h
+        │   ├── RevisionHistory.txt
+        │   ├── rom_header.s
+        │   ├── rom_header_arm.s
+        │   ├── sound/
+        │   │   ├── brassc3.o
+        │   │   ├── cutgtg3.o
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── m4aLib.h
+        │   │   ├── m4aLib.o
+        │   │   ├── mutetpc4.o
+        │   │   ├── revcym.o
+        │   │   ├── sawg3.o
+        │   │   ├── sinec3.o
+        │   │   ├── SoundDat.o
+        │   │   ├── Soundfiles
+        │   │   ├── synbsc2.o
+        │   │   └── wario.o
+        │   └── SramTest.c
+        ├── CVS/
+        │   ├── Entries
+        │   ├── Repository
+        │   ├── Root
+        │   └── Tag
+        ├── functional_sample/
+        │   ├── alphasm/
+        │   │   ├── alexpl.c
+        │   │   ├── alpha.c
+        │   │   ├── alpha_data.c
+        │   │   ├── ap_bg0.bmp
+        │   │   ├── ap_bg1.bmp
+        │   │   ├── ap_bg2.bmp
+        │   │   ├── ap_PS_hey5.bmp
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   └── Makefile
+        │   ├── bg_rsm/
+        │   │   ├── ball.BMP
+        │   │   ├── bg_map.BMP
+        │   │   ├── bg_map_map.c
+        │   │   ├── bgexpl.c
+        │   │   ├── bgmain.c
+        │   │   ├── cl0.bmp
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   └── Makefile
+        │   ├── bmpmode/
+        │   │   ├── bitmap.c
+        │   │   ├── bmexpl.c
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── img24bit.bmp
+        │   │   ├── img24bit2.bmp
+        │   │   ├── Makefile
+        │   │   └── umiB.bmp
+        │   ├── coleffsm/
+        │   │   ├── c_effect.c
+        │   │   ├── ce_bg1.bmp
+        │   │   ├── ce_bg3.bmp
+        │   │   ├── ce_dat.h
+        │   │   ├── ce_data.c
+        │   │   ├── ce_PS_hey5.bmp
+        │   │   ├── ceexpl.c
+        │   │   ├── col.ACT
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── Makefile
+        │   │   └── ReadMe.txt
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── fontprn/
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── font8.h
+        │   │   ├── fontprn.c
+        │   │   ├── fontprn.h
+        │   │   └── Makefile
+        │   ├── Gasdepend
+        │   ├── gdbrc
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── menu.c
+        │   ├── menu.h
+        │   ├── menuitem.c
+        │   ├── menuitem.h
+        │   ├── obj_rsm/
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── hey2.bmp
+        │   │   ├── Makefile
+        │   │   ├── obexpl.c
+        │   │   └── obmain.c
+        │   ├── rom_header.s
+        │   ├── rom_header_arm.s
+        │   ├── share.c
+        │   ├── share.h
+        │   └── swinsm/
+        │       ├── CVS/
+        │       │   ├── Entries
+        │       │   ├── Repository
+        │       │   ├── Root
+        │       │   └── Tag
+        │       ├── Makefile
+        │       ├── ReadMe.txt
+        │       ├── sw_bg0.bmp
+        │       ├── sw_bg1.bmp
+        │       ├── sw_bg2.bmp
+        │       ├── sw_bg3.bmp
+        │       ├── sw_dat.h
+        │       ├── sw_PS_hey5.bmp
+        │       ├── swexpl.c
+        │       └── window.c
+        ├── ir_sample/
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── Explanation.txt
+        │   ├── Gasdepend
+        │   ├── History.txt
+        │   ├── ir_sample.h
+        │   ├── ir_sample.map
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── rom_header.s
+        │   ├── rom_header_arm.s
+        │   ├── utility.c
+        │   └── utility.h
+        ├── multi_boot/
+        │   ├── agb_c2s.bat
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── crt0_demo.s
+        │   ├── crt0_demo_arm.s
+        │   ├── crt0_multi_boot.s
+        │   ├── crt0_multi_boot_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── define.h
+        │   ├── demo_main.c
+        │   ├── Gasdepend
+        │   ├── GasdependClient
+        │   ├── GasdependDemo
+        │   ├── gdbrc
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── MakefileClient
+        │   ├── MakefileDemo
+        │   ├── multi_sio_asm.o
+        │   ├── MultiBoot.c
+        │   ├── MultiBoot.h
+        │   ├── MultiBoot.txt
+        │   ├── MultiSio.c
+        │   ├── MultiSio.h
+        │   ├── MultiSioAsm.s
+        │   ├── MultiSioAsmArm.s
+        │   ├── MultiSioDefine.s
+        │   ├── MultiSioDefineArm.s
+        │   ├── rom_header.s
+        │   ├── rom_header_arm.s
+        │   └── types.h
+        ├── multi_boot_sync/
+        │   ├── agb_c2s.bat
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── crt0_demo.s
+        │   ├── crt0_demo_arm.s
+        │   ├── crt0_multi_boot.s
+        │   ├── crt0_multi_boot_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── define.h
+        │   ├── demo_main.c
+        │   ├── Gasdepend
+        │   ├── GasdependClient
+        │   ├── GasdependDemo
+        │   ├── gdbrc
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── MakefileClient
+        │   ├── MakefileDemo
+        │   ├── multi_sio_asm.o
+        │   ├── MultiBoot.c
+        │   ├── MultiBoot.h
+        │   ├── MultiBoot.txt
+        │   ├── MultiSio.c
+        │   ├── MultiSio.h
+        │   ├── MultiSioAsm.s
+        │   ├── MultiSioAsmArm.s
+        │   ├── MultiSioDefine.s
+        │   ├── MultiSioDefineArm.s
+        │   ├── rom_header.s
+        │   ├── rom_header_arm.s
+        │   ├── sound/
+        │   │   ├── brassc3.o
+        │   │   ├── cutgtg3.o
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── m4aLib.h
+        │   │   ├── m4aLib.o
+        │   │   ├── mutetpc4.o
+        │   │   ├── revcym.o
+        │   │   ├── sawg3.o
+        │   │   ├── sinec3.o
+        │   │   ├── SoundDat.o
+        │   │   ├── Soundfiles
+        │   │   ├── synbsc2.o
+        │   │   └── wario.o
+        │   └── types.h
+        ├── multi_sio/
+        │   ├── agb_c2s.bat
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── Gasdepend
+        │   ├── gdbrc
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── MultiSio.c
+        │   ├── MultiSio.h
+        │   ├── MultiSioAsm.s
+        │   ├── MultiSioAsmArm.s
+        │   ├── MultiSioDefine.s
+        │   ├── MultiSioDefineArm.s
+        │   ├── rom_header.s
+        │   └── rom_header_arm.s
+        ├── multi_sio_sync/
+        │   ├── agb_c2s.bat
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── Gasdepend
+        │   ├── gdbrc
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── MultiSio.c
+        │   ├── MultiSio.h
+        │   ├── MultiSioAsm.s
+        │   ├── MultiSioAsmArm.s
+        │   ├── MultiSioDefine.s
+        │   ├── MultiSioDefineArm.s
+        │   ├── rom_header.s
+        │   ├── rom_header_arm.s
+        │   ├── sound/
+        │   │   ├── brassc3.o
+        │   │   ├── cutgtg3.o
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── m4aLib.h
+        │   │   ├── m4aLib.o
+        │   │   ├── mutetpc4.o
+        │   │   ├── revcym.o
+        │   │   ├── sawg3.o
+        │   │   ├── sinec3.o
+        │   │   ├── SoundDat.o
+        │   │   ├── Soundfiles
+        │   │   ├── synbsc2.o
+        │   │   └── wario.o
+        │   └── types.h
+        ├── overlay/
+        │   ├── agb_c2s.bat
+        │   ├── bgmove.c
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── Gasdepend
+        │   ├── gdbrc
+        │   ├── ldscript.x
+        │   ├── main.c
+        │   ├── main.h
+        │   ├── Makefile
+        │   ├── objmove.c
+        │   ├── rom_header.s
+        │   ├── rom_header_arm.s
+        │   ├── sub.c
+        │   ├── sub.h
+        │   ├── title.c
+        │   └── types.h
+        ├── reintr/
+        │   ├── agb_c2s.bat
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── Gasdepend
+        │   ├── gdbrc
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── rom_header.s
+        │   └── rom_header_arm.s
+        ├── simple/
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── rom_header.s
+        │   └── rom_header_arm.s
+        ├── sio32_multi_load/
+        │   ├── agb_c2s.bat
+        │   ├── bss.c
+        │   ├── bss.h
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── crt0_demo.s
+        │   ├── crt0_demo_arm.s
+        │   ├── crt0_loader.s
+        │   ├── crt0_loader_arm.s
+        │   ├── crt0_multi_boot.s
+        │   ├── crt0_multi_boot_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── define.h
+        │   ├── demo_main.c
+        │   ├── Gasdepend
+        │   ├── GasdependClient
+        │   ├── GasdependDemo
+        │   ├── GasdependLoader
+        │   ├── gdbrc
+        │   ├── intr_main.s
+        │   ├── intr_main_arm.s
+        │   ├── intr_table.c
+        │   ├── intr_table.h
+        │   ├── load_table_dest.c
+        │   ├── load_table_src.c
+        │   ├── loader_main.c
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── MakefileClient
+        │   ├── MakefileDemo
+        │   ├── MakefileLoader
+        │   ├── MultiBoot.c
+        │   ├── MultiBoot.h
+        │   ├── MultiBoot.txt
+        │   ├── MultiSio.c
+        │   ├── MultiSio.h
+        │   ├── MultiSioAsm.s
+        │   ├── MultiSioAsmArm.s
+        │   ├── MultiSioDefine.s
+        │   ├── MultiSioDefineArm.s
+        │   ├── rom_header.s
+        │   ├── rom_header_arm.s
+        │   ├── Sio32MultiLoad.c
+        │   ├── Sio32MultiLoad.h
+        │   ├── sub.c
+        │   ├── sub.h
+        │   └── types.h
+        ├── sio32_multi_load_sync/
+        │   ├── agb_c2s.bat
+        │   ├── bss.c
+        │   ├── bss.h
+        │   ├── crt0.s
+        │   ├── crt0_arm.s
+        │   ├── crt0_demo.s
+        │   ├── crt0_demo_arm.s
+        │   ├── crt0_loader.s
+        │   ├── crt0_loader_arm.s
+        │   ├── crt0_multi_boot.s
+        │   ├── crt0_multi_boot_arm.s
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── data.c
+        │   ├── data.h
+        │   ├── define.h
+        │   ├── demo_main.c
+        │   ├── demo_sub.c
+        │   ├── Gasdepend
+        │   ├── GasdependClient
+        │   ├── GasdependDemo
+        │   ├── GasdependLoader
+        │   ├── gdbrc
+        │   ├── intr_main.s
+        │   ├── intr_main_arm.s
+        │   ├── intr_table.c
+        │   ├── intr_table.h
+        │   ├── load_table_dest.c
+        │   ├── load_table_src.c
+        │   ├── loader_main.c
+        │   ├── main.c
+        │   ├── Makefile
+        │   ├── MakefileClient
+        │   ├── MakefileDemo
+        │   ├── MakefileLoader
+        │   ├── MultiBoot.c
+        │   ├── MultiBoot.h
+        │   ├── MultiBoot.txt
+        │   ├── MultiSio.c
+        │   ├── MultiSio.h
+        │   ├── MultiSioAsm.s
+        │   ├── MultiSioAsmArm.s
+        │   ├── MultiSioDefine.s
+        │   ├── MultiSioDefineArm.s
+        │   ├── rom_header.s
+        │   ├── rom_header_arm.s
+        │   ├── Sio32MultiLoad.c
+        │   ├── Sio32MultiLoad.h
+        │   ├── sound/
+        │   │   ├── brassc3.o
+        │   │   ├── cutgtg3.o
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── m4aLib.h
+        │   │   ├── m4aLib.o
+        │   │   ├── mutetpc4.o
+        │   │   ├── revcym.o
+        │   │   ├── sawg3.o
+        │   │   ├── sinec3.o
+        │   │   ├── SoundDat.o
+        │   │   ├── Soundfiles
+        │   │   ├── synbsc2.o
+        │   │   └── wario.o
+        │   ├── sub.c
+        │   ├── sub.h
+        │   └── types.h
+        └── sleep/
+            ├── agb_c2s.bat
+            ├── crt0.s
+            ├── crt0_arm.s
+            ├── CVS/
+            │   ├── Entries
+            │   ├── Repository
+            │   ├── Root
+            │   └── Tag
+            ├── data.c
+            ├── data.h
+            ├── Gasdepend
+            ├── gdbrc
+            ├── isdwdcmd.dat
+            ├── isdwdsym.dat
+            ├── ldscript.x
+            ├── main.c
+            ├── Makefile
+            ├── readme.txt
+            ├── rom_header.s
+            ├── rom_header_arm.s
+            └── types.h

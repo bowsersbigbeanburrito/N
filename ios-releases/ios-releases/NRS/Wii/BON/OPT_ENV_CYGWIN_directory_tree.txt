@@ -1,0 +1,1037 @@
+OPT_ENV_CYGWIN/
+├── 20060321/
+│   └── OPT_ENV_CYGWIN_20060321/
+│       └── opt/
+│           └── crosstool/
+│               ├── arm-elf/
+│               │   ├── bin/
+│               │   │   ├── ar.exe
+│               │   │   ├── as.exe
+│               │   │   ├── c++.exe
+│               │   │   ├── g++.exe
+│               │   │   ├── gcc.exe
+│               │   │   ├── ld.exe
+│               │   │   ├── nm.exe
+│               │   │   ├── objdump.exe
+│               │   │   ├── ranlib.exe
+│               │   │   └── strip.exe
+│               │   ├── include/
+│               │   │   ├── _ansi.h
+│               │   │   ├── _syslist.h
+│               │   │   ├── alloca.h
+│               │   │   ├── ar.h
+│               │   │   ├── argz.h
+│               │   │   ├── assert.h
+│               │   │   ├── ctype.h
+│               │   │   ├── dirent.h
+│               │   │   ├── envz.h
+│               │   │   ├── errno.h
+│               │   │   ├── fastmath.h
+│               │   │   ├── fcntl.h
+│               │   │   ├── grp.h
+│               │   │   ├── iconv.h
+│               │   │   ├── ieeefp.h
+│               │   │   ├── langinfo.h
+│               │   │   ├── limits.h
+│               │   │   ├── locale.h
+│               │   │   ├── machine/
+│               │   │   │   ├── ansi.h
+│               │   │   │   ├── endian.h
+│               │   │   │   ├── fastmath.h
+│               │   │   │   ├── ieeefp.h
+│               │   │   │   ├── malloc.h
+│               │   │   │   ├── param.h
+│               │   │   │   ├── setjmp-dj.h
+│               │   │   │   ├── setjmp.h
+│               │   │   │   ├── stdlib.h
+│               │   │   │   ├── termios.h
+│               │   │   │   ├── time.h
+│               │   │   │   └── types.h
+│               │   │   ├── malloc.h
+│               │   │   ├── math.h
+│               │   │   ├── newlib.h
+│               │   │   ├── paths.h
+│               │   │   ├── process.h
+│               │   │   ├── pthread.h
+│               │   │   ├── pwd.h
+│               │   │   ├── reent.h
+│               │   │   ├── regdef.h
+│               │   │   ├── search.h
+│               │   │   ├── setjmp.h
+│               │   │   ├── signal.h
+│               │   │   ├── stdio.h
+│               │   │   ├── stdlib.h
+│               │   │   ├── string.h
+│               │   │   ├── sys/
+│               │   │   │   ├── _types.h
+│               │   │   │   ├── cdefs.h
+│               │   │   │   ├── config.h
+│               │   │   │   ├── dirent.h
+│               │   │   │   ├── errno.h
+│               │   │   │   ├── fcntl.h
+│               │   │   │   ├── features.h
+│               │   │   │   ├── file.h
+│               │   │   │   ├── iconvnls.h
+│               │   │   │   ├── lock.h
+│               │   │   │   ├── param.h
+│               │   │   │   ├── queue.h
+│               │   │   │   ├── reent.h
+│               │   │   │   ├── resource.h
+│               │   │   │   ├── sched.h
+│               │   │   │   ├── signal.h
+│               │   │   │   ├── stat.h
+│               │   │   │   ├── stdio.h
+│               │   │   │   ├── syslimits.h
+│               │   │   │   ├── time.h
+│               │   │   │   ├── timeb.h
+│               │   │   │   ├── times.h
+│               │   │   │   ├── types.h
+│               │   │   │   ├── unistd.h
+│               │   │   │   ├── utime.h
+│               │   │   │   └── wait.h
+│               │   │   ├── termios.h
+│               │   │   ├── time.h
+│               │   │   ├── unctrl.h
+│               │   │   ├── unistd.h
+│               │   │   ├── utime.h
+│               │   │   ├── utmp.h
+│               │   │   ├── wchar.h
+│               │   │   └── wctype.h
+│               │   ├── lib/
+│               │   │   ├── arm5/
+│               │   │   │   ├── crt0.o
+│               │   │   │   ├── iq80310.specs
+│               │   │   │   ├── libc.a
+│               │   │   │   ├── libg.a
+│               │   │   │   ├── libiberty.a
+│               │   │   │   ├── libm.a
+│               │   │   │   ├── libnosys.a
+│               │   │   │   ├── librdimon.a
+│               │   │   │   ├── librdpmon.a
+│               │   │   │   ├── libstdc++.a
+│               │   │   │   ├── libstdc++.la
+│               │   │   │   ├── libsupc++.a
+│               │   │   │   ├── libsupc++.la
+│               │   │   │   ├── pid.specs
+│               │   │   │   ├── rdimon-crt0.o
+│               │   │   │   ├── rdimon.specs
+│               │   │   │   ├── rdpmon-crt0.o
+│               │   │   │   ├── rdpmon.specs
+│               │   │   │   ├── redboot-crt0.o
+│               │   │   │   ├── redboot-syscalls.o
+│               │   │   │   ├── redboot.ld
+│               │   │   │   └── redboot.specs
+│               │   │   ├── be/
+│               │   │   │   ├── arm5/
+│               │   │   │   │   ├── crt0.o
+│               │   │   │   │   ├── iq80310.specs
+│               │   │   │   │   ├── libc.a
+│               │   │   │   │   ├── libg.a
+│               │   │   │   │   ├── libiberty.a
+│               │   │   │   │   ├── libm.a
+│               │   │   │   │   ├── libnosys.a
+│               │   │   │   │   ├── librdimon.a
+│               │   │   │   │   ├── librdpmon.a
+│               │   │   │   │   ├── libstdc++.a
+│               │   │   │   │   ├── libstdc++.la
+│               │   │   │   │   ├── libsupc++.a
+│               │   │   │   │   ├── libsupc++.la
+│               │   │   │   │   ├── pid.specs
+│               │   │   │   │   ├── rdimon-crt0.o
+│               │   │   │   │   ├── rdimon.specs
+│               │   │   │   │   ├── rdpmon-crt0.o
+│               │   │   │   │   ├── rdpmon.specs
+│               │   │   │   │   ├── redboot-crt0.o
+│               │   │   │   │   ├── redboot-syscalls.o
+│               │   │   │   │   ├── redboot.ld
+│               │   │   │   │   └── redboot.specs
+│               │   │   │   ├── crt0.o
+│               │   │   │   ├── iq80310.specs
+│               │   │   │   ├── libc.a
+│               │   │   │   ├── libg.a
+│               │   │   │   ├── libiberty.a
+│               │   │   │   ├── libm.a
+│               │   │   │   ├── libnosys.a
+│               │   │   │   ├── librdimon.a
+│               │   │   │   ├── librdpmon.a
+│               │   │   │   ├── libstdc++.a
+│               │   │   │   ├── libstdc++.la
+│               │   │   │   ├── libsupc++.a
+│               │   │   │   ├── libsupc++.la
+│               │   │   │   ├── pid.specs
+│               │   │   │   ├── rdimon-crt0.o
+│               │   │   │   ├── rdimon.specs
+│               │   │   │   ├── rdpmon-crt0.o
+│               │   │   │   ├── rdpmon.specs
+│               │   │   │   ├── redboot-crt0.o
+│               │   │   │   ├── redboot-syscalls.o
+│               │   │   │   ├── redboot.ld
+│               │   │   │   └── redboot.specs
+│               │   │   ├── crt0.o
+│               │   │   ├── interwork/
+│               │   │   │   ├── arm5/
+│               │   │   │   │   ├── crt0.o
+│               │   │   │   │   ├── iq80310.specs
+│               │   │   │   │   ├── libc.a
+│               │   │   │   │   ├── libg.a
+│               │   │   │   │   ├── libiberty.a
+│               │   │   │   │   ├── libm.a
+│               │   │   │   │   ├── libnosys.a
+│               │   │   │   │   ├── librdimon.a
+│               │   │   │   │   ├── librdpmon.a
+│               │   │   │   │   ├── libstdc++.a
+│               │   │   │   │   ├── libstdc++.la
+│               │   │   │   │   ├── libsupc++.a
+│               │   │   │   │   ├── libsupc++.la
+│               │   │   │   │   ├── pid.specs
+│               │   │   │   │   ├── rdimon-crt0.o
+│               │   │   │   │   ├── rdimon.specs
+│               │   │   │   │   ├── rdpmon-crt0.o
+│               │   │   │   │   ├── rdpmon.specs
+│               │   │   │   │   ├── redboot-crt0.o
+│               │   │   │   │   ├── redboot-syscalls.o
+│               │   │   │   │   ├── redboot.ld
+│               │   │   │   │   └── redboot.specs
+│               │   │   │   ├── be/
+│               │   │   │   │   ├── arm5/
+│               │   │   │   │   │   ├── crt0.o
+│               │   │   │   │   │   ├── iq80310.specs
+│               │   │   │   │   │   ├── libc.a
+│               │   │   │   │   │   ├── libg.a
+│               │   │   │   │   │   ├── libiberty.a
+│               │   │   │   │   │   ├── libm.a
+│               │   │   │   │   │   ├── libnosys.a
+│               │   │   │   │   │   ├── librdimon.a
+│               │   │   │   │   │   ├── librdpmon.a
+│               │   │   │   │   │   ├── libstdc++.a
+│               │   │   │   │   │   ├── libstdc++.la
+│               │   │   │   │   │   ├── libsupc++.a
+│               │   │   │   │   │   ├── libsupc++.la
+│               │   │   │   │   │   ├── pid.specs
+│               │   │   │   │   │   ├── rdimon-crt0.o
+│               │   │   │   │   │   ├── rdimon.specs
+│               │   │   │   │   │   ├── rdpmon-crt0.o
+│               │   │   │   │   │   ├── rdpmon.specs
+│               │   │   │   │   │   ├── redboot-crt0.o
+│               │   │   │   │   │   ├── redboot-syscalls.o
+│               │   │   │   │   │   ├── redboot.ld
+│               │   │   │   │   │   └── redboot.specs
+│               │   │   │   │   ├── crt0.o
+│               │   │   │   │   ├── iq80310.specs
+│               │   │   │   │   ├── libc.a
+│               │   │   │   │   ├── libg.a
+│               │   │   │   │   ├── libiberty.a
+│               │   │   │   │   ├── libm.a
+│               │   │   │   │   ├── libnosys.a
+│               │   │   │   │   ├── librdimon.a
+│               │   │   │   │   ├── librdpmon.a
+│               │   │   │   │   ├── libstdc++.a
+│               │   │   │   │   ├── libstdc++.la
+│               │   │   │   │   ├── libsupc++.a
+│               │   │   │   │   ├── libsupc++.la
+│               │   │   │   │   ├── pid.specs
+│               │   │   │   │   ├── rdimon-crt0.o
+│               │   │   │   │   ├── rdimon.specs
+│               │   │   │   │   ├── rdpmon-crt0.o
+│               │   │   │   │   ├── rdpmon.specs
+│               │   │   │   │   ├── redboot-crt0.o
+│               │   │   │   │   ├── redboot-syscalls.o
+│               │   │   │   │   ├── redboot.ld
+│               │   │   │   │   └── redboot.specs
+│               │   │   │   ├── crt0.o
+│               │   │   │   ├── iq80310.specs
+│               │   │   │   ├── libc.a
+│               │   │   │   ├── libg.a
+│               │   │   │   ├── libiberty.a
+│               │   │   │   ├── libm.a
+│               │   │   │   ├── libnosys.a
+│               │   │   │   ├── librdimon.a
+│               │   │   │   ├── librdpmon.a
+│               │   │   │   ├── libstdc++.a
+│               │   │   │   ├── libstdc++.la
+│               │   │   │   ├── libsupc++.a
+│               │   │   │   ├── libsupc++.la
+│               │   │   │   ├── pid.specs
+│               │   │   │   ├── rdimon-crt0.o
+│               │   │   │   ├── rdimon.specs
+│               │   │   │   ├── rdpmon-crt0.o
+│               │   │   │   ├── rdpmon.specs
+│               │   │   │   ├── redboot-crt0.o
+│               │   │   │   ├── redboot-syscalls.o
+│               │   │   │   ├── redboot.ld
+│               │   │   │   ├── redboot.specs
+│               │   │   │   └── thumb/
+│               │   │   │       ├── arm5/
+│               │   │   │       │   ├── crt0.o
+│               │   │   │       │   ├── iq80310.specs
+│               │   │   │       │   ├── libc.a
+│               │   │   │       │   ├── libg.a
+│               │   │   │       │   ├── libiberty.a
+│               │   │   │       │   ├── libm.a
+│               │   │   │       │   ├── libnosys.a
+│               │   │   │       │   ├── librdimon.a
+│               │   │   │       │   ├── librdpmon.a
+│               │   │   │       │   ├── libstdc++.a
+│               │   │   │       │   ├── libstdc++.la
+│               │   │   │       │   ├── libsupc++.a
+│               │   │   │       │   ├── libsupc++.la
+│               │   │   │       │   ├── pid.specs
+│               │   │   │       │   ├── rdimon-crt0.o
+│               │   │   │       │   ├── rdimon.specs
+│               │   │   │       │   ├── rdpmon-crt0.o
+│               │   │   │       │   ├── rdpmon.specs
+│               │   │   │       │   ├── redboot-crt0.o
+│               │   │   │       │   ├── redboot-syscalls.o
+│               │   │   │       │   ├── redboot.ld
+│               │   │   │       │   └── redboot.specs
+│               │   │   │       ├── be/
+│               │   │   │       │   ├── arm5/
+│               │   │   │       │   │   ├── crt0.o
+│               │   │   │       │   │   ├── iq80310.specs
+│               │   │   │       │   │   ├── libc.a
+│               │   │   │       │   │   ├── libg.a
+│               │   │   │       │   │   ├── libiberty.a
+│               │   │   │       │   │   ├── libm.a
+│               │   │   │       │   │   ├── libnosys.a
+│               │   │   │       │   │   ├── librdimon.a
+│               │   │   │       │   │   ├── librdpmon.a
+│               │   │   │       │   │   ├── libstdc++.a
+│               │   │   │       │   │   ├── libstdc++.la
+│               │   │   │       │   │   ├── libsupc++.a
+│               │   │   │       │   │   ├── libsupc++.la
+│               │   │   │       │   │   ├── pid.specs
+│               │   │   │       │   │   ├── rdimon-crt0.o
+│               │   │   │       │   │   ├── rdimon.specs
+│               │   │   │       │   │   ├── rdpmon-crt0.o
+│               │   │   │       │   │   ├── rdpmon.specs
+│               │   │   │       │   │   ├── redboot-crt0.o
+│               │   │   │       │   │   ├── redboot-syscalls.o
+│               │   │   │       │   │   ├── redboot.ld
+│               │   │   │       │   │   └── redboot.specs
+│               │   │   │       │   ├── crt0.o
+│               │   │   │       │   ├── iq80310.specs
+│               │   │   │       │   ├── libc.a
+│               │   │   │       │   ├── libg.a
+│               │   │   │       │   ├── libiberty.a
+│               │   │   │       │   ├── libm.a
+│               │   │   │       │   ├── libnosys.a
+│               │   │   │       │   ├── librdimon.a
+│               │   │   │       │   ├── librdpmon.a
+│               │   │   │       │   ├── libstdc++.a
+│               │   │   │       │   ├── libstdc++.la
+│               │   │   │       │   ├── libsupc++.a
+│               │   │   │       │   ├── libsupc++.la
+│               │   │   │       │   ├── pid.specs
+│               │   │   │       │   ├── rdimon-crt0.o
+│               │   │   │       │   ├── rdimon.specs
+│               │   │   │       │   ├── rdpmon-crt0.o
+│               │   │   │       │   ├── rdpmon.specs
+│               │   │   │       │   ├── redboot-crt0.o
+│               │   │   │       │   ├── redboot-syscalls.o
+│               │   │   │       │   ├── redboot.ld
+│               │   │   │       │   └── redboot.specs
+│               │   │   │       ├── crt0.o
+│               │   │   │       ├── iq80310.specs
+│               │   │   │       ├── libc.a
+│               │   │   │       ├── libg.a
+│               │   │   │       ├── libiberty.a
+│               │   │   │       ├── libm.a
+│               │   │   │       ├── libnosys.a
+│               │   │   │       ├── librdimon.a
+│               │   │   │       ├── librdpmon.a
+│               │   │   │       ├── libstdc++.a
+│               │   │   │       ├── libstdc++.la
+│               │   │   │       ├── libsupc++.a
+│               │   │   │       ├── libsupc++.la
+│               │   │   │       ├── pid.specs
+│               │   │   │       ├── rdimon-crt0.o
+│               │   │   │       ├── rdimon.specs
+│               │   │   │       ├── rdpmon-crt0.o
+│               │   │   │       ├── rdpmon.specs
+│               │   │   │       ├── redboot-crt0.o
+│               │   │   │       ├── redboot-syscalls.o
+│               │   │   │       ├── redboot.ld
+│               │   │   │       └── redboot.specs
+│               │   │   ├── iq80310.specs
+│               │   │   ├── ldscripts/
+│               │   │   │   ├── armelf.x
+│               │   │   │   ├── armelf.xbn
+│               │   │   │   ├── armelf.xc
+│               │   │   │   ├── armelf.xn
+│               │   │   │   ├── armelf.xr
+│               │   │   │   ├── armelf.xs
+│               │   │   │   ├── armelf.xsc
+│               │   │   │   ├── armelf.xsw
+│               │   │   │   ├── armelf.xu
+│               │   │   │   └── armelf.xw
+│               │   │   ├── libc.a
+│               │   │   ├── libg.a
+│               │   │   ├── libiberty.a
+│               │   │   ├── libm.a
+│               │   │   ├── libnosys.a
+│               │   │   ├── librdimon.a
+│               │   │   ├── librdpmon.a
+│               │   │   ├── libstdc++.a
+│               │   │   ├── libstdc++.la
+│               │   │   ├── libsupc++.a
+│               │   │   ├── libsupc++.la
+│               │   │   ├── pid.specs
+│               │   │   ├── rdimon-crt0.o
+│               │   │   ├── rdimon.specs
+│               │   │   ├── rdpmon-crt0.o
+│               │   │   ├── rdpmon.specs
+│               │   │   ├── redboot-crt0.o
+│               │   │   ├── redboot-syscalls.o
+│               │   │   ├── redboot.ld
+│               │   │   ├── redboot.specs
+│               │   │   └── thumb/
+│               │   │       ├── arm5/
+│               │   │       │   ├── crt0.o
+│               │   │       │   ├── iq80310.specs
+│               │   │       │   ├── libc.a
+│               │   │       │   ├── libg.a
+│               │   │       │   ├── libiberty.a
+│               │   │       │   ├── libm.a
+│               │   │       │   ├── libnosys.a
+│               │   │       │   ├── librdimon.a
+│               │   │       │   ├── librdpmon.a
+│               │   │       │   ├── libstdc++.a
+│               │   │       │   ├── libstdc++.la
+│               │   │       │   ├── libsupc++.a
+│               │   │       │   ├── libsupc++.la
+│               │   │       │   ├── pid.specs
+│               │   │       │   ├── rdimon-crt0.o
+│               │   │       │   ├── rdimon.specs
+│               │   │       │   ├── rdpmon-crt0.o
+│               │   │       │   ├── rdpmon.specs
+│               │   │       │   ├── redboot-crt0.o
+│               │   │       │   ├── redboot-syscalls.o
+│               │   │       │   ├── redboot.ld
+│               │   │       │   └── redboot.specs
+│               │   │       ├── be/
+│               │   │       │   ├── arm5/
+│               │   │       │   │   ├── crt0.o
+│               │   │       │   │   ├── iq80310.specs
+│               │   │       │   │   ├── libc.a
+│               │   │       │   │   ├── libg.a
+│               │   │       │   │   ├── libiberty.a
+│               │   │       │   │   ├── libm.a
+│               │   │       │   │   ├── libnosys.a
+│               │   │       │   │   ├── librdimon.a
+│               │   │       │   │   ├── librdpmon.a
+│               │   │       │   │   ├── libstdc++.a
+│               │   │       │   │   ├── libstdc++.la
+│               │   │       │   │   ├── libsupc++.a
+│               │   │       │   │   ├── libsupc++.la
+│               │   │       │   │   ├── pid.specs
+│               │   │       │   │   ├── rdimon-crt0.o
+│               │   │       │   │   ├── rdimon.specs
+│               │   │       │   │   ├── rdpmon-crt0.o
+│               │   │       │   │   ├── rdpmon.specs
+│               │   │       │   │   ├── redboot-crt0.o
+│               │   │       │   │   ├── redboot-syscalls.o
+│               │   │       │   │   ├── redboot.ld
+│               │   │       │   │   └── redboot.specs
+│               │   │       │   ├── crt0.o
+│               │   │       │   ├── iq80310.specs
+│               │   │       │   ├── libc.a
+│               │   │       │   ├── libg.a
+│               │   │       │   ├── libiberty.a
+│               │   │       │   ├── libm.a
+│               │   │       │   ├── libnosys.a
+│               │   │       │   ├── librdimon.a
+│               │   │       │   ├── librdpmon.a
+│               │   │       │   ├── libstdc++.a
+│               │   │       │   ├── libstdc++.la
+│               │   │       │   ├── libsupc++.a
+│               │   │       │   ├── libsupc++.la
+│               │   │       │   ├── pid.specs
+│               │   │       │   ├── rdimon-crt0.o
+│               │   │       │   ├── rdimon.specs
+│               │   │       │   ├── rdpmon-crt0.o
+│               │   │       │   ├── rdpmon.specs
+│               │   │       │   ├── redboot-crt0.o
+│               │   │       │   ├── redboot-syscalls.o
+│               │   │       │   ├── redboot.ld
+│               │   │       │   └── redboot.specs
+│               │   │       ├── crt0.o
+│               │   │       ├── iq80310.specs
+│               │   │       ├── libc.a
+│               │   │       ├── libg.a
+│               │   │       ├── libiberty.a
+│               │   │       ├── libm.a
+│               │   │       ├── libnosys.a
+│               │   │       ├── librdimon.a
+│               │   │       ├── librdpmon.a
+│               │   │       ├── libstdc++.a
+│               │   │       ├── libstdc++.la
+│               │   │       ├── libsupc++.a
+│               │   │       ├── libsupc++.la
+│               │   │       ├── pid.specs
+│               │   │       ├── rdimon-crt0.o
+│               │   │       ├── rdimon.specs
+│               │   │       ├── rdpmon-crt0.o
+│               │   │       ├── rdpmon.specs
+│               │   │       ├── redboot-crt0.o
+│               │   │       ├── redboot-syscalls.o
+│               │   │       ├── redboot.ld
+│               │   │       └── redboot.specs
+│               │   ├── sys-include/
+│               │   │   ├── _ansi.h
+│               │   │   ├── _syslist.h
+│               │   │   ├── alloca.h
+│               │   │   ├── ar.h
+│               │   │   ├── argz.h
+│               │   │   ├── assert.h
+│               │   │   ├── COPIED
+│               │   │   ├── ctype.h
+│               │   │   ├── dirent.h
+│               │   │   ├── envz.h
+│               │   │   ├── errno.h
+│               │   │   ├── fastmath.h
+│               │   │   ├── fcntl.h
+│               │   │   ├── grp.h
+│               │   │   ├── iconv.h
+│               │   │   ├── ieeefp.h
+│               │   │   ├── langinfo.h
+│               │   │   ├── limits.h
+│               │   │   ├── locale.h
+│               │   │   ├── machine/
+│               │   │   │   ├── ansi.h
+│               │   │   │   ├── endian.h
+│               │   │   │   ├── fastmath.h
+│               │   │   │   ├── ieeefp.h
+│               │   │   │   ├── malloc.h
+│               │   │   │   ├── param.h
+│               │   │   │   ├── setjmp-dj.h
+│               │   │   │   ├── setjmp.h
+│               │   │   │   ├── stdlib.h
+│               │   │   │   ├── termios.h
+│               │   │   │   ├── time.h
+│               │   │   │   └── types.h
+│               │   │   ├── malloc.h
+│               │   │   ├── math.h
+│               │   │   ├── newlib.h
+│               │   │   ├── paths.h
+│               │   │   ├── process.h
+│               │   │   ├── pthread.h
+│               │   │   ├── pwd.h
+│               │   │   ├── reent.h
+│               │   │   ├── regdef.h
+│               │   │   ├── search.h
+│               │   │   ├── setjmp.h
+│               │   │   ├── signal.h
+│               │   │   ├── stdio.h
+│               │   │   ├── stdlib.h
+│               │   │   ├── string.h
+│               │   │   ├── sys/
+│               │   │   │   ├── _types.h
+│               │   │   │   ├── cdefs.h
+│               │   │   │   ├── config.h
+│               │   │   │   ├── dirent.h
+│               │   │   │   ├── errno.h
+│               │   │   │   ├── fcntl.h
+│               │   │   │   ├── features.h
+│               │   │   │   ├── file.h
+│               │   │   │   ├── iconvnls.h
+│               │   │   │   ├── lock.h
+│               │   │   │   ├── param.h
+│               │   │   │   ├── queue.h
+│               │   │   │   ├── reent.h
+│               │   │   │   ├── resource.h
+│               │   │   │   ├── sched.h
+│               │   │   │   ├── signal.h
+│               │   │   │   ├── stat.h
+│               │   │   │   ├── stdio.h
+│               │   │   │   ├── syslimits.h
+│               │   │   │   ├── time.h
+│               │   │   │   ├── timeb.h
+│               │   │   │   ├── times.h
+│               │   │   │   ├── types.h
+│               │   │   │   ├── unistd.h
+│               │   │   │   ├── utime.h
+│               │   │   │   └── wait.h
+│               │   │   ├── termios.h
+│               │   │   ├── time.h
+│               │   │   ├── unctrl.h
+│               │   │   ├── unistd.h
+│               │   │   ├── utime.h
+│               │   │   ├── utmp.h
+│               │   │   ├── wchar.h
+│               │   │   └── wctype.h
+│               │   └── test-if-write
+│               ├── bin/
+│               │   ├── arm-elf-addr2line.exe
+│               │   ├── arm-elf-ar.exe
+│               │   ├── arm-elf-as.exe
+│               │   ├── arm-elf-c++.exe
+│               │   ├── arm-elf-c++filt.exe
+│               │   ├── arm-elf-cpp.exe
+│               │   ├── arm-elf-g++.exe
+│               │   ├── arm-elf-gcc-3.4.3
+│               │   ├── arm-elf-gcc.exe
+│               │   ├── arm-elf-gccbug
+│               │   ├── arm-elf-gcov.exe
+│               │   ├── arm-elf-gdb.exe
+│               │   ├── arm-elf-gdbtui.exe
+│               │   ├── arm-elf-ld.exe
+│               │   ├── arm-elf-nm.exe
+│               │   ├── arm-elf-objcopy.exe
+│               │   ├── arm-elf-objdump.exe
+│               │   ├── arm-elf-ranlib.exe
+│               │   ├── arm-elf-readelf.exe
+│               │   ├── arm-elf-run.exe
+│               │   ├── arm-elf-size.exe
+│               │   ├── arm-elf-strings.exe
+│               │   └── arm-elf-strip.exe
+│               ├── include/
+│               │   └── c++/
+│               │       └── 3.4.3/
+│               │           ├── algorithm
+│               │           ├── arm-elf/
+│               │           │   └── bits/
+│               │           │       ├── atomic_word.h
+│               │           │       ├── basic_file.h
+│               │           │       ├── c++allocator.h
+│               │           │       ├── c++config.h
+│               │           │       ├── c++io.h
+│               │           │       ├── c++locale.h
+│               │           │       ├── codecvt_specializations.h
+│               │           │       ├── ctype_base.h
+│               │           │       ├── ctype_inline.h
+│               │           │       ├── ctype_noninline.h
+│               │           │       ├── gthr-default.h
+│               │           │       ├── gthr-posix.h
+│               │           │       ├── gthr-single.h
+│               │           │       ├── gthr.h
+│               │           │       ├── messages_members.h
+│               │           │       ├── os_defines.h
+│               │           │       └── time_members.h
+│               │           ├── backward/
+│               │           │   ├── algo.h
+│               │           │   ├── algobase.h
+│               │           │   ├── alloc.h
+│               │           │   ├── backward_warning.h
+│               │           │   ├── bvector.h
+│               │           │   ├── complex.h
+│               │           │   ├── defalloc.h
+│               │           │   ├── deque.h
+│               │           │   ├── fstream.h
+│               │           │   ├── function.h
+│               │           │   ├── hash_map.h
+│               │           │   ├── hash_set.h
+│               │           │   ├── hashtable.h
+│               │           │   ├── heap.h
+│               │           │   ├── iomanip.h
+│               │           │   ├── iostream.h
+│               │           │   ├── istream.h
+│               │           │   ├── iterator.h
+│               │           │   ├── list.h
+│               │           │   ├── map.h
+│               │           │   ├── multimap.h
+│               │           │   ├── multiset.h
+│               │           │   ├── new.h
+│               │           │   ├── ostream.h
+│               │           │   ├── pair.h
+│               │           │   ├── queue.h
+│               │           │   ├── rope.h
+│               │           │   ├── set.h
+│               │           │   ├── slist.h
+│               │           │   ├── stack.h
+│               │           │   ├── stream.h
+│               │           │   ├── streambuf.h
+│               │           │   ├── strstream
+│               │           │   ├── tempbuf.h
+│               │           │   ├── tree.h
+│               │           │   └── vector.h
+│               │           ├── bits/
+│               │           │   ├── allocator.h
+│               │           │   ├── atomicity.h
+│               │           │   ├── basic_ios.h
+│               │           │   ├── basic_ios.tcc
+│               │           │   ├── basic_string.h
+│               │           │   ├── basic_string.tcc
+│               │           │   ├── boost_concept_check.h
+│               │           │   ├── char_traits.h
+│               │           │   ├── cmath.tcc
+│               │           │   ├── codecvt.h
+│               │           │   ├── concept_check.h
+│               │           │   ├── concurrence.h
+│               │           │   ├── cpp_type_traits.h
+│               │           │   ├── deque.tcc
+│               │           │   ├── fstream.tcc
+│               │           │   ├── functexcept.h
+│               │           │   ├── gslice.h
+│               │           │   ├── gslice_array.h
+│               │           │   ├── indirect_array.h
+│               │           │   ├── ios_base.h
+│               │           │   ├── istream.tcc
+│               │           │   ├── list.tcc
+│               │           │   ├── locale_classes.h
+│               │           │   ├── locale_facets.h
+│               │           │   ├── locale_facets.tcc
+│               │           │   ├── localefwd.h
+│               │           │   ├── mask_array.h
+│               │           │   ├── ostream.tcc
+│               │           │   ├── postypes.h
+│               │           │   ├── slice_array.h
+│               │           │   ├── sstream.tcc
+│               │           │   ├── stl_algo.h
+│               │           │   ├── stl_algobase.h
+│               │           │   ├── stl_bvector.h
+│               │           │   ├── stl_construct.h
+│               │           │   ├── stl_deque.h
+│               │           │   ├── stl_function.h
+│               │           │   ├── stl_heap.h
+│               │           │   ├── stl_iterator.h
+│               │           │   ├── stl_iterator_base_funcs.h
+│               │           │   ├── stl_iterator_base_types.h
+│               │           │   ├── stl_list.h
+│               │           │   ├── stl_map.h
+│               │           │   ├── stl_multimap.h
+│               │           │   ├── stl_multiset.h
+│               │           │   ├── stl_numeric.h
+│               │           │   ├── stl_pair.h
+│               │           │   ├── stl_queue.h
+│               │           │   ├── stl_raw_storage_iter.h
+│               │           │   ├── stl_relops.h
+│               │           │   ├── stl_set.h
+│               │           │   ├── stl_stack.h
+│               │           │   ├── stl_tempbuf.h
+│               │           │   ├── stl_threads.h
+│               │           │   ├── stl_tree.h
+│               │           │   ├── stl_uninitialized.h
+│               │           │   ├── stl_vector.h
+│               │           │   ├── stream_iterator.h
+│               │           │   ├── streambuf.tcc
+│               │           │   ├── streambuf_iterator.h
+│               │           │   ├── stringfwd.h
+│               │           │   ├── type_traits.h
+│               │           │   ├── valarray_after.h
+│               │           │   ├── valarray_array.h
+│               │           │   ├── valarray_array.tcc
+│               │           │   ├── valarray_before.h
+│               │           │   └── vector.tcc
+│               │           ├── bitset
+│               │           ├── cassert
+│               │           ├── cctype
+│               │           ├── cerrno
+│               │           ├── cfloat
+│               │           ├── ciso646
+│               │           ├── climits
+│               │           ├── clocale
+│               │           ├── cmath
+│               │           ├── complex
+│               │           ├── csetjmp
+│               │           ├── csignal
+│               │           ├── cstdarg
+│               │           ├── cstddef
+│               │           ├── cstdio
+│               │           ├── cstdlib
+│               │           ├── cstring
+│               │           ├── ctime
+│               │           ├── cwchar
+│               │           ├── cwctype
+│               │           ├── cxxabi.h
+│               │           ├── debug/
+│               │           │   ├── bitset
+│               │           │   ├── debug.h
+│               │           │   ├── deque
+│               │           │   ├── formatter.h
+│               │           │   ├── hash_map
+│               │           │   ├── hash_map.h
+│               │           │   ├── hash_multimap.h
+│               │           │   ├── hash_multiset.h
+│               │           │   ├── hash_set
+│               │           │   ├── hash_set.h
+│               │           │   ├── list
+│               │           │   ├── map
+│               │           │   ├── map.h
+│               │           │   ├── multimap.h
+│               │           │   ├── multiset.h
+│               │           │   ├── safe_base.h
+│               │           │   ├── safe_iterator.h
+│               │           │   ├── safe_iterator.tcc
+│               │           │   ├── safe_sequence.h
+│               │           │   ├── set
+│               │           │   ├── set.h
+│               │           │   ├── string
+│               │           │   └── vector
+│               │           ├── deque
+│               │           ├── exception
+│               │           ├── exception_defines.h
+│               │           ├── ext/
+│               │           │   ├── algorithm
+│               │           │   ├── bitmap_allocator.h
+│               │           │   ├── debug_allocator.h
+│               │           │   ├── enc_filebuf.h
+│               │           │   ├── functional
+│               │           │   ├── hash_fun.h
+│               │           │   ├── hash_map
+│               │           │   ├── hash_set
+│               │           │   ├── hashtable.h
+│               │           │   ├── iterator
+│               │           │   ├── malloc_allocator.h
+│               │           │   ├── memory
+│               │           │   ├── mt_allocator.h
+│               │           │   ├── new_allocator.h
+│               │           │   ├── numeric
+│               │           │   ├── pod_char_traits.h
+│               │           │   ├── pool_allocator.h
+│               │           │   ├── rb_tree
+│               │           │   ├── rope
+│               │           │   ├── ropeimpl.h
+│               │           │   ├── slist
+│               │           │   ├── stdio_filebuf.h
+│               │           │   └── stdio_sync_filebuf.h
+│               │           ├── fstream
+│               │           ├── functional
+│               │           ├── iomanip
+│               │           ├── ios
+│               │           ├── iosfwd
+│               │           ├── iostream
+│               │           ├── istream
+│               │           ├── iterator
+│               │           ├── limits
+│               │           ├── list
+│               │           ├── locale
+│               │           ├── map
+│               │           ├── memory
+│               │           ├── new
+│               │           ├── numeric
+│               │           ├── ostream
+│               │           ├── queue
+│               │           ├── set
+│               │           ├── sstream
+│               │           ├── stack
+│               │           ├── stdexcept
+│               │           ├── streambuf
+│               │           ├── string
+│               │           ├── typeinfo
+│               │           ├── utility
+│               │           ├── valarray
+│               │           └── vector
+│               ├── info/
+│               │   ├── annotate.info
+│               │   ├── as.info
+│               │   ├── as.info-1
+│               │   ├── as.info-2
+│               │   ├── as.info-3
+│               │   ├── bfd.info
+│               │   ├── bfd.info-1
+│               │   ├── bfd.info-2
+│               │   ├── binutils.info
+│               │   ├── configure.info
+│               │   ├── cpp.info
+│               │   ├── cppinternals.info
+│               │   ├── dir
+│               │   ├── gcc.info
+│               │   ├── gccinstall.info
+│               │   ├── gccint.info
+│               │   ├── gdb.info
+│               │   ├── gdb.info-1
+│               │   ├── gdb.info-2
+│               │   ├── gdb.info-3
+│               │   ├── gdb.info-4
+│               │   ├── gdbint.info
+│               │   ├── gdbint.info-1
+│               │   ├── gdbint.info-2
+│               │   ├── ld.info
+│               │   ├── stabs.info
+│               │   └── standards.info
+│               ├── lib/
+│               │   ├── gcc/
+│               │   │   └── arm-elf/
+│               │   │       └── 3.4.3/
+│               │   │           ├── arm5/
+│               │   │           │   ├── crtbegin.o
+│               │   │           │   ├── crtend.o
+│               │   │           │   ├── crti.o
+│               │   │           │   ├── crtn.o
+│               │   │           │   ├── libgcc.a
+│               │   │           │   └── libgcov.a
+│               │   │           ├── be/
+│               │   │           │   ├── arm5/
+│               │   │           │   │   ├── crtbegin.o
+│               │   │           │   │   ├── crtend.o
+│               │   │           │   │   ├── crti.o
+│               │   │           │   │   ├── crtn.o
+│               │   │           │   │   ├── libgcc.a
+│               │   │           │   │   └── libgcov.a
+│               │   │           │   ├── crtbegin.o
+│               │   │           │   ├── crtend.o
+│               │   │           │   ├── crti.o
+│               │   │           │   ├── crtn.o
+│               │   │           │   ├── libgcc.a
+│               │   │           │   └── libgcov.a
+│               │   │           ├── crtbegin.o
+│               │   │           ├── crtend.o
+│               │   │           ├── crti.o
+│               │   │           ├── crtn.o
+│               │   │           ├── include/
+│               │   │           │   ├── float.h
+│               │   │           │   ├── iso646.h
+│               │   │           │   ├── limits.h
+│               │   │           │   ├── math.h
+│               │   │           │   ├── mmintrin.h
+│               │   │           │   ├── README
+│               │   │           │   ├── stdarg.h
+│               │   │           │   ├── stdbool.h
+│               │   │           │   ├── stddef.h
+│               │   │           │   ├── syslimits.h
+│               │   │           │   ├── unwind.h
+│               │   │           │   └── varargs.h
+│               │   │           ├── install-tools/
+│               │   │           │   ├── gsyslimits.h
+│               │   │           │   ├── include/
+│               │   │           │   │   ├── float.h
+│               │   │           │   │   ├── iso646.h
+│               │   │           │   │   ├── limits.h
+│               │   │           │   │   ├── mmintrin.h
+│               │   │           │   │   ├── README
+│               │   │           │   │   ├── stdarg.h
+│               │   │           │   │   ├── stdbool.h
+│               │   │           │   │   ├── stddef.h
+│               │   │           │   │   ├── unwind.h
+│               │   │           │   │   └── varargs.h
+│               │   │           │   └── mkheaders.conf
+│               │   │           ├── interwork/
+│               │   │           │   ├── arm5/
+│               │   │           │   │   ├── crtbegin.o
+│               │   │           │   │   ├── crtend.o
+│               │   │           │   │   ├── crti.o
+│               │   │           │   │   ├── crtn.o
+│               │   │           │   │   ├── libgcc.a
+│               │   │           │   │   └── libgcov.a
+│               │   │           │   ├── be/
+│               │   │           │   │   ├── arm5/
+│               │   │           │   │   │   ├── crtbegin.o
+│               │   │           │   │   │   ├── crtend.o
+│               │   │           │   │   │   ├── crti.o
+│               │   │           │   │   │   ├── crtn.o
+│               │   │           │   │   │   ├── libgcc.a
+│               │   │           │   │   │   └── libgcov.a
+│               │   │           │   │   ├── crtbegin.o
+│               │   │           │   │   ├── crtend.o
+│               │   │           │   │   ├── crti.o
+│               │   │           │   │   ├── crtn.o
+│               │   │           │   │   ├── libgcc.a
+│               │   │           │   │   └── libgcov.a
+│               │   │           │   ├── crtbegin.o
+│               │   │           │   ├── crtend.o
+│               │   │           │   ├── crti.o
+│               │   │           │   ├── crtn.o
+│               │   │           │   ├── libgcc.a
+│               │   │           │   ├── libgcov.a
+│               │   │           │   └── thumb/
+│               │   │           │       ├── arm5/
+│               │   │           │       │   ├── crtbegin.o
+│               │   │           │       │   ├── crtend.o
+│               │   │           │       │   ├── crti.o
+│               │   │           │       │   ├── crtn.o
+│               │   │           │       │   ├── libgcc.a
+│               │   │           │       │   └── libgcov.a
+│               │   │           │       ├── be/
+│               │   │           │       │   ├── arm5/
+│               │   │           │       │   │   ├── crtbegin.o
+│               │   │           │       │   │   ├── crtend.o
+│               │   │           │       │   │   ├── crti.o
+│               │   │           │       │   │   ├── crtn.o
+│               │   │           │       │   │   ├── libgcc.a
+│               │   │           │       │   │   └── libgcov.a
+│               │   │           │       │   ├── crtbegin.o
+│               │   │           │       │   ├── crtend.o
+│               │   │           │       │   ├── crti.o
+│               │   │           │       │   ├── crtn.o
+│               │   │           │       │   ├── libgcc.a
+│               │   │           │       │   └── libgcov.a
+│               │   │           │       ├── crtbegin.o
+│               │   │           │       ├── crtend.o
+│               │   │           │       ├── crti.o
+│               │   │           │       ├── crtn.o
+│               │   │           │       ├── libgcc.a
+│               │   │           │       └── libgcov.a
+│               │   │           ├── libgcc.a
+│               │   │           ├── libgcov.a
+│               │   │           ├── specs
+│               │   │           └── thumb/
+│               │   │               ├── arm5/
+│               │   │               │   ├── crtbegin.o
+│               │   │               │   ├── crtend.o
+│               │   │               │   ├── crti.o
+│               │   │               │   ├── crtn.o
+│               │   │               │   ├── libgcc.a
+│               │   │               │   └── libgcov.a
+│               │   │               ├── be/
+│               │   │               │   ├── arm5/
+│               │   │               │   │   ├── crtbegin.o
+│               │   │               │   │   ├── crtend.o
+│               │   │               │   │   ├── crti.o
+│               │   │               │   │   ├── crtn.o
+│               │   │               │   │   ├── libgcc.a
+│               │   │               │   │   └── libgcov.a
+│               │   │               │   ├── crtbegin.o
+│               │   │               │   ├── crtend.o
+│               │   │               │   ├── crti.o
+│               │   │               │   ├── crtn.o
+│               │   │               │   ├── libgcc.a
+│               │   │               │   └── libgcov.a
+│               │   │               ├── crtbegin.o
+│               │   │               ├── crtend.o
+│               │   │               ├── crti.o
+│               │   │               ├── crtn.o
+│               │   │               ├── libgcc.a
+│               │   │               └── libgcov.a
+│               │   ├── libarm-elf-sim.a
+│               │   └── libiberty.a
+│               ├── libexec/
+│               │   └── gcc/
+│               │       └── arm-elf/
+│               │           └── 3.4.3/
+│               │               ├── cc1.exe
+│               │               ├── cc1plus.exe
+│               │               ├── collect2.exe
+│               │               └── install-tools/
+│               │                   ├── fixinc.sh
+│               │                   ├── fixincl.exe
+│               │                   └── mkheaders
+│               ├── man/
+│               │   ├── man1/
+│               │   │   ├── arm-elf-addr2line.1
+│               │   │   ├── arm-elf-ar.1
+│               │   │   ├── arm-elf-as.1
+│               │   │   ├── arm-elf-c++filt.1
+│               │   │   ├── arm-elf-cpp.1
+│               │   │   ├── arm-elf-dlltool.1
+│               │   │   ├── arm-elf-g++.1
+│               │   │   ├── arm-elf-gcc.1
+│               │   │   ├── arm-elf-gcov.1
+│               │   │   ├── arm-elf-gdb.1
+│               │   │   ├── arm-elf-gdbtui.1
+│               │   │   ├── arm-elf-ld.1
+│               │   │   ├── arm-elf-nlmconv.1
+│               │   │   ├── arm-elf-nm.1
+│               │   │   ├── arm-elf-objcopy.1
+│               │   │   ├── arm-elf-objdump.1
+│               │   │   ├── arm-elf-ranlib.1
+│               │   │   ├── arm-elf-readelf.1
+│               │   │   ├── arm-elf-run.1
+│               │   │   ├── arm-elf-size.1
+│               │   │   ├── arm-elf-strings.1
+│               │   │   ├── arm-elf-strip.1
+│               │   │   └── arm-elf-windres.1
+│               │   └── man7/
+│               │       ├── fsf-funding.7
+│               │       ├── gfdl.7
+│               │       └── gpl.7
+│               └── tmp/
+│                   ├── arm-elf-hello
+│                   ├── arm-elf-hello-static
+│                   ├── arm-elf-hello2
+│                   ├── arm-elf-hello2-static
+│                   ├── hello.c
+│                   └── hello2.cc
+└── ios_test_release_080128122725/
+    └── OPT_ENV_CYGWIN_ios_test_release_080128122725/
+        └── opt/
+            └── crosstool/

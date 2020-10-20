@@ -1,0 +1,857 @@
+ique/
+├── apps/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Repository
+│   │   ├── Root
+│   │   └── Tag
+│   ├── gba_viewer/
+│   │   ├── base/
+│   │   │   ├── buddy.c
+│   │   │   ├── buddy.h
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── device.c
+│   │   │   ├── device.h
+│   │   │   ├── game.c
+│   │   │   ├── game.h
+│   │   │   ├── GNUmakefile
+│   │   │   ├── level.c
+│   │   │   ├── level.h
+│   │   │   ├── lobby.c
+│   │   │   ├── lobby.h
+│   │   │   ├── localdata_manager.c
+│   │   │   ├── localdata_manager.h
+│   │   │   ├── maildata.c
+│   │   │   ├── maildata.h
+│   │   │   ├── option.c
+│   │   │   ├── option.h
+│   │   │   ├── README
+│   │   │   ├── save.c
+│   │   │   ├── save.h
+│   │   │   ├── user.c
+│   │   │   ├── user.h
+│   │   │   ├── viewerdata.c
+│   │   │   ├── viewerdata.h
+│   │   │   ├── visualize.c
+│   │   │   └── visualize.h
+│   │   ├── common/
+│   │   │   ├── common.c
+│   │   │   ├── common.h
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── fix.c
+│   │   │   ├── fix.h
+│   │   │   ├── GNUmakefile
+│   │   │   ├── random.c
+│   │   │   ├── random.h
+│   │   │   ├── types.h
+│   │   │   ├── varg.h
+│   │   │   ├── w_string.c
+│   │   │   └── w_string.h
+│   │   ├── communicate/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── mail/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   └── mail.h
+│   │   │   └── protocol/
+│   │   │       ├── CVS/
+│   │   │       │   ├── Entries
+│   │   │       │   ├── Repository
+│   │   │       │   ├── Root
+│   │   │       │   └── Tag
+│   │   │       └── protocol.h
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Repository
+│   │   │   ├── Root
+│   │   │   └── Tag
+│   │   ├── doc/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   └── esapi.doc
+│   │   ├── GNUmakefile
+│   │   ├── graphics/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── emotion.c
+│   │   │   ├── emotion.h
+│   │   │   ├── font.c
+│   │   │   ├── font.h
+│   │   │   ├── GNUmakefile
+│   │   │   ├── raster.c
+│   │   │   ├── raster.h
+│   │   │   ├── rtf.c
+│   │   │   └── rtf.h
+│   │   ├── logic/
+│   │   │   ├── club_room/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── GameCenter.c
+│   │   │   │   ├── GameCenter.h
+│   │   │   │   ├── LobbyRoom.c
+│   │   │   │   ├── LobbyRoom.h
+│   │   │   │   ├── MainRoom.c
+│   │   │   │   ├── MainRoom.h
+│   │   │   │   ├── MediaCenter.c
+│   │   │   │   └── MediaCenter.h
+│   │   │   ├── common/
+│   │   │   │   ├── buddylist_win.c
+│   │   │   │   ├── buddylist_win.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── listwindow.c
+│   │   │   │   ├── listwindow.h
+│   │   │   │   ├── message_win.c
+│   │   │   │   ├── message_win.h
+│   │   │   │   ├── pfile_header.h
+│   │   │   │   ├── popmenu.c
+│   │   │   │   ├── popmenu.h
+│   │   │   │   ├── popwindow.c
+│   │   │   │   ├── popwindow.h
+│   │   │   │   ├── proc_id.h
+│   │   │   │   ├── proclist.c
+│   │   │   │   ├── proclist.h
+│   │   │   │   ├── room.c
+│   │   │   │   ├── room.h
+│   │   │   │   ├── room_p.c
+│   │   │   │   ├── room_w.c
+│   │   │   │   ├── status_bar.c
+│   │   │   │   ├── status_bar.h
+│   │   │   │   ├── visual_win.c
+│   │   │   │   ├── visual_win.h
+│   │   │   │   ├── wfile_header.h
+│   │   │   │   └── win_id.h
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── game_center/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── game_shop.h
+│   │   │   │   ├── game_shop_p.c
+│   │   │   │   ├── game_shop_w.c
+│   │   │   │   ├── gamelist.h
+│   │   │   │   ├── gamelist_p.c
+│   │   │   │   ├── gamelist_w.c
+│   │   │   │   └── viewer_vng.h
+│   │   │   ├── GNUmakefile
+│   │   │   ├── initialize/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── init_install.h
+│   │   │   │   ├── init_install_p.c
+│   │   │   │   ├── init_install_w.c
+│   │   │   │   ├── init_welcome.h
+│   │   │   │   ├── init_welcome_p.c
+│   │   │   │   ├── init_welcome_w.c
+│   │   │   │   ├── register.h
+│   │   │   │   ├── register_p.c
+│   │   │   │   └── register_w.c
+│   │   │   ├── lobby/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── ique_online_chat.h
+│   │   │   │   ├── ique_online_chat_p.c
+│   │   │   │   ├── ique_online_chat_w.c
+│   │   │   │   ├── ique_online_link_mode.h
+│   │   │   │   ├── ique_online_link_mode_p.c
+│   │   │   │   ├── ique_online_link_mode_w.c
+│   │   │   │   ├── ique_online_link_room.h
+│   │   │   │   ├── ique_online_link_room_p.c
+│   │   │   │   ├── ique_online_link_room_w.c
+│   │   │   │   ├── ique_online_link_wait.h
+│   │   │   │   ├── ique_online_link_wait_p.c
+│   │   │   │   ├── ique_online_link_wait_w.c
+│   │   │   │   ├── ique_online_mail_main.h
+│   │   │   │   ├── ique_online_mail_main_p.c
+│   │   │   │   ├── ique_online_mail_main_w.c
+│   │   │   │   ├── ique_online_mail_new.h
+│   │   │   │   ├── ique_online_mail_new_p.c
+│   │   │   │   ├── ique_online_mail_new_w.c
+│   │   │   │   ├── ique_online_mail_read.h
+│   │   │   │   ├── ique_online_mail_read_p.c
+│   │   │   │   ├── ique_online_mail_read_w.c
+│   │   │   │   ├── ique_online_setup.h
+│   │   │   │   ├── ique_online_setup_msglist.h
+│   │   │   │   ├── ique_online_setup_msglist_p.c
+│   │   │   │   ├── ique_online_setup_msglist_w.c
+│   │   │   │   ├── ique_online_setup_p.c
+│   │   │   │   └── ique_online_setup_w.c
+│   │   │   ├── media_center/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── mc_book_read.h
+│   │   │   │   ├── mc_book_read_p.c
+│   │   │   │   ├── mc_book_read_w.c
+│   │   │   │   ├── mc_music_play.h
+│   │   │   │   ├── mc_music_play_p.c
+│   │   │   │   ├── mc_music_play_w.c
+│   │   │   │   ├── mc_pic_play.h
+│   │   │   │   └── mc_pic_play_p.c
+│   │   │   ├── system_procs/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── iQueShell.h
+│   │   │   │   ├── iQueShell_api.c
+│   │   │   │   ├── iQueShell_api.h
+│   │   │   │   ├── lobby_client.c
+│   │   │   │   ├── lobby_client.h
+│   │   │   │   ├── net_procedure.c
+│   │   │   │   ├── sys_procedure.c
+│   │   │   │   └── sys_procedure.h
+│   │   │   └── utils/
+│   │   │       ├── chongzhi.h
+│   │   │       ├── chongzhi_p.c
+│   │   │       ├── chongzhi_w.c
+│   │   │       ├── CVS/
+│   │   │       │   ├── Entries
+│   │   │       │   ├── Repository
+│   │   │       │   ├── Root
+│   │   │       │   └── Tag
+│   │   │       ├── userinfo.h
+│   │   │       ├── userinfo_p.c
+│   │   │       ├── userinfo_w.c
+│   │   │       ├── utils_help.h
+│   │   │       ├── utils_help_p.c
+│   │   │       └── utils_help_w.c
+│   │   ├── main/
+│   │   │   ├── crt0.s
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── GNUmakefile
+│   │   │   ├── launch.c
+│   │   │   ├── main.c
+│   │   │   ├── procs.c
+│   │   │   └── rom_header.s
+│   │   ├── MakeInclude
+│   │   ├── ncpart/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── GNUmakefile
+│   │   │   ├── libmp3.a
+│   │   │   ├── mp3_main.c
+│   │   │   ├── mp3_main.h
+│   │   │   ├── nc_auto_update.c
+│   │   │   └── nc_lobby.c
+│   │   ├── Readme
+│   │   ├── res/
+│   │   │   ├── club_room/
+│   │   │   │   ├── boy.acg
+│   │   │   │   ├── boy.acl
+│   │   │   │   ├── boy.aob
+│   │   │   │   ├── Characters.acg
+│   │   │   │   ├── Characters.acl
+│   │   │   │   ├── Characters.aob
+│   │   │   │   ├── chongzhi_bg.acg
+│   │   │   │   ├── chongzhi_bg.acl
+│   │   │   │   ├── chongzhi_bg.asc
+│   │   │   │   ├── club_room.cfg
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── game_center.acg
+│   │   │   │   ├── game_center.acl
+│   │   │   │   ├── game_center.asc
+│   │   │   │   ├── game_center_2.acg
+│   │   │   │   ├── game_center_2.acl
+│   │   │   │   ├── game_center_2.asc
+│   │   │   │   ├── gamecenter_obj.acg
+│   │   │   │   ├── gamecenter_obj.acl
+│   │   │   │   ├── gamecenter_obj.aob
+│   │   │   │   ├── girl.acg
+│   │   │   │   ├── girl.acl
+│   │   │   │   ├── girl.aob
+│   │   │   │   ├── GNUmakefile
+│   │   │   │   ├── help_bg.acg
+│   │   │   │   ├── help_bg.acl
+│   │   │   │   ├── help_bg.asc
+│   │   │   │   ├── help_obj.acg
+│   │   │   │   ├── help_obj.acl
+│   │   │   │   ├── help_obj.aob
+│   │   │   │   ├── lighting.acg
+│   │   │   │   ├── lighting.acl
+│   │   │   │   ├── lighting.asc
+│   │   │   │   ├── lobby.acg
+│   │   │   │   ├── lobby.acl
+│   │   │   │   ├── lobby.asc
+│   │   │   │   ├── main_room.acg
+│   │   │   │   ├── main_room.acl
+│   │   │   │   ├── main_room.asc
+│   │   │   │   ├── mainrroom_obj.acg
+│   │   │   │   ├── mainrroom_obj.acl
+│   │   │   │   ├── mainrroom_obj.aob
+│   │   │   │   ├── media_center.acg
+│   │   │   │   ├── media_center.acl
+│   │   │   │   ├── media_center.asc
+│   │   │   │   ├── mediacenter_obj.acg
+│   │   │   │   ├── mediacenter_obj.acl
+│   │   │   │   ├── mediacenter_obj.aob
+│   │   │   │   ├── ol_lobby_btn.acg
+│   │   │   │   ├── ol_lobby_btn.acl
+│   │   │   │   ├── ol_lobby_btn.aob
+│   │   │   │   ├── Qz.acg
+│   │   │   │   ├── Qz.acl
+│   │   │   │   ├── Qz.aob
+│   │   │   │   ├── reception_obj.acg
+│   │   │   │   ├── reception_obj.acl
+│   │   │   │   ├── reception_obj.aob
+│   │   │   │   ├── userinfo_bg.acg
+│   │   │   │   ├── userinfo_bg.acl
+│   │   │   │   ├── userinfo_bg.asc
+│   │   │   │   ├── userinfo_txt_bg.acg
+│   │   │   │   ├── userinfo_txt_bg.acl
+│   │   │   │   └── userinfo_txt_bg.asc
+│   │   │   ├── common/
+│   │   │   │   ├── 1234567890.acg
+│   │   │   │   ├── 1234567890.acl
+│   │   │   │   ├── 1234567890.aob
+│   │   │   │   ├── bg_mail_edit.asc
+│   │   │   │   ├── bg_text.acg
+│   │   │   │   ├── bg_text.acl
+│   │   │   │   ├── bg_text.asc
+│   │   │   │   ├── buddylist.cfg
+│   │   │   │   ├── characters_bg.acg
+│   │   │   │   ├── Characters_bg.acl
+│   │   │   │   ├── common.cfg
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── gbabutton.acg
+│   │   │   │   ├── gbabutton.acl
+│   │   │   │   ├── gbabutton.aob
+│   │   │   │   ├── GNUmakefile
+│   │   │   │   ├── help.acg
+│   │   │   │   ├── help.acl
+│   │   │   │   ├── help.asc
+│   │   │   │   ├── help_bg_text.acg
+│   │   │   │   ├── help_bg_text.asc
+│   │   │   │   ├── help_buddylist.asc
+│   │   │   │   ├── list_title_man_obj.acg
+│   │   │   │   ├── list_title_man_obj.acl
+│   │   │   │   ├── list_title_man_obj.aob
+│   │   │   │   ├── list_title_media_obj.acg
+│   │   │   │   ├── list_title_media_obj.acl
+│   │   │   │   ├── list_title_media_obj.aob
+│   │   │   │   ├── list_window_bg.acg
+│   │   │   │   ├── list_window_bg.acl
+│   │   │   │   ├── list_window_bg.asc
+│   │   │   │   ├── list_window_obj.acg
+│   │   │   │   ├── list_window_obj.acl
+│   │   │   │   ├── list_window_obj.aob
+│   │   │   │   ├── list_window_txt_bg.acg
+│   │   │   │   ├── list_window_txt_bg.asc
+│   │   │   │   ├── MsgBox.acg
+│   │   │   │   ├── MsgBox.acl
+│   │   │   │   ├── msgbox.asc
+│   │   │   │   ├── ol_buddylist_bg.acg
+│   │   │   │   ├── ol_buddylist_bg.acl
+│   │   │   │   ├── ol_buddylist_bg.asc
+│   │   │   │   ├── ol_buddylist_obj.acg
+│   │   │   │   ├── ol_buddylist_obj.acl
+│   │   │   │   ├── ol_buddylist_obj.aob
+│   │   │   │   ├── ol_xx.acg
+│   │   │   │   ├── ol_xx.acl
+│   │   │   │   ├── ol_xx.aob
+│   │   │   │   ├── popup.acg
+│   │   │   │   ├── popup.acl
+│   │   │   │   ├── popup.aob
+│   │   │   │   ├── scrollmsg_obj.acg
+│   │   │   │   ├── scrollmsg_obj.acl
+│   │   │   │   ├── scrollmsg_obj.aob
+│   │   │   │   ├── shadow.acg
+│   │   │   │   ├── shadow.acl
+│   │   │   │   ├── shadow.asc
+│   │   │   │   ├── shuru.acg
+│   │   │   │   ├── shuru.acl
+│   │   │   │   ├── shuru.aob
+│   │   │   │   ├── shuru.asc
+│   │   │   │   ├── statusbar_obj.acg
+│   │   │   │   ├── statusbar_obj.acl
+│   │   │   │   ├── statusbar_obj.aob
+│   │   │   │   ├── text_bg.acg
+│   │   │   │   ├── text_bg.acl
+│   │   │   │   ├── text_bg_pal2.asc
+│   │   │   │   └── text_bg_pal3.asc
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── font/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── emo_4b_data.dta
+│   │   │   │   ├── emo_4b_mask.dta
+│   │   │   │   ├── face.acl
+│   │   │   │   ├── fnt12_1b_data.dta
+│   │   │   │   ├── fnt12_1b_map.dta
+│   │   │   │   ├── fnt12_1bc_data.dta
+│   │   │   │   ├── fnt12_1bc_map.dta
+│   │   │   │   ├── fnt8_1b_data.dta
+│   │   │   │   ├── fnt8_1b_map.dta
+│   │   │   │   ├── fnt8_1b_width.dta
+│   │   │   │   ├── font.acl
+│   │   │   │   ├── font.cfg
+│   │   │   │   └── GNUmakefile
+│   │   │   ├── game_center/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── game_center.cfg
+│   │   │   │   ├── GameList_bg.acg
+│   │   │   │   ├── GameList_bg.acl
+│   │   │   │   ├── gamelist_bg.asc
+│   │   │   │   ├── GameList_bg_empty.acg
+│   │   │   │   ├── GameList_bg_empty.acl
+│   │   │   │   ├── GameList_more_bg.acg
+│   │   │   │   ├── gamelist_more_bg.acl
+│   │   │   │   ├── gamelist_more_bg.asc
+│   │   │   │   ├── gamelist_more_obj.acg
+│   │   │   │   ├── gamelist_more_obj.acl
+│   │   │   │   ├── gamelist_more_obj.aob
+│   │   │   │   ├── GameList_obj.acg
+│   │   │   │   ├── GameList_obj.acl
+│   │   │   │   ├── gamelist_obj.aob
+│   │   │   │   ├── gamelist_select.acl
+│   │   │   │   ├── gamelist_unselect.acl
+│   │   │   │   ├── gamereplace_nc_obj.acg
+│   │   │   │   ├── gamereplace_nc_obj.acl
+│   │   │   │   ├── gamereplace_nc_obj.aob
+│   │   │   │   ├── gamereplace_obj.acg
+│   │   │   │   ├── gamereplace_obj.acl
+│   │   │   │   ├── gamereplace_obj.aob
+│   │   │   │   └── GNUmakefile
+│   │   │   ├── GNUmakefile
+│   │   │   ├── history
+│   │   │   ├── initialize/
+│   │   │   │   ├── anm_bg.cfg
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── GNUmakefile
+│   │   │   │   ├── initialize.cfg
+│   │   │   │   ├── initialize_bg.acg
+│   │   │   │   ├── initialize_bg.acl
+│   │   │   │   ├── initialize_bg.asc
+│   │   │   │   ├── initialize_bg0.asc
+│   │   │   │   ├── initialize_bg1.asc
+│   │   │   │   ├── initialize_bg2.asc
+│   │   │   │   ├── initialize_bg3.asc
+│   │   │   │   ├── initialize_bg_obj.acg
+│   │   │   │   ├── initialize_bg_obj.acl
+│   │   │   │   ├── initialize_bg_obj.aob
+│   │   │   │   ├── initialize_obj.acg
+│   │   │   │   ├── initialize_obj.acl
+│   │   │   │   └── initialize_obj.aob
+│   │   │   ├── lobby/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── GNUmakefile
+│   │   │   │   ├── lobby.cfg
+│   │   │   │   ├── ol_chat_bg.acg
+│   │   │   │   ├── ol_chat_bg.acl
+│   │   │   │   ├── ol_chat_bg.asc
+│   │   │   │   ├── ol_chat_obj.acg
+│   │   │   │   ├── ol_chat_obj.acl
+│   │   │   │   ├── ol_chat_obj.aob
+│   │   │   │   ├── ol_link_mode.acg
+│   │   │   │   ├── ol_link_mode.acl
+│   │   │   │   ├── ol_link_mode.aob
+│   │   │   │   ├── ol_link_mode_bg.acg
+│   │   │   │   ├── ol_link_mode_bg.acl
+│   │   │   │   ├── ol_link_mode_bg.asc
+│   │   │   │   ├── ol_link_mode_obj.acg
+│   │   │   │   ├── ol_link_mode_obj.acl
+│   │   │   │   ├── ol_link_mode_obj.aob
+│   │   │   │   ├── ol_link_room_bg.acg
+│   │   │   │   ├── ol_link_room_bg.acl
+│   │   │   │   ├── ol_link_room_bg.asc
+│   │   │   │   ├── ol_link_room_obj.acg
+│   │   │   │   ├── ol_link_room_obj.acl
+│   │   │   │   ├── ol_link_room_obj.aob
+│   │   │   │   ├── ol_link_wait_bg.acg
+│   │   │   │   ├── ol_link_wait_bg.acl
+│   │   │   │   ├── ol_link_wait_bg.asc
+│   │   │   │   ├── ol_link_wait_obj.acg
+│   │   │   │   ├── ol_link_wait_obj.acl
+│   │   │   │   ├── ol_link_wait_obj.aob
+│   │   │   │   ├── ol_mail_bg.acg
+│   │   │   │   ├── ol_mail_bg.acl
+│   │   │   │   ├── ol_mail_bg.asc
+│   │   │   │   ├── ol_mail_btn.acg
+│   │   │   │   ├── ol_mail_btn.acl
+│   │   │   │   ├── ol_mail_btn.aob
+│   │   │   │   ├── ol_new_mail_edit_bg.asc
+│   │   │   │   ├── ol_readmail_bg.acg
+│   │   │   │   ├── ol_readmail_bg.acl
+│   │   │   │   ├── ol_readmail_bg.asc
+│   │   │   │   ├── ol_setup_bg.acg
+│   │   │   │   ├── ol_setup_bg.acl
+│   │   │   │   ├── ol_setup_bg.asc
+│   │   │   │   ├── ol_setup_msg_list_bg.acg
+│   │   │   │   ├── ol_setup_msg_list_bg.acl
+│   │   │   │   ├── ol_setup_msg_list_bg.asc
+│   │   │   │   ├── ol_setup_msg_list_obj.acg
+│   │   │   │   ├── ol_setup_msg_list_obj.acl
+│   │   │   │   ├── ol_setup_msg_list_obj.aob
+│   │   │   │   ├── ol_setup_obj.acg
+│   │   │   │   ├── ol_setup_obj.acl
+│   │   │   │   ├── ol_setup_obj.aob
+│   │   │   │   ├── ol_writemail_bg.acg
+│   │   │   │   ├── ol_writemail_bg.acl
+│   │   │   │   └── ol_writemail_bg.asc
+│   │   │   ├── MakeInclude
+│   │   │   ├── media_center/
+│   │   │   │   ├── book_bg.acg
+│   │   │   │   ├── book_bg.acl
+│   │   │   │   ├── book_bg.asc
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── GNUmakefile
+│   │   │   │   ├── media_center.cfg
+│   │   │   │   ├── mp3_bg.acg
+│   │   │   │   ├── mp3_bg.acl
+│   │   │   │   ├── mp3_bg.asc
+│   │   │   │   ├── mp3_obj.acg
+│   │   │   │   ├── mp3_obj.acl
+│   │   │   │   └── mp3_obj.aob
+│   │   │   ├── message/
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── GNUmakefile
+│   │   │   │   └── MessageList.xls
+│   │   │   └── subdirs.file
+│   │   ├── sound/
+│   │   │   ├── Begin_text.o
+│   │   │   ├── Buddy_menu_navigate.o
+│   │   │   ├── Buddy_selected.o
+│   │   │   ├── Buddylist_msg.o
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── Enter_exit.o
+│   │   │   ├── Exit_npcmenu.o
+│   │   │   ├── GNUmakefile
+│   │   │   ├── Letter_navigate.o
+│   │   │   ├── Lobby_failure.o
+│   │   │   ├── m4aLib.h
+│   │   │   ├── m4aLib.o
+│   │   │   ├── menu_navigate.o
+│   │   │   ├── Menu_selected.o
+│   │   │   ├── Msg.o
+│   │   │   ├── Navigate_npcmenu.o
+│   │   │   ├── Offline_buddylist.o
+│   │   │   ├── Online_buddylist.o
+│   │   │   ├── opendoor.o
+│   │   │   ├── Pagedown_text.o
+│   │   │   ├── Play_text.o
+│   │   │   ├── Pull.o
+│   │   │   ├── se_d01.o
+│   │   │   ├── se_d02.o
+│   │   │   ├── se_d03.o
+│   │   │   ├── se_d04.o
+│   │   │   ├── se_d05.o
+│   │   │   ├── se_d06.o
+│   │   │   ├── se_d08.o
+│   │   │   ├── se_d09.o
+│   │   │   ├── se_d10.o
+│   │   │   ├── se_d11.o
+│   │   │   ├── se_d12.o
+│   │   │   ├── se_d13.o
+│   │   │   ├── se_d14.o
+│   │   │   ├── se_d15.o
+│   │   │   ├── se_d16.o
+│   │   │   ├── se_d17.o
+│   │   │   ├── se_d18.o
+│   │   │   ├── se_d19.o
+│   │   │   ├── se_d20.o
+│   │   │   ├── se_d21.o
+│   │   │   ├── se_d22.o
+│   │   │   ├── Selected_npcmenu.o
+│   │   │   ├── Send.o
+│   │   │   ├── SoundDat.o
+│   │   │   ├── Soundfiles
+│   │   │   └── walk.o
+│   │   ├── system/
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── event.c
+│   │   │   ├── event.h
+│   │   │   ├── event_seq.c
+│   │   │   ├── event_seq.h
+│   │   │   ├── fade.c
+│   │   │   ├── fade.h
+│   │   │   ├── game/
+│   │   │   │   ├── anm.c
+│   │   │   │   ├── anm.h
+│   │   │   │   ├── CVS/
+│   │   │   │   │   ├── Entries
+│   │   │   │   │   ├── Repository
+│   │   │   │   │   ├── Root
+│   │   │   │   │   └── Tag
+│   │   │   │   ├── type.h
+│   │   │   │   ├── vram.c
+│   │   │   │   └── vram.h
+│   │   │   ├── GNUmakefile
+│   │   │   ├── interrupt.c
+│   │   │   ├── interrupt.h
+│   │   │   ├── key.c
+│   │   │   ├── key.h
+│   │   │   ├── mem.c
+│   │   │   ├── mem.h
+│   │   │   ├── resmon.c
+│   │   │   ├── resmon.h
+│   │   │   ├── routine.c
+│   │   │   ├── routine.h
+│   │   │   ├── sm_mem.c
+│   │   │   ├── sm_mem.h
+│   │   │   └── system.h
+│   │   ├── tools/
+│   │   │   ├── agbcomp.exe
+│   │   │   ├── CVS/
+│   │   │   │   ├── Entries
+│   │   │   │   ├── Repository
+│   │   │   │   ├── Root
+│   │   │   │   └── Tag
+│   │   │   ├── res_converter.exe
+│   │   │   ├── res_mes_gen.exe
+│   │   │   ├── res_pack.exe
+│   │   │   └── res_scr_anim.exe
+│   │   └── window/
+│   │       ├── cmn_msg_list.c
+│   │       ├── cmn_msg_list.h
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   ├── Root
+│   │       │   └── Tag
+│   │       ├── edit.c
+│   │       ├── edit.h
+│   │       ├── edit_raster_buf.c
+│   │       ├── edit_raster_buf.h
+│   │       ├── GNUmakefile
+│   │       ├── inputbox.c
+│   │       ├── inputbox.h
+│   │       ├── layout.c
+│   │       ├── layout.h
+│   │       ├── num_edit.c
+│   │       ├── num_edit.h
+│   │       ├── procedure.c
+│   │       ├── procedure.h
+│   │       ├── py.c
+│   │       ├── py.h
+│   │       ├── py_ch.c
+│   │       ├── py_hanzi_unicode.c
+│   │       ├── py_unicode.c
+│   │       ├── scroll_edit.c
+│   │       ├── scroll_edit.h
+│   │       ├── window.c
+│   │       ├── window.h
+│   │       ├── window_factory.c
+│   │       └── window_factory.h
+│   └── lobby/
+│       ├── common.h
+│       ├── config
+│       ├── CVS/
+│       │   ├── Entries
+│       │   ├── Repository
+│       │   ├── Root
+│       │   └── Tag
+│       ├── lobby_server.c
+│       ├── Makefile
+│       ├── manger.c
+│       ├── pccert_bpki.sys
+│       ├── Readme
+│       ├── start_lobby
+│       ├── test.c
+│       └── worker.c
+├── CVS/
+│   ├── Entries
+│   ├── Repository
+│   ├── Root
+│   └── Tag
+└── lib/
+    ├── CVS/
+    │   ├── Entries
+    │   ├── Repository
+    │   ├── Root
+    │   └── Tag
+    └── liblce/
+        ├── cp.sh
+        ├── CVS/
+        │   ├── Entries
+        │   ├── Repository
+        │   ├── Root
+        │   └── Tag
+        ├── DBG/
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   └── SC_SDK/
+        │       ├── CVS/
+        │       │   ├── Entries
+        │       │   ├── Repository
+        │       │   ├── Root
+        │       │   └── Tag
+        │       └── liblce/
+        │           ├── BuildLog.htm
+        │           ├── CVS/
+        │           │   ├── Entries
+        │           │   ├── Repository
+        │           │   ├── Root
+        │           │   └── Tag
+        │           ├── vc70.idb
+        │           └── vc70.pdb
+        ├── include/
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── lce.h
+        │   └── types.h
+        ├── liblce.ncb
+        ├── liblce.sln
+        ├── liblce.suo
+        ├── liblce.vcproj
+        ├── Makefile
+        ├── REL/
+        │   ├── CVS/
+        │   │   ├── Entries
+        │   │   ├── Repository
+        │   │   ├── Root
+        │   │   └── Tag
+        │   ├── GBA/
+        │   │   ├── .lce-gba.d
+        │   │   ├── CVS/
+        │   │   │   ├── Entries
+        │   │   │   ├── Repository
+        │   │   │   ├── Root
+        │   │   │   └── Tag
+        │   │   ├── lce-gba.o
+        │   │   └── liblce.a
+        │   └── SC/
+        │       ├── .lce.d
+        │       ├── .lce_rm.d
+        │       ├── .lce_rm_jt.d
+        │       ├── .lib_rm.d
+        │       ├── .main.d
+        │       ├── CVS/
+        │       │   ├── Entries
+        │       │   ├── Repository
+        │       │   ├── Root
+        │       │   └── Tag
+        │       ├── lce.elf
+        │       ├── lce.o
+        │       ├── lce.sce.elf
+        │       ├── lce_rm.o
+        │       ├── lce_rm_jt.o
+        │       ├── lib_rm.o
+        │       ├── liblce.a
+        │       └── main.o
+        └── src/
+            ├── CVS/
+            │   ├── Entries
+            │   ├── Repository
+            │   ├── Root
+            │   └── Tag
+            ├── GBA/
+            │   ├── CVS/
+            │   │   ├── Entries
+            │   │   ├── Repository
+            │   │   ├── Root
+            │   │   └── Tag
+            │   └── lce-gba.c
+            ├── lce.c
+            ├── lce_rm.h
+            ├── lce_rm_jt.h
+            ├── Makefile
+            ├── SC/
+            │   ├── CVS/
+            │   │   ├── Entries
+            │   │   ├── Repository
+            │   │   ├── Root
+            │   │   └── Tag
+            │   ├── lce_rm.c
+            │   ├── lce_rm_jt.c
+            │   ├── lib_rm.c
+            │   └── main.c
+            ├── test.c
+            └── what_lce.c

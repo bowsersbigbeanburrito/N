@@ -1,0 +1,307 @@
+mios/
+└── v7/
+    ├── autobuild.sh
+    ├── config.v7
+    ├── Firmware/
+    │   ├── merge.sh
+    │   ├── v7/
+    │   │   ├── local_config
+    │   │   ├── makefile
+    │   │   ├── rvl-128/
+    │   │   │   ├── bin/
+    │   │   │   │   ├── mios.128.7.txt
+    │   │   │   │   └── mios.128.7.wad
+    │   │   │   ├── boot1_compat.elf
+    │   │   │   ├── boot1_compat.img
+    │   │   │   ├── boot1_compat_prod.elf
+    │   │   │   ├── boot1_compat_prod.img
+    │   │   │   ├── BS1.img
+    │   │   │   ├── BS2.img
+    │   │   │   ├── di_boot.elf
+    │   │   │   ├── di_boot_prod.elf
+    │   │   │   ├── eemon.elf
+    │   │   │   ├── es.elf
+    │   │   │   ├── fs.elf
+    │   │   │   ├── fs_fast.elf
+    │   │   │   ├── fs_prod.elf
+    │   │   │   ├── fs_prod_fast.elf
+    │   │   │   ├── fsmon.elf
+    │   │   │   ├── ios.elf
+    │   │   │   ├── ios_prod.elf
+    │   │   │   ├── ios_real.elf
+    │   │   │   ├── loader.bin
+    │   │   │   ├── loader_boot2.bin
+    │   │   │   ├── make/
+    │   │   │   │   ├── NGaddrs
+    │   │   │   │   ├── NGaddrs_debug
+    │   │   │   │   └── NGdefs
+    │   │   │   ├── mini_ios.elf
+    │   │   │   ├── minimon0_sram.elf
+    │   │   │   ├── ohci1.elf
+    │   │   │   ├── sdi.elf
+    │   │   │   └── sdmon.elf
+    │   │   └── rvl-64/
+    │   │       ├── bin/
+    │   │       │   ├── mios.64.7.txt
+    │   │       │   └── mios.64.7.wad
+    │   │       ├── boot1_compat.elf
+    │   │       ├── boot1_compat.img
+    │   │       ├── boot1_compat_prod.elf
+    │   │       ├── boot1_compat_prod.img
+    │   │       ├── BS1.img
+    │   │       ├── BS2.img
+    │   │       ├── di_boot.elf
+    │   │       ├── di_boot_prod.elf
+    │   │       ├── eemon.elf
+    │   │       ├── es.elf
+    │   │       ├── fs.elf
+    │   │       ├── fs_fast.elf
+    │   │       ├── fs_prod.elf
+    │   │       ├── fs_prod_fast.elf
+    │   │       ├── fsmon.elf
+    │   │       ├── ios.elf
+    │   │       ├── ios_prod.elf
+    │   │       ├── ios_real.elf
+    │   │       ├── loader.bin
+    │   │       ├── loader_boot2.bin
+    │   │       ├── make/
+    │   │       │   ├── NGaddrs
+    │   │       │   ├── NGaddrs_debug
+    │   │       │   └── NGdefs
+    │   │       ├── mini_ios.elf
+    │   │       ├── minimon0_sram.elf
+    │   │       ├── ohci1.elf
+    │   │       ├── sdi.elf
+    │   │       └── sdmon.elf
+    │   └── x86/
+    │       ├── bin/
+    │       │   ├── arm-elf-merge.exe
+    │       │   ├── bi2.bin
+    │       │   ├── bmerge.exe
+    │       │   ├── cacert.clip.bin
+    │       │   ├── clcert.clip.bin
+    │       │   ├── createOSImage.py
+    │       │   ├── dat/
+    │       │   ├── makedol.exe
+    │       │   ├── makemaster
+    │       │   ├── makervm.dll
+    │       │   ├── makervm.exe
+    │       │   ├── makeRVTR.exe
+    │       │   ├── pki_data/
+    │       │   │   ├── arcade/
+    │       │   │   │   ├── arcgen_ca.cert
+    │       │   │   │   ├── arcgen_xs.cert
+    │       │   │   │   ├── arcgen_xs.pubKey
+    │       │   │   │   ├── arcgen_xs.pvtKey
+    │       │   │   │   ├── arcgen_xs.rsa
+    │       │   │   │   ├── capcom_ca.cert
+    │       │   │   │   ├── capcom_xs.cert
+    │       │   │   │   ├── capcom_xs.pubKey
+    │       │   │   │   ├── capcom_xs.pvtKey
+    │       │   │   │   ├── capcom_xs.rsa
+    │       │   │   │   ├── konami_ca.cert
+    │       │   │   │   ├── konami_xs.cert
+    │       │   │   │   ├── konami_xs.pubKey
+    │       │   │   │   ├── konami_xs.pvtKey
+    │       │   │   │   ├── konami_xs.rsa
+    │       │   │   │   ├── namco_ca.cert
+    │       │   │   │   ├── namco_xs.cert
+    │       │   │   │   ├── namco_xs.pubKey
+    │       │   │   │   ├── namco_xs.pvtKey
+    │       │   │   │   ├── namco_xs.rsa
+    │       │   │   │   ├── sega_ca.cert
+    │       │   │   │   ├── sega_xs.cert
+    │       │   │   │   ├── sega_xs.pubKey
+    │       │   │   │   ├── sega_xs.pvtKey
+    │       │   │   │   ├── sega_xs.rsa
+    │       │   │   │   ├── taito_ca.cert
+    │       │   │   │   ├── taito_xs.cert
+    │       │   │   │   ├── taito_xs.pubKey
+    │       │   │   │   ├── taito_xs.pvtKey
+    │       │   │   │   └── taito_xs.rsa
+    │       │   │   ├── ca_dpki.cert
+    │       │   │   ├── ca_ppki.cert
+    │       │   │   ├── cacp_dpki.cert
+    │       │   │   ├── caxs_dpki.cert
+    │       │   │   ├── cert_dpki.sys
+    │       │   │   ├── cert_ppki.sys
+    │       │   │   ├── common_dpki.aesKey
+    │       │   │   ├── cp_dpki.cert
+    │       │   │   ├── cp_dpki.rsa
+    │       │   │   ├── cp_ppki.cert
+    │       │   │   ├── dev_dpki.eccPvtKey
+    │       │   │   ├── dev_ng_dpki.cert
+    │       │   │   ├── ms_dpki.cert
+    │       │   │   ├── xs_dpki.cert
+    │       │   │   ├── xs_dpki.eccPubKey
+    │       │   │   ├── xs_dpki.eccPvtKey
+    │       │   │   ├── xs_dpki.rsa
+    │       │   │   └── xs_ppki.cert
+    │       │   ├── publishWad.py
+    │       │   ├── rmprint
+    │       │   ├── rvl.9.bin
+    │       │   ├── rvl.bin
+    │       │   ├── rvl_devel_partitionIRD.exe
+    │       │   ├── setcountrycode
+    │       │   ├── setsmem2size
+    │       │   ├── ticket.exe
+    │       │   ├── ticketIRD.exe
+    │       │   ├── tickleBI2.exe
+    │       │   ├── tickleBI3.exe
+    │       │   ├── tmd.exe
+    │       │   └── tmdIRD.exe
+    │       ├── FW_BIN_SDK_3_1-2008-02-15
+    │       └── FW_BIN_SDK_3_1_2008-02-15
+    ├── makefile.v7
+    ├── MIOSMerge.v7/
+    │   └── Firmware/
+    │       ├── merge.sh
+    │       ├── v7/
+    │       │   ├── local_config
+    │       │   ├── makefile
+    │       │   ├── rvl-128/
+    │       │   │   ├── bin/
+    │       │   │   │   ├── mios.128.7.txt
+    │       │   │   │   └── mios.128.7.wad
+    │       │   │   ├── boot1_compat.elf
+    │       │   │   ├── boot1_compat.img
+    │       │   │   ├── boot1_compat_prod.elf
+    │       │   │   ├── boot1_compat_prod.img
+    │       │   │   ├── BS1.img
+    │       │   │   ├── BS2.img
+    │       │   │   ├── di_boot.elf
+    │       │   │   ├── di_boot_prod.elf
+    │       │   │   ├── eemon.elf
+    │       │   │   ├── es.elf
+    │       │   │   ├── fs.elf
+    │       │   │   ├── fs_fast.elf
+    │       │   │   ├── fs_prod.elf
+    │       │   │   ├── fs_prod_fast.elf
+    │       │   │   ├── fsmon.elf
+    │       │   │   ├── ios.elf
+    │       │   │   ├── ios_prod.elf
+    │       │   │   ├── ios_real.elf
+    │       │   │   ├── loader.bin
+    │       │   │   ├── loader_boot2.bin
+    │       │   │   ├── make/
+    │       │   │   │   ├── NGaddrs
+    │       │   │   │   ├── NGaddrs_debug
+    │       │   │   │   └── NGdefs
+    │       │   │   ├── mini_ios.elf
+    │       │   │   ├── minimon0_sram.elf
+    │       │   │   ├── ohci1.elf
+    │       │   │   ├── sdi.elf
+    │       │   │   └── sdmon.elf
+    │       │   └── rvl-64/
+    │       │       ├── bin/
+    │       │       │   ├── mios.64.7.txt
+    │       │       │   └── mios.64.7.wad
+    │       │       ├── boot1_compat.elf
+    │       │       ├── boot1_compat.img
+    │       │       ├── boot1_compat_prod.elf
+    │       │       ├── boot1_compat_prod.img
+    │       │       ├── BS1.img
+    │       │       ├── BS2.img
+    │       │       ├── di_boot.elf
+    │       │       ├── di_boot_prod.elf
+    │       │       ├── eemon.elf
+    │       │       ├── es.elf
+    │       │       ├── fs.elf
+    │       │       ├── fs_fast.elf
+    │       │       ├── fs_prod.elf
+    │       │       ├── fs_prod_fast.elf
+    │       │       ├── fsmon.elf
+    │       │       ├── ios.elf
+    │       │       ├── ios_prod.elf
+    │       │       ├── ios_real.elf
+    │       │       ├── loader.bin
+    │       │       ├── loader_boot2.bin
+    │       │       ├── make/
+    │       │       │   ├── NGaddrs
+    │       │       │   ├── NGaddrs_debug
+    │       │       │   └── NGdefs
+    │       │       ├── mini_ios.elf
+    │       │       ├── minimon0_sram.elf
+    │       │       ├── ohci1.elf
+    │       │       ├── sdi.elf
+    │       │       └── sdmon.elf
+    │       └── x86/
+    │           ├── bin/
+    │           │   ├── arm-elf-merge.exe
+    │           │   ├── bi2.bin
+    │           │   ├── bmerge.exe
+    │           │   ├── cacert.clip.bin
+    │           │   ├── clcert.clip.bin
+    │           │   ├── createOSImage.py
+    │           │   ├── dat/
+    │           │   ├── makedol.exe
+    │           │   ├── makemaster
+    │           │   ├── makervm.dll
+    │           │   ├── makervm.exe
+    │           │   ├── makeRVTR.exe
+    │           │   ├── pki_data/
+    │           │   │   ├── arcade/
+    │           │   │   │   ├── arcgen_ca.cert
+    │           │   │   │   ├── arcgen_xs.cert
+    │           │   │   │   ├── arcgen_xs.pubKey
+    │           │   │   │   ├── arcgen_xs.pvtKey
+    │           │   │   │   ├── arcgen_xs.rsa
+    │           │   │   │   ├── capcom_ca.cert
+    │           │   │   │   ├── capcom_xs.cert
+    │           │   │   │   ├── capcom_xs.pubKey
+    │           │   │   │   ├── capcom_xs.pvtKey
+    │           │   │   │   ├── capcom_xs.rsa
+    │           │   │   │   ├── konami_ca.cert
+    │           │   │   │   ├── konami_xs.cert
+    │           │   │   │   ├── konami_xs.pubKey
+    │           │   │   │   ├── konami_xs.pvtKey
+    │           │   │   │   ├── konami_xs.rsa
+    │           │   │   │   ├── namco_ca.cert
+    │           │   │   │   ├── namco_xs.cert
+    │           │   │   │   ├── namco_xs.pubKey
+    │           │   │   │   ├── namco_xs.pvtKey
+    │           │   │   │   ├── namco_xs.rsa
+    │           │   │   │   ├── sega_ca.cert
+    │           │   │   │   ├── sega_xs.cert
+    │           │   │   │   ├── sega_xs.pubKey
+    │           │   │   │   ├── sega_xs.pvtKey
+    │           │   │   │   ├── sega_xs.rsa
+    │           │   │   │   ├── taito_ca.cert
+    │           │   │   │   ├── taito_xs.cert
+    │           │   │   │   ├── taito_xs.pubKey
+    │           │   │   │   ├── taito_xs.pvtKey
+    │           │   │   │   └── taito_xs.rsa
+    │           │   │   ├── ca_dpki.cert
+    │           │   │   ├── ca_ppki.cert
+    │           │   │   ├── cacp_dpki.cert
+    │           │   │   ├── caxs_dpki.cert
+    │           │   │   ├── cert_dpki.sys
+    │           │   │   ├── cert_ppki.sys
+    │           │   │   ├── common_dpki.aesKey
+    │           │   │   ├── cp_dpki.cert
+    │           │   │   ├── cp_dpki.rsa
+    │           │   │   ├── cp_ppki.cert
+    │           │   │   ├── dev_dpki.eccPvtKey
+    │           │   │   ├── dev_ng_dpki.cert
+    │           │   │   ├── ms_dpki.cert
+    │           │   │   ├── xs_dpki.cert
+    │           │   │   ├── xs_dpki.eccPubKey
+    │           │   │   ├── xs_dpki.eccPvtKey
+    │           │   │   ├── xs_dpki.rsa
+    │           │   │   └── xs_ppki.cert
+    │           │   ├── publishWad.py
+    │           │   ├── rmprint
+    │           │   ├── rvl.9.bin
+    │           │   ├── rvl.bin
+    │           │   ├── rvl_devel_partitionIRD.exe
+    │           │   ├── setcountrycode
+    │           │   ├── setsmem2size
+    │           │   ├── ticket.exe
+    │           │   ├── ticketIRD.exe
+    │           │   ├── tickleBI2.exe
+    │           │   ├── tickleBI3.exe
+    │           │   ├── tmd.exe
+    │           │   └── tmdIRD.exe
+    │           ├── FW_BIN_SDK_3_1-2008-02-15
+    │           └── FW_BIN_SDK_3_1_2008-02-15
+    └── README

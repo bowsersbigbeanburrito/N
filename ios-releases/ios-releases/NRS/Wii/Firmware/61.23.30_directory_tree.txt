@@ -1,0 +1,1682 @@
+61.23.30/
+├── .svn/
+│   ├── entries
+│   ├── prop-base/
+│   ├── props/
+│   │   ├── FirmwareFinal.61.23.30.zip.svn-work
+│   │   └── FirmwareMerge.61.23.30.zip.svn-work
+│   ├── text-base/
+│   └── tmp/
+│       ├── prop-base/
+│       ├── props/
+│       └── text-base/
+├── autobuild.sh
+├── Bugs.txt
+├── config.61.23.30
+├── Features.txt
+├── Firmware/
+│   ├── 61.x.x/
+│   │   ├── 1dir/
+│   │   │   ├── firmware.128.61.23.30.wad
+│   │   │   └── firmware.64.61.23.30.wad
+│   │   ├── depend/
+│   │   │   ├── di_boot_ios_release_090603074113/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── di_boot.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── di_boot.elf
+│   │   │   ├── di_boot_prod_ios_release_090603074113/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── di_boot_prod.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── di_boot_prod.elf
+│   │   │   ├── es_ios_release_100303103610/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── es.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── es.elf
+│   │   │   ├── fs_fast_ios_release_081124153248/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── fs_fast.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── fs_fast.elf
+│   │   │   ├── fs_ios_release_081124153248/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── fs.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── fs.elf
+│   │   │   ├── fs_prod_fast_ios_release_081124153248/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── fs_prod_fast.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── fs_prod_fast.elf
+│   │   │   ├── fs_prod_ios_release_081124153248/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── fs_prod.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── fs_prod.elf
+│   │   │   ├── FW_Makefile_2008-07-18/
+│   │   │   │   └── makefile
+│   │   │   ├── ios_prod_ios_release_100303103610_branch_110927184227/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── ios_prod.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── ios_prod.elf
+│   │   │   ├── ios_real_ios_release_100303103610_branch_110927184227/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── ios_real.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── ios_real.elf
+│   │   │   ├── IOS_SDK_128_ios_release_080711142850/
+│   │   │   │   ├── install.sh
+│   │   │   │   └── usr/
+│   │   │   │       ├── include/
+│   │   │   │       │   ├── iosc.h
+│   │   │   │       │   ├── iosctypes.h
+│   │   │   │       │   ├── ioslibc.h
+│   │   │   │       │   ├── make/
+│   │   │   │       │   │   ├── commondefs
+│   │   │   │       │   │   ├── commonrules
+│   │   │   │       │   │   ├── dummyrules
+│   │   │   │       │   │   ├── NGaddrs
+│   │   │   │       │   │   ├── NGaddrs_8M
+│   │   │   │       │   │   ├── NGaddrs_debug
+│   │   │   │       │   │   ├── NGaddrs_debug_8M
+│   │   │   │       │   │   ├── NGdefs
+│   │   │   │       │   │   └── X86defs
+│   │   │   │       │   └── rvl/
+│   │   │   │       │       ├── addr_map.h
+│   │   │   │       │       ├── ahb_fdl_defs.h
+│   │   │   │       │       ├── apputils.h
+│   │   │   │       │       ├── arm.h
+│   │   │   │       │       ├── asm.h
+│   │   │   │       │       ├── hw.h
+│   │   │   │       │       ├── io_reg.h
+│   │   │   │       │       ├── iop.h
+│   │   │   │       │       ├── iop_ethtool.h
+│   │   │   │       │       ├── iop_icmp.h
+│   │   │   │       │       ├── iop_ip.h
+│   │   │   │       │       ├── iop_ip6.h
+│   │   │   │       │       ├── iop_ipdns.h
+│   │   │   │       │       ├── iop_netif.h
+│   │   │   │       │       ├── iop_os.h
+│   │   │   │       │       ├── iop_resolver.h
+│   │   │   │       │       ├── iop_sock.h
+│   │   │   │       │       ├── iop_types.h
+│   │   │   │       │       ├── ios.h
+│   │   │   │       │       ├── iosiobuf.h
+│   │   │   │       │       ├── iosresource.h
+│   │   │   │       │       ├── iostypes.h
+│   │   │   │       │       ├── iosusb.h
+│   │   │   │       │       ├── iosusbtypes.h
+│   │   │   │       │       ├── lomem.h
+│   │   │   │       │       ├── mem_reg.h
+│   │   │   │       │       ├── memmap.h
+│   │   │   │       │       ├── mmu.h
+│   │   │   │       │       ├── priority.h
+│   │   │   │       │       ├── rpc.h
+│   │   │   │       │       ├── sd_api.h
+│   │   │   │       │       ├── sdio_api.h
+│   │   │   │       │       ├── semihost.h
+│   │   │   │       │       ├── socket.h
+│   │   │   │       │       ├── swi.h
+│   │   │   │       │       ├── sys.h
+│   │   │   │       │       ├── syscalls
+│   │   │   │       │       ├── trace.h
+│   │   │   │       │       └── types.h
+│   │   │   │       └── lib/
+│   │   │   │           └── rvl/
+│   │   │   │               ├── crt0.o
+│   │   │   │               ├── crt0_noOS.o
+│   │   │   │               ├── ddr.link
+│   │   │   │               ├── libapputils.a
+│   │   │   │               ├── libios.a
+│   │   │   │               ├── libiosc.a
+│   │   │   │               ├── libioslibc.a
+│   │   │   │               ├── libiossh.a
+│   │   │   │               ├── libiossyscall.a
+│   │   │   │               ├── libsdi.a
+│   │   │   │               ├── libsock.a
+│   │   │   │               ├── libsys.a
+│   │   │   │               ├── libusb.a
+│   │   │   │               ├── sdram.link
+│   │   │   │               └── stdalone.link
+│   │   │   ├── IOS_SDK_64_ios_release_080711142850/
+│   │   │   │   ├── install.sh
+│   │   │   │   └── usr/
+│   │   │   │       ├── include/
+│   │   │   │       │   ├── iosc.h
+│   │   │   │       │   ├── iosctypes.h
+│   │   │   │       │   ├── ioslibc.h
+│   │   │   │       │   ├── make/
+│   │   │   │       │   │   ├── commondefs
+│   │   │   │       │   │   ├── commonrules
+│   │   │   │       │   │   ├── dummyrules
+│   │   │   │       │   │   ├── NGaddrs
+│   │   │   │       │   │   ├── NGaddrs_8M
+│   │   │   │       │   │   ├── NGaddrs_debug
+│   │   │   │       │   │   ├── NGaddrs_debug_8M
+│   │   │   │       │   │   ├── NGdefs
+│   │   │   │       │   │   └── X86defs
+│   │   │   │       │   └── rvl/
+│   │   │   │       │       ├── addr_map.h
+│   │   │   │       │       ├── ahb_fdl_defs.h
+│   │   │   │       │       ├── apputils.h
+│   │   │   │       │       ├── arm.h
+│   │   │   │       │       ├── asm.h
+│   │   │   │       │       ├── hw.h
+│   │   │   │       │       ├── io_reg.h
+│   │   │   │       │       ├── iop.h
+│   │   │   │       │       ├── iop_ethtool.h
+│   │   │   │       │       ├── iop_icmp.h
+│   │   │   │       │       ├── iop_ip.h
+│   │   │   │       │       ├── iop_ip6.h
+│   │   │   │       │       ├── iop_ipdns.h
+│   │   │   │       │       ├── iop_netif.h
+│   │   │   │       │       ├── iop_os.h
+│   │   │   │       │       ├── iop_resolver.h
+│   │   │   │       │       ├── iop_sock.h
+│   │   │   │       │       ├── iop_types.h
+│   │   │   │       │       ├── ios.h
+│   │   │   │       │       ├── iosiobuf.h
+│   │   │   │       │       ├── iosresource.h
+│   │   │   │       │       ├── iostypes.h
+│   │   │   │       │       ├── iosusb.h
+│   │   │   │       │       ├── iosusbtypes.h
+│   │   │   │       │       ├── lomem.h
+│   │   │   │       │       ├── mem_reg.h
+│   │   │   │       │       ├── memmap.h
+│   │   │   │       │       ├── mmu.h
+│   │   │   │       │       ├── priority.h
+│   │   │   │       │       ├── rpc.h
+│   │   │   │       │       ├── sd_api.h
+│   │   │   │       │       ├── sdio_api.h
+│   │   │   │       │       ├── semihost.h
+│   │   │   │       │       ├── socket.h
+│   │   │   │       │       ├── swi.h
+│   │   │   │       │       ├── sys.h
+│   │   │   │       │       ├── syscalls
+│   │   │   │       │       ├── trace.h
+│   │   │   │       │       └── types.h
+│   │   │   │       └── lib/
+│   │   │   │           └── rvl/
+│   │   │   │               ├── crt0.o
+│   │   │   │               ├── crt0_noOS.o
+│   │   │   │               ├── ddr.link
+│   │   │   │               ├── libapputils.a
+│   │   │   │               ├── libios.a
+│   │   │   │               ├── libiosc.a
+│   │   │   │               ├── libioslibc.a
+│   │   │   │               ├── libiossh.a
+│   │   │   │               ├── libiossyscall.a
+│   │   │   │               ├── libsdi.a
+│   │   │   │               ├── libsock.a
+│   │   │   │               ├── libsys.a
+│   │   │   │               ├── libusb.a
+│   │   │   │               ├── sdram.link
+│   │   │   │               └── stdalone.link
+│   │   │   ├── kd_2008-12-15-15-38/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── kd.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── kd.elf
+│   │   │   ├── loader_ios_release_080711142850/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── loader.bin
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── loader.bin
+│   │   │   ├── ncd_2007-06-28/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── ncd.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── ncd.elf
+│   │   │   ├── ohci0_2008-08-13/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── ohci0.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── ohci0.elf
+│   │   │   ├── ohci1_ios_release_080711142850/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── ohci1.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── ohci1.elf
+│   │   │   ├── sdi_ios_release_100303103610/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── sdi.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── sdi.elf
+│   │   │   ├── so_2009-01-09-15-50/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── so.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── so.elf
+│   │   │   ├── ssl_2008-02-27/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── ssl.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── ssl.elf
+│   │   │   ├── stm_2009-07-27-10-17/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── stm.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── stm.elf
+│   │   │   ├── usb_hid_2008-01-30-15-59/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── usb_hid.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── usb_hid.elf
+│   │   │   ├── usbeth_2007-08-09/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── usbeth.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── usbeth.elf
+│   │   │   ├── usr/
+│   │   │   │   └── include/
+│   │   │   │       └── make/
+│   │   │   ├── wd_4.30.47.2_2008-08-04/
+│   │   │   │   ├── rvl-128/
+│   │   │   │   │   └── wd.elf
+│   │   │   │   └── rvl-64/
+│   │   │   │       └── wd.elf
+│   │   │   └── wldrvr_4.30.47.3_2010-07-26/
+│   │   │       ├── rvl-128/
+│   │   │       │   └── wldrvr.elf
+│   │   │       └── rvl-64/
+│   │   │           └── wldrvr.elf
+│   │   ├── local_config
+│   │   ├── makefile
+│   │   ├── rvl-128/
+│   │   │   ├── bin/
+│   │   │   │   ├── firmware.128.61.23.30.nossl.elf
+│   │   │   │   ├── firmware.128.61.23.30.nossl.txt
+│   │   │   │   ├── firmware.128.61.23.30.nossl.wad
+│   │   │   │   ├── firmware.128.61.23.30.txt
+│   │   │   │   └── firmware.128.61.23.30.wad
+│   │   │   ├── di_boot.elf
+│   │   │   ├── di_boot_prod.elf
+│   │   │   ├── es.elf
+│   │   │   ├── fs.elf
+│   │   │   ├── fs_fast.elf
+│   │   │   ├── fs_prod.elf
+│   │   │   ├── fs_prod_fast.elf
+│   │   │   ├── ios_prod.elf
+│   │   │   ├── ios_real.elf
+│   │   │   ├── kd.elf
+│   │   │   ├── loader.bin
+│   │   │   ├── make/
+│   │   │   │   ├── NGaddrs
+│   │   │   │   ├── NGaddrs_debug
+│   │   │   │   └── NGdefs
+│   │   │   ├── ncd.elf
+│   │   │   ├── ohci0.elf
+│   │   │   ├── ohci1.elf
+│   │   │   ├── sdi.elf
+│   │   │   ├── so.elf
+│   │   │   ├── ssl.elf
+│   │   │   ├── stm.elf
+│   │   │   ├── usb_hid.elf
+│   │   │   ├── usbeth.elf
+│   │   │   ├── wd.elf
+│   │   │   └── wldrvr.elf
+│   │   ├── rvl-64/
+│   │   │   ├── bin/
+│   │   │   │   ├── firmware.64.61.23.30.nossl.txt
+│   │   │   │   ├── firmware.64.61.23.30.nossl.wad
+│   │   │   │   ├── firmware.64.61.23.30.txt
+│   │   │   │   ├── firmware.64.61.23.30.wad
+│   │   │   │   ├── firmware.RVL.61.23.30.nossl.txt
+│   │   │   │   ├── firmware.RVL.61.23.30.nossl.wad
+│   │   │   │   ├── firmware.RVL.61.23.30.txt
+│   │   │   │   └── firmware.RVL.61.23.30.wad
+│   │   │   ├── di_boot.elf
+│   │   │   ├── di_boot_prod.elf
+│   │   │   ├── es.elf
+│   │   │   ├── fs.elf
+│   │   │   ├── fs_fast.elf
+│   │   │   ├── fs_prod.elf
+│   │   │   ├── fs_prod_fast.elf
+│   │   │   ├── ios_prod.elf
+│   │   │   ├── ios_real.elf
+│   │   │   ├── kd.elf
+│   │   │   ├── loader.bin
+│   │   │   ├── make/
+│   │   │   │   ├── NGaddrs
+│   │   │   │   ├── NGaddrs_debug
+│   │   │   │   └── NGdefs
+│   │   │   ├── ncd.elf
+│   │   │   ├── ohci0.elf
+│   │   │   ├── ohci1.elf
+│   │   │   ├── sdi.elf
+│   │   │   ├── so.elf
+│   │   │   ├── ssl.elf
+│   │   │   ├── stm.elf
+│   │   │   ├── usb_hid.elf
+│   │   │   ├── usbeth.elf
+│   │   │   ├── wd.elf
+│   │   │   └── wldrvr.elf
+│   │   └── X86/
+│   │       └── bin/
+│   │           └── dat/
+│   │               └── 000000010000003d.bin
+│   ├── merge.sh
+│   └── work/
+│       └── SDK/
+│           ├── CVS/
+│           │   ├── Entries
+│           │   ├── Entries.Static
+│           │   ├── Repository
+│           │   └── Root
+│           ├── RVL/
+│           │   ├── bin/
+│           │   │   ├── CVS/
+│           │   │   │   ├── Entries
+│           │   │   │   ├── Entries.Static
+│           │   │   │   ├── Repository
+│           │   │   │   └── Root
+│           │   │   └── tools/
+│           │   │       ├── CVS/
+│           │   │       │   ├── Entries
+│           │   │       │   ├── Entries.Static
+│           │   │       │   ├── Repository
+│           │   │       │   └── Root
+│           │   │       └── showlist.elf
+│           │   ├── boot/
+│           │   │   ├── apploader.img
+│           │   │   └── CVS/
+│           │   │       ├── Entries
+│           │   │       ├── Entries.Static
+│           │   │       ├── Repository
+│           │   │       └── Root
+│           │   └── CVS/
+│           │       ├── Entries
+│           │       ├── Entries.Log
+│           │       ├── Entries.Static
+│           │       ├── Repository
+│           │       └── Root
+│           ├── securebuild/
+│           │   ├── CVS/
+│           │   │   ├── Entries
+│           │   │   ├── Entries.Static
+│           │   │   ├── Repository
+│           │   │   ├── Root
+│           │   │   └── Tag
+│           │   └── tools/
+│           │       ├── CVS/
+│           │       │   ├── Entries
+│           │       │   ├── Entries.Static
+│           │       │   ├── Repository
+│           │       │   ├── Root
+│           │       │   └── Tag
+│           │       ├── makeinf/
+│           │       │   ├── CVS/
+│           │       │   │   ├── Entries
+│           │       │   │   ├── Repository
+│           │       │   │   ├── Root
+│           │       │   │   └── Tag
+│           │       │   ├── Makefile
+│           │       │   ├── makeinf.c
+│           │       │   ├── makeinf.exe
+│           │       │   ├── makeinf.o
+│           │       │   ├── README.txt
+│           │       │   └── sample.script
+│           │       └── makeupdatepartition/
+│           │           ├── 000000010000003d.bin
+│           │           ├── _make_upp.sh
+│           │           ├── createinf.py
+│           │           ├── CVS/
+│           │           │   ├── Entries
+│           │           │   ├── Entries.Log
+│           │           │   ├── Repository
+│           │           │   ├── Root
+│           │           │   └── Tag
+│           │           ├── data/
+│           │           │   ├── CVS/
+│           │           │   │   ├── Entries
+│           │           │   │   ├── Repository
+│           │           │   │   ├── Root
+│           │           │   │   └── Tag
+│           │           │   ├── dummy_update.part
+│           │           │   ├── game.dummy.61
+│           │           │   ├── game.dummy.8
+│           │           │   ├── game.dummy.9
+│           │           │   ├── rvl.bin.header
+│           │           │   ├── rvl.bin.header.RVTR
+│           │           │   ├── update.ddf
+│           │           │   ├── update.dlf
+│           │           │   ├── update.dsf
+│           │           │   ├── update.dummy.tik
+│           │           │   ├── update.elf
+│           │           │   └── update.rcf
+│           │           ├── dvdroot/
+│           │           │   ├── __update.inf
+│           │           │   └── _sys/
+│           │           │       ├── firmware.128.61.23.30.wad
+│           │           │       └── firmware.64.61.23.30.wad
+│           │           ├── erase.pl
+│           │           ├── inf.script
+│           │           ├── makefile
+│           │           ├── padder.sh
+│           │           ├── readme.en.txt
+│           │           ├── readme.txt
+│           │           ├── rvl.61.bin
+│           │           ├── tickle.py
+│           │           └── update.part
+│           └── X86/
+│               ├── bin/
+│               │   ├── arm-elf-merge.exe
+│               │   ├── bi2.bin
+│               │   ├── bmerge.exe
+│               │   ├── cacert.clip.bin
+│               │   ├── clcert.clip.bin
+│               │   ├── createOSImage.py
+│               │   ├── CVS/
+│               │   │   ├── Entries
+│               │   │   ├── Entries.Static
+│               │   │   ├── Repository
+│               │   │   └── Root
+│               │   ├── make_ndev_partition.exe
+│               │   ├── makedol.exe
+│               │   ├── makervm.dll
+│               │   ├── makervm.exe
+│               │   ├── padder.exe
+│               │   ├── pki_data/
+│               │   │   ├── arcade/
+│               │   │   │   ├── arcgen_ca.cert
+│               │   │   │   ├── arcgen_ca.rsa
+│               │   │   │   ├── arcgen_cp.cert
+│               │   │   │   ├── arcgen_cp.rsa
+│               │   │   │   ├── arcgen_xs.cert
+│               │   │   │   ├── arcgen_xs.pubKey
+│               │   │   │   ├── arcgen_xs.pvtKey
+│               │   │   │   ├── arcgen_xs.rsa
+│               │   │   │   ├── capcom_ca.cert
+│               │   │   │   ├── capcom_ca.rsa
+│               │   │   │   ├── capcom_cp.cert
+│               │   │   │   ├── capcom_cp.rsa
+│               │   │   │   ├── capcom_xs.cert
+│               │   │   │   ├── capcom_xs.pubKey
+│               │   │   │   ├── capcom_xs.pvtKey
+│               │   │   │   ├── capcom_xs.rsa
+│               │   │   │   ├── CVS/
+│               │   │   │   │   ├── Entries
+│               │   │   │   │   ├── Repository
+│               │   │   │   │   ├── Root
+│               │   │   │   │   └── Tag
+│               │   │   │   ├── konami_ca.cert
+│               │   │   │   ├── konami_ca.rsa
+│               │   │   │   ├── konami_cp.cert
+│               │   │   │   ├── konami_cp.rsa
+│               │   │   │   ├── konami_xs.cert
+│               │   │   │   ├── konami_xs.pubKey
+│               │   │   │   ├── konami_xs.pvtKey
+│               │   │   │   ├── konami_xs.rsa
+│               │   │   │   ├── namco_ca.cert
+│               │   │   │   ├── namco_ca.rsa
+│               │   │   │   ├── namco_cp.cert
+│               │   │   │   ├── namco_cp.rsa
+│               │   │   │   ├── namco_xs.cert
+│               │   │   │   ├── namco_xs.pubKey
+│               │   │   │   ├── namco_xs.pvtKey
+│               │   │   │   ├── namco_xs.rsa
+│               │   │   │   ├── sega_ca.cert
+│               │   │   │   ├── sega_ca.rsa
+│               │   │   │   ├── sega_cp.cert
+│               │   │   │   ├── sega_cp.rsa
+│               │   │   │   ├── sega_xs.cert
+│               │   │   │   ├── sega_xs.pubKey
+│               │   │   │   ├── sega_xs.pvtKey
+│               │   │   │   ├── sega_xs.rsa
+│               │   │   │   ├── taito_ca.cert
+│               │   │   │   ├── taito_ca.rsa
+│               │   │   │   ├── taito_cp.cert
+│               │   │   │   ├── taito_cp.rsa
+│               │   │   │   ├── taito_xs.cert
+│               │   │   │   ├── taito_xs.pubKey
+│               │   │   │   ├── taito_xs.pvtKey
+│               │   │   │   └── taito_xs.rsa
+│               │   │   ├── ca_dpki.cert
+│               │   │   ├── ca_ppki.cert
+│               │   │   ├── cacp_dpki.cert
+│               │   │   ├── caxs_dpki.cert
+│               │   │   ├── cert_dpki.sys
+│               │   │   ├── cert_ppki.sys
+│               │   │   ├── common_dpki.aesKey
+│               │   │   ├── cp_dpki.cert
+│               │   │   ├── cp_dpki.rsa
+│               │   │   ├── cp_ppki.cert
+│               │   │   ├── CVS/
+│               │   │   │   ├── Entries
+│               │   │   │   ├── Entries.Log
+│               │   │   │   ├── Repository
+│               │   │   │   ├── Root
+│               │   │   │   └── Tag
+│               │   │   ├── dev_dpki.eccPvtKey
+│               │   │   ├── dev_ng_dpki.cert
+│               │   │   ├── ms_dpki.cert
+│               │   │   ├── xs_dpki.cert
+│               │   │   ├── xs_dpki.eccPubKey
+│               │   │   ├── xs_dpki.eccPvtKey
+│               │   │   ├── xs_dpki.rsa
+│               │   │   └── xs_ppki.cert
+│               │   ├── publishWad.py
+│               │   ├── rmprint
+│               │   ├── rvl.bin
+│               │   ├── rvl_devel_partition.exe
+│               │   ├── rvl_devel_partitionIRD.exe
+│               │   ├── setsmem2size
+│               │   ├── ticket.exe
+│               │   ├── ticketIRD.exe
+│               │   ├── tickleBI2.exe
+│               │   ├── tickleBI3.exe
+│               │   ├── tmd.exe
+│               │   └── tmdIRD.exe
+│               └── CVS/
+│                   ├── Entries
+│                   ├── Entries.Log
+│                   ├── Entries.Static
+│                   ├── Repository
+│                   └── Root
+├── FirmwareFinal.61.23.30/
+│   └── Firmware/
+│       ├── 61.x.x/
+│       │   ├── 1dir/
+│       │   │   ├── firmware.128.61.23.30.wad
+│       │   │   └── firmware.64.61.23.30.wad
+│       │   ├── depend/
+│       │   │   ├── di_boot_ios_release_090603074113/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── di_boot.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── di_boot.elf
+│       │   │   ├── di_boot_prod_ios_release_090603074113/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── di_boot_prod.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── di_boot_prod.elf
+│       │   │   ├── es_ios_release_100303103610/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── es.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── es.elf
+│       │   │   ├── fs_fast_ios_release_081124153248/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── fs_fast.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── fs_fast.elf
+│       │   │   ├── fs_ios_release_081124153248/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── fs.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── fs.elf
+│       │   │   ├── fs_prod_fast_ios_release_081124153248/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── fs_prod_fast.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── fs_prod_fast.elf
+│       │   │   ├── fs_prod_ios_release_081124153248/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── fs_prod.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── fs_prod.elf
+│       │   │   ├── FW_Makefile_2008-07-18/
+│       │   │   │   └── makefile
+│       │   │   ├── ios_prod_ios_release_100303103610_branch_110927184227/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ios_prod.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ios_prod.elf
+│       │   │   ├── ios_real_ios_release_100303103610_branch_110927184227/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ios_real.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ios_real.elf
+│       │   │   ├── IOS_SDK_128_ios_release_080711142850/
+│       │   │   │   ├── install.sh
+│       │   │   │   └── usr/
+│       │   │   │       ├── include/
+│       │   │   │       │   ├── iosc.h
+│       │   │   │       │   ├── iosctypes.h
+│       │   │   │       │   ├── ioslibc.h
+│       │   │   │       │   ├── make/
+│       │   │   │       │   │   ├── commondefs
+│       │   │   │       │   │   ├── commonrules
+│       │   │   │       │   │   ├── dummyrules
+│       │   │   │       │   │   ├── NGaddrs
+│       │   │   │       │   │   ├── NGaddrs_8M
+│       │   │   │       │   │   ├── NGaddrs_debug
+│       │   │   │       │   │   ├── NGaddrs_debug_8M
+│       │   │   │       │   │   ├── NGdefs
+│       │   │   │       │   │   └── X86defs
+│       │   │   │       │   └── rvl/
+│       │   │   │       │       ├── addr_map.h
+│       │   │   │       │       ├── ahb_fdl_defs.h
+│       │   │   │       │       ├── apputils.h
+│       │   │   │       │       ├── arm.h
+│       │   │   │       │       ├── asm.h
+│       │   │   │       │       ├── hw.h
+│       │   │   │       │       ├── io_reg.h
+│       │   │   │       │       ├── iop.h
+│       │   │   │       │       ├── iop_ethtool.h
+│       │   │   │       │       ├── iop_icmp.h
+│       │   │   │       │       ├── iop_ip.h
+│       │   │   │       │       ├── iop_ip6.h
+│       │   │   │       │       ├── iop_ipdns.h
+│       │   │   │       │       ├── iop_netif.h
+│       │   │   │       │       ├── iop_os.h
+│       │   │   │       │       ├── iop_resolver.h
+│       │   │   │       │       ├── iop_sock.h
+│       │   │   │       │       ├── iop_types.h
+│       │   │   │       │       ├── ios.h
+│       │   │   │       │       ├── iosiobuf.h
+│       │   │   │       │       ├── iosresource.h
+│       │   │   │       │       ├── iostypes.h
+│       │   │   │       │       ├── iosusb.h
+│       │   │   │       │       ├── iosusbtypes.h
+│       │   │   │       │       ├── lomem.h
+│       │   │   │       │       ├── mem_reg.h
+│       │   │   │       │       ├── memmap.h
+│       │   │   │       │       ├── mmu.h
+│       │   │   │       │       ├── priority.h
+│       │   │   │       │       ├── rpc.h
+│       │   │   │       │       ├── sd_api.h
+│       │   │   │       │       ├── sdio_api.h
+│       │   │   │       │       ├── semihost.h
+│       │   │   │       │       ├── socket.h
+│       │   │   │       │       ├── swi.h
+│       │   │   │       │       ├── sys.h
+│       │   │   │       │       ├── syscalls
+│       │   │   │       │       ├── trace.h
+│       │   │   │       │       └── types.h
+│       │   │   │       └── lib/
+│       │   │   │           └── rvl/
+│       │   │   │               ├── crt0.o
+│       │   │   │               ├── crt0_noOS.o
+│       │   │   │               ├── ddr.link
+│       │   │   │               ├── libapputils.a
+│       │   │   │               ├── libios.a
+│       │   │   │               ├── libiosc.a
+│       │   │   │               ├── libioslibc.a
+│       │   │   │               ├── libiossh.a
+│       │   │   │               ├── libiossyscall.a
+│       │   │   │               ├── libsdi.a
+│       │   │   │               ├── libsock.a
+│       │   │   │               ├── libsys.a
+│       │   │   │               ├── libusb.a
+│       │   │   │               ├── sdram.link
+│       │   │   │               └── stdalone.link
+│       │   │   ├── IOS_SDK_64_ios_release_080711142850/
+│       │   │   │   ├── install.sh
+│       │   │   │   └── usr/
+│       │   │   │       ├── include/
+│       │   │   │       │   ├── iosc.h
+│       │   │   │       │   ├── iosctypes.h
+│       │   │   │       │   ├── ioslibc.h
+│       │   │   │       │   ├── make/
+│       │   │   │       │   │   ├── commondefs
+│       │   │   │       │   │   ├── commonrules
+│       │   │   │       │   │   ├── dummyrules
+│       │   │   │       │   │   ├── NGaddrs
+│       │   │   │       │   │   ├── NGaddrs_8M
+│       │   │   │       │   │   ├── NGaddrs_debug
+│       │   │   │       │   │   ├── NGaddrs_debug_8M
+│       │   │   │       │   │   ├── NGdefs
+│       │   │   │       │   │   └── X86defs
+│       │   │   │       │   └── rvl/
+│       │   │   │       │       ├── addr_map.h
+│       │   │   │       │       ├── ahb_fdl_defs.h
+│       │   │   │       │       ├── apputils.h
+│       │   │   │       │       ├── arm.h
+│       │   │   │       │       ├── asm.h
+│       │   │   │       │       ├── hw.h
+│       │   │   │       │       ├── io_reg.h
+│       │   │   │       │       ├── iop.h
+│       │   │   │       │       ├── iop_ethtool.h
+│       │   │   │       │       ├── iop_icmp.h
+│       │   │   │       │       ├── iop_ip.h
+│       │   │   │       │       ├── iop_ip6.h
+│       │   │   │       │       ├── iop_ipdns.h
+│       │   │   │       │       ├── iop_netif.h
+│       │   │   │       │       ├── iop_os.h
+│       │   │   │       │       ├── iop_resolver.h
+│       │   │   │       │       ├── iop_sock.h
+│       │   │   │       │       ├── iop_types.h
+│       │   │   │       │       ├── ios.h
+│       │   │   │       │       ├── iosiobuf.h
+│       │   │   │       │       ├── iosresource.h
+│       │   │   │       │       ├── iostypes.h
+│       │   │   │       │       ├── iosusb.h
+│       │   │   │       │       ├── iosusbtypes.h
+│       │   │   │       │       ├── lomem.h
+│       │   │   │       │       ├── mem_reg.h
+│       │   │   │       │       ├── memmap.h
+│       │   │   │       │       ├── mmu.h
+│       │   │   │       │       ├── priority.h
+│       │   │   │       │       ├── rpc.h
+│       │   │   │       │       ├── sd_api.h
+│       │   │   │       │       ├── sdio_api.h
+│       │   │   │       │       ├── semihost.h
+│       │   │   │       │       ├── socket.h
+│       │   │   │       │       ├── swi.h
+│       │   │   │       │       ├── sys.h
+│       │   │   │       │       ├── syscalls
+│       │   │   │       │       ├── trace.h
+│       │   │   │       │       └── types.h
+│       │   │   │       └── lib/
+│       │   │   │           └── rvl/
+│       │   │   │               ├── crt0.o
+│       │   │   │               ├── crt0_noOS.o
+│       │   │   │               ├── ddr.link
+│       │   │   │               ├── libapputils.a
+│       │   │   │               ├── libios.a
+│       │   │   │               ├── libiosc.a
+│       │   │   │               ├── libioslibc.a
+│       │   │   │               ├── libiossh.a
+│       │   │   │               ├── libiossyscall.a
+│       │   │   │               ├── libsdi.a
+│       │   │   │               ├── libsock.a
+│       │   │   │               ├── libsys.a
+│       │   │   │               ├── libusb.a
+│       │   │   │               ├── sdram.link
+│       │   │   │               └── stdalone.link
+│       │   │   ├── kd_2008-12-15-15-38/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── kd.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── kd.elf
+│       │   │   ├── loader_ios_release_080711142850/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── loader.bin
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── loader.bin
+│       │   │   ├── ncd_2007-06-28/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ncd.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ncd.elf
+│       │   │   ├── ohci0_2008-08-13/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ohci0.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ohci0.elf
+│       │   │   ├── ohci1_ios_release_080711142850/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ohci1.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ohci1.elf
+│       │   │   ├── sdi_ios_release_100303103610/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── sdi.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── sdi.elf
+│       │   │   ├── so_2009-01-09-15-50/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── so.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── so.elf
+│       │   │   ├── ssl_2008-02-27/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ssl.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ssl.elf
+│       │   │   ├── stm_2009-07-27-10-17/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── stm.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── stm.elf
+│       │   │   ├── usb_hid_2008-01-30-15-59/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── usb_hid.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── usb_hid.elf
+│       │   │   ├── usbeth_2007-08-09/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── usbeth.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── usbeth.elf
+│       │   │   ├── usr/
+│       │   │   │   └── include/
+│       │   │   │       └── make/
+│       │   │   ├── wd_4.30.47.2_2008-08-04/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── wd.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── wd.elf
+│       │   │   └── wldrvr_4.30.47.3_2010-07-26/
+│       │   │       ├── rvl-128/
+│       │   │       │   └── wldrvr.elf
+│       │   │       └── rvl-64/
+│       │   │           └── wldrvr.elf
+│       │   ├── local_config
+│       │   ├── makefile
+│       │   ├── rvl-128/
+│       │   │   ├── bin/
+│       │   │   │   ├── firmware.128.61.23.30.nossl.elf
+│       │   │   │   ├── firmware.128.61.23.30.nossl.txt
+│       │   │   │   ├── firmware.128.61.23.30.nossl.wad
+│       │   │   │   ├── firmware.128.61.23.30.txt
+│       │   │   │   └── firmware.128.61.23.30.wad
+│       │   │   ├── di_boot.elf
+│       │   │   ├── di_boot_prod.elf
+│       │   │   ├── es.elf
+│       │   │   ├── fs.elf
+│       │   │   ├── fs_fast.elf
+│       │   │   ├── fs_prod.elf
+│       │   │   ├── fs_prod_fast.elf
+│       │   │   ├── ios_prod.elf
+│       │   │   ├── ios_real.elf
+│       │   │   ├── kd.elf
+│       │   │   ├── loader.bin
+│       │   │   ├── make/
+│       │   │   │   ├── NGaddrs
+│       │   │   │   ├── NGaddrs_debug
+│       │   │   │   └── NGdefs
+│       │   │   ├── ncd.elf
+│       │   │   ├── ohci0.elf
+│       │   │   ├── ohci1.elf
+│       │   │   ├── sdi.elf
+│       │   │   ├── so.elf
+│       │   │   ├── ssl.elf
+│       │   │   ├── stm.elf
+│       │   │   ├── usb_hid.elf
+│       │   │   ├── usbeth.elf
+│       │   │   ├── wd.elf
+│       │   │   └── wldrvr.elf
+│       │   ├── rvl-64/
+│       │   │   ├── bin/
+│       │   │   │   ├── firmware.64.61.23.30.nossl.txt
+│       │   │   │   ├── firmware.64.61.23.30.nossl.wad
+│       │   │   │   ├── firmware.64.61.23.30.txt
+│       │   │   │   ├── firmware.64.61.23.30.wad
+│       │   │   │   ├── firmware.RVL.61.23.30.nossl.txt
+│       │   │   │   ├── firmware.RVL.61.23.30.nossl.wad
+│       │   │   │   ├── firmware.RVL.61.23.30.txt
+│       │   │   │   └── firmware.RVL.61.23.30.wad
+│       │   │   ├── di_boot.elf
+│       │   │   ├── di_boot_prod.elf
+│       │   │   ├── es.elf
+│       │   │   ├── fs.elf
+│       │   │   ├── fs_fast.elf
+│       │   │   ├── fs_prod.elf
+│       │   │   ├── fs_prod_fast.elf
+│       │   │   ├── ios_prod.elf
+│       │   │   ├── ios_real.elf
+│       │   │   ├── kd.elf
+│       │   │   ├── loader.bin
+│       │   │   ├── make/
+│       │   │   │   ├── NGaddrs
+│       │   │   │   ├── NGaddrs_debug
+│       │   │   │   └── NGdefs
+│       │   │   ├── ncd.elf
+│       │   │   ├── ohci0.elf
+│       │   │   ├── ohci1.elf
+│       │   │   ├── sdi.elf
+│       │   │   ├── so.elf
+│       │   │   ├── ssl.elf
+│       │   │   ├── stm.elf
+│       │   │   ├── usb_hid.elf
+│       │   │   ├── usbeth.elf
+│       │   │   ├── wd.elf
+│       │   │   └── wldrvr.elf
+│       │   └── X86/
+│       │       └── bin/
+│       │           └── dat/
+│       │               └── 000000010000003d.bin
+│       ├── merge.sh
+│       └── work/
+│           └── SDK/
+│               ├── CVS/
+│               │   ├── Entries
+│               │   ├── Entries.Static
+│               │   ├── Repository
+│               │   └── Root
+│               ├── RVL/
+│               │   ├── bin/
+│               │   │   ├── CVS/
+│               │   │   │   ├── Entries
+│               │   │   │   ├── Entries.Static
+│               │   │   │   ├── Repository
+│               │   │   │   └── Root
+│               │   │   └── tools/
+│               │   │       ├── CVS/
+│               │   │       │   ├── Entries
+│               │   │       │   ├── Entries.Static
+│               │   │       │   ├── Repository
+│               │   │       │   └── Root
+│               │   │       └── showlist.elf
+│               │   ├── boot/
+│               │   │   ├── apploader.img
+│               │   │   └── CVS/
+│               │   │       ├── Entries
+│               │   │       ├── Entries.Static
+│               │   │       ├── Repository
+│               │   │       └── Root
+│               │   └── CVS/
+│               │       ├── Entries
+│               │       ├── Entries.Log
+│               │       ├── Entries.Static
+│               │       ├── Repository
+│               │       └── Root
+│               ├── securebuild/
+│               │   ├── CVS/
+│               │   │   ├── Entries
+│               │   │   ├── Entries.Static
+│               │   │   ├── Repository
+│               │   │   ├── Root
+│               │   │   └── Tag
+│               │   └── tools/
+│               │       ├── CVS/
+│               │       │   ├── Entries
+│               │       │   ├── Entries.Static
+│               │       │   ├── Repository
+│               │       │   ├── Root
+│               │       │   └── Tag
+│               │       ├── makeinf/
+│               │       │   ├── CVS/
+│               │       │   │   ├── Entries
+│               │       │   │   ├── Repository
+│               │       │   │   ├── Root
+│               │       │   │   └── Tag
+│               │       │   ├── Makefile
+│               │       │   ├── makeinf.c
+│               │       │   ├── makeinf.exe
+│               │       │   ├── makeinf.o
+│               │       │   ├── README.txt
+│               │       │   └── sample.script
+│               │       └── makeupdatepartition/
+│               │           ├── 000000010000003d.bin
+│               │           ├── _make_upp.sh
+│               │           ├── createinf.py
+│               │           ├── CVS/
+│               │           │   ├── Entries
+│               │           │   ├── Entries.Log
+│               │           │   ├── Repository
+│               │           │   ├── Root
+│               │           │   └── Tag
+│               │           ├── data/
+│               │           │   ├── CVS/
+│               │           │   │   ├── Entries
+│               │           │   │   ├── Repository
+│               │           │   │   ├── Root
+│               │           │   │   └── Tag
+│               │           │   ├── dummy_update.part
+│               │           │   ├── game.dummy.61
+│               │           │   ├── game.dummy.8
+│               │           │   ├── game.dummy.9
+│               │           │   ├── rvl.bin.header
+│               │           │   ├── rvl.bin.header.RVTR
+│               │           │   ├── update.ddf
+│               │           │   ├── update.dlf
+│               │           │   ├── update.dsf
+│               │           │   ├── update.dummy.tik
+│               │           │   ├── update.elf
+│               │           │   └── update.rcf
+│               │           ├── dvdroot/
+│               │           │   ├── __update.inf
+│               │           │   └── _sys/
+│               │           │       ├── firmware.128.61.23.30.wad
+│               │           │       └── firmware.64.61.23.30.wad
+│               │           ├── erase.pl
+│               │           ├── inf.script
+│               │           ├── makefile
+│               │           ├── padder.sh
+│               │           ├── readme.en.txt
+│               │           ├── readme.txt
+│               │           ├── rvl.61.bin
+│               │           ├── tickle.py
+│               │           └── update.part
+│               └── X86/
+│                   ├── bin/
+│                   │   ├── arm-elf-merge.exe
+│                   │   ├── bi2.bin
+│                   │   ├── bmerge.exe
+│                   │   ├── cacert.clip.bin
+│                   │   ├── clcert.clip.bin
+│                   │   ├── createOSImage.py
+│                   │   ├── CVS/
+│                   │   │   ├── Entries
+│                   │   │   ├── Entries.Static
+│                   │   │   ├── Repository
+│                   │   │   └── Root
+│                   │   ├── make_ndev_partition.exe
+│                   │   ├── makedol.exe
+│                   │   ├── makervm.dll
+│                   │   ├── makervm.exe
+│                   │   ├── padder.exe
+│                   │   ├── pki_data/
+│                   │   │   ├── arcade/
+│                   │   │   │   ├── arcgen_ca.cert
+│                   │   │   │   ├── arcgen_ca.rsa
+│                   │   │   │   ├── arcgen_cp.cert
+│                   │   │   │   ├── arcgen_cp.rsa
+│                   │   │   │   ├── arcgen_xs.cert
+│                   │   │   │   ├── arcgen_xs.pubKey
+│                   │   │   │   ├── arcgen_xs.pvtKey
+│                   │   │   │   ├── arcgen_xs.rsa
+│                   │   │   │   ├── capcom_ca.cert
+│                   │   │   │   ├── capcom_ca.rsa
+│                   │   │   │   ├── capcom_cp.cert
+│                   │   │   │   ├── capcom_cp.rsa
+│                   │   │   │   ├── capcom_xs.cert
+│                   │   │   │   ├── capcom_xs.pubKey
+│                   │   │   │   ├── capcom_xs.pvtKey
+│                   │   │   │   ├── capcom_xs.rsa
+│                   │   │   │   ├── CVS/
+│                   │   │   │   │   ├── Entries
+│                   │   │   │   │   ├── Repository
+│                   │   │   │   │   ├── Root
+│                   │   │   │   │   └── Tag
+│                   │   │   │   ├── konami_ca.cert
+│                   │   │   │   ├── konami_ca.rsa
+│                   │   │   │   ├── konami_cp.cert
+│                   │   │   │   ├── konami_cp.rsa
+│                   │   │   │   ├── konami_xs.cert
+│                   │   │   │   ├── konami_xs.pubKey
+│                   │   │   │   ├── konami_xs.pvtKey
+│                   │   │   │   ├── konami_xs.rsa
+│                   │   │   │   ├── namco_ca.cert
+│                   │   │   │   ├── namco_ca.rsa
+│                   │   │   │   ├── namco_cp.cert
+│                   │   │   │   ├── namco_cp.rsa
+│                   │   │   │   ├── namco_xs.cert
+│                   │   │   │   ├── namco_xs.pubKey
+│                   │   │   │   ├── namco_xs.pvtKey
+│                   │   │   │   ├── namco_xs.rsa
+│                   │   │   │   ├── sega_ca.cert
+│                   │   │   │   ├── sega_ca.rsa
+│                   │   │   │   ├── sega_cp.cert
+│                   │   │   │   ├── sega_cp.rsa
+│                   │   │   │   ├── sega_xs.cert
+│                   │   │   │   ├── sega_xs.pubKey
+│                   │   │   │   ├── sega_xs.pvtKey
+│                   │   │   │   ├── sega_xs.rsa
+│                   │   │   │   ├── taito_ca.cert
+│                   │   │   │   ├── taito_ca.rsa
+│                   │   │   │   ├── taito_cp.cert
+│                   │   │   │   ├── taito_cp.rsa
+│                   │   │   │   ├── taito_xs.cert
+│                   │   │   │   ├── taito_xs.pubKey
+│                   │   │   │   ├── taito_xs.pvtKey
+│                   │   │   │   └── taito_xs.rsa
+│                   │   │   ├── ca_dpki.cert
+│                   │   │   ├── ca_ppki.cert
+│                   │   │   ├── cacp_dpki.cert
+│                   │   │   ├── caxs_dpki.cert
+│                   │   │   ├── cert_dpki.sys
+│                   │   │   ├── cert_ppki.sys
+│                   │   │   ├── common_dpki.aesKey
+│                   │   │   ├── cp_dpki.cert
+│                   │   │   ├── cp_dpki.rsa
+│                   │   │   ├── cp_ppki.cert
+│                   │   │   ├── CVS/
+│                   │   │   │   ├── Entries
+│                   │   │   │   ├── Entries.Log
+│                   │   │   │   ├── Repository
+│                   │   │   │   ├── Root
+│                   │   │   │   └── Tag
+│                   │   │   ├── dev_dpki.eccPvtKey
+│                   │   │   ├── dev_ng_dpki.cert
+│                   │   │   ├── ms_dpki.cert
+│                   │   │   ├── xs_dpki.cert
+│                   │   │   ├── xs_dpki.eccPubKey
+│                   │   │   ├── xs_dpki.eccPvtKey
+│                   │   │   ├── xs_dpki.rsa
+│                   │   │   └── xs_ppki.cert
+│                   │   ├── publishWad.py
+│                   │   ├── rmprint
+│                   │   ├── rvl.bin
+│                   │   ├── rvl_devel_partition.exe
+│                   │   ├── rvl_devel_partitionIRD.exe
+│                   │   ├── setsmem2size
+│                   │   ├── ticket.exe
+│                   │   ├── ticketIRD.exe
+│                   │   ├── tickleBI2.exe
+│                   │   ├── tickleBI3.exe
+│                   │   ├── tmd.exe
+│                   │   └── tmdIRD.exe
+│                   └── CVS/
+│                       ├── Entries
+│                       ├── Entries.Log
+│                       ├── Entries.Static
+│                       ├── Repository
+│                       └── Root
+├── FirmwareMerge.61.23.30/
+│   └── Firmware/
+│       ├── 61.x.x/
+│       │   ├── 1dir/
+│       │   │   ├── firmware.128.61.23.30.nossl.wad
+│       │   │   ├── firmware.64.61.23.30.nossl.wad
+│       │   │   └── firmware.RVL.61.23.30.nossl.wad
+│       │   ├── depend/
+│       │   │   ├── di_boot_ios_release_090603074113/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── di_boot.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── di_boot.elf
+│       │   │   ├── di_boot_prod_ios_release_090603074113/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── di_boot_prod.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── di_boot_prod.elf
+│       │   │   ├── es_ios_release_100303103610/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── es.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── es.elf
+│       │   │   ├── fs_fast_ios_release_081124153248/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── fs_fast.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── fs_fast.elf
+│       │   │   ├── fs_ios_release_081124153248/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── fs.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── fs.elf
+│       │   │   ├── fs_prod_fast_ios_release_081124153248/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── fs_prod_fast.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── fs_prod_fast.elf
+│       │   │   ├── fs_prod_ios_release_081124153248/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── fs_prod.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── fs_prod.elf
+│       │   │   ├── FW_Makefile_2008-07-18/
+│       │   │   │   └── makefile
+│       │   │   ├── ios_prod_ios_release_100303103610_branch_110927184227/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ios_prod.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ios_prod.elf
+│       │   │   ├── ios_real_ios_release_100303103610_branch_110927184227/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ios_real.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ios_real.elf
+│       │   │   ├── IOS_SDK_128_ios_release_080711142850/
+│       │   │   │   ├── install.sh
+│       │   │   │   └── usr/
+│       │   │   │       ├── include/
+│       │   │   │       │   ├── iosc.h
+│       │   │   │       │   ├── iosctypes.h
+│       │   │   │       │   ├── ioslibc.h
+│       │   │   │       │   ├── make/
+│       │   │   │       │   │   ├── commondefs
+│       │   │   │       │   │   ├── commonrules
+│       │   │   │       │   │   ├── dummyrules
+│       │   │   │       │   │   ├── NGaddrs
+│       │   │   │       │   │   ├── NGaddrs_8M
+│       │   │   │       │   │   ├── NGaddrs_debug
+│       │   │   │       │   │   ├── NGaddrs_debug_8M
+│       │   │   │       │   │   ├── NGdefs
+│       │   │   │       │   │   └── X86defs
+│       │   │   │       │   └── rvl/
+│       │   │   │       │       ├── addr_map.h
+│       │   │   │       │       ├── ahb_fdl_defs.h
+│       │   │   │       │       ├── apputils.h
+│       │   │   │       │       ├── arm.h
+│       │   │   │       │       ├── asm.h
+│       │   │   │       │       ├── hw.h
+│       │   │   │       │       ├── io_reg.h
+│       │   │   │       │       ├── iop.h
+│       │   │   │       │       ├── iop_ethtool.h
+│       │   │   │       │       ├── iop_icmp.h
+│       │   │   │       │       ├── iop_ip.h
+│       │   │   │       │       ├── iop_ip6.h
+│       │   │   │       │       ├── iop_ipdns.h
+│       │   │   │       │       ├── iop_netif.h
+│       │   │   │       │       ├── iop_os.h
+│       │   │   │       │       ├── iop_resolver.h
+│       │   │   │       │       ├── iop_sock.h
+│       │   │   │       │       ├── iop_types.h
+│       │   │   │       │       ├── ios.h
+│       │   │   │       │       ├── iosiobuf.h
+│       │   │   │       │       ├── iosresource.h
+│       │   │   │       │       ├── iostypes.h
+│       │   │   │       │       ├── iosusb.h
+│       │   │   │       │       ├── iosusbtypes.h
+│       │   │   │       │       ├── lomem.h
+│       │   │   │       │       ├── mem_reg.h
+│       │   │   │       │       ├── memmap.h
+│       │   │   │       │       ├── mmu.h
+│       │   │   │       │       ├── priority.h
+│       │   │   │       │       ├── rpc.h
+│       │   │   │       │       ├── sd_api.h
+│       │   │   │       │       ├── sdio_api.h
+│       │   │   │       │       ├── semihost.h
+│       │   │   │       │       ├── socket.h
+│       │   │   │       │       ├── swi.h
+│       │   │   │       │       ├── sys.h
+│       │   │   │       │       ├── syscalls
+│       │   │   │       │       ├── trace.h
+│       │   │   │       │       └── types.h
+│       │   │   │       └── lib/
+│       │   │   │           └── rvl/
+│       │   │   │               ├── crt0.o
+│       │   │   │               ├── crt0_noOS.o
+│       │   │   │               ├── ddr.link
+│       │   │   │               ├── libapputils.a
+│       │   │   │               ├── libios.a
+│       │   │   │               ├── libiosc.a
+│       │   │   │               ├── libioslibc.a
+│       │   │   │               ├── libiossh.a
+│       │   │   │               ├── libiossyscall.a
+│       │   │   │               ├── libsdi.a
+│       │   │   │               ├── libsock.a
+│       │   │   │               ├── libsys.a
+│       │   │   │               ├── libusb.a
+│       │   │   │               ├── sdram.link
+│       │   │   │               └── stdalone.link
+│       │   │   ├── IOS_SDK_64_ios_release_080711142850/
+│       │   │   │   ├── install.sh
+│       │   │   │   └── usr/
+│       │   │   │       ├── include/
+│       │   │   │       │   ├── iosc.h
+│       │   │   │       │   ├── iosctypes.h
+│       │   │   │       │   ├── ioslibc.h
+│       │   │   │       │   ├── make/
+│       │   │   │       │   │   ├── commondefs
+│       │   │   │       │   │   ├── commonrules
+│       │   │   │       │   │   ├── dummyrules
+│       │   │   │       │   │   ├── NGaddrs
+│       │   │   │       │   │   ├── NGaddrs_8M
+│       │   │   │       │   │   ├── NGaddrs_debug
+│       │   │   │       │   │   ├── NGaddrs_debug_8M
+│       │   │   │       │   │   ├── NGdefs
+│       │   │   │       │   │   └── X86defs
+│       │   │   │       │   └── rvl/
+│       │   │   │       │       ├── addr_map.h
+│       │   │   │       │       ├── ahb_fdl_defs.h
+│       │   │   │       │       ├── apputils.h
+│       │   │   │       │       ├── arm.h
+│       │   │   │       │       ├── asm.h
+│       │   │   │       │       ├── hw.h
+│       │   │   │       │       ├── io_reg.h
+│       │   │   │       │       ├── iop.h
+│       │   │   │       │       ├── iop_ethtool.h
+│       │   │   │       │       ├── iop_icmp.h
+│       │   │   │       │       ├── iop_ip.h
+│       │   │   │       │       ├── iop_ip6.h
+│       │   │   │       │       ├── iop_ipdns.h
+│       │   │   │       │       ├── iop_netif.h
+│       │   │   │       │       ├── iop_os.h
+│       │   │   │       │       ├── iop_resolver.h
+│       │   │   │       │       ├── iop_sock.h
+│       │   │   │       │       ├── iop_types.h
+│       │   │   │       │       ├── ios.h
+│       │   │   │       │       ├── iosiobuf.h
+│       │   │   │       │       ├── iosresource.h
+│       │   │   │       │       ├── iostypes.h
+│       │   │   │       │       ├── iosusb.h
+│       │   │   │       │       ├── iosusbtypes.h
+│       │   │   │       │       ├── lomem.h
+│       │   │   │       │       ├── mem_reg.h
+│       │   │   │       │       ├── memmap.h
+│       │   │   │       │       ├── mmu.h
+│       │   │   │       │       ├── priority.h
+│       │   │   │       │       ├── rpc.h
+│       │   │   │       │       ├── sd_api.h
+│       │   │   │       │       ├── sdio_api.h
+│       │   │   │       │       ├── semihost.h
+│       │   │   │       │       ├── socket.h
+│       │   │   │       │       ├── swi.h
+│       │   │   │       │       ├── sys.h
+│       │   │   │       │       ├── syscalls
+│       │   │   │       │       ├── trace.h
+│       │   │   │       │       └── types.h
+│       │   │   │       └── lib/
+│       │   │   │           └── rvl/
+│       │   │   │               ├── crt0.o
+│       │   │   │               ├── crt0_noOS.o
+│       │   │   │               ├── ddr.link
+│       │   │   │               ├── libapputils.a
+│       │   │   │               ├── libios.a
+│       │   │   │               ├── libiosc.a
+│       │   │   │               ├── libioslibc.a
+│       │   │   │               ├── libiossh.a
+│       │   │   │               ├── libiossyscall.a
+│       │   │   │               ├── libsdi.a
+│       │   │   │               ├── libsock.a
+│       │   │   │               ├── libsys.a
+│       │   │   │               ├── libusb.a
+│       │   │   │               ├── sdram.link
+│       │   │   │               └── stdalone.link
+│       │   │   ├── kd_2008-12-15-15-38/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── kd.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── kd.elf
+│       │   │   ├── loader_ios_release_080711142850/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── loader.bin
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── loader.bin
+│       │   │   ├── ncd_2007-06-28/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ncd.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ncd.elf
+│       │   │   ├── ohci0_2008-08-13/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ohci0.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ohci0.elf
+│       │   │   ├── ohci1_ios_release_080711142850/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ohci1.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ohci1.elf
+│       │   │   ├── sdi_ios_release_100303103610/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── sdi.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── sdi.elf
+│       │   │   ├── so_2009-01-09-15-50/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── so.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── so.elf
+│       │   │   ├── ssl_2008-02-27/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── ssl.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── ssl.elf
+│       │   │   ├── stm_2009-07-27-10-17/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── stm.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── stm.elf
+│       │   │   ├── usb_hid_2008-01-30-15-59/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── usb_hid.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── usb_hid.elf
+│       │   │   ├── usbeth_2007-08-09/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── usbeth.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── usbeth.elf
+│       │   │   ├── usr/
+│       │   │   │   └── include/
+│       │   │   │       └── make/
+│       │   │   ├── wd_4.30.47.2_2008-08-04/
+│       │   │   │   ├── rvl-128/
+│       │   │   │   │   └── wd.elf
+│       │   │   │   └── rvl-64/
+│       │   │   │       └── wd.elf
+│       │   │   └── wldrvr_4.30.47.3_2010-07-26/
+│       │   │       ├── rvl-128/
+│       │   │       │   └── wldrvr.elf
+│       │   │       └── rvl-64/
+│       │   │           └── wldrvr.elf
+│       │   ├── local_config
+│       │   ├── makefile
+│       │   ├── rvl-128/
+│       │   │   ├── bin/
+│       │   │   │   ├── firmware.128.61.23.30.nossl.elf
+│       │   │   │   ├── firmware.128.61.23.30.nossl.txt
+│       │   │   │   └── firmware.128.61.23.30.nossl.wad
+│       │   │   ├── di_boot.elf
+│       │   │   ├── di_boot_prod.elf
+│       │   │   ├── es.elf
+│       │   │   ├── fs.elf
+│       │   │   ├── fs_fast.elf
+│       │   │   ├── fs_prod.elf
+│       │   │   ├── fs_prod_fast.elf
+│       │   │   ├── ios_prod.elf
+│       │   │   ├── ios_real.elf
+│       │   │   ├── kd.elf
+│       │   │   ├── loader.bin
+│       │   │   ├── make/
+│       │   │   │   ├── NGaddrs
+│       │   │   │   ├── NGaddrs_debug
+│       │   │   │   └── NGdefs
+│       │   │   ├── ncd.elf
+│       │   │   ├── ohci0.elf
+│       │   │   ├── ohci1.elf
+│       │   │   ├── sdi.elf
+│       │   │   ├── so.elf
+│       │   │   ├── ssl.elf
+│       │   │   ├── stm.elf
+│       │   │   ├── usb_hid.elf
+│       │   │   ├── usbeth.elf
+│       │   │   ├── wd.elf
+│       │   │   └── wldrvr.elf
+│       │   └── rvl-64/
+│       │       ├── bin/
+│       │       │   ├── firmware.64.61.23.30.nossl.txt
+│       │       │   ├── firmware.64.61.23.30.nossl.wad
+│       │       │   ├── firmware.RVL.61.23.30.nossl.txt
+│       │       │   └── firmware.RVL.61.23.30.nossl.wad
+│       │       ├── di_boot.elf
+│       │       ├── di_boot_prod.elf
+│       │       ├── es.elf
+│       │       ├── fs.elf
+│       │       ├── fs_fast.elf
+│       │       ├── fs_prod.elf
+│       │       ├── fs_prod_fast.elf
+│       │       ├── ios_prod.elf
+│       │       ├── ios_real.elf
+│       │       ├── kd.elf
+│       │       ├── loader.bin
+│       │       ├── make/
+│       │       │   ├── NGaddrs
+│       │       │   ├── NGaddrs_debug
+│       │       │   └── NGdefs
+│       │       ├── ncd.elf
+│       │       ├── ohci0.elf
+│       │       ├── ohci1.elf
+│       │       ├── sdi.elf
+│       │       ├── so.elf
+│       │       ├── ssl.elf
+│       │       ├── stm.elf
+│       │       ├── usb_hid.elf
+│       │       ├── usbeth.elf
+│       │       ├── wd.elf
+│       │       └── wldrvr.elf
+│       ├── merge.sh
+│       └── work/
+│           └── SDK/
+│               ├── CVS/
+│               │   ├── Entries
+│               │   ├── Entries.Static
+│               │   ├── Repository
+│               │   └── Root
+│               ├── RVL/
+│               │   ├── bin/
+│               │   │   ├── CVS/
+│               │   │   │   ├── Entries
+│               │   │   │   ├── Entries.Static
+│               │   │   │   ├── Repository
+│               │   │   │   └── Root
+│               │   │   └── tools/
+│               │   │       ├── CVS/
+│               │   │       │   ├── Entries
+│               │   │       │   ├── Entries.Static
+│               │   │       │   ├── Repository
+│               │   │       │   └── Root
+│               │   │       └── showlist.elf
+│               │   ├── boot/
+│               │   │   ├── apploader.img
+│               │   │   └── CVS/
+│               │   │       ├── Entries
+│               │   │       ├── Entries.Static
+│               │   │       ├── Repository
+│               │   │       └── Root
+│               │   └── CVS/
+│               │       ├── Entries
+│               │       ├── Entries.Log
+│               │       ├── Entries.Static
+│               │       ├── Repository
+│               │       └── Root
+│               ├── securebuild/
+│               │   ├── CVS/
+│               │   │   ├── Entries
+│               │   │   ├── Entries.Static
+│               │   │   ├── Repository
+│               │   │   ├── Root
+│               │   │   └── Tag
+│               │   └── tools/
+│               │       ├── CVS/
+│               │       │   ├── Entries
+│               │       │   ├── Entries.Static
+│               │       │   ├── Repository
+│               │       │   ├── Root
+│               │       │   └── Tag
+│               │       ├── makeinf/
+│               │       │   ├── CVS/
+│               │       │   │   ├── Entries
+│               │       │   │   ├── Repository
+│               │       │   │   ├── Root
+│               │       │   │   └── Tag
+│               │       │   ├── Makefile
+│               │       │   ├── makeinf.c
+│               │       │   ├── README.txt
+│               │       │   └── sample.script
+│               │       └── makeupdatepartition/
+│               │           ├── _make_upp.sh
+│               │           ├── createinf.py
+│               │           ├── CVS/
+│               │           │   ├── Entries
+│               │           │   ├── Entries.Log
+│               │           │   ├── Repository
+│               │           │   ├── Root
+│               │           │   └── Tag
+│               │           ├── data/
+│               │           │   ├── CVS/
+│               │           │   │   ├── Entries
+│               │           │   │   ├── Repository
+│               │           │   │   ├── Root
+│               │           │   │   └── Tag
+│               │           │   ├── dummy_update.part
+│               │           │   ├── game.dummy.8
+│               │           │   ├── game.dummy.9
+│               │           │   ├── rvl.bin.header
+│               │           │   ├── rvl.bin.header.RVTR
+│               │           │   ├── update.ddf
+│               │           │   ├── update.dummy.tik
+│               │           │   └── update.elf
+│               │           ├── erase.pl
+│               │           ├── inf.script
+│               │           ├── makefile
+│               │           ├── padder.sh
+│               │           ├── readme.en.txt
+│               │           ├── readme.txt
+│               │           └── tickle.py
+│               └── X86/
+│                   ├── bin/
+│                   │   ├── arm-elf-merge.exe
+│                   │   ├── bi2.bin
+│                   │   ├── bmerge.exe
+│                   │   ├── cacert.clip.bin
+│                   │   ├── clcert.clip.bin
+│                   │   ├── createOSImage.py
+│                   │   ├── CVS/
+│                   │   │   ├── Entries
+│                   │   │   ├── Entries.Static
+│                   │   │   ├── Repository
+│                   │   │   └── Root
+│                   │   ├── make_ndev_partition.exe
+│                   │   ├── makedol.exe
+│                   │   ├── makervm.dll
+│                   │   ├── makervm.exe
+│                   │   ├── padder.exe
+│                   │   ├── pki_data/
+│                   │   │   ├── arcade/
+│                   │   │   │   ├── arcgen_ca.cert
+│                   │   │   │   ├── arcgen_ca.rsa
+│                   │   │   │   ├── arcgen_cp.cert
+│                   │   │   │   ├── arcgen_cp.rsa
+│                   │   │   │   ├── arcgen_xs.cert
+│                   │   │   │   ├── arcgen_xs.pubKey
+│                   │   │   │   ├── arcgen_xs.pvtKey
+│                   │   │   │   ├── arcgen_xs.rsa
+│                   │   │   │   ├── capcom_ca.cert
+│                   │   │   │   ├── capcom_ca.rsa
+│                   │   │   │   ├── capcom_cp.cert
+│                   │   │   │   ├── capcom_cp.rsa
+│                   │   │   │   ├── capcom_xs.cert
+│                   │   │   │   ├── capcom_xs.pubKey
+│                   │   │   │   ├── capcom_xs.pvtKey
+│                   │   │   │   ├── capcom_xs.rsa
+│                   │   │   │   ├── CVS/
+│                   │   │   │   │   ├── Entries
+│                   │   │   │   │   ├── Repository
+│                   │   │   │   │   ├── Root
+│                   │   │   │   │   └── Tag
+│                   │   │   │   ├── konami_ca.cert
+│                   │   │   │   ├── konami_ca.rsa
+│                   │   │   │   ├── konami_cp.cert
+│                   │   │   │   ├── konami_cp.rsa
+│                   │   │   │   ├── konami_xs.cert
+│                   │   │   │   ├── konami_xs.pubKey
+│                   │   │   │   ├── konami_xs.pvtKey
+│                   │   │   │   ├── konami_xs.rsa
+│                   │   │   │   ├── namco_ca.cert
+│                   │   │   │   ├── namco_ca.rsa
+│                   │   │   │   ├── namco_cp.cert
+│                   │   │   │   ├── namco_cp.rsa
+│                   │   │   │   ├── namco_xs.cert
+│                   │   │   │   ├── namco_xs.pubKey
+│                   │   │   │   ├── namco_xs.pvtKey
+│                   │   │   │   ├── namco_xs.rsa
+│                   │   │   │   ├── sega_ca.cert
+│                   │   │   │   ├── sega_ca.rsa
+│                   │   │   │   ├── sega_cp.cert
+│                   │   │   │   ├── sega_cp.rsa
+│                   │   │   │   ├── sega_xs.cert
+│                   │   │   │   ├── sega_xs.pubKey
+│                   │   │   │   ├── sega_xs.pvtKey
+│                   │   │   │   ├── sega_xs.rsa
+│                   │   │   │   ├── taito_ca.cert
+│                   │   │   │   ├── taito_ca.rsa
+│                   │   │   │   ├── taito_cp.cert
+│                   │   │   │   ├── taito_cp.rsa
+│                   │   │   │   ├── taito_xs.cert
+│                   │   │   │   ├── taito_xs.pubKey
+│                   │   │   │   ├── taito_xs.pvtKey
+│                   │   │   │   └── taito_xs.rsa
+│                   │   │   ├── ca_dpki.cert
+│                   │   │   ├── ca_ppki.cert
+│                   │   │   ├── cacp_dpki.cert
+│                   │   │   ├── caxs_dpki.cert
+│                   │   │   ├── cert_dpki.sys
+│                   │   │   ├── cert_ppki.sys
+│                   │   │   ├── common_dpki.aesKey
+│                   │   │   ├── cp_dpki.cert
+│                   │   │   ├── cp_dpki.rsa
+│                   │   │   ├── cp_ppki.cert
+│                   │   │   ├── CVS/
+│                   │   │   │   ├── Entries
+│                   │   │   │   ├── Entries.Log
+│                   │   │   │   ├── Repository
+│                   │   │   │   ├── Root
+│                   │   │   │   └── Tag
+│                   │   │   ├── dev_dpki.eccPvtKey
+│                   │   │   ├── dev_ng_dpki.cert
+│                   │   │   ├── ms_dpki.cert
+│                   │   │   ├── xs_dpki.cert
+│                   │   │   ├── xs_dpki.eccPubKey
+│                   │   │   ├── xs_dpki.eccPvtKey
+│                   │   │   ├── xs_dpki.rsa
+│                   │   │   └── xs_ppki.cert
+│                   │   ├── publishWad.py
+│                   │   ├── rmprint
+│                   │   ├── rvl.bin
+│                   │   ├── rvl_devel_partition.exe
+│                   │   ├── rvl_devel_partitionIRD.exe
+│                   │   ├── setsmem2size
+│                   │   ├── ticket.exe
+│                   │   ├── ticketIRD.exe
+│                   │   ├── tickleBI2.exe
+│                   │   ├── tickleBI3.exe
+│                   │   ├── tmd.exe
+│                   │   └── tmdIRD.exe
+│                   └── CVS/
+│                       ├── Entries
+│                       ├── Entries.Log
+│                       ├── Entries.Static
+│                       ├── Repository
+│                       └── Root
+└── makefile.61.23.30
