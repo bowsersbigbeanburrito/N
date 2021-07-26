@@ -1,0 +1,108 @@
+characterization/
+├── evt1b/
+│   ├── 5v_failure/
+│   │   ├── fail_1.bmp
+│   │   ├── fail_2.bmp
+│   │   ├── fail_3.bmp
+│   │   ├── good_0ms_delay_1.bmp
+│   │   ├── good_0ms_delay_2.bmp
+│   │   ├── good_0ms_delay_3.bmp
+│   │   ├── good_5ms_delay_1.bmp
+│   │   ├── good_5ms_delay_2.bmp
+│   │   ├── good_5ms_delay_3.bmp
+│   │   ├── good_5ms_delay_4.bmp
+│   │   └── nload_delay.bmp
+│   ├── ebus/
+│   │   ├── ebus_ad31_noise.bmp
+│   │   ├── ebus_pdat7_noise_rd.bmp
+│   │   ├── ebus_pdat7_noise_wr.bmp
+│   │   ├── ebus_rd_9603.bmp
+│   │   ├── ebus_rd_doc_1.bmp
+│   │   ├── ebus_rd_doc_2.bmp
+│   │   └── ebus_wr_doc.bmp
+│   ├── nvram/
+│   │   ├── nvram_read.bmp
+│   │   ├── nvram_write.bmp
+│   │   ├── rtc_clock_duty_cycle_1.bmp
+│   │   ├── rtc_clock_duty_cycle_2.bmp
+│   │   ├── rtc_clock_rise_time.bmp
+│   │   └── vcc3.3_to_pwrgd.bmp
+│   ├── power_premod/
+│   │   ├── evt1a_3Vgate.bmp
+│   │   ├── evt1a_5Vgate.bmp
+│   │   ├── evt1a_AVCC_3.bmp
+│   │   ├── evt1a_VCC_12.bmp
+│   │   ├── evt1a_VCC_2.bmp
+│   │   ├── evt1a_VCC_3.bmp
+│   │   ├── evt1a_VCC_5.bmp
+│   │   ├── evt1b_3Vgate.bmp
+│   │   ├── evt1b_5Vgate.bmp
+│   │   ├── evt1b_AVCC_3.bmp
+│   │   ├── evt1b_I_VCC_12disk_active.bmp
+│   │   ├── evt1b_I_VCC_12disk_spinup.bmp
+│   │   ├── evt1b_I_VCC_2.5_bootup.bmp
+│   │   ├── evt1b_I_VCC_3_bootup.bmp
+│   │   ├── evt1b_I_VCC_3_idle.bmp
+│   │   ├── evt1b_VCC_12.bmp
+│   │   ├── evt1b_VCC_2.bmp
+│   │   ├── evt1b_VCC_3.bmp
+│   │   ├── evt1b_VCC_3_gatedrive_idle.bmp
+│   │   └── evt1b_VCC_5.bmp
+│   ├── README
+│   ├── sdram/
+│   │   ├── cas_setup_command_bank1.bmp
+│   │   ├── cas_setup_command_bank2.bmp
+│   │   ├── col_addr_read_bank1.bmp
+│   │   ├── col_addr_read_bank2.bmp
+│   │   ├── col_addr_write_bank1.bmp
+│   │   ├── col_addr_write_bank2.bmp
+│   │   ├── data_read_bank1.bmp
+│   │   ├── data_read_bank2.bmp
+│   │   ├── data_write_bank1.bmp
+│   │   ├── data_write_bank2.bmp
+│   │   ├── pci_skew_1.bmp
+│   │   ├── pci_skew_2.bmp
+│   │   ├── ram_cs_setup_bank1.bmp
+│   │   ├── ram_cs_setup_bank2.bmp
+│   │   ├── ramclk1_duty_cycle.bmp
+│   │   ├── ramclk2_duty_cycle.bmp
+│   │   ├── ramclk2_rise_time.bmp
+│   │   ├── ramclk3_rise_time.bmp
+│   │   ├── ras_setup_activate_bank1.bmp
+│   │   ├── ras_setup_activate_bank2.bmp
+│   │   ├── row_addr_read_bank1.bmp
+│   │   ├── row_addr_read_bank2.bmp
+│   │   ├── row_addr_write_bank1.bmp
+│   │   ├── row_addr_write_bank2.bmp
+│   │   ├── u1_ldqm.bmp
+│   │   ├── u1_udqm.bmp
+│   │   ├── u4_ldqm.bmp
+│   │   ├── u4_udqm.bmp
+│   │   ├── u5_ldqm.bmp
+│   │   ├── u5_udqm.bmp
+│   │   ├── u6_ldqm.bmp
+│   │   ├── u6_udqm.bmp
+│   │   ├── we_setup_bank1.bmp
+│   │   └── we_setup_bank2.bmp
+│   └── usb/
+│       └── usb_power.bmp
+└── evt1c/
+    ├── README
+    └── sdram/
+        ├── cas_setup_activate_bank1.bmp
+        ├── col_addr_read_bank1.bmp
+        ├── col_addr_write_bank1.bmp
+        ├── data_read_bank1.bmp
+        ├── data_write_bank1.bmp
+        ├── pci_skew_1.bmp
+        ├── ram_cs_setup_bank1.bmp
+        ├── ramclk1_duty_cycle.bmp
+        ├── ramclk1_rise_time.bmp
+        ├── ras_setup_activate_bank1.bmp
+        ├── row_addr_read_bank1.bmp
+        ├── row_addr_write_bank1.bmp
+        ├── u1_ldqm.bmp
+        ├── u1_udqm.bmp
+        ├── u4_ldqm.bmp
+        ├── u4_udqm.bmp
+        └── we_setup_bank1.bmp

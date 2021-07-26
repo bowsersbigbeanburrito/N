@@ -1,0 +1,389 @@
+config/
+├── lab1/
+│   ├── common/
+│   │   ├── broadon.conf
+│   │   └── files/
+│   │       ├── etc/
+│   │       │   └── resolv.conf
+│   │       └── opt/
+│   │           └── broadon/
+│   │               └── pkgs/
+│   │                   └── pas/
+│   │                       └── conf/
+│   │                           ├── BBserver.properties.tmpl
+│   │                           ├── pas.conf
+│   │                           ├── pas.xml
+│   │                           └── XMLRequest.properties
+│   ├── server65/
+│   │   ├── broadon.conf
+│   │   └── files/
+│   │       ├── etc/
+│   │       │   └── named.conf
+│   │       ├── flash/
+│   │       │   ├── ca_chain.pem
+│   │       │   ├── eCard-cert.pem
+│   │       │   ├── eTicket-cert.raw
+│   │       │   ├── eTicket-key.pem
+│   │       │   ├── identity.pem
+│   │       │   ├── jssecacerts
+│   │       │   ├── keystore
+│   │       │   ├── NetC-CA-cert.raw
+│   │       │   ├── NetC-CA-hsm-key.pem
+│   │       │   ├── NetC-CA-sw-key.pem
+│   │       │   ├── NetC-eTicket-cert.raw
+│   │       │   ├── NetC-eTicket-hsm-key.pem
+│   │       │   ├── NetC-eTicket-sw-key.pem
+│   │       │   ├── NetC-publisher-cert.raw
+│   │       │   ├── NetC-publisher-hsm-key.pem
+│   │       │   ├── NetC-publisher-sw-key.pem
+│   │       │   ├── opCard-cert.pem
+│   │       │   ├── opCard-key.pem
+│   │       │   ├── private_key.pem
+│   │       │   ├── root_cert.pem
+│   │       │   ├── server-cert.pem
+│   │       │   └── server-key.pem
+│   │       ├── opt/
+│   │       │   ├── broadon/
+│   │       │   │   └── pkgs/
+│   │       │   │       ├── cls/
+│   │       │   │       │   └── conf/
+│   │       │   │       │       └── CLSconfig.properties
+│   │       │   │       └── pcis/
+│   │       │   │           └── conf/
+│   │       │   │               └── BBserver.properties.tmpl
+│   │       │   └── nfast/
+│   │       │       └── kmdata/
+│   │       │           ├── local/
+│   │       │           │   ├── card_4f4988f4b6ff241fc906d0ad7a30fdd62c0d8a91_1
+│   │       │           │   ├── card_4f4988f4b6ff241fc906d0ad7a30fdd62c0d8a91_2
+│   │       │           │   ├── card_4f4988f4b6ff241fc906d0ad7a30fdd62c0d8a91_3
+│   │       │           │   ├── card_4f4988f4b6ff241fc906d0ad7a30fdd62c0d8a91_4
+│   │       │           │   ├── card_4f4988f4b6ff241fc906d0ad7a30fdd62c0d8a91_5
+│   │       │           │   ├── cards_4f4988f4b6ff241fc906d0ad7a30fdd62c0d8a91
+│   │       │           │   ├── key_custom_bca63c1f29b1db2b9ec09c3b955dfa18afa8d3b9
+│   │       │           │   ├── key_embed_1c2805d1528197263a868400a796df0055f73314
+│   │       │           │   ├── key_embed_30f0018b3fa5a01c027d6e34881b15fd4de7909c
+│   │       │           │   ├── key_embed_38ce0ce6a385861dd1cc8576a223f8d3b937e3b2
+│   │       │           │   ├── key_embed_5729d057268fdfef43a194a0bf16f83ae07ed96f
+│   │       │           │   ├── key_embed_5cf61e35b1ee85218c88a6b2495d257153a9b59c
+│   │       │           │   ├── key_embed_936af76a7473037c51717ff309c805e618a4968f
+│   │       │           │   ├── key_embed_a19af91675f0352e4b6fefb9a8d616369fc040dc
+│   │       │           │   ├── key_embed_acf5fa50da6f5880aa80cd5b847ce98c41639c0b
+│   │       │           │   ├── key_embed_bc2fcf6ef36b8a4cfc881ab2a62995cc65d6b21e
+│   │       │           │   ├── key_embed_bde224ef79e7511e68713564e558e3edca1b6396
+│   │       │           │   ├── key_embed_c332c7f7ceed2fb3d41765de913a184f880a5c02
+│   │       │           │   ├── key_embed_d99327a7e5f6fd86434d2edd6943135b3b8c4793
+│   │       │           │   ├── key_embed_ee9466073f6c7af75a77fd19482eaf5a69e75220
+│   │       │           │   ├── key_embed_f09cb1ceade314b4dd52ec9cfc7cfe16c9c66be7
+│   │       │           │   ├── module_A30A-33DA-33BE
+│   │       │           │   ├── module_B85B-3286-FF7F
+│   │       │           │   └── world
+│   │       │           ├── pkcs11/
+│   │       │           ├── preload/
+│   │       │           │   └── default
+│   │       │           ├── see/
+│   │       │           │   └── signer.data.sar
+│   │       │           └── tmp/
+│   │       └── var/
+│   │           └── named/
+│   │               ├── bcc.lab1.routefree.com
+│   │               └── reverse-dns
+│   ├── server71/
+│   │   ├── broadon.conf
+│   │   └── files/
+│   │       ├── etc/
+│   │       │   └── named.conf
+│   │       ├── opt/
+│   │       │   └── broadon/
+│   │       │       └── pkgs/
+│   │       │           ├── cps/
+│   │       │           │   └── conf/
+│   │       │           │       └── BBserver.properties.tmpl
+│   │       │           └── ets/
+│   │       │               └── conf/
+│   │       │                   └── BBserver.properties.tmpl
+│   │       └── var/
+│   │           └── named/
+│   │               ├── bbu.lab1.routefree.com
+│   │               └── reverse-dns
+│   └── server72/
+│       ├── broadon.conf
+│       └── files/
+│           ├── etc/
+│           │   └── named.conf
+│           └── opt/
+│               └── broadon/
+│                   └── pkgs/
+│                       ├── cps/
+│                       │   └── conf/
+│                       │       └── BBserver.properties.tmpl
+│                       └── ets/
+│                           └── conf/
+│                               └── BBserver.properties.tmpl
+├── lab2/
+│   ├── common/
+│   │   ├── broadon.conf
+│   │   └── files/
+│   │       ├── etc/
+│   │       │   ├── named.conf
+│   │       │   └── resolv.conf
+│   │       ├── flash/
+│   │       │   ├── devel-CA-cert.raw
+│   │       │   ├── devel-CA-key.pem
+│   │       │   ├── devel-eTicket-cert.raw
+│   │       │   ├── devel-eTicket-hw-key.pem
+│   │       │   ├── devel-eTicket-sw-key.pem
+│   │       │   ├── devel-mftr-cert.raw
+│   │       │   ├── devel-publisher-cert.raw
+│   │       │   ├── devel-publisher-hw-key.pem
+│   │       │   ├── devel-publisher-sw-key.pem
+│   │       │   ├── devel-root-cert.pem
+│   │       │   ├── devel-root-key.pem
+│   │       │   └── devel-root-sw-key.pem
+│   │       ├── opt/
+│   │       │   └── broadon/
+│   │       │       └── pkgs/
+│   │       │           ├── cls/
+│   │       │           │   └── conf/
+│   │       │           │       └── CLSconfig.properties
+│   │       │           ├── cps/
+│   │       │           │   └── conf/
+│   │       │           │       └── BBserver.properties.tmpl.cps
+│   │       │           ├── ets/
+│   │       │           │   └── conf/
+│   │       │           │       └── BBserver.properties.tmpl.ets
+│   │       │           └── pcis/
+│   │       │               └── conf/
+│   │       │                   └── BBserver.properties.tmpl
+│   │       └── var/
+│   │           └── named/
+│   │               ├── lab2.routefree.com
+│   │               └── reverse-dns
+│   ├── server71/
+│   │   └── broadon.conf
+│   ├── server72/
+│   │   ├── broadon.conf
+│   │   └── files/
+│   │       └── opt/
+│   │           └── nfast/
+│   │               └── kmdata/
+│   │                   ├── hardserver.d/
+│   │                   │   ├── kneti-019D-CF1A-5C1D
+│   │                   │   └── kneti-2329-DCFD-0AD6
+│   │                   ├── local/
+│   │                   │   ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_1
+│   │                   │   ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_2
+│   │                   │   ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_3
+│   │                   │   ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_4
+│   │                   │   ├── cards_98dc464cdbb7171fb469668195df4cdcc479ff1a
+│   │                   │   ├── key_custom_043a2319a4a32c60d09f4abaa13e331409b772fa
+│   │                   │   ├── key_embed_08164abb71405bfec266da8f9e3474bab1d925c7
+│   │                   │   ├── key_embed_665c13f5575c986cd53e5ba897856a3dde0fb9f0
+│   │                   │   ├── key_embed_7f4c69123ce50842854f9de6c57170f69851a8fa
+│   │                   │   ├── key_embed_ab08026273cbd2eda9d1077bf8b0d886b3b7dbd1
+│   │                   │   ├── key_embed_aff0f842f7154e781d69d1e385e738ebeae44c05
+│   │                   │   ├── key_pkcs11_uccf0ebc1320660374052cc4138e67f0177992f34f-f0ed48653c056b62b8e38a4fb4e028f63d14c7c4
+│   │                   │   ├── module_019D-CF1A-5C1D
+│   │                   │   ├── module_2329-DCFD-0AD6
+│   │                   │   └── world
+│   │                   ├── preload/
+│   │                   │   └── default
+│   │                   └── see/
+│   │                       └── signer.data.sar
+│   ├── server73/
+│   │   └── broadon.conf
+│   └── server74/
+│       └── broadon.conf
+├── lab3/
+│   ├── common/
+│   │   ├── broadon.conf
+│   │   ├── broadon.conf.use_lab1_db
+│   │   ├── broadon.conf.use_lab3_db
+│   │   └── files/
+│   │       ├── CVS/
+│   │       │   ├── Entries
+│   │       │   ├── Repository
+│   │       │   └── Root
+│   │       ├── etc/
+│   │       │   └── resolv.conf
+│   │       └── flash/
+│   │           ├── ca_chain.pem
+│   │           ├── devel-CA-cert.raw
+│   │           ├── devel-eCard-cert.pem
+│   │           ├── devel-eTicket-cert.raw-r1.1
+│   │           ├── devel-eTicket-cert.raw-r1.2
+│   │           ├── devel-eTicket-hw-key.pem-r1.1
+│   │           ├── devel-eTicket-hw-key.pem-r1.2
+│   │           ├── devel-eTicket-sw-key.pem-r1.2
+│   │           ├── devel-publisher-cert.raw-r1.1
+│   │           ├── devel-publisher-cert.raw-r1.2
+│   │           ├── devel-publisher-hw-key.pem-r1.1
+│   │           ├── devel-publisher-hw-key.pem-r1.2
+│   │           ├── devel-publisher-sw-key.pem-r1.2
+│   │           ├── devel-root-cert.pem
+│   │           ├── identity.pem
+│   │           ├── jssecacerts
+│   │           ├── keystore
+│   │           ├── private_key.pem
+│   │           └── root_cert.pem
+│   ├── server64/
+│   │   ├── broadon.conf
+│   │   ├── broadon.conf.lb_off
+│   │   ├── broadon.conf.lb_on
+│   │   ├── broadon.conf.orig
+│   │   ├── files/
+│   │   │   ├── etc/
+│   │   │   │   └── named.conf
+│   │   │   └── opt/
+│   │   │       └── broadon/
+│   │   │           └── pkgs/
+│   │   │               ├── cps/
+│   │   │               │   └── conf/
+│   │   │               │       └── BBserver.properties.tmpl
+│   │   │               ├── ets/
+│   │   │               │   └── conf/
+│   │   │               │       └── BBserver.properties.tmpl
+│   │   │               └── pas/
+│   │   │                   └── conf/
+│   │   │                       └── BBserver.properties.tmpl
+│   │   └── postinst
+│   └── server65/
+│       ├── broadon.conf
+│       ├── broadon.conf.lb_off
+│       ├── broadon.conf.lb_on
+│       ├── files/
+│       │   ├── etc/
+│       │   │   └── named.conf
+│       │   └── opt/
+│       │       ├── broadon/
+│       │       │   └── pkgs/
+│       │       │       ├── cls/
+│       │       │       │   └── conf/
+│       │       │       │       └── CLSconfig.properties
+│       │       │       ├── cps/
+│       │       │       │   └── conf/
+│       │       │       │       └── BBserver.properties.tmpl
+│       │       │       ├── ets/
+│       │       │       │   └── conf/
+│       │       │       └── pcis/
+│       │       │           └── conf/
+│       │       │               └── BBserver.properties.tmpl
+│       │       └── nfast/
+│       │           └── kmdata/
+│       │               ├── hardserver.d/
+│       │               │   └── kneti-2329-DCFD-0AD6
+│       │               ├── local/
+│       │               │   ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_1
+│       │               │   ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_2
+│       │               │   ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_3
+│       │               │   ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_4
+│       │               │   ├── cards_98dc464cdbb7171fb469668195df4cdcc479ff1a
+│       │               │   ├── key_custom_043a2319a4a32c60d09f4abaa13e331409b772fa
+│       │               │   ├── key_embed_08164abb71405bfec266da8f9e3474bab1d925c7
+│       │               │   ├── key_embed_665c13f5575c986cd53e5ba897856a3dde0fb9f0
+│       │               │   ├── key_embed_7f4c69123ce50842854f9de6c57170f69851a8fa
+│       │               │   ├── key_embed_ab08026273cbd2eda9d1077bf8b0d886b3b7dbd1
+│       │               │   ├── key_embed_aff0f842f7154e781d69d1e385e738ebeae44c05
+│       │               │   ├── key_pkcs11_uccf0ebc1320660374052cc4138e67f0177992f34f-f0ed48653c056b62b8e38a4fb4e028f63d14c7c4
+│       │               │   ├── module_2329-DCFD-0AD6
+│       │               │   └── world
+│       │               ├── preload/
+│       │               │   └── default
+│       │               └── see/
+│       │                   └── signer.data.sar
+│       └── postinst
+└── NOA_test/
+    ├── common/
+    │   ├── broadon.conf
+    │   └── files/
+    │       ├── etc/
+    │       │   └── resolv.conf
+    │       ├── flash/
+    │       │   ├── ca_chain.pem
+    │       │   ├── devel-CA-cert.raw
+    │       │   ├── devel-eCard-cert.pem
+    │       │   ├── devel-eTicket-cert.raw-r1.1
+    │       │   ├── devel-eTicket-cert.raw-r1.2
+    │       │   ├── devel-eTicket-hw-key.pem-r1.1
+    │       │   ├── devel-eTicket-hw-key.pem-r1.2
+    │       │   ├── devel-eTicket-sw-key.pem-r1.2
+    │       │   ├── devel-publisher-cert.raw-r1.1
+    │       │   ├── devel-publisher-cert.raw-r1.2
+    │       │   ├── devel-publisher-hw-key.pem-r1.1
+    │       │   ├── devel-publisher-hw-key.pem-r1.2
+    │       │   ├── devel-publisher-sw-key.pem-r1.2
+    │       │   ├── devel-root-cert.pem
+    │       │   ├── identity.pem
+    │       │   ├── jssecacerts
+    │       │   ├── keystore
+    │       │   ├── private_key.pem
+    │       │   └── root_cert.pem
+    │       └── opt/
+    │           ├── broadon/
+    │           │   └── pkgs/
+    │           │       └── cps/
+    │           │           └── conf/
+    │           │               └── BBserver.properties.tmpl
+    │           └── nfast/
+    │               └── kmdata/
+    │                   └── local/
+    │                       ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_1
+    │                       ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_2
+    │                       ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_3
+    │                       ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_4
+    │                       ├── cards_925dbf68eeac4a442c74d034610cb0bc75dad534
+    │                       ├── key_embed_665c13f5575c986cd53e5ba897856a3dde0fb9f0
+    │                       ├── key_embed_ab08026273cbd2eda9d1077bf8b0d886b3b7dbd1
+    │                       ├── module_5FF1-DB14-68D2
+    │                       ├── module_97C6-DB81-30DE
+    │                       └── world
+    ├── vctstappa121/
+    │   ├── broadon.conf
+    │   ├── files/
+    │   │   ├── opt/
+    │   │   │   └── nfast/
+    │   │   │       └── kmdata/
+    │   │   │           ├── local/
+    │   │   │           │   ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_1
+    │   │   │           │   ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_2
+    │   │   │           │   ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_3
+    │   │   │           │   ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_4
+    │   │   │           │   ├── cards_925dbf68eeac4a442c74d034610cb0bc75dad534
+    │   │   │           │   ├── key_embed_665c13f5575c986cd53e5ba897856a3dde0fb9f0
+    │   │   │           │   ├── key_embed_ab08026273cbd2eda9d1077bf8b0d886b3b7dbd1
+    │   │   │           │   ├── module_5FF1-DB14-68D2
+    │   │   │           │   ├── module_97C6-DB81-30DE
+    │   │   │           │   └── world
+    │   │   │           └── see/
+    │   │   │               └── signer.data.sar
+    │   │   └── var/
+    │   │       └── named/
+    │   │           └── chroot/
+    │   │               └── etc/
+    │   │                   └── named.conf
+    │   ├── postinst
+    │   └── preinst
+    ├── vctstappb125/
+    │   ├── broadon.conf
+    │   ├── postinst
+    │   └── preinst
+    ├── vctstweba101/
+    │   ├── broadon.conf
+    │   ├── files/
+    │   │   └── var/
+    │   │       └── named/
+    │   │           └── chroot/
+    │   │               └── etc/
+    │   │                   └── named.conf
+    │   ├── postinst
+    │   └── preinst
+    └── vctstweba102/
+        ├── broadon.conf
+        ├── files/
+        │   └── var/
+        │       └── named/
+        │           └── chroot/
+        │               └── etc/
+        │                   └── named.conf
+        ├── postinst
+        └── preinst

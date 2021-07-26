@@ -1,0 +1,83 @@
+vc/
+├── build/
+│   ├── libraries/
+│   │   └── ec/
+│   │       ├── include/
+│   │       │   └── ec.h
+│   │       ├── makefile
+│   │       └── src/
+│   │           ├── ec_api.cpp
+│   │           ├── ec_asyncOp.cpp
+│   │           ├── ec_asyncOp.h
+│   │           ├── ec_base64.cpp
+│   │           ├── ec_base64.h
+│   │           ├── ec_buyPoints.cpp
+│   │           ├── ec_buyPoints.h
+│   │           ├── ec_comm.h
+│   │           ├── ec_common.h
+│   │           ├── ec_config.h
+│   │           ├── ec_content.cpp
+│   │           ├── ec_content.h
+│   │           ├── ec_deleteTicket.cpp
+│   │           ├── ec_file.cpp
+│   │           ├── ec_file.h
+│   │           ├── ec_getPoints.cpp
+│   │           ├── ec_getPoints.h
+│   │           ├── ec_getTitle.cpp
+│   │           ├── ec_getTitle.h
+│   │           ├── ec_getUpApps.cpp
+│   │           ├── ec_getUpApps.h
+│   │           ├── ec_http.cpp
+│   │           ├── ec_http.h
+│   │           ├── ec_js.cpp
+│   │           ├── ec_js.h
+│   │           ├── ec_md5.cpp
+│   │           ├── ec_md5.h
+│   │           ├── ec_md5_global.h
+│   │           ├── ec_md5c.c
+│   │           ├── ec_md5c.h
+│   │           ├── ec_misc.cpp
+│   │           ├── ec_porting.h
+│   │           ├── ec_purchaseTitle.cpp
+│   │           ├── ec_purchaseTitle.h
+│   │           ├── ec_redeemECard.cpp
+│   │           ├── ec_redeemECard.h
+│   │           ├── ec_registerVC.cpp
+│   │           ├── ec_registerVC.h
+│   │           ├── ec_soap.cpp
+│   │           ├── ec_soap.h
+│   │           ├── ec_stl.h
+│   │           ├── ec_string.cpp
+│   │           ├── ec_string.h
+│   │           ├── ec_syncTickets.cpp
+│   │           ├── ec_syncTickets.h
+│   │           ├── ec_ticketedPurchase.h
+│   │           ├── ec_trace.h
+│   │           ├── ssl_socket.cpp
+│   │           └── ssl_socket.h
+│   └── tests/
+│       └── ec/
+│           ├── makefile
+│           └── src/
+│               ├── ec_test.cpp
+│               ├── ec_test.h
+│               ├── ec_test_main.cpp
+│               ├── ec_test_resp.cpp
+│               └── ec_test_resp.h
+├── ec/
+│   ├── ec.vcproj
+│   ├── ec_config_win32.h
+│   ├── ec_ext_file.cpp
+│   ├── ec_ext_file.h
+│   ├── ec_ext_md5.cpp
+│   ├── ec_porting_other_plat.h
+│   ├── ec_stl_linux.h
+│   ├── ec_stl_win32.h
+│   ├── ec_trace_win32.h
+│   ├── Makefile
+│   ├── rsyncfiles_ec_lib
+│   ├── rsyncfiles_ec_lib_flat
+│   └── rsyncfiles_ec_test_flat
+├── test/
+│   └── test.vcproj
+└── vc.sln
