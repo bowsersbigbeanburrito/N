@@ -1,0 +1,334 @@
+release/
+├── ali_release
+├── m3358_2004_05_21/
+│   └── m3358_2004_05_21/
+│       └── m3358/
+│           ├── doc/
+│           │   └── mips_c/
+│           │       ├── bin2text.exe
+│           │       ├── example/
+│           │       │   ├── Boot/
+│           │       │   │   ├── boot.S
+│           │       │   │   ├── eregdef.h
+│           │       │   │   ├── osboot.h
+│           │       │   │   ├── regsave.h
+│           │       │   │   ├── sema.h
+│           │       │   │   └── usercfg.h
+│           │       │   ├── code/
+│           │       │   │   ├── hardware.c
+│           │       │   │   ├── hardware.h
+│           │       │   │   └── my_main.c
+│           │       │   ├── data.txt
+│           │       │   ├── debug.a
+│           │       │   ├── disasm.txt
+│           │       │   ├── link.lnk
+│           │       │   ├── makefile
+│           │       │   └── my_main.abs
+│           │       └── M3358_SimEnv_c.pdf
+│           ├── lib/
+│           │   └── umc18/
+│           │       └── verilog/
+│           │           ├── UMC018AG_AASG_019.v
+│           │           ├── UMC018AG_ABSG_005.v
+│           │           ├── UMC018AG_AGSG_005.v
+│           │           ├── UMC018AG_OBG_ALIIO_G_000.v
+│           │           └── UMC018AG_OEG_IODACADC_G_001.v
+│           ├── M3358R_SimEnv_RN
+│           ├── rsim/
+│           │   ├── main_dir.csh
+│           │   ├── pattern/
+│           │   │   └── rtl/
+│           │   │       ├── mips/
+│           │   │       │   ├── init/
+│           │   │       │   │   └── m3358_init/
+│           │   │       │   │       └── normal_mode_p1/
+│           │   │       │   │           ├── code.txt
+│           │   │       │   │           ├── data_sysctrl.txt
+│           │   │       │   │           ├── nb_init.addr
+│           │   │       │   │           ├── nb_init.msg
+│           │   │       │   │           ├── nb_init.s
+│           │   │       │   │           ├── sys_ctrl_init.addr
+│           │   │       │   │           ├── sys_ctrl_init.msg
+│           │   │       │   │           └── sys_ctrl_init.s
+│           │   │       │   └── north/
+│           │   │       │       └── flash_test/
+│           │   │       │           ├── code.txt
+│           │   │       │           ├── data.txt
+│           │   │       │           ├── flash_test.addr
+│           │   │       │           ├── flash_test.msg
+│           │   │       │           ├── flash_test.s
+│           │   │       │           ├── init_code.msg
+│           │   │       │           └── local.p
+│           │   │       └── verilog/
+│           │   │           ├── gi/
+│           │   │           │   ├── ipc/
+│           │   │           │   │   └── cpu_vec_07.v
+│           │   │           │   └── verilog/
+│           │   │           │       └── cpu_vec_07.v
+│           │   │           ├── pci/
+│           │   │           │   ├── cpu2tt_cfg_p3/
+│           │   │           │   │   ├── cpu_vec_04.v
+│           │   │           │   │   └── local.p
+│           │   │           │   ├── cpu2tt_io_p1/
+│           │   │           │   │   ├── cpu_vec_04.v
+│           │   │           │   │   └── local.p
+│           │   │           │   ├── cpu2tt_mem_p2/
+│           │   │           │   │   ├── cpu_vec_04.v
+│           │   │           │   │   └── local.p
+│           │   │           │   ├── pci2_sdram_p1/
+│           │   │           │   │   ├── local.p
+│           │   │           │   │   └── pci_vec.v
+│           │   │           │   └── pci_sdram_p1/
+│           │   │           │       ├── local.p
+│           │   │           │       └── pci_vec.v
+│           │   │           └── sdram/
+│           │   │               └── cpu_rw_mem001/
+│           │   │                   └── cpu_vec_02.v
+│           │   ├── stimu.c/
+│           │   │   ├── cpu/
+│           │   │   │   ├── lib.cpu.c
+│           │   │   │   └── lib.cpu.p.c
+│           │   │   ├── gi/
+│           │   │   │   └── lib.gi.c
+│           │   │   ├── north/
+│           │   │   │   └── lib.nb.p.c
+│           │   │   ├── vx.c
+│           │   │   ├── vx.check.c
+│           │   │   ├── vx.fast.c
+│           │   │   ├── vx.fast_cov.c
+│           │   │   ├── vx.fast_snap.c
+│           │   │   ├── vx.fast_tcl.c
+│           │   │   ├── vx.gsim_fast.c
+│           │   │   ├── vx.gsim_fast_snap.c
+│           │   │   ├── vx.gsim_fast_tcl.c
+│           │   │   ├── vx.gsim_slow.c
+│           │   │   ├── vx.gsim_test.c
+│           │   │   ├── vx.gsim_tog.c
+│           │   │   ├── vx.slow.c
+│           │   │   ├── vx.slow_cov.c
+│           │   │   ├── vx.verilog.c
+│           │   │   └── vx.vhdl.c
+│           │   ├── stimu.t/
+│           │   │   └── cpu/
+│           │   │       └── t2risc1.cfg
+│           │   └── stimu.v/
+│           │       ├── cmdu.v
+│           │       ├── cpu/
+│           │       │   ├── cmdu.cpu.v
+│           │       │   ├── cpu.define.v
+│           │       │   ├── cpu_vec_00_end.v
+│           │       │   ├── cpu_vec_01_end.v
+│           │       │   ├── cpu_vec_02_end.v
+│           │       │   ├── cpu_vec_03_end.v
+│           │       │   ├── cpu_vec_04_end.v
+│           │       │   ├── cpu_vec_05_end.v
+│           │       │   ├── cpu_vec_06_end.v
+│           │       │   ├── cpu_vec_07_end.v
+│           │       │   ├── cpu_vec_08_end.v
+│           │       │   ├── cpu_vec_09_end.v
+│           │       │   ├── cpu_vec_10_end.v
+│           │       │   ├── cpu_vec_11_end.v
+│           │       │   ├── cpu_vec_12_end.v
+│           │       │   ├── cpu_vec_13_end.v
+│           │       │   ├── cpu_vec_14_end.v
+│           │       │   ├── cpu_vec_15_end.v
+│           │       │   ├── cpu_vec_16_end.v
+│           │       │   ├── cpu_vec_17_end.v
+│           │       │   ├── cpu_vec_18_end.v
+│           │       │   ├── cpu_vec_19_end.v
+│           │       │   ├── cpu_vec_20_end.v
+│           │       │   ├── top.cpu.v
+│           │       │   ├── top.cpu_def.v
+│           │       │   └── util.cpu.v
+│           │       ├── end_top.v
+│           │       ├── gi/
+│           │       │   ├── top.gi.v
+│           │       │   ├── top.gi_def.v
+│           │       │   └── util.gi.v
+│           │       ├── init.v
+│           │       ├── north/
+│           │       │   ├── pci_vec_end.v
+│           │       │   ├── top.nb.v
+│           │       │   ├── top.nb_def.v
+│           │       │   └── util.nb.v
+│           │       ├── top.define.v
+│           │       ├── top.param.v
+│           │       ├── top.v
+│           │       ├── util.v
+│           │       └── vec_head.v
+│           ├── rsrc/
+│           │   ├── chip/
+│           │   │   ├── AUDIO_CLOCK_GEN.v
+│           │   │   ├── chip.v
+│           │   │   ├── clock_divider.v
+│           │   │   ├── clock_gateway.v
+│           │   │   ├── clock_gen.v
+│           │   │   ├── core.v
+│           │   │   ├── ide_clock_divider.v
+│           │   │   ├── IOPAD.v
+│           │   │   ├── PAD_MISC.v
+│           │   │   ├── PAD_RST_STRAP.v
+│           │   │   ├── scan_mux.v
+│           │   │   ├── usb_pad.v
+│           │   │   ├── VIDEO_CLOCK_GEN.v
+│           │   │   └── vssver.scc
+│           │   ├── chipset/
+│           │   │   └── t2_chipset.v
+│           │   ├── cpu/
+│           │   │   └── cpu.vp
+│           │   ├── gi/
+│           │   │   ├── gi_dummy.v
+│           │   │   ├── gi_models.v
+│           │   │   └── gi_pci.v
+│           │   ├── hblk/
+│           │   │   ├── chip/
+│           │   │   │   ├── AUDIO_PLL.v
+│           │   │   │   ├── COMB_DUMMY.v
+│           │   │   │   ├── CPU_PLL.v
+│           │   │   │   ├── DLYCELL01.v
+│           │   │   │   ├── DLYCELL02.v
+│           │   │   │   ├── DLYCELL03.v
+│           │   │   │   ├── DLYCELL04.v
+│           │   │   │   ├── DLYCELL05.v
+│           │   │   │   ├── DLYCELL09.v
+│           │   │   │   ├── DLYCELL10.v
+│           │   │   │   ├── DLYCELL20.v
+│           │   │   │   ├── F27_PLL.v
+│           │   │   │   ├── GATX20.v
+│           │   │   │   ├── ide_clock_divider.v
+│           │   │   │   ├── MEM_PLL.v
+│           │   │   │   ├── P_DLY_CHAIN32.v
+│           │   │   │   ├── PIXCLK_DLY_CHAIN.pnet
+│           │   │   │   ├── pll_clk_src.v
+│           │   │   │   ├── SEQ_DUMMYJ.v
+│           │   │   │   ├── spg.v
+│           │   │   │   ├── TEST_DLY_CHAIN64.v
+│           │   │   │   └── VIDEO_CLK_DLY_CHAIN.v
+│           │   │   ├── cpu/
+│           │   │   │   ├── DW01_add.v
+│           │   │   │   ├── DW01_csa.v
+│           │   │   │   ├── DW01_inc.v
+│           │   │   │   ├── DW01_sub.v
+│           │   │   │   ├── DW02_mult.v
+│           │   │   │   ├── DW02_multp.v
+│           │   │   │   ├── GATX20.v
+│           │   │   │   ├── memory.v
+│           │   │   │   ├── mux2to1_f.v
+│           │   │   │   ├── mux4to1_f.v
+│           │   │   │   ├── nandnand322_f.v
+│           │   │   │   ├── nandnand332_f.v
+│           │   │   │   ├── nandnand3333_f.v
+│           │   │   │   ├── nandnand4332_f.v
+│           │   │   │   ├── nandnand433_f.v
+│           │   │   │   ├── nandnand4432_f.v
+│           │   │   │   ├── nor4_f.v
+│           │   │   │   ├── RF2R2W.v
+│           │   │   │   ├── sdffr.v
+│           │   │   │   ├── sedff.v
+│           │   │   │   ├── sedfftr.v
+│           │   │   │   ├── U018SRA12X_1024X32M4.v
+│           │   │   │   ├── U018SRA12X_1024X32M8.v
+│           │   │   │   ├── U018SRA12X_128X24M4.v
+│           │   │   │   ├── U018SRA12X_256X22M4.v
+│           │   │   │   └── U018SRA12X_256X64M4.v
+│           │   │   └── north/
+│           │   │       ├── ram16x32d1.v
+│           │   │       ├── ram32x32d4.v
+│           │   │       ├── ram4x32d.v
+│           │   │       ├── ram8x32d1.v
+│           │   │       └── ram8x32d4.v
+│           │   ├── model/
+│           │   │   ├── chipset/
+│           │   │   │   ├── bootrom.v
+│           │   │   │   ├── bus_dec.v
+│           │   │   │   ├── bus_test.v
+│           │   │   │   ├── cpu_bist_ext_agent.v
+│           │   │   │   ├── device_bh.v
+│           │   │   │   ├── disp_device_bh.v
+│           │   │   │   ├── local_io.v
+│           │   │   │   └── sdram.v
+│           │   │   ├── cpu/
+│           │   │   │   └── cpu_model_all.vp
+│           │   │   └── north/
+│           │   │       ├── bh_373.v
+│           │   │       ├── boot_rom.v
+│           │   │       ├── dimm_bh.v
+│           │   │       ├── dma_device.v
+│           │   │       ├── error_rpt.v
+│           │   │       ├── int_bh.v
+│           │   │       ├── mm.vp
+│           │   │       ├── monitor.v
+│           │   │       ├── mt48lc16m8a2.v
+│           │   │       ├── mt48lc16m8a2_144.v
+│           │   │       ├── mt48lc1m16a1.v
+│           │   │       ├── mt48lc4m16a2.v
+│           │   │       ├── mt48lc8m8a2.v
+│           │   │       ├── strap_pin_bh.v
+│           │   │       ├── tt.vp
+│           │   │       └── vssver.scc
+│           │   └── north/
+│           │       ├── mbiu/
+│           │       │   └── nb_cpu_biu_all.vp
+│           │       ├── pbiu/
+│           │       │   ├── p_biu.v
+│           │       │   └── p_host_all.vp
+│           │       └── sdram/
+│           │           └── mem_intf_all.vp
+│           └── work/
+│               └── public/
+│                   └── rsim/
+│                       ├── bak/
+│                       │   └── run
+│                       ├── bb2_iosim/
+│                       │   ├── iosim/
+│                       │   │   ├── cmd/
+│                       │   │   │   ├── cmd.c
+│                       │   │   │   ├── cmd.h
+│                       │   │   │   ├── Makefile
+│                       │   │   │   └── shell.c
+│                       │   │   ├── gi/
+│                       │   │   │   ├── bi_dma.c
+│                       │   │   │   ├── bi_reg_test.c
+│                       │   │   │   ├── check_after_reset
+│                       │   │   │   ├── check_after_reset.ali
+│                       │   │   │   ├── di_reg_test.c
+│                       │   │   │   ├── di_test1
+│                       │   │   │   ├── di_test1.ali
+│                       │   │   │   ├── di_xfer_test.c
+│                       │   │   │   ├── gi_ais.h
+│                       │   │   │   ├── gi_bi.h
+│                       │   │   │   ├── gi_di.h
+│                       │   │   │   ├── gi_rst_chkup.c
+│                       │   │   │   ├── gi_sec.h
+│                       │   │   │   ├── gi_test.c
+│                       │   │   │   ├── gi_test.h
+│                       │   │   │   ├── gi_utils.c
+│                       │   │   │   ├── gi_utils.h
+│                       │   │   │   ├── Makefile
+│                       │   │   │   └── sram_test.c
+│                       │   │   ├── include/
+│                       │   │   │   ├── iosim.h
+│                       │   │   │   └── utils.h
+│                       │   │   ├── lib/
+│                       │   │   │   ├── ipc.c
+│                       │   │   │   ├── Makefile
+│                       │   │   │   ├── socket.c
+│                       │   │   │   └── utils.c
+│                       │   │   └── sample/
+│                       │   │       ├── Makefile
+│                       │   │       └── test.c
+│                       │   ├── Makefile
+│                       │   └── pli/
+│                       │       ├── bb2.ctf
+│                       │       ├── ipc.h
+│                       │       ├── Makefile
+│                       │       ├── Makefile.vcs
+│                       │       ├── Makefile_pliwiz.nc
+│                       │       ├── pli.tab
+│                       │       ├── plusarg.c
+│                       │       ├── socket.c
+│                       │       └── veriuser.c
+│                       ├── dump.v
+│                       ├── iosim_run
+│                       └── run
+└── util.gi.v

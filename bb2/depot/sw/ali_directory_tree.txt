@@ -1,0 +1,2511 @@
+ali/
+├── alidefs
+├── Makefile
+└── sdk/
+    ├── COMMON/
+    │   ├── documents/
+    │   │   ├── CPU_info.txt
+    │   │   ├── Frequenty_Asked_Questions.txt
+    │   │   └── Software_installation_on_T6305_6_v1.00_031209.pdf
+    │   ├── inc/
+    │   │   ├── Makefile
+    │   │   ├── t2mpgdec.h
+    │   │   └── t2typedef.h
+    │   ├── libs/
+    │   │   ├── alilibdefs
+    │   │   ├── atheros_lib/
+    │   │   │   ├── chang_log_athpci.txt
+    │   │   │   └── latest/
+    │   │   │       ├── athpci.a
+    │   │   │       ├── latest_version_is_v0.5.2.txt
+    │   │   │       ├── M630X_SW_hwlibspce_athpci.pdf
+    │   │   │       └── Makefile
+    │   │   ├── avmisc_lib/
+    │   │   │   └── latest/
+    │   │   │       └── Makefile
+    │   │   ├── avpp_lib/
+    │   │   │   ├── audio/
+    │   │   │   │   ├── ChangeLog_audio.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── latest_version_is_v0.98d.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       ├── t2audio.a
+    │   │   │   │       └── t2audio.h
+    │   │   │   └── video/
+    │   │   │       ├── ChangeLog_video.txt
+    │   │   │       └── latest/
+    │   │   │           ├── latest_version_is_v0.98f.txt
+    │   │   │           ├── Makefile
+    │   │   │           ├── t2video.a
+    │   │   │           └── t2video.h
+    │   │   ├── bios_lib/
+    │   │   │   ├── changelog.txt
+    │   │   │   ├── latest/
+    │   │   │   │   ├── BIOS library Specification.pdf
+    │   │   │   │   ├── BIOS.h
+    │   │   │   │   ├── BIOS_cdr.h
+    │   │   │   │   ├── BIOS_cdr_defines.h
+    │   │   │   │   ├── BIOS_flash.h
+    │   │   │   │   ├── BIOS_irc.h
+    │   │   │   │   ├── BIOS_panel.h
+    │   │   │   │   ├── BIOS_panel_defines.h
+    │   │   │   │   ├── BIOS_pm.h
+    │   │   │   │   ├── BIOS_sys.h
+    │   │   │   │   ├── BIOS_sys_defines.h
+    │   │   │   │   ├── BIOS_tve.h
+    │   │   │   │   ├── BIOS_vkeys.h
+    │   │   │   │   ├── latest_version_is_v1.04.txt
+    │   │   │   │   └── Makefile
+    │   │   │   └── readme.txt
+    │   │   ├── c_lib/
+    │   │   │   ├── change_log.txt
+    │   │   │   └── latest/
+    │   │   │       ├── glue.o
+    │   │   │       ├── latest_version_is_v0.52.txt
+    │   │   │       ├── Makefile
+    │   │   │       ├── t2malloc.o
+    │   │   │       └── t2malloc2.o
+    │   │   ├── comsub_lib/
+    │   │   │   ├── change_log.txt
+    │   │   │   └── latest/
+    │   │   │       ├── comsub.a
+    │   │   │       ├── latest_version_is_v0.98d.txt
+    │   │   │       └── Makefile
+    │   │   ├── DE_lib/
+    │   │   │   ├── change_log.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is_v1.10.txt
+    │   │   │       ├── Makefile
+    │   │   │       ├── tdiseng.a
+    │   │   │       └── TDisplayEngine.h
+    │   │   ├── decode_lib/
+    │   │   │   ├── cdda_lib/
+    │   │   │   │   ├── change_log.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── cddadecoder.h
+    │   │   │   │       ├── cddalib.a
+    │   │   │   │       ├── latest_version_is_v0.97c.txt
+    │   │   │   │       └── Makefile
+    │   │   │   ├── Makefile
+    │   │   │   ├── mp3_lib/
+    │   │   │   │   ├── change_log.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── latest_version_is_v0.65.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       ├── mp3dec.a
+    │   │   │   │       └── mp3decoder.h
+    │   │   │   ├── mp4_lib/
+    │   │   │   │   ├── change_log.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── latest_version_is_v1.05.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       ├── mp4lib.a
+    │   │   │   │       └── mpeg4dec.h
+    │   │   │   ├── mpg_lib/
+    │   │   │   │   ├── change_log.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── latest_version_is_v2.1.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       ├── mpegdecoder.a
+    │   │   │   │       ├── mpegdecoder.h
+    │   │   │   │       ├── mpegtsdecoder.h
+    │   │   │   │       ├── mpgfiledecoder.h
+    │   │   │   │       └── mpvideo.a
+    │   │   │   ├── null_lib/
+    │   │   │   │   ├── change_log.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── latest_version_is_v0.94.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       ├── nulldecoder.a
+    │   │   │   │       └── nulldecoder.h
+    │   │   │   ├── T6304 decoder interface.pdf
+    │   │   │   └── wma_lib/
+    │   │   │       ├── change_log.txt
+    │   │   │       └── latest/
+    │   │   │           ├── latest_version_is_v0.8.txt
+    │   │   │           ├── Makefile
+    │   │   │           ├── wmadec.a
+    │   │   │           └── wmadecoder.h
+    │   │   ├── disc_lib/
+    │   │   │   ├── change.txt
+    │   │   │   └── latest/
+    │   │   │       ├── disc.a
+    │   │   │       ├── disc.h
+    │   │   │       ├── latest_version_is_v0.13.txt
+    │   │   │       ├── Makefile
+    │   │   │       └── T6305_sw_DISClib_intspce.pdf
+    │   │   ├── dsp_lib/
+    │   │   │   ├── changelog.txt
+    │   │   │   └── latest/
+    │   │   │       ├── dspac3.a
+    │   │   │       ├── dspdig.a
+    │   │   │       ├── dsplib.a
+    │   │   │       ├── dsplib.h
+    │   │   │       ├── dsplibc.a
+    │   │   │       ├── dspmp2dec.a
+    │   │   │       ├── dspmp3dec.a
+    │   │   │       ├── dsppcm.a
+    │   │   │       ├── dspwma.a
+    │   │   │       ├── latest_version_is_v1.0.1.7.txt
+    │   │   │       └── Makefile
+    │   │   ├── eeprom_lib/
+    │   │   │   └── latest/
+    │   │   │       ├── 630x_sw_eeprom_lib_spec.pdf
+    │   │   │       ├── eeprom.h
+    │   │   │       ├── eeprom_2k.a
+    │   │   │       ├── latest_version_is_v1.2.txt
+    │   │   │       └── Makefile
+    │   │   ├── Eth_com_lib/
+    │   │   │   ├── chang_log_eth_com.txt
+    │   │   │   └── latest/
+    │   │   │       ├── common.h
+    │   │   │       ├── eth_com.a
+    │   │   │       ├── ip_eth.h
+    │   │   │       ├── latest_version_is_v0.7.4.txt
+    │   │   │       ├── M630X_SW_hwlibspce_eth_com.pdf
+    │   │   │       ├── Makefile
+    │   │   │       └── netcard_com_0.7.4/
+    │   │   │           └── netcard_com_0.7/
+    │   │   │               └── netcard_com_0.7.4/
+    │   │   │                   ├── common.h
+    │   │   │                   ├── ip_eth.c
+    │   │   │                   ├── ip_eth.h
+    │   │   │                   ├── Makefile
+    │   │   │                   ├── pci_init.h
+    │   │   │                   └── readme.txt
+    │   │   ├── fs_lib/
+    │   │   │   ├── ChangLOG.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is _v0.7.6.1.txt
+    │   │   │       ├── Makefile
+    │   │   │       ├── t2fs.a
+    │   │   │       ├── t2fs.h
+    │   │   │       ├── t2stdio.h
+    │   │   │       └── T6304_SW_FSLIB.pdf
+    │   │   ├── gsi_lib/
+    │   │   │   ├── change_log.txt
+    │   │   │   └── latest/
+    │   │   │       ├── gsi.a
+    │   │   │       ├── gsi.h
+    │   │   │       ├── gsi_libspec.pdf
+    │   │   │       ├── latest_version_is _v1.2.txt
+    │   │   │       └── Makefile
+    │   │   ├── harddisc_lib/
+    │   │   │   ├── Changelog.txt
+    │   │   │   └── latest/
+    │   │   │       ├── ata_drv.h
+    │   │   │       ├── hd_pci_it8212.a
+    │   │   │       ├── hd_t2_ide.a
+    │   │   │       ├── latest_version_is _v1.1.txt
+    │   │   │       ├── Makefile
+    │   │   │       └── T6304_hw_harddisk_intspec.pdf
+    │   │   ├── i2c_lib/
+    │   │   │   └── latest/
+    │   │   │       ├── i2c.a
+    │   │   │       ├── I2C_libspce.pdf
+    │   │   │       ├── latest_version_is _v0.4.txt
+    │   │   │       ├── Makefile
+    │   │   │       └── t2i2c.h
+    │   │   ├── image_lib/
+    │   │   │   ├── changelog.txt
+    │   │   │   └── latest/
+    │   │   │       ├── image_dec_spec.pdf
+    │   │   │       ├── imagedec.h
+    │   │   │       ├── latest_version_is_v0.6.5.1.txt
+    │   │   │       ├── libimage.a
+    │   │   │       ├── Makefile
+    │   │   │       └── readme.txt
+    │   │   ├── Intersil_3890_lib/
+    │   │   │   ├── chang_log_islpci.txt
+    │   │   │   └── latest/
+    │   │   │       ├── islpci.a
+    │   │   │       ├── latest_version_is_v0.7.7.txt
+    │   │   │       ├── M630X_SW_hwlibspce_islpci.pdf
+    │   │   │       └── Makefile
+    │   │   ├── log_lib/
+    │   │   │   ├── changelog.txt
+    │   │   │   └── latest/
+    │   │   │       ├── icelog.h
+    │   │   │       ├── latest_version_is_v0.54.txt
+    │   │   │       ├── liblog.a
+    │   │   │       └── Makefile
+    │   │   ├── lwIP_lib/
+    │   │   │   ├── changeLog.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_vesion_is_v0.6.2.42.txt
+    │   │   │       ├── lwIP-M6304-porting/
+    │   │   │       │   ├── changeLog.txt
+    │   │   │       │   ├── CVS/
+    │   │   │       │   │   ├── Entries
+    │   │   │       │   │   ├── Repository
+    │   │   │       │   │   └── Root
+    │   │   │       │   ├── Makefile
+    │   │   │       │   ├── sockets.h
+    │   │   │       │   └── src/
+    │   │   │       │       ├── api/
+    │   │   │       │       │   ├── api_lib.c
+    │   │   │       │       │   ├── api_msg.c
+    │   │   │       │       │   ├── CVS/
+    │   │   │       │       │   │   ├── Entries
+    │   │   │       │       │   │   ├── Repository
+    │   │   │       │       │   │   └── Root
+    │   │   │       │       │   ├── err.c
+    │   │   │       │       │   ├── sockets.c
+    │   │   │       │       │   └── tcpip.c
+    │   │   │       │       ├── arch/
+    │   │   │       │       │   ├── bpstruct.h
+    │   │   │       │       │   ├── cc.h
+    │   │   │       │       │   ├── CVS/
+    │   │   │       │       │   │   ├── Entries
+    │   │   │       │       │   │   ├── Repository
+    │   │   │       │       │   │   └── Root
+    │   │   │       │       │   ├── epstruct.h
+    │   │   │       │       │   ├── perf.h
+    │   │   │       │       │   ├── sys_arch.c
+    │   │   │       │       │   ├── sys_arch.h
+    │   │   │       │       │   └── t2os.h
+    │   │   │       │       ├── core/
+    │   │   │       │       │   ├── autoIP.c
+    │   │   │       │       │   ├── CVS/
+    │   │   │       │       │   │   ├── Entries
+    │   │   │       │       │   │   ├── Repository
+    │   │   │       │       │   │   └── Root
+    │   │   │       │       │   ├── dhcp.c
+    │   │   │       │       │   ├── dns.c
+    │   │   │       │       │   ├── inet.c
+    │   │   │       │       │   ├── inet6.c
+    │   │   │       │       │   ├── ipv4/
+    │   │   │       │       │   │   ├── CVS/
+    │   │   │       │       │   │   │   ├── Entries
+    │   │   │       │       │   │   │   ├── Repository
+    │   │   │       │       │   │   │   └── Root
+    │   │   │       │       │   │   ├── icmp.c
+    │   │   │       │       │   │   ├── ip.c
+    │   │   │       │       │   │   ├── ip_addr.c
+    │   │   │       │       │   │   ├── ip_frag.c
+    │   │   │       │       │   │   └── ip_multicast_igmp.c
+    │   │   │       │       │   ├── ipv6/
+    │   │   │       │       │   │   ├── CVS/
+    │   │   │       │       │   │   │   ├── Entries
+    │   │   │       │       │   │   │   ├── Repository
+    │   │   │       │       │   │   │   └── Root
+    │   │   │       │       │   │   ├── icmp6.c
+    │   │   │       │       │   │   ├── ip6.c
+    │   │   │       │       │   │   ├── ip6_addr.c
+    │   │   │       │       │   │   └── README
+    │   │   │       │       │   ├── mem.c
+    │   │   │       │       │   ├── memp.c
+    │   │   │       │       │   ├── netif.c
+    │   │   │       │       │   ├── pbuf.c
+    │   │   │       │       │   ├── stats.c
+    │   │   │       │       │   ├── sys.c
+    │   │   │       │       │   ├── tcp.c
+    │   │   │       │       │   ├── tcp_in.c
+    │   │   │       │       │   ├── tcp_out.c
+    │   │   │       │       │   └── udp.c
+    │   │   │       │       ├── CVS/
+    │   │   │       │       │   ├── Entries
+    │   │   │       │       │   ├── Repository
+    │   │   │       │       │   └── Root
+    │   │   │       │       ├── FILES
+    │   │   │       │       ├── include/
+    │   │   │       │       │   ├── CVS/
+    │   │   │       │       │   │   ├── Entries
+    │   │   │       │       │   │   ├── Repository
+    │   │   │       │       │   │   └── Root
+    │   │   │       │       │   ├── ipv4/
+    │   │   │       │       │   │   ├── CVS/
+    │   │   │       │       │   │   │   ├── Entries
+    │   │   │       │       │   │   │   ├── Repository
+    │   │   │       │       │   │   │   └── Root
+    │   │   │       │       │   │   └── lwip/
+    │   │   │       │       │   │       ├── CVS/
+    │   │   │       │       │   │       │   ├── Entries
+    │   │   │       │       │   │       │   ├── Repository
+    │   │   │       │       │   │       │   └── Root
+    │   │   │       │       │   │       ├── icmp.h
+    │   │   │       │       │   │       ├── inet.h
+    │   │   │       │       │   │       ├── ip.h
+    │   │   │       │       │   │       ├── ip_addr.h
+    │   │   │       │       │   │       ├── ip_autoIP.h
+    │   │   │       │       │   │       ├── ip_frag.h
+    │   │   │       │       │   │       └── ip_multicast_igmp.h
+    │   │   │       │       │   ├── ipv6/
+    │   │   │       │       │   │   ├── CVS/
+    │   │   │       │       │   │   │   ├── Entries
+    │   │   │       │       │   │   │   ├── Repository
+    │   │   │       │       │   │   │   └── Root
+    │   │   │       │       │   │   └── lwip/
+    │   │   │       │       │   │       ├── CVS/
+    │   │   │       │       │   │       │   ├── Entries
+    │   │   │       │       │   │       │   ├── Repository
+    │   │   │       │       │   │       │   └── Root
+    │   │   │       │       │   │       ├── icmp.h
+    │   │   │       │       │   │       ├── inet.h
+    │   │   │       │       │   │       ├── ip.h
+    │   │   │       │       │   │       └── ip_addr.h
+    │   │   │       │       │   ├── lwip/
+    │   │   │       │       │   │   ├── api.h
+    │   │   │       │       │   │   ├── api_msg.h
+    │   │   │       │       │   │   ├── arch.h
+    │   │   │       │       │   │   ├── CVS/
+    │   │   │       │       │   │   │   ├── Entries
+    │   │   │       │       │   │   │   ├── Repository
+    │   │   │       │       │   │   │   └── Root
+    │   │   │       │       │   │   ├── debug.h
+    │   │   │       │       │   │   ├── def.h
+    │   │   │       │       │   │   ├── dhcp.h
+    │   │   │       │       │   │   ├── dhcp_options.h
+    │   │   │       │       │   │   ├── err.h
+    │   │   │       │       │   │   ├── lwipopts.h
+    │   │   │       │       │   │   ├── mem.h
+    │   │   │       │       │   │   ├── memp.h
+    │   │   │       │       │   │   ├── netif.h
+    │   │   │       │       │   │   ├── opt.h
+    │   │   │       │       │   │   ├── pbuf.h
+    │   │   │       │       │   │   ├── sio.h
+    │   │   │       │       │   │   ├── snmp.h
+    │   │   │       │       │   │   ├── sockets.h
+    │   │   │       │       │   │   ├── stats.h
+    │   │   │       │       │   │   ├── sys.h
+    │   │   │       │       │   │   ├── tcp.h
+    │   │   │       │       │   │   ├── tcpip.h
+    │   │   │       │       │   │   ├── Text1.txt
+    │   │   │       │       │   │   └── udp.h
+    │   │   │       │       │   └── netif/
+    │   │   │       │       │       ├── arp.h
+    │   │   │       │       │       ├── CVS/
+    │   │   │       │       │       │   ├── Entries
+    │   │   │       │       │       │   ├── Repository
+    │   │   │       │       │       │   └── Root
+    │   │   │       │       │       ├── etharp.h
+    │   │   │       │       │       ├── loopif.h
+    │   │   │       │       │       ├── rtlif.h
+    │   │   │       │       │       └── slipif.h
+    │   │   │       │       ├── netif/
+    │   │   │       │       │   ├── arp.c
+    │   │   │       │       │   ├── CVS/
+    │   │   │       │       │   │   ├── Entries
+    │   │   │       │       │   │   ├── Repository
+    │   │   │       │       │   │   └── Root
+    │   │   │       │       │   ├── etharp.c
+    │   │   │       │       │   ├── ethernetif.c
+    │   │   │       │       │   ├── FILES
+    │   │   │       │       │   ├── loopif.c
+    │   │   │       │       │   └── slipif.c
+    │   │   │       │       └── rtlif/
+    │   │   │       │           ├── CVS/
+    │   │   │       │           │   ├── Entries
+    │   │   │       │           │   ├── Repository
+    │   │   │       │           │   └── Root
+    │   │   │       │           └── rtlif.c
+    │   │   │       ├── lwIPLib.a
+    │   │   │       ├── lwIPLib_g.a
+    │   │   │       ├── Makefile
+    │   │   │       ├── Readme.txt
+    │   │   │       ├── sockets.h
+    │   │   │       └── SW_tcp_ip_stack_spce.pdf
+    │   │   ├── Makefile
+    │   │   ├── mp3enc_lib/
+    │   │   │   ├── changelog.txt
+    │   │   │   └── latest/
+    │   │   │       ├── AudioSW_MP3ENC.pdf
+    │   │   │       ├── latest_version_is_v0.1.txt
+    │   │   │       ├── Makefile
+    │   │   │       ├── mp3enc.a
+    │   │   │       └── mp3enc.h
+    │   │   ├── net_fs_lib/
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is_v1.12.txt
+    │   │   │       ├── M6306_net_fs_lib.pdf
+    │   │   │       ├── Makefile
+    │   │   │       └── net_fs.a
+    │   │   ├── nv_lib/
+    │   │   │   ├── change_log.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is_v0.98d.txt
+    │   │   │       ├── Makefile
+    │   │   │       ├── nvintf.h
+    │   │   │       ├── nvlib.a
+    │   │   │       └── tvsb.a
+    │   │   ├── os_lib/
+    │   │   │   ├── ChangeLog.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is_v0.7.1.2.txt
+    │   │   │       ├── Makefile
+    │   │   │       ├── os_start.S
+    │   │   │       ├── t2os.a
+    │   │   │       ├── t2os.h
+    │   │   │       └── T6304_SW_OSLIB.pdf
+    │   │   ├── pci_common_driver/
+    │   │   │   ├── chang_log_pci_com.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is_v0.8.5.txt
+    │   │   │       ├── M630x_SW_hwlibspce_pci_com.pdf
+    │   │   │       ├── Makefile
+    │   │   │       ├── pci_com.a
+    │   │   │       └── pci_init.h
+    │   │   ├── rtl8139_lib/
+    │   │   │   ├── chang_log_rtl8139.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is_v0.7.4.txt
+    │   │   │       ├── M630X_SW_hwlibspce_rtl8139.pdf
+    │   │   │       ├── Makefile
+    │   │   │       ├── rtl8139-ethernet_0.7/
+    │   │   │       │   └── rtl8139-ethernet_0.7.4/
+    │   │   │       │       ├── common.h
+    │   │   │       │       ├── CVS/
+    │   │   │       │       │   ├── Entries
+    │   │   │       │       │   ├── Repository
+    │   │   │       │       │   └── Root
+    │   │   │       │       ├── ip_eth.h
+    │   │   │       │       ├── Makefile
+    │   │   │       │       ├── netdevice.h
+    │   │   │       │       ├── pci_init.h
+    │   │   │       │       ├── readme.txt
+    │   │   │       │       ├── rtl8139.h
+    │   │   │       │       ├── rtl8139.normal.c
+    │   │   │       │       └── rtl8139.task.c
+    │   │   │       └── rtl8139.a
+    │   │   ├── setup_lib/
+    │   │   │   ├── change_log.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is_v0.98d.txt
+    │   │   │       ├── Makefile
+    │   │   │       └── setup.a
+    │   │   ├── soft_dec/
+    │   │   │   ├── Makefile
+    │   │   │   ├── soft_aacdec/
+    │   │   │   │   ├── change_log.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── aacdec.a
+    │   │   │   │       ├── latest_version_is_v0.6.2.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       └── soft_aacdec.h
+    │   │   │   ├── soft_mp3dec/
+    │   │   │   │   ├── change_log.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── latest_version_is_v0.6.6.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       ├── mp3dec.a
+    │   │   │   │       └── soft_mp3dec.h
+    │   │   │   ├── soft_oggdec/
+    │   │   │   │   ├── changelog.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── latest_version_is_v0.6.1.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       ├── oggdec.a
+    │   │   │   │       └── soft_oggdec.h
+    │   │   │   ├── soft_wmadec/
+    │   │   │   │   ├── chang_log_wmadec.txt
+    │   │   │   │   └── latest/
+    │   │   │   │       ├── latest_version_is_v0.6.2.txt
+    │   │   │   │       ├── Makefile
+    │   │   │   │       ├── soft_wmadec.a
+    │   │   │   │       └── softwmadec.h
+    │   │   │   └── softdec_common_h/
+    │   │   │       ├── Makefile
+    │   │   │       └── soft_common.h
+    │   │   ├── ui_lib/
+    │   │   │   ├── change_log.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is_v0.98d.txt
+    │   │   │       ├── Makefile
+    │   │   │       └── ui.a
+    │   │   ├── unzip_lib/
+    │   │   │   ├── latest/
+    │   │   │   │   ├── latest_version_is_v0.50.txt
+    │   │   │   │   ├── libunzip.a
+    │   │   │   │   └── Makefile
+    │   │   │   └── source/
+    │   │   │       └── decompress/
+    │   │   │           ├── adler32.c
+    │   │   │           ├── adler32.o
+    │   │   │           ├── ChangeLog
+    │   │   │           ├── configure
+    │   │   │           ├── decompress.c
+    │   │   │           ├── decompress.h
+    │   │   │           ├── decompress.o
+    │   │   │           ├── infblock.c
+    │   │   │           ├── infblock.h
+    │   │   │           ├── infblock.o
+    │   │   │           ├── infcodes.c
+    │   │   │           ├── infcodes.h
+    │   │   │           ├── infcodes.o
+    │   │   │           ├── inffast.c
+    │   │   │           ├── inffast.h
+    │   │   │           ├── inffast.o
+    │   │   │           ├── inffixed.h
+    │   │   │           ├── inflate.c
+    │   │   │           ├── inflate.o
+    │   │   │           ├── inftrees.c
+    │   │   │           ├── inftrees.h
+    │   │   │           ├── inftrees.o
+    │   │   │           ├── infutil.c
+    │   │   │           ├── infutil.h
+    │   │   │           ├── infutil.o
+    │   │   │           ├── libunzip.a
+    │   │   │           ├── Make1
+    │   │   │           ├── Makefile
+    │   │   │           ├── t2unzip.c
+    │   │   │           ├── t2zlib.h
+    │   │   │           ├── uncompr.c
+    │   │   │           ├── uncompr.o
+    │   │   │           ├── unzip.lnk
+    │   │   │           ├── unzip.map
+    │   │   │           ├── unzip.out
+    │   │   │           ├── zconf.h
+    │   │   │           ├── zlib.h
+    │   │   │           ├── zutil.c
+    │   │   │           ├── zutil.c.bak
+    │   │   │           ├── zutil.h
+    │   │   │           └── zutil.o
+    │   │   ├── usb_lib/
+    │   │   │   ├── change_log.txt
+    │   │   │   └── latest/
+    │   │   │       ├── latest_version_is_v0.9.txt
+    │   │   │       ├── Makefile
+    │   │   │       ├── t2_usb.h
+    │   │   │       ├── usb.a
+    │   │   │       └── usb_libspce.pdf
+    │   │   └── workmode_lib/
+    │   │       ├── ChangeLog.txt
+    │   │       └── latest/
+    │   │           ├── latest_version_is_v1.0.txt
+    │   │           ├── Makefile
+    │   │           ├── setworkmode.a
+    │   │           └── setworkmode.h
+    │   ├── Makefile
+    │   ├── sample_code/
+    │   │   ├── aac_sample/
+    │   │   │   ├── aac_sample/
+    │   │   │   │   ├── aac_readme.txt
+    │   │   │   │   ├── changlog.txt
+    │   │   │   │   ├── objs/
+    │   │   │   │   │   ├── 6304.lnk
+    │   │   │   │   │   └── Makefile
+    │   │   │   │   └── Source/
+    │   │   │   │       ├── mem/
+    │   │   │   │       │   ├── ansi_c.c
+    │   │   │   │       │   ├── ANSI_C.h
+    │   │   │   │       │   ├── ansi_def.h
+    │   │   │   │       │   ├── mem.c
+    │   │   │   │       │   └── mem.h
+    │   │   │   │       ├── os_start.S
+    │   │   │   │       ├── test.c
+    │   │   │   │       └── user3.c
+    │   │   │   └── latest_version_is_v0.4.6.txt
+    │   │   ├── cdda_to_mp3_sample/
+    │   │   │   ├── cdda_to_mp3/
+    │   │   │   │   ├── changelog.txt
+    │   │   │   │   ├── objs/
+    │   │   │   │   │   ├── link.ld
+    │   │   │   │   │   └── makefile
+    │   │   │   │   ├── readme.txt
+    │   │   │   │   └── source/
+    │   │   │   │       ├── arch_fs.c
+    │   │   │   │       ├── define.h
+    │   │   │   │       ├── disctest.c
+    │   │   │   │       ├── mediafile.c
+    │   │   │   │       ├── memmap.h
+    │   │   │   │       ├── sample.c
+    │   │   │   │       ├── stdinc.h
+    │   │   │   │       └── user3.c
+    │   │   │   └── latest_version_is_v0.1.txt
+    │   │   ├── deviceswitch_sample/
+    │   │   │   ├── deviceswitch_sample/
+    │   │   │   │   ├── changelog.txt
+    │   │   │   │   ├── debug.h
+    │   │   │   │   ├── define.h
+    │   │   │   │   ├── latest_version_is_v1.6.txt
+    │   │   │   │   ├── link.ld
+    │   │   │   │   ├── Makefile
+    │   │   │   │   ├── memmap.h
+    │   │   │   │   ├── os_start.S
+    │   │   │   │   ├── readme.txt
+    │   │   │   │   ├── sample.c
+    │   │   │   │   ├── sample.c.bak
+    │   │   │   │   ├── t2typedef.h
+    │   │   │   │   └── T6304_hw_device_switch.pdf
+    │   │   │   └── latest_version_is_v1.6.txt
+    │   │   ├── disc_usb_test/
+    │   │   │   ├── disc_usb_test/
+    │   │   │   │   ├── changelog.txt
+    │   │   │   │   ├── objs/
+    │   │   │   │   │   ├── link.ld
+    │   │   │   │   │   └── makefile
+    │   │   │   │   ├── readme.txt
+    │   │   │   │   └── source/
+    │   │   │   │       ├── arch_fs.c
+    │   │   │   │       ├── define.h
+    │   │   │   │       ├── disctest.c
+    │   │   │   │       ├── mediafile.c
+    │   │   │   │       ├── memmap.h
+    │   │   │   │       ├── sample.c
+    │   │   │   │       ├── stdinc.h
+    │   │   │   │       └── user3.c
+    │   │   │   └── latest_version_is_v0.21.txt
+    │   │   ├── dvdlib_sample/
+    │   │   │   ├── dvdlib_sample/
+    │   │   │   │   ├── filebrowse.c
+    │   │   │   │   ├── fontlib.h
+    │   │   │   │   ├── inc/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   └── Root
+    │   │   │   │   │   ├── osdcallback.h
+    │   │   │   │   │   ├── osdefine.h
+    │   │   │   │   │   ├── stringtable.h
+    │   │   │   │   │   └── t2player.h
+    │   │   │   │   ├── lib/
+    │   │   │   │   │   ├── font/
+    │   │   │   │   │   │   ├── font_chs.a
+    │   │   │   │   │   │   ├── font_chs_compact.a
+    │   │   │   │   │   │   ├── font_eng.a
+    │   │   │   │   │   │   └── src/
+    │   │   │   │   │   │       ├── ascii12x24.fnt
+    │   │   │   │   │   │       ├── fontlib.c
+    │   │   │   │   │   │       ├── fontlib.h
+    │   │   │   │   │   │       ├── gb24x24compact.fnt
+    │   │   │   │   │   │       ├── gb24x24youyuan.fnt
+    │   │   │   │   │   │       ├── make_chs.sh
+    │   │   │   │   │   │       ├── make_eng.sh
+    │   │   │   │   │   │       ├── makefile
+    │   │   │   │   │   │       └── readme.txt
+    │   │   │   │   │   └── string/
+    │   │   │   │   │       ├── src/
+    │   │   │   │   │       │   ├── makefile
+    │   │   │   │   │       │   ├── stringtable.c
+    │   │   │   │   │       │   └── stringtable.h
+    │   │   │   │   │       └── stringtable.a
+    │   │   │   │   ├── makefile
+    │   │   │   │   ├── memmap.h
+    │   │   │   │   ├── os_start.S
+    │   │   │   │   ├── osdcallback.c
+    │   │   │   │   ├── osdlibrary.c
+    │   │   │   │   ├── readme.txt
+    │   │   │   │   ├── release.ld
+    │   │   │   │   ├── sample.c
+    │   │   │   │   ├── sample.h
+    │   │   │   │   └── user.c
+    │   │   │   └── latest_version_is_v0.98d.txt
+    │   │   ├── flash_update_sample/
+    │   │   │   ├── flash_update_sample_v1.0_20040419/
+    │   │   │   │   ├── bootfile.lnk
+    │   │   │   │   ├── bootfile.map
+    │   │   │   │   ├── common/
+    │   │   │   │   │   ├── ansi_c.c
+    │   │   │   │   │   ├── ansi_c.h
+    │   │   │   │   │   ├── ansi_def.h
+    │   │   │   │   │   ├── boot.S
+    │   │   │   │   │   ├── boot.S.bak
+    │   │   │   │   │   ├── commonhead.h
+    │   │   │   │   │   ├── eregdef.h
+    │   │   │   │   │   ├── mem.c
+    │   │   │   │   │   ├── mem.h
+    │   │   │   │   │   ├── osboot.h
+    │   │   │   │   │   ├── regsave.h
+    │   │   │   │   │   └── types.h
+    │   │   │   │   ├── commonhead.h
+    │   │   │   │   ├── comsub.h
+    │   │   │   │   ├── config.h
+    │   │   │   │   ├── delay.a
+    │   │   │   │   ├── flash_t.c
+    │   │   │   │   ├── fs/
+    │   │   │   │   │   ├── boot_fs.c
+    │   │   │   │   │   ├── boot_fs.c.bak
+    │   │   │   │   │   ├── boot_fs.h
+    │   │   │   │   │   ├── bootfile.h
+    │   │   │   │   │   ├── t2cdefs.h
+    │   │   │   │   │   ├── t2cdr.h
+    │   │   │   │   │   ├── t2fs.h
+    │   │   │   │   │   ├── t2fs_conf.h
+    │   │   │   │   │   ├── t2stdio.h
+    │   │   │   │   │   ├── t2stdio.h.bak
+    │   │   │   │   │   └── t2types.h
+    │   │   │   │   ├── libs/
+    │   │   │   │   │   ├── BIOS_cdr.h
+    │   │   │   │   │   ├── BIOS_cdr_defines.h
+    │   │   │   │   │   ├── cdlib_ide.a
+    │   │   │   │   │   ├── cdlib_ide.a.t2
+    │   │   │   │   │   ├── fs.a
+    │   │   │   │   │   ├── fs.a.t2
+    │   │   │   │   │   ├── libsoc_printf.a
+    │   │   │   │   │   ├── size.txt
+    │   │   │   │   │   ├── size.txt.bak
+    │   │   │   │   │   ├── size.xtx
+    │   │   │   │   │   ├── size.xtx.bak
+    │   │   │   │   │   ├── soc_dev.o
+    │   │   │   │   │   ├── tdiseng.a
+    │   │   │   │   │   ├── tdiseng.a.old
+    │   │   │   │   │   ├── tdiseng.a.t2
+    │   │   │   │   │   ├── TDisplayEngine.h
+    │   │   │   │   │   ├── temp
+    │   │   │   │   │   ├── tvencoder.h
+    │   │   │   │   │   ├── tvencoder_internal.a
+    │   │   │   │   │   ├── usb.a
+    │   │   │   │   │   ├── usb.a.t2
+    │   │   │   │   │   └── usb_lib.h
+    │   │   │   │   ├── libsoc_printf.a
+    │   │   │   │   ├── main.c
+    │   │   │   │   ├── Makefile
+    │   │   │   │   ├── symbol_table.h
+    │   │   │   │   ├── typedef.h
+    │   │   │   │   ├── types.h
+    │   │   │   │   └── update.abs
+    │   │   │   └── latest_version_is_v1.0.txt
+    │   │   ├── FS_SAMPLE/
+    │   │   │   ├── FS_SAMPLE/
+    │   │   │   │   ├── ChangeLog.txt
+    │   │   │   │   ├── objs/
+    │   │   │   │   │   ├── link.ld
+    │   │   │   │   │   └── makefile
+    │   │   │   │   ├── README.txt
+    │   │   │   │   └── source/
+    │   │   │   │       ├── benchmark.c
+    │   │   │   │       ├── common.h
+    │   │   │   │       ├── debug_print.c
+    │   │   │   │       ├── device_buffer.c
+    │   │   │   │       ├── func_test.c
+    │   │   │   │       ├── idehd.c
+    │   │   │   │       ├── main.c
+    │   │   │   │       ├── memmap.h
+    │   │   │   │       ├── nls.c
+    │   │   │   │       ├── sys_startup.c
+    │   │   │   │       ├── t2typedef.h
+    │   │   │   │       └── udisk.c
+    │   │   │   └── latest_version_is_v0.7.txt
+    │   │   ├── image_sample/
+    │   │   │   ├── image_sample/
+    │   │   │   │   ├── changelog.txt
+    │   │   │   │   ├── objs/
+    │   │   │   │   │   ├── 6304.lnk
+    │   │   │   │   │   └── Makefile
+    │   │   │   │   ├── readme.txt
+    │   │   │   │   └── source/
+    │   │   │   │       ├── imagedata.c
+    │   │   │   │       ├── os_start.S
+    │   │   │   │       ├── sample.c
+    │   │   │   │       ├── t2typedef.h
+    │   │   │   │       └── user3.c
+    │   │   │   └── latest_version_is_v0.4.3.txt
+    │   │   ├── mp3_sample/
+    │   │   │   ├── latest_version_is_v0.4.6.txt
+    │   │   │   └── mp3_sample/
+    │   │   │       ├── changlog.txt
+    │   │   │       ├── objs/
+    │   │   │       │   ├── 6304.lnk
+    │   │   │       │   └── Makefile
+    │   │   │       ├── readme.txt
+    │   │   │       └── Source/
+    │   │   │           ├── mp3test.c
+    │   │   │           ├── os_start.S
+    │   │   │           └── user3.c
+    │   │   ├── ogg_sample/
+    │   │   │   ├── latest_version_is_v1.06.txt
+    │   │   │   └── ogg_sample/
+    │   │   │       ├── changelog.txt
+    │   │   │       ├── objs/
+    │   │   │       │   ├── 6304.lnk
+    │   │   │       │   └── Makefile
+    │   │   │       ├── readme.txt
+    │   │   │       └── source/
+    │   │   │           ├── oggtest.c
+    │   │   │           ├── os_start.S
+    │   │   │           └── user3.c
+    │   │   ├── readme.txt
+    │   │   ├── sample_code/
+    │   │   │   ├── latest_version_is_v1.1.txt
+    │   │   │   ├── sample_code/
+    │   │   │   │   ├── changelog.txt
+    │   │   │   │   ├── objs/
+    │   │   │   │   │   ├── CVS/
+    │   │   │   │   │   │   ├── Entries
+    │   │   │   │   │   │   ├── Repository
+    │   │   │   │   │   │   └── Root
+    │   │   │   │   │   ├── link.ld
+    │   │   │   │   │   └── Makefile
+    │   │   │   │   ├── readme.txt
+    │   │   │   │   └── source/
+    │   │   │   │       ├── arch_fs.c
+    │   │   │   │       ├── arch_net.c
+    │   │   │   │       ├── CVS/
+    │   │   │   │       │   ├── Entries
+    │   │   │   │       │   ├── Repository
+    │   │   │   │       │   └── Root
+    │   │   │   │       ├── debug.h
+    │   │   │   │       ├── define.h
+    │   │   │   │       ├── hal_common.c
+    │   │   │   │       ├── hal_jpg.c
+    │   │   │   │       ├── hal_mp3.c
+    │   │   │   │       ├── hal_mp4.c
+    │   │   │   │       ├── hal_mpg.c
+    │   │   │   │       ├── hal_wma.c
+    │   │   │   │       ├── mediafile.c
+    │   │   │   │       ├── memmap.h
+    │   │   │   │       ├── msgbuf.h
+    │   │   │   │       ├── net_dri_api.c
+    │   │   │   │       ├── os_start.S
+    │   │   │   │       ├── sample.c
+    │   │   │   │       └── user3.c
+    │   │   │   └── source/
+    │   │   │       ├── link.ld
+    │   │   │       ├── Makefile
+    │   │   │       └── os_start.s
+    │   │   ├── samplecode_forwrite_93c46_rtl8139/
+    │   │   │   ├── latest_version_is_v0.2.txt
+    │   │   │   └── rtl8139_write_e2/
+    │   │   │       ├── boot.o
+    │   │   │       ├── boot_os/
+    │   │   │       │   ├── boot.o
+    │   │   │       │   ├── boot.S
+    │   │   │       │   ├── eregdef.h
+    │   │   │       │   ├── osboot.h
+    │   │   │       │   └── regsave.h
+    │   │   │       ├── common.h
+    │   │   │       ├── eeprom.h
+    │   │   │       ├── Makefile
+    │   │   │       ├── netdevice.h
+    │   │   │       ├── pci_init.h
+    │   │   │       ├── readme.txt
+    │   │   │       ├── rtl8139.h
+    │   │   │       ├── rtl8139_write_e2.c
+    │   │   │       ├── rtl8139_write_e2.o
+    │   │   │       ├── tt2.lnk
+    │   │   │       ├── tt2.map
+    │   │   │       ├── write_eeprom.abs
+    │   │   │       ├── write_eeprom.dis
+    │   │   │       └── write_eeprom.out
+    │   │   ├── samplecodeforEEPROM&I2Clibrary.zip
+    │   │   ├── samplecodeforgsilibrary/
+    │   │   │   ├── latest_version_is_v0.2.txt
+    │   │   │   └── samplecodeforgsilibrary/
+    │   │   │       ├── ChangeLog.txt
+    │   │   │       ├── mk.sh
+    │   │   │       ├── mkclean.sh
+    │   │   │       ├── obj/
+    │   │   │       │   ├── makefile
+    │   │   │       │   ├── vfdtest.abs
+    │   │   │       │   └── vfdtest.lnk
+    │   │   │       ├── README.txt
+    │   │   │       ├── src/
+    │   │   │       │   ├── bios_panel.c
+    │   │   │       │   ├── BIOS_panel.h
+    │   │   │       │   ├── BIOS_panel_defines.h
+    │   │   │       │   ├── BIOS_vkeys.h
+    │   │   │       │   ├── boot.S
+    │   │   │       │   ├── ckeys.h
+    │   │   │       │   ├── diag.c
+    │   │   │       │   ├── diag.h
+    │   │   │       │   ├── eregdef.h
+    │   │   │       │   ├── gpio.h
+    │   │   │       │   ├── main.c
+    │   │   │       │   ├── osboot.h
+    │   │   │       │   ├── panel/
+    │   │   │       │   │   ├── pnl_t2gdvd.h
+    │   │   │       │   │   ├── Pnl_t2gdvd_gsi.h
+    │   │   │       │   │   └── pnl_t2gvcd.h
+    │   │   │       │   ├── panel.c
+    │   │   │       │   ├── panel.h
+    │   │   │       │   ├── pnlfonts.h
+    │   │   │       │   ├── pnlkeys.h
+    │   │   │       │   ├── pnlmacro.h
+    │   │   │       │   ├── regsave.h
+    │   │   │       │   ├── sci.c
+    │   │   │       │   ├── sci.h
+    │   │   │       │   ├── stdarg.h
+    │   │   │       │   ├── typedef.h
+    │   │   │       │   ├── upd16312.c
+    │   │   │       │   ├── va-mips.h
+    │   │   │       │   └── vfd_conf.h
+    │   │   │       └── vfdtest.abs
+    │   │   ├── samplecodeforI2Clibrary/
+    │   │   │   ├── latest_version_is_v0.4.txt
+    │   │   │   └── samplecodeforI2Clibrary/
+    │   │   │       ├── bin/
+    │   │   │       ├── ChangeLog.txt
+    │   │   │       ├── I2C_libspce_template .pdf
+    │   │   │       ├── include/
+    │   │   │       │   ├── EREGDEF.H
+    │   │   │       │   ├── OSBOOT.H
+    │   │   │       │   ├── REGSAVE.H
+    │   │   │       │   ├── stdarg.h
+    │   │   │       │   ├── t2i2c.h
+    │   │   │       │   ├── USERCFG.H
+    │   │   │       │   └── va-mips.h
+    │   │   │       ├── obj/
+    │   │   │       │   ├── At24c16.lnk
+    │   │   │       │   ├── At24c16.map
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── test.txt
+    │   │   │       ├── README.txt
+    │   │   │       └── src/
+    │   │   │           ├── boot.S
+    │   │   │           └── seeprom.c
+    │   │   ├── socket_sample/
+    │   │   │   ├── latest_version_is_v0.51.txt
+    │   │   │   └── socket_sample_v0.51_2004.02.23/
+    │   │   │       ├── changelog.txt
+    │   │   │       ├── link.ld
+    │   │   │       ├── Makefile
+    │   │   │       ├── readme.txt
+    │   │   │       └── source/
+    │   │   │           ├── net_dri_api.c
+    │   │   │           ├── os_start.S
+    │   │   │           ├── sample.c
+    │   │   │           └── user3.c
+    │   │   ├── T2Video_Sample/
+    │   │   │   ├── latest_version_is_v0.12.txt
+    │   │   │   └── T2Video_sample/
+    │   │   │       ├── ChangeLog.txt
+    │   │   │       ├── objs/
+    │   │   │       │   ├── link.ld
+    │   │   │       │   └── makefile
+    │   │   │       ├── README.txt
+    │   │   │       └── source/
+    │   │   │           ├── bmp.h
+    │   │   │           ├── sample.c
+    │   │   │           ├── t2os.h
+    │   │   │           ├── t2typedef.h
+    │   │   │           └── t2video.h
+    │   │   ├── usb_update/
+    │   │   │   ├── latest_version_is_v0.4.txt
+    │   │   │   └── USB_UPDATE/
+    │   │   │       ├── ChangeLog.txt
+    │   │   │       ├── execute_bin/
+    │   │   │       │   └── system.abc
+    │   │   │       ├── objs/
+    │   │   │       │   ├── elf.obj
+    │   │   │       │   ├── link.ld
+    │   │   │       │   └── makefile
+    │   │   │       ├── README.txt
+    │   │   │       └── source/
+    │   │   │           ├── load.c
+    │   │   │           └── main.c
+    │   │   ├── wav_sample/
+    │   │   │   ├── latest_version_is_v0.44.txt
+    │   │   │   └── wav_sample/
+    │   │   │       ├── changlog.txt
+    │   │   │       ├── objs/
+    │   │   │       │   ├── 6304.lnk
+    │   │   │       │   └── Makefile
+    │   │   │       ├── source/
+    │   │   │       │   ├── main.c
+    │   │   │       │   ├── os_start.S
+    │   │   │       │   └── user3.c
+    │   │   │       └── wav_readme.txt
+    │   │   └── wmadec_sample/
+    │   │       ├── latest_version_is_v0.45.txt
+    │   │       └── wmadec_sample/
+    │   │           ├── changlog.txt
+    │   │           ├── objs/
+    │   │           │   ├── bootfile.lnk
+    │   │           │   └── Makefile
+    │   │           ├── README.txt
+    │   │           └── source/
+    │   │               ├── boot.S
+    │   │               ├── eregdef.h
+    │   │               ├── osboot.h
+    │   │               ├── regsave.h
+    │   │               └── sample.c
+    │   └── tools/
+    │       ├── Boot/
+    │       │   ├── Boot_v1.3_20040220/
+    │       │   │   ├── boot.dat
+    │       │   │   ├── Boot.ini
+    │       │   │   └── tf.abs
+    │       │   ├── Changelog.txt
+    │       │   └── readme.txt
+    │       ├── fileserver/
+    │       │   ├── database.txt
+    │       │   └── FileServer_v2.1.exe
+    │       ├── gcc3.0.4-linux-mips_2003.11.25/
+    │       │   └── gcc3.0.4-linux-mips_2003.11/
+    │       │       └── T2Dev/
+    │       │           ├── bin/
+    │       │           │   ├── gccbug
+    │       │           │   ├── gcov
+    │       │           │   ├── mips-t2-elf-addr2line
+    │       │           │   ├── mips-t2-elf-ar
+    │       │           │   ├── mips-t2-elf-as
+    │       │           │   ├── mips-t2-elf-c++
+    │       │           │   ├── mips-t2-elf-c++filt
+    │       │           │   ├── mips-t2-elf-cpp
+    │       │           │   ├── mips-t2-elf-g++
+    │       │           │   ├── mips-t2-elf-gasp
+    │       │           │   ├── mips-t2-elf-gcc
+    │       │           │   ├── mips-t2-elf-ld
+    │       │           │   ├── mips-t2-elf-nm
+    │       │           │   ├── mips-t2-elf-objcopy
+    │       │           │   ├── mips-t2-elf-objdump
+    │       │           │   ├── mips-t2-elf-ranlib
+    │       │           │   ├── mips-t2-elf-readelf
+    │       │           │   ├── mips-t2-elf-size
+    │       │           │   ├── mips-t2-elf-strings
+    │       │           │   └── mips-t2-elf-strip
+    │       │           ├── include/
+    │       │           │   ├── ansidecl.h
+    │       │           │   ├── bfd.h
+    │       │           │   ├── bfdlink.h
+    │       │           │   ├── g++-v3/
+    │       │           │   │   ├── algorithm
+    │       │           │   │   ├── backward/
+    │       │           │   │   │   ├── algo.h
+    │       │           │   │   │   ├── algobase.h
+    │       │           │   │   │   ├── alloc.h
+    │       │           │   │   │   ├── backward_warning.h
+    │       │           │   │   │   ├── bvector.h
+    │       │           │   │   │   ├── complex.h
+    │       │           │   │   │   ├── defalloc.h
+    │       │           │   │   │   ├── deque.h
+    │       │           │   │   │   ├── fstream.h
+    │       │           │   │   │   ├── function.h
+    │       │           │   │   │   ├── hash_map.h
+    │       │           │   │   │   ├── hash_set.h
+    │       │           │   │   │   ├── hashtable.h
+    │       │           │   │   │   ├── heap.h
+    │       │           │   │   │   ├── iomanip.h
+    │       │           │   │   │   ├── iostream.h
+    │       │           │   │   │   ├── istream.h
+    │       │           │   │   │   ├── iterator.h
+    │       │           │   │   │   ├── list.h
+    │       │           │   │   │   ├── map.h
+    │       │           │   │   │   ├── multimap.h
+    │       │           │   │   │   ├── multiset.h
+    │       │           │   │   │   ├── new.h
+    │       │           │   │   │   ├── ostream.h
+    │       │           │   │   │   ├── pair.h
+    │       │           │   │   │   ├── queue.h
+    │       │           │   │   │   ├── rope.h
+    │       │           │   │   │   ├── set.h
+    │       │           │   │   │   ├── slist.h
+    │       │           │   │   │   ├── stack.h
+    │       │           │   │   │   ├── stream.h
+    │       │           │   │   │   ├── streambuf.h
+    │       │           │   │   │   ├── strstream
+    │       │           │   │   │   ├── strstream.h
+    │       │           │   │   │   ├── tempbuf.h
+    │       │           │   │   │   ├── tree.h
+    │       │           │   │   │   └── vector.h
+    │       │           │   │   ├── bits/
+    │       │           │   │   │   ├── basic_file.h
+    │       │           │   │   │   ├── basic_ios.h
+    │       │           │   │   │   ├── basic_ios.tcc
+    │       │           │   │   │   ├── basic_string.h
+    │       │           │   │   │   ├── basic_string.tcc
+    │       │           │   │   │   ├── boost_concept_check.h
+    │       │           │   │   │   ├── char_traits.h
+    │       │           │   │   │   ├── cmath.tcc
+    │       │           │   │   │   ├── codecvt.h
+    │       │           │   │   │   ├── concept_check.h
+    │       │           │   │   │   ├── cpp_type_traits.h
+    │       │           │   │   │   ├── fpos.h
+    │       │           │   │   │   ├── fstream.tcc
+    │       │           │   │   │   ├── functexcept.h
+    │       │           │   │   │   ├── generic_shadow.h
+    │       │           │   │   │   ├── gslice.h
+    │       │           │   │   │   ├── gslice_array.h
+    │       │           │   │   │   ├── indirect_array.h
+    │       │           │   │   │   ├── ios_base.h
+    │       │           │   │   │   ├── istream.tcc
+    │       │           │   │   │   ├── locale_facets.h
+    │       │           │   │   │   ├── locale_facets.tcc
+    │       │           │   │   │   ├── localefwd.h
+    │       │           │   │   │   ├── mask_array.h
+    │       │           │   │   │   ├── ostream.tcc
+    │       │           │   │   │   ├── pthread_allocimpl.h
+    │       │           │   │   │   ├── sbuf_iter.h
+    │       │           │   │   │   ├── slice.h
+    │       │           │   │   │   ├── slice_array.h
+    │       │           │   │   │   ├── sstream.tcc
+    │       │           │   │   │   ├── std_algorithm.h
+    │       │           │   │   │   ├── std_bitset.h
+    │       │           │   │   │   ├── std_cassert.h
+    │       │           │   │   │   ├── std_cctype.h
+    │       │           │   │   │   ├── std_cerrno.h
+    │       │           │   │   │   ├── std_cfloat.h
+    │       │           │   │   │   ├── std_climits.h
+    │       │           │   │   │   ├── std_clocale.h
+    │       │           │   │   │   ├── std_cmath.h
+    │       │           │   │   │   ├── std_complex.h
+    │       │           │   │   │   ├── std_csetjmp.h
+    │       │           │   │   │   ├── std_csignal.h
+    │       │           │   │   │   ├── std_cstdarg.h
+    │       │           │   │   │   ├── std_cstddef.h
+    │       │           │   │   │   ├── std_cstdio.h
+    │       │           │   │   │   ├── std_cstdlib.h
+    │       │           │   │   │   ├── std_cstring.h
+    │       │           │   │   │   ├── std_ctime.h
+    │       │           │   │   │   ├── std_cwchar.h
+    │       │           │   │   │   ├── std_cwctype.h
+    │       │           │   │   │   ├── std_deque.h
+    │       │           │   │   │   ├── std_fstream.h
+    │       │           │   │   │   ├── std_functional.h
+    │       │           │   │   │   ├── std_iomanip.h
+    │       │           │   │   │   ├── std_ios.h
+    │       │           │   │   │   ├── std_iosfwd.h
+    │       │           │   │   │   ├── std_iostream.h
+    │       │           │   │   │   ├── std_istream.h
+    │       │           │   │   │   ├── std_iterator.h
+    │       │           │   │   │   ├── std_limits.h
+    │       │           │   │   │   ├── std_list.h
+    │       │           │   │   │   ├── std_locale.h
+    │       │           │   │   │   ├── std_map.h
+    │       │           │   │   │   ├── std_memory.h
+    │       │           │   │   │   ├── std_numeric.h
+    │       │           │   │   │   ├── std_ostream.h
+    │       │           │   │   │   ├── std_queue.h
+    │       │           │   │   │   ├── std_set.h
+    │       │           │   │   │   ├── std_sstream.h
+    │       │           │   │   │   ├── std_stack.h
+    │       │           │   │   │   ├── std_stdexcept.h
+    │       │           │   │   │   ├── std_streambuf.h
+    │       │           │   │   │   ├── std_string.h
+    │       │           │   │   │   ├── std_utility.h
+    │       │           │   │   │   ├── std_valarray.h
+    │       │           │   │   │   ├── std_vector.h
+    │       │           │   │   │   ├── stl_algo.h
+    │       │           │   │   │   ├── stl_algobase.h
+    │       │           │   │   │   ├── stl_alloc.h
+    │       │           │   │   │   ├── stl_bvector.h
+    │       │           │   │   │   ├── stl_construct.h
+    │       │           │   │   │   ├── stl_deque.h
+    │       │           │   │   │   ├── stl_function.h
+    │       │           │   │   │   ├── stl_heap.h
+    │       │           │   │   │   ├── stl_iterator.h
+    │       │           │   │   │   ├── stl_iterator_base_funcs.h
+    │       │           │   │   │   ├── stl_iterator_base_types.h
+    │       │           │   │   │   ├── stl_list.h
+    │       │           │   │   │   ├── stl_map.h
+    │       │           │   │   │   ├── stl_multimap.h
+    │       │           │   │   │   ├── stl_multiset.h
+    │       │           │   │   │   ├── stl_numeric.h
+    │       │           │   │   │   ├── stl_pair.h
+    │       │           │   │   │   ├── stl_pthread_alloc.h
+    │       │           │   │   │   ├── stl_queue.h
+    │       │           │   │   │   ├── stl_raw_storage_iter.h
+    │       │           │   │   │   ├── stl_relops.h
+    │       │           │   │   │   ├── stl_set.h
+    │       │           │   │   │   ├── stl_stack.h
+    │       │           │   │   │   ├── stl_tempbuf.h
+    │       │           │   │   │   ├── stl_threads.h
+    │       │           │   │   │   ├── stl_tree.h
+    │       │           │   │   │   ├── stl_uninitialized.h
+    │       │           │   │   │   ├── stl_vector.h
+    │       │           │   │   │   ├── streambuf.tcc
+    │       │           │   │   │   ├── stringfwd.h
+    │       │           │   │   │   ├── type_traits.h
+    │       │           │   │   │   ├── valarray_array.h
+    │       │           │   │   │   ├── valarray_array.tcc
+    │       │           │   │   │   └── valarray_meta.h
+    │       │           │   │   ├── bitset
+    │       │           │   │   ├── cassert
+    │       │           │   │   ├── cctype
+    │       │           │   │   ├── cerrno
+    │       │           │   │   ├── cfloat
+    │       │           │   │   ├── ciso646
+    │       │           │   │   ├── climits
+    │       │           │   │   ├── clocale
+    │       │           │   │   ├── cmath
+    │       │           │   │   ├── complex
+    │       │           │   │   ├── csetjmp
+    │       │           │   │   ├── csignal
+    │       │           │   │   ├── cstdarg
+    │       │           │   │   ├── cstddef
+    │       │           │   │   ├── cstdio
+    │       │           │   │   ├── cstdlib
+    │       │           │   │   ├── cstring
+    │       │           │   │   ├── ctime
+    │       │           │   │   ├── cwchar
+    │       │           │   │   ├── cwctype
+    │       │           │   │   ├── cxxabi.h
+    │       │           │   │   ├── deque
+    │       │           │   │   ├── exception
+    │       │           │   │   ├── exception_defines.h
+    │       │           │   │   ├── ext/
+    │       │           │   │   │   ├── hash_map
+    │       │           │   │   │   ├── hash_set
+    │       │           │   │   │   ├── rope
+    │       │           │   │   │   ├── ropeimpl.h
+    │       │           │   │   │   ├── slist
+    │       │           │   │   │   ├── stl_hash_fun.h
+    │       │           │   │   │   ├── stl_hashtable.h
+    │       │           │   │   │   └── stl_rope.h
+    │       │           │   │   ├── fstream
+    │       │           │   │   ├── functional
+    │       │           │   │   ├── iomanip
+    │       │           │   │   ├── ios
+    │       │           │   │   ├── iosfwd
+    │       │           │   │   ├── iostream
+    │       │           │   │   ├── istream
+    │       │           │   │   ├── iterator
+    │       │           │   │   ├── limits
+    │       │           │   │   ├── list
+    │       │           │   │   ├── locale
+    │       │           │   │   ├── map
+    │       │           │   │   ├── memory
+    │       │           │   │   ├── mips-t2-elf/
+    │       │           │   │   │   └── bits/
+    │       │           │   │   │       ├── atomicity.h
+    │       │           │   │   │       ├── basic_file_model.h
+    │       │           │   │   │       ├── c++config.h
+    │       │           │   │   │       ├── c++io.h
+    │       │           │   │   │       ├── c++locale.h
+    │       │           │   │   │       ├── ctype_base.h
+    │       │           │   │   │       ├── ctype_inline.h
+    │       │           │   │   │       ├── ctype_noninline.h
+    │       │           │   │   │       ├── gthr-default.h
+    │       │           │   │   │       ├── gthr-single.h
+    │       │           │   │   │       ├── gthr.h
+    │       │           │   │   │       ├── limits.h
+    │       │           │   │   │       └── os_defines.h
+    │       │           │   │   ├── new
+    │       │           │   │   ├── numeric
+    │       │           │   │   ├── ostream
+    │       │           │   │   ├── queue
+    │       │           │   │   ├── set
+    │       │           │   │   ├── sstream
+    │       │           │   │   ├── stack
+    │       │           │   │   ├── stdexcept
+    │       │           │   │   ├── streambuf
+    │       │           │   │   ├── string
+    │       │           │   │   ├── typeinfo
+    │       │           │   │   ├── utility
+    │       │           │   │   ├── valarray
+    │       │           │   │   └── vector
+    │       │           │   └── symcat.h
+    │       │           ├── info/
+    │       │           │   ├── as.info
+    │       │           │   ├── as.info-1
+    │       │           │   ├── as.info-10
+    │       │           │   ├── as.info-2
+    │       │           │   ├── as.info-3
+    │       │           │   ├── as.info-4
+    │       │           │   ├── as.info-5
+    │       │           │   ├── as.info-6
+    │       │           │   ├── as.info-7
+    │       │           │   ├── as.info-8
+    │       │           │   ├── as.info-9
+    │       │           │   ├── bfd.info
+    │       │           │   ├── bfd.info-1
+    │       │           │   ├── bfd.info-2
+    │       │           │   ├── bfd.info-3
+    │       │           │   ├── bfd.info-4
+    │       │           │   ├── bfd.info-5
+    │       │           │   ├── bfd.info-6
+    │       │           │   ├── bfd.info-7
+    │       │           │   ├── bfd.info-8
+    │       │           │   ├── bfd.info-9
+    │       │           │   ├── binutils.info
+    │       │           │   ├── binutils.info-1
+    │       │           │   ├── binutils.info-2
+    │       │           │   ├── binutils.info-3
+    │       │           │   ├── configure.info
+    │       │           │   ├── configure.info-1
+    │       │           │   ├── configure.info-2
+    │       │           │   ├── configure.info-3
+    │       │           │   ├── cpp.info
+    │       │           │   ├── cpp.info-1
+    │       │           │   ├── cpp.info-2
+    │       │           │   ├── cpp.info-3
+    │       │           │   ├── cpp.info-4
+    │       │           │   ├── cppinternals.info
+    │       │           │   ├── gasp.info
+    │       │           │   ├── gcc.info
+    │       │           │   ├── gcc.info-1
+    │       │           │   ├── gcc.info-10
+    │       │           │   ├── gcc.info-11
+    │       │           │   ├── gcc.info-12
+    │       │           │   ├── gcc.info-13
+    │       │           │   ├── gcc.info-14
+    │       │           │   ├── gcc.info-15
+    │       │           │   ├── gcc.info-16
+    │       │           │   ├── gcc.info-17
+    │       │           │   ├── gcc.info-18
+    │       │           │   ├── gcc.info-19
+    │       │           │   ├── gcc.info-2
+    │       │           │   ├── gcc.info-20
+    │       │           │   ├── gcc.info-21
+    │       │           │   ├── gcc.info-22
+    │       │           │   ├── gcc.info-23
+    │       │           │   ├── gcc.info-24
+    │       │           │   ├── gcc.info-25
+    │       │           │   ├── gcc.info-26
+    │       │           │   ├── gcc.info-27
+    │       │           │   ├── gcc.info-28
+    │       │           │   ├── gcc.info-29
+    │       │           │   ├── gcc.info-3
+    │       │           │   ├── gcc.info-30
+    │       │           │   ├── gcc.info-31
+    │       │           │   ├── gcc.info-32
+    │       │           │   ├── gcc.info-33
+    │       │           │   ├── gcc.info-34
+    │       │           │   ├── gcc.info-35
+    │       │           │   ├── gcc.info-36
+    │       │           │   ├── gcc.info-37
+    │       │           │   ├── gcc.info-38
+    │       │           │   ├── gcc.info-4
+    │       │           │   ├── gcc.info-5
+    │       │           │   ├── gcc.info-6
+    │       │           │   ├── gcc.info-7
+    │       │           │   ├── gcc.info-8
+    │       │           │   ├── gcc.info-9
+    │       │           │   ├── ld.info
+    │       │           │   ├── ld.info-1
+    │       │           │   ├── ld.info-2
+    │       │           │   ├── ld.info-3
+    │       │           │   ├── ld.info-4
+    │       │           │   ├── ld.info-5
+    │       │           │   ├── ld.info-6
+    │       │           │   └── standards.info
+    │       │           ├── lib/
+    │       │           │   ├── gcc-lib/
+    │       │           │   │   └── mips-t2-elf/
+    │       │           │   │       └── 3.0.4/
+    │       │           │   │           ├── cc1
+    │       │           │   │           ├── cc1plus
+    │       │           │   │           ├── collect2
+    │       │           │   │           ├── cpp0
+    │       │           │   │           ├── crtbegin.o
+    │       │           │   │           ├── crtend.o
+    │       │           │   │           ├── el/
+    │       │           │   │           │   ├── crtbegin.o
+    │       │           │   │           │   ├── crtend.o
+    │       │           │   │           │   ├── libgcc.a
+    │       │           │   │           │   └── mips3/
+    │       │           │   │           │       ├── crtbegin.o
+    │       │           │   │           │       ├── crtend.o
+    │       │           │   │           │       └── libgcc.a
+    │       │           │   │           ├── include/
+    │       │           │   │           │   ├── float.h
+    │       │           │   │           │   ├── iso646.h
+    │       │           │   │           │   ├── limits.h
+    │       │           │   │           │   ├── proto.h
+    │       │           │   │           │   ├── README
+    │       │           │   │           │   ├── stdarg.h
+    │       │           │   │           │   ├── stdbool.h
+    │       │           │   │           │   ├── stddef.h
+    │       │           │   │           │   ├── syslimits.h
+    │       │           │   │           │   └── varargs.h
+    │       │           │   │           ├── libgcc.a
+    │       │           │   │           ├── mips3/
+    │       │           │   │           │   ├── crtbegin.o
+    │       │           │   │           │   ├── crtend.o
+    │       │           │   │           │   └── libgcc.a
+    │       │           │   │           ├── single/
+    │       │           │   │           │   ├── crtbegin.o
+    │       │           │   │           │   ├── crtend.o
+    │       │           │   │           │   ├── el/
+    │       │           │   │           │   │   ├── crtbegin.o
+    │       │           │   │           │   │   ├── crtend.o
+    │       │           │   │           │   │   ├── libgcc.a
+    │       │           │   │           │   │   └── mips3/
+    │       │           │   │           │   │       ├── crtbegin.o
+    │       │           │   │           │   │       ├── crtend.o
+    │       │           │   │           │   │       └── libgcc.a
+    │       │           │   │           │   ├── libgcc.a
+    │       │           │   │           │   └── mips3/
+    │       │           │   │           │       ├── crtbegin.o
+    │       │           │   │           │       ├── crtend.o
+    │       │           │   │           │       └── libgcc.a
+    │       │           │   │           ├── soft-float/
+    │       │           │   │           │   ├── crtbegin.o
+    │       │           │   │           │   ├── crtend.o
+    │       │           │   │           │   ├── el/
+    │       │           │   │           │   │   ├── crtbegin.o
+    │       │           │   │           │   │   ├── crtend.o
+    │       │           │   │           │   │   ├── libgcc.a
+    │       │           │   │           │   │   └── mips3/
+    │       │           │   │           │   │       ├── crtbegin.o
+    │       │           │   │           │   │       ├── crtend.o
+    │       │           │   │           │   │       └── libgcc.a
+    │       │           │   │           │   ├── libgcc.a
+    │       │           │   │           │   └── mips3/
+    │       │           │   │           │       ├── crtbegin.o
+    │       │           │   │           │       ├── crtend.o
+    │       │           │   │           │       └── libgcc.a
+    │       │           │   │           ├── specs
+    │       │           │   │           └── tradcpp0
+    │       │           │   ├── libbfd.a
+    │       │           │   ├── libbfd.la
+    │       │           │   ├── libiberty.a
+    │       │           │   ├── libopcodes.a
+    │       │           │   └── libopcodes.la
+    │       │           ├── man/
+    │       │           │   ├── man1/
+    │       │           │   │   ├── cpp.1
+    │       │           │   │   ├── gcov.1
+    │       │           │   │   ├── mips-t2-elf-addr2line.1
+    │       │           │   │   ├── mips-t2-elf-ar.1
+    │       │           │   │   ├── mips-t2-elf-as.1
+    │       │           │   │   ├── mips-t2-elf-c++filt.1
+    │       │           │   │   ├── mips-t2-elf-dlltool.1
+    │       │           │   │   ├── mips-t2-elf-g++.1
+    │       │           │   │   ├── mips-t2-elf-gcc.1
+    │       │           │   │   ├── mips-t2-elf-ld.1
+    │       │           │   │   ├── mips-t2-elf-nlmconv.1
+    │       │           │   │   ├── mips-t2-elf-nm.1
+    │       │           │   │   ├── mips-t2-elf-objcopy.1
+    │       │           │   │   ├── mips-t2-elf-objdump.1
+    │       │           │   │   ├── mips-t2-elf-ranlib.1
+    │       │           │   │   ├── mips-t2-elf-readelf.1
+    │       │           │   │   ├── mips-t2-elf-size.1
+    │       │           │   │   ├── mips-t2-elf-strings.1
+    │       │           │   │   ├── mips-t2-elf-strip.1
+    │       │           │   │   └── mips-t2-elf-windres.1
+    │       │           │   └── man7/
+    │       │           │       ├── fsf-funding.7
+    │       │           │       ├── gfdl.7
+    │       │           │       └── gpl.7
+    │       │           ├── mips-t2-elf/
+    │       │           │   ├── bin/
+    │       │           │   │   ├── ar
+    │       │           │   │   ├── as
+    │       │           │   │   ├── c++
+    │       │           │   │   ├── g++
+    │       │           │   │   ├── gcc
+    │       │           │   │   ├── ld
+    │       │           │   │   ├── nm
+    │       │           │   │   ├── ranlib
+    │       │           │   │   └── strip
+    │       │           │   ├── include/
+    │       │           │   │   ├── _ansi.h
+    │       │           │   │   ├── _syslist.h
+    │       │           │   │   ├── ar.h
+    │       │           │   │   ├── assert.h
+    │       │           │   │   ├── ctype.h
+    │       │           │   │   ├── dirent.h
+    │       │           │   │   ├── errno.h
+    │       │           │   │   ├── fastmath.h
+    │       │           │   │   ├── fcntl.h
+    │       │           │   │   ├── grp.h
+    │       │           │   │   ├── ieeefp.h
+    │       │           │   │   ├── locale.h
+    │       │           │   │   ├── machine/
+    │       │           │   │   │   ├── fastmath.h
+    │       │           │   │   │   ├── ieeefp.h
+    │       │           │   │   │   ├── regdef.h
+    │       │           │   │   │   ├── setjmp-dj.h
+    │       │           │   │   │   ├── setjmp.h
+    │       │           │   │   │   ├── time.h
+    │       │           │   │   │   └── types.h
+    │       │           │   │   ├── malloc.h
+    │       │           │   │   ├── math.h
+    │       │           │   │   ├── paths.h
+    │       │           │   │   ├── process.h
+    │       │           │   │   ├── pthread.h
+    │       │           │   │   ├── pwd.h
+    │       │           │   │   ├── reent.h
+    │       │           │   │   ├── regdef.h
+    │       │           │   │   ├── setjmp.h
+    │       │           │   │   ├── signal.h
+    │       │           │   │   ├── stdio.h
+    │       │           │   │   ├── stdlib.h
+    │       │           │   │   ├── string.h
+    │       │           │   │   ├── sys/
+    │       │           │   │   │   ├── _types.h
+    │       │           │   │   │   ├── config.h
+    │       │           │   │   │   ├── dirent.h
+    │       │           │   │   │   ├── errno.h
+    │       │           │   │   │   ├── fcntl.h
+    │       │           │   │   │   ├── features.h
+    │       │           │   │   │   ├── file.h
+    │       │           │   │   │   ├── param.h
+    │       │           │   │   │   ├── reent.h
+    │       │           │   │   │   ├── resource.h
+    │       │           │   │   │   ├── sched.h
+    │       │           │   │   │   ├── signal.h
+    │       │           │   │   │   ├── stat-dj.h
+    │       │           │   │   │   ├── stat.h
+    │       │           │   │   │   ├── time.h
+    │       │           │   │   │   ├── timeb.h
+    │       │           │   │   │   ├── times.h
+    │       │           │   │   │   ├── types.h
+    │       │           │   │   │   ├── unistd.h
+    │       │           │   │   │   ├── utime.h
+    │       │           │   │   │   └── wait.h
+    │       │           │   │   ├── termios.h
+    │       │           │   │   ├── time.h
+    │       │           │   │   ├── unctrl.h
+    │       │           │   │   ├── unistd.h
+    │       │           │   │   ├── utime.h
+    │       │           │   │   └── utmp.h
+    │       │           │   └── lib/
+    │       │           │       ├── crt0.o
+    │       │           │       ├── ddb.ld
+    │       │           │       ├── el/
+    │       │           │       │   ├── crt0.o
+    │       │           │       │   ├── ddb.ld
+    │       │           │       │   ├── idt.ld
+    │       │           │       │   ├── idtecoff.ld
+    │       │           │       │   ├── libc.a
+    │       │           │       │   ├── libg.a
+    │       │           │       │   ├── libiberty.a
+    │       │           │       │   ├── libidt.a
+    │       │           │       │   ├── liblsi.a
+    │       │           │       │   ├── libm.a
+    │       │           │       │   ├── libnosys.a
+    │       │           │       │   ├── libnullmon.a
+    │       │           │       │   ├── libpmon.a
+    │       │           │       │   ├── libstdc++.a
+    │       │           │       │   ├── libstdc++.la
+    │       │           │       │   ├── libsupc++.a
+    │       │           │       │   ├── libsupc++.la
+    │       │           │       │   ├── lsi.ld
+    │       │           │       │   ├── mips3/
+    │       │           │       │   │   ├── crt0.o
+    │       │           │       │   │   ├── ddb.ld
+    │       │           │       │   │   ├── idt.ld
+    │       │           │       │   │   ├── idtecoff.ld
+    │       │           │       │   │   ├── libc.a
+    │       │           │       │   │   ├── libg.a
+    │       │           │       │   │   ├── libiberty.a
+    │       │           │       │   │   ├── libidt.a
+    │       │           │       │   │   ├── liblsi.a
+    │       │           │       │   │   ├── libm.a
+    │       │           │       │   │   ├── libnosys.a
+    │       │           │       │   │   ├── libnullmon.a
+    │       │           │       │   │   ├── libpmon.a
+    │       │           │       │   │   ├── libstdc++.a
+    │       │           │       │   │   ├── libstdc++.la
+    │       │           │       │   │   ├── libsupc++.a
+    │       │           │       │   │   ├── libsupc++.la
+    │       │           │       │   │   ├── lsi.ld
+    │       │           │       │   │   ├── nullmon.ld
+    │       │           │       │   │   ├── pcrt0.o
+    │       │           │       │   │   └── pmon.ld
+    │       │           │       │   ├── nullmon.ld
+    │       │           │       │   ├── pcrt0.o
+    │       │           │       │   └── pmon.ld
+    │       │           │       ├── idt.ld
+    │       │           │       ├── idtecoff.ld
+    │       │           │       ├── ldscripts/
+    │       │           │       │   ├── elf32ebmip.x
+    │       │           │       │   ├── elf32ebmip.xbn
+    │       │           │       │   ├── elf32ebmip.xc
+    │       │           │       │   ├── elf32ebmip.xn
+    │       │           │       │   ├── elf32ebmip.xr
+    │       │           │       │   ├── elf32ebmip.xs
+    │       │           │       │   ├── elf32ebmip.xsc
+    │       │           │       │   └── elf32ebmip.xu
+    │       │           │       ├── libc.a
+    │       │           │       ├── libg.a
+    │       │           │       ├── libiberty.a
+    │       │           │       ├── libidt.a
+    │       │           │       ├── liblsi.a
+    │       │           │       ├── libm.a
+    │       │           │       ├── libnosys.a
+    │       │           │       ├── libnullmon.a
+    │       │           │       ├── libpmon.a
+    │       │           │       ├── libstdc++.a
+    │       │           │       ├── libstdc++.la
+    │       │           │       ├── libsupc++.a
+    │       │           │       ├── libsupc++.la
+    │       │           │       ├── lsi.ld
+    │       │           │       ├── mips3/
+    │       │           │       │   ├── crt0.o
+    │       │           │       │   ├── ddb.ld
+    │       │           │       │   ├── idt.ld
+    │       │           │       │   ├── idtecoff.ld
+    │       │           │       │   ├── libc.a
+    │       │           │       │   ├── libg.a
+    │       │           │       │   ├── libiberty.a
+    │       │           │       │   ├── libidt.a
+    │       │           │       │   ├── liblsi.a
+    │       │           │       │   ├── libm.a
+    │       │           │       │   ├── libnosys.a
+    │       │           │       │   ├── libnullmon.a
+    │       │           │       │   ├── libpmon.a
+    │       │           │       │   ├── libstdc++.a
+    │       │           │       │   ├── libstdc++.la
+    │       │           │       │   ├── libsupc++.a
+    │       │           │       │   ├── libsupc++.la
+    │       │           │       │   ├── lsi.ld
+    │       │           │       │   ├── nullmon.ld
+    │       │           │       │   ├── pcrt0.o
+    │       │           │       │   └── pmon.ld
+    │       │           │       ├── nullmon.ld
+    │       │           │       ├── pcrt0.o
+    │       │           │       ├── pmon.ld
+    │       │           │       ├── single/
+    │       │           │       │   ├── crt0.o
+    │       │           │       │   ├── ddb.ld
+    │       │           │       │   ├── el/
+    │       │           │       │   │   ├── crt0.o
+    │       │           │       │   │   ├── ddb.ld
+    │       │           │       │   │   ├── idt.ld
+    │       │           │       │   │   ├── idtecoff.ld
+    │       │           │       │   │   ├── libc.a
+    │       │           │       │   │   ├── libg.a
+    │       │           │       │   │   ├── libiberty.a
+    │       │           │       │   │   ├── libidt.a
+    │       │           │       │   │   ├── liblsi.a
+    │       │           │       │   │   ├── libm.a
+    │       │           │       │   │   ├── libnosys.a
+    │       │           │       │   │   ├── libnullmon.a
+    │       │           │       │   │   ├── libpmon.a
+    │       │           │       │   │   ├── libstdc++.a
+    │       │           │       │   │   ├── libstdc++.la
+    │       │           │       │   │   ├── libsupc++.a
+    │       │           │       │   │   ├── libsupc++.la
+    │       │           │       │   │   ├── lsi.ld
+    │       │           │       │   │   ├── mips3/
+    │       │           │       │   │   │   ├── crt0.o
+    │       │           │       │   │   │   ├── ddb.ld
+    │       │           │       │   │   │   ├── idt.ld
+    │       │           │       │   │   │   ├── idtecoff.ld
+    │       │           │       │   │   │   ├── libc.a
+    │       │           │       │   │   │   ├── libg.a
+    │       │           │       │   │   │   ├── libiberty.a
+    │       │           │       │   │   │   ├── libidt.a
+    │       │           │       │   │   │   ├── liblsi.a
+    │       │           │       │   │   │   ├── libm.a
+    │       │           │       │   │   │   ├── libnosys.a
+    │       │           │       │   │   │   ├── libnullmon.a
+    │       │           │       │   │   │   ├── libpmon.a
+    │       │           │       │   │   │   ├── libstdc++.a
+    │       │           │       │   │   │   ├── libstdc++.la
+    │       │           │       │   │   │   ├── libsupc++.a
+    │       │           │       │   │   │   ├── libsupc++.la
+    │       │           │       │   │   │   ├── lsi.ld
+    │       │           │       │   │   │   ├── nullmon.ld
+    │       │           │       │   │   │   ├── pcrt0.o
+    │       │           │       │   │   │   └── pmon.ld
+    │       │           │       │   │   ├── nullmon.ld
+    │       │           │       │   │   ├── pcrt0.o
+    │       │           │       │   │   └── pmon.ld
+    │       │           │       │   ├── idt.ld
+    │       │           │       │   ├── idtecoff.ld
+    │       │           │       │   ├── libc.a
+    │       │           │       │   ├── libg.a
+    │       │           │       │   ├── libiberty.a
+    │       │           │       │   ├── libidt.a
+    │       │           │       │   ├── liblsi.a
+    │       │           │       │   ├── libm.a
+    │       │           │       │   ├── libnosys.a
+    │       │           │       │   ├── libnullmon.a
+    │       │           │       │   ├── libpmon.a
+    │       │           │       │   ├── libstdc++.a
+    │       │           │       │   ├── libstdc++.la
+    │       │           │       │   ├── libsupc++.a
+    │       │           │       │   ├── libsupc++.la
+    │       │           │       │   ├── lsi.ld
+    │       │           │       │   ├── mips3/
+    │       │           │       │   │   ├── crt0.o
+    │       │           │       │   │   ├── ddb.ld
+    │       │           │       │   │   ├── idt.ld
+    │       │           │       │   │   ├── idtecoff.ld
+    │       │           │       │   │   ├── libc.a
+    │       │           │       │   │   ├── libg.a
+    │       │           │       │   │   ├── libiberty.a
+    │       │           │       │   │   ├── libidt.a
+    │       │           │       │   │   ├── liblsi.a
+    │       │           │       │   │   ├── libm.a
+    │       │           │       │   │   ├── libnosys.a
+    │       │           │       │   │   ├── libnullmon.a
+    │       │           │       │   │   ├── libpmon.a
+    │       │           │       │   │   ├── libstdc++.a
+    │       │           │       │   │   ├── libstdc++.la
+    │       │           │       │   │   ├── libsupc++.a
+    │       │           │       │   │   ├── libsupc++.la
+    │       │           │       │   │   ├── lsi.ld
+    │       │           │       │   │   ├── nullmon.ld
+    │       │           │       │   │   ├── pcrt0.o
+    │       │           │       │   │   └── pmon.ld
+    │       │           │       │   ├── nullmon.ld
+    │       │           │       │   ├── pcrt0.o
+    │       │           │       │   └── pmon.ld
+    │       │           │       └── soft-float/
+    │       │           │           ├── crt0.o
+    │       │           │           ├── ddb.ld
+    │       │           │           ├── el/
+    │       │           │           │   ├── crt0.o
+    │       │           │           │   ├── ddb.ld
+    │       │           │           │   ├── idt.ld
+    │       │           │           │   ├── idtecoff.ld
+    │       │           │           │   ├── libc.a
+    │       │           │           │   ├── libg.a
+    │       │           │           │   ├── libiberty.a
+    │       │           │           │   ├── libidt.a
+    │       │           │           │   ├── liblsi.a
+    │       │           │           │   ├── libm.a
+    │       │           │           │   ├── libnosys.a
+    │       │           │           │   ├── libnullmon.a
+    │       │           │           │   ├── libpmon.a
+    │       │           │           │   ├── libstdc++.a
+    │       │           │           │   ├── libstdc++.la
+    │       │           │           │   ├── libsupc++.a
+    │       │           │           │   ├── libsupc++.la
+    │       │           │           │   ├── lsi.ld
+    │       │           │           │   ├── mips3/
+    │       │           │           │   │   ├── crt0.o
+    │       │           │           │   │   ├── ddb.ld
+    │       │           │           │   │   ├── idt.ld
+    │       │           │           │   │   ├── idtecoff.ld
+    │       │           │           │   │   ├── libc.a
+    │       │           │           │   │   ├── libg.a
+    │       │           │           │   │   ├── libiberty.a
+    │       │           │           │   │   ├── libidt.a
+    │       │           │           │   │   ├── liblsi.a
+    │       │           │           │   │   ├── libm.a
+    │       │           │           │   │   ├── libnosys.a
+    │       │           │           │   │   ├── libnullmon.a
+    │       │           │           │   │   ├── libpmon.a
+    │       │           │           │   │   ├── libstdc++.a
+    │       │           │           │   │   ├── libstdc++.la
+    │       │           │           │   │   ├── libsupc++.a
+    │       │           │           │   │   ├── libsupc++.la
+    │       │           │           │   │   ├── lsi.ld
+    │       │           │           │   │   ├── nullmon.ld
+    │       │           │           │   │   ├── pcrt0.o
+    │       │           │           │   │   └── pmon.ld
+    │       │           │           │   ├── nullmon.ld
+    │       │           │           │   ├── pcrt0.o
+    │       │           │           │   └── pmon.ld
+    │       │           │           ├── idt.ld
+    │       │           │           ├── idtecoff.ld
+    │       │           │           ├── libc.a
+    │       │           │           ├── libg.a
+    │       │           │           ├── libiberty.a
+    │       │           │           ├── libidt.a
+    │       │           │           ├── liblsi.a
+    │       │           │           ├── libm.a
+    │       │           │           ├── libnosys.a
+    │       │           │           ├── libnullmon.a
+    │       │           │           ├── libpmon.a
+    │       │           │           ├── libstdc++.a
+    │       │           │           ├── libstdc++.la
+    │       │           │           ├── libsupc++.a
+    │       │           │           ├── libsupc++.la
+    │       │           │           ├── lsi.ld
+    │       │           │           ├── mips3/
+    │       │           │           │   ├── crt0.o
+    │       │           │           │   ├── ddb.ld
+    │       │           │           │   ├── idt.ld
+    │       │           │           │   ├── idtecoff.ld
+    │       │           │           │   ├── libc.a
+    │       │           │           │   ├── libg.a
+    │       │           │           │   ├── libiberty.a
+    │       │           │           │   ├── libidt.a
+    │       │           │           │   ├── liblsi.a
+    │       │           │           │   ├── libm.a
+    │       │           │           │   ├── libnosys.a
+    │       │           │           │   ├── libnullmon.a
+    │       │           │           │   ├── libpmon.a
+    │       │           │           │   ├── libstdc++.a
+    │       │           │           │   ├── libstdc++.la
+    │       │           │           │   ├── libsupc++.a
+    │       │           │           │   ├── libsupc++.la
+    │       │           │           │   ├── lsi.ld
+    │       │           │           │   ├── nullmon.ld
+    │       │           │           │   ├── pcrt0.o
+    │       │           │           │   └── pmon.ld
+    │       │           │           ├── nullmon.ld
+    │       │           │           ├── pcrt0.o
+    │       │           │           └── pmon.ld
+    │       │           └── share/
+    │       │               └── locale/
+    │       │                   ├── da/
+    │       │                   │   └── LC_MESSAGES/
+    │       │                   │       └── opcodes.mo
+    │       │                   ├── de/
+    │       │                   │   └── LC_MESSAGES/
+    │       │                   │       └── opcodes.mo
+    │       │                   ├── es/
+    │       │                   │   └── LC_MESSAGES/
+    │       │                   │       ├── bfd.mo
+    │       │                   │       ├── binutils.mo
+    │       │                   │       ├── gas.mo
+    │       │                   │       ├── ld.mo
+    │       │                   │       └── opcodes.mo
+    │       │                   ├── fr/
+    │       │                   │   └── LC_MESSAGES/
+    │       │                   │       ├── bfd.mo
+    │       │                   │       ├── binutils.mo
+    │       │                   │       ├── gas.mo
+    │       │                   │       ├── ld.mo
+    │       │                   │       └── opcodes.mo
+    │       │                   ├── ja/
+    │       │                   │   └── LC_MESSAGES/
+    │       │                   │       ├── bfd.mo
+    │       │                   │       └── binutils.mo
+    │       │                   ├── sv/
+    │       │                   │   └── LC_MESSAGES/
+    │       │                   │       ├── bfd.mo
+    │       │                   │       ├── ld.mo
+    │       │                   │       └── opcodes.mo
+    │       │                   └── tr/
+    │       │                       └── LC_MESSAGES/
+    │       │                           ├── bfd.mo
+    │       │                           ├── binutils.mo
+    │       │                           ├── gas.mo
+    │       │                           ├── ld.mo
+    │       │                           └── opcodes.mo
+    │       ├── gcc3.04_2-windows-mips_2002.12/
+    │       │   ├── bin/
+    │       │   │   ├── gccbug
+    │       │   │   ├── gcjh.exe
+    │       │   │   ├── gcov.exe
+    │       │   │   ├── jcf-dump.exe
+    │       │   │   ├── jv-scan.exe
+    │       │   │   ├── mips-t2-elf-addr2line.exe
+    │       │   │   ├── mips-t2-elf-ar.exe
+    │       │   │   ├── mips-t2-elf-as.exe
+    │       │   │   ├── mips-t2-elf-c++.exe
+    │       │   │   ├── mips-t2-elf-c++filt.exe
+    │       │   │   ├── mips-t2-elf-cpp.exe
+    │       │   │   ├── mips-t2-elf-g++.exe
+    │       │   │   ├── mips-t2-elf-gasp.exe
+    │       │   │   ├── mips-t2-elf-gcc.exe
+    │       │   │   ├── mips-t2-elf-gcj.exe
+    │       │   │   ├── mips-t2-elf-ld.exe
+    │       │   │   ├── mips-t2-elf-nm.exe
+    │       │   │   ├── mips-t2-elf-objcopy.exe
+    │       │   │   ├── mips-t2-elf-objdump.exe
+    │       │   │   ├── mips-t2-elf-ranlib.exe
+    │       │   │   ├── mips-t2-elf-readelf.exe
+    │       │   │   ├── mips-t2-elf-size.exe
+    │       │   │   ├── mips-t2-elf-strings.exe
+    │       │   │   └── mips-t2-elf-strip.exe
+    │       │   ├── include/
+    │       │   │   ├── ansidecl.h
+    │       │   │   ├── bfd.h
+    │       │   │   ├── bfdlink.h
+    │       │   │   └── symcat.h
+    │       │   ├── info/
+    │       │   │   ├── as.info
+    │       │   │   ├── as.info-1
+    │       │   │   ├── as.info-10
+    │       │   │   ├── as.info-2
+    │       │   │   ├── as.info-3
+    │       │   │   ├── as.info-4
+    │       │   │   ├── as.info-5
+    │       │   │   ├── as.info-6
+    │       │   │   ├── as.info-7
+    │       │   │   ├── as.info-8
+    │       │   │   ├── as.info-9
+    │       │   │   ├── bfd.info
+    │       │   │   ├── bfd.info-1
+    │       │   │   ├── bfd.info-2
+    │       │   │   ├── bfd.info-3
+    │       │   │   ├── bfd.info-4
+    │       │   │   ├── bfd.info-5
+    │       │   │   ├── bfd.info-6
+    │       │   │   ├── bfd.info-7
+    │       │   │   ├── bfd.info-8
+    │       │   │   ├── bfd.info-9
+    │       │   │   ├── binutils.info
+    │       │   │   ├── binutils.info-1
+    │       │   │   ├── binutils.info-2
+    │       │   │   ├── binutils.info-3
+    │       │   │   ├── configure.info
+    │       │   │   ├── configure.info-1
+    │       │   │   ├── configure.info-2
+    │       │   │   ├── configure.info-3
+    │       │   │   ├── cpp.info
+    │       │   │   ├── cpp.info-1
+    │       │   │   ├── cpp.info-2
+    │       │   │   ├── cpp.info-3
+    │       │   │   ├── cpp.info-4
+    │       │   │   ├── cppinternals.info
+    │       │   │   ├── dir
+    │       │   │   ├── gasp.info
+    │       │   │   ├── gcc.info
+    │       │   │   ├── gcc.info-1
+    │       │   │   ├── gcc.info-10
+    │       │   │   ├── gcc.info-11
+    │       │   │   ├── gcc.info-12
+    │       │   │   ├── gcc.info-13
+    │       │   │   ├── gcc.info-14
+    │       │   │   ├── gcc.info-15
+    │       │   │   ├── gcc.info-16
+    │       │   │   ├── gcc.info-17
+    │       │   │   ├── gcc.info-18
+    │       │   │   ├── gcc.info-19
+    │       │   │   ├── gcc.info-2
+    │       │   │   ├── gcc.info-20
+    │       │   │   ├── gcc.info-21
+    │       │   │   ├── gcc.info-22
+    │       │   │   ├── gcc.info-23
+    │       │   │   ├── gcc.info-24
+    │       │   │   ├── gcc.info-25
+    │       │   │   ├── gcc.info-26
+    │       │   │   ├── gcc.info-27
+    │       │   │   ├── gcc.info-28
+    │       │   │   ├── gcc.info-29
+    │       │   │   ├── gcc.info-3
+    │       │   │   ├── gcc.info-30
+    │       │   │   ├── gcc.info-31
+    │       │   │   ├── gcc.info-32
+    │       │   │   ├── gcc.info-33
+    │       │   │   ├── gcc.info-34
+    │       │   │   ├── gcc.info-35
+    │       │   │   ├── gcc.info-36
+    │       │   │   ├── gcc.info-37
+    │       │   │   ├── gcc.info-38
+    │       │   │   ├── gcc.info-4
+    │       │   │   ├── gcc.info-5
+    │       │   │   ├── gcc.info-6
+    │       │   │   ├── gcc.info-7
+    │       │   │   ├── gcc.info-8
+    │       │   │   ├── gcc.info-9
+    │       │   │   ├── gcj.info
+    │       │   │   ├── ld.info
+    │       │   │   ├── ld.info-1
+    │       │   │   ├── ld.info-2
+    │       │   │   ├── ld.info-3
+    │       │   │   ├── ld.info-4
+    │       │   │   ├── ld.info-5
+    │       │   │   ├── ld.info-6
+    │       │   │   └── standards.info
+    │       │   ├── lib/
+    │       │   │   ├── gcc-lib/
+    │       │   │   │   └── mips-t2-elf/
+    │       │   │   │       └── 3.0.4/
+    │       │   │   │           ├── cc1.exe
+    │       │   │   │           ├── cc1obj.exe
+    │       │   │   │           ├── cc1plus.exe
+    │       │   │   │           ├── collect2.exe
+    │       │   │   │           ├── cpp0.exe
+    │       │   │   │           ├── crtbegin.o
+    │       │   │   │           ├── crtend.o
+    │       │   │   │           ├── el/
+    │       │   │   │           │   ├── crtbegin.o
+    │       │   │   │           │   ├── crtend.o
+    │       │   │   │           │   ├── libgcc.a
+    │       │   │   │           │   └── mips3/
+    │       │   │   │           │       ├── crtbegin.o
+    │       │   │   │           │       ├── crtend.o
+    │       │   │   │           │       └── libgcc.a
+    │       │   │   │           ├── f771.exe
+    │       │   │   │           ├── include/
+    │       │   │   │           │   ├── float.h
+    │       │   │   │           │   ├── iso646.h
+    │       │   │   │           │   ├── limits.h
+    │       │   │   │           │   ├── proto.h
+    │       │   │   │           │   ├── README
+    │       │   │   │           │   ├── stdarg.h
+    │       │   │   │           │   ├── stdbool.h
+    │       │   │   │           │   ├── stddef.h
+    │       │   │   │           │   ├── syslimits.h
+    │       │   │   │           │   └── varargs.h
+    │       │   │   │           ├── jc1.exe
+    │       │   │   │           ├── jvgenmain.exe
+    │       │   │   │           ├── libgcc.a
+    │       │   │   │           ├── mips3/
+    │       │   │   │           │   ├── crtbegin.o
+    │       │   │   │           │   ├── crtend.o
+    │       │   │   │           │   └── libgcc.a
+    │       │   │   │           ├── single/
+    │       │   │   │           │   ├── crtbegin.o
+    │       │   │   │           │   ├── crtend.o
+    │       │   │   │           │   ├── el/
+    │       │   │   │           │   │   ├── crtbegin.o
+    │       │   │   │           │   │   ├── crtend.o
+    │       │   │   │           │   │   ├── libgcc.a
+    │       │   │   │           │   │   └── mips3/
+    │       │   │   │           │   │       ├── crtbegin.o
+    │       │   │   │           │   │       ├── crtend.o
+    │       │   │   │           │   │       └── libgcc.a
+    │       │   │   │           │   ├── libgcc.a
+    │       │   │   │           │   └── mips3/
+    │       │   │   │           │       ├── crtbegin.o
+    │       │   │   │           │       ├── crtend.o
+    │       │   │   │           │       └── libgcc.a
+    │       │   │   │           ├── soft-float/
+    │       │   │   │           │   ├── crtbegin.o
+    │       │   │   │           │   ├── crtend.o
+    │       │   │   │           │   ├── el/
+    │       │   │   │           │   │   ├── crtbegin.o
+    │       │   │   │           │   │   ├── crtend.o
+    │       │   │   │           │   │   ├── libgcc.a
+    │       │   │   │           │   │   └── mips3/
+    │       │   │   │           │   │       ├── crtbegin.o
+    │       │   │   │           │   │       ├── crtend.o
+    │       │   │   │           │   │       └── libgcc.a
+    │       │   │   │           │   ├── libgcc.a
+    │       │   │   │           │   └── mips3/
+    │       │   │   │           │       ├── crtbegin.o
+    │       │   │   │           │       ├── crtend.o
+    │       │   │   │           │       └── libgcc.a
+    │       │   │   │           ├── specs
+    │       │   │   │           └── tradcpp0.exe
+    │       │   │   ├── libbfd.a
+    │       │   │   ├── libbfd.la
+    │       │   │   ├── libiberty.a
+    │       │   │   ├── libopcodes.a
+    │       │   │   └── libopcodes.la
+    │       │   ├── man/
+    │       │   │   ├── man1/
+    │       │   │   │   ├── cpp.1
+    │       │   │   │   ├── gcov.1
+    │       │   │   │   ├── mips-t2-elf-addr2line.1
+    │       │   │   │   ├── mips-t2-elf-ar.1
+    │       │   │   │   ├── mips-t2-elf-as.1
+    │       │   │   │   ├── mips-t2-elf-c++filt.1
+    │       │   │   │   ├── mips-t2-elf-dlltool.1
+    │       │   │   │   ├── mips-t2-elf-g++.1
+    │       │   │   │   ├── mips-t2-elf-gcc.1
+    │       │   │   │   ├── mips-t2-elf-ld.1
+    │       │   │   │   ├── mips-t2-elf-nlmconv.1
+    │       │   │   │   ├── mips-t2-elf-nm.1
+    │       │   │   │   ├── mips-t2-elf-objcopy.1
+    │       │   │   │   ├── mips-t2-elf-objdump.1
+    │       │   │   │   ├── mips-t2-elf-ranlib.1
+    │       │   │   │   ├── mips-t2-elf-readelf.1
+    │       │   │   │   ├── mips-t2-elf-size.1
+    │       │   │   │   ├── mips-t2-elf-strings.1
+    │       │   │   │   ├── mips-t2-elf-strip.1
+    │       │   │   │   └── mips-t2-elf-windres.1
+    │       │   │   └── man7/
+    │       │   │       ├── fsf-funding.7
+    │       │   │       ├── gfdl.7
+    │       │   │       └── gpl.7
+    │       │   ├── mips-t2-elf/
+    │       │   │   ├── bin/
+    │       │   │   │   ├── ar.exe
+    │       │   │   │   ├── as.exe
+    │       │   │   │   ├── c++.exe
+    │       │   │   │   ├── g++.exe
+    │       │   │   │   ├── gcc.exe
+    │       │   │   │   ├── ld.exe
+    │       │   │   │   ├── nm.exe
+    │       │   │   │   ├── ranlib.exe
+    │       │   │   │   └── strip.exe
+    │       │   │   ├── include/
+    │       │   │   │   ├── _ansi.h
+    │       │   │   │   ├── _syslist.h
+    │       │   │   │   ├── ar.h
+    │       │   │   │   ├── assert.h
+    │       │   │   │   ├── ctype.h
+    │       │   │   │   ├── dirent.h
+    │       │   │   │   ├── errno.h
+    │       │   │   │   ├── fastmath.h
+    │       │   │   │   ├── fcntl.h
+    │       │   │   │   ├── grp.h
+    │       │   │   │   ├── ieeefp.h
+    │       │   │   │   ├── locale.h
+    │       │   │   │   ├── machine/
+    │       │   │   │   │   ├── fastmath.h
+    │       │   │   │   │   ├── ieeefp.h
+    │       │   │   │   │   ├── regdef.h
+    │       │   │   │   │   ├── setjmp-dj.h
+    │       │   │   │   │   ├── setjmp.h
+    │       │   │   │   │   ├── time.h
+    │       │   │   │   │   └── types.h
+    │       │   │   │   ├── malloc.h
+    │       │   │   │   ├── math.h
+    │       │   │   │   ├── paths.h
+    │       │   │   │   ├── process.h
+    │       │   │   │   ├── pthread.h
+    │       │   │   │   ├── pwd.h
+    │       │   │   │   ├── reent.h
+    │       │   │   │   ├── regdef.h
+    │       │   │   │   ├── setjmp.h
+    │       │   │   │   ├── signal.h
+    │       │   │   │   ├── stdio.h
+    │       │   │   │   ├── stdlib.h
+    │       │   │   │   ├── string.h
+    │       │   │   │   ├── sys/
+    │       │   │   │   │   ├── _types.h
+    │       │   │   │   │   ├── config.h
+    │       │   │   │   │   ├── dirent.h
+    │       │   │   │   │   ├── errno.h
+    │       │   │   │   │   ├── fcntl.h
+    │       │   │   │   │   ├── features.h
+    │       │   │   │   │   ├── file.h
+    │       │   │   │   │   ├── param.h
+    │       │   │   │   │   ├── reent.h
+    │       │   │   │   │   ├── resource.h
+    │       │   │   │   │   ├── sched.h
+    │       │   │   │   │   ├── signal.h
+    │       │   │   │   │   ├── stat-dj.h
+    │       │   │   │   │   ├── stat.h
+    │       │   │   │   │   ├── time.h
+    │       │   │   │   │   ├── timeb.h
+    │       │   │   │   │   ├── times.h
+    │       │   │   │   │   ├── types.h
+    │       │   │   │   │   ├── unistd.h
+    │       │   │   │   │   ├── utime.h
+    │       │   │   │   │   └── wait.h
+    │       │   │   │   ├── termios.h
+    │       │   │   │   ├── time.h
+    │       │   │   │   ├── unctrl.h
+    │       │   │   │   ├── unistd.h
+    │       │   │   │   ├── utime.h
+    │       │   │   │   └── utmp.h
+    │       │   │   └── lib/
+    │       │   │       ├── crt0.o
+    │       │   │       ├── ddb.ld
+    │       │   │       ├── el/
+    │       │   │       │   ├── crt0.o
+    │       │   │       │   ├── ddb.ld
+    │       │   │       │   ├── idt.ld
+    │       │   │       │   ├── idtecoff.ld
+    │       │   │       │   ├── libc.a
+    │       │   │       │   ├── libg.a
+    │       │   │       │   ├── libidt.a
+    │       │   │       │   ├── liblsi.a
+    │       │   │       │   ├── libm.a
+    │       │   │       │   ├── libnosys.a
+    │       │   │       │   ├── libnullmon.a
+    │       │   │       │   ├── libpmon.a
+    │       │   │       │   ├── lsi.ld
+    │       │   │       │   ├── mips3/
+    │       │   │       │   │   ├── crt0.o
+    │       │   │       │   │   ├── ddb.ld
+    │       │   │       │   │   ├── idt.ld
+    │       │   │       │   │   ├── idtecoff.ld
+    │       │   │       │   │   ├── libc.a
+    │       │   │       │   │   ├── libg.a
+    │       │   │       │   │   ├── libidt.a
+    │       │   │       │   │   ├── liblsi.a
+    │       │   │       │   │   ├── libm.a
+    │       │   │       │   │   ├── libnosys.a
+    │       │   │       │   │   ├── libnullmon.a
+    │       │   │       │   │   ├── libpmon.a
+    │       │   │       │   │   ├── lsi.ld
+    │       │   │       │   │   ├── nullmon.ld
+    │       │   │       │   │   ├── pcrt0.o
+    │       │   │       │   │   └── pmon.ld
+    │       │   │       │   ├── nullmon.ld
+    │       │   │       │   ├── pcrt0.o
+    │       │   │       │   └── pmon.ld
+    │       │   │       ├── idt.ld
+    │       │   │       ├── idtecoff.ld
+    │       │   │       ├── ldscripts/
+    │       │   │       │   ├── elf32ebmip.x
+    │       │   │       │   ├── elf32ebmip.xbn
+    │       │   │       │   ├── elf32ebmip.xc
+    │       │   │       │   ├── elf32ebmip.xn
+    │       │   │       │   ├── elf32ebmip.xr
+    │       │   │       │   ├── elf32ebmip.xs
+    │       │   │       │   ├── elf32ebmip.xsc
+    │       │   │       │   └── elf32ebmip.xu
+    │       │   │       ├── libc.a
+    │       │   │       ├── libg.a
+    │       │   │       ├── libidt.a
+    │       │   │       ├── liblsi.a
+    │       │   │       ├── libm.a
+    │       │   │       ├── libnosys.a
+    │       │   │       ├── libnullmon.a
+    │       │   │       ├── libpmon.a
+    │       │   │       ├── lsi.ld
+    │       │   │       ├── mips3/
+    │       │   │       │   ├── crt0.o
+    │       │   │       │   ├── ddb.ld
+    │       │   │       │   ├── idt.ld
+    │       │   │       │   ├── idtecoff.ld
+    │       │   │       │   ├── libc.a
+    │       │   │       │   ├── libg.a
+    │       │   │       │   ├── libidt.a
+    │       │   │       │   ├── liblsi.a
+    │       │   │       │   ├── libm.a
+    │       │   │       │   ├── libnosys.a
+    │       │   │       │   ├── libnullmon.a
+    │       │   │       │   ├── libpmon.a
+    │       │   │       │   ├── lsi.ld
+    │       │   │       │   ├── nullmon.ld
+    │       │   │       │   ├── pcrt0.o
+    │       │   │       │   └── pmon.ld
+    │       │   │       ├── nullmon.ld
+    │       │   │       ├── pcrt0.o
+    │       │   │       ├── pmon.ld
+    │       │   │       ├── single/
+    │       │   │       │   ├── crt0.o
+    │       │   │       │   ├── ddb.ld
+    │       │   │       │   ├── el/
+    │       │   │       │   │   ├── crt0.o
+    │       │   │       │   │   ├── ddb.ld
+    │       │   │       │   │   ├── idt.ld
+    │       │   │       │   │   ├── idtecoff.ld
+    │       │   │       │   │   ├── libc.a
+    │       │   │       │   │   ├── libg.a
+    │       │   │       │   │   ├── libidt.a
+    │       │   │       │   │   ├── liblsi.a
+    │       │   │       │   │   ├── libm.a
+    │       │   │       │   │   ├── libnosys.a
+    │       │   │       │   │   ├── libnullmon.a
+    │       │   │       │   │   ├── libpmon.a
+    │       │   │       │   │   ├── lsi.ld
+    │       │   │       │   │   ├── mips3/
+    │       │   │       │   │   │   ├── crt0.o
+    │       │   │       │   │   │   ├── ddb.ld
+    │       │   │       │   │   │   ├── idt.ld
+    │       │   │       │   │   │   ├── idtecoff.ld
+    │       │   │       │   │   │   ├── libc.a
+    │       │   │       │   │   │   ├── libg.a
+    │       │   │       │   │   │   ├── libidt.a
+    │       │   │       │   │   │   ├── liblsi.a
+    │       │   │       │   │   │   ├── libm.a
+    │       │   │       │   │   │   ├── libnosys.a
+    │       │   │       │   │   │   ├── libnullmon.a
+    │       │   │       │   │   │   ├── libpmon.a
+    │       │   │       │   │   │   ├── lsi.ld
+    │       │   │       │   │   │   ├── nullmon.ld
+    │       │   │       │   │   │   ├── pcrt0.o
+    │       │   │       │   │   │   └── pmon.ld
+    │       │   │       │   │   ├── nullmon.ld
+    │       │   │       │   │   ├── pcrt0.o
+    │       │   │       │   │   └── pmon.ld
+    │       │   │       │   ├── idt.ld
+    │       │   │       │   ├── idtecoff.ld
+    │       │   │       │   ├── libc.a
+    │       │   │       │   ├── libg.a
+    │       │   │       │   ├── libidt.a
+    │       │   │       │   ├── liblsi.a
+    │       │   │       │   ├── libm.a
+    │       │   │       │   ├── libnosys.a
+    │       │   │       │   ├── libnullmon.a
+    │       │   │       │   ├── libpmon.a
+    │       │   │       │   ├── lsi.ld
+    │       │   │       │   ├── mips3/
+    │       │   │       │   │   ├── crt0.o
+    │       │   │       │   │   ├── ddb.ld
+    │       │   │       │   │   ├── idt.ld
+    │       │   │       │   │   ├── idtecoff.ld
+    │       │   │       │   │   ├── libc.a
+    │       │   │       │   │   ├── libg.a
+    │       │   │       │   │   ├── libidt.a
+    │       │   │       │   │   ├── liblsi.a
+    │       │   │       │   │   ├── libm.a
+    │       │   │       │   │   ├── libnosys.a
+    │       │   │       │   │   ├── libnullmon.a
+    │       │   │       │   │   ├── libpmon.a
+    │       │   │       │   │   ├── lsi.ld
+    │       │   │       │   │   ├── nullmon.ld
+    │       │   │       │   │   ├── pcrt0.o
+    │       │   │       │   │   └── pmon.ld
+    │       │   │       │   ├── nullmon.ld
+    │       │   │       │   ├── pcrt0.o
+    │       │   │       │   └── pmon.ld
+    │       │   │       └── soft-float/
+    │       │   │           ├── crt0.o
+    │       │   │           ├── ddb.ld
+    │       │   │           ├── el/
+    │       │   │           │   ├── crt0.o
+    │       │   │           │   ├── ddb.ld
+    │       │   │           │   ├── idt.ld
+    │       │   │           │   ├── idtecoff.ld
+    │       │   │           │   ├── libc.a
+    │       │   │           │   ├── libg.a
+    │       │   │           │   ├── libidt.a
+    │       │   │           │   ├── liblsi.a
+    │       │   │           │   ├── libm.a
+    │       │   │           │   ├── libnosys.a
+    │       │   │           │   ├── libnullmon.a
+    │       │   │           │   ├── libpmon.a
+    │       │   │           │   ├── lsi.ld
+    │       │   │           │   ├── mips3/
+    │       │   │           │   │   ├── crt0.o
+    │       │   │           │   │   ├── ddb.ld
+    │       │   │           │   │   ├── idt.ld
+    │       │   │           │   │   ├── idtecoff.ld
+    │       │   │           │   │   ├── libc.a
+    │       │   │           │   │   ├── libg.a
+    │       │   │           │   │   ├── libidt.a
+    │       │   │           │   │   ├── liblsi.a
+    │       │   │           │   │   ├── libm.a
+    │       │   │           │   │   ├── libnosys.a
+    │       │   │           │   │   ├── libnullmon.a
+    │       │   │           │   │   ├── libpmon.a
+    │       │   │           │   │   ├── lsi.ld
+    │       │   │           │   │   ├── nullmon.ld
+    │       │   │           │   │   ├── pcrt0.o
+    │       │   │           │   │   └── pmon.ld
+    │       │   │           │   ├── nullmon.ld
+    │       │   │           │   ├── pcrt0.o
+    │       │   │           │   └── pmon.ld
+    │       │   │           ├── idt.ld
+    │       │   │           ├── idtecoff.ld
+    │       │   │           ├── libc.a
+    │       │   │           ├── libg.a
+    │       │   │           ├── libidt.a
+    │       │   │           ├── liblsi.a
+    │       │   │           ├── libm.a
+    │       │   │           ├── libnosys.a
+    │       │   │           ├── libnullmon.a
+    │       │   │           ├── libpmon.a
+    │       │   │           ├── lsi.ld
+    │       │   │           ├── mips3/
+    │       │   │           │   ├── crt0.o
+    │       │   │           │   ├── ddb.ld
+    │       │   │           │   ├── idt.ld
+    │       │   │           │   ├── idtecoff.ld
+    │       │   │           │   ├── libc.a
+    │       │   │           │   ├── libg.a
+    │       │   │           │   ├── libidt.a
+    │       │   │           │   ├── liblsi.a
+    │       │   │           │   ├── libm.a
+    │       │   │           │   ├── libnosys.a
+    │       │   │           │   ├── libnullmon.a
+    │       │   │           │   ├── libpmon.a
+    │       │   │           │   ├── lsi.ld
+    │       │   │           │   ├── nullmon.ld
+    │       │   │           │   ├── pcrt0.o
+    │       │   │           │   └── pmon.ld
+    │       │   │           ├── nullmon.ld
+    │       │   │           ├── pcrt0.o
+    │       │   │           └── pmon.ld
+    │       │   └── share/
+    │       │       └── locale/
+    │       │           ├── da/
+    │       │           │   └── LC_MESSAGES/
+    │       │           │       └── opcodes.mo
+    │       │           ├── de/
+    │       │           │   └── LC_MESSAGES/
+    │       │           │       └── opcodes.mo
+    │       │           ├── es/
+    │       │           │   └── LC_MESSAGES/
+    │       │           │       ├── bfd.mo
+    │       │           │       ├── binutils.mo
+    │       │           │       ├── gas.mo
+    │       │           │       ├── ld.mo
+    │       │           │       └── opcodes.mo
+    │       │           ├── fr/
+    │       │           │   └── LC_MESSAGES/
+    │       │           │       ├── bfd.mo
+    │       │           │       ├── binutils.mo
+    │       │           │       ├── gas.mo
+    │       │           │       ├── ld.mo
+    │       │           │       └── opcodes.mo
+    │       │           ├── ja/
+    │       │           │   └── LC_MESSAGES/
+    │       │           │       ├── bfd.mo
+    │       │           │       └── binutils.mo
+    │       │           ├── sv/
+    │       │           │   └── LC_MESSAGES/
+    │       │           │       ├── bfd.mo
+    │       │           │       ├── ld.mo
+    │       │           │       └── opcodes.mo
+    │       │           └── tr/
+    │       │               └── LC_MESSAGES/
+    │       │                   ├── bfd.mo
+    │       │                   ├── binutils.mo
+    │       │                   ├── gas.mo
+    │       │                   ├── ld.mo
+    │       │                   └── opcodes.mo
+    │       ├── Makefile
+    │       ├── mergetool_of_two_firmwares/
+    │       │   ├── mergetool of two firmwares.pdf
+    │       │   └── mergetool_v1.2_2004.04/
+    │       │       ├── cfg.out
+    │       │       ├── dvd.cfg
+    │       │       ├── makedvd
+    │       │       ├── mergedvd
+    │       │       ├── mergetools/
+    │       │       │   ├── boot.abs
+    │       │       │   ├── merge.exe
+    │       │       │   ├── t2zip.exe
+    │       │       │   ├── unzip.abs
+    │       │       │   └── update.abs.t2
+    │       │       ├── source/
+    │       │       │   ├── boot/
+    │       │       │   │   ├── boot.lnk
+    │       │       │   │   ├── boot.o
+    │       │       │   │   ├── boot.S
+    │       │       │   │   ├── bootstrap.S
+    │       │       │   │   ├── eregdef.h
+    │       │       │   │   ├── Makefile
+    │       │       │   │   ├── osboot.h
+    │       │       │   │   └── regsave.h
+    │       │       │   ├── README
+    │       │       │   ├── source/
+    │       │       │   │   ├── crc.h
+    │       │       │   │   ├── elf2bin.h
+    │       │       │   │   └── merge.c
+    │       │       │   └── zip/
+    │       │       │       ├── crc.h
+    │       │       │       ├── decompress.h
+    │       │       │       ├── libunzip.a
+    │       │       │       ├── Makefile
+    │       │       │       ├── test.c
+    │       │       │       ├── test.h
+    │       │       │       └── unzip.lnk
+    │       │       ├── wf.abs
+    │       │       └── yoxi_in_flash.ini
+    │       ├── WinGDB/
+    │       │   ├── driver/
+    │       │   │   ├── Win2K/
+    │       │   │   │   ├── EJTAGICE.sys
+    │       │   │   │   └── ETIceWdm.inf
+    │       │   │   └── Win9X/
+    │       │   │       ├── ejtagice.inf
+    │       │   │       └── ejtagice.vxd
+    │       │   ├── WinGDB_v0.37_20040423/
+    │       │   │   ├── WinGDB.chm
+    │       │   │   ├── WinGDB.exe
+    │       │   │   └── WINGDB.HLP
+    │       │   └── WinGDBChangelog.txt
+    │       └── winice/
+    │           └── winice_2.30_2003.11.28/
+    │               └── WinICE.exe
+    ├── TS087/
+    │   ├── bios_lib/
+    │   │   ├── changelog.txt
+    │   │   ├── latest/
+    │   │   │   ├── BIOS.a
+    │   │   │   ├── bios_t2_t6305_ts087.obj
+    │   │   │   ├── latest_version_is_v3.36.txt
+    │   │   │   └── Makefile
+    │   │   └── source/
+    │   │       ├── bios_custom_t6305_v3.36/
+    │   │       │   ├── BIOS/
+    │   │       │   │   ├── BIOS.LNK
+    │   │       │   │   ├── common.mak
+    │   │       │   │   └── Makefile
+    │   │       │   └── Includes/
+    │   │       │       ├── BIOS.h
+    │   │       │       ├── BIOS_cdr.h
+    │   │       │       ├── BIOS_cdr_defines.h
+    │   │       │       ├── BIOS_flash.h
+    │   │       │       ├── BIOS_irc.h
+    │   │       │       ├── BIOS_panel.h
+    │   │       │       ├── BIOS_panel_defines.h
+    │   │       │       ├── BIOS_pm.h
+    │   │       │       ├── BIOS_sys.h
+    │   │       │       ├── BIOS_sys_defines.h
+    │   │       │       ├── BIOS_tve.h
+    │   │       │       └── BIOS_vkeys.h
+    │   │       ├── bios_readme.txt
+    │   │       ├── changelog.txt
+    │   │       ├── common/
+    │   │       │   ├── BIOS_cdr.h
+    │   │       │   ├── BIOS_cdr_defines.h
+    │   │       │   ├── cdbuf.c
+    │   │       │   ├── cdbuf.h
+    │   │       │   ├── cdfmt.h
+    │   │       │   ├── common.c
+    │   │       │   ├── common.h
+    │   │       │   ├── diag.c
+    │   │       │   ├── diag.h
+    │   │       │   ├── ecc.c
+    │   │       │   ├── ecc.h
+    │   │       │   ├── stdarg.h
+    │   │       │   ├── toc.c
+    │   │       │   ├── toc.h
+    │   │       │   ├── types.h
+    │   │       │   └── va-mips.h
+    │   │       ├── ide/
+    │   │       │   ├── atacmd.c
+    │   │       │   ├── atacmd.h
+    │   │       │   ├── ataio.c
+    │   │       │   ├── ataio.h
+    │   │       │   └── dvdloader.c
+    │   │       ├── project/
+    │   │       │   ├── Makefile
+    │   │       │   └── T2cdlib.lnk
+    │   │       └── test/
+    │   │           ├── BIOS_panel.h
+    │   │           ├── BIOS_panel_defines.h
+    │   │           ├── BIOS_vkeys.h
+    │   │           ├── boot.S
+    │   │           ├── eregdef.h
+    │   │           ├── main.c
+    │   │           ├── main.h
+    │   │           ├── osboot.h
+    │   │           └── regsave.h
+    │   ├── Makefile
+    │   └── platform_user_manual_T6306_20040224.pdf
+    └── update_list_20040429.xls

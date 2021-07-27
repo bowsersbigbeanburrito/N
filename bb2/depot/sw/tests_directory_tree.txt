@@ -1,0 +1,15 @@
+tests/
+├── soc/
+│   └── libbsl/
+│       ├── aesshatest.c
+│       ├── common_utils.c
+│       ├── ecctest.c
+│       ├── link.ld
+│       ├── Makefile
+│       └── os_start.s
+└── x86/
+    └── libbsl/
+        ├── aesshatest.c
+        ├── ecctest.c
+        ├── Makefile
+        └── sslrsa.c
